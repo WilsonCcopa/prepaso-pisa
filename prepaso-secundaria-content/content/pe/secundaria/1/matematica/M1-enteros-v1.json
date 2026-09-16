@@ -1,0 +1,1371 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.1",
+  "locale": "es-PE",
+  "unit": {
+    "id": "M1",
+    "globalId": "pe-sec1-mat-M1",
+    "sequence": 1,
+    "grade": "sec1",
+    "subject": "matematica",
+    "title": "Enteros, orden y divisibilidad",
+    "shortTitle": "Enteros",
+    "status": "partial",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 5,
+    "estimatedMinutesReady": 42,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "MINEDU define competencias, capacidades y desempeños; no exige este nombre de unidad ni un orden único de capítulos.",
+    "unitOutcome": "Modela cambios, deudas, temperaturas y posiciones con números enteros; calcula y justifica usando contexto, recta numérica y propiedades.",
+    "finalEvidence": "Resolución comentada de una situación con enteros y corrección fundamentada de un procedimiento ajeno.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "cycle": "VI",
+      "competency": "Resuelve problemas de cantidad",
+      "capacities": [
+        "Traduce cantidades a expresiones numéricas",
+        "Comunica su comprensión sobre los números y las operaciones",
+        "Usa estrategias y procedimientos de estimación y cálculo",
+        "Argumenta afirmaciones sobre las relaciones numéricas y las operaciones"
+      ],
+      "operationalAlignment": "Interpreta y representa comparaciones y cambios con números enteros, selecciona operaciones, verifica resultados y explica relaciones entre signo, magnitud y contexto."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [2, 7, 21],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Explorador de enteros"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Fichas de Matemática 1",
+        "publisher": "Ministerio de Educación del Perú",
+        "edition": "2024",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/10834"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "M1.01",
+        "globalId": "pe-sec1-mat-M1-L01",
+        "sequence": 1,
+        "title": "Números con dirección",
+        "subtitle": "El signo depende del punto de referencia",
+        "status": "ready",
+        "estimatedMinutes": 8,
+        "difficulty": 1,
+        "primarySkillId": "mat.enteros.interpretar_signo",
+        "learningOutcome": "Interpreta números positivos, negativos y cero según el contexto, y los ubica en una recta numérica.",
+        "successEvidence": "Representa correctamente al menos tres situaciones y explica qué significa el cero en una de ellas.",
+        "prerequisites": [
+          "Reconoce números naturales",
+          "Ubica valores sencillos en una recta numérica"
+        ],
+        "misconceptions": [
+          "Creer que el signo menos siempre significa una operación de resta",
+          "Comparar solo la cifra e ignorar el contexto",
+          "Suponer que cero siempre significa ausencia"
+        ],
+        "screens": [
+          {
+            "id": "M1.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Números que indican dirección",
+            "body": "Al terminar podrás leer temperaturas, pisos y saldos usando números positivos, negativos y cero.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.01-S02",
+            "type": "single_choice",
+            "role": "hook",
+            "skillId": "mat.enteros.interpretar_signo",
+            "difficulty": 1,
+            "prompt": "En una estación escolar, la temperatura fue 3 °C sobre cero al mediodía. ¿Qué número la representa?",
+            "options": [
+              {
+                "id": "a",
+                "text": "-3",
+                "feedback": "El signo negativo representaría 3 °C por debajo de cero."
+              },
+              {
+                "id": "b",
+                "text": "+3",
+                "feedback": "Correcto. “Sobre cero” se representa con signo positivo."
+              },
+              {
+                "id": "c",
+                "text": "0",
+                "feedback": "Cero es el punto de referencia, no la temperatura indicada."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "Busca la expresión “sobre cero”.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2
+          },
+          {
+            "id": "M1.01-S03",
+            "type": "content_card",
+            "role": "model",
+            "title": "Primero identifica el cero",
+            "body": "Un número entero con signo describe una posición o cambio respecto de una referencia. El cero puede ser el nivel del mar, el piso de entrada, 0 °C o un saldo sin deuda.",
+            "examples": [
+              "+4: cuatro unidades por encima o a favor",
+              "-4: cuatro unidades por debajo o en contra",
+              "0: punto de referencia"
+            ],
+            "memoryAid": "El signo indica el lado o la dirección; la cifra indica la distancia al cero."
+          },
+          {
+            "id": "M1.01-S04",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.interpretar_signo",
+            "difficulty": 1,
+            "prompt": "Una billetera digital muestra una deuda de S/18. ¿Qué número representa el saldo?",
+            "options": [
+              {
+                "id": "a",
+                "text": "+18",
+                "feedback": "+18 indicaría dinero disponible a favor, no una deuda."
+              },
+              {
+                "id": "b",
+                "text": "-18",
+                "feedback": "Correcto. La deuda se representa como un saldo negativo."
+              },
+              {
+                "id": "c",
+                "text": "0",
+                "feedback": "Cero indicaría que no hay deuda ni saldo a favor."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "Una deuda está en contra del saldo disponible.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 3
+          },
+          {
+            "id": "M1.01-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.traducir_contexto",
+            "difficulty": 1,
+            "prompt": "Relaciona cada situación con su representación.",
+            "pairs": [
+              {
+                "leftId": "deposito",
+                "left": "Depósito de S/25",
+                "rightId": "mas25",
+                "right": "+25"
+              },
+              {
+                "leftId": "retiro",
+                "left": "Retiro de S/10",
+                "rightId": "menos10",
+                "right": "-10"
+              },
+              {
+                "leftId": "ascenso",
+                "left": "Subir 6 pisos",
+                "rightId": "mas6",
+                "right": "+6"
+              },
+              {
+                "leftId": "descenso",
+                "left": "Bajar 4 metros",
+                "rightId": "menos4",
+                "right": "-4"
+              }
+            ],
+            "feedbackCorrect": "Muy bien: identificaste la dirección antes de elegir el signo.",
+            "feedbackIncorrect": "Revisa si cada acción aumenta/sube o disminuye/baja respecto de la referencia.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.01-S06",
+            "type": "number_line",
+            "role": "independent_practice",
+            "skillId": "mat.enteros.ubicar_recta",
+            "difficulty": 1,
+            "prompt": "El piso de entrada es 0. El estacionamiento está 4 niveles debajo. Selecciona su posición.",
+            "range": {
+              "min": -6,
+              "max": 6,
+              "step": 1
+            },
+            "correctValue": -4,
+            "feedbackCorrect": "Correcto: cuatro niveles debajo de 0 se ubican en -4.",
+            "feedbackIncorrect": "Parte de 0 y avanza cuatro posiciones hacia los números negativos.",
+            "hint": "Debajo de la entrada significa ir a la izquierda de 0.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4
+          },
+          {
+            "id": "M1.01-S07",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.enteros.comunicar_signo",
+            "difficulty": 2,
+            "prompt": "Lucía afirma: “El -7 siempre significa que debemos restar 7”. ¿Cuál es la mejor corrección?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Es correcto porque todo signo menos ordena restar.",
+                "feedback": "El signo puede describir una posición o estado, no necesariamente una operación."
+              },
+              {
+                "id": "b",
+                "text": "-7 puede representar una posición o cantidad negativa; el contexto indica su significado.",
+                "feedback": "Correcto. Primero interpretamos el contexto y después decidimos si hay una operación."
+              },
+              {
+                "id": "c",
+                "text": "-7 y +7 representan exactamente lo mismo.",
+                "feedback": "Tienen la misma distancia al cero, pero están en lados opuestos."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "Piensa en una temperatura de -7 °C: ¿hay necesariamente una resta escrita?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.01-S08",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.enteros.traducir_contexto",
+            "difficulty": 2,
+            "prompt": "Un punto de exploración se encuentra 15 metros bajo el nivel del mar. Si el nivel del mar es 0, ¿cómo se representa?",
+            "options": [
+              {
+                "id": "a",
+                "text": "+15 m",
+                "feedback": "Ese valor estaría 15 metros sobre el nivel del mar."
+              },
+              {
+                "id": "b",
+                "text": "-15 m",
+                "feedback": "Correcto: “bajo el nivel del mar” indica el lado negativo de la referencia."
+              },
+              {
+                "id": "c",
+                "text": "0 m",
+                "feedback": "0 m corresponde exactamente al nivel del mar."
+              }
+            ],
+            "correctOptionId": "b",
+            "maxAttempts": 2,
+            "masteryWeight": 0.20,
+            "xp": 4
+          },
+          {
+            "id": "M1.01-S09",
+            "type": "number_line",
+            "role": "exit_ticket",
+            "skillId": "mat.enteros.ubicar_recta",
+            "difficulty": 2,
+            "prompt": "En una escala donde 0 es el nivel de referencia, una medición aparece 6 unidades por debajo. Selecciona el número.",
+            "range": {
+              "min": -8,
+              "max": 8,
+              "step": 1
+            },
+            "correctValue": -6,
+            "feedbackCorrect": "Dominado: interpretaste la referencia, el signo y la distancia.",
+            "feedbackIncorrect": "“Por debajo” indica signo negativo y la distancia es 6.",
+            "hint": null,
+            "assistanceAllowed": false,
+            "maxAttempts": 1,
+            "masteryWeight": 0.3,
+            "xp": 5
+          },
+          {
+            "id": "M1.01-S10",
+            "type": "lesson_complete",
+            "role": "reward",
+            "title": "¡Ya lees números con dirección!",
+            "body": "El signo muestra el lado de la referencia y la cifra muestra la distancia.",
+            "unlockMessage": "Se desbloqueó M1.02 · Orden y valor absoluto"
+          }
+        ]
+      },
+      {
+        "id": "M1.02",
+        "globalId": "pe-sec1-mat-M1-L02",
+        "sequence": 2,
+        "title": "Orden y valor absoluto",
+        "subtitle": "Posición no es lo mismo que distancia",
+        "status": "ready",
+        "estimatedMinutes": 8,
+        "difficulty": 1,
+        "primarySkillId": "mat.enteros.ordenar",
+        "learningOutcome": "Compara y ordena números enteros, e interpreta el valor absoluto como distancia al cero.",
+        "successEvidence": "Ordena una colección de enteros y explica por qué un número más negativo es menor aunque su valor absoluto sea mayor.",
+        "prerequisites": [
+          "mat.enteros.interpretar_signo",
+          "mat.enteros.ubicar_recta"
+        ],
+        "misconceptions": [
+          "Pensar que -8 es mayor que -3 porque 8 es mayor que 3",
+          "Creer que el valor absoluto conserva siempre el signo",
+          "Confundir distancia al cero con posición en la recta"
+        ],
+        "screens": [
+          {
+            "id": "M1.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Ordena sin que el signo te engañe",
+            "body": "Aprenderás a comparar enteros usando la recta y a distinguir posición de distancia al cero.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.02-S02",
+            "type": "single_choice",
+            "role": "hook",
+            "skillId": "mat.enteros.comparar",
+            "difficulty": 1,
+            "prompt": "Dos registros de temperatura son -2 °C y -7 °C. ¿Cuál temperatura es mayor?",
+            "options": [
+              {
+                "id": "a",
+                "text": "-7 °C",
+                "feedback": "-7 está más lejos a la izquierda de 0; representa una temperatura menor."
+              },
+              {
+                "id": "b",
+                "text": "-2 °C",
+                "feedback": "Correcto. -2 está a la derecha de -7 en la recta numérica."
+              },
+              {
+                "id": "c",
+                "text": "Son iguales",
+                "feedback": "Ocupan posiciones distintas y representan temperaturas diferentes."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "En la recta, el número mayor está más a la derecha.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2
+          },
+          {
+            "id": "M1.02-S03",
+            "type": "content_card",
+            "role": "model",
+            "title": "Dos preguntas diferentes",
+            "body": "Para ordenar, observa la posición: cuanto más a la derecha, mayor. Para hallar valor absoluto, observa la distancia al cero sin importar el lado.",
+            "examples": [
+              "-8 < -3 porque -8 está más a la izquierda",
+              "|-8| = 8 porque -8 está a ocho unidades de 0",
+              "|5| = 5 porque 5 está a cinco unidades de 0"
+            ],
+            "memoryAid": "Orden pregunta dónde está; valor absoluto pregunta qué tan lejos está de 0."
+          },
+          {
+            "id": "M1.02-S04",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.ordenar",
+            "difficulty": 1,
+            "prompt": "Ordena de menor a mayor.",
+            "items": [
+              {
+                "id": "n2",
+                "text": "2"
+              },
+              {
+                "id": "nmenos5",
+                "text": "-5"
+              },
+              {
+                "id": "n6",
+                "text": "6"
+              },
+              {
+                "id": "nmenos1",
+                "text": "-1"
+              }
+            ],
+            "correctOrder": [
+              "nmenos5",
+              "nmenos1",
+              "n2",
+              "n6"
+            ],
+            "feedbackCorrect": "Correcto: -5 < -1 < 2 < 6.",
+            "feedbackIncorrect": "Imagina los números colocados de izquierda a derecha en una recta.",
+            "hint": "Empieza por el valor ubicado más a la izquierda.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4
+          },
+          {
+            "id": "M1.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.comparar",
+            "difficulty": 2,
+            "prompt": "Completa correctamente: -8 ___ -3.",
+            "options": [
+              {
+                "id": "a",
+                "text": ">",
+                "feedback": "Comparaste 8 y 3 sin considerar la posición de los números negativos."
+              },
+              {
+                "id": "b",
+                "text": "<",
+                "feedback": "Correcto. -8 está a la izquierda de -3."
+              },
+              {
+                "id": "c",
+                "text": "=",
+                "feedback": "Los números tienen signos iguales, pero magnitudes distintas."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "¿Cuál aparece primero al recorrer la recta desde la izquierda?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 3
+          },
+          {
+            "id": "M1.02-S06",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.enteros.valor_absoluto",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el valor absoluto de -7?",
+            "inputLabel": "|-7| =",
+            "answer": {
+              "kind": "number",
+              "value": 7,
+              "tolerance": 0
+            },
+            "feedbackCorrect": "Correcto: -7 está a siete unidades de 0.",
+            "feedbackIncorrect": "El valor absoluto es una distancia; una distancia no es negativa.",
+            "hint": "Cuenta cuántas unidades separan -7 de 0.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.02-S07",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.enteros.valor_absoluto",
+            "difficulty": 2,
+            "prompt": "Diego escribió |-9| = -9. ¿Qué explicación corrige mejor el error?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe cambiarlo a 0 porque todo valor absoluto termina en cero.",
+                "feedback": "El valor absoluto no convierte los números en cero."
+              },
+              {
+                "id": "b",
+                "text": "Debe ser 9 porque el valor absoluto mide la distancia entre -9 y 0.",
+                "feedback": "Correcto. La distancia es 9, aunque la posición sea negativa."
+              },
+              {
+                "id": "c",
+                "text": "Está bien porque el número original es negativo.",
+                "feedback": "Conservaste la posición, pero no calculaste la distancia al cero."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "¿Puede una distancia ser -9 unidades?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.02-S08",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.enteros.comparar",
+            "difficulty": 2,
+            "prompt": "Dos saldos son -S/25 y -S/9. ¿Cuál está más cerca de quedar sin deuda?",
+            "options": [
+              {
+                "id": "a",
+                "text": "-S/25",
+                "feedback": "Su deuda tiene mayor distancia al cero."
+              },
+              {
+                "id": "b",
+                "text": "-S/9",
+                "feedback": "Correcto. |-9| es menor que |-25|, por eso está más cerca de 0."
+              },
+              {
+                "id": "c",
+                "text": "Ambos están igual de cerca",
+                "feedback": "Sus distancias al cero son 25 y 9; no son iguales."
+              }
+            ],
+            "correctOptionId": "b",
+            "maxAttempts": 2,
+            "masteryWeight": 0.20,
+            "xp": 4
+          },
+          {
+            "id": "M1.02-S09",
+            "type": "ordering",
+            "role": "exit_ticket",
+            "skillId": "mat.enteros.ordenar",
+            "difficulty": 2,
+            "prompt": "Ordena de menor a mayor sin ayuda.",
+            "items": [
+              {
+                "id": "x0",
+                "text": "0"
+              },
+              {
+                "id": "xmenos6",
+                "text": "-6"
+              },
+              {
+                "id": "x4",
+                "text": "4"
+              },
+              {
+                "id": "xmenos2",
+                "text": "-2"
+              }
+            ],
+            "correctOrder": [
+              "xmenos6",
+              "xmenos2",
+              "x0",
+              "x4"
+            ],
+            "feedbackCorrect": "Dominado: ordenaste usando la posición en la recta.",
+            "feedbackIncorrect": "El orden correcto sigue la recta desde el valor más a la izquierda.",
+            "hint": null,
+            "assistanceAllowed": false,
+            "maxAttempts": 1,
+            "masteryWeight": 0.3,
+            "xp": 5
+          },
+          {
+            "id": "M1.02-S10",
+            "type": "lesson_complete",
+            "role": "reward",
+            "title": "¡Ordenas enteros con criterio!",
+            "body": "La posición determina el orden; la distancia al cero determina el valor absoluto.",
+            "unlockMessage": "Se desbloqueó M1.03 · Suma de enteros"
+          }
+        ]
+      },
+      {
+        "id": "M1.03",
+        "globalId": "pe-sec1-mat-M1-L03",
+        "sequence": 3,
+        "title": "Suma de enteros",
+        "subtitle": "Combina estados y cambios",
+        "status": "ready",
+        "estimatedMinutes": 9,
+        "difficulty": 2,
+        "primarySkillId": "mat.enteros.sumar",
+        "learningOutcome": "Modela aumentos y disminuciones con sumas de enteros y verifica el resultado en la recta numérica.",
+        "successEvidence": "Resuelve una situación de saldo usando expresión, recta o explicación verbal y comprueba que el signo final es razonable.",
+        "prerequisites": [
+          "mat.enteros.interpretar_signo",
+          "mat.enteros.ordenar"
+        ],
+        "misconceptions": [
+          "Sumar siempre los valores absolutos",
+          "Ignorar el signo del número con mayor magnitud",
+          "Pensar que sumar un negativo siempre produce un resultado negativo"
+        ],
+        "screens": [
+          {
+            "id": "M1.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Suma cambios, no solo cifras",
+            "body": "Usarás la suma de enteros para reconstruir temperaturas, recorridos y saldos.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.03-S02",
+            "type": "single_choice",
+            "role": "hook",
+            "skillId": "mat.enteros.modelar_suma",
+            "difficulty": 1,
+            "prompt": "Una billetera tiene S/8 y registra un gasto de S/13. ¿Qué expresión modela el nuevo saldo?",
+            "options": [
+              {
+                "id": "a",
+                "text": "8 + 13",
+                "feedback": "El gasto disminuye el saldo; debe representarse con un cambio negativo."
+              },
+              {
+                "id": "b",
+                "text": "8 + (-13)",
+                "feedback": "Correcto. El saldo inicial es +8 y el gasto es un cambio de -13."
+              },
+              {
+                "id": "c",
+                "text": "-8 + 13",
+                "feedback": "Cambiaste el signo del saldo inicial en lugar de representar el gasto."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "Representa el gasto como un cambio que reduce el saldo.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2
+          },
+          {
+            "id": "M1.03-S03",
+            "type": "content_card",
+            "role": "model",
+            "title": "Suma como recorrido",
+            "body": "Empieza en el primer número. Un sumando positivo mueve a la derecha; uno negativo mueve a la izquierda.",
+            "examples": [
+              "-2 + 5: empieza en -2 y avanza 5 → 3",
+              "6 + (-9): empieza en 6 y retrocede 9 → -3",
+              "-4 + (-3): empieza en -4 y retrocede 3 → -7"
+            ],
+            "memoryAid": "Si los signos son distintos, las direcciones compiten; el resultado queda del lado con mayor recorrido."
+          },
+          {
+            "id": "M1.03-S04",
+            "type": "number_line_move",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.sumar_recta",
+            "difficulty": 1,
+            "prompt": "Empieza en -2 y suma +5. Selecciona el punto de llegada.",
+            "startValue": -2,
+            "changeValue": 5,
+            "range": {
+              "min": -8,
+              "max": 8,
+              "step": 1
+            },
+            "correctValue": 3,
+            "feedbackCorrect": "Correcto: desde -2 avanzas cinco lugares y llegas a 3.",
+            "feedbackIncorrect": "El cambio es positivo, así que debes moverte hacia la derecha desde -2.",
+            "hint": "Cuenta: -1, 0, 1, 2, 3.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4
+          },
+          {
+            "id": "M1.03-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.sumar",
+            "difficulty": 2,
+            "prompt": "Calcula 6 + (-9).",
+            "inputLabel": "Resultado",
+            "answer": {
+              "kind": "number",
+              "value": -3,
+              "tolerance": 0
+            },
+            "feedbackCorrect": "Correcto. El recorrido negativo supera al positivo por tres unidades.",
+            "feedbackIncorrect": "Los signos son distintos: compara las magnitudes 9 y 6 y conserva el lado del recorrido mayor.",
+            "hint": "Desde 6 retrocede 9 lugares.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4
+          },
+          {
+            "id": "M1.03-S06",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.enteros.sumar",
+            "difficulty": 2,
+            "prompt": "¿Cuál es el resultado de -4 + (-7)?",
+            "options": [
+              {
+                "id": "a",
+                "text": "-11",
+                "feedback": "Correcto. Dos cambios negativos se combinan en un recorrido de 11 unidades hacia la izquierda."
+              },
+              {
+                "id": "b",
+                "text": "3",
+                "feedback": "Restaste las magnitudes, pero ambos sumandos tienen la misma dirección negativa."
+              },
+              {
+                "id": "c",
+                "text": "11",
+                "feedback": "Sumaste las magnitudes, pero perdiste la dirección negativa."
+              }
+            ],
+            "correctOptionId": "a",
+            "hint": "Ambos cambios van hacia el mismo lado de la recta.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 3
+          },
+          {
+            "id": "M1.03-S07",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.enteros.argumentar_suma",
+            "difficulty": 2,
+            "prompt": "Rosa obtuvo 11 al calcular 3 + (-8). ¿Qué error cometió?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sumó las magnitudes e ignoró que los números representan direcciones opuestas.",
+                "feedback": "Correcto. Los recorridos opuestos se compensan y domina el de magnitud 8."
+              },
+              {
+                "id": "b",
+                "text": "Debió sumar 3 + 8 porque todo número negativo se vuelve positivo.",
+                "feedback": "El número -8 conserva su dirección dentro de la suma."
+              },
+              {
+                "id": "c",
+                "text": "No existe ningún error: 3 + (-8) = 11.",
+                "feedback": "Una estimación muestra que añadir un cambio negativo debe reducir 3, no aumentarlo a 11."
+              }
+            ],
+            "correctOptionId": "a",
+            "hint": "Comprueba si sumar un número negativo debería aumentar o disminuir el valor inicial.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.03-S08",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.enteros.modelar_suma",
+            "difficulty": 2,
+            "prompt": "Un saldo comienza en -S/5. Luego se deposita S/12. ¿Cuál es el saldo final?",
+            "inputLabel": "S/",
+            "answer": {
+              "kind": "number",
+              "value": 7,
+              "tolerance": 0
+            },
+            "feedbackCorrect": "Correcto: -5 + 12 = 7. El depósito cubre la deuda y deja S/7 a favor.",
+            "feedbackIncorrect": "Modela el saldo como -5 + 12 y verifica si el depósito alcanza para cruzar el cero.",
+            "hint": "Primero se cubren S/5 de deuda; observa cuánto queda del depósito.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4
+          },
+          {
+            "id": "M1.03-S09",
+            "type": "number_input",
+            "role": "exit_ticket",
+            "skillId": "mat.enteros.sumar",
+            "difficulty": 2,
+            "prompt": "Calcula sin ayuda: -7 + 4.",
+            "inputLabel": "Resultado",
+            "answer": {
+              "kind": "number",
+              "value": -3,
+              "tolerance": 0
+            },
+            "feedbackCorrect": "Dominado: compensaste recorridos opuestos y conservaste el signo correcto.",
+            "feedbackIncorrect": "El recorrido de 7 unidades hacia lo negativo supera por 3 al recorrido positivo.",
+            "hint": null,
+            "assistanceAllowed": false,
+            "maxAttempts": 1,
+            "masteryWeight": 0.3,
+            "xp": 5
+          },
+          {
+            "id": "M1.03-S10",
+            "type": "lesson_complete",
+            "role": "reward",
+            "title": "¡Combinaste cambios con enteros!",
+            "body": "Una suma de enteros puede leerse como un recorrido que avanza o retrocede.",
+            "unlockMessage": "Se desbloqueó M1.04 · Resta de enteros"
+          }
+        ]
+      },
+      {
+        "id": "M1.04",
+        "globalId": "pe-sec1-mat-M1-L04",
+        "sequence": 4,
+        "title": "Resta de enteros",
+        "subtitle": "Calcula diferencias sumando el opuesto",
+        "status": "ready",
+        "estimatedMinutes": 9,
+        "difficulty": 2,
+        "primarySkillId": "mat.enteros.restar",
+        "learningOutcome": "Interpreta la resta de enteros como diferencia y como suma del opuesto, y la aplica a variaciones entre estados.",
+        "successEvidence": "Representa una diferencia entre temperaturas o posiciones y corrige un error de doble signo explicando el opuesto.",
+        "prerequisites": [
+          "mat.enteros.sumar",
+          "mat.enteros.valor_absoluto"
+        ],
+        "misconceptions": [
+          "Eliminar los dos signos sin interpretar el opuesto",
+          "Confundir a - b con b - a",
+          "Calcular solo la distancia cuando la pregunta pide cambio con dirección"
+        ],
+        "screens": [
+          {
+            "id": "M1.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Resta para comparar estados",
+            "body": "Aprenderás a hallar diferencias y cambios entre temperaturas, alturas y saldos.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.04-S02",
+            "type": "single_choice",
+            "role": "hook",
+            "skillId": "mat.enteros.modelar_resta",
+            "difficulty": 1,
+            "prompt": "Una medición final es 5 °C y la inicial fue -3 °C. ¿Qué expresión calcula el aumento?",
+            "options": [
+              {
+                "id": "a",
+                "text": "5 - (-3)",
+                "feedback": "Correcto. Cambio = valor final - valor inicial."
+              },
+              {
+                "id": "b",
+                "text": "-3 - 5",
+                "feedback": "Invertiste el orden: calculaste inicial menos final."
+              },
+              {
+                "id": "c",
+                "text": "5 + (-3)",
+                "feedback": "Eso combina los dos estados, pero no calcula la diferencia final menos inicial."
+              }
+            ],
+            "correctOptionId": "a",
+            "hint": "Para calcular un cambio usa: final - inicial.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2
+          },
+          {
+            "id": "M1.04-S03",
+            "type": "content_card",
+            "role": "model",
+            "title": "Restar es sumar el opuesto",
+            "body": "Para calcular a - b, conserva a y suma el número opuesto de b. Esta transformación mantiene el significado de la diferencia.",
+            "examples": [
+              "5 - 8 = 5 + (-8) = -3",
+              "-3 - 4 = -3 + (-4) = -7",
+              "-2 - (-6) = -2 + 6 = 4"
+            ],
+            "memoryAid": "Conserva el primero; convierte restar el segundo en sumar su opuesto."
+          },
+          {
+            "id": "M1.04-S04",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.restar",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el resultado de 5 - 8?",
+            "options": [
+              {
+                "id": "a",
+                "text": "3",
+                "feedback": "Calculaste la distancia, pero el recorrido desde 5 hacia abajo cruza el cero."
+              },
+              {
+                "id": "b",
+                "text": "-3",
+                "feedback": "Correcto: 5 - 8 = 5 + (-8) = -3."
+              },
+              {
+                "id": "c",
+                "text": "13",
+                "feedback": "Sumaste las magnitudes en vez de restar 8."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "Empieza en 5 y retrocede 8 unidades.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 3
+          },
+          {
+            "id": "M1.04-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.restar",
+            "difficulty": 2,
+            "prompt": "Calcula -3 - 4.",
+            "inputLabel": "Resultado",
+            "answer": {
+              "kind": "number",
+              "value": -7,
+              "tolerance": 0
+            },
+            "feedbackCorrect": "Correcto: -3 + (-4) = -7.",
+            "feedbackIncorrect": "Restar 4 equivale a sumar -4; desde -3 avanzas cuatro lugares hacia la izquierda.",
+            "hint": "Reescribe como -3 + (-4).",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4
+          },
+          {
+            "id": "M1.04-S06",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.enteros.restar_doble_signo",
+            "difficulty": 2,
+            "prompt": "¿Cuál es el resultado de -2 - (-6)?",
+            "options": [
+              {
+                "id": "a",
+                "text": "-8",
+                "feedback": "Sumaste dos negativos, pero restar -6 equivale a sumar +6."
+              },
+              {
+                "id": "b",
+                "text": "4",
+                "feedback": "Correcto: -2 - (-6) = -2 + 6 = 4."
+              },
+              {
+                "id": "c",
+                "text": "-4",
+                "feedback": "La diferencia de magnitudes es 4, pero el recorrido final queda en el lado positivo."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "El opuesto de -6 es +6.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.04-S07",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.enteros.argumentar_resta",
+            "difficulty": 2,
+            "prompt": "Andrés escribió 6 - (-2) = 4. ¿Cuál revisión es correcta?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Está correcto porque siempre se restan las cifras.",
+                "feedback": "El segundo número es negativo; debemos considerar su opuesto."
+              },
+              {
+                "id": "b",
+                "text": "Debe ser 8 porque restar -2 equivale a sumar +2.",
+                "feedback": "Correcto: 6 - (-2) = 6 + 2 = 8."
+              },
+              {
+                "id": "c",
+                "text": "Debe ser -8 porque aparecen dos signos menos.",
+                "feedback": "Los signos no se cuentan; se interpreta la operación y el opuesto."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "Reemplaza “restar -2” por “sumar su opuesto”.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.04-S08",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.enteros.modelar_resta",
+            "difficulty": 2,
+            "prompt": "Una temperatura pasó de -3 °C a 5 °C. ¿Cuántos grados aumentó?",
+            "inputLabel": "Aumentó",
+            "inputSuffix": "°C",
+            "answer": {
+              "kind": "number",
+              "value": 8,
+              "tolerance": 0
+            },
+            "feedbackCorrect": "Correcto: 5 - (-3) = 8 °C.",
+            "feedbackIncorrect": "Calcula final menos inicial: 5 - (-3). El recorrido cruza el cero.",
+            "hint": "De -3 a 0 hay 3 grados y de 0 a 5 hay 5 más.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.20,
+            "xp": 4
+          },
+          {
+            "id": "M1.04-S09",
+            "type": "number_input",
+            "role": "exit_ticket",
+            "skillId": "mat.enteros.restar",
+            "difficulty": 2,
+            "prompt": "Calcula sin ayuda: -6 - 3.",
+            "inputLabel": "Resultado",
+            "answer": {
+              "kind": "number",
+              "value": -9,
+              "tolerance": 0
+            },
+            "feedbackCorrect": "Dominado: convertiste la resta en suma del opuesto y mantuviste la dirección.",
+            "feedbackIncorrect": "-6 - 3 equivale a -6 + (-3).",
+            "hint": null,
+            "assistanceAllowed": false,
+            "maxAttempts": 1,
+            "masteryWeight": 0.3,
+            "xp": 5
+          },
+          {
+            "id": "M1.04-S10",
+            "type": "lesson_complete",
+            "role": "reward",
+            "title": "¡Calculaste diferencias con enteros!",
+            "body": "Restar un número equivale a sumar su opuesto.",
+            "unlockMessage": "Se desbloqueó M1.05 · Multiplicación y división"
+          }
+        ]
+      },
+      {
+        "id": "M1.05",
+        "globalId": "pe-sec1-mat-M1-L05",
+        "sequence": 5,
+        "title": "Multiplicación y división",
+        "subtitle": "Predice el signo y comprueba el resultado",
+        "status": "ready",
+        "estimatedMinutes": 8,
+        "difficulty": 2,
+        "primarySkillId": "mat.enteros.multiplicar_dividir",
+        "learningOutcome": "Multiplica y divide enteros interpretando el signo mediante patrones, cambios repetidos y operaciones inversas.",
+        "successEvidence": "Predice el signo antes de calcular y valida una división mediante multiplicación.",
+        "prerequisites": [
+          "mat.enteros.sumar",
+          "Reconoce multiplicación como suma repetida",
+          "Relaciona multiplicación y división como operaciones inversas"
+        ],
+        "misconceptions": [
+          "Aplicar reglas de signos sin distinguir suma de multiplicación",
+          "Creer que dos números negativos siempre producen un resultado negativo",
+          "Calcular la magnitud correctamente y olvidar justificar el signo"
+        ],
+        "screens": [
+          {
+            "id": "M1.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Primero predice el signo",
+            "body": "Interpretarás multiplicaciones y divisiones de enteros antes de calcular sus magnitudes.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.05-S02",
+            "type": "single_choice",
+            "role": "hook",
+            "skillId": "mat.enteros.modelar_multiplicacion",
+            "difficulty": 1,
+            "prompt": "La temperatura de una cámara cambia -2 °C por hora durante 4 horas. ¿Qué expresión representa el cambio total?",
+            "options": [
+              {
+                "id": "a",
+                "text": "4 × (-2)",
+                "feedback": "Correcto. Son cuatro cambios iguales de -2 °C."
+              },
+              {
+                "id": "b",
+                "text": "4 + 2",
+                "feedback": "No representa cuatro disminuciones iguales."
+              },
+              {
+                "id": "c",
+                "text": "-4 × (-2)",
+                "feedback": "La cantidad de horas es positiva; el cambio por hora es el valor negativo."
+              }
+            ],
+            "correctOptionId": "a",
+            "hint": "Multiplica el número de horas por el cambio de cada hora.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2
+          },
+          {
+            "id": "M1.05-S03",
+            "type": "content_card",
+            "role": "model",
+            "title": "Signo y magnitud se deciden por separado",
+            "body": "Multiplica o divide las magnitudes y luego determina el signo. Signos iguales producen resultado positivo; signos distintos, resultado negativo. La división se puede comprobar multiplicando.",
+            "examples": [
+              "5 × (-3) = -15",
+              "(-4) × (-6) = 24",
+              "-42 ÷ 7 = -6 porque -6 × 7 = -42"
+            ],
+            "memoryAid": "Iguales → positivo. Distintos → negativo. Después comprueba la magnitud."
+          },
+          {
+            "id": "M1.05-S04",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.multiplicar",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el resultado de 5 × (-3)?",
+            "options": [
+              {
+                "id": "a",
+                "text": "-15",
+                "feedback": "Correcto. Los signos son distintos y 5 × 3 = 15."
+              },
+              {
+                "id": "b",
+                "text": "15",
+                "feedback": "La magnitud es correcta, pero los signos distintos producen un resultado negativo."
+              },
+              {
+                "id": "c",
+                "text": "-8",
+                "feedback": "Sumaste las cifras; la operación solicitada es una multiplicación."
+              }
+            ],
+            "correctOptionId": "a",
+            "hint": "Predice el signo antes de calcular 5 × 3.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 3
+          },
+          {
+            "id": "M1.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.enteros.multiplicar",
+            "difficulty": 2,
+            "prompt": "¿Cuál es el resultado de (-4) × (-6)?",
+            "options": [
+              {
+                "id": "a",
+                "text": "-24",
+                "feedback": "La magnitud es 24, pero dos factores con el mismo signo producen resultado positivo."
+              },
+              {
+                "id": "b",
+                "text": "24",
+                "feedback": "Correcto. Los signos son iguales y 4 × 6 = 24."
+              },
+              {
+                "id": "c",
+                "text": "10",
+                "feedback": "Sumaste magnitudes; la operación es multiplicación."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "Dos signos iguales producen un producto positivo.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 3
+          },
+          {
+            "id": "M1.05-S06",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.enteros.dividir",
+            "difficulty": 2,
+            "prompt": "Calcula -42 ÷ 7.",
+            "inputLabel": "Resultado",
+            "answer": {
+              "kind": "number",
+              "value": -6,
+              "tolerance": 0
+            },
+            "feedbackCorrect": "Correcto: signos distintos dan negativo y 42 ÷ 7 = 6.",
+            "feedbackIncorrect": "Predice el signo y comprueba qué número multiplicado por 7 produce -42.",
+            "hint": "La comprobación debe cumplir: resultado × 7 = -42.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.05-S07",
+            "type": "matching",
+            "role": "independent_practice",
+            "skillId": "mat.enteros.predecir_signo_producto",
+            "difficulty": 2,
+            "prompt": "Relaciona cada combinación con el signo de su resultado.",
+            "pairs": [
+              {
+                "leftId": "pp",
+                "left": "positivo × positivo",
+                "rightId": "positivo1",
+                "right": "positivo"
+              },
+              {
+                "leftId": "nn",
+                "left": "negativo × negativo",
+                "rightId": "positivo2",
+                "right": "positivo"
+              },
+              {
+                "leftId": "pn",
+                "left": "positivo × negativo",
+                "rightId": "negativo1",
+                "right": "negativo"
+              },
+              {
+                "leftId": "np",
+                "left": "negativo ÷ positivo",
+                "rightId": "negativo2",
+                "right": "negativo"
+              }
+            ],
+            "allowDuplicateRightLabels": true,
+            "feedbackCorrect": "Muy bien: signos iguales dan positivo y distintos dan negativo.",
+            "feedbackIncorrect": "Compara los signos de cada pareja, no la operación escrita.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.05-S08",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.enteros.argumentar_division",
+            "difficulty": 2,
+            "prompt": "Sofía escribió (-24) ÷ (-6) = -4. ¿Cuál corrección está mejor justificada?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe ser 4 porque los signos son iguales y 4 × (-6) no verifica -24.",
+                "feedback": "La respuesta 4 es correcta, pero la comprobación escrita es incorrecta: 4 × (-6) = -24 sí verifica."
+              },
+              {
+                "id": "b",
+                "text": "Debe ser 4 porque los signos son iguales y 4 × (-6) = -24.",
+                "feedback": "Correcto. El cociente es positivo y la multiplicación comprueba el resultado."
+              },
+              {
+                "id": "c",
+                "text": "-4 es correcto porque aparece al menos un número negativo.",
+                "feedback": "Hay dos signos negativos; en una división, signos iguales producen resultado positivo."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": "Comprueba el cociente multiplicándolo por el divisor.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.10,
+            "xp": 4
+          },
+          {
+            "id": "M1.05-S09",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.enteros.modelar_multiplicacion",
+            "difficulty": 2,
+            "prompt": "En un juego educativo se registran -3 puntos por cada respuesta omitida. Si se omiten 6 respuestas, ¿cuál es el cambio total del puntaje?",
+            "inputLabel": "Cambio",
+            "inputSuffix": "puntos",
+            "answer": {
+              "kind": "number",
+              "value": -18,
+              "tolerance": 0
+            },
+            "feedbackCorrect": "Correcto: 6 × (-3) = -18 puntos.",
+            "feedbackIncorrect": "Son seis cambios iguales de -3; representa la situación como 6 × (-3).",
+            "hint": "La cantidad de omisiones es positiva y cada cambio es negativo.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4
+          },
+          {
+            "id": "M1.05-S10",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.enteros.dividir",
+            "difficulty": 2,
+            "prompt": "Calcula sin ayuda: -56 ÷ (-7).",
+            "options": [
+              {
+                "id": "a",
+                "text": "-8",
+                "feedback": "La magnitud es correcta, pero los signos iguales producen un resultado positivo."
+              },
+              {
+                "id": "b",
+                "text": "8",
+                "feedback": "Dominado: signos iguales dan positivo y 8 × (-7) = -56."
+              },
+              {
+                "id": "c",
+                "text": "49",
+                "feedback": "Revisa la magnitud: 56 ÷ 7 = 8."
+              }
+            ],
+            "correctOptionId": "b",
+            "hint": null,
+            "assistanceAllowed": false,
+            "maxAttempts": 1,
+            "masteryWeight": 0.3,
+            "xp": 5
+          },
+          {
+            "id": "M1.05-S11",
+            "type": "lesson_complete",
+            "role": "reward",
+            "title": "¡Predices y compruebas signos!",
+            "body": "En multiplicación y división, los signos iguales producen positivo y los distintos, negativo.",
+            "unlockMessage": "Próximamente: M1.06 · Operaciones combinadas"
+          }
+        ]
+      }
+    ],
+    "plannedLessons": [
+      {
+        "id": "M1.06",
+        "title": "Operaciones combinadas",
+        "status": "planned"
+      },
+      {
+        "id": "M1.07",
+        "title": "Múltiplos y divisores",
+        "status": "planned"
+      },
+      {
+        "id": "M1.08",
+        "title": "Argumentar propiedades",
+        "status": "planned"
+      }
+    ]
+  }
+}
