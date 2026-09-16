@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentRelease": "2026.09.1",
+  "locale": "es-PE",
+  "country": "PE",
+  "minimumEngineVersion": "0.1.0",
+  "generatedAt": "2026-09-15",
+  "grades": [
+    {
+      "id": "sec1",
+      "level": "secundaria",
+      "grade": 1,
+      "label": "1.° de secundaria",
+      "subjects": [
+        {
+          "id": "matematica",
+          "label": "Matemática",
+          "colorToken": "subject-math",
+          "units": [
+            {
+              "id": "M1",
+              "sequence": 1,
+              "title": "Enteros, orden y divisibilidad",
+              "status": "partial",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 5,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/matematica/M1-enteros-v1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
