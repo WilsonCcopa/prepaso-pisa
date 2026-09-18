@@ -34,6 +34,8 @@ def validate_unit(path: Path) -> list[str]:
     lessons = unit.get("lessons", [])
     planned_lessons = unit.get("plannedLessons", [])
     ready_lessons = [lesson for lesson in lessons if lesson.get("status") == "ready"]
+    stimuli = unit.get("stimuli", [])
+    stimulus_ids = [stimulus.get("id") for stimulus in stimuli]
 
     require(data.get("schemaVersion") == "1.0.0", f"{path}: schemaVersion inválida", errors)
     require(bool(unit.get("id")), f"{path}: falta unit.id", errors)
@@ -46,6 +48,13 @@ def validate_unit(path: Path) -> list[str]:
 
     lesson_ids = [lesson.get("id") for lesson in lessons + planned_lessons]
     require(len(lesson_ids) == len(set(lesson_ids)), f"{path}: hay lesson.id duplicados", errors)
+    require(len(stimulus_ids) == len(set(stimulus_ids)), f"{path}: hay stimulus.id duplicados", errors)
+
+    for stimulus in stimuli:
+        stimulus_id = stimulus.get("id", "sin-id")
+        require(bool(stimulus.get("content")), f"{path}: {stimulus_id} no tiene contenido", errors)
+        require(bool(stimulus.get("sourceNote")), f"{path}: {stimulus_id} no declara su procedencia", errors)
+        require(bool(stimulus.get("license")), f"{path}: {stimulus_id} no declara licencia", errors)
 
     all_screen_ids: list[str] = []
     for lesson in ready_lessons:
@@ -74,6 +83,10 @@ def validate_unit(path: Path) -> list[str]:
             require(screen_id.startswith(f"{lesson_id}-S"), f"{path}: {screen_id} no pertenece a {lesson_id}", errors)
 
             screen_type = screen.get("type")
+            stimulus_id = screen.get("stimulusId")
+            if stimulus_id:
+                require(stimulus_id in stimulus_ids, f"{path}: {screen_id} referencia stimulusId inexistente", errors)
+
             if screen_type == "single_choice":
                 option_ids = [option.get("id") for option in screen.get("options", [])]
                 require(len(option_ids) >= 2, f"{path}: {screen_id} necesita al menos dos opciones", errors)
