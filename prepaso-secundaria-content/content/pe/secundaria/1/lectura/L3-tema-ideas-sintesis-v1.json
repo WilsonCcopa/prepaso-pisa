@@ -1,0 +1,2590 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.7",
+  "locale": "es-PE",
+  "unit": {
+    "id": "L3",
+    "globalId": "pe-sec1-lec-L3",
+    "sequence": 3,
+    "grade": "sec1",
+    "subject": "lectura",
+    "title": "Tema, subtemas, ideas y síntesis",
+    "shortTitle": "Ideas y síntesis",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "Lectura es una ruta especializada de Prepaso dentro del área oficial de Comunicación. L3 organiza progresivamente desempeños del primer grado; no es una unidad oficial obligatoria de MINEDU.",
+    "unitOutcome": "Construye el sentido global de textos diversos mediante jerarquización, clasificación, síntesis y conclusiones con alcance controlado.",
+    "finalEvidence": "Resumen o mapa que conserva tema, subtemas, ideas, relaciones esenciales y una conclusión válida sin agregar información ajena.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "area": "Comunicación",
+      "cycle": "VI",
+      "competency": "Lee diversos tipos de textos escritos en su lengua materna",
+      "primaryCapacity": "Infiere e interpreta información del texto",
+      "supportingCapacities": [
+        "Obtiene información del texto escrito",
+        "Infiere e interpreta información del texto",
+        "Reflexiona y evalúa la forma, el contenido y contexto del texto"
+      ],
+      "operationalAlignment": "Construye el sentido global mediante jerarquización, clasificación funcional, reconocimiento de estructuras, paráfrasis, resumen y conclusión."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Arquitecto de ideas"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todos los estímulos son originales de Prepaso y no reproducen textos ni actividades de materiales de MINEDU.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Orientaciones para el uso pedagógico de los textos de Comunicación (1.° a 5.° de secundaria)",
+        "publisher": "Ministerio de Educación del Perú",
+        "edition": "2026",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/12625"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "L3-ST01",
+        "title": "Una sombra necesaria",
+        "format": "continuous",
+        "genre": "artículo divulgativo",
+        "content": "En las ciudades cálidas, los árboles de calles y parques cumplen más funciones que adornar. Sus copas interceptan parte de la radiación solar y reducen la temperatura de superficies como veredas y muros. Sus raíces también facilitan que cierta cantidad de lluvia ingrese al suelo. Para obtener esos beneficios no basta plantar cualquier especie en cualquier lugar: se necesita elegir árboles compatibles con el espacio, asegurar agua durante sus primeros años y cuidar que las raíces no dañen instalaciones. Por eso, ampliar el arbolado urbano es una medida ambiental que exige planificación y mantenimiento.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L3-ST02",
+        "title": "El viaje de una botella",
+        "format": "continuous",
+        "genre": "crónica ambiental",
+        "content": "A las siete, una botella vacía quedó junto a una banca. El viento la empujó hasta una canaleta y, con la lluvia de la tarde, llegó al río. Allí no desapareció: avanzó lentamente entre ramas y otros residuos. Días después, un grupo de limpieza la recogió varios kilómetros aguas abajo. El recorrido muestra que un objeto abandonado en una calle puede trasladarse lejos y afectar espacios que quien lo dejó nunca vio. Evitar residuos en el río comienza antes de la orilla: empieza con decisiones cotidianas sobre consumo, descarte y reciclaje.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L3-ST03",
+        "title": "Semillas para el biohuerto",
+        "format": "continuous",
+        "genre": "informe escolar",
+        "content": "El equipo comparó tres métodos de germinación. En algodón húmedo, 18 de 20 semillas germinaron, pero varias raíces se enredaron al trasladarlas. En tierra suelta, germinaron 15 y casi todas resistieron el trasplante. En tierra compacta, solo germinaron 7 y el agua permaneció en la superficie. Los resultados sugieren que la humedad favorece el inicio, pero la estructura del sustrato influye tanto en el ingreso del agua como en el desarrollo posterior de las raíces. El equipo recomienda usar tierra suelta y controlar la humedad sin inundar.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L3-ST04",
+        "title": "Tres maneras de llegar",
+        "format": "continuous",
+        "genre": "reporte de movilidad",
+        "content": "Caminar al colegio no produce emisiones directas y permite actividad física, pero requiere rutas seguras y distancias razonables. La bicicleta cubre trayectos mayores con poco espacio, aunque necesita estacionamiento y vías protegidas. El transporte público moviliza a muchas personas y puede reducir el número de vehículos particulares; su utilidad depende de frecuencia, cobertura y accesibilidad. Ninguna opción resuelve por sí sola todas las necesidades. Una estrategia escolar puede combinar rutas peatonales, ciclovías y conexión con paraderos según las condiciones del barrio.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L3-ST05",
+        "title": "Cuando el suelo pierde su abrigo",
+        "format": "continuous",
+        "genre": "texto explicativo",
+        "content": "La cobertura vegetal protege el suelo del impacto directo de la lluvia. Cuando se retiran plantas y restos orgánicos, las gotas golpean la superficie sin barrera, desprenden partículas y facilitan que el agua las arrastre. Si además el terreno tiene pendiente, el desplazamiento aumenta. Con el tiempo se pierde la capa más fértil y las nuevas plantas encuentran menos nutrientes. Mantener vegetación, colocar barreras siguiendo las curvas del terreno y evitar dejar grandes superficies desnudas ayuda a reducir la erosión.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L3-ST06",
+        "title": "La feria sin copias",
+        "format": "continuous",
+        "genre": "nota escolar",
+        "content": "Para presentar sus proyectos, varios equipos buscaron información en internet. La docente pidió que cada grupo explicara las ideas con sus propias palabras y registrara las fuentes. Parafrasear, aclaró, no consiste en cambiar unas cuantas palabras por sinónimos: exige comprender la idea, reorganizarla y mantener su significado. También indicó que una paráfrasis no vuelve propia la idea original; por eso la fuente debe mencionarse. Durante la revisión, los estudiantes compararon cada versión con el texto consultado para detectar copias demasiado cercanas o cambios de sentido.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L3-ST07",
+        "title": "Biblioteca de intercambio",
+        "format": "continuous",
+        "genre": "propuesta estudiantil",
+        "content": "El consejo estudiantil propone instalar un estante de intercambio de libros. Cada participante podrá llevar un ejemplar en buen estado y escoger otro. El proyecto busca ampliar el acceso a lecturas sin exigir compras frecuentes. Para evitar que el estante quede vacío, una brigada registrará entradas y salidas, separará materiales dañados y organizará campañas de donación cuando la cantidad disminuya. La propuesta no reemplaza la biblioteca escolar: funcionará como una opción adicional y de circulación rápida. Al terminar el primer bimestre se evaluarán variedad, uso y estado de los libros.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L3-ST08",
+        "title": "Más que apagar la luz",
+        "format": "continuous",
+        "genre": "artículo de orientación",
+        "content": "Ahorrar energía no significa realizar una acción aislada, sino revisar hábitos y equipos. Apagar una lámpara vacía evita consumo innecesario; aprovechar iluminación natural reduce horas de uso. Sin embargo, si un refrigerador tiene el sello deteriorado, perderá frío y trabajará más tiempo aunque las luces estén apagadas. Medir el consumo permite identificar qué cambios tienen mayor impacto. Por eso conviene combinar hábitos diarios, mantenimiento de aparatos y decisiones de compra basadas en eficiencia. La mejor medida depende de cómo y dónde se usa la energía.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "L3.01",
+        "globalId": "pe-sec1-lec-L3-01",
+        "sequence": 1,
+        "title": "Tema y asunto",
+        "subtitle": "El tema nombra el territorio completo del texto",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.sentido_global.tema",
+        "learningOutcome": "Formula el tema de un texto con alcance preciso y lo diferencia de detalles, ideas principales y títulos llamativos.",
+        "successEvidence": "Propone un tema y un título informativo, y justifica por qué abarcan todo el texto sin excederlo.",
+        "prerequisites": [
+          "Localiza información explícita",
+          "Reconoce palabras clave"
+        ],
+        "misconceptions": [
+          "Elegir un detalle como tema",
+          "Escribir una oración demasiado amplia",
+          "Confundir tema con opinión personal"
+        ],
+        "screens": [
+          {
+            "id": "L3.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El tema responde «¿de qué trata en conjunto?»",
+            "body": "Un buen tema suele expresarse con una frase nominal breve. No cuenta todo lo que el texto afirma: delimita el asunto común que conecta sus párrafos.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L3.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.sentido_global.tema",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el tema más preciso del texto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L3-ST01",
+            "hint": "Busca una frase que cubra beneficios y requisitos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La radiación solar en todo el planeta.",
+                "feedback": "Revisa la idea clave. La respuesta abarca funciones, elección, agua y mantenimiento."
+              },
+              {
+                "id": "b",
+                "text": "Los beneficios y las condiciones de planificación del arbolado urbano.",
+                "feedback": "Correcto. La respuesta abarca funciones, elección, agua y mantenimiento."
+              },
+              {
+                "id": "c",
+                "text": "Las raíces que dañan una instalación específica.",
+                "feedback": "Revisa la idea clave. La respuesta abarca funciones, elección, agua y mantenimiento."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Busca el hilo que atraviesa todo",
+            "body": "Repite mentalmente la pregunta «¿qué asunto aparece de principio a fin?». Descarta palabras presentes solo en una sección.",
+            "examples": [
+              "árboles urbanos y sus condiciones de cuidado",
+              "beneficios y planificación del arbolado urbano"
+            ],
+            "memoryAid": "Tema = territorio común de todo el texto."
+          },
+          {
+            "id": "L3.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Controla el alcance",
+            "body": "«La naturaleza» es demasiado amplio; «el agua de los árboles jóvenes» es demasiado estrecho. Ajusta hasta cubrir todas las ideas esenciales.",
+            "examples": [
+              "Muy amplio: el ambiente",
+              "Preciso: funciones y manejo del arbolado urbano"
+            ],
+            "memoryAid": "Ni paraguas gigante ni detalle aislado."
+          },
+          {
+            "id": "L3.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.tema",
+            "difficulty": 1,
+            "prompt": "¿Qué opción es demasiado amplia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L3-ST01",
+            "hint": "Pregunta si cabrían cientos de textos distintos bajo esa frase.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El arbolado urbano y su manejo.",
+                "feedback": "Revisa la idea clave. El ambiente incluye muchos asuntos que el texto no trata."
+              },
+              {
+                "id": "b",
+                "text": "Funciones y cuidados de los árboles en la ciudad.",
+                "feedback": "Revisa la idea clave. El ambiente incluye muchos asuntos que el texto no trata."
+              },
+              {
+                "id": "c",
+                "text": "El cuidado del ambiente.",
+                "feedback": "Correcto. El ambiente incluye muchos asuntos que el texto no trata."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.tema",
+            "difficulty": 1,
+            "prompt": "Relaciona formulación y alcance.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST01",
+            "hint": "La opción adecuada incluye funciones y condiciones.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "La naturaleza",
+                "rightId": "r1",
+                "right": "Demasiado amplia"
+              },
+              {
+                "leftId": "l2",
+                "left": "Agua para árboles jóvenes",
+                "rightId": "r2",
+                "right": "Demasiado estrecha"
+              },
+              {
+                "leftId": "l3",
+                "left": "Beneficios y manejo del arbolado urbano",
+                "rightId": "r3",
+                "right": "Adecuada"
+              }
+            ],
+            "feedbackCorrect": "Ajustaste el tema al conjunto del texto.",
+            "feedbackIncorrect": "Comprueba cuántas partes del texto cubre cada opción."
+          },
+          {
+            "id": "L3.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "El título puede orientar, no decidir",
+            "body": "Un título atractivo puede destacar una parte. Comprueba siempre el cuerpo completo y mejora el título si promete algo que el texto no desarrolla.",
+            "examples": [
+              "«Una sombra necesaria» orienta a un beneficio",
+              "«Arbolado urbano: beneficios y cuidados» cubre el conjunto"
+            ],
+            "memoryAid": "Lee todo antes de nombrar."
+          },
+          {
+            "id": "L3.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.sentido_global.tema",
+            "difficulty": 1,
+            "prompt": "¿Qué título informa mejor sobre el contenido completo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST01",
+            "hint": "Elige el título que pueda anticipar todos los párrafos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Arbolado urbano: beneficios, elección y mantenimiento",
+                "feedback": "Correcto. El título recoge las dos dimensiones centrales y no inventa un caso."
+              },
+              {
+                "id": "b",
+                "text": "La raíz que rompió una tubería",
+                "feedback": "Revisa la idea clave. El título recoge las dos dimensiones centrales y no inventa un caso."
+              },
+              {
+                "id": "c",
+                "text": "El árbol más bonito de la plaza",
+                "feedback": "Revisa la idea clave. El título recoge las dos dimensiones centrales y no inventa un caso."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.sentido_global.tema",
+            "difficulty": 2,
+            "prompt": "Un lector propone «la lluvia» como tema. ¿Qué error comete?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST01",
+            "hint": "Compara cuántas ideas se conectan con cada candidato.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El tema siempre debe ser una oración larga.",
+                "feedback": "Revisa la idea clave. La lluvia aparece, pero el texto se organiza alrededor del arbolado urbano."
+              },
+              {
+                "id": "b",
+                "text": "Elige un detalle usado para explicar una función, no el asunto global.",
+                "feedback": "Correcto. La lluvia aparece, pero el texto se organiza alrededor del arbolado urbano."
+              },
+              {
+                "id": "c",
+                "text": "La lluvia no puede aparecer en un texto.",
+                "feedback": "Revisa la idea clave. La lluvia aparece, pero el texto se organiza alrededor del arbolado urbano."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.sentido_global.tema",
+            "difficulty": 1,
+            "prompt": "¿Qué frase mantiene el alcance correcto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST01",
+            "hint": "Evita «todos», «solo» y otras ampliaciones no sustentadas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todos los árboles sirven en cualquier espacio.",
+                "feedback": "Revisa la idea clave. La frase integra beneficio y condición sin generalizar más allá del texto."
+              },
+              {
+                "id": "b",
+                "text": "La ciudad solo necesita más sombra.",
+                "feedback": "Revisa la idea clave. La frase integra beneficio y condición sin generalizar más allá del texto."
+              },
+              {
+                "id": "c",
+                "text": "Planificar árboles urbanos permite obtener beneficios y evitar problemas.",
+                "feedback": "Correcto. La frase integra beneficio y condición sin generalizar más allá del texto."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.sentido_global.tema",
+            "difficulty": 1,
+            "prompt": "¿Qué procedimiento ayuda más a identificar el tema?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST01",
+            "hint": "Busca un método que obligue a considerar todo el texto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Agrupar las ideas de todos los párrafos y nombrar lo que comparten.",
+                "feedback": "Correcto. El tema surge del conjunto, no de una sola señal."
+              },
+              {
+                "id": "b",
+                "text": "Copiar la primera palabra del título.",
+                "feedback": "Revisa la idea clave. El tema surge del conjunto, no de una sola señal."
+              },
+              {
+                "id": "c",
+                "text": "Elegir el dato que más sorprende.",
+                "feedback": "Revisa la idea clave. El tema surge del conjunto, no de una sola señal."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya delimitas el territorio de un texto",
+            "body": "Formulaste temas con alcance preciso, descartaste detalles y mejoraste títulos para que representen el conjunto.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L3.02",
+        "globalId": "pe-sec1-lec-L3-02",
+        "sequence": 2,
+        "title": "Idea principal",
+        "subtitle": "La idea principal dice qué sostiene el texto sobre su tema",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.sentido_global.idea_principal",
+        "learningOutcome": "Reconstruye la idea principal explícita o implícita integrando el tema con la afirmación central.",
+        "successEvidence": "Formula una idea principal completa y la respalda con al menos dos partes del texto.",
+        "prerequisites": [
+          "Identifica el tema",
+          "Integra datos dispersos"
+        ],
+        "misconceptions": [
+          "Repetir solo el tema",
+          "Elegir el primer hecho",
+          "Agregar una recomendación no presente"
+        ],
+        "screens": [
+          {
+            "id": "L3.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Tema más afirmación produce una idea principal",
+            "body": "«Los residuos» es un tema. «Un residuo abandonado puede viajar lejos, por lo que prevenir la contaminación comienza en decisiones cotidianas» expresa la idea principal.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L3.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.sentido_global.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la idea principal?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L3-ST02",
+            "hint": "Une el viaje de la botella con la última oración.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La lluvia de la tarde fue intensa.",
+                "feedback": "Revisa la idea clave. Integra recorrido, consecuencia y reflexión final."
+              },
+              {
+                "id": "b",
+                "text": "Un residuo abandonado en la ciudad puede llegar lejos, y prevenir su impacto empieza con decisiones cotidianas.",
+                "feedback": "Correcto. Integra recorrido, consecuencia y reflexión final."
+              },
+              {
+                "id": "c",
+                "text": "Un grupo caminó varios kilómetros.",
+                "feedback": "Revisa la idea clave. Integra recorrido, consecuencia y reflexión final."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Pregunta qué se afirma sobre el tema",
+            "body": "Completa mentalmente: «Sobre este asunto, el texto quiere que entienda que…». La respuesta debe contener una relación o posición.",
+            "examples": [
+              "Tema: recorrido de residuos",
+              "Afirmación: una acción local puede afectar lugares lejanos"
+            ],
+            "memoryAid": "Tema nombra; idea principal afirma."
+          },
+          {
+            "id": "L3.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Integra inicio, desarrollo y cierre",
+            "body": "La idea principal suele estar distribuida. Usa el recorrido de la botella y la reflexión final para reconstruirla.",
+            "examples": [
+              "calle → canaleta → río",
+              "prevención desde consumo y descarte"
+            ],
+            "memoryAid": "Une hechos con el mensaje que explican."
+          },
+          {
+            "id": "L3.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Por qué «la botella llegó al río» no basta como idea principal?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L3-ST02",
+            "hint": "Pregunta qué parte del cierre queda fuera.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque no aparece en el texto.",
+                "feedback": "Revisa la idea clave. La idea principal debe cubrir más que un episodio del recorrido."
+              },
+              {
+                "id": "b",
+                "text": "Porque toda idea principal debe tener números.",
+                "feedback": "Revisa la idea clave. La idea principal debe cubrir más que un episodio del recorrido."
+              },
+              {
+                "id": "c",
+                "text": "Es un hecho importante, pero no incluye el alcance del impacto ni la prevención.",
+                "feedback": "Correcto. La idea principal debe cubrir más que un episodio del recorrido."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.idea_principal",
+            "difficulty": 1,
+            "prompt": "Relaciona elemento y función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST02",
+            "hint": "La última parte propone dónde empieza la solución.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "La botella queda junto a una banca",
+                "rightId": "r1",
+                "right": "Inicio del recorrido"
+              },
+              {
+                "leftId": "l2",
+                "left": "Llega al río",
+                "rightId": "r2",
+                "right": "Consecuencia del abandono"
+              },
+              {
+                "leftId": "l3",
+                "left": "Consumo, descarte y reciclaje",
+                "rightId": "r3",
+                "right": "Respuesta preventiva"
+              }
+            ],
+            "feedbackCorrect": "Reconociste cómo los datos sostienen la afirmación central.",
+            "feedbackIncorrect": "Cada detalle cumple un papel en el argumento."
+          },
+          {
+            "id": "L3.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Prueba la cobertura",
+            "body": "Una idea principal adecuada permite explicar por qué aparecen los datos importantes. Si deja fuera el recorrido o la prevención, está incompleta.",
+            "examples": [
+              "Detalle: la recogieron kilómetros después",
+              "Idea central: el descarte local tiene efectos distantes"
+            ],
+            "memoryAid": "Lo principal organiza los detalles."
+          },
+          {
+            "id": "L3.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.sentido_global.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Qué evidencia apoya que el efecto puede ocurrir lejos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST02",
+            "hint": "Busca una referencia explícita a distancia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La botella fue recogida varios kilómetros aguas abajo.",
+                "feedback": "Correcto. La distancia conecta una decisión local con un espacio no visible para quien la tomó."
+              },
+              {
+                "id": "b",
+                "text": "La banca estaba ocupada.",
+                "feedback": "Revisa la idea clave. La distancia conecta una decisión local con un espacio no visible para quien la tomó."
+              },
+              {
+                "id": "c",
+                "text": "El grupo salió a las siete.",
+                "feedback": "Revisa la idea clave. La distancia conecta una decisión local con un espacio no visible para quien la tomó."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.sentido_global.idea_principal",
+            "difficulty": 2,
+            "prompt": "Un resumen dice: «El viento contamina todos los ríos». ¿Qué problema tiene?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST02",
+            "hint": "Detecta palabras absolutas y una causa reducida.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Es idéntico a la idea principal.",
+                "feedback": "Revisa la idea clave. El texto presenta un caso y subraya decisiones humanas de consumo y descarte."
+              },
+              {
+                "id": "b",
+                "text": "Generaliza a todos los ríos y atribuye el problema solo al viento.",
+                "feedback": "Correcto. El texto presenta un caso y subraya decisiones humanas de consumo y descarte."
+              },
+              {
+                "id": "c",
+                "text": "Le falta mencionar el color de la botella.",
+                "feedback": "Revisa la idea clave. El texto presenta un caso y subraya decisiones humanas de consumo y descarte."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.sentido_global.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Qué oración podría funcionar como cierre coherente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST02",
+            "hint": "Elige una conclusión compatible, no absoluta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo residuo desaparece cuando llueve.",
+                "feedback": "Revisa la idea clave. La oración conserva la relación entre calle, drenaje y río."
+              },
+              {
+                "id": "b",
+                "text": "Recoger una botella elimina toda contaminación.",
+                "feedback": "Revisa la idea clave. La oración conserva la relación entre calle, drenaje y río."
+              },
+              {
+                "id": "c",
+                "text": "Cuidar el río también implica evitar que los residuos entren al sistema de drenaje.",
+                "feedback": "Correcto. La oración conserva la relación entre calle, drenaje y río."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.sentido_global.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Cómo se reconstruye una idea principal implícita?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST02",
+            "hint": "Busca el procedimiento que usa varias evidencias.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Integrando hechos relevantes y preguntando qué relación global explican.",
+                "feedback": "Correcto. Cuando no hay oración temática, la relación entre partes permite formularla."
+              },
+              {
+                "id": "b",
+                "text": "Copiando siempre la primera oración.",
+                "feedback": "Revisa la idea clave. Cuando no hay oración temática, la relación entre partes permite formularla."
+              },
+              {
+                "id": "c",
+                "text": "Escogiendo el detalle más raro.",
+                "feedback": "Revisa la idea clave. Cuando no hay oración temática, la relación entre partes permite formularla."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya expresas qué sostiene el texto",
+            "body": "Pasaste del asunto a una afirmación central y comprobaste que esa idea organiza los detalles importantes.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L3.03",
+        "globalId": "pe-sec1-lec-L3-03",
+        "sequence": 3,
+        "title": "Ideas secundarias",
+        "subtitle": "Cada detalle relevante cumple una función respecto de la idea principal",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.sentido_global.ideas_secundarias",
+        "learningOutcome": "Distingue ideas secundarias y clasifica su función como explicación, evidencia, ejemplo, contraste o consecuencia.",
+        "successEvidence": "Etiqueta la función de varias ideas y explica cómo sostienen o precisan la idea principal.",
+        "prerequisites": [
+          "Reconoce la idea principal",
+          "Localiza datos relevantes"
+        ],
+        "misconceptions": [
+          "Considerar secundario como innecesario",
+          "Confundir ejemplo con conclusión",
+          "Enumerar datos sin relacionarlos"
+        ],
+        "screens": [
+          {
+            "id": "L3.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Secundaria no significa prescindible",
+            "body": "Una idea secundaria desarrolla la principal: puede explicar por qué, mostrar evidencia, ofrecer un ejemplo, introducir un contraste o precisar un límite.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L3.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.sentido_global.ideas_secundarias",
+            "difficulty": 1,
+            "prompt": "¿Qué función cumple «18 de 20 semillas germinaron»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L3-ST03",
+            "hint": "Pregunta si el dato demuestra, define o recomienda.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Presenta la recomendación final.",
+                "feedback": "Revisa la idea clave. El número permite comparar el resultado de germinación."
+              },
+              {
+                "id": "b",
+                "text": "Aporta evidencia cuantitativa sobre el método con algodón.",
+                "feedback": "Correcto. El número permite comparar el resultado de germinación."
+              },
+              {
+                "id": "c",
+                "text": "Define qué es una raíz.",
+                "feedback": "Revisa la idea clave. El número permite comparar el resultado de germinación."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Nombra la relación",
+            "body": "Después de cada dato pregunta: ¿explica, demuestra, ejemplifica, contrasta o deriva una consecuencia?",
+            "examples": [
+              "18 de 20 en algodón: evidencia",
+              "raíces enredadas: límite o contraste"
+            ],
+            "memoryAid": "No solo qué dice, sino para qué está."
+          },
+          {
+            "id": "L3.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Agrupa datos que cumplen la misma función",
+            "body": "Los resultados de los tres métodos forman evidencia comparativa; la recomendación interpreta esa evidencia para una decisión.",
+            "examples": [
+              "Resultados: 18, 15 y 7",
+              "Recomendación: tierra suelta y humedad controlada"
+            ],
+            "memoryAid": "Datos primero; lectura de los datos después."
+          },
+          {
+            "id": "L3.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.ideas_secundarias",
+            "difficulty": 1,
+            "prompt": "¿Qué función cumple el enredo de raíces?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L3-ST03",
+            "hint": "Busca qué matiza el primer resultado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demuestra que el algodón fue perfecto.",
+                "feedback": "Revisa la idea clave. El dato evita concluir que la mayor germinación convierte al método en mejor para todo."
+              },
+              {
+                "id": "b",
+                "text": "Describe el color de las semillas.",
+                "feedback": "Revisa la idea clave. El dato evita concluir que la mayor germinación convierte al método en mejor para todo."
+              },
+              {
+                "id": "c",
+                "text": "Introduce un límite del método que tuvo más germinaciones.",
+                "feedback": "Correcto. El dato evita concluir que la mayor germinación convierte al método en mejor para todo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.03-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.ideas_secundarias",
+            "difficulty": 1,
+            "prompt": "Relaciona idea y función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST03",
+            "hint": "Una recomendación indica qué conviene hacer.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "7 semillas en tierra compacta",
+                "rightId": "r1",
+                "right": "Evidencia de bajo resultado"
+              },
+              {
+                "leftId": "l2",
+                "left": "El agua quedó en la superficie",
+                "rightId": "r2",
+                "right": "Explicación posible"
+              },
+              {
+                "leftId": "l3",
+                "left": "Usar tierra suelta",
+                "rightId": "r3",
+                "right": "Recomendación derivada"
+              }
+            ],
+            "feedbackCorrect": "Vinculaste datos, explicación y decisión.",
+            "feedbackIncorrect": "Sigue el recorrido desde observación hasta recomendación."
+          },
+          {
+            "id": "L3.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Conserva detalles decisivos",
+            "body": "Al sintetizar, elimina adornos, no los datos que cambian la conclusión. Germinar más no basta si el traslado daña raíces.",
+            "examples": [
+              "cantidad germinada",
+              "resistencia al trasplante",
+              "compactación y agua"
+            ],
+            "memoryAid": "Relevante es lo que modifica la interpretación."
+          },
+          {
+            "id": "L3.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.sentido_global.ideas_secundarias",
+            "difficulty": 1,
+            "prompt": "¿Qué dato apoya elegir tierra suelta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST03",
+            "hint": "Busca dos resultados favorables del mismo método.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Germinaron 15 y casi todas resistieron el trasplante.",
+                "feedback": "Correcto. Integra inicio y desarrollo posterior, no solo cantidad inicial."
+              },
+              {
+                "id": "b",
+                "text": "El algodón era blanco.",
+                "feedback": "Revisa la idea clave. Integra inicio y desarrollo posterior, no solo cantidad inicial."
+              },
+              {
+                "id": "c",
+                "text": "El equipo usó tres recipientes.",
+                "feedback": "Revisa la idea clave. Integra inicio y desarrollo posterior, no solo cantidad inicial."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.sentido_global.ideas_secundarias",
+            "difficulty": 2,
+            "prompt": "Un lector elimina del resumen la resistencia al trasplante. ¿Qué pierde?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST03",
+            "hint": "Pregunta para qué se germinan las semillas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nada; solo importan las primeras 24 horas.",
+                "feedback": "Revisa la idea clave. El propósito es cultivar, así que sobrevivir al traslado cambia la evaluación."
+              },
+              {
+                "id": "b",
+                "text": "Un criterio decisivo para comparar el éxito completo de los métodos.",
+                "feedback": "Correcto. El propósito es cultivar, así que sobrevivir al traslado cambia la evaluación."
+              },
+              {
+                "id": "c",
+                "text": "La definición de semilla.",
+                "feedback": "Revisa la idea clave. El propósito es cultivar, así que sobrevivir al traslado cambia la evaluación."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.sentido_global.ideas_secundarias",
+            "difficulty": 1,
+            "prompt": "¿Qué relación presenta la frase «pero la estructura del sustrato influye…»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST03",
+            "hint": "Observa qué idea matiza.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Repite exactamente el título.",
+                "feedback": "Revisa la idea clave. El conector «pero» añade una condición que evita una explicación única."
+              },
+              {
+                "id": "b",
+                "text": "Niega todos los resultados.",
+                "feedback": "Revisa la idea clave. El conector «pero» añade una condición que evita una explicación única."
+              },
+              {
+                "id": "c",
+                "text": "Contrasta la importancia de la humedad con otro factor relevante.",
+                "feedback": "Correcto. El conector «pero» añade una condición que evita una explicación única."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.sentido_global.ideas_secundarias",
+            "difficulty": 1,
+            "prompt": "¿Cuál selección conserva lo esencial?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST03",
+            "hint": "Elige el conjunto que explica la decisión.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Resultados comparados, límites de cada método y recomendación justificada.",
+                "feedback": "Correcto. Las ideas secundarias elegidas deben sostener la conclusión central."
+              },
+              {
+                "id": "b",
+                "text": "Solo el número más alto.",
+                "feedback": "Revisa la idea clave. Las ideas secundarias elegidas deben sostener la conclusión central."
+              },
+              {
+                "id": "c",
+                "text": "Todos los objetos usados en el experimento.",
+                "feedback": "Revisa la idea clave. Las ideas secundarias elegidas deben sostener la conclusión central."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reconoces el trabajo de cada detalle",
+            "body": "Clasificaste ideas secundarias por función y conservaste las que realmente sostienen, matizan o explican la conclusión.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L3.04",
+        "globalId": "pe-sec1-lec-L3-04",
+        "sequence": 4,
+        "title": "Subtemas",
+        "subtitle": "Un texto extenso se comprende mejor al dividirlo en bloques de sentido",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.sentido_global.subtemas",
+        "learningOutcome": "Segmenta un texto en subtemas y asigna subtítulos informativos que reflejan el contenido de cada bloque.",
+        "successEvidence": "Propone una organización en secciones y explica la relación de cada subtema con el tema global.",
+        "prerequisites": [
+          "Identifica tema e ideas principales",
+          "Reconoce cambios de foco"
+        ],
+        "misconceptions": [
+          "Crear una sección por oración",
+          "Usar subtítulos vagos",
+          "Separar ideas que dependen entre sí"
+        ],
+        "screens": [
+          {
+            "id": "L3.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un subtema es una zona del tema global",
+            "body": "En un texto sobre movilidad escolar, caminar, bicicleta y transporte público pueden formar bloques propios; el cierre puede integrar las opciones en una estrategia combinada.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L3.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.sentido_global.subtemas",
+            "difficulty": 1,
+            "prompt": "¿Cuál es un subtema claro del texto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L3-ST04",
+            "hint": "Busca un foco tratado con más de una idea.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo el transporte mundial.",
+                "feedback": "Revisa la idea clave. El primer bloque desarrolla beneficios y condiciones de caminar."
+              },
+              {
+                "id": "b",
+                "text": "Ventajas y requisitos de caminar al colegio.",
+                "feedback": "Correcto. El primer bloque desarrolla beneficios y condiciones de caminar."
+              },
+              {
+                "id": "c",
+                "text": "La ropa de quienes caminan.",
+                "feedback": "Revisa la idea clave. El primer bloque desarrolla beneficios y condiciones de caminar."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Detecta cambios de foco",
+            "body": "Observa cuándo cambia el medio, el criterio, el momento o la pregunta. Ese giro puede marcar una nueva sección.",
+            "examples": [
+              "caminar: ventajas y condiciones",
+              "bicicleta: alcance e infraestructura"
+            ],
+            "memoryAid": "Nuevo foco sostenido, nuevo bloque."
+          },
+          {
+            "id": "L3.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Escribe subtítulos informativos",
+            "body": "Un buen subtítulo nombra el contenido específico del bloque. Evita «Primera parte» o «Algo importante».",
+            "examples": [
+              "Caminar: salud y rutas seguras",
+              "Transporte público: capacidad y cobertura"
+            ],
+            "memoryAid": "El subtítulo anticipa qué aprenderás."
+          },
+          {
+            "id": "L3.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.subtemas",
+            "difficulty": 1,
+            "prompt": "¿Qué subtítulo corresponde al bloque de la bicicleta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L3-ST04",
+            "hint": "Incluye alcance e infraestructura.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ruedas de todos los tamaños",
+                "feedback": "Revisa la idea clave. Resume beneficio y condición presentes en ese bloque."
+              },
+              {
+                "id": "b",
+                "text": "La única solución posible",
+                "feedback": "Revisa la idea clave. Resume beneficio y condición presentes en ese bloque."
+              },
+              {
+                "id": "c",
+                "text": "Bicicleta: mayor alcance y necesidad de vías seguras",
+                "feedback": "Correcto. Resume beneficio y condición presentes en ese bloque."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.subtemas",
+            "difficulty": 1,
+            "prompt": "Relaciona bloque y subtema.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST04",
+            "hint": "Cada modo tiene beneficio y condición.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Caminar",
+                "rightId": "r1",
+                "right": "Actividad física y rutas seguras"
+              },
+              {
+                "leftId": "l2",
+                "left": "Bicicleta",
+                "rightId": "r2",
+                "right": "Trayectos mayores y protección vial"
+              },
+              {
+                "leftId": "l3",
+                "left": "Transporte público",
+                "rightId": "r3",
+                "right": "Capacidad, frecuencia y cobertura"
+              }
+            ],
+            "feedbackCorrect": "Cada subtítulo recoge el foco particular de una sección.",
+            "feedbackIncorrect": "Usa el mismo nivel de detalle en los tres casos."
+          },
+          {
+            "id": "L3.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Vuelve a unir las secciones",
+            "body": "Los subtemas no son textos aislados. Explica cómo todos desarrollan el tema y qué conclusión surge al compararlos.",
+            "examples": [
+              "tres modos de movilidad",
+              "combinación según el barrio"
+            ],
+            "memoryAid": "Divide para comprender; reúne para interpretar."
+          },
+          {
+            "id": "L3.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.sentido_global.subtemas",
+            "difficulty": 1,
+            "prompt": "¿Qué función cumple el último bloque?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST04",
+            "hint": "Observa la palabra «combinar».",
+            "options": [
+              {
+                "id": "a",
+                "text": "Integra los subtemas y propone combinarlos según el contexto.",
+                "feedback": "Correcto. El cierre pasa de comparar medios a una estrategia escolar combinada."
+              },
+              {
+                "id": "b",
+                "text": "Añade un cuarto vehículo obligatorio.",
+                "feedback": "Revisa la idea clave. El cierre pasa de comparar medios a una estrategia escolar combinada."
+              },
+              {
+                "id": "c",
+                "text": "Repite solo las ventajas de caminar.",
+                "feedback": "Revisa la idea clave. El cierre pasa de comparar medios a una estrategia escolar combinada."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.sentido_global.subtemas",
+            "difficulty": 2,
+            "prompt": "Un lector crea ocho subtemas, uno por oración. ¿Qué debe revisar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST04",
+            "hint": "Agrupa por foco, no por cantidad de oraciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si cada subtítulo tiene distinto color.",
+                "feedback": "Revisa la idea clave. Segmentar no es fragmentar sin criterio; un subtema puede abarcar varias oraciones relacionadas."
+              },
+              {
+                "id": "b",
+                "text": "Si varias oraciones desarrollan un mismo foco y deben permanecer en el mismo bloque.",
+                "feedback": "Correcto. Segmentar no es fragmentar sin criterio; un subtema puede abarcar varias oraciones relacionadas."
+              },
+              {
+                "id": "c",
+                "text": "Si elimina la conclusión.",
+                "feedback": "Revisa la idea clave. Segmentar no es fragmentar sin criterio; un subtema puede abarcar varias oraciones relacionadas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.sentido_global.subtemas",
+            "difficulty": 1,
+            "prompt": "¿Qué organización conserva mejor la lógica?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST04",
+            "hint": "Busca bloques paralelos y un cierre común.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una lista de palabras en orden alfabético.",
+                "feedback": "Revisa la idea clave. La estructura refleja comparación y síntesis."
+              },
+              {
+                "id": "b",
+                "text": "Primero la conclusión y luego frases sin agrupar.",
+                "feedback": "Revisa la idea clave. La estructura refleja comparación y síntesis."
+              },
+              {
+                "id": "c",
+                "text": "Tres medios con ventajas y condiciones, seguidos de una integración final.",
+                "feedback": "Correcto. La estructura refleja comparación y síntesis."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.sentido_global.subtemas",
+            "difficulty": 1,
+            "prompt": "¿Cómo se relacionan subtemas y tema?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST04",
+            "hint": "Piensa en partes coordinadas de un mismo mapa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cada subtema desarrolla una parte del asunto global y juntos construyen su sentido.",
+                "feedback": "Correcto. La segmentación ayuda a organizar sin perder la unidad."
+              },
+              {
+                "id": "b",
+                "text": "Cada subtema reemplaza por completo al tema.",
+                "feedback": "Revisa la idea clave. La segmentación ayuda a organizar sin perder la unidad."
+              },
+              {
+                "id": "c",
+                "text": "No tienen relación entre sí.",
+                "feedback": "Revisa la idea clave. La segmentación ayuda a organizar sin perder la unidad."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya conviertes un texto largo en un mapa",
+            "body": "Detectaste cambios de foco, creaste subtítulos informativos y reuniste los bloques para recuperar el sentido global.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L3.05",
+        "globalId": "pe-sec1-lec-L3-05",
+        "sequence": 5,
+        "title": "Organización textual",
+        "subtitle": "La estructura muestra cómo se relacionan las ideas",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.sentido_global.organizacion",
+        "learningOutcome": "Reconoce estructuras de causa-efecto, problema-solución, secuencia y comparación, y explica su aporte al propósito.",
+        "successEvidence": "Identifica la estructura dominante, ubica sus componentes y justifica con conectores y relaciones.",
+        "prerequisites": [
+          "Distingue ideas principales y secundarias",
+          "Reconoce conectores"
+        ],
+        "misconceptions": [
+          "Clasificar por una sola palabra",
+          "Confundir orden de aparición con secuencia de proceso",
+          "Ignorar estructuras combinadas"
+        ],
+        "screens": [
+          {
+            "id": "L3.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La forma de ordenar ideas también comunica",
+            "body": "Un texto sobre erosión puede partir de una condición, explicar una cadena de efectos y cerrar con respuestas preventivas. Reconocer esa arquitectura permite recordar y evaluar mejor.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L3.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.sentido_global.organizacion",
+            "difficulty": 1,
+            "prompt": "¿Qué estructura domina el texto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L3-ST05",
+            "hint": "Busca el mecanismo central.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Comparación de dos personajes.",
+                "feedback": "Revisa la idea clave. El texto explica cómo unas condiciones producen consecuencias encadenadas."
+              },
+              {
+                "id": "b",
+                "text": "Causa-efecto: pérdida de cobertura, arrastre de partículas y reducción de fertilidad.",
+                "feedback": "Correcto. El texto explica cómo unas condiciones producen consecuencias encadenadas."
+              },
+              {
+                "id": "c",
+                "text": "Secuencia de una receta.",
+                "feedback": "Revisa la idea clave. El texto explica cómo unas condiciones producen consecuencias encadenadas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Busca la relación dominante",
+            "body": "Pregunta qué hace el texto principalmente: ordenar etapas, explicar causas, enfrentar un problema con respuestas o comparar elementos.",
+            "examples": [
+              "vegetación retirada → erosión: causa-efecto",
+              "medidas finales: prevención"
+            ],
+            "memoryAid": "Clasifica por relaciones, no por palabras sueltas."
+          },
+          {
+            "id": "L3.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Usa conectores como pistas, no como prueba única",
+            "body": "Palabras como cuando, si, con el tiempo y por eso orientan. Confirma que las ideas realmente cumplan esa función.",
+            "examples": [
+              "cuando se retiran plantas: condición",
+              "con el tiempo: consecuencia acumulada"
+            ],
+            "memoryAid": "Conector orienta; relación confirma."
+          },
+          {
+            "id": "L3.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.organizacion",
+            "difficulty": 1,
+            "prompt": "¿Qué función cumple «si además el terreno tiene pendiente»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L3-ST05",
+            "hint": "Pregunta si reduce, causa o intensifica.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Presenta una solución definitiva.",
+                "feedback": "Revisa la idea clave. La pendiente no inicia el tema, pero agrava el efecto descrito."
+              },
+              {
+                "id": "b",
+                "text": "Define cobertura vegetal.",
+                "feedback": "Revisa la idea clave. La pendiente no inicia el tema, pero agrava el efecto descrito."
+              },
+              {
+                "id": "c",
+                "text": "Añade una condición que intensifica el desplazamiento.",
+                "feedback": "Correcto. La pendiente no inicia el tema, pero agrava el efecto descrito."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.05-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.organizacion",
+            "difficulty": 1,
+            "prompt": "Ordena la cadena explicada.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST05",
+            "hint": "La pérdida de nutrientes ocurre al final.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Se retira la cobertura vegetal"
+              },
+              {
+                "id": "b",
+                "text": "La lluvia golpea directamente el suelo"
+              },
+              {
+                "id": "c",
+                "text": "Se desprenden y arrastran partículas"
+              },
+              {
+                "id": "d",
+                "text": "Se pierde parte de la capa fértil"
+              },
+              {
+                "id": "e",
+                "text": "Nuevas plantas encuentran menos nutrientes"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e"
+            ],
+            "feedbackCorrect": "Reconstruiste la relación causal completa.",
+            "feedbackIncorrect": "Sigue desde la condición inicial hasta el efecto a largo plazo."
+          },
+          {
+            "id": "L3.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Admite estructuras combinadas",
+            "body": "Un texto puede explicar causas y luego proponer soluciones. Identifica la dominante y señala la secundaria.",
+            "examples": [
+              "Dominante: causa-efecto",
+              "Cierre: problema-prevención"
+            ],
+            "memoryAid": "Una arquitectura puede tener más de una pieza."
+          },
+          {
+            "id": "L3.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.sentido_global.organizacion",
+            "difficulty": 1,
+            "prompt": "¿Qué estructura aparece en el cierre?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST05",
+            "hint": "Busca qué se propone hacer.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Problema-solución mediante vegetación, barreras y protección de superficies.",
+                "feedback": "Correcto. Las últimas acciones responden al riesgo de erosión explicado."
+              },
+              {
+                "id": "b",
+                "text": "Narración de una competencia.",
+                "feedback": "Revisa la idea clave. Las últimas acciones responden al riesgo de erosión explicado."
+              },
+              {
+                "id": "c",
+                "text": "Definición y lista de sinónimos.",
+                "feedback": "Revisa la idea clave. Las últimas acciones responden al riesgo de erosión explicado."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.sentido_global.organizacion",
+            "difficulty": 2,
+            "prompt": "Un lector clasifica el texto como secuencia solo porque dice «con el tiempo». ¿Qué error comete?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST05",
+            "hint": "Mira qué función cumplen los pasos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo texto con tiempo es narrativo.",
+                "feedback": "Revisa la idea clave. Los conectores ayudan, pero la relación global decide la estructura."
+              },
+              {
+                "id": "b",
+                "text": "Usa un conector aislado sin considerar que las etapas explican causas y efectos.",
+                "feedback": "Correcto. Los conectores ayudan, pero la relación global decide la estructura."
+              },
+              {
+                "id": "c",
+                "text": "La frase no contiene palabras.",
+                "feedback": "Revisa la idea clave. Los conectores ayudan, pero la relación global decide la estructura."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.sentido_global.organizacion",
+            "difficulty": 1,
+            "prompt": "¿Para qué sirve la estructura causal en este texto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST05",
+            "hint": "Relaciona explicación y cierre.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Para ocultar el problema.",
+                "feedback": "Revisa la idea clave. Comprender cómo ocurre el daño permite entender por qué las respuestas pueden ayudar."
+              },
+              {
+                "id": "b",
+                "text": "Para enumerar plantas sin relación.",
+                "feedback": "Revisa la idea clave. Comprender cómo ocurre el daño permite entender por qué las respuestas pueden ayudar."
+              },
+              {
+                "id": "c",
+                "text": "Para explicar el mecanismo de la erosión y fundamentar las medidas preventivas.",
+                "feedback": "Correcto. Comprender cómo ocurre el daño permite entender por qué las respuestas pueden ayudar."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.sentido_global.organizacion",
+            "difficulty": 1,
+            "prompt": "¿Cuál evidencia identifica mejor una estructura?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST05",
+            "hint": "Busca un criterio global.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La relación repetida entre componentes y su función respecto del propósito.",
+                "feedback": "Correcto. La estructura es una organización de ideas, no una etiqueta superficial."
+              },
+              {
+                "id": "b",
+                "text": "Una palabra encontrada al azar.",
+                "feedback": "Revisa la idea clave. La estructura es una organización de ideas, no una etiqueta superficial."
+              },
+              {
+                "id": "c",
+                "text": "La cantidad de comas.",
+                "feedback": "Revisa la idea clave. La estructura es una organización de ideas, no una etiqueta superficial."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya ves la arquitectura de las ideas",
+            "body": "Reconociste una estructura causal con cierre preventivo y justificaste la clasificación mediante relaciones, no por una palabra aislada.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L3.06",
+        "globalId": "pe-sec1-lec-L3-06",
+        "sequence": 6,
+        "title": "Parafrasear",
+        "subtitle": "Decirlo de otra manera exige comprender antes de reescribir",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.sentido_global.parafrasis",
+        "learningOutcome": "Reformula ideas con estructura y vocabulario propios sin copiar, alterar el sentido ni ocultar la fuente.",
+        "successEvidence": "Produce una paráfrasis fiel, más clara y suficientemente distinta, y explica qué conservó.",
+        "prerequisites": [
+          "Reconoce idea principal",
+          "Distingue información de fuente"
+        ],
+        "misconceptions": [
+          "Cambiar solo sinónimos",
+          "Agregar una opinión",
+          "Creer que parafrasear elimina la necesidad de citar"
+        ],
+        "screens": [
+          {
+            "id": "L3.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Parafrasear no es maquillar una oración",
+            "body": "Una paráfrasis nace de entender la idea, apartar la vista del original, reorganizarla y comparar ambas versiones. Debe conservar significado y procedencia.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L3.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.sentido_global.parafrasis",
+            "difficulty": 1,
+            "prompt": "¿Cuál paráfrasis conserva mejor la idea central?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L3-ST06",
+            "hint": "Busca todos los componentes esenciales.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Parafrasear es cambiar cada palabra por un sinónimo.",
+                "feedback": "Revisa la idea clave. La opción mantiene comprensión, reorganización y fidelidad."
+              },
+              {
+                "id": "b",
+                "text": "Parafrasear exige comprender y reorganizar una idea sin modificar su significado.",
+                "feedback": "Correcto. La opción mantiene comprensión, reorganización y fidelidad."
+              },
+              {
+                "id": "c",
+                "text": "Parafrasear permite apropiarse de cualquier idea.",
+                "feedback": "Revisa la idea clave. La opción mantiene comprensión, reorganización y fidelidad."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Extrae el núcleo antes de escribir",
+            "body": "Identifica quién o qué, relación central, condiciones y límites. No empieces reemplazando palabra por palabra.",
+            "examples": [
+              "Núcleo: comprender + reorganizar + conservar sentido",
+              "Límite: la idea sigue teniendo fuente"
+            ],
+            "memoryAid": "Primero significado; después redacción."
+          },
+          {
+            "id": "L3.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Cambia estructura, no solo vocabulario",
+            "body": "Puedes invertir el orden, unir o dividir oraciones y usar una formulación propia, siempre que la relación original permanezca.",
+            "examples": [
+              "Original: no basta cambiar sinónimos",
+              "Paráfrasis: reemplazar palabras aisladas no demuestra comprensión"
+            ],
+            "memoryAid": "Otra construcción, misma idea."
+          },
+          {
+            "id": "L3.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.parafrasis",
+            "difficulty": 1,
+            "prompt": "¿Por qué aún debe mencionarse la fuente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L3-ST06",
+            "hint": "Distingue palabras propias de idea ajena.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque toda paráfrasis debe ir entre comillas.",
+                "feedback": "Revisa la idea clave. La autoría de la idea se conserva aunque la expresión cambie."
+              },
+              {
+                "id": "b",
+                "text": "Porque solo se citan palabras difíciles.",
+                "feedback": "Revisa la idea clave. La autoría de la idea se conserva aunque la expresión cambie."
+              },
+              {
+                "id": "c",
+                "text": "Porque cambiar la redacción no convierte en propia la idea original.",
+                "feedback": "Correcto. La autoría de la idea se conserva aunque la expresión cambie."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.06-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.parafrasis",
+            "difficulty": 1,
+            "prompt": "Ordena un proceso seguro de paráfrasis.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST06",
+            "hint": "La comprensión va antes que la escritura.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Leer hasta comprender"
+              },
+              {
+                "id": "b",
+                "text": "Identificar la idea esencial"
+              },
+              {
+                "id": "c",
+                "text": "Apartarse del texto y reorganizar"
+              },
+              {
+                "id": "d",
+                "text": "Comparar sentido y distancia"
+              },
+              {
+                "id": "e",
+                "text": "Registrar la fuente"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e"
+            ],
+            "feedbackCorrect": "La redacción aparece después de comprender y termina con verificación y atribución.",
+            "feedbackIncorrect": "No empieces sustituyendo palabras."
+          },
+          {
+            "id": "L3.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Compara fidelidad y distancia",
+            "body": "Relee original y versión. Corrige copias demasiado cercanas, omisiones importantes o afirmaciones añadidas.",
+            "examples": [
+              "¿Conserva el sentido?",
+              "¿Suena independiente?",
+              "¿Reconoce la fuente?"
+            ],
+            "memoryAid": "Fiel, propia y atribuida."
+          },
+          {
+            "id": "L3.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.sentido_global.parafrasis",
+            "difficulty": 1,
+            "prompt": "Original: «Una paráfrasis no vuelve propia la idea original». ¿Cuál versión es fiel?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST06",
+            "hint": "Conserva el límite sobre procedencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Aunque se exprese con palabras nuevas, la idea continúa perteneciendo a su fuente.",
+                "feedback": "Correcto. La relación entre nueva redacción y autoría se mantiene."
+              },
+              {
+                "id": "b",
+                "text": "Una idea reescrita ya no tiene autor.",
+                "feedback": "Revisa la idea clave. La relación entre nueva redacción y autoría se mantiene."
+              },
+              {
+                "id": "c",
+                "text": "Toda fuente se vuelve innecesaria al resumir.",
+                "feedback": "Revisa la idea clave. La relación entre nueva redacción y autoría se mantiene."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.sentido_global.parafrasis",
+            "difficulty": 2,
+            "prompt": "Una estudiante cambia «comprender» por «entender» y deja idéntico todo lo demás. ¿Qué debe mejorar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST06",
+            "hint": "Compara la arquitectura de ambas oraciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añadir más sinónimos aunque no encajen.",
+                "feedback": "Revisa la idea clave. La cercanía estructural puede seguir siendo copia aunque cambien algunas palabras."
+              },
+              {
+                "id": "b",
+                "text": "Reorganizar la construcción completa después de comprender, no sustituir términos aislados.",
+                "feedback": "Correcto. La cercanía estructural puede seguir siendo copia aunque cambien algunas palabras."
+              },
+              {
+                "id": "c",
+                "text": "Eliminar la referencia a la fuente.",
+                "feedback": "Revisa la idea clave. La cercanía estructural puede seguir siendo copia aunque cambien algunas palabras."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.sentido_global.parafrasis",
+            "difficulty": 1,
+            "prompt": "¿Qué revisión detecta una distorsión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST06",
+            "hint": "Revisa ideas, no solo superficie.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Contar que ambas tengan el mismo número de letras.",
+                "feedback": "Revisa la idea clave. La fidelidad depende del significado completo."
+              },
+              {
+                "id": "b",
+                "text": "Buscar solo palabras repetidas.",
+                "feedback": "Revisa la idea clave. La fidelidad depende del significado completo."
+              },
+              {
+                "id": "c",
+                "text": "Comparar si la nueva versión conserva condiciones, relaciones y límites del original.",
+                "feedback": "Correcto. La fidelidad depende del significado completo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.sentido_global.parafrasis",
+            "difficulty": 1,
+            "prompt": "¿Cuál fórmula resume una buena paráfrasis?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST06",
+            "hint": "Elige la secuencia responsable.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Comprender, reorganizar, conservar el sentido y atribuir.",
+                "feedback": "Correcto. El proceso combina comprensión, independencia textual y reconocimiento de fuente."
+              },
+              {
+                "id": "b",
+                "text": "Copiar, reemplazar y ocultar.",
+                "feedback": "Revisa la idea clave. El proceso combina comprensión, independencia textual y reconocimiento de fuente."
+              },
+              {
+                "id": "c",
+                "text": "Opinar, exagerar y acortar.",
+                "feedback": "Revisa la idea clave. El proceso combina comprensión, independencia textual y reconocimiento de fuente."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reformulas sin copiar ni deformar",
+            "body": "Parafraseaste desde el significado, verificaste fidelidad y mantuviste visible la procedencia de la idea.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L3.07",
+        "globalId": "pe-sec1-lec-L3-07",
+        "sequence": 7,
+        "title": "Resumir",
+        "subtitle": "Un resumen conserva la estructura esencial con menos palabras",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.sentido_global.resumen",
+        "learningOutcome": "Selecciona, jerarquiza y conecta ideas esenciales para producir un resumen fiel, cohesionado y sin información ajena.",
+        "successEvidence": "Redacta un resumen breve que incluye propósito, funcionamiento, condiciones y evaluación del proyecto.",
+        "prerequisites": [
+          "Identifica tema, idea principal y secundarias",
+          "Parafrasea con fidelidad"
+        ],
+        "misconceptions": [
+          "Copiar la primera y última oración",
+          "Acumular detalles sin jerarquía",
+          "Agregar valoración personal"
+        ],
+        "screens": [
+          {
+            "id": "L3.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Resumir es reconstruir en pequeño",
+            "body": "Un resumen no es un texto cortado: conserva el esqueleto. Primero jerarquiza, luego parafrasea y conecta. Al final revisa qué idea esencial falta o qué detalle sobra.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L3.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.sentido_global.resumen",
+            "difficulty": 1,
+            "prompt": "¿Qué idea es imprescindible en el resumen?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L3-ST07",
+            "hint": "Busca lo que define el proyecto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El estante tendrá exactamente un color azul.",
+                "feedback": "Revisa la idea clave. La opción reúne propósito y mecanismo central."
+              },
+              {
+                "id": "b",
+                "text": "El estante permitirá intercambiar libros para ampliar el acceso a lecturas.",
+                "feedback": "Correcto. La opción reúne propósito y mecanismo central."
+              },
+              {
+                "id": "c",
+                "text": "Todos deberán comprar libros nuevos.",
+                "feedback": "Revisa la idea clave. La opción reúne propósito y mecanismo central."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Selecciona con una pregunta de propósito",
+            "body": "Incluye qué se propone, cómo funcionará, qué problema prevé y cómo se evaluará. Elimina ejemplos que no cambian la comprensión.",
+            "examples": [
+              "Propósito: ampliar acceso",
+              "Mecanismo: llevar uno y escoger otro"
+            ],
+            "memoryAid": "Esencial es lo necesario para reconstruir."
+          },
+          {
+            "id": "L3.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Conecta, no apiles",
+            "body": "Usa relaciones claras entre propósito, acciones, condiciones y evaluación. Evita una lista de frases sueltas.",
+            "examples": [
+              "Para..., los participantes...",
+              "Para evitar..., una brigada...",
+              "Luego se evaluará..."
+            ],
+            "memoryAid": "Un resumen también tiene lógica."
+          },
+          {
+            "id": "L3.07-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.resumen",
+            "difficulty": 1,
+            "prompt": "¿Qué detalle ayuda a explicar la sostenibilidad del proyecto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L3-ST07",
+            "hint": "Busca la medida que mantiene el funcionamiento.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El consejo se reunió un martes.",
+                "feedback": "Revisa la idea clave. La brigada responde al riesgo de que el estante se vacíe o deteriore."
+              },
+              {
+                "id": "b",
+                "text": "Los libros estarán cerca de una ventana.",
+                "feedback": "Revisa la idea clave. La brigada responde al riesgo de que el estante se vacíe o deteriore."
+              },
+              {
+                "id": "c",
+                "text": "Una brigada registrará movimientos y organizará donaciones si disminuyen los libros.",
+                "feedback": "Correcto. La brigada responde al riesgo de que el estante se vacíe o deteriore."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.resumen",
+            "difficulty": 1,
+            "prompt": "Relaciona idea y función en el resumen.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST07",
+            "hint": "La evaluación ocurre al terminar el bimestre.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Intercambiar ejemplares",
+                "rightId": "r1",
+                "right": "Funcionamiento"
+              },
+              {
+                "leftId": "l2",
+                "left": "Ampliar acceso",
+                "rightId": "r2",
+                "right": "Propósito"
+              },
+              {
+                "leftId": "l3",
+                "left": "Revisar variedad y estado",
+                "rightId": "r3",
+                "right": "Evaluación"
+              },
+              {
+                "leftId": "l4",
+                "left": "No reemplaza la biblioteca",
+                "rightId": "r4",
+                "right": "Límite"
+              }
+            ],
+            "feedbackCorrect": "Jerarquizaste las piezas esenciales del proyecto.",
+            "feedbackIncorrect": "Cada idea responde una pregunta diferente."
+          },
+          {
+            "id": "L3.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Revisa fidelidad, brevedad y autonomía",
+            "body": "Debe entenderse sin mirar el original, no contener opiniones nuevas y ser claramente más breve.",
+            "examples": [
+              "¿Explica el proyecto?",
+              "¿Agrega algo?",
+              "¿Repite detalles?"
+            ],
+            "memoryAid": "Completo sin ser largo."
+          },
+          {
+            "id": "L3.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.sentido_global.resumen",
+            "difficulty": 1,
+            "prompt": "¿Cuál resumen es más fiel?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST07",
+            "hint": "Comprueba que ninguna idea contradiga el texto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Se propone un estante para intercambiar libros y ampliar lecturas; una brigada cuidará su continuidad y al final se evaluarán uso, variedad y estado.",
+                "feedback": "Correcto. Incluye propósito, mecanismo, mantenimiento y evaluación sin inventar."
+              },
+              {
+                "id": "b",
+                "text": "El proyecto reemplazará la biblioteca y obligará a comprar libros.",
+                "feedback": "Revisa la idea clave. Incluye propósito, mecanismo, mantenimiento y evaluación sin inventar."
+              },
+              {
+                "id": "c",
+                "text": "Los estudiantes quieren un estante porque todos los libros están dañados.",
+                "feedback": "Revisa la idea clave. Incluye propósito, mecanismo, mantenimiento y evaluación sin inventar."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.sentido_global.resumen",
+            "difficulty": 2,
+            "prompt": "Un resumen enumera cada objeto que podría donarse y omite la evaluación. ¿Qué problema presenta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST07",
+            "hint": "Compara detalle hipotético con componente del plan.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Es mejor porque todo resumen debe ser más largo.",
+                "feedback": "Revisa la idea clave. La jerarquización debe privilegiar estructura sobre ejemplos secundarios."
+              },
+              {
+                "id": "b",
+                "text": "Conserva detalles posibles y elimina una etapa esencial del proyecto.",
+                "feedback": "Correcto. La jerarquización debe privilegiar estructura sobre ejemplos secundarios."
+              },
+              {
+                "id": "c",
+                "text": "No hay problema si contiene opiniones.",
+                "feedback": "Revisa la idea clave. La jerarquización debe privilegiar estructura sobre ejemplos secundarios."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.sentido_global.resumen",
+            "difficulty": 1,
+            "prompt": "¿Qué oración debe excluirse por ser opinión ajena?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST07",
+            "hint": "Busca una valoración nueva.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Funcionará como opción adicional.",
+                "feedback": "Revisa la idea clave. La afirmación absoluta no aparece ni está demostrada."
+              },
+              {
+                "id": "b",
+                "text": "Se evaluará al terminar el bimestre.",
+                "feedback": "Revisa la idea clave. La afirmación absoluta no aparece ni está demostrada."
+              },
+              {
+                "id": "c",
+                "text": "El proyecto será sin duda el más exitoso de toda la ciudad.",
+                "feedback": "Correcto. La afirmación absoluta no aparece ni está demostrada."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.sentido_global.resumen",
+            "difficulty": 1,
+            "prompt": "¿Qué secuencia produce un buen resumen?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST07",
+            "hint": "Elige el proceso que conserva el esqueleto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Jerarquizar, parafrasear, conectar y revisar.",
+                "feedback": "Correcto. El resumen surge de comprensión global y control final."
+              },
+              {
+                "id": "b",
+                "text": "Copiar, recortar y pegar.",
+                "feedback": "Revisa la idea clave. El resumen surge de comprensión global y control final."
+              },
+              {
+                "id": "c",
+                "text": "Elegir detalles al azar y opinar.",
+                "feedback": "Revisa la idea clave. El resumen surge de comprensión global y control final."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reconstruyes textos en una versión esencial",
+            "body": "Seleccionaste ideas por función, las conectaste y produjiste una síntesis breve, autónoma y fiel.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L3.08",
+        "globalId": "pe-sec1-lec-L3-08",
+        "sequence": 8,
+        "title": "Concluir",
+        "subtitle": "Una conclusión válida va más allá de repetir, pero no más allá de la evidencia",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.sentido_global.conclusion",
+        "learningOutcome": "Formula conclusiones globales derivadas de varias ideas y distingue conclusiones válidas, exageradas o ajenas.",
+        "successEvidence": "Escribe una conclusión, identifica las premisas que la sostienen y declara sus límites.",
+        "prerequisites": [
+          "Resume el texto",
+          "Distingue evidencia e inferencia"
+        ],
+        "misconceptions": [
+          "Copiar una oración como conclusión",
+          "Generalizar con siempre o nunca",
+          "Introducir una causa no explicada"
+        ],
+        "screens": [
+          {
+            "id": "L3.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Concluir es cerrar un razonamiento",
+            "body": "Si el texto muestra que hábitos, mantenimiento y eficiencia cumplen funciones distintas, una conclusión razonable es que ahorrar energía requiere combinarlos según el contexto.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L3.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.sentido_global.conclusion",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la conclusión global más válida?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L3-ST08",
+            "hint": "Busca una conclusión que reúna todo el texto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Apagar una lámpara soluciona cualquier consumo.",
+                "feedback": "Revisa la idea clave. Integra las líneas de acción y conserva la condición contextual."
+              },
+              {
+                "id": "b",
+                "text": "El ahorro energético mejora cuando se combinan hábitos, mantenimiento y equipos eficientes según el contexto.",
+                "feedback": "Correcto. Integra las líneas de acción y conserva la condición contextual."
+              },
+              {
+                "id": "c",
+                "text": "Todos deben comprar un refrigerador nuevo.",
+                "feedback": "Revisa la idea clave. Integra las líneas de acción y conserva la condición contextual."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Reúne premisas relevantes",
+            "body": "Una conclusión sólida se apoya en más de una idea: luces, iluminación natural, sellos, medición y eficiencia.",
+            "examples": [
+              "Hábitos reducen usos innecesarios",
+              "Mantenimiento evita pérdidas",
+              "Medición prioriza"
+            ],
+            "memoryAid": "Varias pistas, un cierre coherente."
+          },
+          {
+            "id": "L3.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Añade un paso razonado, no información nueva",
+            "body": "La conclusión puede integrar consecuencias de lo leído, pero no inventar cifras, causas o garantías.",
+            "examples": [
+              "Válida: conviene combinar medidas",
+              "Exagerada: apagar una luz resuelve todo"
+            ],
+            "memoryAid": "Deriva, no fabrica."
+          },
+          {
+            "id": "L3.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.conclusion",
+            "difficulty": 1,
+            "prompt": "¿Qué idea funciona como premisa para esa conclusión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L3-ST08",
+            "hint": "Busca el dato sobre mantenimiento.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda casa consume exactamente lo mismo.",
+                "feedback": "Revisa la idea clave. El ejemplo demuestra por qué los hábitos aislados no bastan."
+              },
+              {
+                "id": "b",
+                "text": "La electricidad nunca se mide.",
+                "feedback": "Revisa la idea clave. El ejemplo demuestra por qué los hábitos aislados no bastan."
+              },
+              {
+                "id": "c",
+                "text": "Un sello deteriorado puede hacer que el refrigerador trabaje más.",
+                "feedback": "Correcto. El ejemplo demuestra por qué los hábitos aislados no bastan."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.sentido_global.conclusion",
+            "difficulty": 1,
+            "prompt": "Relaciona afirmación y evaluación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST08",
+            "hint": "La conclusión válida recoge varias secciones.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Combinar medidas según el uso",
+                "rightId": "r1",
+                "right": "Conclusión válida"
+              },
+              {
+                "leftId": "l2",
+                "left": "Apagar una luz resuelve todo",
+                "rightId": "r2",
+                "right": "Exageración"
+              },
+              {
+                "leftId": "l3",
+                "left": "El refrigerador es azul",
+                "rightId": "r3",
+                "right": "Información ajena"
+              }
+            ],
+            "feedbackCorrect": "Diferenciaste integración, exceso y dato inexistente.",
+            "feedbackIncorrect": "Compara cada alcance con la evidencia."
+          },
+          {
+            "id": "L3.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Declara condiciones y límites",
+            "body": "Expresiones como «depende del uso» o «según el equipo» mantienen la conclusión dentro del alcance.",
+            "examples": [
+              "No hay una única acción universal",
+              "La prioridad exige medir"
+            ],
+            "memoryAid": "Cuanto más amplia la afirmación, más evidencia necesita."
+          },
+          {
+            "id": "L3.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.sentido_global.conclusion",
+            "difficulty": 1,
+            "prompt": "¿Qué permite priorizar cambios de mayor impacto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST08",
+            "hint": "Busca la acción que produce evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Medir el consumo e identificar dónde se usa más energía.",
+                "feedback": "Correcto. La medición conecta diagnóstico y decisión."
+              },
+              {
+                "id": "b",
+                "text": "Elegir la acción más popular.",
+                "feedback": "Revisa la idea clave. La medición conecta diagnóstico y decisión."
+              },
+              {
+                "id": "c",
+                "text": "Cambiar todos los equipos sin revisar.",
+                "feedback": "Revisa la idea clave. La medición conecta diagnóstico y decisión."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.sentido_global.conclusion",
+            "difficulty": 2,
+            "prompt": "Un lector concluye: «La iluminación natural siempre elimina la necesidad de lámparas». ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L3-ST08",
+            "hint": "Compara «reduce» con «elimina siempre».",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe cambiar lámparas por refrigeradores.",
+                "feedback": "Revisa la idea clave. El texto habla de reducción, no de eliminación garantizada."
+              },
+              {
+                "id": "b",
+                "text": "La palabra «siempre» excede el texto; la iluminación natural solo puede reducir horas de uso en ciertas condiciones.",
+                "feedback": "Correcto. El texto habla de reducción, no de eliminación garantizada."
+              },
+              {
+                "id": "c",
+                "text": "La conclusión es exacta y universal.",
+                "feedback": "Revisa la idea clave. El texto habla de reducción, no de eliminación garantizada."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L3.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.sentido_global.conclusion",
+            "difficulty": 1,
+            "prompt": "¿Qué conclusión aplicada respeta el texto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST08",
+            "hint": "Mantén diagnóstico y combinación de medidas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe comprar el aparato más caro.",
+                "feedback": "Revisa la idea clave. Traslada el principio a un caso nuevo sin prometer un resultado absoluto."
+              },
+              {
+                "id": "b",
+                "text": "Solo necesita apagar luces durante un día.",
+                "feedback": "Revisa la idea clave. Traslada el principio a un caso nuevo sin prometer un resultado absoluto."
+              },
+              {
+                "id": "c",
+                "text": "Antes de decidir, una escuela debería medir consumos y revisar hábitos y equipos.",
+                "feedback": "Correcto. Traslada el principio a un caso nuevo sin prometer un resultado absoluto."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L3.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.sentido_global.conclusion",
+            "difficulty": 1,
+            "prompt": "¿Qué prueba final debe superar una conclusión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L3-ST08",
+            "hint": "Busca evidencia más alcance controlado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cada parte debe derivarse de evidencia y su alcance no debe superar el del texto.",
+                "feedback": "Correcto. Una conclusión combina inferencia y límites."
+              },
+              {
+                "id": "b",
+                "text": "Debe sonar sorprendente aunque contradiga datos.",
+                "feedback": "Revisa la idea clave. Una conclusión combina inferencia y límites."
+              },
+              {
+                "id": "c",
+                "text": "Debe repetir literalmente el título.",
+                "feedback": "Revisa la idea clave. Una conclusión combina inferencia y límites."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L3.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya cierras el sentido sin exagerar",
+            "body": "Construiste conclusiones desde varias premisas, descartaste generalizaciones y declaraste las condiciones de validez.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}

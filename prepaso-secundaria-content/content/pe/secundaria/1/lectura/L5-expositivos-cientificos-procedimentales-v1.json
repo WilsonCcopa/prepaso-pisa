@@ -1,0 +1,2597 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.7",
+  "locale": "es-PE",
+  "unit": {
+    "id": "L5",
+    "globalId": "pe-sec1-lec-L5",
+    "sequence": 5,
+    "grade": "sec1",
+    "subject": "lectura",
+    "title": "Textos expositivos, científicos y procedimentales",
+    "shortTitle": "Textos científicos",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "Lectura es una ruta especializada de Prepaso dentro del área oficial de Comunicación. L5 organiza progresivamente desempeños del primer grado; no es una unidad oficial obligatoria de MINEDU.",
+    "unitOutcome": "Integra conceptos, criterios, mecanismos, etapas, diagramas y advertencias para comprender explicaciones y ejecutar o adaptar procedimientos.",
+    "finalEvidence": "Explicación reconstruida o ejecución justificada que incluye definición, relaciones, secuencia, evidencias, límites y aplicación.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "area": "Comunicación",
+      "cycle": "VI",
+      "competency": "Lee diversos tipos de textos escritos en su lengua materna",
+      "primaryCapacity": "Las tres capacidades de lectura",
+      "supportingCapacities": [
+        "Obtiene información del texto escrito",
+        "Infiere e interpreta información del texto",
+        "Reflexiona y evalúa la forma, el contenido y contexto del texto"
+      ],
+      "operationalAlignment": "Comprende definiciones, clasificaciones, explicaciones, procesos, textos mixtos y procedimientos; evalúa alcance y aplica mecanismos."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Explorador científico"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todos los estímulos son originales de Prepaso y no reproducen textos ni actividades de materiales de MINEDU.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Orientaciones para el uso pedagógico de los textos de Comunicación (1.° a 5.° de secundaria)",
+        "publisher": "Ministerio de Educación del Perú",
+        "edition": "2026",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/12625"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "L5-ST01",
+        "title": "¿Qué es un polinizador?",
+        "format": "continuous",
+        "genre": "ficha científica",
+        "content": "Un polinizador es un animal que transporta polen desde las estructuras masculinas de una flor hasta las femeninas de la misma u otra flor y favorece la reproducción de muchas plantas. Las abejas, algunas mariposas, ciertos escarabajos, aves y murciélagos pueden cumplir esa función. No todo animal que visita una flor es necesariamente polinizador: debe trasladar polen de manera efectiva. El viento también mueve polen, pero no es un animal y por eso no pertenece a esta categoría.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L5-ST02",
+        "title": "Clasificar los residuos del aula",
+        "format": "discontinuous",
+        "genre": "árbol de clasificación",
+        "content": "Los residuos se separan primero en aprovechables y no aprovechables. Los aprovechables se dividen en reciclables —papel limpio, cartón, vidrio y algunos plásticos— y orgánicos —cáscaras y restos vegetales que pueden compostarse—. Los no aprovechables incluyen papel higiénico usado y materiales contaminados que no pueden recuperarse con el sistema disponible. Un mismo material puede cambiar de categoría según su estado: una hoja limpia puede reciclarse; la misma hoja cubierta de grasa quizá no.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L5-ST03",
+        "title": "Por qué se empaña un vaso",
+        "format": "continuous",
+        "genre": "explicación científica",
+        "content": "El aire contiene vapor de agua aunque no podamos verlo. Cuando el aire cercano a un vaso muy frío pierde temperatura, disminuye la cantidad de vapor que puede mantener en estado gaseoso. Parte del vapor se transforma entonces en pequeñas gotas líquidas sobre la superficie externa. El agua no atravesó el vidrio ni salió de la bebida: provino del aire. Cuanto mayor sea la diferencia de temperatura y suficiente la humedad ambiental, más visible puede ser la condensación.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L5-ST04",
+        "title": "Del grano al pan",
+        "format": "continuous",
+        "genre": "descripción de proceso",
+        "content": "Primero se mezclan harina, agua, levadura y sal hasta formar una masa. Durante el amasado, la mezcla desarrolla una estructura capaz de retener gases. Luego, en el reposo, la levadura transforma azúcares y libera dióxido de carbono; las burbujas hacen crecer la masa. Después se le da forma y se hornea. El calor expande los gases, fija la estructura y produce cambios de color y aroma. Si se omite el reposo, la masa suele crecer menos.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L5-ST05",
+        "title": "Sombra y temperatura",
+        "format": "mixed",
+        "genre": "infografía descrita",
+        "content": "Texto: la sombra reduce la radiación solar directa que recibe una superficie. Diagrama: dos termómetros a las 13:00; patio sin sombra, 36 °C; zona bajo árbol, 29 °C. Una flecha desde la copa indica «bloqueo parcial de radiación» y otra desde las hojas indica «liberación de vapor de agua». Nota: las mediciones corresponden a un solo día, en puntos cercanos pero no idénticos. El texto explica mecanismos; el diagrama aporta comparación numérica y ubicación de los procesos.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L5-ST06",
+        "title": "Preparar un filtro de demostración",
+        "format": "continuous",
+        "genre": "procedimiento escolar",
+        "content": "Materiales: botella cortada por una persona adulta, tela limpia, grava, arena, recipiente y agua con tierra. 1. Coloca la parte superior de la botella invertida sobre el recipiente. 2. Ajusta la tela en la boca para impedir que salga el material. 3. Añade una capa de arena y encima una de grava. 4. Vierte el agua lentamente. Advertencia: el líquido obtenido puede verse más claro, pero no es potable; la actividad solo demuestra separación de partículas y no elimina necesariamente microorganismos ni sustancias disueltas.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L5-ST07",
+        "title": "El alcance de una prueba",
+        "format": "continuous",
+        "genre": "reporte experimental",
+        "content": "Dos macetas de la misma especie recibieron igual cantidad de agua durante catorce días. La maceta A estuvo seis horas diarias bajo luz; la B, dos horas. A produjo cinco hojas nuevas y B produjo dos. El ensayo sugiere que, en estas condiciones, una mayor exposición a la luz se relacionó con más hojas nuevas. Sin embargo, solo se estudiaron dos plantas, no se midió la temperatura exacta y el resultado no permite afirmar que toda especie crecerá igual ni que más luz siempre será mejor.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L5-ST08",
+        "title": "Ventilar un aula",
+        "format": "continuous",
+        "genre": "caso aplicado",
+        "content": "En un aula cerrada, el aire se renueva lentamente y pueden acumularse calor, humedad y sustancias expulsadas al respirar. Abrir puertas y ventanas en lados opuestos facilita una corriente que reemplaza aire interior por exterior. Si solo existe una abertura pequeña, la renovación puede ser menor. En una mañana fría, el grupo necesita mejorar la ventilación sin mantener el aula helada todo el tiempo. Debe elegir entre abrir una sola ventana todo el día, realizar aperturas amplias y breves en momentos planificados, o no abrir nada.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "L5.01",
+        "globalId": "pe-sec1-lec-L5-01",
+        "sequence": 1,
+        "title": "Definición y ejemplo",
+        "subtitle": "Una definición establece rasgos necesarios; los casos permiten probarlos",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.expositivo.definicion_ejemplo",
+        "learningOutcome": "Relaciona definiciones con ejemplos y contraejemplos, aplicando criterios explícitos a casos nuevos.",
+        "successEvidence": "Clasifica casos, señala el rasgo decisivo y corrige una generalización incompatible con la definición.",
+        "prerequisites": [
+          "Localiza información explícita",
+          "Reconoce categoría y ejemplo"
+        ],
+        "misconceptions": [
+          "Clasificar por parecido superficial",
+          "Tratar todo visitante floral como polinizador",
+          "Ignorar un criterio necesario"
+        ],
+        "screens": [
+          {
+            "id": "L5.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Definir permite decidir qué pertenece y qué no",
+            "body": "No basta que un animal se acerque a una flor: para ser polinizador debe transportar polen de manera efectiva y favorecer la reproducción.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L5.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.expositivo.definicion_ejemplo",
+            "difficulty": 1,
+            "prompt": "¿Qué rasgo es indispensable según la definición?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L5-ST01",
+            "hint": "Busca la acción que favorece reproducción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tener siempre alas.",
+                "feedback": "Revisa la idea clave. La función de traslado aparece como condición central."
+              },
+              {
+                "id": "b",
+                "text": "Transportar polen de forma efectiva entre estructuras florales.",
+                "feedback": "Correcto. La función de traslado aparece como condición central."
+              },
+              {
+                "id": "c",
+                "text": "Vivir únicamente en colmenas.",
+                "feedback": "Revisa la idea clave. La función de traslado aparece como condición central."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Extrae los rasgos necesarios",
+            "body": "Subraya categoría general, acción y función. Un caso debe cumplir los criterios relevantes, no solo uno.",
+            "examples": [
+              "animal",
+              "transporta polen",
+              "favorece reproducción"
+            ],
+            "memoryAid": "Definición = criterios de pertenencia."
+          },
+          {
+            "id": "L5.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Usa ejemplos y contraejemplos",
+            "body": "Los ejemplos muestran variedad dentro de la categoría. Los contraejemplos se parecen en algo, pero fallan en un criterio.",
+            "examples": [
+              "Abeja: ejemplo",
+              "Viento: transporta polen, pero no es animal"
+            ],
+            "memoryAid": "Parecido no garantiza pertenencia."
+          },
+          {
+            "id": "L5.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.definicion_ejemplo",
+            "difficulty": 1,
+            "prompt": "¿Por qué el viento no pertenece a la categoría descrita?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L5-ST01",
+            "hint": "Comprueba el primer criterio.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque nunca mueve polen.",
+                "feedback": "Revisa la idea clave. La definición comienza con la categoría «animal»."
+              },
+              {
+                "id": "b",
+                "text": "Porque toda flor está cerrada.",
+                "feedback": "Revisa la idea clave. La definición comienza con la categoría «animal»."
+              },
+              {
+                "id": "c",
+                "text": "Puede mover polen, pero no es un animal.",
+                "feedback": "Correcto. La definición comienza con la categoría «animal»."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.definicion_ejemplo",
+            "difficulty": 1,
+            "prompt": "Relaciona caso y evaluación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST01",
+            "hint": "Visitar no equivale a transportar.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Abeja que lleva polen",
+                "rightId": "r1",
+                "right": "Ejemplo"
+              },
+              {
+                "leftId": "l2",
+                "left": "Viento que mueve polen",
+                "rightId": "r2",
+                "right": "Contraejemplo por categoría"
+              },
+              {
+                "leftId": "l3",
+                "left": "Animal que solo descansa en una flor",
+                "rightId": "r3",
+                "right": "Información insuficiente sobre transporte"
+              }
+            ],
+            "feedbackCorrect": "Aplicaste los criterios y no una semejanza superficial.",
+            "feedbackIncorrect": "Pregunta qué rasgo cumple y cuál falta."
+          },
+          {
+            "id": "L5.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Aplica la definición a un caso nuevo",
+            "body": "No memorices la lista: pregunta si el caso cumple cada rasgo. Si falta información, declara qué dato necesitas.",
+            "examples": [
+              "Ave que transporta polen: posible polinizador",
+              "Animal que visita sin trasladar: no basta"
+            ],
+            "memoryAid": "Criterio antes que nombre."
+          },
+          {
+            "id": "L5.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.expositivo.definicion_ejemplo",
+            "difficulty": 1,
+            "prompt": "Un murciélago lleva polen entre flores. ¿Cómo se clasifica?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST01",
+            "hint": "Aplica rasgos, no prototipos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Como polinizador, porque es animal y cumple la función.",
+                "feedback": "Correcto. La definición no limita la categoría a insectos."
+              },
+              {
+                "id": "b",
+                "text": "No pertenece porque no es insecto.",
+                "feedback": "Revisa la idea clave. La definición no limita la categoría a insectos."
+              },
+              {
+                "id": "c",
+                "text": "No pertenece porque vuela de noche.",
+                "feedback": "Revisa la idea clave. La definición no limita la categoría a insectos."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.expositivo.definicion_ejemplo",
+            "difficulty": 2,
+            "prompt": "Un lector concluye: «Todo animal que toca una flor es polinizador». ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST01",
+            "hint": "Busca la advertencia explícita.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe añadir que todos vuelan.",
+                "feedback": "Revisa la idea clave. La visita es insuficiente sin la función definida."
+              },
+              {
+                "id": "b",
+                "text": "Debe comprobar que transporte polen eficazmente y favorezca la reproducción.",
+                "feedback": "Correcto. La visita es insuficiente sin la función definida."
+              },
+              {
+                "id": "c",
+                "text": "La afirmación coincide exactamente con el texto.",
+                "feedback": "Revisa la idea clave. La visita es insuficiente sin la función definida."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.expositivo.definicion_ejemplo",
+            "difficulty": 1,
+            "prompt": "¿Qué dato faltaría para clasificar a un escarabajo observado sobre una flor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST01",
+            "hint": "Pregunta qué acción define la categoría.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Conocer su nombre popular.",
+                "feedback": "Revisa la idea clave. La evidencia debe responder al criterio funcional."
+              },
+              {
+                "id": "b",
+                "text": "Medir la altura de la planta.",
+                "feedback": "Revisa la idea clave. La evidencia debe responder al criterio funcional."
+              },
+              {
+                "id": "c",
+                "text": "Saber si recoge y traslada polen a otra estructura floral.",
+                "feedback": "Correcto. La evidencia debe responder al criterio funcional."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.expositivo.definicion_ejemplo",
+            "difficulty": 1,
+            "prompt": "¿Qué método aplica bien una definición?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST01",
+            "hint": "Busca un proceso transferible.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Extraer criterios, revisar cada caso y justificar qué cumple o falta.",
+                "feedback": "Correcto. La clasificación requiere reglas explícitas."
+              },
+              {
+                "id": "b",
+                "text": "Elegir por apariencia.",
+                "feedback": "Revisa la idea clave. La clasificación requiere reglas explícitas."
+              },
+              {
+                "id": "c",
+                "text": "Memorizar un ejemplo y rechazar todos los demás.",
+                "feedback": "Revisa la idea clave. La clasificación requiere reglas explícitas."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya usas definiciones como herramientas",
+            "body": "Extrajiste criterios, clasificaste ejemplos y contraejemplos y declaraste cuándo faltaba evidencia.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L5.02",
+        "globalId": "pe-sec1-lec-L5-02",
+        "sequence": 2,
+        "title": "Clasificación",
+        "subtitle": "Clasificar organiza elementos por criterios y niveles",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.expositivo.clasificacion",
+        "learningOutcome": "Interpreta categorías jerárquicas, criterios de separación y condiciones que pueden cambiar la clasificación.",
+        "successEvidence": "Completa un árbol de clasificación y explica el recorrido de un caso desde la categoría general hasta la específica.",
+        "prerequisites": [
+          "Distingue categoría y ejemplo",
+          "Aplica definiciones"
+        ],
+        "misconceptions": [
+          "Mezclar niveles jerárquicos",
+          "Usar criterios distintos en una misma división",
+          "Ignorar el estado del material"
+        ],
+        "screens": [
+          {
+            "id": "L5.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un árbol de clasificación responde varias preguntas en orden",
+            "body": "Primero se pregunta si un residuo es aprovechable. Si lo es, se distingue entre reciclable y orgánico. Cada nivel usa un criterio y conduce a una categoría más específica.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L5.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.expositivo.clasificacion",
+            "difficulty": 1,
+            "prompt": "¿Cuál es una subcategoría de aprovechables?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L5-ST02",
+            "hint": "Busca el nivel inmediatamente inferior.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Papel higiénico usado.",
+                "feedback": "Revisa la idea clave. El árbol divide aprovechables en reciclables y orgánicos."
+              },
+              {
+                "id": "b",
+                "text": "Reciclables.",
+                "feedback": "Correcto. El árbol divide aprovechables en reciclables y orgánicos."
+              },
+              {
+                "id": "c",
+                "text": "Todos los residuos del mundo.",
+                "feedback": "Revisa la idea clave. El árbol divide aprovechables en reciclables y orgánicos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Distingue nivel y ejemplo",
+            "body": "«Aprovechable» es una categoría amplia; «reciclable» es una subcategoría; «papel limpio» es un ejemplo.",
+            "examples": [
+              "categoría → subcategoría → caso",
+              "aprovechable → reciclable → cartón"
+            ],
+            "memoryAid": "No pongas caso y categoría al mismo nivel."
+          },
+          {
+            "id": "L5.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Mantén un criterio por división",
+            "body": "Una separación clara aplica la misma pregunta a todos los elementos de ese nivel.",
+            "examples": [
+              "¿Puede recuperarse?",
+              "Si sí: ¿reciclaje o compostaje?"
+            ],
+            "memoryAid": "Cada bifurcación responde una pregunta."
+          },
+          {
+            "id": "L5.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.clasificacion",
+            "difficulty": 1,
+            "prompt": "¿Dónde se ubican las cáscaras vegetales?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L5-ST02",
+            "hint": "Sigue el recorrido por posibilidad de aprovechamiento.",
+            "options": [
+              {
+                "id": "a",
+                "text": "No aprovechables → vidrio.",
+                "feedback": "Revisa la idea clave. Pueden compostarse y pertenecen a la rama orgánica."
+              },
+              {
+                "id": "b",
+                "text": "Reciclables → metal.",
+                "feedback": "Revisa la idea clave. Pueden compostarse y pertenecen a la rama orgánica."
+              },
+              {
+                "id": "c",
+                "text": "Aprovechables → orgánicos.",
+                "feedback": "Correcto. Pueden compostarse y pertenecen a la rama orgánica."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.clasificacion",
+            "difficulty": 1,
+            "prompt": "Relaciona elemento y posición.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST02",
+            "hint": "Los restos vegetales pueden compostarse.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Cartón limpio",
+                "rightId": "r1",
+                "right": "Reciclable"
+              },
+              {
+                "leftId": "l2",
+                "left": "Cáscara de fruta",
+                "rightId": "r2",
+                "right": "Orgánico"
+              },
+              {
+                "leftId": "l3",
+                "left": "Papel higiénico usado",
+                "rightId": "r3",
+                "right": "No aprovechable"
+              }
+            ],
+            "feedbackCorrect": "Ubicaste casos en categorías del mismo nivel final.",
+            "feedbackIncorrect": "Considera material, estado y vía de recuperación."
+          },
+          {
+            "id": "L5.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "El contexto puede cambiar el recorrido",
+            "body": "El estado y el sistema disponible importan. El mismo material limpio o contaminado puede terminar en ramas distintas.",
+            "examples": [
+              "papel limpio: reciclable",
+              "papel con grasa: quizá no aprovechable"
+            ],
+            "memoryAid": "Clasifica el caso real, no solo su nombre."
+          },
+          {
+            "id": "L5.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.expositivo.clasificacion",
+            "difficulty": 1,
+            "prompt": "¿Qué criterio separa primero el árbol?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST02",
+            "hint": "Mira las dos ramas principales.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si el residuo puede aprovecharse con el sistema disponible.",
+                "feedback": "Correcto. La primera división es aprovechable/no aprovechable."
+              },
+              {
+                "id": "b",
+                "text": "Su color.",
+                "feedback": "Revisa la idea clave. La primera división es aprovechable/no aprovechable."
+              },
+              {
+                "id": "c",
+                "text": "La letra inicial de su nombre.",
+                "feedback": "Revisa la idea clave. La primera división es aprovechable/no aprovechable."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.expositivo.clasificacion",
+            "difficulty": 2,
+            "prompt": "Alguien clasifica toda hoja de papel como reciclable. ¿Qué condición omite?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST02",
+            "hint": "Busca la excepción final.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El tamaño del aula.",
+                "feedback": "Revisa la idea clave. El texto advierte que un material cambia de categoría según su estado."
+              },
+              {
+                "id": "b",
+                "text": "Su estado: si está contaminada con grasa puede no recuperarse en ese sistema.",
+                "feedback": "Correcto. El texto advierte que un material cambia de categoría según su estado."
+              },
+              {
+                "id": "c",
+                "text": "La edad de quien la usó.",
+                "feedback": "Revisa la idea clave. El texto advierte que un material cambia de categoría según su estado."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.expositivo.clasificacion",
+            "difficulty": 1,
+            "prompt": "¿Qué ruta corresponde a una botella de vidrio limpia y aceptada por el sistema?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST02",
+            "hint": "Avanza desde lo general a lo específico.",
+            "options": [
+              {
+                "id": "a",
+                "text": "No aprovechable → orgánico.",
+                "feedback": "Revisa la idea clave. Cumple la primera condición y pertenece al material reciclable."
+              },
+              {
+                "id": "b",
+                "text": "Aprovechable → cáscara.",
+                "feedback": "Revisa la idea clave. Cumple la primera condición y pertenece al material reciclable."
+              },
+              {
+                "id": "c",
+                "text": "Aprovechable → reciclable → vidrio.",
+                "feedback": "Correcto. Cumple la primera condición y pertenece al material reciclable."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.expositivo.clasificacion",
+            "difficulty": 1,
+            "prompt": "¿Qué hace coherente una clasificación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST02",
+            "hint": "Busca reglas y niveles consistentes.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Criterios explícitos, categorías no mezcladas y casos ubicados según sus rasgos.",
+                "feedback": "Correcto. La estructura debe permitir repetir la decisión."
+              },
+              {
+                "id": "b",
+                "text": "Una lista sin relaciones.",
+                "feedback": "Revisa la idea clave. La estructura debe permitir repetir la decisión."
+              },
+              {
+                "id": "c",
+                "text": "Cambiar de criterio para favorecer cada caso.",
+                "feedback": "Revisa la idea clave. La estructura debe permitir repetir la decisión."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya recorres y construyes árboles de clasificación",
+            "body": "Diferenciaste niveles, seguiste criterios y consideraste cómo el estado de un material modifica su categoría.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L5.03",
+        "globalId": "pe-sec1-lec-L5-03",
+        "sequence": 3,
+        "title": "Explicación causal",
+        "subtitle": "Una explicación científica conecta condiciones, mecanismo y resultado",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.expositivo.explicacion_causal",
+        "learningOutcome": "Reconstruye cadenas causales distinguiendo condición, mecanismo, transformación y efecto observable.",
+        "successEvidence": "Ordena el modelo causal de un fenómeno y refuta una explicación incompatible con el mecanismo.",
+        "prerequisites": [
+          "Deduce causa y consecuencia",
+          "Reconoce conectores causales"
+        ],
+        "misconceptions": [
+          "Nombrar solo inicio y final",
+          "Confundir lugar de las gotas con su origen",
+          "Convertir una condición en causa única"
+        ],
+        "screens": [
+          {
+            "id": "L5.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Explicar no es decir que dos hechos ocurren juntos",
+            "body": "El vaso frío no «crea» agua. Enfría el aire cercano; ese aire puede mantener menos vapor y parte cambia a líquido sobre la superficie.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L5.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.expositivo.explicacion_causal",
+            "difficulty": 1,
+            "prompt": "¿De dónde provienen las gotas externas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L5-ST03",
+            "hint": "Distingue lugar donde aparecen y origen material.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Del interior del vaso atravesando el vidrio.",
+                "feedback": "Revisa la idea clave. El texto identifica explícitamente el aire como fuente."
+              },
+              {
+                "id": "b",
+                "text": "Del vapor de agua presente en el aire cercano.",
+                "feedback": "Correcto. El texto identifica explícitamente el aire como fuente."
+              },
+              {
+                "id": "c",
+                "text": "De una grieta mencionada en el texto.",
+                "feedback": "Revisa la idea clave. El texto identifica explícitamente el aire como fuente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Ubica condición y fuente",
+            "body": "La condición es el vaso frío; la fuente del agua es el vapor presente en el aire.",
+            "examples": [
+              "condición térmica",
+              "materia: vapor ambiental"
+            ],
+            "memoryAid": "Pregunta de dónde viene y qué cambia."
+          },
+          {
+            "id": "L5.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Haz visible el mecanismo",
+            "body": "Entre causa y efecto ocurre una transformación: pérdida de temperatura, menor capacidad de mantener vapor y condensación.",
+            "examples": [
+              "aire se enfría",
+              "vapor pasa a gotas"
+            ],
+            "memoryAid": "El mecanismo llena el «porque»."
+          },
+          {
+            "id": "L5.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.explicacion_causal",
+            "difficulty": 1,
+            "prompt": "¿Qué ocurre cuando el aire cercano se enfría?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L5-ST03",
+            "hint": "Busca el paso anterior a las gotas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El vidrio comienza a producir agua.",
+                "feedback": "Revisa la idea clave. Ese cambio permite que parte del vapor se vuelva líquido."
+              },
+              {
+                "id": "b",
+                "text": "Todo el aire desaparece.",
+                "feedback": "Revisa la idea clave. Ese cambio permite que parte del vapor se vuelva líquido."
+              },
+              {
+                "id": "c",
+                "text": "Puede mantener menos vapor en estado gaseoso.",
+                "feedback": "Correcto. Ese cambio permite que parte del vapor se vuelva líquido."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.03-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.explicacion_causal",
+            "difficulty": 1,
+            "prompt": "Ordena el mecanismo.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST03",
+            "hint": "Antes de las gotas, el vapor cambia de estado.",
+            "items": [
+              {
+                "id": "a",
+                "text": "El vaso enfría el aire cercano"
+              },
+              {
+                "id": "b",
+                "text": "El aire reduce su capacidad de mantener vapor"
+              },
+              {
+                "id": "c",
+                "text": "Parte del vapor cambia a líquido"
+              },
+              {
+                "id": "d",
+                "text": "Aparecen gotas en la superficie externa"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "feedbackCorrect": "Reconstruiste condición, mecanismo, transformación y evidencia.",
+            "feedbackIncorrect": "La observación visible ocurre al final."
+          },
+          {
+            "id": "L5.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Reconoce factores que intensifican",
+            "body": "Diferencia de temperatura y humedad pueden hacer más visible el fenómeno, pero el texto no afirma una cantidad exacta.",
+            "examples": [
+              "más contraste térmico",
+              "humedad suficiente"
+            ],
+            "memoryAid": "Factor que influye no siempre garantiza."
+          },
+          {
+            "id": "L5.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.expositivo.explicacion_causal",
+            "difficulty": 1,
+            "prompt": "¿Qué explicación descarta directamente el texto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST03",
+            "hint": "Busca una negación explícita.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El agua de la bebida atravesó el vidrio.",
+                "feedback": "Correcto. Se aclara que el agua no salió de la bebida."
+              },
+              {
+                "id": "b",
+                "text": "El aire contiene vapor invisible.",
+                "feedback": "Revisa la idea clave. Se aclara que el agua no salió de la bebida."
+              },
+              {
+                "id": "c",
+                "text": "La condensación ocurre fuera.",
+                "feedback": "Revisa la idea clave. Se aclara que el agua no salió de la bebida."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.expositivo.explicacion_causal",
+            "difficulty": 2,
+            "prompt": "Un lector resume: «El frío causa agua». ¿Qué falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST03",
+            "hint": "Nombra fuente y transformación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añadir que todo frío es idéntico.",
+                "feedback": "Revisa la idea clave. Sin mecanismo, la frase puede sugerir una creación imposible."
+              },
+              {
+                "id": "b",
+                "text": "Precisar que enfría aire con vapor y provoca un cambio de estado; no crea materia.",
+                "feedback": "Correcto. Sin mecanismo, la frase puede sugerir una creación imposible."
+              },
+              {
+                "id": "c",
+                "text": "Eliminar el aire de la explicación.",
+                "feedback": "Revisa la idea clave. Sin mecanismo, la frase puede sugerir una creación imposible."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.expositivo.explicacion_causal",
+            "difficulty": 1,
+            "prompt": "¿Qué condición puede hacer más visibles las gotas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST03",
+            "hint": "Busca la oración final.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que el vaso tenga letras.",
+                "feedback": "Revisa la idea clave. El texto menciona ambas condiciones como factores."
+              },
+              {
+                "id": "b",
+                "text": "Que la bebida sea dulce necesariamente.",
+                "feedback": "Revisa la idea clave. El texto menciona ambas condiciones como factores."
+              },
+              {
+                "id": "c",
+                "text": "Mayor diferencia de temperatura y suficiente humedad ambiental.",
+                "feedback": "Correcto. El texto menciona ambas condiciones como factores."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.expositivo.explicacion_causal",
+            "difficulty": 1,
+            "prompt": "¿Qué estructura debe tener una explicación causal completa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST03",
+            "hint": "Busca un puente entre inicio y final.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Condición inicial, mecanismo intermedio, efecto y evidencia observable.",
+                "feedback": "Correcto. La explicación muestra cómo se produce el resultado."
+              },
+              {
+                "id": "b",
+                "text": "Dos hechos unidos por «porque» sin relación.",
+                "feedback": "Revisa la idea clave. La explicación muestra cómo se produce el resultado."
+              },
+              {
+                "id": "c",
+                "text": "Solo el nombre del fenómeno.",
+                "feedback": "Revisa la idea clave. La explicación muestra cómo se produce el resultado."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reconstruyes mecanismos, no solo resultados",
+            "body": "Seguiste el vapor desde el aire hasta las gotas y explicaste cada transformación sin inventar una fuente de agua.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L5.04",
+        "globalId": "pe-sec1-lec-L5-04",
+        "sequence": 4,
+        "title": "Proceso",
+        "subtitle": "Un proceso integra etapas, transformaciones y condiciones",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.expositivo.proceso",
+        "learningOutcome": "Reconstruye etapas de un proceso científico o técnico y explica la función de cada una.",
+        "successEvidence": "Crea una secuencia completa que conecta materiales, transformaciones y producto final.",
+        "prerequisites": [
+          "Ordena secuencias",
+          "Comprende explicaciones causales"
+        ],
+        "misconceptions": [
+          "Ordenar solo por conectores",
+          "Confundir etapa con resultado",
+          "Omitir una fase que explica la transformación"
+        ],
+        "screens": [
+          {
+            "id": "L5.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una lista de pasos dice qué ocurre; un proceso explica qué cambia",
+            "body": "La masa no solo se mezcla y hornea: desarrolla estructura, produce gases en el reposo y fija esa estructura con calor.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L5.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.expositivo.proceso",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la primera etapa descrita?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L5-ST04",
+            "hint": "Busca la entrada del proceso.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hornear la masa.",
+                "feedback": "Revisa la idea clave. La mezcla crea la masa sobre la que actúan las etapas posteriores."
+              },
+              {
+                "id": "b",
+                "text": "Mezclar harina, agua, levadura y sal.",
+                "feedback": "Correcto. La mezcla crea la masa sobre la que actúan las etapas posteriores."
+              },
+              {
+                "id": "c",
+                "text": "Esperar a que se enfríe el pan.",
+                "feedback": "Revisa la idea clave. La mezcla crea la masa sobre la que actúan las etapas posteriores."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Identifica entrada, etapa y salida",
+            "body": "Cada etapa recibe un estado, aplica una acción o condición y produce un cambio para la siguiente.",
+            "examples": [
+              "ingredientes → mezcla",
+              "masa reposada → masa con burbujas"
+            ],
+            "memoryAid": "Qué entra, qué cambia, qué sale."
+          },
+          {
+            "id": "L5.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Relaciona función y posición",
+            "body": "El amasado prepara una estructura; el reposo permite producir y retener gas; el horneado expande y fija.",
+            "examples": [
+              "amasado antes del reposo",
+              "horneado después del crecimiento"
+            ],
+            "memoryAid": "El orden tiene razón, no solo número."
+          },
+          {
+            "id": "L5.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.proceso",
+            "difficulty": 1,
+            "prompt": "¿Qué función cumple el reposo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L5-ST04",
+            "hint": "Relaciona levadura con burbujas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Fija definitivamente la estructura por calor.",
+                "feedback": "Revisa la idea clave. Durante esa etapa ocurre fermentación y expansión previa."
+              },
+              {
+                "id": "b",
+                "text": "Solo cambia el color.",
+                "feedback": "Revisa la idea clave. Durante esa etapa ocurre fermentación y expansión previa."
+              },
+              {
+                "id": "c",
+                "text": "Permite que la levadura libere gas y que las burbujas hagan crecer la masa.",
+                "feedback": "Correcto. Durante esa etapa ocurre fermentación y expansión previa."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.04-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.proceso",
+            "difficulty": 1,
+            "prompt": "Ordena las etapas.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST04",
+            "hint": "Dar forma ocurre después del reposo.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Mezclar ingredientes"
+              },
+              {
+                "id": "b",
+                "text": "Amasar y desarrollar estructura"
+              },
+              {
+                "id": "c",
+                "text": "Dejar reposar y formar gas"
+              },
+              {
+                "id": "d",
+                "text": "Dar forma"
+              },
+              {
+                "id": "e",
+                "text": "Hornear y fijar"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e"
+            ],
+            "feedbackCorrect": "Reconstruiste la secuencia funcional.",
+            "feedbackIncorrect": "El gas debe formarse antes de que el calor fije la estructura."
+          },
+          {
+            "id": "L5.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Prueba con una omisión",
+            "body": "Preguntar qué pasaría si falta una etapa ayuda a comprender su función.",
+            "examples": [
+              "sin reposo: menos crecimiento",
+              "sin calor: no se fija la estructura"
+            ],
+            "memoryAid": "La consecuencia revela para qué sirve."
+          },
+          {
+            "id": "L5.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.expositivo.proceso",
+            "difficulty": 1,
+            "prompt": "¿Qué transformación produce la levadura?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST04",
+            "hint": "Busca la explicación de las burbujas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Transforma azúcares y libera dióxido de carbono.",
+                "feedback": "Correcto. El gas liberado forma burbujas que expanden la masa."
+              },
+              {
+                "id": "b",
+                "text": "Convierte el pan en agua.",
+                "feedback": "Revisa la idea clave. El gas liberado forma burbujas que expanden la masa."
+              },
+              {
+                "id": "c",
+                "text": "Elimina toda estructura.",
+                "feedback": "Revisa la idea clave. El gas liberado forma burbujas que expanden la masa."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.expositivo.proceso",
+            "difficulty": 2,
+            "prompt": "Un diagrama coloca el horneado antes del reposo. ¿Qué problema crea?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST04",
+            "hint": "Pregunta qué debe ocurrir antes de fijar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mejora necesariamente todo pan.",
+                "feedback": "Revisa la idea clave. El orden del proceso depende de la función de cada etapa."
+              },
+              {
+                "id": "b",
+                "text": "Fija la estructura antes de que la levadura produzca el crecimiento esperado.",
+                "feedback": "Correcto. El orden del proceso depende de la función de cada etapa."
+              },
+              {
+                "id": "c",
+                "text": "No cambia ninguna relación.",
+                "feedback": "Revisa la idea clave. El orden del proceso depende de la función de cada etapa."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.expositivo.proceso",
+            "difficulty": 1,
+            "prompt": "¿Qué predicción está apoyada por el texto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST04",
+            "hint": "Busca una relación de omisión.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sin reposo, siempre explota.",
+                "feedback": "Revisa la idea clave. La última oración explicita esa consecuencia con alcance prudente."
+              },
+              {
+                "id": "b",
+                "text": "El color nunca cambia con calor.",
+                "feedback": "Revisa la idea clave. La última oración explicita esa consecuencia con alcance prudente."
+              },
+              {
+                "id": "c",
+                "text": "Si se omite el reposo, la masa suele crecer menos.",
+                "feedback": "Correcto. La última oración explicita esa consecuencia con alcance prudente."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.expositivo.proceso",
+            "difficulty": 1,
+            "prompt": "¿Qué representación explica mejor un proceso?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST04",
+            "hint": "Busca orden más mecanismo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Etapas ordenadas con el cambio y la función de cada una.",
+                "feedback": "Correcto. Comprender exige secuencia y transformación."
+              },
+              {
+                "id": "b",
+                "text": "Lista de ingredientes sin acciones.",
+                "feedback": "Revisa la idea clave. Comprender exige secuencia y transformación."
+              },
+              {
+                "id": "c",
+                "text": "Fotografía final sin recorrido.",
+                "feedback": "Revisa la idea clave. Comprender exige secuencia y transformación."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees procesos como cadenas de transformación",
+            "body": "Ordenaste etapas y explicaste por qué mezcla, amasado, reposo y calor ocupan posiciones diferentes.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L5.05",
+        "globalId": "pe-sec1-lec-L5-05",
+        "sequence": 5,
+        "title": "Texto y diagrama",
+        "subtitle": "Los modos se complementan: uno explica y otro hace visible",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.expositivo.texto_diagrama",
+        "learningOutcome": "Integra información verbal y gráfica, distinguiendo qué aporta cada modo y qué conclusión requiere ambos.",
+        "successEvidence": "Responde una pregunta combinada con un dato del diagrama y una explicación del texto.",
+        "prerequisites": [
+          "Lee datos básicos",
+          "Comprende explicaciones causales"
+        ],
+        "misconceptions": [
+          "Leer solo el elemento más llamativo",
+          "Atribuir al gráfico una causa que no muestra",
+          "Ignorar notas y límites"
+        ],
+        "screens": [
+          {
+            "id": "L5.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El número responde cuánto; el texto puede explicar por qué",
+            "body": "Los termómetros muestran 36 °C y 29 °C; las flechas y el texto proponen mecanismos relacionados con radiación y vapor de agua. Ningún modo por sí solo ofrece toda la respuesta.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L5.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.expositivo.texto_diagrama",
+            "difficulty": 1,
+            "prompt": "¿Qué aporta principalmente el diagrama?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L5-ST05",
+            "hint": "Busca números y posiciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La historia de quién plantó el árbol.",
+                "feedback": "Revisa la idea clave. Los termómetros y flechas hacen visibles valores y relaciones espaciales."
+              },
+              {
+                "id": "b",
+                "text": "Una comparación numérica de temperatura y la ubicación de dos procesos.",
+                "feedback": "Correcto. Los termómetros y flechas hacen visibles valores y relaciones espaciales."
+              },
+              {
+                "id": "c",
+                "text": "Una regla universal para todos los días.",
+                "feedback": "Revisa la idea clave. Los termómetros y flechas hacen visibles valores y relaciones espaciales."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Asigna una función a cada modo",
+            "body": "El diagrama compara valores y ubica procesos; el texto desarrolla el mecanismo de la sombra.",
+            "examples": [
+              "Dato: diferencia de 7 °C",
+              "Mecanismo: menos radiación directa"
+            ],
+            "memoryAid": "Pregunta qué ves y qué comprendes."
+          },
+          {
+            "id": "L5.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Construye una respuesta puente",
+            "body": "Combina evidencia visual y explicación verbal mediante una relación explícita.",
+            "examples": [
+              "Bajo el árbol hubo 29 °C",
+              "La copa bloquea parte de la radiación"
+            ],
+            "memoryAid": "Dato + mecanismo + conclusión."
+          },
+          {
+            "id": "L5.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.texto_diagrama",
+            "difficulty": 1,
+            "prompt": "¿Qué aporta el texto que los termómetros no muestran por sí solos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L5-ST05",
+            "hint": "Distingue dato de mecanismo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que 36 es mayor que 29.",
+                "feedback": "Revisa la idea clave. El texto introduce una explicación del contraste."
+              },
+              {
+                "id": "b",
+                "text": "Que existen dos termómetros.",
+                "feedback": "Revisa la idea clave. El texto introduce una explicación del contraste."
+              },
+              {
+                "id": "c",
+                "text": "Que la sombra reduce radiación solar directa sobre la superficie.",
+                "feedback": "Correcto. El texto introduce una explicación del contraste."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.texto_diagrama",
+            "difficulty": 1,
+            "prompt": "Relaciona elemento y aporte.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST05",
+            "hint": "La nota no explica el mecanismo; limita la conclusión.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "36 °C y 29 °C",
+                "rightId": "r1",
+                "right": "Comparación cuantitativa"
+              },
+              {
+                "leftId": "l2",
+                "left": "Flecha desde la copa",
+                "rightId": "r2",
+                "right": "Ubicación del bloqueo parcial"
+              },
+              {
+                "leftId": "l3",
+                "left": "Nota de un solo día",
+                "rightId": "r3",
+                "right": "Límite de alcance"
+              }
+            ],
+            "feedbackCorrect": "Leíste números, relaciones y advertencias.",
+            "feedbackIncorrect": "Cada elemento cumple una función distinta."
+          },
+          {
+            "id": "L5.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Lee notas y alcance",
+            "body": "La medición de un día y en puntos no idénticos limita una generalización. El gráfico ilustra un caso, no una ley universal exacta.",
+            "examples": [
+              "un solo día",
+              "puntos cercanos, no idénticos"
+            ],
+            "memoryAid": "Toda visualización tiene condiciones."
+          },
+          {
+            "id": "L5.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.expositivo.texto_diagrama",
+            "difficulty": 1,
+            "prompt": "¿Cuál respuesta integra ambos modos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST05",
+            "hint": "Incluye un dato y una explicación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La zona bajo el árbol registró 7 °C menos y el texto lo relaciona con menor radiación directa y liberación de vapor.",
+                "feedback": "Correcto. Usa el contraste cuantitativo y los mecanismos representados."
+              },
+              {
+                "id": "b",
+                "text": "Bajo el árbol hizo frío porque sí.",
+                "feedback": "Revisa la idea clave. Usa el contraste cuantitativo y los mecanismos representados."
+              },
+              {
+                "id": "c",
+                "text": "El texto menciona sombra.",
+                "feedback": "Revisa la idea clave. Usa el contraste cuantitativo y los mecanismos representados."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.expositivo.texto_diagrama",
+            "difficulty": 2,
+            "prompt": "Un lector concluye que cualquier árbol reduce exactamente 7 °C todos los días. ¿Qué omite?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST05",
+            "hint": "Lee la nota metodológica.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los números están prohibidos.",
+                "feedback": "Revisa la idea clave. El caso apoya una relación, no una magnitud fija para todo contexto."
+              },
+              {
+                "id": "b",
+                "text": "La medición corresponde a un día y a puntos no idénticos, por lo que no permite esa regla universal.",
+                "feedback": "Correcto. El caso apoya una relación, no una magnitud fija para todo contexto."
+              },
+              {
+                "id": "c",
+                "text": "La sombra nunca influye.",
+                "feedback": "Revisa la idea clave. El caso apoya una relación, no una magnitud fija para todo contexto."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.expositivo.texto_diagrama",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta requiere necesariamente texto y diagrama?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST05",
+            "hint": "Busca una pregunta de dos componentes.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Cuál número es mayor?",
+                "feedback": "Revisa la idea clave. La primera parte usa valores; la segunda, explicación verbal y flechas."
+              },
+              {
+                "id": "b",
+                "text": "¿Qué palabra inicia el título?",
+                "feedback": "Revisa la idea clave. La primera parte usa valores; la segunda, explicación verbal y flechas."
+              },
+              {
+                "id": "c",
+                "text": "¿Cuánta diferencia hubo y qué mecanismos propuestos pueden explicarla?",
+                "feedback": "Correcto. La primera parte usa valores; la segunda, explicación verbal y flechas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.expositivo.texto_diagrama",
+            "difficulty": 1,
+            "prompt": "¿Qué método mejora la lectura multimodal?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST05",
+            "hint": "Busca modos, relación y límites.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Leer cada modo, identificar su aporte y unirlos sin exceder las notas.",
+                "feedback": "Correcto. Integrar significa coordinar evidencias complementarias."
+              },
+              {
+                "id": "b",
+                "text": "Mirar solo la imagen.",
+                "feedback": "Revisa la idea clave. Integrar significa coordinar evidencias complementarias."
+              },
+              {
+                "id": "c",
+                "text": "Copiar solo el párrafo.",
+                "feedback": "Revisa la idea clave. Integrar significa coordinar evidencias complementarias."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya haces conversar texto y diagrama",
+            "body": "Combinaste valores, mecanismos y límites para construir una respuesta que ningún modo ofrecía por separado.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L5.06",
+        "globalId": "pe-sec1-lec-L5-06",
+        "sequence": 6,
+        "title": "Procedimiento",
+        "subtitle": "Seguir instrucciones exige comprender materiales, orden, condiciones y advertencias",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.expositivo.procedimiento",
+        "learningOutcome": "Interpreta procedimientos, identifica pasos críticos y explica consecuencias de omitir o alterar una instrucción.",
+        "successEvidence": "Simula la ejecución en orden, justifica un paso crítico y respeta la advertencia de seguridad.",
+        "prerequisites": [
+          "Reconstruye procesos",
+          "Localiza condiciones explícitas"
+        ],
+        "misconceptions": [
+          "Tratar advertencias como detalles",
+          "Cambiar el orden sin evaluar consecuencias",
+          "Confundir claridad visual con potabilidad"
+        ],
+        "screens": [
+          {
+            "id": "L5.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un procedimiento no solo enumera: controla una ejecución",
+            "body": "La tela debe ajustarse antes de añadir arena y grava; de otro modo, el material podría salir. La advertencia final limita el uso del resultado aunque el agua se vea clara.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L5.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.expositivo.procedimiento",
+            "difficulty": 1,
+            "prompt": "¿Qué material debe ser preparado por una persona adulta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L5-ST06",
+            "hint": "Busca la condición en la lista de materiales.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La arena.",
+                "feedback": "Revisa la idea clave. El texto asigna esa tarea para reducir riesgo."
+              },
+              {
+                "id": "b",
+                "text": "La botella cortada.",
+                "feedback": "Correcto. El texto asigna esa tarea para reducir riesgo."
+              },
+              {
+                "id": "c",
+                "text": "El agua con tierra.",
+                "feedback": "Revisa la idea clave. El texto asigna esa tarea para reducir riesgo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Prepara antes de ejecutar",
+            "body": "Revisa materiales, tareas que requieren una persona adulta y condiciones de seguridad.",
+            "examples": [
+              "botella ya cortada por adulto",
+              "recipiente estable"
+            ],
+            "memoryAid": "Antes del paso 1, confirma lo necesario."
+          },
+          {
+            "id": "L5.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Identifica dependencias",
+            "body": "Un paso es crítico si los siguientes dependen de él o si evita un riesgo.",
+            "examples": [
+              "tela antes de capas",
+              "recipiente antes de verter"
+            ],
+            "memoryAid": "Pregunta qué falla si lo omites."
+          },
+          {
+            "id": "L5.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.procedimiento",
+            "difficulty": 1,
+            "prompt": "¿Por qué la tela se coloca antes de arena y grava?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L5-ST06",
+            "hint": "Imagina qué ocurriría sin tela.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Para volver potable el agua.",
+                "feedback": "Revisa la idea clave. Los pasos posteriores dependen de esa barrera física."
+              },
+              {
+                "id": "b",
+                "text": "Para cambiar el color de la botella.",
+                "feedback": "Revisa la idea clave. Los pasos posteriores dependen de esa barrera física."
+              },
+              {
+                "id": "c",
+                "text": "Para sostener los materiales e impedir que salgan por la boca.",
+                "feedback": "Correcto. Los pasos posteriores dependen de esa barrera física."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.06-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.procedimiento",
+            "difficulty": 1,
+            "prompt": "Ordena la ejecución.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST06",
+            "hint": "La observación final no autoriza consumo.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Invertir la parte superior sobre el recipiente"
+              },
+              {
+                "id": "b",
+                "text": "Ajustar la tela en la boca"
+              },
+              {
+                "id": "c",
+                "text": "Añadir arena y luego grava"
+              },
+              {
+                "id": "d",
+                "text": "Verter el agua lentamente"
+              },
+              {
+                "id": "e",
+                "text": "Observar sin beber el resultado"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e"
+            ],
+            "feedbackCorrect": "Respetaste preparación, capas, filtrado y advertencia.",
+            "feedbackIncorrect": "La barrera debe ir antes de las capas."
+          },
+          {
+            "id": "L5.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Distingue apariencia y propiedad",
+            "body": "Separar partículas visibles no elimina necesariamente microorganismos ni sustancias disueltas.",
+            "examples": [
+              "más claro ≠ potable",
+              "demostración, no tratamiento completo"
+            ],
+            "memoryAid": "La advertencia forma parte del procedimiento."
+          },
+          {
+            "id": "L5.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.expositivo.procedimiento",
+            "difficulty": 1,
+            "prompt": "¿Qué paso es crítico para que las capas no caigan al recipiente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST06",
+            "hint": "Busca la dependencia física.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ajustar la tela en la boca.",
+                "feedback": "Correcto. La tela funciona como soporte y barrera."
+              },
+              {
+                "id": "b",
+                "text": "Nombrar el experimento.",
+                "feedback": "Revisa la idea clave. La tela funciona como soporte y barrera."
+              },
+              {
+                "id": "c",
+                "text": "Mirar el color del agua antes.",
+                "feedback": "Revisa la idea clave. La tela funciona como soporte y barrera."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.expositivo.procedimiento",
+            "difficulty": 2,
+            "prompt": "Una estudiante quiere beber el agua porque se ve clara. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST06",
+            "hint": "Distingue apariencia de seguridad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe beberla más rápido.",
+                "feedback": "Revisa la idea clave. La advertencia declara el alcance limitado de la demostración."
+              },
+              {
+                "id": "b",
+                "text": "La claridad solo muestra menos partículas visibles; el procedimiento no garantiza eliminar otros peligros.",
+                "feedback": "Correcto. La advertencia declara el alcance limitado de la demostración."
+              },
+              {
+                "id": "c",
+                "text": "La arena convierte todo líquido en potable.",
+                "feedback": "Revisa la idea clave. La advertencia declara el alcance limitado de la demostración."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.expositivo.procedimiento",
+            "difficulty": 1,
+            "prompt": "¿Qué ocurriría probablemente si se vierte muy rápido?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST06",
+            "hint": "Interpreta el adverbio como control del flujo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La botella se vuelve potable automáticamente.",
+                "feedback": "Revisa la idea clave. «Lentamente» es una condición de ejecución, no un adorno."
+              },
+              {
+                "id": "b",
+                "text": "La grava desaparece por completo.",
+                "feedback": "Revisa la idea clave. «Lentamente» es una condición de ejecución, no un adorno."
+              },
+              {
+                "id": "c",
+                "text": "El agua podría desbordar o atravesar las capas sin la observación prevista.",
+                "feedback": "Correcto. «Lentamente» es una condición de ejecución, no un adorno."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.expositivo.procedimiento",
+            "difficulty": 1,
+            "prompt": "¿Cómo se evalúa un procedimiento?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST06",
+            "hint": "Busca una revisión integral.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Comprobando materiales, orden, dependencias, resultado y advertencias.",
+                "feedback": "Correcto. Ejecutar correctamente implica más que recordar verbos."
+              },
+              {
+                "id": "b",
+                "text": "Leyendo solo el título.",
+                "feedback": "Revisa la idea clave. Ejecutar correctamente implica más que recordar verbos."
+              },
+              {
+                "id": "c",
+                "text": "Saltando condiciones para terminar antes.",
+                "feedback": "Revisa la idea clave. Ejecutar correctamente implica más que recordar verbos."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees instrucciones como un sistema de seguridad y control",
+            "body": "Simulaste la ejecución, justificaste dependencias y respetaste el límite entre una demostración visible y agua segura.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L5.07",
+        "globalId": "pe-sec1-lec-L5-07",
+        "sequence": 7,
+        "title": "Precisión y alcance",
+        "subtitle": "Una afirmación debe decir exactamente lo que la evidencia permite",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.expositivo.precision_alcance",
+        "learningOutcome": "Distingue resultados, interpretaciones, condiciones, límites y generalizaciones en textos científicos.",
+        "successEvidence": "Corrige una conclusión exagerada y explica qué palabras ajustan su alcance.",
+        "prerequisites": [
+          "Distingue hecho e inferencia",
+          "Formula conclusiones"
+        ],
+        "misconceptions": [
+          "Generalizar desde pocos casos",
+          "Confundir relación con causa universal",
+          "Eliminar expresiones de cautela"
+        ],
+        "screens": [
+          {
+            "id": "L5.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "«Sugiere» no es una palabra débil: es una medida de precisión",
+            "body": "Con dos macetas durante catorce días se puede describir lo observado y proponer una relación en esas condiciones; no se puede asegurar qué ocurrirá con toda especie y cualquier cantidad de luz.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L5.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.expositivo.precision_alcance",
+            "difficulty": 1,
+            "prompt": "¿Cuál es un resultado observado?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L5-ST07",
+            "hint": "Busca datos registrados, no interpretaciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Más luz siempre es mejor.",
+                "feedback": "Revisa la idea clave. Los conteos proceden directamente del ensayo."
+              },
+              {
+                "id": "b",
+                "text": "La maceta A produjo cinco hojas nuevas y la B produjo dos.",
+                "feedback": "Correcto. Los conteos proceden directamente del ensayo."
+              },
+              {
+                "id": "c",
+                "text": "La luz fue la única causa posible.",
+                "feedback": "Revisa la idea clave. Los conteos proceden directamente del ensayo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Separa resultado e interpretación",
+            "body": "Los números son observaciones del ensayo; la relación con luz es una interpretación limitada por el diseño.",
+            "examples": [
+              "A: cinco hojas; B: dos",
+              "Sugiere relación con exposición"
+            ],
+            "memoryAid": "Dato primero; conclusión después."
+          },
+          {
+            "id": "L5.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Localiza condiciones y límites",
+            "body": "Tamaño de muestra, duración, variables no medidas y especie determinan hasta dónde puede extenderse la afirmación.",
+            "examples": [
+              "dos plantas",
+              "14 días",
+              "temperatura no exacta"
+            ],
+            "memoryAid": "Alcance = evidencia disponible."
+          },
+          {
+            "id": "L5.07-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.precision_alcance",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la interpretación prudente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L5-ST07",
+            "hint": "Busca «en estas condiciones».",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda planta necesita seis horas exactas.",
+                "feedback": "Revisa la idea clave. La frase conserva contexto y no universaliza."
+              },
+              {
+                "id": "b",
+                "text": "Dos horas impiden cualquier crecimiento.",
+                "feedback": "Revisa la idea clave. La frase conserva contexto y no universaliza."
+              },
+              {
+                "id": "c",
+                "text": "En esas condiciones, mayor exposición se relacionó con más hojas nuevas.",
+                "feedback": "Correcto. La frase conserva contexto y no universaliza."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.precision_alcance",
+            "difficulty": 1,
+            "prompt": "Relaciona elemento y función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST07",
+            "hint": "Una variable no medida limita atribuciones causales.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Dos plantas",
+                "rightId": "r1",
+                "right": "Límite de muestra"
+              },
+              {
+                "leftId": "l2",
+                "left": "Catorce días",
+                "rightId": "r2",
+                "right": "Duración del ensayo"
+              },
+              {
+                "leftId": "l3",
+                "left": "Temperatura no medida",
+                "rightId": "r3",
+                "right": "Variable no controlada con precisión"
+              },
+              {
+                "leftId": "l4",
+                "left": "5 frente a 2 hojas",
+                "rightId": "r4",
+                "right": "Resultado"
+              }
+            ],
+            "feedbackCorrect": "Diferenciaste evidencia y límites metodológicos.",
+            "feedbackIncorrect": "Pregunta qué se observó y qué restringe."
+          },
+          {
+            "id": "L5.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Usa lenguaje calibrado",
+            "body": "«En estas condiciones», «se relacionó» y «sugiere» son más fieles que «demuestra siempre» o «es la única causa».",
+            "examples": [
+              "preciso: se observó",
+              "excesivo: prueba para toda especie"
+            ],
+            "memoryAid": "Las palabras también miden certeza."
+          },
+          {
+            "id": "L5.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.expositivo.precision_alcance",
+            "difficulty": 1,
+            "prompt": "¿Qué afirmación excede la evidencia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST07",
+            "hint": "Busca palabras absolutas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Más luz siempre hace crecer mejor a cualquier especie.",
+                "feedback": "Correcto. Generaliza a toda especie, cantidad y situación."
+              },
+              {
+                "id": "b",
+                "text": "A tuvo más hojas nuevas que B.",
+                "feedback": "Revisa la idea clave. Generaliza a toda especie, cantidad y situación."
+              },
+              {
+                "id": "c",
+                "text": "El ensayo duró catorce días.",
+                "feedback": "Revisa la idea clave. Generaliza a toda especie, cantidad y situación."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.expositivo.precision_alcance",
+            "difficulty": 2,
+            "prompt": "Un resumen elimina «sugiere» y escribe «demuestra». ¿Qué cambia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST07",
+            "hint": "Compara cautela y certeza.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Solo mejora la ortografía.",
+                "feedback": "Revisa la idea clave. El verbo debe corresponder a la fuerza de la evidencia."
+              },
+              {
+                "id": "b",
+                "text": "Aumenta indebidamente la certeza de una prueba pequeña y limitada.",
+                "feedback": "Correcto. El verbo debe corresponder a la fuerza de la evidencia."
+              },
+              {
+                "id": "c",
+                "text": "Reduce el alcance de la conclusión.",
+                "feedback": "Revisa la idea clave. El verbo debe corresponder a la fuerza de la evidencia."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.expositivo.precision_alcance",
+            "difficulty": 1,
+            "prompt": "¿Qué nueva investigación ampliaría mejor la conclusión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST07",
+            "hint": "Responde a los límites señalados.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Repetir la misma frase.",
+                "feedback": "Revisa la idea clave. Más muestra y control permiten probar alcance y causas con mayor rigor."
+              },
+              {
+                "id": "b",
+                "text": "Medir solo una hoja más.",
+                "feedback": "Revisa la idea clave. Más muestra y control permiten probar alcance y causas con mayor rigor."
+              },
+              {
+                "id": "c",
+                "text": "Usar más plantas, controlar temperatura y repetir con varias exposiciones y especies.",
+                "feedback": "Correcto. Más muestra y control permiten probar alcance y causas con mayor rigor."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.expositivo.precision_alcance",
+            "difficulty": 1,
+            "prompt": "¿Qué revisión protege la precisión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST07",
+            "hint": "Busca alcance y evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Comprobar sujetos, condiciones, cantidad de casos y grado de certeza de cada afirmación.",
+                "feedback": "Correcto. La precisión exige que el lenguaje no prometa más que los datos."
+              },
+              {
+                "id": "b",
+                "text": "Eliminar todos los límites.",
+                "feedback": "Revisa la idea clave. La precisión exige que el lenguaje no prometa más que los datos."
+              },
+              {
+                "id": "c",
+                "text": "Cambiar números por opiniones.",
+                "feedback": "Revisa la idea clave. La precisión exige que el lenguaje no prometa más que los datos."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya calibras cuánto puede afirmar una evidencia",
+            "body": "Separaste resultados e interpretación, detectaste generalizaciones y ajustaste el lenguaje a condiciones y límites reales.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L5.08",
+        "globalId": "pe-sec1-lec-L5-08",
+        "sequence": 8,
+        "title": "Síntesis aplicada",
+        "subtitle": "Comprender permite usar un mecanismo en una situación nueva",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.expositivo.sintesis_aplicada",
+        "learningOutcome": "Integra conceptos y mecanismos de un texto para elegir una acción en un contexto nuevo y justificarla.",
+        "successEvidence": "Propone una decisión viable, conecta cada parte con evidencia del texto y reconoce una condición pendiente.",
+        "prerequisites": [
+          "Resume explicaciones",
+          "Evalúa precisión y alcance"
+        ],
+        "misconceptions": [
+          "Copiar una recomendación sin adaptarla",
+          "Elegir por intuición sin mecanismo",
+          "Ignorar restricciones del caso"
+        ],
+        "screens": [
+          {
+            "id": "L5.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Aplicar es trasladar una relación, no copiar una frase",
+            "body": "El aula necesita renovar aire sin permanecer fría todo el tiempo. Comprender cómo funciona la ventilación cruzada permite proponer aperturas amplias y breves, sujetas a las condiciones reales.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L5.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.expositivo.sintesis_aplicada",
+            "difficulty": 1,
+            "prompt": "¿Qué principio explica la ventilación cruzada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L5-ST08",
+            "hint": "Busca dos rutas para el flujo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cerrar todo acelera la renovación.",
+                "feedback": "Revisa la idea clave. La corriente ayuda a reemplazar aire interior por exterior."
+              },
+              {
+                "id": "b",
+                "text": "Aberturas en lados opuestos facilitan entrada y salida de aire.",
+                "feedback": "Correcto. La corriente ayuda a reemplazar aire interior por exterior."
+              },
+              {
+                "id": "c",
+                "text": "El aire interior nunca cambia.",
+                "feedback": "Revisa la idea clave. La corriente ayuda a reemplazar aire interior por exterior."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Extrae el principio transferible",
+            "body": "La ventilación mejora cuando el aire interior puede salir y el exterior entrar mediante aberturas bien ubicadas.",
+            "examples": [
+              "lados opuestos favorecen corriente",
+              "una abertura pequeña puede renovar menos"
+            ],
+            "memoryAid": "Lleva el mecanismo, no la redacción."
+          },
+          {
+            "id": "L5.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Cruza objetivo y restricción",
+            "body": "La decisión debe mejorar renovación y limitar enfriamiento prolongado.",
+            "examples": [
+              "Objetivo: renovar aire",
+              "Restricción: mañana fría"
+            ],
+            "memoryAid": "Una buena aplicación atiende ambos."
+          },
+          {
+            "id": "L5.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.sintesis_aplicada",
+            "difficulty": 1,
+            "prompt": "¿Qué restricción debe considerar la decisión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L5-ST08",
+            "hint": "Recupera la necesidad completa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cambiar el color de las paredes.",
+                "feedback": "Revisa la idea clave. El caso combina calidad de aire y comodidad térmica."
+              },
+              {
+                "id": "b",
+                "text": "Evitar cualquier entrada de aire.",
+                "feedback": "Revisa la idea clave. El caso combina calidad de aire y comodidad térmica."
+              },
+              {
+                "id": "c",
+                "text": "Mejorar la ventilación sin mantener el aula muy fría todo el tiempo.",
+                "feedback": "Correcto. El caso combina calidad de aire y comodidad térmica."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.expositivo.sintesis_aplicada",
+            "difficulty": 1,
+            "prompt": "Relaciona opción y evaluación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST08",
+            "hint": "La opción equilibrada no elimina la ventilación.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "No abrir nada",
+                "rightId": "r1",
+                "right": "No responde a la renovación"
+              },
+              {
+                "leftId": "l2",
+                "left": "Una abertura pequeña",
+                "rightId": "r2",
+                "right": "Puede renovar menos"
+              },
+              {
+                "leftId": "l3",
+                "left": "Aperturas opuestas",
+                "rightId": "r3",
+                "right": "Favorecen corriente"
+              },
+              {
+                "leftId": "l4",
+                "left": "Aperturas planificadas",
+                "rightId": "r4",
+                "right": "Buscan equilibrar renovación y frío"
+              }
+            ],
+            "feedbackCorrect": "Aplicaste el mecanismo y la restricción.",
+            "feedbackIncorrect": "Evalúa cada opción contra ambos objetivos."
+          },
+          {
+            "id": "L5.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Justifica y deja una condición abierta",
+            "body": "Explica por qué la acción funciona y qué habría que observar para ajustarla.",
+            "examples": [
+              "aperturas amplias y breves",
+              "revisar temperatura y ocupación"
+            ],
+            "memoryAid": "Decisión razonada, no receta universal."
+          },
+          {
+            "id": "L5.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.expositivo.sintesis_aplicada",
+            "difficulty": 1,
+            "prompt": "¿Qué acción parece más compatible con el texto y el caso?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST08",
+            "hint": "Combina mecanismo y restricción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Realizar aperturas amplias y breves en lados opuestos en momentos planificados.",
+                "feedback": "Correcto. Usa ventilación cruzada y evita exposición fría continua."
+              },
+              {
+                "id": "b",
+                "text": "No abrir durante toda la mañana.",
+                "feedback": "Revisa la idea clave. Usa ventilación cruzada y evita exposición fría continua."
+              },
+              {
+                "id": "c",
+                "text": "Abrir una rendija y asegurar que basta.",
+                "feedback": "Revisa la idea clave. Usa ventilación cruzada y evita exposición fría continua."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.expositivo.sintesis_aplicada",
+            "difficulty": 2,
+            "prompt": "Un grupo elige una sola ventana todo el día porque «más tiempo siempre es mejor». ¿Qué falla?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L5-ST08",
+            "hint": "Revisa flujo y temperatura.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Aplica perfectamente todos los datos.",
+                "feedback": "Revisa la idea clave. Duración no reemplaza ubicación ni consideración del contexto."
+              },
+              {
+                "id": "b",
+                "text": "Ignora que una abertura puede renovar menos y que el frío prolongado es una restricción.",
+                "feedback": "Correcto. Duración no reemplaza ubicación ni consideración del contexto."
+              },
+              {
+                "id": "c",
+                "text": "El texto exige cerrar puertas.",
+                "feedback": "Revisa la idea clave. Duración no reemplaza ubicación ni consideración del contexto."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L5.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.expositivo.sintesis_aplicada",
+            "difficulty": 1,
+            "prompt": "¿Qué dato convendría observar para ajustar el plan?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST08",
+            "hint": "Busca variables relevantes para aire y frío.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El número de letras del cartel.",
+                "feedback": "Revisa la idea clave. Esos datos responden al objetivo y a la restricción."
+              },
+              {
+                "id": "b",
+                "text": "El color de las mochilas.",
+                "feedback": "Revisa la idea clave. Esos datos responden al objetivo y a la restricción."
+              },
+              {
+                "id": "c",
+                "text": "Temperatura, ocupación y señales de renovación durante los momentos de apertura.",
+                "feedback": "Correcto. Esos datos responden al objetivo y a la restricción."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L5.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.expositivo.sintesis_aplicada",
+            "difficulty": 1,
+            "prompt": "¿Qué demuestra una síntesis aplicada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L5-ST08",
+            "hint": "Busca mecanismo, contexto y evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que puedes reconstruir el mecanismo, adaptarlo a límites y justificar una decisión.",
+                "feedback": "Correcto. La transferencia requiere comprensión y ajuste contextual."
+              },
+              {
+                "id": "b",
+                "text": "Que memorizaste una oración.",
+                "feedback": "Revisa la idea clave. La transferencia requiere comprensión y ajuste contextual."
+              },
+              {
+                "id": "c",
+                "text": "Que toda situación admite la misma receta.",
+                "feedback": "Revisa la idea clave. La transferencia requiere comprensión y ajuste contextual."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L5.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya conviertes comprensión en una decisión",
+            "body": "Trasladaste el mecanismo de ventilación al aula, equilibraste objetivos y propusiste observar datos para ajustar la acción.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}

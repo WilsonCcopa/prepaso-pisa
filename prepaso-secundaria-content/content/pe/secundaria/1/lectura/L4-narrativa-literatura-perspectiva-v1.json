@@ -1,0 +1,2576 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.7",
+  "locale": "es-PE",
+  "unit": {
+    "id": "L4",
+    "globalId": "pe-sec1-lec-L4",
+    "sequence": 4,
+    "grade": "sec1",
+    "subject": "lectura",
+    "title": "Narrativa, literatura y perspectiva",
+    "shortTitle": "Narrativa y perspectiva",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "Lectura es una ruta especializada de Prepaso dentro del área oficial de Comunicación. L4 organiza progresivamente desempeños del primer grado; no es una unidad oficial obligatoria de MINEDU.",
+    "unitOutcome": "Relaciona decisiones narrativas y recursos literarios con el sentido global, las perspectivas representadas y el efecto en el lector.",
+    "finalEvidence": "Comentario literario breve con interpretación, criterio explícito y evidencias precisas de uno o dos relatos.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "area": "Comunicación",
+      "cycle": "VI",
+      "competency": "Lee diversos tipos de textos escritos en su lengua materna",
+      "primaryCapacity": "Infiere e interpreta; reflexiona y evalúa",
+      "supportingCapacities": [
+        "Obtiene información del texto escrito",
+        "Infiere e interpreta información del texto",
+        "Reflexiona y evalúa la forma, el contenido y contexto del texto"
+      ],
+      "operationalAlignment": "Interpreta trama, motivaciones, perspectiva, tiempo, recursos expresivos, estereotipos y valores, y compara relatos con criterios comunes."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Intérprete de relatos"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todos los estímulos son originales de Prepaso y no reproducen textos ni actividades de materiales de MINEDU.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Orientaciones para el uso pedagógico de los textos de Comunicación (1.° a 5.° de secundaria)",
+        "publisher": "Ministerio de Educación del Perú",
+        "edition": "2026",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/12625"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "L4-ST01",
+        "title": "La llave bajo la lluvia",
+        "format": "continuous",
+        "genre": "cuento breve",
+        "content": "Naira llegó al puente cuando la lluvia borraba el camino. En el bolsillo llevaba la llave de la casa comunal, donde todos esperaban las mantas. El río crecía y el puente temblaba. Podía retroceder y buscar una ruta larga, o cruzar de inmediato. Recordó la voz de su abuela: «Ser valiente también es saber cuándo esperar». Naira marcó el nivel del agua con una rama, volvió al pueblo y reunió a dos adultos que conocían el paso alto. Llegaron más tarde, pero con la llave seca y sin arriesgar una vida.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L4-ST02",
+        "title": "El cuaderno azul",
+        "format": "continuous",
+        "genre": "relato en primera persona",
+        "content": "Guardé el cuaderno azul detrás de los diccionarios porque no quería que Julia leyera mi dibujo incompleto. Cuando ella preguntó, dije que no lo había visto. Esa tarde la observé revisar su mochila tres veces y entendí que el cuaderno era suyo, no el mío. Quise devolverlo sin explicar nada, pero la mentira pesaba más que el objeto. Al día siguiente lo puse sobre su mesa y conté todo. Julia permaneció en silencio unos segundos. Luego abrió una página limpia y me pidió que termináramos el dibujo juntos.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L4-ST03",
+        "title": "Desde la ventana",
+        "format": "continuous",
+        "genre": "escena con narrador limitado",
+        "content": "Mateo vio desde su ventana que la nueva vecina entraba cada tarde con una caja distinta. Nunca la saludaba porque imaginaba que guardaba cosas extrañas. Una mañana, una caja se rompió en la vereda y rodaron decenas de libros infantiles. La vecina los recogió apresurada y Mateo bajó a ayudar. Solo entonces supo que preparaba una biblioteca para el comedor del barrio. Hasta ese momento, el lector conocía únicamente las sospechas de Mateo, no las razones de la vecina.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L4-ST04",
+        "title": "El reloj de la estación",
+        "format": "continuous",
+        "genre": "relato no lineal",
+        "content": "Ahora, Elena espera frente al reloj detenido de la estación. Diez años antes, en ese mismo andén, su hermano le prometió regresar con una fotografía del mar. Ayer recibió un sobre sin remitente: dentro estaba la foto y una fecha escrita al reverso. Elena vuelve al presente cuando escucha el silbato del tren. Mientras las puertas se abren, recuerda la mañana en que ambos construyeron un barco de papel. El relato alterna presente y recuerdos para que la espera reúna varios momentos de la relación.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L4-ST05",
+        "title": "La carrera del viento",
+        "format": "continuous",
+        "genre": "poema en prosa",
+        "content": "El veloz viento, corredor incansable, atravesó la plaza. Llevaba una prisa infinita y peinaba los árboles dormidos. La calle era un río de polvo; el cielo, una sábana clara. Unos cerraron las ventanas, otros salieron a recibirlo. No era enemigo ni amigo: traía el frío de los cerros y se llevaba el calor de la tarde. Cuando se fue, quedó un silencio enorme, pequeño como el suspiro de una hoja.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L4-ST06",
+        "title": "La inventora del barrio",
+        "format": "continuous",
+        "genre": "microcuento",
+        "content": "Cuando Sara anunció que repararía la radio comunal, un vecino comentó que esas máquinas eran asunto de hombres. Ella no respondió. Abrió la carcasa, siguió el circuito y reemplazó un cable quemado. La música volvió, pero el narrador del concurso la presentó como «la ayudante paciente del verdadero técnico». Sara tomó el micrófono, explicó cada paso de la reparación y pidió que en el acta figurara quién había realizado el trabajo. La escena muestra cómo una idea simplificada puede ocultar capacidades y modificar el reconocimiento.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L4-ST07",
+        "title": "La última entrada",
+        "format": "continuous",
+        "genre": "cuento moral",
+        "content": "Elena encontró una entrada para el concierto en el suelo del mercado. Quería asistir desde hacía meses y el evento estaba agotado. En el reverso aparecía un número de teléfono. Su amigo dijo que nadie sabría si la usaba. Elena llamó. La entrada pertenecía a un joven que había ahorrado durante semanas para regalársela a su hermana. Al devolverla, Elena perdió la oportunidad de entrar, pero ganó una invitación inesperada: la familia le ofreció escuchar juntos la transmisión desde casa.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L4-ST08",
+        "title": "Dos guardianes del agua",
+        "format": "mixed",
+        "genre": "comparación de relatos",
+        "content": "Relato A: una niña conversa con un apu que le enseña a distribuir el agua del manantial entre tres comunidades. El conflicto se resuelve mediante un acuerdo y una ceremonia. Relato B: un estudiante construye sensores para detectar fugas en su escuela; convence a la dirección mostrando datos y reduce el desperdicio. Ambos protagonistas protegen el agua y deben persuadir a otras personas. El primero se apoya en tradición y pacto comunitario; el segundo, en tecnología y evidencia medida.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "L4.01",
+        "globalId": "pe-sec1-lec-L4-01",
+        "sequence": 1,
+        "title": "Trama y conflicto",
+        "subtitle": "La trama une decisiones que transforman un conflicto",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.literatura.trama_conflicto",
+        "learningOutcome": "Reconstruye inicio, quiebre, decisiones, consecuencias y resolución sin convertir la trama en una lista de detalles.",
+        "successEvidence": "Resume la trama como cadena causal e identifica cómo cambia el conflicto.",
+        "prerequisites": [
+          "Ordena secuencias",
+          "Deduce causas y consecuencias"
+        ],
+        "misconceptions": [
+          "Confundir escenario con conflicto",
+          "Enumerar acciones sin relación",
+          "Llamar resolución a cualquier final"
+        ],
+        "screens": [
+          {
+            "id": "L4.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La trama responde qué cambia y por qué",
+            "body": "Una historia no es la suma de todo lo ocurrido. La trama selecciona el quiebre, las decisiones que responden a él y la transformación final del conflicto.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L4.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.literatura.trama_conflicto",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el conflicto central?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L4-ST01",
+            "hint": "Busca dos fuerzas que chocan.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La lluvia moja todos los árboles.",
+                "feedback": "Revisa la idea clave. El objetivo entra en tensión con la seguridad."
+              },
+              {
+                "id": "b",
+                "text": "Naira debe llevar la llave, pero cruzar de inmediato pondría su vida en riesgo.",
+                "feedback": "Correcto. El objetivo entra en tensión con la seguridad."
+              },
+              {
+                "id": "c",
+                "text": "La comunidad no quiere mantas.",
+                "feedback": "Revisa la idea clave. El objetivo entra en tensión con la seguridad."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Distingue situación y quiebre",
+            "body": "La situación inicial ubica personaje y objetivo. El quiebre introduce una dificultad que obliga a decidir.",
+            "examples": [
+              "Objetivo: llevar la llave",
+              "Quiebre: río creciente y puente inestable"
+            ],
+            "memoryAid": "Sin cambio, no hay conflicto narrativo."
+          },
+          {
+            "id": "L4.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Conecta acciones con consecuencias",
+            "body": "Pregunta qué opción enfrenta el personaje, qué elige y qué produce esa decisión.",
+            "examples": [
+              "Retroceder y pedir ayuda",
+              "Llegar más tarde pero sin arriesgar una vida"
+            ],
+            "memoryAid": "Decisión mueve la trama."
+          },
+          {
+            "id": "L4.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.trama_conflicto",
+            "difficulty": 1,
+            "prompt": "¿Qué hecho funciona como quiebre?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L4-ST01",
+            "hint": "Identifica qué vuelve difícil el objetivo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Naira tiene un bolsillo.",
+                "feedback": "Revisa la idea clave. El peligro obliga a abandonar el plan directo."
+              },
+              {
+                "id": "b",
+                "text": "La abuela habló alguna vez.",
+                "feedback": "Revisa la idea clave. El peligro obliga a abandonar el plan directo."
+              },
+              {
+                "id": "c",
+                "text": "El río crece y el puente comienza a temblar.",
+                "feedback": "Correcto. El peligro obliga a abandonar el plan directo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.01-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.trama_conflicto",
+            "difficulty": 1,
+            "prompt": "Ordena la trama esencial.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST01",
+            "hint": "La decisión ocurre después de reconocer el peligro.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Naira lleva la llave hacia la casa comunal"
+              },
+              {
+                "id": "b",
+                "text": "El río convierte el cruce en un riesgo"
+              },
+              {
+                "id": "c",
+                "text": "Recuerda que esperar también puede ser valiente"
+              },
+              {
+                "id": "d",
+                "text": "Regresa y busca adultos que conocen otra ruta"
+              },
+              {
+                "id": "e",
+                "text": "Llegan más tarde, pero seguros"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e"
+            ],
+            "feedbackCorrect": "Reconstruiste objetivos, conflicto, decisión y resolución.",
+            "feedbackIncorrect": "No confundas el recuerdo con el inicio cronológico."
+          },
+          {
+            "id": "L4.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "La resolución transforma el conflicto",
+            "body": "El final debe mostrar qué ocurrió con la dificultad y qué aprendió o cambió el personaje.",
+            "examples": [
+              "La llave llega por una ruta segura",
+              "Valentía se redefine como juicio"
+            ],
+            "memoryAid": "Resolver no siempre significa ganar rápido."
+          },
+          {
+            "id": "L4.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.literatura.trama_conflicto",
+            "difficulty": 1,
+            "prompt": "¿Qué consecuencia directa tiene la decisión de retroceder?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST01",
+            "hint": "Busca qué cambia en tiempo y riesgo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demora la llegada, pero permite buscar una ruta segura con ayuda.",
+                "feedback": "Correcto. La decisión tiene costo temporal y beneficio de seguridad."
+              },
+              {
+                "id": "b",
+                "text": "Pierde la llave en el río.",
+                "feedback": "Revisa la idea clave. La decisión tiene costo temporal y beneficio de seguridad."
+              },
+              {
+                "id": "c",
+                "text": "La casa comunal desaparece.",
+                "feedback": "Revisa la idea clave. La decisión tiene costo temporal y beneficio de seguridad."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.literatura.trama_conflicto",
+            "difficulty": 2,
+            "prompt": "Un resumen dice: «Naira tuvo miedo y fracasó». ¿Qué distorsiona?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST01",
+            "hint": "Mira el resultado final.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El texto afirma que nunca llegó.",
+                "feedback": "Revisa la idea clave. La resolución presenta prudencia como una forma de valentía."
+              },
+              {
+                "id": "b",
+                "text": "Ignora que evaluó el peligro, consiguió ayuda y cumplió el objetivo de forma segura.",
+                "feedback": "Correcto. La resolución presenta prudencia como una forma de valentía."
+              },
+              {
+                "id": "c",
+                "text": "Todo personaje valiente cruza sin pensar.",
+                "feedback": "Revisa la idea clave. La resolución presenta prudencia como una forma de valentía."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.literatura.trama_conflicto",
+            "difficulty": 1,
+            "prompt": "¿Cómo se resuelve el conflicto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST01",
+            "hint": "Busca qué solución responde a ambos lados del conflicto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La lluvia se detiene por completo.",
+                "feedback": "Revisa la idea clave. La resolución mantiene el objetivo y modifica el modo de alcanzarlo."
+              },
+              {
+                "id": "b",
+                "text": "Naira decide no llevar nunca la llave.",
+                "feedback": "Revisa la idea clave. La resolución mantiene el objetivo y modifica el modo de alcanzarlo."
+              },
+              {
+                "id": "c",
+                "text": "Se cambia la ruta y se comparte la responsabilidad con personas que conocen el paso.",
+                "feedback": "Correcto. La resolución mantiene el objetivo y modifica el modo de alcanzarlo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.literatura.trama_conflicto",
+            "difficulty": 1,
+            "prompt": "¿Cuál síntesis conserva la trama?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST01",
+            "hint": "Elige una cadena, no una lista.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ante un cruce peligroso, Naira renuncia a la prisa, busca ayuda y entrega la llave sin exponerse.",
+                "feedback": "Correcto. La síntesis conecta conflicto, decisión y resultado."
+              },
+              {
+                "id": "b",
+                "text": "Llovió cerca de un puente.",
+                "feedback": "Revisa la idea clave. La síntesis conecta conflicto, decisión y resultado."
+              },
+              {
+                "id": "c",
+                "text": "Naira tenía una abuela y una rama.",
+                "feedback": "Revisa la idea clave. La síntesis conecta conflicto, decisión y resultado."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reconstruyes el motor de un relato",
+            "body": "Separaste detalles de trama y conectaste quiebre, decisión, consecuencia y resolución en una cadena significativa.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L4.02",
+        "globalId": "pe-sec1-lec-L4-02",
+        "sequence": 2,
+        "title": "Motivaciones",
+        "subtitle": "Una acción puede nacer de deseos, temores y cambios internos",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.literatura.motivaciones",
+        "learningOutcome": "Deduce motivaciones declaradas e implícitas mediante acciones, pensamientos, consecuencias y cambios del personaje.",
+        "successEvidence": "Explica una decisión con dos pistas y diferencia motivo, acción y resultado.",
+        "prerequisites": [
+          "Deduce características",
+          "Reconoce conflicto"
+        ],
+        "misconceptions": [
+          "Confundir lo que hace con por qué lo hace",
+          "Atribuir una intención sin pistas",
+          "Suponer una motivación fija durante todo el relato"
+        ],
+        "screens": [
+          {
+            "id": "L4.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El porqué puede cambiar mientras avanza la historia",
+            "body": "El narrador esconde el cuaderno para proteger un dibujo, mantiene la mentira por vergüenza y finalmente confiesa porque reconoce el daño. Las motivaciones no son idénticas en cada momento.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L4.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.literatura.motivaciones",
+            "difficulty": 1,
+            "prompt": "¿Por qué esconde inicialmente el cuaderno?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L4-ST02",
+            "hint": "Distingue lo que quería ocultar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque quiere venderlo.",
+                "feedback": "Revisa la idea clave. La primera oración declara ese motivo."
+              },
+              {
+                "id": "b",
+                "text": "Porque no quiere que Julia vea su dibujo incompleto.",
+                "feedback": "Correcto. La primera oración declara ese motivo."
+              },
+              {
+                "id": "c",
+                "text": "Porque Julia se lo regaló.",
+                "feedback": "Revisa la idea clave. La primera oración declara ese motivo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Separa acción y motivo",
+            "body": "«Escondió el cuaderno» es acción. «No quería mostrar el dibujo incompleto» expresa la razón inicial.",
+            "examples": [
+              "Acción: negar haberlo visto",
+              "Motivo posible: evitar admitir lo ocurrido"
+            ],
+            "memoryAid": "Qué hizo no es igual a por qué."
+          },
+          {
+            "id": "L4.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Usa pistas internas y externas",
+            "body": "Pensamientos, comparaciones, silencios y consecuencias permiten inferir lo que no se declara.",
+            "examples": [
+              "La mentira pesaba más que el objeto",
+              "Julia revisa la mochila tres veces"
+            ],
+            "memoryAid": "La motivación se construye con señales."
+          },
+          {
+            "id": "L4.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.motivaciones",
+            "difficulty": 1,
+            "prompt": "¿Qué provoca el cambio de conducta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L4-ST02",
+            "hint": "Busca qué descubre esa tarde.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El cuaderno cambia de color.",
+                "feedback": "Revisa la idea clave. La nueva comprensión vuelve más pesada la mentira."
+              },
+              {
+                "id": "b",
+                "text": "Alguien anuncia un premio.",
+                "feedback": "Revisa la idea clave. La nueva comprensión vuelve más pesada la mentira."
+              },
+              {
+                "id": "c",
+                "text": "Comprende que el cuaderno pertenece a Julia y observa su preocupación.",
+                "feedback": "Correcto. La nueva comprensión vuelve más pesada la mentira."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.motivaciones",
+            "difficulty": 1,
+            "prompt": "Relaciona momento y motivación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST02",
+            "hint": "El final busca reparar, no seguir ocultando.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Esconder",
+                "rightId": "r1",
+                "right": "Evitar mostrar el dibujo"
+              },
+              {
+                "leftId": "l2",
+                "left": "Negar",
+                "rightId": "r2",
+                "right": "Evitar reconocer la acción"
+              },
+              {
+                "leftId": "l3",
+                "left": "Confesar",
+                "rightId": "r3",
+                "right": "Reparar el daño y dejar la mentira"
+              }
+            ],
+            "feedbackCorrect": "Seguiste la evolución interna del narrador.",
+            "feedbackIncorrect": "La motivación cambia con la información disponible."
+          },
+          {
+            "id": "L4.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Observa el cambio",
+            "body": "Una nueva información puede transformar el objetivo del personaje. Explica qué descubre y cómo eso modifica su conducta.",
+            "examples": [
+              "Comprende que el cuaderno es de Julia",
+              "Pasa de ocultar a devolver y confesar"
+            ],
+            "memoryAid": "Cambio de comprensión, cambio de decisión."
+          },
+          {
+            "id": "L4.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.literatura.motivaciones",
+            "difficulty": 1,
+            "prompt": "¿Qué significa que «la mentira pesaba más que el objeto»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST02",
+            "hint": "Interpreta el peso en sentido figurado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La culpa se volvió más difícil de soportar que devolver físicamente el cuaderno.",
+                "feedback": "Correcto. La expresión compara una carga emocional con una carga material."
+              },
+              {
+                "id": "b",
+                "text": "El cuaderno aumentó de peso.",
+                "feedback": "Revisa la idea clave. La expresión compara una carga emocional con una carga material."
+              },
+              {
+                "id": "c",
+                "text": "La mesa no resistía el objeto.",
+                "feedback": "Revisa la idea clave. La expresión compara una carga emocional con una carga material."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.literatura.motivaciones",
+            "difficulty": 2,
+            "prompt": "Un lector afirma que el narrador siempre quiso robar. ¿Qué contradice esa interpretación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST02",
+            "hint": "Usa más de una etapa del relato.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El cuaderno es azul.",
+                "feedback": "Revisa la idea clave. La secuencia muestra vergüenza y reparación, no un plan constante de apropiación."
+              },
+              {
+                "id": "b",
+                "text": "Oculta un dibujo propio, luego reconoce la propiedad, devuelve el cuaderno y confiesa.",
+                "feedback": "Correcto. La secuencia muestra vergüenza y reparación, no un plan constante de apropiación."
+              },
+              {
+                "id": "c",
+                "text": "La historia está en primera persona.",
+                "feedback": "Revisa la idea clave. La secuencia muestra vergüenza y reparación, no un plan constante de apropiación."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.literatura.motivaciones",
+            "difficulty": 1,
+            "prompt": "¿Qué sugiere la respuesta de Julia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST02",
+            "hint": "Considera silencio y gesto juntos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Olvida de inmediato todo lo sucedido.",
+                "feedback": "Revisa la idea clave. El silencio reconoce tensión y la invitación final abre reconciliación."
+              },
+              {
+                "id": "b",
+                "text": "Decide destruir el cuaderno.",
+                "feedback": "Revisa la idea clave. El silencio reconoce tensión y la invitación final abre reconciliación."
+              },
+              {
+                "id": "c",
+                "text": "Aunque necesita procesar lo ocurrido, abre una posibilidad de reparar la relación mediante el dibujo compartido.",
+                "feedback": "Correcto. El silencio reconoce tensión y la invitación final abre reconciliación."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.literatura.motivaciones",
+            "difficulty": 1,
+            "prompt": "¿Qué fórmula explica mejor una motivación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST02",
+            "hint": "Busca acción, razón y evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Decisión + deseo o temor + pistas que conectan ambos.",
+                "feedback": "Correcto. Explicar el porqué exige relación y respaldo textual."
+              },
+              {
+                "id": "b",
+                "text": "Acción sin contexto.",
+                "feedback": "Revisa la idea clave. Explicar el porqué exige relación y respaldo textual."
+              },
+              {
+                "id": "c",
+                "text": "Opinión del lector sin evidencia.",
+                "feedback": "Revisa la idea clave. Explicar el porqué exige relación y respaldo textual."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya explicas por qué cambia un personaje",
+            "body": "Diferenciaste acciones y motivos, reuniste pistas y seguiste la transformación interna que conduce a reparar el daño.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L4.03",
+        "globalId": "pe-sec1-lec-L4-03",
+        "sequence": 3,
+        "title": "Punto de vista",
+        "subtitle": "Quien narra determina qué sabemos y qué queda oculto",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.literatura.punto_vista",
+        "learningOutcome": "Distingue narrador, personaje y perspectiva, e interpreta los límites y efectos del punto de vista.",
+        "successEvidence": "Identifica qué información está disponible, cuál se oculta y cómo cambiaría la escena desde otra perspectiva.",
+        "prerequisites": [
+          "Reconoce voces en un texto",
+          "Distingue hecho e interpretación"
+        ],
+        "misconceptions": [
+          "Confundir autor con narrador",
+          "Aceptar una sospecha como hecho",
+          "Creer que tercera persona sabe siempre todo"
+        ],
+        "screens": [
+          {
+            "id": "L4.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Ver desde fuera no significa saberlo todo",
+            "body": "El relato está en tercera persona, pero sigue las sospechas de Mateo. Hasta que baja a ayudar, ni él ni el lector conocen el propósito real de las cajas.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L4.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.literatura.punto_vista",
+            "difficulty": 1,
+            "prompt": "¿Qué tipo de perspectiva domina?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L4-ST03",
+            "hint": "Pregunta a qué mente puedes acceder.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Narrador que conoce todos los pensamientos.",
+                "feedback": "Revisa la idea clave. Conocemos las suposiciones de Mateo, no las intenciones internas de la vecina."
+              },
+              {
+                "id": "b",
+                "text": "Narrador en tercera persona limitado principalmente a Mateo.",
+                "feedback": "Correcto. Conocemos las suposiciones de Mateo, no las intenciones internas de la vecina."
+              },
+              {
+                "id": "c",
+                "text": "La vecina narra en primera persona.",
+                "feedback": "Revisa la idea clave. Conocemos las suposiciones de Mateo, no las intenciones internas de la vecina."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Identifica quién cuenta y a quién sigue",
+            "body": "Observa pronombres y acceso a pensamientos. Un narrador en tercera persona puede limitarse a un personaje.",
+            "examples": [
+              "«Mateo imaginaba…»",
+              "No conocemos aún lo que piensa la vecina"
+            ],
+            "memoryAid": "Persona gramatical y alcance son preguntas distintas."
+          },
+          {
+            "id": "L4.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Separa observación de interpretación",
+            "body": "Entrar con cajas es observable; guardar cosas extrañas es una conjetura de Mateo.",
+            "examples": [
+              "Hecho: cajas distintas",
+              "Interpretación: contenido extraño"
+            ],
+            "memoryAid": "La perspectiva puede equivocarse."
+          },
+          {
+            "id": "L4.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.punto_vista",
+            "difficulty": 1,
+            "prompt": "¿Cuál es una interpretación y no un hecho?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L4-ST03",
+            "hint": "Busca verbos como «imaginaba».",
+            "options": [
+              {
+                "id": "a",
+                "text": "La vecina entra con cajas.",
+                "feedback": "Revisa la idea clave. La extrañeza existe en la sospecha de Mateo."
+              },
+              {
+                "id": "b",
+                "text": "Los libros ruedan por la vereda.",
+                "feedback": "Revisa la idea clave. La extrañeza existe en la sospecha de Mateo."
+              },
+              {
+                "id": "c",
+                "text": "Mateo imagina que las cajas guardan cosas extrañas.",
+                "feedback": "Correcto. La extrañeza existe en la sospecha de Mateo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.03-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.punto_vista",
+            "difficulty": 1,
+            "prompt": "Relaciona dato y origen.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST03",
+            "hint": "La biblioteca se conoce tras romperse una caja.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Cajas cada tarde",
+                "rightId": "r1",
+                "right": "Observación de Mateo"
+              },
+              {
+                "leftId": "l2",
+                "left": "Cosas extrañas",
+                "rightId": "r2",
+                "right": "Suposición de Mateo"
+              },
+              {
+                "leftId": "l3",
+                "left": "Biblioteca para el comedor",
+                "rightId": "r3",
+                "right": "Información descubierta después"
+              }
+            ],
+            "feedbackCorrect": "Separaste lo visto, lo supuesto y lo confirmado.",
+            "feedbackIncorrect": "El momento en que aparece cada dato importa."
+          },
+          {
+            "id": "L4.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Pregunta qué efecto produce el límite",
+            "body": "Ocultar la razón de la vecina crea curiosidad y permite que el descubrimiento corrija el prejuicio junto con Mateo.",
+            "examples": [
+              "Sorpresa al caer los libros",
+              "Relectura de las cajas"
+            ],
+            "memoryAid": "Lo que no sabemos también construye sentido."
+          },
+          {
+            "id": "L4.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.literatura.punto_vista",
+            "difficulty": 1,
+            "prompt": "¿Qué efecto crea la perspectiva limitada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST03",
+            "hint": "Compara lo sabido antes y después.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El lector comparte la sospecha y luego la corrige al descubrir los libros.",
+                "feedback": "Correcto. La restricción de información prepara una revisión de juicio."
+              },
+              {
+                "id": "b",
+                "text": "Explica desde el inicio todo el proyecto.",
+                "feedback": "Revisa la idea clave. La restricción de información prepara una revisión de juicio."
+              },
+              {
+                "id": "c",
+                "text": "Elimina cualquier sorpresa.",
+                "feedback": "Revisa la idea clave. La restricción de información prepara una revisión de juicio."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.literatura.punto_vista",
+            "difficulty": 2,
+            "prompt": "Un lector dice que el texto demuestra que la vecina era misteriosa. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST03",
+            "hint": "Diferencia efecto de perspectiva y hecho.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe llamar misteriosas a todas las personas nuevas.",
+                "feedback": "Revisa la idea clave. El final muestra una explicación solidaria que Mateo desconocía."
+              },
+              {
+                "id": "b",
+                "text": "«Misteriosa» refleja la interpretación incompleta de Mateo, no una característica confirmada.",
+                "feedback": "Correcto. El final muestra una explicación solidaria que Mateo desconocía."
+              },
+              {
+                "id": "c",
+                "text": "Las cajas prueban cualquier sospecha.",
+                "feedback": "Revisa la idea clave. El final muestra una explicación solidaria que Mateo desconocía."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.literatura.punto_vista",
+            "difficulty": 1,
+            "prompt": "Si la historia fuera narrada por la vecina desde el inicio, ¿qué cambiaría probablemente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST03",
+            "hint": "Piensa qué sabe la vecina.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los libros dejarían de existir.",
+                "feedback": "Revisa la idea clave. Cambiar acceso a información modifica suspenso e interpretación."
+              },
+              {
+                "id": "b",
+                "text": "Mateo se convertiría automáticamente en narrador.",
+                "feedback": "Revisa la idea clave. Cambiar acceso a información modifica suspenso e interpretación."
+              },
+              {
+                "id": "c",
+                "text": "Se conocería antes el proyecto y disminuiría la sorpresa sobre las cajas.",
+                "feedback": "Correcto. Cambiar acceso a información modifica suspenso e interpretación."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.literatura.punto_vista",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta ayuda a leer el punto de vista?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST03",
+            "hint": "Busca voz, información y límite.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Quién percibe, qué sabe y qué no puede saber en ese momento?",
+                "feedback": "Correcto. La perspectiva organiza acceso, límites y posibles sesgos."
+              },
+              {
+                "id": "b",
+                "text": "¿Cuántas letras tiene el título?",
+                "feedback": "Revisa la idea clave. La perspectiva organiza acceso, límites y posibles sesgos."
+              },
+              {
+                "id": "c",
+                "text": "¿Qué opino sin releer?",
+                "feedback": "Revisa la idea clave. La perspectiva organiza acceso, límites y posibles sesgos."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees también desde los límites del narrador",
+            "body": "Separaste hechos y sospechas, reconociste una tercera persona limitada y explicaste cómo la información restringida produce sorpresa.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L4.04",
+        "globalId": "pe-sec1-lec-L4-04",
+        "sequence": 4,
+        "title": "Tiempo y espacio",
+        "subtitle": "El orden narrado puede ser distinto del orden de los hechos",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.literatura.tiempo_espacio",
+        "learningOutcome": "Reconstruye cronología e interpreta cómo saltos temporales y espacios significativos contribuyen al relato.",
+        "successEvidence": "Ordena los hechos cronológicos y explica por qué el relato los presenta en otro orden.",
+        "prerequisites": [
+          "Ordena secuencias",
+          "Reconoce marcas temporales"
+        ],
+        "misconceptions": [
+          "Confundir orden del relato con cronología",
+          "Tratar el espacio como decoración",
+          "Ignorar el efecto de un recuerdo"
+        ],
+        "screens": [
+          {
+            "id": "L4.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El relato puede viajar mientras el personaje permanece quieto",
+            "body": "Elena espera en la estación presente, recuerda una promesa de hace diez años, piensa en el sobre recibido ayer y vuelve a otra mañana del pasado. El montaje une tiempos alrededor del mismo lugar.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L4.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.literatura.tiempo_espacio",
+            "difficulty": 1,
+            "prompt": "¿En qué momento comienza el relato?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L4-ST04",
+            "hint": "Distingue comienzo narrado de hecho más antiguo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "En la infancia de Elena.",
+                "feedback": "Revisa la idea clave. La palabra «Ahora» fija el punto inicial del montaje."
+              },
+              {
+                "id": "b",
+                "text": "En el presente, con Elena esperando frente al reloj.",
+                "feedback": "Correcto. La palabra «Ahora» fija el punto inicial del montaje."
+              },
+              {
+                "id": "c",
+                "text": "Durante la promesa de hace diez años.",
+                "feedback": "Revisa la idea clave. La palabra «Ahora» fija el punto inicial del montaje."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Marca cada señal temporal",
+            "body": "Subraya expresiones como ahora, diez años antes, ayer y recuerda. Luego asigna cada hecho a su momento.",
+            "examples": [
+              "Hace diez años: promesa",
+              "Ayer: sobre",
+              "Ahora: espera"
+            ],
+            "memoryAid": "Primero fecha mental; después ordena."
+          },
+          {
+            "id": "L4.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Separa cronología y montaje",
+            "body": "Cronología organiza según cuándo ocurrió; montaje describe el orden elegido por el narrador.",
+            "examples": [
+              "Narrado: ahora → hace diez años → ayer",
+              "Cronológico: infancia → promesa → sobre → espera"
+            ],
+            "memoryAid": "Orden de lectura no siempre es orden de vida."
+          },
+          {
+            "id": "L4.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.tiempo_espacio",
+            "difficulty": 1,
+            "prompt": "¿Qué hecho ocurrió más recientemente antes de la espera?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L4-ST04",
+            "hint": "Ordena las marcas temporales.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Construyeron el barco de papel.",
+                "feedback": "Revisa la idea clave. «Ayer» se ubica justo antes del presente."
+              },
+              {
+                "id": "b",
+                "text": "El hermano hizo la promesa hace diez años.",
+                "feedback": "Revisa la idea clave. «Ayer» se ubica justo antes del presente."
+              },
+              {
+                "id": "c",
+                "text": "Elena recibió ayer la fotografía con una fecha.",
+                "feedback": "Correcto. «Ayer» se ubica justo antes del presente."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.04-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.tiempo_espacio",
+            "difficulty": 1,
+            "prompt": "Ordena cronológicamente los hechos.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST04",
+            "hint": "El sobre llega ayer; el tren, ahora.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Elena y su hermano construyen un barco de papel"
+              },
+              {
+                "id": "b",
+                "text": "El hermano promete regresar con una foto del mar"
+              },
+              {
+                "id": "c",
+                "text": "Elena recibe el sobre con la foto"
+              },
+              {
+                "id": "d",
+                "text": "Elena espera y oye llegar el tren"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "feedbackCorrect": "Reconstruiste la vida de los hechos, distinta del orden narrado.",
+            "feedbackIncorrect": "Empieza por el recuerdo más antiguo."
+          },
+          {
+            "id": "L4.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Interpreta el espacio",
+            "body": "La estación y el reloj conectan partida, promesa y regreso. Un espacio repetido puede concentrar memoria y expectativa.",
+            "examples": [
+              "Mismo andén, tiempos distintos",
+              "Reloj detenido frente a una espera activa"
+            ],
+            "memoryAid": "El lugar puede guardar relaciones."
+          },
+          {
+            "id": "L4.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.literatura.tiempo_espacio",
+            "difficulty": 1,
+            "prompt": "¿Qué función cumple alternar presente y recuerdos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST04",
+            "hint": "Pregunta qué añade el pasado al presente.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Carga la espera actual con la historia de la relación y aumenta la expectativa.",
+                "feedback": "Correcto. Los recuerdos explican por qué la llegada importa."
+              },
+              {
+                "id": "b",
+                "text": "Impide saber que hay una estación.",
+                "feedback": "Revisa la idea clave. Los recuerdos explican por qué la llegada importa."
+              },
+              {
+                "id": "c",
+                "text": "Elimina cualquier conexión entre hechos.",
+                "feedback": "Revisa la idea clave. Los recuerdos explican por qué la llegada importa."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.literatura.tiempo_espacio",
+            "difficulty": 2,
+            "prompt": "Un lector ubica el sobre antes de la promesa porque aparece después en el texto. ¿Qué confunde?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST04",
+            "hint": "Prioriza marcas temporales sobre posición en el párrafo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Confunde narrador con autor.",
+                "feedback": "Revisa la idea clave. La marca «diez años antes» sitúa la promesa mucho antes que «ayer»."
+              },
+              {
+                "id": "b",
+                "text": "Confunde el orden en que se narra con el orden cronológico.",
+                "feedback": "Correcto. La marca «diez años antes» sitúa la promesa mucho antes que «ayer»."
+              },
+              {
+                "id": "c",
+                "text": "Confunde una metáfora con una cifra.",
+                "feedback": "Revisa la idea clave. La marca «diez años antes» sitúa la promesa mucho antes que «ayer»."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.literatura.tiempo_espacio",
+            "difficulty": 1,
+            "prompt": "¿Por qué la estación es significativa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST04",
+            "hint": "Busca qué momentos convergen en el andén.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque cualquier relato debe ocurrir allí.",
+                "feedback": "Revisa la idea clave. El espacio conecta los tiempos y el vínculo entre personajes."
+              },
+              {
+                "id": "b",
+                "text": "Porque el reloj indica una hora exacta.",
+                "feedback": "Revisa la idea clave. El espacio conecta los tiempos y el vínculo entre personajes."
+              },
+              {
+                "id": "c",
+                "text": "Reúne la partida pasada, la espera presente y la posibilidad de regreso.",
+                "feedback": "Correcto. El espacio conecta los tiempos y el vínculo entre personajes."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.literatura.tiempo_espacio",
+            "difficulty": 1,
+            "prompt": "¿Qué método ayuda a leer un relato no lineal?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST04",
+            "hint": "Busca orden e interpretación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Registrar marcas temporales, ordenar cronológicamente y luego interpretar el montaje.",
+                "feedback": "Correcto. Primero recuperas qué ocurrió; después preguntas por qué se contó así."
+              },
+              {
+                "id": "b",
+                "text": "Leer solo la última frase.",
+                "feedback": "Revisa la idea clave. Primero recuperas qué ocurrió; después preguntas por qué se contó así."
+              },
+              {
+                "id": "c",
+                "text": "Eliminar todos los recuerdos.",
+                "feedback": "Revisa la idea clave. Primero recuperas qué ocurrió; después preguntas por qué se contó así."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya distingues la historia de la forma de contarla",
+            "body": "Reconstruiste la cronología y explicaste cómo estación, reloj y recuerdos convierten la espera en un encuentro de tiempos.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L4.05",
+        "globalId": "pe-sec1-lec-L4-05",
+        "sequence": 5,
+        "title": "Hipérbole, epíteto y antítesis",
+        "subtitle": "Los recursos expresivos transforman tono y significado",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.literatura.recursos_retoricos",
+        "learningOutcome": "Interpreta hipérbole, epíteto y antítesis relacionando forma, contexto, tono y efecto.",
+        "successEvidence": "Identifica el recurso, explica su sentido no literal y compara el efecto con una versión neutra.",
+        "prerequisites": [
+          "Interpreta lenguaje figurado",
+          "Reconoce contrastes"
+        ],
+        "misconceptions": [
+          "Nombrar el recurso sin interpretarlo",
+          "Leer una hipérbole literalmente",
+          "Creer que todo adjetivo es epíteto"
+        ],
+        "screens": [
+          {
+            "id": "L4.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El recurso importa por lo que hace, no solo por su nombre",
+            "body": "Decir que el viento lleva una «prisa infinita» exagera su velocidad; llamarlo «corredor incansable» intensifica su movimiento; unir «silencio enorme, pequeño» produce una tensión expresiva.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L4.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.literatura.recursos_retoricos",
+            "difficulty": 1,
+            "prompt": "¿Qué recurso aparece en «una prisa infinita»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L4-ST05",
+            "hint": "Pregunta si la afirmación puede ser exacta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Dato científico exacto.",
+                "feedback": "Revisa la idea clave. «Infinita» intensifica sin expresar una medida literal."
+              },
+              {
+                "id": "b",
+                "text": "Hipérbole, porque exagera la velocidad del viento.",
+                "feedback": "Correcto. «Infinita» intensifica sin expresar una medida literal."
+              },
+              {
+                "id": "c",
+                "text": "Definición técnica.",
+                "feedback": "Revisa la idea clave. «Infinita» intensifica sin expresar una medida literal."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Hipérbole: exageración intencional",
+            "body": "Amplifica una cualidad para producir intensidad, humor o emoción. El contexto muestra que no pretende exactitud.",
+            "examples": [
+              "prisa infinita",
+              "un silencio enorme"
+            ],
+            "memoryAid": "Exagera para hacer sentir."
+          },
+          {
+            "id": "L4.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Epíteto: cualidad expresiva",
+            "body": "Destaca una cualidad característica del sustantivo para crear imagen o tono; no cualquier adjetivo cumple ese efecto.",
+            "examples": [
+              "el veloz viento"
+            ],
+            "memoryAid": "Subraya una cualidad característica."
+          },
+          {
+            "id": "L4.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.recursos_retoricos",
+            "difficulty": 1,
+            "prompt": "¿Qué efecto produce el epíteto «veloz viento»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L4-ST05",
+            "hint": "Pregunta qué rasgo destaca «veloz».",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demuestra una velocidad medida exactamente.",
+                "feedback": "Revisa la idea clave. El epíteto realza una cualidad característica con intención expresiva."
+              },
+              {
+                "id": "b",
+                "text": "Indica la hora en que sopla.",
+                "feedback": "Revisa la idea clave. El epíteto realza una cualidad característica con intención expresiva."
+              },
+              {
+                "id": "c",
+                "text": "Subraya una cualidad característica del viento y vuelve más dinámico el inicio.",
+                "feedback": "Correcto. El epíteto realza una cualidad característica con intención expresiva."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.recursos_retoricos",
+            "difficulty": 1,
+            "prompt": "Relaciona fragmento y recurso.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST05",
+            "hint": "La antítesis aproxima ideas opuestas.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "prisa infinita",
+                "rightId": "r1",
+                "right": "Hipérbole"
+              },
+              {
+                "leftId": "l2",
+                "left": "veloz viento",
+                "rightId": "r2",
+                "right": "Epíteto"
+              },
+              {
+                "leftId": "l3",
+                "left": "ni enemigo ni amigo",
+                "rightId": "r3",
+                "right": "Antítesis"
+              }
+            ],
+            "feedbackCorrect": "Reconociste exageración, cualidad destacada y oposición.",
+            "feedbackIncorrect": "Busca exageración, cualidad y contraste."
+          },
+          {
+            "id": "L4.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Antítesis: ideas en tensión",
+            "body": "Acerca términos opuestos para destacar contraste o complejidad.",
+            "examples": [
+              "enemigo ni amigo",
+              "enorme, pequeño como un suspiro"
+            ],
+            "memoryAid": "Opuestos juntos iluminan una idea."
+          },
+          {
+            "id": "L4.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.literatura.recursos_retoricos",
+            "difficulty": 1,
+            "prompt": "¿Qué expresa «la calle era un río de polvo»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST05",
+            "hint": "Busca semejanza de flujo y extensión.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La gran cantidad y el movimiento del polvo ocupaban la calle como un río.",
+                "feedback": "Correcto. La imagen traslada rasgos del río al polvo."
+              },
+              {
+                "id": "b",
+                "text": "Había agua real cubriendo la calle.",
+                "feedback": "Revisa la idea clave. La imagen traslada rasgos del río al polvo."
+              },
+              {
+                "id": "c",
+                "text": "La calle dejó de existir.",
+                "feedback": "Revisa la idea clave. La imagen traslada rasgos del río al polvo."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.literatura.recursos_retoricos",
+            "difficulty": 2,
+            "prompt": "Un lector dice que «silencio enorme» prueba que el silencio mide muchos metros. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST05",
+            "hint": "Interpreta el efecto sensorial.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe medirlo con una regla.",
+                "feedback": "Revisa la idea clave. La hipérbole comunica experiencia, no dimensión física."
+              },
+              {
+                "id": "b",
+                "text": "La medida es figurada: «enorme» intensifica cuánto se percibe la ausencia de sonido.",
+                "feedback": "Correcto. La hipérbole comunica experiencia, no dimensión física."
+              },
+              {
+                "id": "c",
+                "text": "Toda palabra del poema es literal.",
+                "feedback": "Revisa la idea clave. La hipérbole comunica experiencia, no dimensión física."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.literatura.recursos_retoricos",
+            "difficulty": 1,
+            "prompt": "Si se reemplaza «el veloz viento» por «el viento», ¿qué se pierde?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST05",
+            "hint": "Compara sustantivo solo y epíteto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La información de que existe viento.",
+                "feedback": "Revisa la idea clave. La versión neutra conserva la referencia, pero reduce la intensidad del inicio."
+              },
+              {
+                "id": "b",
+                "text": "El orden de los párrafos.",
+                "feedback": "Revisa la idea clave. La versión neutra conserva la referencia, pero reduce la intensidad del inicio."
+              },
+              {
+                "id": "c",
+                "text": "El énfasis expresivo en la rapidez con que irrumpe en la escena.",
+                "feedback": "Correcto. La versión neutra conserva la referencia, pero reduce la intensidad del inicio."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.literatura.recursos_retoricos",
+            "difficulty": 1,
+            "prompt": "¿Qué análisis está completo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST05",
+            "hint": "Busca tres pasos, no una etiqueta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nombra el recurso, interpreta la imagen en contexto y explica su efecto en el lector.",
+                "feedback": "Correcto. El recurso se comprende al conectar forma, sentido y efecto."
+              },
+              {
+                "id": "b",
+                "text": "Solo copia el fragmento.",
+                "feedback": "Revisa la idea clave. El recurso se comprende al conectar forma, sentido y efecto."
+              },
+              {
+                "id": "c",
+                "text": "Solo dice «es bonito».",
+                "feedback": "Revisa la idea clave. El recurso se comprende al conectar forma, sentido y efecto."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya explicas cómo trabaja el lenguaje literario",
+            "body": "Identificaste recursos, evitaste lecturas literales y comparaste el tono expresivo con versiones neutras.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L4.06",
+        "globalId": "pe-sec1-lec-L4-06",
+        "sequence": 6,
+        "title": "Estereotipos",
+        "subtitle": "Una representación simplificada puede limitar lo que vemos de una persona",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.literatura.estereotipos",
+        "learningOutcome": "Reconoce estereotipos, analiza quién los produce y explica cómo afectan caracterización, oportunidades y reconocimiento.",
+        "successEvidence": "Identifica una representación simplificada, la contrasta con acciones del personaje y propone una alternativa precisa.",
+        "prerequisites": [
+          "Deduce características",
+          "Distingue voces y perspectivas"
+        ],
+        "misconceptions": [
+          "Llamar estereotipo a cualquier opinión",
+          "Culpar al texto por mostrar una voz cuestionable",
+          "Responder con otro estereotipo"
+        ],
+        "screens": [
+          {
+            "id": "L4.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El relato puede mostrar un estereotipo para cuestionarlo",
+            "body": "El comentario del vecino y la presentación del concurso reducen a Sara por ser mujer. Sus acciones técnicas contradicen esa idea y revelan cómo el lenguaje puede borrar autoría.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L4.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.literatura.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Qué afirmación expresa un estereotipo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L4-ST06",
+            "hint": "Busca una generalización sobre un grupo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que el cable estaba quemado.",
+                "feedback": "Revisa la idea clave. Atribuye capacidad técnica a un género sin evaluar a la persona."
+              },
+              {
+                "id": "b",
+                "text": "Que reparar máquinas es asunto de hombres.",
+                "feedback": "Correcto. Atribuye capacidad técnica a un género sin evaluar a la persona."
+              },
+              {
+                "id": "c",
+                "text": "Que la radio volvió a funcionar.",
+                "feedback": "Revisa la idea clave. Atribuye capacidad técnica a un género sin evaluar a la persona."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Busca una generalización rígida",
+            "body": "Un estereotipo atribuye capacidades o papeles a una persona por pertenecer a un grupo, sin atender a su evidencia individual.",
+            "examples": [
+              "«esas máquinas son asunto de hombres»",
+              "presentarla como ayudante sin verificar"
+            ],
+            "memoryAid": "Grupo supuesto no reemplaza evidencia."
+          },
+          {
+            "id": "L4.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Distingue voz del texto y postura global",
+            "body": "Que un personaje diga algo no significa que el relato lo apruebe. Observa consecuencias, contrastes y resolución.",
+            "examples": [
+              "Comentario prejuicioso",
+              "Sara repara y explica",
+              "El contraste lo cuestiona"
+            ],
+            "memoryAid": "¿Quién lo dice y qué muestra después?"
+          },
+          {
+            "id": "L4.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Qué acción contradice directamente ese estereotipo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L4-ST06",
+            "hint": "Busca evidencia observable de capacidad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El vecino hace un comentario.",
+                "feedback": "Revisa la idea clave. La competencia técnica se demuestra mediante el procedimiento realizado."
+              },
+              {
+                "id": "b",
+                "text": "La radio tiene una carcasa.",
+                "feedback": "Revisa la idea clave. La competencia técnica se demuestra mediante el procedimiento realizado."
+              },
+              {
+                "id": "c",
+                "text": "Sara sigue el circuito, reemplaza el cable y recupera la música.",
+                "feedback": "Correcto. La competencia técnica se demuestra mediante el procedimiento realizado."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.estereotipos",
+            "difficulty": 1,
+            "prompt": "Relaciona elemento y efecto.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST06",
+            "hint": "La presentación del concurso cambia el papel real de Sara.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "«Asunto de hombres»",
+                "rightId": "r1",
+                "right": "Limita capacidad por género"
+              },
+              {
+                "leftId": "l2",
+                "left": "«Ayudante paciente»",
+                "rightId": "r2",
+                "right": "Borra autoría técnica"
+              },
+              {
+                "leftId": "l3",
+                "left": "Explicar la reparación",
+                "rightId": "r3",
+                "right": "Recupera evidencia y voz"
+              }
+            ],
+            "feedbackCorrect": "Analizaste cómo las palabras distribuyen reconocimiento.",
+            "feedbackIncorrect": "Pregunta quién recibe crédito y por qué."
+          },
+          {
+            "id": "L4.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Construye una alternativa justa",
+            "body": "Describe acciones y competencias comprobables sin reducir al personaje a una etiqueta.",
+            "examples": [
+              "Sara diagnosticó el circuito y reemplazó el cable",
+              "Solicitó reconocimiento correcto en el acta"
+            ],
+            "memoryAid": "Caracteriza con evidencia."
+          },
+          {
+            "id": "L4.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.literatura.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Por qué el narrador del concurso también reproduce el estereotipo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST06",
+            "hint": "Compara acciones con presentación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Atribuye el trabajo a un técnico inexistente y reduce a Sara a ayudante pese a la evidencia.",
+                "feedback": "Correcto. La representación contradice lo ocurrido y desplaza el mérito."
+              },
+              {
+                "id": "b",
+                "text": "Porque menciona una radio.",
+                "feedback": "Revisa la idea clave. La representación contradice lo ocurrido y desplaza el mérito."
+              },
+              {
+                "id": "c",
+                "text": "Porque usa un micrófono.",
+                "feedback": "Revisa la idea clave. La representación contradice lo ocurrido y desplaza el mérito."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.literatura.estereotipos",
+            "difficulty": 2,
+            "prompt": "Un lector dice: «El cuento es estereotipado, por lo tanto promueve esa idea». ¿Qué falta analizar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST06",
+            "hint": "Observa qué visión confirma el desenlace.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda voz de personaje equivale al autor.",
+                "feedback": "Revisa la idea clave. La postura global se interpreta mediante estructura y consecuencias, no una frase aislada."
+              },
+              {
+                "id": "b",
+                "text": "El texto muestra el estereotipo para confrontarlo con las acciones y la respuesta de Sara.",
+                "feedback": "Correcto. La postura global se interpreta mediante estructura y consecuencias, no una frase aislada."
+              },
+              {
+                "id": "c",
+                "text": "No existen contrastes en los relatos.",
+                "feedback": "Revisa la idea clave. La postura global se interpreta mediante estructura y consecuencias, no una frase aislada."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.literatura.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Cuál caracterización alternativa es más justa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST06",
+            "hint": "Usa acciones verificables.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sara es especial porque ninguna otra mujer podría hacerlo.",
+                "feedback": "Revisa la idea clave. Describe capacidades y agencia sin crear otra generalización."
+              },
+              {
+                "id": "b",
+                "text": "Sara solo tuvo suerte.",
+                "feedback": "Revisa la idea clave. Describe capacidades y agencia sin crear otra generalización."
+              },
+              {
+                "id": "c",
+                "text": "Sara demuestra competencia técnica y exige que el registro reconozca su autoría.",
+                "feedback": "Correcto. Describe capacidades y agencia sin crear otra generalización."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.literatura.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta ayuda a detectar un estereotipo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST06",
+            "hint": "Busca grupo, rasgo supuesto y falta de evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Se atribuye una capacidad por pertenencia grupal en lugar de evidencia individual?",
+                "feedback": "Correcto. El criterio central es la generalización simplificada."
+              },
+              {
+                "id": "b",
+                "text": "¿La historia tiene cinco párrafos?",
+                "feedback": "Revisa la idea clave. El criterio central es la generalización simplificada."
+              },
+              {
+                "id": "c",
+                "text": "¿El personaje usa un objeto?",
+                "feedback": "Revisa la idea clave. El criterio central es la generalización simplificada."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya cuestionas representaciones simplificadas",
+            "body": "Distinguiste el prejuicio de la postura del relato y recuperaste una caracterización basada en acciones, capacidades y autoría.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L4.07",
+        "globalId": "pe-sec1-lec-L4-07",
+        "sequence": 7,
+        "title": "Valores y decisiones",
+        "subtitle": "Evaluar una acción exige considerar opciones, consecuencias y principios",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.literatura.valores_decisiones",
+        "learningOutcome": "Sustenta una posición sobre decisiones narrativas considerando conflicto, alternativas, consecuencias y valores.",
+        "successEvidence": "Formula una postura matizada y la respalda con evidencia textual y un criterio explícito.",
+        "prerequisites": [
+          "Reconoce conflicto y motivaciones",
+          "Responde con evidencia"
+        ],
+        "misconceptions": [
+          "Juzgar sin considerar alternativas",
+          "Confundir resultado favorable con decisión ética",
+          "Usar solo «me gusta»"
+        ],
+        "screens": [
+          {
+            "id": "L4.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una decisión literaria se debate con razones",
+            "body": "Elena puede usar la entrada sin ser descubierta o devolverla. Evaluar su elección implica considerar propiedad, deseo, consecuencias y qué clase de relación quiere construir.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L4.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.literatura.valores_decisiones",
+            "difficulty": 1,
+            "prompt": "¿Qué dilema enfrenta Elena?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L4-ST07",
+            "hint": "Nombra las dos opciones reales.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elegir entre dos conciertos disponibles.",
+                "feedback": "Revisa la idea clave. El conflicto opone beneficio personal y respeto por la propiedad ajena."
+              },
+              {
+                "id": "b",
+                "text": "Cumplir su deseo usando una entrada ajena o devolverla a quien corresponde.",
+                "feedback": "Correcto. El conflicto opone beneficio personal y respeto por la propiedad ajena."
+              },
+              {
+                "id": "c",
+                "text": "Decidir el color de la entrada.",
+                "feedback": "Revisa la idea clave. El conflicto opone beneficio personal y respeto por la propiedad ajena."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Reconstruye la decisión",
+            "body": "Nombra opciones reales, información disponible y posibles consecuencias en ese momento.",
+            "examples": [
+              "Usarla y asistir",
+              "Llamar y devolverla",
+              "Número disponible en el reverso"
+            ],
+            "memoryAid": "Juzga la opción que el personaje realmente enfrenta."
+          },
+          {
+            "id": "L4.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Explicita el criterio",
+            "body": "La evidencia no decide sola: indica si valoras honestidad, justicia, cuidado o responsabilidad y aplica ese criterio de forma consistente.",
+            "examples": [
+              "Honestidad: reconocer propiedad ajena",
+              "Empatía: considerar el ahorro y regalo"
+            ],
+            "memoryAid": "Postura = criterio + evidencia."
+          },
+          {
+            "id": "L4.07-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.valores_decisiones",
+            "difficulty": 1,
+            "prompt": "¿Qué información aumenta la responsabilidad de Elena?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L4-ST07",
+            "hint": "Busca qué hace posible otra acción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El mercado está abierto.",
+                "feedback": "Revisa la idea clave. Existe una vía concreta para devolverla."
+              },
+              {
+                "id": "b",
+                "text": "Su amigo conoce conciertos.",
+                "feedback": "Revisa la idea clave. Existe una vía concreta para devolverla."
+              },
+              {
+                "id": "c",
+                "text": "El reverso contiene un número para localizar a la persona propietaria.",
+                "feedback": "Correcto. Existe una vía concreta para devolverla."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.valores_decisiones",
+            "difficulty": 1,
+            "prompt": "Relaciona decisión y valor.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST07",
+            "hint": "La empatía considera la experiencia de otra persona.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Llamar al número",
+                "rightId": "r1",
+                "right": "Honestidad"
+              },
+              {
+                "leftId": "l2",
+                "left": "Considerar el ahorro del joven",
+                "rightId": "r2",
+                "right": "Empatía"
+              },
+              {
+                "leftId": "l3",
+                "left": "Contar cómo la encontró",
+                "rightId": "r3",
+                "right": "Transparencia"
+              }
+            ],
+            "feedbackCorrect": "Vinculaste acciones con criterios explícitos.",
+            "feedbackIncorrect": "Cada valor debe verse en una conducta."
+          },
+          {
+            "id": "L4.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Acepta costos y complejidad",
+            "body": "Una decisión valiosa puede implicar pérdida. Reconocer el costo vuelve el juicio más preciso.",
+            "examples": [
+              "Pierde la entrada",
+              "Evita apropiarse del esfuerzo de otra persona"
+            ],
+            "memoryAid": "Lo correcto no siempre es lo más cómodo."
+          },
+          {
+            "id": "L4.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.literatura.valores_decisiones",
+            "difficulty": 1,
+            "prompt": "¿Qué argumento sustenta mejor la decisión de devolverla?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST07",
+            "hint": "Prueba si el criterio depende del premio.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Aunque pierde la oportunidad, evita apropiarse de un regalo conseguido con esfuerzo ajeno.",
+                "feedback": "Correcto. El argumento se sostiene aun si no hubiera recompensa final."
+              },
+              {
+                "id": "b",
+                "text": "La devuelve porque al final recibe otra invitación.",
+                "feedback": "Revisa la idea clave. El argumento se sostiene aun si no hubiera recompensa final."
+              },
+              {
+                "id": "c",
+                "text": "La devuelve solo porque alguien podría verla.",
+                "feedback": "Revisa la idea clave. El argumento se sostiene aun si no hubiera recompensa final."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.literatura.valores_decisiones",
+            "difficulty": 2,
+            "prompt": "Un lector afirma que la decisión fue correcta únicamente porque terminó bien. ¿Qué debe revisar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST07",
+            "hint": "Distingue consecuencia inesperada de criterio previo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo final feliz convierte cualquier acción en correcta.",
+                "feedback": "Revisa la idea clave. La familia invita después; Elena no podía usar esa recompensa como motivo."
+              },
+              {
+                "id": "b",
+                "text": "Una decisión ética se evalúa con información, intención y consecuencias previsibles, no solo por el premio posterior.",
+                "feedback": "Correcto. La familia invita después; Elena no podía usar esa recompensa como motivo."
+              },
+              {
+                "id": "c",
+                "text": "El resultado final ocurre antes de la decisión.",
+                "feedback": "Revisa la idea clave. La familia invita después; Elena no podía usar esa recompensa como motivo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.literatura.valores_decisiones",
+            "difficulty": 1,
+            "prompt": "¿Qué postura es más matizada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST07",
+            "hint": "Evita convertir el final en una recompensa garantizada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "No perdió nada porque escuchó música.",
+                "feedback": "Revisa la idea clave. Reconoce valor, pérdida y límite de generalización."
+              },
+              {
+                "id": "b",
+                "text": "Toda persona actuaría exactamente igual.",
+                "feedback": "Revisa la idea clave. Reconoce valor, pérdida y límite de generalización."
+              },
+              {
+                "id": "c",
+                "text": "Devolverla fue honesto y tuvo un costo real; la invitación posterior no elimina ese costo ni funda la decisión.",
+                "feedback": "Correcto. Reconoce valor, pérdida y límite de generalización."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.literatura.valores_decisiones",
+            "difficulty": 1,
+            "prompt": "¿Qué estructura fortalece un comentario valorativo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST07",
+            "hint": "Busca una argumentación completa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Postura, criterio, evidencia textual y consideración de una alternativa.",
+                "feedback": "Correcto. Evaluar exige declarar con qué criterio y frente a qué opciones."
+              },
+              {
+                "id": "b",
+                "text": "Gusto personal sin texto.",
+                "feedback": "Revisa la idea clave. Evaluar exige declarar con qué criterio y frente a qué opciones."
+              },
+              {
+                "id": "c",
+                "text": "Resumen sin juicio.",
+                "feedback": "Revisa la idea clave. Evaluar exige declarar con qué criterio y frente a qué opciones."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya argumentas sobre decisiones sin simplificarlas",
+            "body": "Reconstruiste el dilema, aplicaste valores explícitos y defendiste una postura que reconoce costos y alternativas.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L4.08",
+        "globalId": "pe-sec1-lec-L4-08",
+        "sequence": 8,
+        "title": "Comparar relatos",
+        "subtitle": "Comparar permite explicar cómo distintas formas desarrollan un tema común",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.literatura.comparar_relatos",
+        "learningOutcome": "Compara relatos por conflicto, protagonista, estrategia, contexto, recursos y efecto, usando criterios comunes.",
+        "successEvidence": "Construye una comparación y recomienda un relato para un propósito con evidencias de ambos.",
+        "prerequisites": [
+          "Compara con criterios comunes",
+          "Interpreta trama, perspectiva y valores"
+        ],
+        "misconceptions": [
+          "Resumir cada relato sin relacionarlos",
+          "Comparar criterios distintos",
+          "Declarar mejor uno sin propósito"
+        ],
+        "screens": [
+          {
+            "id": "L4.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una comparación literaria necesita un punto de encuentro",
+            "body": "Los dos relatos protegen el agua, pero uno resuelve mediante tradición y pacto comunitario; el otro, mediante tecnología, datos y persuasión institucional.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L4.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.literatura.comparar_relatos",
+            "difficulty": 1,
+            "prompt": "¿Qué semejanza central comparten?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L4-ST08",
+            "hint": "Busca una relación presente en ambos relatos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ambos usan sensores.",
+                "feedback": "Revisa la idea clave. El propósito y la necesidad de persuasión aparecen en los dos."
+              },
+              {
+                "id": "b",
+                "text": "Sus protagonistas protegen el agua y deben convencer a otras personas.",
+                "feedback": "Correcto. El propósito y la necesidad de persuasión aparecen en los dos."
+              },
+              {
+                "id": "c",
+                "text": "Ambos conversan con un apu.",
+                "feedback": "Revisa la idea clave. El propósito y la necesidad de persuasión aparecen en los dos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Define criterios paralelos",
+            "body": "Compara tema con tema, conflicto con conflicto, estrategia con estrategia y efecto con efecto.",
+            "examples": [
+              "Propósito común: cuidar agua",
+              "Medios: acuerdo / sensores"
+            ],
+            "memoryAid": "Misma pregunta para ambos textos."
+          },
+          {
+            "id": "L4.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Formula semejanza y diferencia completas",
+            "body": "No basta decir «son distintos». Explica en qué y por qué esa diferencia importa.",
+            "examples": [
+              "Ambos persuaden a una comunidad",
+              "La autoridad proviene de tradición o evidencia medida"
+            ],
+            "memoryAid": "Relación más significado."
+          },
+          {
+            "id": "L4.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.comparar_relatos",
+            "difficulty": 1,
+            "prompt": "¿Qué diferencia de estrategia es correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L4-ST08",
+            "hint": "Compara medios con medios.",
+            "options": [
+              {
+                "id": "a",
+                "text": "A usa sensores y B una ceremonia.",
+                "feedback": "Revisa la idea clave. La comparación aplica el mismo criterio: modo de resolver."
+              },
+              {
+                "id": "b",
+                "text": "Ninguno presenta una solución.",
+                "feedback": "Revisa la idea clave. La comparación aplica el mismo criterio: modo de resolver."
+              },
+              {
+                "id": "c",
+                "text": "El relato A usa tradición y acuerdo; el B, tecnología y datos.",
+                "feedback": "Correcto. La comparación aplica el mismo criterio: modo de resolver."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.literatura.comparar_relatos",
+            "difficulty": 1,
+            "prompt": "Relaciona criterio y contraste.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST08",
+            "hint": "La fuente de orientación indica qué guía al protagonista.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Fuente de orientación",
+                "rightId": "r1",
+                "right": "Apu / mediciones"
+              },
+              {
+                "leftId": "l2",
+                "left": "Espacio social",
+                "rightId": "r2",
+                "right": "Tres comunidades / escuela"
+              },
+              {
+                "leftId": "l3",
+                "left": "Respuesta",
+                "rightId": "r3",
+                "right": "Pacto / detección de fugas"
+              }
+            ],
+            "feedbackCorrect": "Organizaste diferencias bajo criterios equivalentes.",
+            "feedbackIncorrect": "Lee cada par como respuesta a una misma pregunta."
+          },
+          {
+            "id": "L4.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Recomienda según un propósito",
+            "body": "«Mejor» depende de la audiencia y objetivo. Un relato puede servir para debatir tradición; otro, para diseñar una intervención escolar.",
+            "examples": [
+              "Propósito cultural",
+              "Propósito tecnológico"
+            ],
+            "memoryAid": "Criterio antes que preferencia."
+          },
+          {
+            "id": "L4.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.literatura.comparar_relatos",
+            "difficulty": 1,
+            "prompt": "¿Qué recomendación está bien justificada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST08",
+            "hint": "Busca «para qué» y evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Para debatir cómo los datos apoyan una decisión escolar, conviene el relato B.",
+                "feedback": "Correcto. La recomendación vincula rasgo del texto y propósito lector."
+              },
+              {
+                "id": "b",
+                "text": "El B es mejor para todo porque tiene tecnología.",
+                "feedback": "Revisa la idea clave. La recomendación vincula rasgo del texto y propósito lector."
+              },
+              {
+                "id": "c",
+                "text": "El A es peor porque incluye tradición.",
+                "feedback": "Revisa la idea clave. La recomendación vincula rasgo del texto y propósito lector."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.literatura.comparar_relatos",
+            "difficulty": 2,
+            "prompt": "Un estudiante resume A y luego B, pero nunca usa un criterio común. ¿Qué le falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L4-ST08",
+            "hint": "Busca enlaces: ambos, mientras, a diferencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añadir más detalles sin orden.",
+                "feedback": "Revisa la idea clave. Dos resúmenes separados no constituyen aún una comparación."
+              },
+              {
+                "id": "b",
+                "text": "Relacionar semejanzas y diferencias bajo preguntas compartidas.",
+                "feedback": "Correcto. Dos resúmenes separados no constituyen aún una comparación."
+              },
+              {
+                "id": "c",
+                "text": "Elegir uno por su longitud.",
+                "feedback": "Revisa la idea clave. Dos resúmenes separados no constituyen aún una comparación."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L4.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.literatura.comparar_relatos",
+            "difficulty": 1,
+            "prompt": "¿Qué interpretación evita oponer tradición y tecnología como enemigas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST08",
+            "hint": "Vuelve al propósito común.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Solo un método puede tener valor.",
+                "feedback": "Revisa la idea clave. La comparación reconoce diferencia sin convertirla en incompatibilidad absoluta."
+              },
+              {
+                "id": "b",
+                "text": "La tradición impide cualquier evidencia.",
+                "feedback": "Revisa la idea clave. La comparación reconoce diferencia sin convertirla en incompatibilidad absoluta."
+              },
+              {
+                "id": "c",
+                "text": "Ambos relatos muestran recursos distintos que pueden movilizar cooperación para cuidar el agua.",
+                "feedback": "Correcto. La comparación reconoce diferencia sin convertirla en incompatibilidad absoluta."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L4.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.literatura.comparar_relatos",
+            "difficulty": 1,
+            "prompt": "¿Cuál estructura produce un comentario comparativo sólido?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L4-ST08",
+            "hint": "Busca paralelismo y cierre.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Criterio, evidencia de A, evidencia de B, relación y conclusión según propósito.",
+                "feedback": "Correcto. La comparación debe equilibrar fuentes y explicar la relación."
+              },
+              {
+                "id": "b",
+                "text": "Opinión, gusto y puntuación.",
+                "feedback": "Revisa la idea clave. La comparación debe equilibrar fuentes y explicar la relación."
+              },
+              {
+                "id": "c",
+                "text": "Dos argumentos sobre A y ninguno sobre B.",
+                "feedback": "Revisa la idea clave. La comparación debe equilibrar fuentes y explicar la relación."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L4.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya comparas relatos para interpretar y elegir",
+            "body": "Usaste criterios paralelos, explicaste semejanzas y diferencias, y formulaste una recomendación dependiente del propósito.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
