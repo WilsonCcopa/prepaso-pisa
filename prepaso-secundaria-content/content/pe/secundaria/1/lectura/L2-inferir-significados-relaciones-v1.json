@@ -1,0 +1,2641 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.5",
+  "locale": "es-PE",
+  "unit": {
+    "id": "L2",
+    "globalId": "pe-sec1-lec-L2",
+    "sequence": 2,
+    "grade": "sec1",
+    "subject": "lectura",
+    "title": "Inferir significados y relaciones",
+    "shortTitle": "Inferir relaciones",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "Lectura es una ruta especializada de Prepaso dentro del área oficial de Comunicación. L2 organiza progresivamente desempeños de inferencia e interpretación; no es una unidad oficial obligatoria de MINEDU.",
+    "unitOutcome": "Deduce significados, características y relaciones lógicas o jerárquicas usando pistas, reglas de razonamiento y límites explícitos.",
+    "finalEvidence": "Cadena de inferencia con conclusión, pistas de una o dos fuentes, explicación del vínculo y grado de certeza.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "area": "Comunicación",
+      "cycle": "VI",
+      "competency": "Lee diversos tipos de textos escritos en su lengua materna",
+      "primaryCapacity": "Infiere e interpreta información del texto",
+      "supportingCapacities": [
+        "Obtiene información del texto escrito",
+        "Reflexiona y evalúa la forma, el contenido y contexto del texto"
+      ],
+      "operationalAlignment": "Deduce significados, rasgos, causas, soluciones, comparaciones, jerarquías y sentidos figurados, e integra pistas entre fuentes."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Constructor de inferencias"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todos los estímulos son originales de Prepaso y no reproducen textos ni actividades de materiales de MINEDU.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Orientaciones para el uso pedagógico de los textos de Comunicación (1.° a 5.° de secundaria)",
+        "publisher": "Ministerio de Educación del Perú",
+        "edition": "2026",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/12625"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "L2-ST01",
+        "title": "El regreso del agua",
+        "format": "continuous",
+        "genre": "nota informativa",
+        "content": "Durante julio, la acequia de Pukara quedó casi inmóvil por la acumulación de ramas. El sábado, las familias retiraron los residuos y liberaron el cauce. Al mediodía, el agua volvió a recorrer su camino habitual y llegó a las parcelas más alejadas. La comunidad acordó revisar el canal cada dos semanas para evitar otra obstrucción.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST02",
+        "title": "Una reparación precisa",
+        "format": "continuous",
+        "genre": "relato breve",
+        "content": "La bicicleta de Tomás hacía un ruido cada vez que frenaba. En el taller, Kiara observó la rueda, aflojó una pieza y luego ajustó el cable hasta que quedó con la tensión necesaria. Tomás dio una vuelta corta: el freno respondió con suavidad. Aquí, ajustó no significa que la mecánica se acomodó en una silla, sino que reguló una pieza.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST03",
+        "title": "El cuaderno de Amaya",
+        "format": "continuous",
+        "genre": "relato breve",
+        "content": "Antes de salir de casa, Amaya revisó dos veces el horario y guardó cada material en una funda distinta. En el recreo encontró una cartuchera junto al quiosco. No la abrió: la llevó a la oficina y explicó exactamente dónde estaba. Más tarde, anotó la tarea y la fecha de entrega antes de comenzar a jugar.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST04",
+        "title": "La guía del humedal",
+        "format": "continuous",
+        "genre": "perfil narrativo",
+        "content": "Luna llegó al humedal con bolsas de repuesto, una botella reutilizable y un pequeño mapa. Cuando un visitante se apartó del sendero, ella no gritó. Se acercó, explicó por qué los nidos podían dañarse y mostró la ruta correcta. Al terminar, contó los materiales para asegurarse de no dejar nada.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST05",
+        "title": "El patio después de la lluvia",
+        "format": "continuous",
+        "genre": "crónica escolar",
+        "content": "Durante la mañana, varias hojas cubrieron la rejilla del patio. Poco después empezó una lluvia intensa. El agua buscó salida, pero se acumuló alrededor de la rejilla y formó un gran charco frente al aula. Cuando retiraron las hojas, el nivel comenzó a bajar en pocos minutos.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST06",
+        "title": "La planta de ciencias",
+        "format": "continuous",
+        "genre": "registro de observación",
+        "content": "Al volver de vacaciones, el equipo encontró la planta con hojas pálidas y tallos inclinados hacia una rendija. La tierra seguía húmeda. Antes de salir, alguien había cerrado la cortina gruesa y la maceta permaneció detrás de ella durante diez días. Al abrir la cortina, la luz volvió a cubrir las hojas.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST07",
+        "title": "Una biblioteca difícil de usar",
+        "format": "continuous",
+        "genre": "caso escolar",
+        "content": "En la biblioteca, el grupo que practicaba teatro hablaba cerca de las mesas de lectura. Varias personas releían el mismo párrafo porque no lograban concentrarse. La encargada propuso mover el ensayo al patio techado y reservar una esquina para trabajo en silencio. También colocó un horario visible para ambos usos.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST08",
+        "title": "Cruzar con mayor seguridad",
+        "format": "continuous",
+        "genre": "acta de propuesta",
+        "content": "La avenida frente al colegio tiene una curva que dificulta ver los vehículos. El municipio pintó una franja, pero algunos conductores no reducen la velocidad. El consejo estudiantil registró los horarios de mayor tránsito y propuso señalización antes de la curva, iluminación y apoyo de un adulto en la entrada. La propuesta aún será evaluada.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST09",
+        "title": "Dos luces para una salida",
+        "format": "discontinuous",
+        "genre": "comparación de productos",
+        "content": "La lámpara Soli pesa 180 gramos, se carga con luz solar y ofrece iluminación amplia durante cuatro horas. La linterna Rayo pesa 120 gramos, se carga por cable y concentra un haz más intenso durante seis horas. Ambas resisten salpicaduras, pero ninguna debe sumergirse.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST10",
+        "title": "Dos planes de estudio",
+        "format": "discontinuous",
+        "genre": "tabla comparativa",
+        "content": "Plan A: estudiar 40 minutos seguidos, descansar 10 y revisar una sola materia por sesión. Plan B: estudiar dos bloques de 20 minutos, descansar 5 entre ellos y alternar dos materias. Ambos planes incluyen apagar notificaciones y terminar con una pregunta de autoevaluación.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST11",
+        "title": "Habitantes del biohuerto",
+        "format": "discontinuous",
+        "genre": "esquema clasificatorio",
+        "content": "Seres vivos del biohuerto. Plantas: hierbas aromáticas (muña y hierbabuena) y hortalizas (lechuga y rabanito). Animales: polinizadores (abeja y mariposa) y descomponedores (lombriz y cochinilla). Cada ejemplo pertenece a una subcategoría y cada subcategoría a una categoría mayor.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST12",
+        "title": "Partes de una bicicleta",
+        "format": "mixed",
+        "genre": "ficha explicativa",
+        "content": "Sistema de movimiento: los pedales transmiten fuerza mediante la cadena y hacen girar la rueda trasera. Sistema de dirección: el manubrio orienta la rueda delantera. Sistema de frenado: las manijas activan los frenos para reducir la velocidad. El asiento sostiene al ciclista, pero no pertenece a los tres sistemas descritos.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST13",
+        "title": "La plaza despierta",
+        "format": "continuous",
+        "genre": "microcuento",
+        "content": "A las seis, la plaza todavía bostezaba bajo una manta de neblina. Poco a poco, las puertas levantaron los párpados y el aroma del pan corrió por las veredas. Cuando apareció el primer bus, el barrio se puso de pie: comenzaron las voces, los pasos y el tintinear de las tazas.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST14",
+        "title": "El último minuto",
+        "format": "continuous",
+        "genre": "crónica deportiva",
+        "content": "El equipo había defendido durante todo el partido. Faltando un minuto, Valeria recibió el balón y atravesó una muralla de camisetas. Su pase dejó a Mara frente al arco. La pelota besó la red y el gimnasio explotó en aplausos. Nadie derribó una pared ni ocurrió una explosión real.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST15",
+        "title": "Reporte del biohuerto",
+        "format": "continuous",
+        "genre": "reporte de resultados",
+        "content": "Durante cuatro semanas, el grupo regó dos parcelas con la misma cantidad de agua. La parcela Norte recibió seis horas diarias de luz y produjo 18 lechugas listas. La parcela Sur recibió tres horas de luz y produjo 11. El reporte advierte que también hubo una ligera diferencia en el tipo de suelo, por lo que no atribuye todo el resultado a una sola causa.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L2-ST16",
+        "title": "Diario de una jardinera",
+        "format": "continuous",
+        "genre": "entrada de diario",
+        "content": "Semana 2: las hojas de la parcela Sur siguen pequeñas. Por la tarde, la pared del almacén proyecta sombra sobre casi toda esa zona. La parcela Norte mantiene luz hasta más tarde. También noté que el suelo del Sur se compacta después del riego y tarda en absorber. La próxima semana convendría aflojarlo y observar si cambia.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "L2.01",
+        "globalId": "pe-sec1-lec-L2-01",
+        "sequence": 1,
+        "title": "Palabras en contexto",
+        "subtitle": "El texto limita qué significado es posible",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.inferencia.significado_contextual",
+        "learningOutcome": "Deduce el significado de palabras o expresiones usando definición, ejemplo, contraste, morfología y coherencia global.",
+        "successEvidence": "Propone un significado, señala dos pistas del texto y comprueba que el reemplazo conserva el sentido.",
+        "prerequisites": [
+          "Localiza información explícita",
+          "Reconoce el tema de un párrafo"
+        ],
+        "misconceptions": [
+          "Elegir el primer significado recordado sin volver al texto",
+          "Usar una sola palabra vecina como prueba suficiente",
+          "Confundir deducción contextual con adivinanza"
+        ],
+        "screens": [
+          {
+            "id": "L2.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "No necesitas conocer cada palabra de antemano",
+            "body": "Cuando aparece una palabra nueva, el texto suele dejar huellas: una explicación, un ejemplo, una consecuencia o un contraste. Inferir es unir esas pistas y comprobar el resultado.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L2.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.inferencia.significado_contextual",
+            "difficulty": 1,
+            "prompt": "En «liberaron el cauce», ¿qué significa cauce?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L2-ST01",
+            "hint": "Relaciona cauce con lo que el agua recorre.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cantidad de lluvia caída",
+                "feedback": "Revisa la idea clave. El texto dice que el agua volvió a recorrer su camino habitual después de liberar el cauce."
+              },
+              {
+                "id": "b",
+                "text": "Camino o canal por donde corre el agua",
+                "feedback": "Correcto. El texto dice que el agua volvió a recorrer su camino habitual después de liberar el cauce."
+              },
+              {
+                "id": "c",
+                "text": "Grupo que limpia una parcela",
+                "feedback": "Revisa la idea clave. El texto dice que el agua volvió a recorrer su camino habitual después de liberar el cauce."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Busca pistas cercanas y globales",
+            "body": "Lee la oración completa y las que la rodean. En «liberaron el cauce y el agua volvió a recorrer su camino», camino del agua ayuda a entender cauce.",
+            "examples": [
+              "Definición cercana",
+              "Ejemplo",
+              "Consecuencia",
+              "Contraste"
+            ],
+            "memoryAid": "No mires la palabra sola: amplía el círculo de lectura."
+          },
+          {
+            "id": "L2.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "La forma de la palabra también ayuda",
+            "body": "Prefijos, sufijos y palabras de la misma familia ofrecen una hipótesis. En obstrucción, la relación con obstruir orienta hacia algo que bloquea el paso.",
+            "examples": [
+              "deshacer: prefijo des- indica inversión",
+              "reutilizable: re- sugiere usar de nuevo"
+            ],
+            "memoryAid": "La forma propone; el contexto confirma."
+          },
+          {
+            "id": "L2.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.significado_contextual",
+            "difficulty": 1,
+            "prompt": "¿Qué pista ayuda más a entender ajustó?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L2-ST02",
+            "hint": "Busca qué cambió después de la acción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tomás tenía una bicicleta.",
+                "feedback": "Revisa la idea clave. El resultado del ajuste muestra que Kiara reguló la tensión del cable."
+              },
+              {
+                "id": "b",
+                "text": "El taller estaba abierto.",
+                "feedback": "Revisa la idea clave. El resultado del ajuste muestra que Kiara reguló la tensión del cable."
+              },
+              {
+                "id": "c",
+                "text": "«El freno respondió con suavidad» después de regular el cable.",
+                "feedback": "Correcto. El resultado del ajuste muestra que Kiara reguló la tensión del cable."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.significado_contextual",
+            "difficulty": 1,
+            "prompt": "Relaciona la pista con la estrategia de inferencia.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Pregunta si explica, contrasta o ejemplifica.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "«es decir» introduce una explicación",
+                "rightId": "r1",
+                "right": "Definición"
+              },
+              {
+                "leftId": "l2",
+                "left": "«a diferencia de» enfrenta ideas",
+                "rightId": "r2",
+                "right": "Contraste"
+              },
+              {
+                "leftId": "l3",
+                "left": "«por ejemplo» presenta un caso",
+                "rightId": "r3",
+                "right": "Ejemplo"
+              }
+            ],
+            "feedbackCorrect": "Reconociste señales que orientan el significado.",
+            "feedbackIncorrect": "Observa la función de cada conector."
+          },
+          {
+            "id": "L2.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Comprueba con un reemplazo",
+            "body": "Sustituye la palabra por el significado propuesto. Si la oración conserva la idea y no contradice otras pistas, la inferencia gana fuerza.",
+            "examples": [
+              "«liberaron el canal» conserva el sentido de cauce",
+              "«ajustó el cable» puede reemplazarse por «reguló el cable»"
+            ],
+            "memoryAid": "Una buena inferencia funciona en toda la oración."
+          },
+          {
+            "id": "L2.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.inferencia.significado_contextual",
+            "difficulty": 1,
+            "prompt": "En el texto de la acequia, obstrucción significa…",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST01",
+            "hint": "Une la acumulación de ramas con su efecto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Bloqueo que impide o dificulta el paso.",
+                "feedback": "Correcto. Las ramas inmovilizaron el agua y, al retirarlas, el nivel volvió a circular."
+              },
+              {
+                "id": "b",
+                "text": "Ruta que acelera el agua.",
+                "feedback": "Revisa la idea clave. Las ramas inmovilizaron el agua y, al retirarlas, el nivel volvió a circular."
+              },
+              {
+                "id": "c",
+                "text": "Acuerdo para revisar cada semana.",
+                "feedback": "Revisa la idea clave. Las ramas inmovilizaron el agua y, al retirarlas, el nivel volvió a circular."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.inferencia.significado_contextual",
+            "difficulty": 2,
+            "prompt": "Eva eligió «sentarse cómodamente» como significado de ajustó porque conoce la frase «se ajustó en la silla». ¿Qué error cometió?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST02",
+            "hint": "Prueba reemplazar la palabra dentro de la oración original.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usó demasiadas pistas del texto.",
+                "feedback": "Revisa la idea clave. Las palabras polisémicas cambian de sentido según el contexto."
+              },
+              {
+                "id": "b",
+                "text": "Eligió un significado posible de la palabra, pero incompatible con el cable y el freno.",
+                "feedback": "Correcto. Las palabras polisémicas cambian de sentido según el contexto."
+              },
+              {
+                "id": "c",
+                "text": "Leyó la oración siguiente antes de responder.",
+                "feedback": "Revisa la idea clave. Las palabras polisémicas cambian de sentido según el contexto."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.inferencia.significado_contextual",
+            "difficulty": 1,
+            "prompt": "En la frase «reguló la tensión del cable», tensión se refiere a…",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST02",
+            "hint": "Identifica el tema: reparación de una bicicleta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una discusión entre dos personas.",
+                "feedback": "Revisa la idea clave. El contexto mecánico del freno selecciona el sentido físico de tensión."
+              },
+              {
+                "id": "b",
+                "text": "El título de una noticia.",
+                "feedback": "Revisa la idea clave. El contexto mecánico del freno selecciona el sentido físico de tensión."
+              },
+              {
+                "id": "c",
+                "text": "Qué tan estirado o firme está el cable.",
+                "feedback": "Correcto. El contexto mecánico del freno selecciona el sentido físico de tensión."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.inferencia.significado_contextual",
+            "difficulty": 1,
+            "prompt": "¿Cuál procedimiento produce una inferencia más sólida?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una secuencia que incluya hipótesis y comprobación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Proponer un significado, localizar pistas y comprobarlo sustituyendo la palabra.",
+                "feedback": "Correcto. La inferencia debe ser compatible con evidencia textual verificable."
+              },
+              {
+                "id": "b",
+                "text": "Elegir la opción más larga.",
+                "feedback": "Revisa la idea clave. La inferencia debe ser compatible con evidencia textual verificable."
+              },
+              {
+                "id": "c",
+                "text": "Recordar un significado y no releer.",
+                "feedback": "Revisa la idea clave. La inferencia debe ser compatible con evidencia textual verificable."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya conviertes el contexto en una pista",
+            "body": "Deduciste significados sin adivinar: formulaste una hipótesis, usaste pistas y comprobaste el reemplazo. Ese método sirve en cualquier área.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L2.02",
+        "globalId": "pe-sec1-lec-L2-02",
+        "sequence": 2,
+        "title": "Características implícitas",
+        "subtitle": "Las acciones y decisiones revelan rasgos no escritos",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.inferencia.caracteristicas_implicitas",
+        "learningOutcome": "Deduce características de personas, lugares o situaciones a partir de acciones, palabras y detalles convergentes.",
+        "successEvidence": "Formula un rasgo preciso y lo respalda con dos indicios compatibles del texto.",
+        "prerequisites": [
+          "Localiza acciones y detalles",
+          "Distingue hecho y opinión"
+        ],
+        "misconceptions": [
+          "Confundir gusto personal con una característica demostrada",
+          "Usar un solo detalle ambiguo",
+          "Etiquetar a una persona de forma absoluta por una acción"
+        ],
+        "screens": [
+          {
+            "id": "L2.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un texto puede mostrar sin decir",
+            "body": "El relato no necesita escribir «Amaya es organizada». Revisar el horario, proteger sus materiales y anotar la fecha permiten deducirlo. Una inferencia responsable explica de dónde sale.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L2.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.inferencia.caracteristicas_implicitas",
+            "difficulty": 1,
+            "prompt": "¿Qué rasgo de Amaya está mejor sustentado por revisar el horario y anotar la entrega?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L2-ST03",
+            "hint": "Busca un rasgo que explique ambas acciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Es la estudiante más inteligente del colegio.",
+                "feedback": "Revisa la idea clave. Dos acciones de planificación respaldan organización; las otras ideas no aparecen."
+              },
+              {
+                "id": "b",
+                "text": "Es organizada y previsora en sus tareas.",
+                "feedback": "Correcto. Dos acciones de planificación respaldan organización; las otras ideas no aparecen."
+              },
+              {
+                "id": "c",
+                "text": "No disfruta jugar en el recreo.",
+                "feedback": "Revisa la idea clave. Dos acciones de planificación respaldan organización; las otras ideas no aparecen."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Rasgo = indicios + patrón",
+            "body": "Una acción aislada puede tener muchas causas. Dos o más acciones que apuntan en la misma dirección forman un patrón más confiable.",
+            "examples": [
+              "Revisar el horario + ordenar materiales → organizada",
+              "Explicar con calma + orientar → paciente"
+            ],
+            "memoryAid": "No pegues una etiqueta: construye un patrón."
+          },
+          {
+            "id": "L2.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Usa palabras graduadas",
+            "body": "Prefiere expresiones como «se muestra cuidadosa en esta situación» en vez de «siempre es perfecta». El texto permite inferir lo observado, no toda la personalidad.",
+            "examples": [
+              "parece previsora",
+              "actúa con honestidad",
+              "se muestra respetuosa"
+            ],
+            "memoryAid": "La conclusión no debe ser más amplia que la evidencia."
+          },
+          {
+            "id": "L2.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.caracteristicas_implicitas",
+            "difficulty": 1,
+            "prompt": "Llevar la cartuchera sin abrirla a la oficina permite inferir que Amaya…",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L2-ST03",
+            "hint": "Observa lo que decidió no hacer.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Conoce a la persona propietaria.",
+                "feedback": "Revisa la idea clave. Evitar revisar el contenido y entregarlo protege la privacidad y la propiedad."
+              },
+              {
+                "id": "b",
+                "text": "Quería quedarse con los objetos.",
+                "feedback": "Revisa la idea clave. Evitar revisar el contenido y entregarlo protege la privacidad y la propiedad."
+              },
+              {
+                "id": "c",
+                "text": "Actúa con respeto por lo ajeno.",
+                "feedback": "Correcto. Evitar revisar el contenido y entregarlo protege la privacidad y la propiedad."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.caracteristicas_implicitas",
+            "difficulty": 1,
+            "prompt": "Relaciona indicio e inferencia prudente.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST03",
+            "hint": "Describe el comportamiento observado.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Revisa el horario dos veces",
+                "rightId": "r1",
+                "right": "Se muestra cuidadosa"
+              },
+              {
+                "leftId": "l2",
+                "left": "Explica sin gritar",
+                "rightId": "r2",
+                "right": "Se comunica con calma"
+              },
+              {
+                "leftId": "l3",
+                "left": "Cuenta los materiales al terminar",
+                "rightId": "r3",
+                "right": "Actúa responsablemente"
+              }
+            ],
+            "feedbackCorrect": "Cada inferencia se limita a lo que muestra la acción.",
+            "feedbackIncorrect": "Evita conclusiones absolutas."
+          },
+          {
+            "id": "L2.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Descarta explicaciones rivales",
+            "body": "Pregunta si los mismos indicios podrían sostener otro rasgo. Luego elige la explicación que cubra más detalles sin contradecir el texto.",
+            "examples": [
+              "Llevar repuestos puede mostrar previsión",
+              "Contar materiales al final refuerza responsabilidad"
+            ],
+            "memoryAid": "La mejor inferencia explica varias pistas a la vez."
+          },
+          {
+            "id": "L2.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.inferencia.caracteristicas_implicitas",
+            "difficulty": 1,
+            "prompt": "¿Qué combinación sostiene mejor que Luna es previsora?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST04",
+            "hint": "Busca acciones realizadas antes de que aparezca un problema.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Lleva bolsas de repuesto y un mapa antes de iniciar.",
+                "feedback": "Correcto. Los repuestos y el mapa anticipan necesidades posibles."
+              },
+              {
+                "id": "b",
+                "text": "Usa una botella y visita un humedal.",
+                "feedback": "Revisa la idea clave. Los repuestos y el mapa anticipan necesidades posibles."
+              },
+              {
+                "id": "c",
+                "text": "Habla con un visitante y termina la visita.",
+                "feedback": "Revisa la idea clave. Los repuestos y el mapa anticipan necesidades posibles."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.inferencia.caracteristicas_implicitas",
+            "difficulty": 2,
+            "prompt": "Un lector concluye: «Luna nunca se enoja». ¿Por qué esa inferencia es excesiva?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST04",
+            "hint": "Distingue esta escena de toda la vida de Luna.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque el texto afirma que gritó.",
+                "feedback": "Revisa la idea clave. Una inferencia no debe extenderse más allá de la evidencia disponible."
+              },
+              {
+                "id": "b",
+                "text": "El texto solo muestra que actuó con calma en una situación, no cómo reacciona siempre.",
+                "feedback": "Correcto. Una inferencia no debe extenderse más allá de la evidencia disponible."
+              },
+              {
+                "id": "c",
+                "text": "Porque ninguna acción permite inferir rasgos.",
+                "feedback": "Revisa la idea clave. Una inferencia no debe extenderse más allá de la evidencia disponible."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.inferencia.caracteristicas_implicitas",
+            "difficulty": 1,
+            "prompt": "¿Qué rasgo comparten Amaya y Luna según los textos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST04",
+            "hint": "Busca una semejanza respaldada por una acción de cada texto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ambas trabajan en el humedal.",
+                "feedback": "Revisa la idea clave. Amaya protege una pertenencia ajena y Luna evita dejar materiales."
+              },
+              {
+                "id": "b",
+                "text": "Ambas perdieron una cartuchera.",
+                "feedback": "Revisa la idea clave. Amaya protege una pertenencia ajena y Luna evita dejar materiales."
+              },
+              {
+                "id": "c",
+                "text": "Cuidan los objetos y el entorno mediante acciones concretas.",
+                "feedback": "Correcto. Amaya protege una pertenencia ajena y Luna evita dejar materiales."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.inferencia.caracteristicas_implicitas",
+            "difficulty": 1,
+            "prompt": "¿Cuál respuesta usa evidencia correctamente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST03",
+            "hint": "Elige la opción con conclusión y evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Amaya se muestra organizada: revisa el horario y anota la fecha de entrega.",
+                "feedback": "Correcto. La respuesta formula un rasgo y señala indicios observables."
+              },
+              {
+                "id": "b",
+                "text": "Amaya es perfecta porque el relato me gustó.",
+                "feedback": "Revisa la idea clave. La respuesta formula un rasgo y señala indicios observables."
+              },
+              {
+                "id": "c",
+                "text": "Amaya es organizada, pero no sé qué parte lo demuestra.",
+                "feedback": "Revisa la idea clave. La respuesta formula un rasgo y señala indicios observables."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees lo que las acciones revelan",
+            "body": "Inferiste características con indicios convergentes y evitaste etiquetas absolutas. Ahora puedes explicar no solo qué piensas, sino qué parte del texto lo sostiene.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L2.03",
+        "globalId": "pe-sec1-lec-L2-03",
+        "sequence": 3,
+        "title": "Causa y consecuencia implícitas",
+        "subtitle": "Relacionar hechos exige una explicación compatible con todas las pistas",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.inferencia.causa_consecuencia",
+        "learningOutcome": "Deduce relaciones de causa y consecuencia no expresadas directamente, diferenciándolas de una simple secuencia.",
+        "successEvidence": "Completa una cadena causal con evidencia textual y descarta una explicación que contradice los hechos.",
+        "prerequisites": [
+          "Reconoce secuencias",
+          "Identifica conectores causales explícitos"
+        ],
+        "misconceptions": [
+          "Creer que todo hecho anterior causa el siguiente",
+          "Inventar una causa posible sin evidencia",
+          "Confundir una condición con una garantía"
+        ],
+        "screens": [
+          {
+            "id": "L2.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Antes no siempre significa por causa de",
+            "body": "Las hojas aparecieron antes que el charco, pero la relación causal necesita más: cubrieron la salida y, al retirarlas, el agua bajó. La explicación conecta varios datos, no solo el orden.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L2.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.inferencia.causa_consecuencia",
+            "difficulty": 1,
+            "prompt": "¿Qué causó principalmente la acumulación de agua en el patio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L2-ST05",
+            "hint": "Busca qué impidió que el agua saliera.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El aula estaba cerca del patio.",
+                "feedback": "Revisa la idea clave. La salida quedó cubierta justo cuando el agua necesitaba drenar."
+              },
+              {
+                "id": "b",
+                "text": "Las hojas bloquearon la rejilla durante la lluvia.",
+                "feedback": "Correcto. La salida quedó cubierta justo cuando el agua necesitaba drenar."
+              },
+              {
+                "id": "c",
+                "text": "Alguien retiró las hojas después.",
+                "feedback": "Revisa la idea clave. La salida quedó cubierta justo cuando el agua necesitaba drenar."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Arma una cadena de tres pasos",
+            "body": "Identifica situación inicial, cambio y resultado. Luego pregunta qué mecanismo conecta los hechos.",
+            "examples": [
+              "Rejilla cubierta → agua sin salida → charco",
+              "Cortina cerrada → poca luz → hojas pálidas"
+            ],
+            "memoryAid": "Una causa explica cómo se produjo el efecto."
+          },
+          {
+            "id": "L2.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Busca una prueba de contraste",
+            "body": "El texto puede mostrar qué ocurre cuando la posible causa desaparece. Si retirar hojas permite que el agua baje, esa observación fortalece la relación.",
+            "examples": [
+              "Antes: salida cubierta",
+              "Después: salida libre y nivel descendente"
+            ],
+            "memoryAid": "El cambio después de intervenir funciona como pista."
+          },
+          {
+            "id": "L2.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.causa_consecuencia",
+            "difficulty": 1,
+            "prompt": "¿Qué dato fortalece esa explicación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L2-ST05",
+            "hint": "Observa qué cambió después de intervenir.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La lluvia ocurrió por la mañana.",
+                "feedback": "Revisa la idea clave. Eliminar el bloqueo produjo el descenso esperado del agua."
+              },
+              {
+                "id": "b",
+                "text": "El charco estaba frente al aula.",
+                "feedback": "Revisa la idea clave. Eliminar el bloqueo produjo el descenso esperado del agua."
+              },
+              {
+                "id": "c",
+                "text": "El nivel bajó pocos minutos después de retirar las hojas.",
+                "feedback": "Correcto. Eliminar el bloqueo produjo el descenso esperado del agua."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.03-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.causa_consecuencia",
+            "difficulty": 1,
+            "prompt": "Ordena la cadena causal.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST05",
+            "hint": "El charco es la consecuencia final.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "La rejilla queda cubierta por hojas"
+              },
+              {
+                "id": "i2",
+                "text": "La lluvia llega al patio"
+              },
+              {
+                "id": "i3",
+                "text": "El agua no puede salir con rapidez"
+              },
+              {
+                "id": "i4",
+                "text": "Se forma un charco"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3",
+              "i4"
+            ],
+            "feedbackCorrect": "La cadena incluye condición, evento, mecanismo y efecto.",
+            "feedbackIncorrect": "Distingue lo que bloquea, lo que llega y el resultado."
+          },
+          {
+            "id": "L2.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Usa lenguaje proporcional a la evidencia",
+            "body": "A veces hay varias causas posibles. Expresiones como «probablemente contribuyó» son más precisas que «fue la única causa» cuando el texto no descarta otras.",
+            "examples": [
+              "La falta de luz explica las hojas pálidas",
+              "La humedad descarta que la única explicación sea falta de agua"
+            ],
+            "memoryAid": "No conviertas una pista en certeza absoluta."
+          },
+          {
+            "id": "L2.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.inferencia.causa_consecuencia",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la explicación más probable para las hojas pálidas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST06",
+            "hint": "Usa juntas las pistas de humedad y dirección del tallo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La planta recibió muy poca luz detrás de la cortina.",
+                "feedback": "Correcto. La tierra seguía húmeda y los tallos se inclinaban hacia una rendija luminosa."
+              },
+              {
+                "id": "b",
+                "text": "La tierra estuvo completamente seca.",
+                "feedback": "Revisa la idea clave. La tierra seguía húmeda y los tallos se inclinaban hacia una rendija luminosa."
+              },
+              {
+                "id": "c",
+                "text": "La maceta cambió de color.",
+                "feedback": "Revisa la idea clave. La tierra seguía húmeda y los tallos se inclinaban hacia una rendija luminosa."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.inferencia.causa_consecuencia",
+            "difficulty": 2,
+            "prompt": "Un lector dice: «La tierra húmeda causó necesariamente las hojas pálidas». ¿Qué omite?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST06",
+            "hint": "Compara qué hipótesis explica también los tallos inclinados.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Omite que toda planta debe estar seca.",
+                "feedback": "Revisa la idea clave. La mejor explicación debe abarcar el mayor número de pistas sin contradicción."
+              },
+              {
+                "id": "b",
+                "text": "Omite la cortina cerrada y la inclinación hacia la luz, pistas más directas de falta de iluminación.",
+                "feedback": "Correcto. La mejor explicación debe abarcar el mayor número de pistas sin contradicción."
+              },
+              {
+                "id": "c",
+                "text": "Omite que las vacaciones duraron un solo día.",
+                "feedback": "Revisa la idea clave. La mejor explicación debe abarcar el mayor número de pistas sin contradicción."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.inferencia.causa_consecuencia",
+            "difficulty": 1,
+            "prompt": "Si la cortina se mantiene abierta y las hojas nuevas recuperan color, ¿qué aporta ese dato?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST06",
+            "hint": "Relaciona intervención y resultado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Demuestra que el agua nunca importa.",
+                "feedback": "Revisa la idea clave. El cambio esperado tras recuperar luz apoya la relación, sin justificar generalizaciones absolutas."
+              },
+              {
+                "id": "b",
+                "text": "Prueba que todas las plantas reaccionan igual.",
+                "feedback": "Revisa la idea clave. El cambio esperado tras recuperar luz apoya la relación, sin justificar generalizaciones absolutas."
+              },
+              {
+                "id": "c",
+                "text": "Refuerza la hipótesis de que la falta de luz contribuyó al problema.",
+                "feedback": "Correcto. El cambio esperado tras recuperar luz apoya la relación, sin justificar generalizaciones absolutas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.inferencia.causa_consecuencia",
+            "difficulty": 1,
+            "prompt": "¿Cuál frase distingue mejor secuencia y causa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca la opción que exija mecanismo y evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que A ocurra antes que B no basta; debe haber pistas de cómo A contribuye a B.",
+                "feedback": "Correcto. La causalidad necesita un vínculo explicativo respaldado por el texto."
+              },
+              {
+                "id": "b",
+                "text": "Todo hecho anterior causa el siguiente.",
+                "feedback": "Revisa la idea clave. La causalidad necesita un vínculo explicativo respaldado por el texto."
+              },
+              {
+                "id": "c",
+                "text": "Las causas siempre aparecen con la palabra porque.",
+                "feedback": "Revisa la idea clave. La causalidad necesita un vínculo explicativo respaldado por el texto."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya construyes cadenas causales",
+            "body": "Relacionaste hechos mediante mecanismos y pruebas de contraste. También aprendiste a no convertir una posibilidad en una certeza mayor que la evidencia.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L2.04",
+        "globalId": "pe-sec1-lec-L2-04",
+        "sequence": 4,
+        "title": "Problema y solución",
+        "subtitle": "Comprender una respuesta exige definir primero qué se intenta cambiar",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.inferencia.problema_solucion",
+        "learningOutcome": "Identifica problemas centrales, distingue acciones de resultados y evalúa si una solución responde a las causas y restricciones.",
+        "successEvidence": "Completa un organizador problema–causas–soluciones y justifica cuál propuesta es más pertinente.",
+        "prerequisites": [
+          "Localiza hechos relevantes",
+          "Deduce causas sencillas"
+        ],
+        "misconceptions": [
+          "Confundir el tema general con el problema concreto",
+          "Llamar solución a cualquier acción mencionada",
+          "Evaluar una propuesta sin considerar límites del texto"
+        ],
+        "screens": [
+          {
+            "id": "L2.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una solución solo tiene sentido frente a un problema",
+            "body": "«La biblioteca» es el tema; «el ruido impide concentrarse» es el problema. Definirlo con precisión permite revisar si la respuesta actúa sobre la causa y respeta a quienes participan.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L2.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.inferencia.problema_solucion",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el problema central de la biblioteca?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L2-ST07",
+            "hint": "Formula el obstáculo, no solo el lugar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La biblioteca no tiene libros.",
+                "feedback": "Revisa la idea clave. El texto describe relecturas causadas por conversaciones cercanas."
+              },
+              {
+                "id": "b",
+                "text": "El ruido del ensayo dificulta la concentración de quienes leen.",
+                "feedback": "Correcto. El texto describe relecturas causadas por conversaciones cercanas."
+              },
+              {
+                "id": "c",
+                "text": "El grupo de teatro no sabe actuar.",
+                "feedback": "Revisa la idea clave. El texto describe relecturas causadas por conversaciones cercanas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Formula la brecha",
+            "body": "Un problema muestra la distancia entre una situación actual y una deseada. Nómbralo sin culpar automáticamente a una persona.",
+            "examples": [
+              "Actual: ruido junto a mesas",
+              "Deseado: lectura y ensayo pueden realizarse"
+            ],
+            "memoryAid": "Escribe qué ocurre y qué debería poder ocurrir."
+          },
+          {
+            "id": "L2.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Separa acción y resultado esperado",
+            "body": "Mover el ensayo es una acción; recuperar concentración es el resultado esperado. El texto puede proponer acciones sin asegurar todavía sus efectos.",
+            "examples": [
+              "Acción: reservar una esquina silenciosa",
+              "Resultado esperado: menos interrupciones"
+            ],
+            "memoryAid": "Pregunta: ¿qué se hace y qué debería cambiar?"
+          },
+          {
+            "id": "L2.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.problema_solucion",
+            "difficulty": 1,
+            "prompt": "¿Qué es una acción propuesta, no un resultado?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L2-ST07",
+            "hint": "Pregunta cuál opción puede ejecutarse directamente.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Lograr mayor concentración.",
+                "feedback": "Revisa la idea clave. Mover el ensayo es lo que se hará; los otros son efectos esperados."
+              },
+              {
+                "id": "b",
+                "text": "Reducir las interrupciones.",
+                "feedback": "Revisa la idea clave. Mover el ensayo es lo que se hará; los otros son efectos esperados."
+              },
+              {
+                "id": "c",
+                "text": "Mover el ensayo al patio techado.",
+                "feedback": "Correcto. Mover el ensayo es lo que se hará; los otros son efectos esperados."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.problema_solucion",
+            "difficulty": 1,
+            "prompt": "Relaciona cada elemento del caso.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST07",
+            "hint": "Una medida es una acción intencional.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Ruido cerca de las mesas",
+                "rightId": "r1",
+                "right": "Causa o condición"
+              },
+              {
+                "leftId": "l2",
+                "left": "Dificultad para concentrarse",
+                "rightId": "r2",
+                "right": "Problema observado"
+              },
+              {
+                "leftId": "l3",
+                "left": "Horario visible",
+                "rightId": "r3",
+                "right": "Medida de organización"
+              }
+            ],
+            "feedbackCorrect": "Distinguiste condición, problema y respuesta.",
+            "feedbackIncorrect": "Ubica qué origina, qué afecta y qué se propone."
+          },
+          {
+            "id": "L2.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Evalúa pertinencia y viabilidad",
+            "body": "Una solución pertinente responde a la causa; una solución viable puede realizarse con los recursos y límites disponibles. A veces se combinan varias medidas.",
+            "examples": [
+              "Señal antes de la curva responde a poca visibilidad",
+              "Registrar horarios ayuda a ubicar el mayor riesgo"
+            ],
+            "memoryAid": "Buena solución = relación con el problema + posibilidad de aplicarla."
+          },
+          {
+            "id": "L2.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.inferencia.problema_solucion",
+            "difficulty": 1,
+            "prompt": "¿Por qué la propuesta de la biblioteca combina espacios y horario?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST07",
+            "hint": "Busca qué actividades deben seguir funcionando.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque busca permitir lectura silenciosa y ensayo sin eliminar una de las actividades.",
+                "feedback": "Correcto. La combinación atiende necesidades de dos grupos y organiza su convivencia."
+              },
+              {
+                "id": "b",
+                "text": "Porque el patio siempre está vacío.",
+                "feedback": "Revisa la idea clave. La combinación atiende necesidades de dos grupos y organiza su convivencia."
+              },
+              {
+                "id": "c",
+                "text": "Porque los libros solo pueden usarse a una hora.",
+                "feedback": "Revisa la idea clave. La combinación atiende necesidades de dos grupos y organiza su convivencia."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.inferencia.problema_solucion",
+            "difficulty": 2,
+            "prompt": "Un estudiante resume el problema de la avenida como «hay autos». ¿Qué falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST08",
+            "hint": "Recupera dos detalles del texto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añadir que todos los conductores son irresponsables.",
+                "feedback": "Revisa la idea clave. La formulación útil incluye las condiciones que crean riesgo sin generalizar."
+              },
+              {
+                "id": "b",
+                "text": "Precisar que la curva limita la visibilidad y algunos vehículos no reducen la velocidad al ingreso.",
+                "feedback": "Correcto. La formulación útil incluye las condiciones que crean riesgo sin generalizar."
+              },
+              {
+                "id": "c",
+                "text": "Proponer cerrar permanentemente la avenida.",
+                "feedback": "Revisa la idea clave. La formulación útil incluye las condiciones que crean riesgo sin generalizar."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.inferencia.problema_solucion",
+            "difficulty": 1,
+            "prompt": "¿Qué propuesta responde directamente a la visibilidad limitada por la curva?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST08",
+            "hint": "Relaciona la ubicación de la señal con el punto ciego.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pintar las aulas.",
+                "feedback": "Revisa la idea clave. Avisar antes de la curva permite que el conductor reduzca la velocidad con anticipación."
+              },
+              {
+                "id": "b",
+                "text": "Cambiar el horario de recreo.",
+                "feedback": "Revisa la idea clave. Avisar antes de la curva permite que el conductor reduzca la velocidad con anticipación."
+              },
+              {
+                "id": "c",
+                "text": "Colocar señalización antes de llegar a la curva.",
+                "feedback": "Correcto. Avisar antes de la curva permite que el conductor reduzca la velocidad con anticipación."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.inferencia.problema_solucion",
+            "difficulty": 1,
+            "prompt": "¿Cuál evaluación es más precisa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST08",
+            "hint": "Distingue propuesta de resultado comprobado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Las propuestas son pertinentes, pero aún deben evaluarse antes de afirmar que resolverán el riesgo.",
+                "feedback": "Correcto. El texto indica que las medidas todavía serán evaluadas."
+              },
+              {
+                "id": "b",
+                "text": "Las propuestas ya eliminaron todos los accidentes.",
+                "feedback": "Revisa la idea clave. El texto indica que las medidas todavía serán evaluadas."
+              },
+              {
+                "id": "c",
+                "text": "Registrar horarios no aporta ninguna evidencia.",
+                "feedback": "Revisa la idea clave. El texto indica que las medidas todavía serán evaluadas."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya evalúas respuestas, no solo las enumeras",
+            "body": "Definiste problemas, causas, acciones y resultados esperados. Ahora puedes explicar por qué una solución es pertinente y qué falta comprobar.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L2.05",
+        "globalId": "pe-sec1-lec-L2-05",
+        "sequence": 5,
+        "title": "Comparación y contraste",
+        "subtitle": "Comparar exige usar el mismo criterio para ambos elementos",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.inferencia.comparacion_contraste",
+        "learningOutcome": "Deduce semejanzas y diferencias relevantes organizando información bajo criterios comunes.",
+        "successEvidence": "Completa una comparación con tres criterios y formula una conclusión ajustada al propósito.",
+        "prerequisites": [
+          "Localiza datos en un texto discontinuo",
+          "Integra información explícita"
+        ],
+        "misconceptions": [
+          "Comparar datos que responden a criterios distintos",
+          "Listar características sin explicar semejanzas o diferencias",
+          "Concluir que una opción es mejor para todo"
+        ],
+        "screens": [
+          {
+            "id": "L2.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Comparar no es hacer dos listas separadas",
+            "body": "Para comparar una lámpara y una linterna, observa el mismo criterio en ambas: peso con peso, duración con duración y tipo de luz con tipo de luz. Después decide qué diferencia importa para la tarea.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L2.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.inferencia.comparacion_contraste",
+            "difficulty": 1,
+            "prompt": "¿Qué semejanza comparten Soli y Rayo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L2-ST09",
+            "hint": "Busca una característica expresada para ambas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ambas se cargan con luz solar.",
+                "feedback": "Revisa la idea clave. La ficha atribuye resistencia a salpicaduras a los dos productos."
+              },
+              {
+                "id": "b",
+                "text": "Ambas resisten salpicaduras.",
+                "feedback": "Correcto. La ficha atribuye resistencia a salpicaduras a los dos productos."
+              },
+              {
+                "id": "c",
+                "text": "Ambas iluminan durante seis horas.",
+                "feedback": "Revisa la idea clave. La ficha atribuye resistencia a salpicaduras a los dos productos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Define el propósito y los criterios",
+            "body": "La pregunta determina qué datos importan. Para caminar seis horas interesa duración y tipo de haz; para iluminar una mesa quizá importa la amplitud.",
+            "examples": [
+              "Criterio: peso",
+              "Criterio: fuente de carga",
+              "Criterio: duración"
+            ],
+            "memoryAid": "Mismo criterio, dos elementos."
+          },
+          {
+            "id": "L2.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Separa semejanzas y diferencias",
+            "body": "Una semejanza aparece cuando ambos comparten una propiedad; una diferencia muestra valores o funciones distintas dentro del mismo criterio.",
+            "examples": [
+              "Ambas resisten salpicaduras",
+              "Soli dura 4 h; Rayo dura 6 h"
+            ],
+            "memoryAid": "Nombra primero el criterio y luego la relación."
+          },
+          {
+            "id": "L2.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.comparacion_contraste",
+            "difficulty": 1,
+            "prompt": "Si la prioridad es cargar sin cable durante una salida soleada, ¿qué opción encaja mejor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L2-ST09",
+            "hint": "Compara la fuente de carga.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La linterna Rayo.",
+                "feedback": "Revisa la idea clave. Soli usa carga solar; ese criterio responde directamente a la necesidad."
+              },
+              {
+                "id": "b",
+                "text": "Ninguna emite luz.",
+                "feedback": "Revisa la idea clave. Soli usa carga solar; ese criterio responde directamente a la necesidad."
+              },
+              {
+                "id": "c",
+                "text": "La lámpara Soli.",
+                "feedback": "Correcto. Soli usa carga solar; ese criterio responde directamente a la necesidad."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.comparacion_contraste",
+            "difficulty": 1,
+            "prompt": "Relaciona el criterio con la comparación correcta.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST09",
+            "hint": "No mezcles peso con duración.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Peso",
+                "rightId": "r1",
+                "right": "Rayo pesa 60 g menos"
+              },
+              {
+                "leftId": "l2",
+                "left": "Duración",
+                "rightId": "r2",
+                "right": "Rayo ofrece 2 h más"
+              },
+              {
+                "leftId": "l3",
+                "left": "Distribución de luz",
+                "rightId": "r3",
+                "right": "Soli ilumina un área más amplia"
+              }
+            ],
+            "feedbackCorrect": "Cada afirmación usa el mismo criterio para ambos productos.",
+            "feedbackIncorrect": "Busca las unidades o funciones comparables."
+          },
+          {
+            "id": "L2.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Concluye según el uso",
+            "body": "La evidencia puede favorecer opciones distintas según la necesidad. Evita «es mejor» sin explicar para qué.",
+            "examples": [
+              "Rayo conviene para un trayecto largo",
+              "Soli conviene para iluminar un área amplia sin enchufe"
+            ],
+            "memoryAid": "La mejor opción depende del propósito declarado."
+          },
+          {
+            "id": "L2.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.inferencia.comparacion_contraste",
+            "difficulty": 1,
+            "prompt": "¿Qué comparten los planes A y B?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST10",
+            "hint": "Localiza la oración que empieza con «Ambos».",
+            "options": [
+              {
+                "id": "a",
+                "text": "Incluyen descansos, apagan notificaciones y terminan con autoevaluación.",
+                "feedback": "Correcto. El texto atribuye las tres medidas a ambos planes."
+              },
+              {
+                "id": "b",
+                "text": "Tienen bloques exactamente iguales.",
+                "feedback": "Revisa la idea clave. El texto atribuye las tres medidas a ambos planes."
+              },
+              {
+                "id": "c",
+                "text": "Trabajan siempre dos materias.",
+                "feedback": "Revisa la idea clave. El texto atribuye las tres medidas a ambos planes."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.inferencia.comparacion_contraste",
+            "difficulty": 2,
+            "prompt": "Rita dice: «El plan B es mejor porque tiene dos materias y el plan A dura 40 minutos». ¿Qué problema tiene su comparación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST10",
+            "hint": "Compara duración con duración o materias con materias.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Incluye demasiados datos iguales.",
+                "feedback": "Revisa la idea clave. Una comparación justa aplica el mismo criterio a las dos opciones."
+              },
+              {
+                "id": "b",
+                "text": "Usa criterios distintos: número de materias para B y duración de bloque para A.",
+                "feedback": "Correcto. Una comparación justa aplica el mismo criterio a las dos opciones."
+              },
+              {
+                "id": "c",
+                "text": "Olvida que ambos planes prohíben estudiar.",
+                "feedback": "Revisa la idea clave. Una comparación justa aplica el mismo criterio a las dos opciones."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.inferencia.comparacion_contraste",
+            "difficulty": 1,
+            "prompt": "Una estudiante se concentra mejor en bloques cortos y necesita alternar materias. ¿Qué plan se ajusta más?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST10",
+            "hint": "Relaciona las dos necesidades con las características del plan.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Plan A",
+                "feedback": "Revisa la idea clave. B usa dos bloques de 20 minutos y alterna dos materias."
+              },
+              {
+                "id": "b",
+                "text": "Ninguno tiene descansos",
+                "feedback": "Revisa la idea clave. B usa dos bloques de 20 minutos y alterna dos materias."
+              },
+              {
+                "id": "c",
+                "text": "Plan B",
+                "feedback": "Correcto. B usa dos bloques de 20 minutos y alterna dos materias."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.inferencia.comparacion_contraste",
+            "difficulty": 1,
+            "prompt": "¿Cuál conclusión está mejor sustentada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST09",
+            "hint": "Evita una superioridad absoluta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Rayo dura más, pero Soli ofrece carga solar y luz amplia; la elección depende del uso.",
+                "feedback": "Correcto. La conclusión integra diferencias y limita la decisión al propósito."
+              },
+              {
+                "id": "b",
+                "text": "Rayo es superior en toda situación.",
+                "feedback": "Revisa la idea clave. La conclusión integra diferencias y limita la decisión al propósito."
+              },
+              {
+                "id": "c",
+                "text": "Soli y Rayo son idénticas porque ambas iluminan.",
+                "feedback": "Revisa la idea clave. La conclusión integra diferencias y limita la decisión al propósito."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya comparas con criterios claros",
+            "body": "Organizaste semejanzas y diferencias bajo criterios comunes y vinculaste la conclusión con una necesidad. Comparar ahora significa razonar, no solo enumerar.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L2.06",
+        "globalId": "pe-sec1-lec-L2-06",
+        "sequence": 6,
+        "title": "Relaciones jerárquicas",
+        "subtitle": "Categorías, ejemplos, partes y funciones organizan la información",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.inferencia.relaciones_jerarquicas",
+        "learningOutcome": "Distingue categorías, subcategorías, ejemplos, partes y funciones para construir mapas conceptuales.",
+        "successEvidence": "Organiza información en una jerarquía de tres niveles y explica dos relaciones entre nodos.",
+        "prerequisites": [
+          "Reconoce títulos y subtítulos",
+          "Clasifica elementos por una característica"
+        ],
+        "misconceptions": [
+          "Ubicar ejemplos al mismo nivel que categorías amplias",
+          "Confundir parte de un objeto con tipo de objeto",
+          "Agrupar por asociación sin criterio explícito"
+        ],
+        "screens": [
+          {
+            "id": "L2.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "No todas las palabras ocupan el mismo nivel",
+            "body": "«Animales» es una categoría; «polinizadores» es una subcategoría; «abeja» es un ejemplo. Reconocer esos niveles ayuda a comprender textos, esquemas y explicaciones científicas.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L2.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.inferencia.relaciones_jerarquicas",
+            "difficulty": 1,
+            "prompt": "En el esquema del biohuerto, ¿cuál es una categoría amplia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L2-ST11",
+            "hint": "Busca el término que contiene a los otros.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Abeja",
+                "feedback": "Revisa la idea clave. Abeja y lombriz son ejemplos incluidos dentro de subcategorías de animales."
+              },
+              {
+                "id": "b",
+                "text": "Animales",
+                "feedback": "Correcto. Abeja y lombriz son ejemplos incluidos dentro de subcategorías de animales."
+              },
+              {
+                "id": "c",
+                "text": "Lombriz",
+                "feedback": "Revisa la idea clave. Abeja y lombriz son ejemplos incluidos dentro de subcategorías de animales."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "De lo general a lo específico",
+            "body": "Una jerarquía agrupa elementos mediante una relación estable. Cada nivel responde «¿qué tipo de…?» hasta llegar a ejemplos concretos.",
+            "examples": [
+              "Ser vivo → animal → polinizador → abeja",
+              "Planta → hortaliza → lechuga"
+            ],
+            "memoryAid": "Cada descenso añade precisión."
+          },
+          {
+            "id": "L2.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Parte no es lo mismo que tipo",
+            "body": "Una cadena es parte de una bicicleta, no un tipo de bicicleta. En cambio, una bicicleta urbana sí es un tipo. Pregunta «¿forma parte de?» o «¿es una clase de?».",
+            "examples": [
+              "Pedal: parte",
+              "Sistema de frenado: conjunto de partes con función"
+            ],
+            "memoryAid": "Nombra la relación antes de dibujar la flecha."
+          },
+          {
+            "id": "L2.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.relaciones_jerarquicas",
+            "difficulty": 1,
+            "prompt": "¿Qué relación existe entre polinizador y abeja?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L2-ST11",
+            "hint": "Completa: la abeja es un tipo de…",
+            "options": [
+              {
+                "id": "a",
+                "text": "Objeto y parte",
+                "feedback": "Revisa la idea clave. La abeja aparece como un caso de la subcategoría polinizadores."
+              },
+              {
+                "id": "b",
+                "text": "Problema y solución",
+                "feedback": "Revisa la idea clave. La abeja aparece como un caso de la subcategoría polinizadores."
+              },
+              {
+                "id": "c",
+                "text": "Categoría y ejemplo",
+                "feedback": "Correcto. La abeja aparece como un caso de la subcategoría polinizadores."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.06-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.relaciones_jerarquicas",
+            "difficulty": 1,
+            "prompt": "Ordena de lo general a lo específico.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST11",
+            "hint": "Rabanito es el ejemplo más concreto.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "Ser vivo"
+              },
+              {
+                "id": "i2",
+                "text": "Planta"
+              },
+              {
+                "id": "i3",
+                "text": "Hortaliza"
+              },
+              {
+                "id": "i4",
+                "text": "Rabanito"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3",
+              "i4"
+            ],
+            "feedbackCorrect": "Cada nivel queda contenido en el anterior.",
+            "feedbackIncorrect": "Empieza con la clase más amplia y termina con el ejemplo."
+          },
+          {
+            "id": "L2.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "La función crea otra relación",
+            "body": "Los textos también explican para qué sirve una parte. Manubrio → orienta la rueda; manija → activa el freno. Esa relación no es de categoría, sino de función.",
+            "examples": [
+              "Parte–todo",
+              "Categoría–ejemplo",
+              "Elemento–función"
+            ],
+            "memoryAid": "Una buena flecha lleva una etiqueta verbal."
+          },
+          {
+            "id": "L2.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.inferencia.relaciones_jerarquicas",
+            "difficulty": 1,
+            "prompt": "¿Cuál pareja expresa una relación parte–función?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST12",
+            "hint": "Busca un verbo de función.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Manubrio — orientar la rueda delantera",
+                "feedback": "Correcto. El texto nombra una pieza y lo que permite hacer."
+              },
+              {
+                "id": "b",
+                "text": "Bicicleta — tipo de animal",
+                "feedback": "Revisa la idea clave. El texto nombra una pieza y lo que permite hacer."
+              },
+              {
+                "id": "c",
+                "text": "Freno — ejemplo de hortaliza",
+                "feedback": "Revisa la idea clave. El texto nombra una pieza y lo que permite hacer."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.inferencia.relaciones_jerarquicas",
+            "difficulty": 2,
+            "prompt": "Mauro coloca «cadena» al mismo nivel que «sistema de movimiento». ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST12",
+            "hint": "Pregunta cuál elemento contiene al otro.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La cadena contiene toda la bicicleta.",
+                "feedback": "Revisa la idea clave. El sistema agrupa pedales, cadena y rueda por una función compartida."
+              },
+              {
+                "id": "b",
+                "text": "La cadena es una parte del sistema de movimiento, por lo que va debajo de él.",
+                "feedback": "Correcto. El sistema agrupa pedales, cadena y rueda por una función compartida."
+              },
+              {
+                "id": "c",
+                "text": "Ambos términos son ejemplos de asiento.",
+                "feedback": "Revisa la idea clave. El sistema agrupa pedales, cadena y rueda por una función compartida."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.inferencia.relaciones_jerarquicas",
+            "difficulty": 1,
+            "prompt": "¿Qué elemento no pertenece a los tres sistemas descritos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST12",
+            "hint": "Localiza la excepción explícita.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La cadena",
+                "feedback": "Revisa la idea clave. El texto aclara que sostiene al ciclista, pero queda fuera de los sistemas listados."
+              },
+              {
+                "id": "b",
+                "text": "El manubrio",
+                "feedback": "Revisa la idea clave. El texto aclara que sostiene al ciclista, pero queda fuera de los sistemas listados."
+              },
+              {
+                "id": "c",
+                "text": "El asiento",
+                "feedback": "Correcto. El texto aclara que sostiene al ciclista, pero queda fuera de los sistemas listados."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.inferencia.relaciones_jerarquicas",
+            "difficulty": 1,
+            "prompt": "¿Cuál mapa usa relaciones claras?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST12",
+            "hint": "Lee cada flecha como una oración.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Bicicleta → tiene → sistema de frenado → incluye → manijas.",
+                "feedback": "Correcto. Las etiquetas «tiene» e «incluye» describen relaciones compatibles con el texto."
+              },
+              {
+                "id": "b",
+                "text": "Bicicleta → quizá → lechuga → frena.",
+                "feedback": "Revisa la idea clave. Las etiquetas «tiene» e «incluye» describen relaciones compatibles con el texto."
+              },
+              {
+                "id": "c",
+                "text": "Manija → es un tipo de → bicicleta.",
+                "feedback": "Revisa la idea clave. Las etiquetas «tiene» e «incluye» describen relaciones compatibles con el texto."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya construyes mapas que explican",
+            "body": "Diferenciaste categorías, ejemplos, partes y funciones. Tus mapas ya no son listas con flechas: muestran relaciones que pueden leerse y comprobarse.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L2.07",
+        "globalId": "pe-sec1-lec-L2-07",
+        "sequence": 7,
+        "title": "Lenguaje figurado",
+        "subtitle": "Una expresión puede comunicar más que su sentido literal",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.inferencia.lenguaje_figurado",
+        "learningOutcome": "Interpreta metáforas, personificaciones e hipérboles según el contexto, el tono y el efecto buscado.",
+        "successEvidence": "Explica una expresión figurada en lenguaje directo y señala qué efecto perdería una lectura solo literal.",
+        "prerequisites": [
+          "Distingue sentido literal",
+          "Reconoce tono básico"
+        ],
+        "misconceptions": [
+          "Tomar toda expresión como descripción literal",
+          "Interpretar una metáfora ignorando el resto del texto",
+          "Nombrar la figura sin explicar su significado"
+        ],
+        "screens": [
+          {
+            "id": "L2.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El texto puede decir una cosa para hacernos imaginar otra",
+            "body": "Una plaza no bosteza de verdad. La imagen «la plaza bostezaba» presenta el lugar como alguien que recién despierta: silencioso, lento y cubierto de neblina.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L2.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.inferencia.lenguaje_figurado",
+            "difficulty": 1,
+            "prompt": "¿Qué comunica «la plaza bostezaba»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L2-ST13",
+            "hint": "Relaciona bostezar con el momento de despertar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que el suelo tenía boca.",
+                "feedback": "Revisa la idea clave. La neblina, la hora temprana y el inicio gradual de actividad orientan la imagen."
+              },
+              {
+                "id": "b",
+                "text": "Que la plaza estaba despertando lentamente y aún se veía tranquila.",
+                "feedback": "Correcto. La neblina, la hora temprana y el inicio gradual de actividad orientan la imagen."
+              },
+              {
+                "id": "c",
+                "text": "Que todas las personas estaban dormidas dentro de la plaza.",
+                "feedback": "Revisa la idea clave. La neblina, la hora temprana y el inicio gradual de actividad orientan la imagen."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Traduce primero a una idea directa",
+            "body": "Pregunta qué hecho o sensación comunica la imagen. Después conserva el matiz: no basta decir «es figurado»; explica lo que permite imaginar.",
+            "examples": [
+              "La plaza bostezaba → el lugar despertaba lentamente",
+              "La ciudad se puso de pie → comenzó la actividad"
+            ],
+            "memoryAid": "Figura + contexto → significado."
+          },
+          {
+            "id": "L2.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Distingue imagen y realidad",
+            "body": "La personificación atribuye acciones humanas; la metáfora identifica una cosa con otra; la hipérbole exagera para intensificar.",
+            "examples": [
+              "Puertas con párpados: personificación",
+              "Muralla de camisetas: metáfora",
+              "El gimnasio explotó: hipérbole"
+            ],
+            "memoryAid": "Comprender importa más que memorizar el nombre."
+          },
+          {
+            "id": "L2.07-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.lenguaje_figurado",
+            "difficulty": 1,
+            "prompt": "¿Qué significa que «las puertas levantaron los párpados»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L2-ST13",
+            "hint": "Busca qué comienza a ocurrir a esa hora.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que las puertas tenían ojos reales.",
+                "feedback": "Revisa la idea clave. La apertura de puertas acompaña el despertar del barrio."
+              },
+              {
+                "id": "b",
+                "text": "Que se cerraron por completo.",
+                "feedback": "Revisa la idea clave. La apertura de puertas acompaña el despertar del barrio."
+              },
+              {
+                "id": "c",
+                "text": "Que los negocios comenzaron a abrir.",
+                "feedback": "Correcto. La apertura de puertas acompaña el despertar del barrio."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.lenguaje_figurado",
+            "difficulty": 1,
+            "prompt": "Relaciona expresión e interpretación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Pregunta qué escena quiere hacerte imaginar.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "El barrio se puso de pie",
+                "rightId": "r1",
+                "right": "Comenzó la actividad"
+              },
+              {
+                "leftId": "l2",
+                "left": "Una muralla de camisetas",
+                "rightId": "r2",
+                "right": "Varios rivales bloqueaban el paso"
+              },
+              {
+                "leftId": "l3",
+                "left": "El gimnasio explotó en aplausos",
+                "rightId": "r3",
+                "right": "El público reaccionó con enorme intensidad"
+              }
+            ],
+            "feedbackCorrect": "Tradujiste imágenes a ideas compatibles con cada contexto.",
+            "feedbackIncorrect": "Evita interpretar físicamente palabras como muralla o explotó."
+          },
+          {
+            "id": "L2.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Observa tono y efecto",
+            "body": "La misma idea directa puede expresarse con calma, humor o intensidad. La imagen elegida ayuda a construir ese tono.",
+            "examples": [
+              "«Besó la red» suaviza y vuelve visual el gol",
+              "«Explotó en aplausos» intensifica la reacción"
+            ],
+            "memoryAid": "Explica qué hace sentir o imaginar la expresión."
+          },
+          {
+            "id": "L2.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.inferencia.lenguaje_figurado",
+            "difficulty": 1,
+            "prompt": "En la crónica, «la pelota besó la red» comunica que…",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST14",
+            "hint": "Conecta la frase con el pase frente al arco.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La pelota tocó la red al entrar en el arco.",
+                "feedback": "Correcto. La imagen describe de forma visual y suave el contacto con la red."
+              },
+              {
+                "id": "b",
+                "text": "La pelota tenía labios.",
+                "feedback": "Revisa la idea clave. La imagen describe de forma visual y suave el contacto con la red."
+              },
+              {
+                "id": "c",
+                "text": "El partido terminó sin gol.",
+                "feedback": "Revisa la idea clave. La imagen describe de forma visual y suave el contacto con la red."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.inferencia.lenguaje_figurado",
+            "difficulty": 2,
+            "prompt": "Un lector afirma que hubo una explosión real en el gimnasio. ¿Qué contradice esa lectura?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST14",
+            "hint": "Relee la última oración.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La palabra gimnasio siempre es figurada.",
+                "feedback": "Revisa la idea clave. La hipérbole intensifica la reacción del público; el contexto descarta el sentido físico."
+              },
+              {
+                "id": "b",
+                "text": "El contexto presenta aplausos tras un gol y aclara que no ocurrió una explosión real.",
+                "feedback": "Correcto. La hipérbole intensifica la reacción del público; el contexto descarta el sentido físico."
+              },
+              {
+                "id": "c",
+                "text": "Toda crónica deportiva es inventada.",
+                "feedback": "Revisa la idea clave. La hipérbole intensifica la reacción del público; el contexto descarta el sentido físico."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.inferencia.lenguaje_figurado",
+            "difficulty": 1,
+            "prompt": "¿Qué se perdería al reemplazar «atravesó una muralla de camisetas» por «pasó entre varias rivales»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST14",
+            "hint": "Compara el tono de ambas versiones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La información de que había jugadoras.",
+                "feedback": "Revisa la idea clave. La metáfora de muralla vuelve más fuerte el obstáculo."
+              },
+              {
+                "id": "b",
+                "text": "La certeza de que el gimnasio existía.",
+                "feedback": "Revisa la idea clave. La metáfora de muralla vuelve más fuerte el obstáculo."
+              },
+              {
+                "id": "c",
+                "text": "Parte de la sensación de dificultad y oposición intensa.",
+                "feedback": "Correcto. La metáfora de muralla vuelve más fuerte el obstáculo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.inferencia.lenguaje_figurado",
+            "difficulty": 1,
+            "prompt": "¿Cuál explicación interpreta y usa el contexto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST13",
+            "hint": "Busca significado más evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "«La plaza despertaba» indica que la actividad comenzaba gradualmente, como muestran las puertas y las primeras voces.",
+                "feedback": "Correcto. La opción traduce la imagen y la conecta con indicios del texto."
+              },
+              {
+                "id": "b",
+                "text": "Es una personificación; fin.",
+                "feedback": "Revisa la idea clave. La opción traduce la imagen y la conecta con indicios del texto."
+              },
+              {
+                "id": "c",
+                "text": "La plaza estaba literalmente dormida.",
+                "feedback": "Revisa la idea clave. La opción traduce la imagen y la conecta con indicios del texto."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya explicas las imágenes del texto",
+            "body": "Interpretaste lenguaje figurado sin quedarte en la etiqueta. Tradujiste las imágenes, usaste el contexto y explicaste su efecto sobre el tono.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L2.08",
+        "globalId": "pe-sec1-lec-L2-08",
+        "sequence": 8,
+        "title": "Inferencia intertextual",
+        "subtitle": "Dos fuentes pueden completar y también limitar una conclusión",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.inferencia.intertextual",
+        "learningOutcome": "Combina pistas de dos fuentes, conserva su procedencia y formula conclusiones con límites explícitos.",
+        "successEvidence": "Construye una conclusión que necesita ambas fuentes y diferencia evidencia, inferencia y dato pendiente.",
+        "prerequisites": [
+          "Integra información entre textos",
+          "Deduce causas y relaciones"
+        ],
+        "misconceptions": [
+          "Mezclar datos sin recordar de qué fuente provienen",
+          "Elegir una fuente e ignorar la otra",
+          "Presentar una explicación posible como causa única comprobada"
+        ],
+        "screens": [
+          {
+            "id": "L2.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Ninguna fuente cuenta toda la historia",
+            "body": "El reporte muestra una diferencia de producción; el diario aporta observaciones sobre sombra y suelo. Juntas permiten una explicación mejor, pero también recuerdan que hay más de una variable.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L2.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.inferencia.intertextual",
+            "difficulty": 1,
+            "prompt": "¿Qué aporta principalmente el reporte?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L2-ST15",
+            "hint": "Busca números y una cautela metodológica.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una opinión sobre quién trabajó más.",
+                "feedback": "Revisa la idea clave. El reporte presenta datos comparables y reconoce una variable adicional."
+              },
+              {
+                "id": "b",
+                "text": "Cantidades de luz, producción y una advertencia sobre el suelo.",
+                "feedback": "Correcto. El reporte presenta datos comparables y reconoce una variable adicional."
+              },
+              {
+                "id": "c",
+                "text": "La historia completa de cada planta.",
+                "feedback": "Revisa la idea clave. El reporte presenta datos comparables y reconoce una variable adicional."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Asigna una función a cada fuente",
+            "body": "Una fuente puede aportar resultados y otra contexto, experiencia o método. Antes de combinarlas, resume qué contribuye cada una.",
+            "examples": [
+              "Reporte: cantidades y horas de luz",
+              "Diario: sombra y absorción del suelo"
+            ],
+            "memoryAid": "Fuente A aporta…, fuente B añade…"
+          },
+          {
+            "id": "L2.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Construye una conclusión de enlace",
+            "body": "Una inferencia intertextual conecta datos que ninguna fuente podría sostener sola. Debe ser compatible con ambas y conservar la procedencia.",
+            "examples": [
+              "La menor luz pudo contribuir a la menor producción",
+              "El suelo también pudo influir"
+            ],
+            "memoryAid": "Une sin borrar el origen."
+          },
+          {
+            "id": "L2.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.intertextual",
+            "difficulty": 1,
+            "prompt": "¿Qué añade el diario que ayuda a interpretar el resultado?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L2-ST16",
+            "hint": "Localiza qué ocurre físicamente en la parcela Sur.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El precio de las lechugas.",
+                "feedback": "Revisa la idea clave. Esas observaciones ofrecen mecanismos posibles para la diferencia."
+              },
+              {
+                "id": "b",
+                "text": "La edad de quienes regaron.",
+                "feedback": "Revisa la idea clave. Esas observaciones ofrecen mecanismos posibles para la diferencia."
+              },
+              {
+                "id": "c",
+                "text": "Observaciones de sombra y compactación del suelo en la parcela Sur.",
+                "feedback": "Correcto. Esas observaciones ofrecen mecanismos posibles para la diferencia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.inferencia.intertextual",
+            "difficulty": 1,
+            "prompt": "Relaciona afirmación y procedencia.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Solo el reporte presenta el total 18.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Norte produjo 18 lechugas",
+                "rightId": "r1",
+                "right": "Reporte"
+              },
+              {
+                "leftId": "l2",
+                "left": "La pared proyecta sombra por la tarde",
+                "rightId": "r2",
+                "right": "Diario"
+              },
+              {
+                "leftId": "l3",
+                "left": "El suelo del Sur tarda en absorber",
+                "rightId": "r3",
+                "right": "Diario"
+              }
+            ],
+            "feedbackCorrect": "Conservar la fuente evita mezclar observación y medición.",
+            "feedbackIncorrect": "Busca si el dato es numérico o una nota de campo."
+          },
+          {
+            "id": "L2.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Declara límites y próximos datos",
+            "body": "Si las fuentes mencionan variables distintas, evita una causa única. Señala qué observación o prueba permitiría distinguir explicaciones.",
+            "examples": [
+              "Aflojar el suelo y volver a medir",
+              "Mantener igual luz, agua y tipo de suelo"
+            ],
+            "memoryAid": "Conclusión fuerte = evidencia + límite + siguiente comprobación."
+          },
+          {
+            "id": "L2.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.inferencia.intertextual",
+            "difficulty": 1,
+            "prompt": "¿Cuál conclusión necesita ambas fuentes?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST15",
+            "hint": "Elige la opción que enlace producción, luz y suelo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La menor luz pudo contribuir a la menor producción del Sur, aunque el suelo también puede influir.",
+                "feedback": "Correcto. Combina el resultado del reporte con las observaciones del diario y conserva el límite."
+              },
+              {
+                "id": "b",
+                "text": "La parcela Norte produjo 18 lechugas.",
+                "feedback": "Revisa la idea clave. Combina el resultado del reporte con las observaciones del diario y conserva el límite."
+              },
+              {
+                "id": "c",
+                "text": "La pared del almacén da sombra por la tarde.",
+                "feedback": "Revisa la idea clave. Combina el resultado del reporte con las observaciones del diario y conserva el límite."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.inferencia.intertextual",
+            "difficulty": 2,
+            "prompt": "Un lector concluye: «La sombra fue la única causa». ¿Qué evidencia lo obliga a moderar esa frase?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L2-ST16",
+            "hint": "Busca una explicación alternativa explícita.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Las dos parcelas recibieron agua.",
+                "feedback": "Revisa la idea clave. La presencia de otra variable impide atribuir todo a una causa sin más prueba."
+              },
+              {
+                "id": "b",
+                "text": "Ambas fuentes mencionan diferencias en el suelo, además de la luz.",
+                "feedback": "Correcto. La presencia de otra variable impide atribuir todo a una causa sin más prueba."
+              },
+              {
+                "id": "c",
+                "text": "El diario fue escrito en la semana 2.",
+                "feedback": "Revisa la idea clave. La presencia de otra variable impide atribuir todo a una causa sin más prueba."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L2.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.inferencia.intertextual",
+            "difficulty": 1,
+            "prompt": "¿Qué siguiente paso ayudaría a comprobar mejor el efecto del suelo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST16",
+            "hint": "Cambia una variable y conserva las demás.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cambiar al mismo tiempo suelo, luz y riego.",
+                "feedback": "Revisa la idea clave. Controlar otras variables permite observar con mayor claridad el posible efecto del suelo."
+              },
+              {
+                "id": "b",
+                "text": "Contar solo las lechugas de la parcela Norte.",
+                "feedback": "Revisa la idea clave. Controlar otras variables permite observar con mayor claridad el posible efecto del suelo."
+              },
+              {
+                "id": "c",
+                "text": "Aflojar una zona comparable y mantener iguales luz y agua mientras se observa el cambio.",
+                "feedback": "Correcto. Controlar otras variables permite observar con mayor claridad el posible efecto del suelo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L2.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.inferencia.intertextual",
+            "difficulty": 1,
+            "prompt": "¿Cuál respuesta distingue dato e inferencia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L2-ST15",
+            "hint": "Busca números como datos y lenguaje prudente para la explicación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Dato: Norte produjo 18 y Sur 11. Inferencia: la diferencia de luz pudo contribuir; no se ha probado como causa única.",
+                "feedback": "Correcto. La opción separa medición, explicación posible y grado de certeza."
+              },
+              {
+                "id": "b",
+                "text": "Dato: la luz fue la única causa.",
+                "feedback": "Revisa la idea clave. La opción separa medición, explicación posible y grado de certeza."
+              },
+              {
+                "id": "c",
+                "text": "Inferencia: el reporte contiene números, por eso no tiene límites.",
+                "feedback": "Revisa la idea clave. La opción separa medición, explicación posible y grado de certeza."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L2.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya construyes conclusiones entre fuentes",
+            "body": "Combinaste datos y observaciones sin perder su procedencia. También expresaste límites y propusiste qué evidencia permitiría avanzar.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
