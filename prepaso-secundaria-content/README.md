@@ -31,6 +31,9 @@ content/
           L1-localizar-integrar-v1.json   # versión parcial conservada
           L1-localizar-integrar-v2.json   # versión activa completa
           L2-inferir-significados-relaciones-v1.json
+          L3-tema-ideas-sintesis-v1.json
+          L4-narrativa-literatura-perspectiva-v1.json
+          L5-expositivos-cientificos-procedimentales-v1.json
         mail/
           A0-ciudadania-digital-v1.json
           A1-autores-audiencias-atencion-v1.json
@@ -45,7 +48,7 @@ Antes de publicar una unidad, ejecuta `python tools/validate_content.py`. El val
 
 ## Estado actual
 
-Las doce unidades activas están completas y listas para el motor: 96 microlecciones y 1152 pantallas en total.
+Las quince unidades activas están completas y listas para el motor: 120 microlecciones y 1440 pantallas en total.
 
 - M0 — Diagnóstico y puente desde primaria: 8 de 8.
 - M1 — Enteros, orden y divisibilidad: 8 de 8, versión activa 2.0.0.
@@ -56,15 +59,18 @@ Las doce unidades activas están completas y listas para el motor: 96 microlecci
 - L0 — Diagnóstico lector y propósito: 8 de 8.
 - L1 — Localizar e integrar información: 8 de 8, versión activa 2.0.0.
 - L2 — Inferir significados y relaciones: 8 de 8.
+- L3 — Tema, subtemas, ideas y síntesis: 8 de 8.
+- L4 — Narrativa, literatura y perspectiva: 8 de 8.
+- L5 — Textos expositivos, científicos y procedimentales: 8 de 8.
 - A0 — Ciudadanía digital, identidad y agencia: 8 de 8.
 - A1 — Autores, audiencias y economía de la atención: 8 de 8.
 - A2 — Acceso, búsqueda y organización de información: 8 de 8.
 
 Cada microlección tiene 12 pantallas: meta, diagnóstico breve, tres explicaciones o modelos, dos prácticas guiadas, cuatro evidencias independientes y cierre. Los pesos de dominio suman 1 por lección. El diagnóstico orienta apoyos; no etiqueta al estudiante ni bloquea el aprendizaje.
 
-M0 recupera sentido numérico, cálculo, proporciones, patrones, medición, geometría, datos y azar. M1 desarrolla interpretación, orden, operaciones y argumentación con enteros y divisibilidad. M2 conecta fracciones, decimales y porcentajes y enseña a elegir la representación más útil. M3 pasa de esa equivalencia a operar racionales con estimación, comprobación y análisis de errores. M4 integra razones, proporcionalidad, porcentajes y magnitudes para tomar decisiones cotidianas. M5 inicia el álgebra desde patrones visibles y avanza hasta reglas, representaciones, incógnitas y argumentación. L0 recupera propósito, fluidez, navegación, comprensión y evaluación inicial. L1 avanza desde palabras clave hasta integración entre fuentes y respuesta con evidencia. L2 construye inferencias sobre significados, rasgos, causas, soluciones, comparaciones, jerarquías, lenguaje figurado y relaciones entre textos. A0 trabaja identidad, huella, consentimiento, convivencia y agencia. A1 analiza procedencia, audiencias, propósitos, modelos de negocio, patrocinio, diseño de atención, emoción y decisiones informadas. A2 desarrolla preguntas investigables, consultas, lectura de resultados, filtros, búsqueda asistida por IA, versiones, solución técnica segura y rutas reproducibles.
+M0 recupera sentido numérico, cálculo, proporciones, patrones, medición, geometría, datos y azar. M1 desarrolla interpretación, orden, operaciones y argumentación con enteros y divisibilidad. M2 conecta fracciones, decimales y porcentajes y enseña a elegir la representación más útil. M3 pasa de esa equivalencia a operar racionales con estimación, comprobación y análisis de errores. M4 integra razones, proporcionalidad, porcentajes y magnitudes para tomar decisiones cotidianas. M5 inicia el álgebra desde patrones visibles y avanza hasta reglas, representaciones, incógnitas y argumentación. L0 recupera propósito, fluidez, navegación, comprensión y evaluación inicial. L1 avanza desde palabras clave hasta integración entre fuentes y respuesta con evidencia. L2 construye inferencias sobre significados, rasgos, causas, soluciones, comparaciones, jerarquías, lenguaje figurado y relaciones entre textos. L3 organiza tema, ideas, subtemas, estructuras, paráfrasis, resumen y conclusión. L4 interpreta trama, motivaciones, perspectiva, tiempo, recursos literarios, estereotipos, valores y comparación de relatos. L5 integra definiciones, clasificaciones, mecanismos, procesos, diagramas, procedimientos, alcance científico y aplicación. A0 trabaja identidad, huella, consentimiento, convivencia y agencia. A1 analiza procedencia, audiencias, propósitos, modelos de negocio, patrocinio, diseño de atención, emoción y decisiones informadas. A2 desarrolla preguntas investigables, consultas, lectura de resultados, filtros, búsqueda asistida por IA, versiones, solución técnica segura y rutas reproducibles.
 
-Los 97 estímulos activos de Lectura y MAIL son originales de Prepaso. Las simulaciones de MAIL usan únicamente perfiles, servicios y datos ficticios; no requieren cuentas, ubicación, contactos, fotografías, contraseñas ni experiencias personales del estudiante.
+Los 121 estímulos activos de Lectura y MAIL son originales de Prepaso. Las simulaciones de MAIL usan únicamente perfiles, servicios y datos ficticios; no requieren cuentas, ubicación, contactos, fotografías, contraseñas ni experiencias personales del estudiante.
 
 Estas secuencias son organizaciones editoriales de Prepaso alineadas al CNEB. MAIL también se alinea al primer borrador preliminar del marco PISA 2029 publicado por la OCDE en enero de 2026 y, como referencia complementaria, al marco de alfabetización en IA para educación escolar publicado por la OCDE y la Comisión Europea en junio de 2026. La alineación debe volver a versionarse cuando la OCDE publique una versión posterior del marco MAIL.
 
@@ -159,6 +165,39 @@ La versión parcial `L1-localizar-integrar-v1.json` se conserva para no romper e
 6. L2.06 Relaciones jerárquicas.
 7. L2.07 Lenguaje figurado.
 8. L2.08 Inferencia intertextual.
+
+## Unidad 3 de Lectura
+
+1. L3.01 Tema y asunto.
+2. L3.02 Idea principal.
+3. L3.03 Ideas secundarias.
+4. L3.04 Subtemas.
+5. L3.05 Organización textual.
+6. L3.06 Parafrasear.
+7. L3.07 Resumir.
+8. L3.08 Concluir.
+
+## Unidad 4 de Lectura
+
+1. L4.01 Trama y conflicto.
+2. L4.02 Motivaciones.
+3. L4.03 Punto de vista.
+4. L4.04 Tiempo y espacio.
+5. L4.05 Hipérbole, epíteto y antítesis.
+6. L4.06 Estereotipos.
+7. L4.07 Valores y decisiones.
+8. L4.08 Comparar relatos.
+
+## Unidad 5 de Lectura
+
+1. L5.01 Definición y ejemplo.
+2. L5.02 Clasificación.
+3. L5.03 Explicación causal.
+4. L5.04 Proceso.
+5. L5.05 Texto y diagrama.
+6. L5.06 Procedimiento.
+7. L5.07 Precisión y alcance.
+8. L5.08 Síntesis aplicada.
 
 ## Unidad 2 de MAIL
 
