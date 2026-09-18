@@ -38,6 +38,9 @@ content/
           A0-ciudadania-digital-v1.json
           A1-autores-audiencias-atencion-v1.json
           A2-acceso-busqueda-organizacion-v1.json
+          A3-credibilidad-verificacion-desinformacion-v1.json
+          A4-mensajes-significados-representaciones-v1.json
+          A5-datos-algoritmos-recomendacion-v1.json
 demo/
   lecciones-demo.html
 tools/
@@ -48,7 +51,7 @@ Antes de publicar una unidad, ejecuta `python tools/validate_content.py`. El val
 
 ## Estado actual
 
-Las quince unidades activas están completas y listas para el motor: 120 microlecciones y 1440 pantallas en total.
+Las dieciocho unidades activas están completas y listas para el motor: 144 microlecciones y 1728 pantallas en total.
 
 - M0 — Diagnóstico y puente desde primaria: 8 de 8.
 - M1 — Enteros, orden y divisibilidad: 8 de 8, versión activa 2.0.0.
@@ -65,12 +68,15 @@ Las quince unidades activas están completas y listas para el motor: 120 microle
 - A0 — Ciudadanía digital, identidad y agencia: 8 de 8.
 - A1 — Autores, audiencias y economía de la atención: 8 de 8.
 - A2 — Acceso, búsqueda y organización de información: 8 de 8.
+- A3 — Credibilidad, verificación y desinformación: 8 de 8.
+- A4 — Mensajes, significados y representaciones: 8 de 8.
+- A5 — Datos, algoritmos y sistemas de recomendación: 8 de 8.
 
 Cada microlección tiene 12 pantallas: meta, diagnóstico breve, tres explicaciones o modelos, dos prácticas guiadas, cuatro evidencias independientes y cierre. Los pesos de dominio suman 1 por lección. El diagnóstico orienta apoyos; no etiqueta al estudiante ni bloquea el aprendizaje.
 
-M0 recupera sentido numérico, cálculo, proporciones, patrones, medición, geometría, datos y azar. M1 desarrolla interpretación, orden, operaciones y argumentación con enteros y divisibilidad. M2 conecta fracciones, decimales y porcentajes y enseña a elegir la representación más útil. M3 pasa de esa equivalencia a operar racionales con estimación, comprobación y análisis de errores. M4 integra razones, proporcionalidad, porcentajes y magnitudes para tomar decisiones cotidianas. M5 inicia el álgebra desde patrones visibles y avanza hasta reglas, representaciones, incógnitas y argumentación. L0 recupera propósito, fluidez, navegación, comprensión y evaluación inicial. L1 avanza desde palabras clave hasta integración entre fuentes y respuesta con evidencia. L2 construye inferencias sobre significados, rasgos, causas, soluciones, comparaciones, jerarquías, lenguaje figurado y relaciones entre textos. L3 organiza tema, ideas, subtemas, estructuras, paráfrasis, resumen y conclusión. L4 interpreta trama, motivaciones, perspectiva, tiempo, recursos literarios, estereotipos, valores y comparación de relatos. L5 integra definiciones, clasificaciones, mecanismos, procesos, diagramas, procedimientos, alcance científico y aplicación. A0 trabaja identidad, huella, consentimiento, convivencia y agencia. A1 analiza procedencia, audiencias, propósitos, modelos de negocio, patrocinio, diseño de atención, emoción y decisiones informadas. A2 desarrolla preguntas investigables, consultas, lectura de resultados, filtros, búsqueda asistida por IA, versiones, solución técnica segura y rutas reproducibles.
+M0 recupera sentido numérico, cálculo, proporciones, patrones, medición, geometría, datos y azar. M1 desarrolla interpretación, orden, operaciones y argumentación con enteros y divisibilidad. M2 conecta fracciones, decimales y porcentajes y enseña a elegir la representación más útil. M3 pasa de esa equivalencia a operar racionales con estimación, comprobación y análisis de errores. M4 integra razones, proporcionalidad, porcentajes y magnitudes para tomar decisiones cotidianas. M5 inicia el álgebra desde patrones visibles y avanza hasta reglas, representaciones, incógnitas y argumentación. L0 recupera propósito, fluidez, navegación, comprensión y evaluación inicial. L1 avanza desde palabras clave hasta integración entre fuentes y respuesta con evidencia. L2 construye inferencias sobre significados, rasgos, causas, soluciones, comparaciones, jerarquías, lenguaje figurado y relaciones entre textos. L3 organiza tema, ideas, subtemas, estructuras, paráfrasis, resumen y conclusión. L4 interpreta trama, motivaciones, perspectiva, tiempo, recursos literarios, estereotipos, valores y comparación de relatos. L5 integra definiciones, clasificaciones, mecanismos, procesos, diagramas, procedimientos, alcance científico y aplicación. A0 trabaja identidad, huella, consentimiento, convivencia y agencia. A1 analiza procedencia, audiencias, propósitos, modelos de negocio, patrocinio, diseño de atención, emoción y decisiones informadas. A2 desarrolla preguntas investigables, consultas, lectura de resultados, filtros, búsqueda asistida por IA, versiones, solución técnica segura y rutas reproducibles. A3 construye verificación desde afirmaciones, originales, autoridad, método, lectura lateral, contexto multimedia, auditoría de IA y veredictos graduados. A4 estudia capas explícitas e implícitas, encuadre, omisiones, estereotipos, datos, estética, perspectivas e interpretación responsable. A5 explica datos, reglas, objetivos, perfiles, bucles, sesgos y controles, y culmina con una auditoría de recomendadores.
 
-Los 121 estímulos activos de Lectura y MAIL son originales de Prepaso. Las simulaciones de MAIL usan únicamente perfiles, servicios y datos ficticios; no requieren cuentas, ubicación, contactos, fotografías, contraseñas ni experiencias personales del estudiante.
+Los 168 estímulos activos de Lectura y MAIL son originales de Prepaso. Las simulaciones de MAIL usan únicamente perfiles, servicios y datos ficticios; no requieren cuentas, ubicación, contactos, fotografías, voz, contraseñas ni experiencias personales del estudiante.
 
 Estas secuencias son organizaciones editoriales de Prepaso alineadas al CNEB. MAIL también se alinea al primer borrador preliminar del marco PISA 2029 publicado por la OCDE en enero de 2026 y, como referencia complementaria, al marco de alfabetización en IA para educación escolar publicado por la OCDE y la Comisión Europea en junio de 2026. La alineación debe volver a versionarse cuando la OCDE publique una versión posterior del marco MAIL.
 
@@ -209,3 +215,36 @@ La versión parcial `L1-localizar-integrar-v1.json` se conserva para no romper e
 6. A2.06 Archivos y versiones.
 7. A2.07 Problemas técnicos.
 8. A2.08 Ruta reproducible.
+
+## Unidad 3 de MAIL
+
+1. A3.01 Afirmación verificable.
+2. A3.02 Fuente original.
+3. A3.03 Autoridad pertinente.
+4. A3.04 Evidencia y método.
+5. A3.05 Lectura lateral.
+6. A3.06 Imagen, audio y contexto.
+7. A3.07 Salidas de IA.
+8. A3.08 Veredicto responsable.
+
+## Unidad 4 de MAIL
+
+1. A4.01 Mensaje explícito e implícito.
+2. A4.02 Encuadre.
+3. A4.03 Selección y omisión.
+4. A4.04 Estereotipos.
+5. A4.05 Datos como mensaje.
+6. A4.06 Emoción y estética.
+7. A4.07 Perspectivas.
+8. A4.08 Interpretación responsable.
+
+## Unidad 5 de MAIL
+
+1. A5.01 Datos que dejamos.
+2. A5.02 Regla y algoritmo.
+3. A5.03 Objetivo del sistema.
+4. A5.04 Perfil y predicción.
+5. A5.05 Bucle de retroalimentación.
+6. A5.06 Sesgo de datos.
+7. A5.07 Control del usuario.
+8. A5.08 Auditar un recomendador.
