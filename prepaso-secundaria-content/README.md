@@ -23,6 +23,9 @@ content/
           M1-enteros-v1.json              # versión parcial conservada
           M1-enteros-v2.json              # versión activa completa
           M2-fracciones-decimales-porcentajes-v1.json
+          M3-operaciones-fracciones-decimales-v1.json
+          M4-proporcionalidad-porcentajes-medicion-v1.json
+          M5-patrones-progresiones-v1.json
         lectura/
           L0-diagnostico-lector-v1.json
           L1-localizar-integrar-v1.json   # versión parcial conservada
@@ -42,11 +45,14 @@ Antes de publicar una unidad, ejecuta `python tools/validate_content.py`. El val
 
 ## Estado actual
 
-Las nueve unidades activas están completas y listas para el motor: 72 microlecciones y 864 pantallas en total.
+Las doce unidades activas están completas y listas para el motor: 96 microlecciones y 1152 pantallas en total.
 
 - M0 — Diagnóstico y puente desde primaria: 8 de 8.
 - M1 — Enteros, orden y divisibilidad: 8 de 8, versión activa 2.0.0.
 - M2 — Fracciones, decimales y porcentajes equivalentes: 8 de 8.
+- M3 — Operaciones con expresiones fraccionarias y decimales: 8 de 8.
+- M4 — Proporcionalidad, porcentajes y medición: 8 de 8.
+- M5 — Patrones y progresiones aritméticas: 8 de 8.
 - L0 — Diagnóstico lector y propósito: 8 de 8.
 - L1 — Localizar e integrar información: 8 de 8, versión activa 2.0.0.
 - L2 — Inferir significados y relaciones: 8 de 8.
@@ -56,7 +62,7 @@ Las nueve unidades activas están completas y listas para el motor: 72 microlecc
 
 Cada microlección tiene 12 pantallas: meta, diagnóstico breve, tres explicaciones o modelos, dos prácticas guiadas, cuatro evidencias independientes y cierre. Los pesos de dominio suman 1 por lección. El diagnóstico orienta apoyos; no etiqueta al estudiante ni bloquea el aprendizaje.
 
-M0 recupera sentido numérico, cálculo, proporciones, patrones, medición, geometría, datos y azar. M1 desarrolla interpretación, orden, operaciones y argumentación con enteros y divisibilidad. M2 conecta fracciones, decimales y porcentajes y enseña a elegir la representación más útil. L0 recupera propósito, fluidez, navegación, comprensión y evaluación inicial. L1 avanza desde palabras clave hasta integración entre fuentes y respuesta con evidencia. L2 construye inferencias sobre significados, rasgos, causas, soluciones, comparaciones, jerarquías, lenguaje figurado y relaciones entre textos. A0 trabaja identidad, huella, consentimiento, convivencia y agencia. A1 analiza procedencia, audiencias, propósitos, modelos de negocio, patrocinio, diseño de atención, emoción y decisiones informadas. A2 desarrolla preguntas investigables, consultas, lectura de resultados, filtros, búsqueda asistida por IA, versiones, solución técnica segura y rutas reproducibles.
+M0 recupera sentido numérico, cálculo, proporciones, patrones, medición, geometría, datos y azar. M1 desarrolla interpretación, orden, operaciones y argumentación con enteros y divisibilidad. M2 conecta fracciones, decimales y porcentajes y enseña a elegir la representación más útil. M3 pasa de esa equivalencia a operar racionales con estimación, comprobación y análisis de errores. M4 integra razones, proporcionalidad, porcentajes y magnitudes para tomar decisiones cotidianas. M5 inicia el álgebra desde patrones visibles y avanza hasta reglas, representaciones, incógnitas y argumentación. L0 recupera propósito, fluidez, navegación, comprensión y evaluación inicial. L1 avanza desde palabras clave hasta integración entre fuentes y respuesta con evidencia. L2 construye inferencias sobre significados, rasgos, causas, soluciones, comparaciones, jerarquías, lenguaje figurado y relaciones entre textos. A0 trabaja identidad, huella, consentimiento, convivencia y agencia. A1 analiza procedencia, audiencias, propósitos, modelos de negocio, patrocinio, diseño de atención, emoción y decisiones informadas. A2 desarrolla preguntas investigables, consultas, lectura de resultados, filtros, búsqueda asistida por IA, versiones, solución técnica segura y rutas reproducibles.
 
 Los 97 estímulos activos de Lectura y MAIL son originales de Prepaso. Las simulaciones de MAIL usan únicamente perfiles, servicios y datos ficticios; no requieren cuentas, ubicación, contactos, fotografías, contraseñas ni experiencias personales del estudiante.
 
@@ -109,6 +115,39 @@ La versión parcial `L1-localizar-integrar-v1.json` se conserva para no romper e
 6. M2.06 Porcentaje como fracción.
 7. M2.07 Equivalencias múltiples.
 8. M2.08 Elegir una representación.
+
+## Unidad 3 de Matemática
+
+1. M3.01 Sumar y restar fracciones.
+2. M3.02 Multiplicar fracciones.
+3. M3.03 Dividir fracciones.
+4. M3.04 Sumar y restar decimales.
+5. M3.05 Multiplicar decimales.
+6. M3.06 Dividir decimales.
+7. M3.07 Expresiones combinadas.
+8. M3.08 Análisis de error.
+
+## Unidad 4 de Matemática
+
+1. M4.01 Razón y tasa unitaria.
+2. M4.02 Proporción directa.
+3. M4.03 Regla de tres con sentido.
+4. M4.04 Porcentaje de una cantidad.
+5. M4.05 Aumentos y descuentos.
+6. M4.06 Masa, tiempo y temperatura.
+7. M4.07 Magnitudes monetarias.
+8. M4.08 Reto integrado.
+
+## Unidad 5 de Matemática
+
+1. M5.01 Ver regularidades.
+2. M5.02 Patrones con transformaciones.
+3. M5.03 Diferencia constante.
+4. M5.04 Regla verbal.
+5. M5.05 Regla algebraica.
+6. M5.06 Tabla, gráfico y símbolo.
+7. M5.07 Término desconocido.
+8. M5.08 Validar y refutar.
 
 ## Unidad 2 de Lectura
 
