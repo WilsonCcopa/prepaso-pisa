@@ -1,0 +1,2713 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.5",
+  "locale": "es-PE",
+  "unit": {
+    "id": "A2",
+    "globalId": "pe-sec1-mail-A2",
+    "sequence": 2,
+    "grade": "sec1",
+    "subject": "mail",
+    "title": "Acceso, búsqueda y organización de información",
+    "shortTitle": "Buscar y organizar",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb_y_al_borrador_mail_2029",
+    "officialStatusNote": "A2 es una secuencia editorial de Prepaso. Se alinea con la competencia transversal del CNEB y con el primer borrador preliminar del marco PISA 2029 MAIL publicado por la OCDE en enero de 2026, sujeto a revisión antes de su versión oficial.",
+    "unitOutcome": "Formula búsquedas eficaces, selecciona resultados, usa IA como orientación verificable, organiza archivos y resuelve problemas técnicos comunes con seguridad.",
+    "finalEvidence": "Ruta de investigación reproducible con pregunta, consultas, filtros, fuentes, organización de versiones, decisiones y límites de privacidad.",
+    "curriculumAlignment": {
+      "frameworks": [
+        "CNEB Perú",
+        "PISA 2029 Media and Artificial Intelligence Literacy — first draft",
+        "EC-OECD AI Literacy Framework for Primary and Secondary Education 2026"
+      ],
+      "cnebCompetency": "Se desenvuelve en entornos virtuales generados por las TIC",
+      "cnebCapacities": [
+        "Gestiona información del entorno virtual",
+        "Interactúa en entornos virtuales",
+        "Crea objetos virtuales en diversos formatos"
+      ],
+      "mailKeyConcepts": [
+        "Acceso y búsqueda",
+        "Sistemas algorítmicos y generativos",
+        "Información y evidencia"
+      ],
+      "mailCompetencies": [
+        "Acceder y usar",
+        "Analizar y evaluar",
+        "Reflexionar y actuar ética y responsablemente"
+      ],
+      "operationalAlignment": "Convierte necesidades en preguntas, diseña consultas, interpreta resultados, verifica orientación de IA, organiza materiales y documenta rutas reproducibles."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Explorador de información"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "safetyPolicy": {
+      "realAccountsRequired": false,
+      "realPersonalDataRequested": false,
+      "openSocialInteraction": false,
+      "caseData": "fictitious",
+      "adultSupportPrompts": true,
+      "credentialCollection": false,
+      "note": "Las actividades usan búsquedas, interfaces, archivos y asistentes ficticios. Nunca solicitan cuentas, contactos, historial, ubicación precisa, fotografías, contraseñas ni experiencias sensibles reales."
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todas las interfaces, resultados, servicios y situaciones son simulaciones originales de Prepaso.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "PISA 2029 Media and Artificial Intelligence Literacy",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/en/about/projects/pisa-2029-media-and-artificial-intelligence-literacy.html",
+        "status": "official_project_page"
+      },
+      {
+        "title": "PISA 2029 MAIL Assessment Framework First Draft",
+        "publisher": "OECD",
+        "edition": "January 2026",
+        "url": "https://www.oecd.org/content/dam/oecd/en/about/projects/edu/the-pisa-2029-media-and-artificial-intelligence-%28mail%29-assessment-will-shed-light-on-whether-young-students-have-had-opportunities-to-learn-and-to-engage-proactively-and-critically-in-a-world-where-production%2C-participation%2C-and-social-networking-are-increasingly-mediated-by-digital-and-ai-tools-/PISA%202029%20MAIL%20Assessment%20Framework%20First%20Draft.pdf",
+        "status": "first_preliminary_draft_subject_to_revision"
+      },
+      {
+        "title": "Empowering Learners for the Age of AI",
+        "publisher": "OECD and European Commission",
+        "edition": "June 2026",
+        "url": "https://www.oecd.org/en/publications/empowering-learners-for-the-age-of-ai_65cd27d4-en.html"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "A2-ST01",
+        "title": "Encargo demasiado amplio",
+        "format": "mixed",
+        "genre": "simulación de tarea",
+        "content": "Tarea del aula virtual: «Investiguen sobre el agua». Entrega: una infografía de una página para estudiantes de primer grado. Debe explicar un problema cercano y dos acciones posibles. Tiempo disponible: 40 minutos. No se pide compartir nombres, direcciones ni fotografías personales.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST02",
+        "title": "Pregunta afinada",
+        "format": "discontinuous",
+        "genre": "simulación de planificación",
+        "content": "Necesidad: comprender por qué se desperdicia agua en el colegio. Pregunta propuesta: «¿Qué usos concentran el desperdicio visible de agua durante la jornada escolar y qué acciones de bajo costo podrían reducirlo?». Alcance: observaciones generales, documentos públicos y datos agregados; nunca identificar a estudiantes.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST03",
+        "title": "Banco de palabras para buscar",
+        "format": "discontinuous",
+        "genre": "simulación de interfaz",
+        "content": "Tema: sombra en patios escolares. Términos generales: sombra, patio, escuela. Términos específicos: cobertura arbórea, temperatura superficial, isla de calor. Sinónimos: colegio, centro educativo. Exclusiones posibles: -publicidad, -venta. La interfaz permite combinar términos sin ingresar datos personales.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST04",
+        "title": "Tres consultas, tres resultados",
+        "format": "discontinuous",
+        "genre": "registro de búsqueda simulado",
+        "content": "Consulta 1: calor. Resultado: millones de páginas de clima, cocina y motores. Consulta 2: calor patio escolar sombra. Resultado: guías y experiencias educativas. Consulta 3: temperatura patio escolar árboles site:gob.pe. Resultado: documentos públicos peruanos relacionados con arborización y espacios educativos.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST05",
+        "title": "Página de resultados simulada",
+        "format": "discontinuous",
+        "genre": "simulación de buscador",
+        "content": "Resultado A — «Guía de sombra para patios escolares» — educacion.gob.pe — PDF — actualizado 2026. Fragmento: criterios de ubicación y mantenimiento. Resultado B — «¡El truco definitivo contra el calor!» — mundoFlash.example — sin autor ni fecha. Fragmento: compra hoy. Resultado C — «Árboles del barrio: galería» — fotos.example — 2018. Fragmento: veinte imágenes sin explicación.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST06",
+        "title": "Otra búsqueda simulada",
+        "format": "discontinuous",
+        "genre": "simulación de buscador",
+        "content": "Necesidad: saber cuánta agua requiere una planta nativa durante su establecimiento. Resultado 1 — Ficha técnica municipal — dominio institucional — 2025 — especie y clima identificados. Resultado 2 — Foro JardínFeliz — usuario «ManoVerde» — sin ubicación — 2016. Resultado 3 — Catálogo de macetas — tienda — 2026 — no trata el riego de la especie.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST07",
+        "title": "Panel de filtros",
+        "format": "discontinuous",
+        "genre": "simulación de interfaz",
+        "content": "Búsqueda: convivencia escolar. Filtros disponibles: fecha (último año, últimos cinco años, cualquier fecha); tipo (PDF, página, video); idioma; sitio o dominio. La tarea solicita una guía oficial peruana publicada desde 2024 y disponible como documento descargable.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST08",
+        "title": "Operadores en acción",
+        "format": "discontinuous",
+        "genre": "simulación de búsqueda",
+        "content": "Consulta A: convivencia escolar. Consulta B: \"convivencia escolar\" filetype:pdf. Consulta C: \"convivencia escolar\" filetype:pdf site:gob.pe. A devuelve resultados variados; B prioriza documentos PDF con la frase exacta; C limita además los resultados al dominio gubernamental peruano.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST09",
+        "title": "Respuesta de un asistente ficticio",
+        "format": "mixed",
+        "genre": "simulación de IA",
+        "content": "Asistente Nexo: «Los patios con más árboles siempre reducen exactamente 8 °C y eliminan todo riesgo por calor». Fuentes mostradas: un enlace sin título y una entrada de blog que habla de un parque en otro país. La respuesta no explica cómo se midió, usa palabras absolutas y no distingue sombra, clima ni superficie.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST10",
+        "title": "Búsqueda asistida responsable",
+        "format": "discontinuous",
+        "genre": "simulación de flujo",
+        "content": "Paso 1: pedir a una IA términos relacionados con sombra escolar. Paso 2: elegir «temperatura superficial» y «cobertura arbórea». Paso 3: buscar esos términos en fuentes institucionales. Paso 4: abrir los documentos originales y registrar autor, fecha, método y contexto. Paso 5: redactar una conclusión que cite las fuentes, no al asistente como prueba única.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST11",
+        "title": "Carpeta Proyecto Sol",
+        "format": "discontinuous",
+        "genre": "simulación de gestor de archivos",
+        "content": "Archivos actuales: trabajo final final2.pdf; IMG_4481.jpg; copia de trabajo final final2 (1).pdf; notasnuevas.docx; datos.xlsx. Algunos nombres no indican fecha, tema ni versión. La carpeta también contiene una fotografía de una ficha con nombres completos, que no es necesaria para el proyecto.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST12",
+        "title": "Historial de versiones",
+        "format": "discontinuous",
+        "genre": "simulación de gestor de archivos",
+        "content": "Propuesta de orden: /fuentes, /datos, /imagenes_autorizadas, /borradores, /entrega. Nombres: informe_v01_2026-09-18.docx; informe_v02_revision.docx; informe_v03_aprobado.pdf. Registro: v01 estructura inicial; v02 corrige gráficos; v03 versión aprobada para entregar. La ficha con nombres personales se excluye.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST13",
+        "title": "El documento no carga",
+        "format": "mixed",
+        "genre": "simulación de incidente",
+        "content": "En la tableta del aula aparece: «No se pudo abrir guia.pdf». La conexión funciona en otras páginas. El archivo muestra tamaño 0 KB y fue enviado hace pocos segundos. Un mensaje emergente no oficial pide escribir la contraseña del correo para «repararlo». El docente está disponible en el aula.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST14",
+        "title": "Registro de solución segura",
+        "format": "discontinuous",
+        "genre": "simulación de bitácora técnica",
+        "content": "1. Observé el mensaje exacto y el tamaño 0 KB. 2. Confirmé que otros sitios cargan. 3. No ingresé contraseña en la ventana emergente. 4. Cerré el mensaje y pedí al docente que verificara el archivo original. 5. Se volvió a descargar desde la plataforma oficial; el nuevo archivo tenía 2,4 MB y abrió correctamente.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST15",
+        "title": "Bitácora de búsqueda",
+        "format": "mixed",
+        "genre": "simulación de registro",
+        "content": "Pregunta: ¿cómo reducir el calor en el patio? Consulta 1: sombra patio escolar; resultado: demasiado general. Consulta 2: \"patio escolar\" \"temperatura superficial\" site:gob.pe; resultado: dos documentos pertinentes. Fuente elegida: Guía X, institución pública, 2025, páginas 12–16. Decisión: usar criterios de sombra y material del suelo; falta comprobar si se aplican al clima local.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A2-ST16",
+        "title": "Repetición por otra estudiante",
+        "format": "continuous",
+        "genre": "simulación de prueba de reproducibilidad",
+        "content": "Nora recibió solo esta nota: «Busqué sobre patios y encontré una guía buena». No pudo repetir el recorrido porque faltaban la consulta exacta, el filtro, el enlace, la fecha de acceso y la razón de selección. Después recibió la bitácora completa, repitió la consulta y localizó la misma guía, aunque el buscador cambió el orden de algunos resultados.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "A2.01",
+        "globalId": "pe-sec1-mail-A2-01",
+        "sequence": 1,
+        "title": "Convertir una necesidad en pregunta",
+        "subtitle": "Una búsqueda eficaz empieza antes de abrir el buscador",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.acceso.pregunta_investigable",
+        "learningOutcome": "Delimita una necesidad de información y la convierte en una pregunta investigable, útil y segura.",
+        "successEvidence": "Mejora una pregunta amplia definiendo propósito, alcance, audiencia, restricciones y datos que no deben recopilarse.",
+        "prerequisites": [
+          "Reconoce un propósito comunicativo",
+          "Distingue dato personal y dato agregado"
+        ],
+        "misconceptions": [
+          "Copiar la consigna completa en el buscador",
+          "Formular una pregunta tan amplia que no orienta decisiones",
+          "Creer que investigar exige reunir datos personales"
+        ],
+        "screens": [
+          {
+            "id": "A2.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Primero decide qué necesitas saber",
+            "body": "«Investigar el agua» puede llevar a millones de resultados. Una pregunta útil aclara el problema, el contexto, para quién se responde y qué decisión debe apoyar.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A2.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.acceso.pregunta_investigable",
+            "difficulty": 1,
+            "prompt": "¿Qué elemento falta en «investiguen sobre el agua»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A2-ST01",
+            "hint": "Pregunta qué debe explicar la infografía.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Un nombre completo de cada estudiante.",
+                "feedback": "Revisa la idea clave. El tema es demasiado amplio para decidir qué información buscar."
+              },
+              {
+                "id": "b",
+                "text": "Un problema o necesidad específica que oriente la búsqueda.",
+                "feedback": "Correcto. El tema es demasiado amplio para decidir qué información buscar."
+              },
+              {
+                "id": "c",
+                "text": "Una contraseña para acceder a más resultados.",
+                "feedback": "Revisa la idea clave. El tema es demasiado amplio para decidir qué información buscar."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Separa tema, necesidad y producto",
+            "body": "El tema es amplio; la necesidad expresa qué falta comprender; el producto define cómo se comunicará. Estas tres piezas orientan la búsqueda.",
+            "examples": [
+              "Tema: agua",
+              "Necesidad: identificar desperdicios visibles",
+              "Producto: infografía para primer grado"
+            ],
+            "memoryAid": "Tema abre; necesidad enfoca; producto orienta."
+          },
+          {
+            "id": "A2.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Delimita con preguntas sencillas",
+            "body": "Añade lugar general, periodo, población agregada y tipo de respuesta. Evita pedir nombres, rostros, contactos o ubicaciones precisas cuando no son necesarios.",
+            "examples": [
+              "¿Qué ocurre?",
+              "¿Dónde de forma general?",
+              "¿Durante qué periodo?",
+              "¿Para qué decisión?"
+            ],
+            "memoryAid": "Menos amplitud no significa menos importancia: significa más claridad."
+          },
+          {
+            "id": "A2.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.pregunta_investigable",
+            "difficulty": 1,
+            "prompt": "¿Cuál pregunta se ajusta mejor a la tarea?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A2-ST01",
+            "hint": "Usa propósito, alcance y seguridad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué es todo lo que existe sobre el agua?",
+                "feedback": "Revisa la idea clave. La pregunta acota el problema, el producto y las acciones sin pedir datos personales."
+              },
+              {
+                "id": "b",
+                "text": "¿Cuál es la dirección de cada familia que usa agua?",
+                "feedback": "Revisa la idea clave. La pregunta acota el problema, el producto y las acciones sin pedir datos personales."
+              },
+              {
+                "id": "c",
+                "text": "¿Qué problema cercano de uso del agua puede explicar una infografía y qué dos acciones ayudarían?",
+                "feedback": "Correcto. La pregunta acota el problema, el producto y las acciones sin pedir datos personales."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.pregunta_investigable",
+            "difficulty": 1,
+            "prompt": "Relaciona cada elemento de planificación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST01",
+            "hint": "La audiencia es quien recibirá el mensaje.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Infografía de una página",
+                "rightId": "r1",
+                "right": "Producto"
+              },
+              {
+                "leftId": "l2",
+                "left": "Estudiantes de primer grado",
+                "rightId": "r2",
+                "right": "Audiencia"
+              },
+              {
+                "leftId": "l3",
+                "left": "40 minutos",
+                "rightId": "r3",
+                "right": "Restricción"
+              },
+              {
+                "leftId": "l4",
+                "left": "Problema cercano y dos acciones",
+                "rightId": "r4",
+                "right": "Necesidad"
+              }
+            ],
+            "feedbackCorrect": "Cada dato cumple una función distinta en la búsqueda.",
+            "feedbackIncorrect": "Pregunta qué se entregará, para quién y con qué límite."
+          },
+          {
+            "id": "A2.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Comprueba si puede responderse",
+            "body": "Una pregunta investigable puede abordarse con fuentes y observaciones disponibles dentro del tiempo. Si exige datos inaccesibles o sensibles, reformúlala.",
+            "examples": [
+              "Sí: acciones de bajo costo documentadas",
+              "No: historial privado de cada estudiante"
+            ],
+            "memoryAid": "Útil, posible y respetuosa con la privacidad."
+          },
+          {
+            "id": "A2.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.acceso.pregunta_investigable",
+            "difficulty": 1,
+            "prompt": "¿Qué mejora aporta la pregunta afinada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST02",
+            "hint": "Compara la pregunta con el tema general «agua».",
+            "options": [
+              {
+                "id": "a",
+                "text": "Define el contexto escolar, busca usos concretos y orienta acciones de bajo costo.",
+                "feedback": "Correcto. El alcance permite buscar evidencia aplicable y segura."
+              },
+              {
+                "id": "b",
+                "text": "Solicita identificar públicamente a quienes desperdician agua.",
+                "feedback": "Revisa la idea clave. El alcance permite buscar evidencia aplicable y segura."
+              },
+              {
+                "id": "c",
+                "text": "Promete encontrar una causa única antes de investigar.",
+                "feedback": "Revisa la idea clave. El alcance permite buscar evidencia aplicable y segura."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.acceso.pregunta_investigable",
+            "difficulty": 2,
+            "prompt": "Un grupo propone fotografiar de cerca a cada estudiante que deja un caño abierto. ¿Qué debe cambiar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST02",
+            "hint": "Pregunta si la identidad es necesaria para responder.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe publicar las fotos con nombres para que la búsqueda sea precisa.",
+                "feedback": "Revisa la idea clave. La necesidad es analizar usos del agua, no vigilar ni exponer a menores."
+              },
+              {
+                "id": "b",
+                "text": "Debe observar situaciones generales o datos agregados sin identificar personas.",
+                "feedback": "Correcto. La necesidad es analizar usos del agua, no vigilar ni exponer a menores."
+              },
+              {
+                "id": "c",
+                "text": "Debe pedir también números de teléfono.",
+                "feedback": "Revisa la idea clave. La necesidad es analizar usos del agua, no vigilar ni exponer a menores."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.acceso.pregunta_investigable",
+            "difficulty": 1,
+            "prompt": "¿Cuál fuente de información respeta el alcance planteado?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST02",
+            "hint": "Busca información pertinente y no personal.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mensajes privados de estudiantes.",
+                "feedback": "Revisa la idea clave. Los datos agregados y las fuentes públicas permiten investigar sin invadir privacidad."
+              },
+              {
+                "id": "b",
+                "text": "Contraseñas de las cuentas del colegio.",
+                "feedback": "Revisa la idea clave. Los datos agregados y las fuentes públicas permiten investigar sin invadir privacidad."
+              },
+              {
+                "id": "c",
+                "text": "Registros generales de consumo y documentos públicos sobre ahorro de agua.",
+                "feedback": "Correcto. Los datos agregados y las fuentes públicas permiten investigar sin invadir privacidad."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.acceso.pregunta_investigable",
+            "difficulty": 1,
+            "prompt": "Antes de buscar, ¿qué secuencia es más útil?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "La pregunta debe existir antes de elegir palabras clave.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Definir necesidad → formular pregunta → fijar alcance y producto → elegir términos.",
+                "feedback": "Correcto. La planificación reduce ruido y protege a las personas desde el inicio."
+              },
+              {
+                "id": "b",
+                "text": "Abrir el primer resultado → inventar una pregunta.",
+                "feedback": "Revisa la idea clave. La planificación reduce ruido y protege a las personas desde el inicio."
+              },
+              {
+                "id": "c",
+                "text": "Recolectar datos personales → decidir luego para qué sirven.",
+                "feedback": "Revisa la idea clave. La planificación reduce ruido y protege a las personas desde el inicio."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya conviertes temas amplios en rutas claras",
+            "body": "Definiste necesidad, audiencia, producto y límites seguros. Ahora el buscador recibirá una pregunta pensada, no una consigna copiada al azar.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A2.02",
+        "globalId": "pe-sec1-mail-A2-02",
+        "sequence": 2,
+        "title": "Palabras clave",
+        "subtitle": "Una consulta combina conceptos, sinónimos y límites",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.acceso.palabras_clave",
+        "learningOutcome": "Genera y combina palabras clave, sinónimos, términos específicos y exclusiones para mejorar resultados.",
+        "successEvidence": "Diseña tres consultas progresivas y explica qué cambio espera al añadir o retirar cada término.",
+        "prerequisites": [
+          "Formula una pregunta investigable",
+          "Distingue términos generales y específicos"
+        ],
+        "misconceptions": [
+          "Escribir una pregunta larga sin identificar conceptos centrales",
+          "Repetir la misma consulta esperando resultados diferentes",
+          "Usar operadores sin comprender qué limitan"
+        ],
+        "screens": [
+          {
+            "id": "A2.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El buscador trabaja con las palabras que eliges",
+            "body": "«Calor» mezcla cocina, motores y clima. «Calor patio escolar sombra» conserva los conceptos esenciales. Añadir términos específicos reduce ruido sin cerrar demasiado pronto la búsqueda.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A2.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.acceso.palabras_clave",
+            "difficulty": 1,
+            "prompt": "¿Cuál término es más específico que «sombra» para investigar patios?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A2-ST03",
+            "hint": "Busca el término técnico del banco.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cosa",
+                "feedback": "Revisa la idea clave. El banco lo vincula con presencia de árboles y un criterio observable."
+              },
+              {
+                "id": "b",
+                "text": "Cobertura arbórea",
+                "feedback": "Correcto. El banco lo vincula con presencia de árboles y un criterio observable."
+              },
+              {
+                "id": "c",
+                "text": "Tema interesante",
+                "feedback": "Revisa la idea clave. El banco lo vincula con presencia de árboles y un criterio observable."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Extrae de dos a cuatro conceptos",
+            "body": "Elimina palabras de relleno y conserva los sustantivos o expresiones que representan la necesidad. Después genera sinónimos y términos relacionados.",
+            "examples": [
+              "patio escolar",
+              "sombra",
+              "temperatura superficial",
+              "colegio / centro educativo"
+            ],
+            "memoryAid": "Conceptos primero; frase completa después."
+          },
+          {
+            "id": "A2.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Amplía o precisa de forma consciente",
+            "body": "Un sinónimo puede ampliar resultados; un término técnico puede precisar. Cambia una pieza por vez para saber qué produjo la mejora.",
+            "examples": [
+              "escuela OR colegio",
+              "sombra → cobertura arbórea",
+              "calor → temperatura superficial"
+            ],
+            "memoryAid": "Cada modificación debe tener una razón."
+          },
+          {
+            "id": "A2.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.palabras_clave",
+            "difficulty": 1,
+            "prompt": "¿Qué combinación conserva mejor los conceptos centrales?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A2-ST03",
+            "hint": "Quita pronombres y palabras de relleno.",
+            "options": [
+              {
+                "id": "a",
+                "text": "calor cosa información",
+                "feedback": "Revisa la idea clave. La consulta usa conceptos observables y relacionados con la necesidad."
+              },
+              {
+                "id": "b",
+                "text": "mi colegio y todo lo que pasa allí",
+                "feedback": "Revisa la idea clave. La consulta usa conceptos observables y relacionados con la necesidad."
+              },
+              {
+                "id": "c",
+                "text": "temperatura superficial patio escolar árboles",
+                "feedback": "Correcto. La consulta usa conceptos observables y relacionados con la necesidad."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.palabras_clave",
+            "difficulty": 1,
+            "prompt": "Relaciona el recurso con su función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST03",
+            "hint": "El signo menos indica exclusión.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "colegio / centro educativo",
+                "rightId": "r1",
+                "right": "Sinónimos"
+              },
+              {
+                "leftId": "l2",
+                "left": "temperatura superficial",
+                "rightId": "r2",
+                "right": "Término específico"
+              },
+              {
+                "leftId": "l3",
+                "left": "-venta",
+                "rightId": "r3",
+                "right": "Exclusión"
+              },
+              {
+                "leftId": "l4",
+                "left": "patio",
+                "rightId": "r4",
+                "right": "Concepto central"
+              }
+            ],
+            "feedbackCorrect": "Cada recurso modifica el alcance de una forma distinta.",
+            "feedbackIncorrect": "Identifica si amplía, precisa o elimina."
+          },
+          {
+            "id": "A2.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Excluye solo el ruido identificado",
+            "body": "El signo menos puede retirar un término claramente irrelevante, pero también ocultar información útil. Úsalo después de observar un patrón de ruido.",
+            "examples": [
+              "-venta si aparecen tiendas",
+              "-publicidad si dominan anuncios"
+            ],
+            "memoryAid": "Primero observa el ruido; luego excluye con cuidado."
+          },
+          {
+            "id": "A2.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.acceso.palabras_clave",
+            "difficulty": 1,
+            "prompt": "¿Por qué la consulta 1 produce tanto ruido?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST04",
+            "hint": "Compara los temas posibles de la palabra calor.",
+            "options": [
+              {
+                "id": "a",
+                "text": "«Calor» tiene muchos significados y contextos posibles.",
+                "feedback": "Correcto. Una sola palabra amplia no comunica el contexto escolar."
+              },
+              {
+                "id": "b",
+                "text": "Porque contiene demasiados términos específicos.",
+                "feedback": "Revisa la idea clave. Una sola palabra amplia no comunica el contexto escolar."
+              },
+              {
+                "id": "c",
+                "text": "Porque ya limita a documentos públicos peruanos.",
+                "feedback": "Revisa la idea clave. Una sola palabra amplia no comunica el contexto escolar."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.acceso.palabras_clave",
+            "difficulty": 2,
+            "prompt": "Al ver que la consulta 2 aún devuelve publicidad, un estudiante añade diez exclusiones de una vez. ¿Qué riesgo crea?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST04",
+            "hint": "Piensa en cómo comprobar el efecto de cada cambio.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El buscador mostrará obligatoriamente datos privados.",
+                "feedback": "Revisa la idea clave. Modificar una pieza por vez permite aprender del resultado y conservar cobertura."
+              },
+              {
+                "id": "b",
+                "text": "Puede ocultar resultados útiles y no sabrá qué exclusión produjo el cambio.",
+                "feedback": "Correcto. Modificar una pieza por vez permite aprender del resultado y conservar cobertura."
+              },
+              {
+                "id": "c",
+                "text": "La consulta se convertirá en una contraseña.",
+                "feedback": "Revisa la idea clave. Modificar una pieza por vez permite aprender del resultado y conservar cobertura."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.acceso.palabras_clave",
+            "difficulty": 1,
+            "prompt": "¿Qué añade site:gob.pe en la consulta 3?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST04",
+            "hint": "Distingue filtro de garantía.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Garantiza que toda afirmación sea verdadera.",
+                "feedback": "Revisa la idea clave. El operador restringe el lugar de publicación, pero aún exige evaluar cada documento."
+              },
+              {
+                "id": "b",
+                "text": "Traduce los documentos a otro idioma.",
+                "feedback": "Revisa la idea clave. El operador restringe el lugar de publicación, pero aún exige evaluar cada documento."
+              },
+              {
+                "id": "c",
+                "text": "Limita los resultados al dominio gubernamental peruano.",
+                "feedback": "Correcto. El operador restringe el lugar de publicación, pero aún exige evaluar cada documento."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.acceso.palabras_clave",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la mejor práctica al mejorar una consulta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una acción que permita comparar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Registrar la versión anterior, cambiar un término y observar qué mejora o empeora.",
+                "feedback": "Correcto. La búsqueda iterativa aprende de cada cambio y mantiene una ruta reproducible."
+              },
+              {
+                "id": "b",
+                "text": "Repetir exactamente la misma consulta muchas veces.",
+                "feedback": "Revisa la idea clave. La búsqueda iterativa aprende de cada cambio y mantiene una ruta reproducible."
+              },
+              {
+                "id": "c",
+                "text": "Añadir datos personales para personalizar resultados.",
+                "feedback": "Revisa la idea clave. La búsqueda iterativa aprende de cada cambio y mantiene una ruta reproducible."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya diseñas consultas con intención",
+            "body": "Extrajiste conceptos, probaste sinónimos, precisaste términos y excluiste ruido con cuidado. Cada palabra de la consulta ahora cumple una función.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A2.03",
+        "globalId": "pe-sec1-mail-A2-03",
+        "sequence": 3,
+        "title": "Leer resultados",
+        "subtitle": "Título, dominio, fecha y fragmento ayudan a decidir qué abrir",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.acceso.lectura_resultados",
+        "learningOutcome": "Interpreta metadatos visibles de resultados y prioriza qué abrir según pertinencia, procedencia, vigencia y formato.",
+        "successEvidence": "Ordena resultados para una necesidad concreta y explica qué puede y qué no puede concluir antes de abrirlos.",
+        "prerequisites": [
+          "Diseña palabras clave",
+          "Reconoce autor y fuente"
+        ],
+        "misconceptions": [
+          "Abrir siempre el primer resultado",
+          "Decidir credibilidad solo por un título llamativo",
+          "Confundir fragmento del buscador con el contenido completo"
+        ],
+        "screens": [
+          {
+            "id": "A2.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La página de resultados ya contiene pistas",
+            "body": "Antes de abrir, puedes observar quién publica, cuándo, qué formato tiene y qué promete el fragmento. Es una selección inicial, no un veredicto definitivo.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A2.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.acceso.lectura_resultados",
+            "difficulty": 1,
+            "prompt": "¿Qué resultado conviene abrir primero para diseñar sombra en un patio escolar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A2-ST05",
+            "hint": "Compara pertinencia, fuente y vigencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Resultado B: truco definitivo sin autor.",
+                "feedback": "Revisa la idea clave. A coincide con la necesidad, declara procedencia, formato y fecha."
+              },
+              {
+                "id": "b",
+                "text": "Resultado A: guía institucional, reciente y centrada en criterios de ubicación.",
+                "feedback": "Correcto. A coincide con la necesidad, declara procedencia, formato y fecha."
+              },
+              {
+                "id": "c",
+                "text": "Resultado C: galería sin explicación.",
+                "feedback": "Revisa la idea clave. A coincide con la necesidad, declara procedencia, formato y fecha."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Lee cinco señales",
+            "body": "Revisa título, dominio, autor o institución, fecha, tipo de archivo y fragmento. Relaciónalos con la pregunta, no con cuál diseño llama más la atención.",
+            "examples": [
+              "Dominio institucional",
+              "PDF",
+              "Actualizado 2026",
+              "Fragmento sobre criterios"
+            ],
+            "memoryAid": "Pertinencia primero; apariencia después."
+          },
+          {
+            "id": "A2.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Priorizar no es declarar verdadero",
+            "body": "Un resultado institucional y reciente puede merecer abrirse primero, pero todavía debes revisar propósito, evidencia, contexto y versión.",
+            "examples": [
+              "Abrir primero ≠ aceptar sin leer",
+              "Dominio aporta procedencia, no infalibilidad"
+            ],
+            "memoryAid": "El resultado orienta el siguiente clic, no termina la evaluación."
+          },
+          {
+            "id": "A2.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.lectura_resultados",
+            "difficulty": 1,
+            "prompt": "¿Qué señal del resultado B revela un propósito comercial?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A2-ST05",
+            "hint": "Busca una acción solicitada al usuario.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El uso de una letra mayúscula.",
+                "feedback": "Revisa la idea clave. La llamada de compra orienta el mensaje hacia una transacción."
+              },
+              {
+                "id": "b",
+                "text": "La palabra calor en el título.",
+                "feedback": "Revisa la idea clave. La llamada de compra orienta el mensaje hacia una transacción."
+              },
+              {
+                "id": "c",
+                "text": "El fragmento «compra hoy».",
+                "feedback": "Correcto. La llamada de compra orienta el mensaje hacia una transacción."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.03-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.lectura_resultados",
+            "difficulty": 1,
+            "prompt": "Relaciona metadato y pregunta útil.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST05",
+            "hint": "La fecha orienta vigencia.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Dominio",
+                "rightId": "r1",
+                "right": "¿Quién publica?"
+              },
+              {
+                "leftId": "l2",
+                "left": "Fecha",
+                "rightId": "r2",
+                "right": "¿Puede estar actualizado?"
+              },
+              {
+                "leftId": "l3",
+                "left": "Fragmento",
+                "rightId": "r3",
+                "right": "¿Parece pertinente?"
+              },
+              {
+                "leftId": "l4",
+                "left": "PDF",
+                "rightId": "r4",
+                "right": "¿Qué formato abriré?"
+              }
+            ],
+            "feedbackCorrect": "Cada metadato ayuda a una decisión inicial distinta.",
+            "feedbackIncorrect": "No confundas procedencia con contenido."
+          },
+          {
+            "id": "A2.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Distingue fuente de anuncio",
+            "body": "Títulos absolutos, urgencia de compra o ausencia de autor pueden indicar que el propósito principal no es informar. Eso reduce prioridad para una tarea escolar.",
+            "examples": [
+              "«Compra hoy» señala propósito comercial",
+              "Sin fecha dificulta evaluar vigencia"
+            ],
+            "memoryAid": "Pregunta quién publica y para qué."
+          },
+          {
+            "id": "A2.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.acceso.lectura_resultados",
+            "difficulty": 1,
+            "prompt": "Para saber cuánta agua requiere la planta identificada, ¿qué resultado priorizarías?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST06",
+            "hint": "Busca el resultado con mayor ajuste a la pregunta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La ficha técnica municipal de 2025.",
+                "feedback": "Correcto. La ficha coincide con especie y clima y tiene procedencia institucional reciente."
+              },
+              {
+                "id": "b",
+                "text": "El foro sin ubicación de 2016.",
+                "feedback": "Revisa la idea clave. La ficha coincide con especie y clima y tiene procedencia institucional reciente."
+              },
+              {
+                "id": "c",
+                "text": "El catálogo que no trata el riego.",
+                "feedback": "Revisa la idea clave. La ficha coincide con especie y clima y tiene procedencia institucional reciente."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.acceso.lectura_resultados",
+            "difficulty": 2,
+            "prompt": "Paolo afirma que la ficha municipal debe ser correcta en todo porque aparece primero. ¿Qué falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST06",
+            "hint": "Priorizar no significa creer automáticamente.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Aceptar el orden como una garantía.",
+                "feedback": "Revisa la idea clave. El ranking y el dominio orientan, pero no sustituyen la evaluación del contenido."
+              },
+              {
+                "id": "b",
+                "text": "Abrirla y revisar método, alcance, autoría y si las condiciones coinciden con el caso.",
+                "feedback": "Correcto. El ranking y el dominio orientan, pero no sustituyen la evaluación del contenido."
+              },
+              {
+                "id": "c",
+                "text": "Descartar toda fuente institucional.",
+                "feedback": "Revisa la idea clave. El ranking y el dominio orientan, pero no sustituyen la evaluación del contenido."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.acceso.lectura_resultados",
+            "difficulty": 1,
+            "prompt": "¿Por qué el foro es difícil de aplicar directamente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST06",
+            "hint": "Busca información necesaria para transferir una recomendación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque toda experiencia personal es siempre falsa.",
+                "feedback": "Revisa la idea clave. Sin contexto no sabemos si la recomendación corresponde a la especie y clima investigados."
+              },
+              {
+                "id": "b",
+                "text": "Porque fue escrito por una persona.",
+                "feedback": "Revisa la idea clave. Sin contexto no sabemos si la recomendación corresponde a la especie y clima investigados."
+              },
+              {
+                "id": "c",
+                "text": "No identifica ubicación ni condiciones de cultivo comparables.",
+                "feedback": "Correcto. Sin contexto no sabemos si la recomendación corresponde a la especie y clima investigados."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.acceso.lectura_resultados",
+            "difficulty": 1,
+            "prompt": "¿Cuál frase describe mejor la lectura de resultados?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Distingue preselección de verificación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sirve para decidir qué abrir primero; la evaluación continúa dentro de la fuente.",
+                "feedback": "Correcto. Los metadatos permiten filtrar, pero no reemplazan el análisis de evidencia."
+              },
+              {
+                "id": "b",
+                "text": "Permite aceptar el primer título sin leer.",
+                "feedback": "Revisa la idea clave. Los metadatos permiten filtrar, pero no reemplazan el análisis de evidencia."
+              },
+              {
+                "id": "c",
+                "text": "Garantiza verdad mediante el diseño del buscador.",
+                "feedback": "Revisa la idea clave. Los metadatos permiten filtrar, pero no reemplazan el análisis de evidencia."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya eliges antes de abrir",
+            "body": "Leíste título, dominio, fecha, formato y fragmento para priorizar resultados. También conservaste una idea clave: una buena señal invita a revisar, no a creer sin comprobar.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A2.04",
+        "globalId": "pe-sec1-mail-A2-04",
+        "sequence": 4,
+        "title": "Filtros y operadores",
+        "subtitle": "Reducir resultados funciona cuando cada límite responde a una necesidad",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.acceso.filtros_operadores",
+        "learningOutcome": "Aplica filtros de fecha, formato, idioma y dominio, además de operadores básicos, explicando su efecto y sus límites.",
+        "successEvidence": "Construye una consulta con dos restricciones pertinentes y comprueba si excluyeron información necesaria.",
+        "prerequisites": [
+          "Lee metadatos de resultados",
+          "Usa palabras clave"
+        ],
+        "misconceptions": [
+          "Añadir todos los filtros disponibles",
+          "Creer que site: garantiza calidad",
+          "Usar comillas cuando necesita sinónimos o variantes"
+        ],
+        "screens": [
+          {
+            "id": "A2.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Filtrar es decidir qué dejas fuera",
+            "body": "Si la tarea pide una guía oficial reciente en PDF, fecha, formato y dominio son límites útiles. Si no hay resultados, debes revisar cuál restricción fue demasiado estrecha.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A2.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.acceso.filtros_operadores",
+            "difficulty": 1,
+            "prompt": "¿Qué filtro responde al requisito «publicada desde 2024»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A2-ST07",
+            "hint": "Busca el requisito expresado como año.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Idioma",
+                "feedback": "Revisa la idea clave. El filtro temporal permite priorizar publicaciones del periodo solicitado."
+              },
+              {
+                "id": "b",
+                "text": "Fecha",
+                "feedback": "Correcto. El filtro temporal permite priorizar publicaciones del periodo solicitado."
+              },
+              {
+                "id": "c",
+                "text": "Color de la página",
+                "feedback": "Revisa la idea clave. El filtro temporal permite priorizar publicaciones del periodo solicitado."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Cada filtro responde una pregunta",
+            "body": "Fecha orienta vigencia; formato encuentra un tipo de recurso; idioma facilita lectura; dominio acota procedencia. Úsalos solo si la tarea lo necesita.",
+            "examples": [
+              "Desde 2024",
+              "PDF",
+              "Español",
+              "site:gob.pe"
+            ],
+            "memoryAid": "Filtro útil = requisito explícito."
+          },
+          {
+            "id": "A2.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Comillas y site:",
+            "body": "Las comillas buscan una frase exacta; site: restringe un dominio. Juntos pueden precisar, pero también excluir variaciones relevantes.",
+            "examples": [
+              "\"convivencia escolar\"",
+              "site:gob.pe",
+              "filetype:pdf"
+            ],
+            "memoryAid": "Conoce qué limita cada operador."
+          },
+          {
+            "id": "A2.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.filtros_operadores",
+            "difficulty": 1,
+            "prompt": "¿Qué combinación se ajusta mejor a toda la tarea?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A2-ST07",
+            "hint": "Convierte cada requisito en una restricción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cualquier fecha + video + cualquier sitio",
+                "feedback": "Revisa la idea clave. La combinación refleja vigencia, formato y procedencia solicitados."
+              },
+              {
+                "id": "b",
+                "text": "Solo idioma, sin palabras clave",
+                "feedback": "Revisa la idea clave. La combinación refleja vigencia, formato y procedencia solicitados."
+              },
+              {
+                "id": "c",
+                "text": "Últimos años + PDF + site:gob.pe",
+                "feedback": "Correcto. La combinación refleja vigencia, formato y procedencia solicitados."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.filtros_operadores",
+            "difficulty": 1,
+            "prompt": "Relaciona operador y efecto.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST08",
+            "hint": "site significa sitio o dominio.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "\"convivencia escolar\"",
+                "rightId": "r1",
+                "right": "Busca la frase exacta"
+              },
+              {
+                "leftId": "l2",
+                "left": "filetype:pdf",
+                "rightId": "r2",
+                "right": "Prioriza archivos PDF"
+              },
+              {
+                "leftId": "l3",
+                "left": "site:gob.pe",
+                "rightId": "r3",
+                "right": "Limita al dominio gubernamental peruano"
+              }
+            ],
+            "feedbackCorrect": "Identificaste qué añade cada parte de la consulta.",
+            "feedbackIncorrect": "Lee cada operador como una instrucción concreta."
+          },
+          {
+            "id": "A2.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Si obtienes cero resultados, relaja uno",
+            "body": "Retira primero la restricción menos importante o prueba un sinónimo. Registrar el cambio permite saber qué amplió la búsqueda.",
+            "examples": [
+              "Quitar comillas",
+              "Ampliar fecha",
+              "Cambiar escuela por colegio"
+            ],
+            "memoryAid": "Ajusta de uno en uno."
+          },
+          {
+            "id": "A2.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.acceso.filtros_operadores",
+            "difficulty": 1,
+            "prompt": "¿Qué añade la consulta C respecto de la B?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST08",
+            "hint": "Compara las consultas término por término.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Restringe además los resultados al dominio gob.pe.",
+                "feedback": "Correcto. C conserva frase exacta y PDF, y suma el límite de dominio."
+              },
+              {
+                "id": "b",
+                "text": "Elimina el requisito de PDF.",
+                "feedback": "Revisa la idea clave. C conserva frase exacta y PDF, y suma el límite de dominio."
+              },
+              {
+                "id": "c",
+                "text": "Traduce automáticamente los documentos.",
+                "feedback": "Revisa la idea clave. C conserva frase exacta y PDF, y suma el límite de dominio."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.acceso.filtros_operadores",
+            "difficulty": 2,
+            "prompt": "La consulta C no devuelve una guía conocida porque usa «convivencia en la escuela» y no la frase exacta. ¿Qué ajuste probarías primero?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST08",
+            "hint": "Identifica qué restricción exige palabras exactas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añadir datos personales al buscador.",
+                "feedback": "Revisa la idea clave. Las comillas excluyen variantes; relajarlas puede recuperar el documento."
+              },
+              {
+                "id": "b",
+                "text": "Quitar las comillas o probar la variante «convivencia en la escuela».",
+                "feedback": "Correcto. Las comillas excluyen variantes; relajarlas puede recuperar el documento."
+              },
+              {
+                "id": "c",
+                "text": "Concluir que la guía no existe.",
+                "feedback": "Revisa la idea clave. Las comillas excluyen variantes; relajarlas puede recuperar el documento."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.acceso.filtros_operadores",
+            "difficulty": 1,
+            "prompt": "¿Qué NO demuestra site:gob.pe por sí solo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST08",
+            "hint": "Distingue procedencia de verificación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que el resultado está bajo ese dominio.",
+                "feedback": "Revisa la idea clave. El operador controla ubicación, no calidad, evidencia ni pertinencia."
+              },
+              {
+                "id": "b",
+                "text": "Que la procedencia puede identificarse.",
+                "feedback": "Revisa la idea clave. El operador controla ubicación, no calidad, evidencia ni pertinencia."
+              },
+              {
+                "id": "c",
+                "text": "Que todas las afirmaciones del documento son correctas y aplicables.",
+                "feedback": "Correcto. El operador controla ubicación, no calidad, evidencia ni pertinencia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.acceso.filtros_operadores",
+            "difficulty": 1,
+            "prompt": "¿Cuál estrategia permite aprender de los filtros?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una prueba controlada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Registrar resultados, cambiar una restricción y comparar el efecto.",
+                "feedback": "Correcto. Un cambio por vez hace visible qué amplió o redujo la búsqueda."
+              },
+              {
+                "id": "b",
+                "text": "Activar todos los filtros sin mirar.",
+                "feedback": "Revisa la idea clave. Un cambio por vez hace visible qué amplió o redujo la búsqueda."
+              },
+              {
+                "id": "c",
+                "text": "Cambiar cinco condiciones a la vez.",
+                "feedback": "Revisa la idea clave. Un cambio por vez hace visible qué amplió o redujo la búsqueda."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya controlas el alcance de la búsqueda",
+            "body": "Aplicaste filtros y operadores con propósito, reconociste sus límites y aprendiste a relajar restricciones sin perder el rumbo.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A2.05",
+        "globalId": "pe-sec1-mail-A2-05",
+        "sequence": 5,
+        "title": "Búsqueda con IA",
+        "subtitle": "Una respuesta generada puede orientar, pero no reemplaza las fuentes",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.acceso.busqueda_con_ia",
+        "learningOutcome": "Usa asistentes de IA para explorar términos o rutas, y verifica afirmaciones en fuentes originales pertinentes.",
+        "successEvidence": "Separa orientación de evidencia, detecta señales de exceso de confianza y documenta una ruta de verificación.",
+        "prerequisites": [
+          "Lee resultados de búsqueda",
+          "Reconoce autor, evidencia y propósito"
+        ],
+        "misconceptions": [
+          "Citar una respuesta generada como prueba suficiente",
+          "Creer que una lista de enlaces garantiza respaldo",
+          "Compartir datos personales para obtener una respuesta más específica"
+        ],
+        "screens": [
+          {
+            "id": "A2.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La IA puede ayudarte a empezar, no a cerrar la investigación",
+            "body": "Un asistente puede proponer palabras clave, preguntas o resúmenes. Pero también puede mezclar contextos, inventar precisión o mostrar enlaces débiles. La evidencia debe revisarse en su fuente.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A2.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.acceso.busqueda_con_ia",
+            "difficulty": 1,
+            "prompt": "¿Qué señal vuelve sospechosa la respuesta de Nexo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A2-ST09",
+            "hint": "Busca palabras que no admiten excepciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Incluye el tema de los árboles.",
+                "feedback": "Revisa la idea clave. El lenguaje absoluto supera la evidencia mostrada."
+              },
+              {
+                "id": "b",
+                "text": "Usa «siempre», «exactamente» y «todo» sin un método que sostenga esas afirmaciones.",
+                "feedback": "Correcto. El lenguaje absoluto supera la evidencia mostrada."
+              },
+              {
+                "id": "c",
+                "text": "Está escrita en oraciones completas.",
+                "feedback": "Revisa la idea clave. El lenguaje absoluto supera la evidencia mostrada."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Asigna a la IA una tarea limitada",
+            "body": "Pídele términos, preguntas de contraste o una estructura inicial. No ingreses nombres, contactos, cuentas, imágenes personales ni información sensible.",
+            "examples": [
+              "Genera sinónimos de sombra escolar",
+              "Propón preguntas para comparar superficies"
+            ],
+            "memoryAid": "Orientación útil, datos mínimos."
+          },
+          {
+            "id": "A2.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Extrae afirmaciones verificables",
+            "body": "Separa cada afirmación concreta y pregunta qué fuente, método, fecha y contexto la sostienen. Palabras como siempre, exactamente o elimina todo exigen especial cautela.",
+            "examples": [
+              "«Reduce exactamente 8 °C» necesita medición y condiciones",
+              "«Siempre» exige evidencia muy amplia"
+            ],
+            "memoryAid": "Una frase segura de sí misma no es una prueba."
+          },
+          {
+            "id": "A2.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.busqueda_con_ia",
+            "difficulty": 1,
+            "prompt": "¿Por qué los enlaces mostrados no bastan?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A2-ST09",
+            "hint": "Evalúa procedencia, método y contexto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque toda página web es falsa.",
+                "feedback": "Revisa la idea clave. Un enlace sin título y un blog de otro contexto no prueban la cifra exacta."
+              },
+              {
+                "id": "b",
+                "text": "Porque los enlaces nunca pueden abrirse.",
+                "feedback": "Revisa la idea clave. Un enlace sin título y un blog de otro contexto no prueban la cifra exacta."
+              },
+              {
+                "id": "c",
+                "text": "No identifican evidencia pertinente ni un estudio comparable con el contexto escolar.",
+                "feedback": "Correcto. Un enlace sin título y un blog de otro contexto no prueban la cifra exacta."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.busqueda_con_ia",
+            "difficulty": 1,
+            "prompt": "Relaciona uso y función responsable.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST10",
+            "hint": "No confundas sugerencia con prueba.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Pedir términos relacionados",
+                "rightId": "r1",
+                "right": "Orientación inicial"
+              },
+              {
+                "leftId": "l2",
+                "left": "Abrir el documento institucional",
+                "rightId": "r2",
+                "right": "Acceso a la fuente"
+              },
+              {
+                "leftId": "l3",
+                "left": "Registrar método y contexto",
+                "rightId": "r3",
+                "right": "Verificación"
+              },
+              {
+                "leftId": "l4",
+                "left": "Citar el documento leído",
+                "rightId": "r4",
+                "right": "Sustento final"
+              }
+            ],
+            "feedbackCorrect": "Cada etapa conserva una función distinta.",
+            "feedbackIncorrect": "La IA aparece al inicio; la evidencia se revisa después."
+          },
+          {
+            "id": "A2.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Vuelve a la fuente original",
+            "body": "Abre documentos identificables, verifica que existan y lee la parte pertinente. Cita esos documentos y declara límites, no el resumen generado como autoridad final.",
+            "examples": [
+              "Autor e institución",
+              "Fecha",
+              "Método",
+              "Contexto comparable"
+            ],
+            "memoryAid": "IA para orientarte; fuente para sustentar."
+          },
+          {
+            "id": "A2.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.acceso.busqueda_con_ia",
+            "difficulty": 1,
+            "prompt": "¿Qué paso convierte una sugerencia de IA en una búsqueda verificable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST10",
+            "hint": "Busca el paso que permite comprobar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Buscar los términos en fuentes identificables y abrir los documentos originales.",
+                "feedback": "Correcto. La ruta responsable sale del asistente y vuelve a evidencia rastreable."
+              },
+              {
+                "id": "b",
+                "text": "Copiar la respuesta sin revisar.",
+                "feedback": "Revisa la idea clave. La ruta responsable sale del asistente y vuelve a evidencia rastreable."
+              },
+              {
+                "id": "c",
+                "text": "Pedir una respuesta más segura de sí misma.",
+                "feedback": "Revisa la idea clave. La ruta responsable sale del asistente y vuelve a evidencia rastreable."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.acceso.busqueda_con_ia",
+            "difficulty": 2,
+            "prompt": "Un estudiante cita «Asistente Nexo, 2026» como única fuente para la cifra de 8 °C. ¿Qué debe hacer?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST09",
+            "hint": "Rastrea de la afirmación a la evidencia original.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mantener la cita porque la IA escribió un número preciso.",
+                "feedback": "Revisa la idea clave. La precisión aparente no sustituye procedencia ni método."
+              },
+              {
+                "id": "b",
+                "text": "Localizar el estudio original, comprobar cómo se midió y citarlo solo si realmente respalda la cifra.",
+                "feedback": "Correcto. La precisión aparente no sustituye procedencia ni método."
+              },
+              {
+                "id": "c",
+                "text": "Añadir su dirección para personalizar la respuesta.",
+                "feedback": "Revisa la idea clave. La precisión aparente no sustituye procedencia ni método."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.acceso.busqueda_con_ia",
+            "difficulty": 1,
+            "prompt": "¿Qué solicitud es segura y útil?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Pregunta si la tarea requiere información de personas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "«Analiza los mensajes privados de mis compañeros».",
+                "feedback": "Revisa la idea clave. La solicitud trabaja con conceptos públicos y no transmite datos personales o credenciales."
+              },
+              {
+                "id": "b",
+                "text": "«Usa estas contraseñas para revisar sus cuentas».",
+                "feedback": "Revisa la idea clave. La solicitud trabaja con conceptos públicos y no transmite datos personales o credenciales."
+              },
+              {
+                "id": "c",
+                "text": "«Sugiere términos públicos para investigar sombra y temperatura en patios escolares».",
+                "feedback": "Correcto. La solicitud trabaja con conceptos públicos y no transmite datos personales o credenciales."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.acceso.busqueda_con_ia",
+            "difficulty": 1,
+            "prompt": "¿Cuál conclusión es responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST10",
+            "hint": "Evita confianza total y rechazo automático.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La IA sugirió una ruta; las afirmaciones se sostendrán solo con fuentes originales revisadas.",
+                "feedback": "Correcto. La opción reconoce utilidad limitada y exige verificación."
+              },
+              {
+                "id": "b",
+                "text": "La IA no puede equivocarse si incluye enlaces.",
+                "feedback": "Revisa la idea clave. La opción reconoce utilidad limitada y exige verificación."
+              },
+              {
+                "id": "c",
+                "text": "Toda respuesta generada debe rechazarse sin leer.",
+                "feedback": "Revisa la idea clave. La opción reconoce utilidad limitada y exige verificación."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya usas IA sin cederle la verificación",
+            "body": "Convertiste respuestas generadas en preguntas comprobables, protegiste datos y regresaste a fuentes originales. La herramienta ayuda, pero tu criterio dirige.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A2.06",
+        "globalId": "pe-sec1-mail-A2-06",
+        "sequence": 6,
+        "title": "Archivos y versiones",
+        "subtitle": "Organizar permite encontrar, comprender y proteger el trabajo",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.acceso.archivos_versiones",
+        "learningOutcome": "Nombra, clasifica y versiona archivos para recuperarlos con facilidad, minimizando datos personales innecesarios.",
+        "successEvidence": "Reorganiza una carpeta, identifica la versión vigente y justifica qué archivo sensible debe excluirse.",
+        "prerequisites": [
+          "Reconoce tipos de archivo",
+          "Distingue datos necesarios e innecesarios"
+        ],
+        "misconceptions": [
+          "Usar «final final2» como control de versiones",
+          "Guardar todo en una sola carpeta",
+          "Conservar datos personales por si acaso"
+        ],
+        "screens": [
+          {
+            "id": "A2.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un buen nombre responde sin abrir el archivo",
+            "body": "«trabajo final final2.pdf» no indica tema, fecha ni estado. «informe_v03_aprobado.pdf» permite saber qué contiene y cuál versión corresponde entregar.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A2.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.acceso.archivos_versiones",
+            "difficulty": 1,
+            "prompt": "¿Qué problema tiene «trabajo final final2.pdf»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A2-ST11",
+            "hint": "Pregunta qué sabrías sin abrirlo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Es demasiado pequeño para abrir.",
+                "feedback": "Revisa la idea clave. Las palabras repetidas no permiten reconocer cuál archivo es vigente."
+              },
+              {
+                "id": "b",
+                "text": "No identifica con claridad tema, versión ni estado.",
+                "feedback": "Correcto. Las palabras repetidas no permiten reconocer cuál archivo es vigente."
+              },
+              {
+                "id": "c",
+                "text": "Incluye obligatoriamente un virus.",
+                "feedback": "Revisa la idea clave. Las palabras repetidas no permiten reconocer cuál archivo es vigente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Nombra con un patrón estable",
+            "body": "Incluye tema breve, versión o fecha y estado cuando sea necesario. Evita nombres de estudiantes u otros datos personales si el archivo puede identificarse sin ellos.",
+            "examples": [
+              "biohuerto_datos_v01.xlsx",
+              "informe_v03_aprobado.pdf"
+            ],
+            "memoryAid": "Tema + versión + estado."
+          },
+          {
+            "id": "A2.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Separa por función",
+            "body": "Carpetas como fuentes, datos, imágenes autorizadas, borradores y entrega reducen duplicados y ayudan a aplicar permisos distintos.",
+            "examples": [
+              "fuentes: documentos consultados",
+              "entrega: solo versión aprobada"
+            ],
+            "memoryAid": "Cada carpeta debe responder «¿qué tipo de material vive aquí?»."
+          },
+          {
+            "id": "A2.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.archivos_versiones",
+            "difficulty": 1,
+            "prompt": "¿Qué archivo requiere una decisión de privacidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A2-ST11",
+            "hint": "Busca contenido identificable, no solo el tipo de archivo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "datos.xlsx por su extensión.",
+                "feedback": "Revisa la idea clave. La fotografía contiene datos personales y no es necesaria para el proyecto."
+              },
+              {
+                "id": "b",
+                "text": "notasnuevas.docx solo por ser documento.",
+                "feedback": "Revisa la idea clave. La fotografía contiene datos personales y no es necesaria para el proyecto."
+              },
+              {
+                "id": "c",
+                "text": "La fotografía de una ficha con nombres completos.",
+                "feedback": "Correcto. La fotografía contiene datos personales y no es necesaria para el proyecto."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.archivos_versiones",
+            "difficulty": 1,
+            "prompt": "Relaciona material y carpeta.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST12",
+            "hint": "La versión aprobada va en entrega.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Documentos consultados",
+                "rightId": "r1",
+                "right": "/fuentes"
+              },
+              {
+                "leftId": "l2",
+                "left": "Tabla de mediciones",
+                "rightId": "r2",
+                "right": "/datos"
+              },
+              {
+                "leftId": "l3",
+                "left": "Texto en elaboración",
+                "rightId": "r3",
+                "right": "/borradores"
+              },
+              {
+                "leftId": "l4",
+                "left": "PDF aprobado",
+                "rightId": "r4",
+                "right": "/entrega"
+              }
+            ],
+            "feedbackCorrect": "La clasificación facilita recuperar y compartir solo lo necesario.",
+            "feedbackIncorrect": "Piensa en la función de cada material."
+          },
+          {
+            "id": "A2.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Minimiza y documenta",
+            "body": "Elimina de la ruta de trabajo copias innecesarias y excluye datos personales que no cumplen una función. Un registro breve explica qué cambió en cada versión.",
+            "examples": [
+              "v02: corrige gráficos",
+              "v03: aprobada para entregar"
+            ],
+            "memoryAid": "Conserva lo necesario y explica la evolución."
+          },
+          {
+            "id": "A2.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.acceso.archivos_versiones",
+            "difficulty": 1,
+            "prompt": "¿Cuál nombre sigue mejor el patrón de versiones?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST12",
+            "hint": "Busca un patrón que pueda continuar con v03.",
+            "options": [
+              {
+                "id": "a",
+                "text": "informe_v02_revision.docx",
+                "feedback": "Correcto. El nombre expresa tema, número de versión y estado."
+              },
+              {
+                "id": "b",
+                "text": "finalahorasiultimo.docx",
+                "feedback": "Revisa la idea clave. El nombre expresa tema, número de versión y estado."
+              },
+              {
+                "id": "c",
+                "text": "documento nuevo copia.docx",
+                "feedback": "Revisa la idea clave. El nombre expresa tema, número de versión y estado."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.acceso.archivos_versiones",
+            "difficulty": 2,
+            "prompt": "Un grupo mantiene cinco copias «final» en la carpeta de entrega. ¿Qué riesgo crea?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST12",
+            "hint": "Distingue historial de paquete final.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hace que todas las copias se fusionen solas.",
+                "feedback": "Revisa la idea clave. Una carpeta de entrega debe contener la versión aprobada claramente identificada."
+              },
+              {
+                "id": "b",
+                "text": "Puede enviarse una versión incorrecta y resulta difícil saber qué cambió.",
+                "feedback": "Correcto. Una carpeta de entrega debe contener la versión aprobada claramente identificada."
+              },
+              {
+                "id": "c",
+                "text": "Impide que exista cualquier historial.",
+                "feedback": "Revisa la idea clave. Una carpeta de entrega debe contener la versión aprobada claramente identificada."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.acceso.archivos_versiones",
+            "difficulty": 1,
+            "prompt": "¿Qué acción aplica minimización de datos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST11",
+            "hint": "Pregunta si el proyecto puede completarse sin ese dato.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Renombrarla con más nombres.",
+                "feedback": "Revisa la idea clave. No se conserva ni distribuye información personal innecesaria."
+              },
+              {
+                "id": "b",
+                "text": "Copiarla en todas las carpetas.",
+                "feedback": "Revisa la idea clave. No se conserva ni distribuye información personal innecesaria."
+              },
+              {
+                "id": "c",
+                "text": "Excluir la ficha con nombres porque no aporta a la investigación.",
+                "feedback": "Correcto. No se conserva ni distribuye información personal innecesaria."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.acceso.archivos_versiones",
+            "difficulty": 1,
+            "prompt": "¿Qué práctica combina orden y trazabilidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST12",
+            "hint": "Busca clasificación más historial.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usar carpetas por función, versiones numeradas y un registro breve de cambios.",
+                "feedback": "Correcto. La estructura permite encontrar materiales y reconstruir la evolución."
+              },
+              {
+                "id": "b",
+                "text": "Guardar todo como «nuevo».",
+                "feedback": "Revisa la idea clave. La estructura permite encontrar materiales y reconstruir la evolución."
+              },
+              {
+                "id": "c",
+                "text": "Reemplazar archivos sin anotar ninguna modificación.",
+                "feedback": "Revisa la idea clave. La estructura permite encontrar materiales y reconstruir la evolución."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya organizas para encontrar y proteger",
+            "body": "Creaste nombres claros, carpetas por función y versiones trazables. También retiraste datos personales innecesarios antes de compartir.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A2.07",
+        "globalId": "pe-sec1-mail-A2-07",
+        "sequence": 7,
+        "title": "Problemas técnicos",
+        "subtitle": "Observar, aislar y probar es más seguro que improvisar",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.acceso.resolucion_tecnica",
+        "learningOutcome": "Aplica una secuencia segura para diagnosticar problemas técnicos comunes, documentar pruebas y pedir ayuda sin exponer credenciales.",
+        "successEvidence": "Ordena un protocolo de solución, identifica una solicitud peligrosa y registra el resultado de cada prueba.",
+        "prerequisites": [
+          "Reconoce credenciales y datos sensibles",
+          "Describe un problema con precisión"
+        ],
+        "misconceptions": [
+          "Probar muchos cambios a la vez",
+          "Ingresar contraseñas en mensajes inesperados",
+          "Ocultar el error y repetir indefinidamente"
+        ],
+        "screens": [
+          {
+            "id": "A2.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Resolver empieza por observar",
+            "body": "«No funciona» ofrece poca información. «guia.pdf muestra 0 KB mientras otras páginas cargan» permite aislar el problema. Un diagnóstico seguro nunca necesita entregar contraseñas a una ventana inesperada.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A2.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.acceso.resolucion_tecnica",
+            "difficulty": 1,
+            "prompt": "¿Qué dato sugiere que el problema está en el archivo y no en toda la conexión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A2-ST13",
+            "hint": "Compara qué funciona y qué no.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El archivo tiene un nombre corto.",
+                "feedback": "Revisa la idea clave. Dos observaciones aíslan un archivo vacío mientras la red sigue operativa."
+              },
+              {
+                "id": "b",
+                "text": "Otras páginas cargan y el archivo muestra 0 KB.",
+                "feedback": "Correcto. Dos observaciones aíslan un archivo vacío mientras la red sigue operativa."
+              },
+              {
+                "id": "c",
+                "text": "La tableta está en el aula.",
+                "feedback": "Revisa la idea clave. Dos observaciones aíslan un archivo vacío mientras la red sigue operativa."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Describe antes de cambiar",
+            "body": "Registra mensaje exacto, momento, archivo o función afectada y qué sí funciona. No compartas capturas con nombres, contactos o credenciales.",
+            "examples": [
+              "Mensaje: no se pudo abrir",
+              "Archivo: 0 KB",
+              "Conexión: otras páginas cargan"
+            ],
+            "memoryAid": "Qué falla + qué funciona + desde cuándo."
+          },
+          {
+            "id": "A2.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Aísla y prueba una variable",
+            "body": "Comprueba primero opciones reversibles: recargar, revisar conexión, verificar tamaño o abrir una copia oficial. Cambia una cosa y registra el resultado.",
+            "examples": [
+              "Prueba 1: otra página abre",
+              "Prueba 2: nueva descarga tiene 2,4 MB"
+            ],
+            "memoryAid": "Una prueba, un resultado."
+          },
+          {
+            "id": "A2.07-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.resolucion_tecnica",
+            "difficulty": 1,
+            "prompt": "¿Qué debe hacerse con la ventana que pide la contraseña?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A2-ST13",
+            "hint": "Las contraseñas no se usan como herramienta de diagnóstico.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Escribir la contraseña para reparar el PDF.",
+                "feedback": "Revisa la idea clave. Una ventana no oficial no necesita credenciales para reparar un archivo."
+              },
+              {
+                "id": "b",
+                "text": "Compartirla con otros para comparar.",
+                "feedback": "Revisa la idea clave. Una ventana no oficial no necesita credenciales para reparar un archivo."
+              },
+              {
+                "id": "c",
+                "text": "No ingresar nada, cerrarla y avisar por un canal confiable.",
+                "feedback": "Correcto. Una ventana no oficial no necesita credenciales para reparar un archivo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.07-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.resolucion_tecnica",
+            "difficulty": 1,
+            "prompt": "Ordena el protocolo seguro.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "No cambies nada antes de observar.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "Observar y registrar el mensaje"
+              },
+              {
+                "id": "i2",
+                "text": "Comprobar qué sí funciona"
+              },
+              {
+                "id": "i3",
+                "text": "Probar una acción reversible"
+              },
+              {
+                "id": "i4",
+                "text": "Registrar el resultado y pedir ayuda si continúa"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3",
+              "i4"
+            ],
+            "feedbackCorrect": "La secuencia produce evidencia sin aumentar el riesgo.",
+            "feedbackIncorrect": "Primero comprende; después prueba."
+          },
+          {
+            "id": "A2.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Detente ante señales de riesgo",
+            "body": "Una solicitud inesperada de contraseña, pago o instalación no es un paso normal de diagnóstico. Cierra el mensaje y pide ayuda a una persona responsable o canal oficial.",
+            "examples": [
+              "Nunca escribir credenciales en ventanas emergentes",
+              "Usar la plataforma oficial"
+            ],
+            "memoryAid": "Un error técnico no suspende las reglas de seguridad."
+          },
+          {
+            "id": "A2.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.acceso.resolucion_tecnica",
+            "difficulty": 1,
+            "prompt": "¿Qué prueba resolvió el caso?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST14",
+            "hint": "Busca la acción seguida de un resultado verificable.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Descargar otra vez desde la plataforma oficial después de verificar el original.",
+                "feedback": "Correcto. La nueva descarga tenía un tamaño coherente y abrió correctamente."
+              },
+              {
+                "id": "b",
+                "text": "Ingresar la contraseña en el mensaje.",
+                "feedback": "Revisa la idea clave. La nueva descarga tenía un tamaño coherente y abrió correctamente."
+              },
+              {
+                "id": "c",
+                "text": "Renombrar el archivo vacío muchas veces.",
+                "feedback": "Revisa la idea clave. La nueva descarga tenía un tamaño coherente y abrió correctamente."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.acceso.resolucion_tecnica",
+            "difficulty": 2,
+            "prompt": "Ana prueba reiniciar, instalar una app, cambiar permisos y renombrar el archivo al mismo tiempo. ¿Qué dificulta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Piensa en cómo atribuir el resultado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Obtendrá automáticamente una copia de seguridad.",
+                "feedback": "Revisa la idea clave. Aislar variables requiere una prueba reversible por vez."
+              },
+              {
+                "id": "b",
+                "text": "No podrá saber qué cambio produjo el resultado y puede aumentar el riesgo.",
+                "feedback": "Correcto. Aislar variables requiere una prueba reversible por vez."
+              },
+              {
+                "id": "c",
+                "text": "Garantiza que ninguna prueba falle.",
+                "feedback": "Revisa la idea clave. Aislar variables requiere una prueba reversible por vez."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.acceso.resolucion_tecnica",
+            "difficulty": 1,
+            "prompt": "¿Qué dato conviene incluir al pedir ayuda?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST14",
+            "hint": "Comparte evidencia del problema, no credenciales.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Contraseña completa y código de acceso.",
+                "feedback": "Revisa la idea clave. La descripción técnica permite ayudar sin exponer información sensible."
+              },
+              {
+                "id": "b",
+                "text": "Todos los contactos del dispositivo.",
+                "feedback": "Revisa la idea clave. La descripción técnica permite ayudar sin exponer información sensible."
+              },
+              {
+                "id": "c",
+                "text": "Mensaje exacto, archivo afectado, pruebas realizadas y resultados, sin contraseñas.",
+                "feedback": "Correcto. La descripción técnica permite ayudar sin exponer información sensible."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.acceso.resolucion_tecnica",
+            "difficulty": 1,
+            "prompt": "¿Cuál principio resume el diagnóstico seguro?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Elige la opción con pasos y límites.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Observar, aislar, probar, documentar y escalar sin compartir credenciales.",
+                "feedback": "Correcto. La secuencia equilibra aprendizaje, trazabilidad y seguridad."
+              },
+              {
+                "id": "b",
+                "text": "Aceptar cualquier ventana que prometa reparar.",
+                "feedback": "Revisa la idea clave. La secuencia equilibra aprendizaje, trazabilidad y seguridad."
+              },
+              {
+                "id": "c",
+                "text": "Cambiar todo hasta que algo ocurra.",
+                "feedback": "Revisa la idea clave. La secuencia equilibra aprendizaje, trazabilidad y seguridad."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya diagnosticas sin ponerte en riesgo",
+            "body": "Describiste el fallo, aislaste variables, probaste acciones reversibles y pediste ayuda con evidencia. La seguridad permaneció activa durante todo el proceso.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A2.08",
+        "globalId": "pe-sec1-mail-A2-08",
+        "sequence": 8,
+        "title": "Ruta reproducible",
+        "subtitle": "Otra persona debe poder comprender y repetir tu búsqueda",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.acceso.ruta_reproducible",
+        "learningOutcome": "Documenta preguntas, consultas, filtros, fuentes y decisiones para que otra persona pueda repetir y auditar la búsqueda.",
+        "successEvidence": "Entrega una bitácora completa que permite recuperar la misma fuente y entender por qué fue seleccionada.",
+        "prerequisites": [
+          "Formula preguntas y consultas",
+          "Lee resultados y organiza archivos"
+        ],
+        "misconceptions": [
+          "Guardar solo el enlace final",
+          "Omitir consultas fallidas",
+          "Creer que reproducible significa obtener idéntico orden de resultados"
+        ],
+        "screens": [
+          {
+            "id": "A2.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una buena búsqueda deja huellas",
+            "body": "«Encontré una guía buena» no permite repetir nada. Una bitácora registra pregunta, consulta exacta, filtros, fuente, fecha de acceso, páginas usadas y razón de selección.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A2.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.acceso.ruta_reproducible",
+            "difficulty": 1,
+            "prompt": "¿Qué mejora hizo la consulta 2 de la bitácora?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A2-ST15",
+            "hint": "Compara consulta 1 y consulta 2.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Incluyó nombres de estudiantes.",
+                "feedback": "Revisa la idea clave. La consulta redujo ruido y orientó hacia documentos institucionales."
+              },
+              {
+                "id": "b",
+                "text": "Añadió una frase específica y limitó la procedencia a gob.pe.",
+                "feedback": "Correcto. La consulta redujo ruido y orientó hacia documentos institucionales."
+              },
+              {
+                "id": "c",
+                "text": "Eliminó toda relación con patios.",
+                "feedback": "Revisa la idea clave. La consulta redujo ruido y orientó hacia documentos institucionales."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Registra decisiones, no solo resultados",
+            "body": "Anota qué consulta probaste, qué ruido apareció y por qué la modificaste. Los intentos fallidos muestran el camino y evitan repetir errores.",
+            "examples": [
+              "Consulta 1 demasiado general",
+              "Consulta 2 añade frase y dominio"
+            ],
+            "memoryAid": "La ruta incluye giros, no solo destino."
+          },
+          {
+            "id": "A2.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Identifica cada fuente",
+            "body": "Conserva título, institución o autor, fecha, enlace o ubicación, fecha de acceso y parte utilizada. Si descargas, usa un nombre claro y registra la versión.",
+            "examples": [
+              "Guía X, 2025, pp. 12–16",
+              "Acceso: 2026-09-18"
+            ],
+            "memoryAid": "Una fuente debe poder recuperarse."
+          },
+          {
+            "id": "A2.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.ruta_reproducible",
+            "difficulty": 1,
+            "prompt": "¿Qué límite conserva la bitácora?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A2-ST15",
+            "hint": "Busca la frase que indica qué falta verificar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La guía no tiene ninguna página.",
+                "feedback": "Revisa la idea clave. Registrar una duda pendiente evita presentar la fuente como universal."
+              },
+              {
+                "id": "b",
+                "text": "La búsqueda usó datos privados.",
+                "feedback": "Revisa la idea clave. Registrar una duda pendiente evita presentar la fuente como universal."
+              },
+              {
+                "id": "c",
+                "text": "Falta comprobar si los criterios se aplican al clima local.",
+                "feedback": "Correcto. Registrar una duda pendiente evita presentar la fuente como universal."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.acceso.ruta_reproducible",
+            "difficulty": 1,
+            "prompt": "Relaciona elemento y función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST15",
+            "hint": "Las páginas ubican la evidencia dentro de la fuente.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Consulta exacta",
+                "rightId": "r1",
+                "right": "Permite repetir la búsqueda"
+              },
+              {
+                "leftId": "l2",
+                "left": "Fecha de acceso",
+                "rightId": "r2",
+                "right": "Sitúa cuándo se consultó"
+              },
+              {
+                "leftId": "l3",
+                "left": "Páginas 12–16",
+                "rightId": "r3",
+                "right": "Ubica la evidencia usada"
+              },
+              {
+                "leftId": "l4",
+                "left": "Razón de selección",
+                "rightId": "r4",
+                "right": "Explica la decisión"
+              }
+            ],
+            "feedbackCorrect": "Cada dato hace la ruta más rastreable.",
+            "feedbackIncorrect": "Piensa qué pregunta responde cada registro."
+          },
+          {
+            "id": "A2.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Reproducir no es clonar la pantalla",
+            "body": "Los buscadores pueden cambiar el orden. La ruta es reproducible si otra persona puede aplicar la misma consulta, reconocer los criterios y localizar evidencia equivalente.",
+            "examples": [
+              "Misma pregunta y filtros",
+              "Misma lógica de selección",
+              "Orden visual puede variar"
+            ],
+            "memoryAid": "Repite el método, no cada píxel."
+          },
+          {
+            "id": "A2.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.acceso.ruta_reproducible",
+            "difficulty": 1,
+            "prompt": "¿Por qué Nora no pudo repetir la primera ruta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST16",
+            "hint": "Enumera la información ausente.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Faltaban consulta, filtros, fuente identificable y criterios de selección.",
+                "feedback": "Correcto. La nota era una valoración vaga sin pasos recuperables."
+              },
+              {
+                "id": "b",
+                "text": "Porque toda búsqueda cambia por completo cada minuto.",
+                "feedback": "Revisa la idea clave. La nota era una valoración vaga sin pasos recuperables."
+              },
+              {
+                "id": "c",
+                "text": "Porque una guía nunca puede volver a encontrarse.",
+                "feedback": "Revisa la idea clave. La nota era una valoración vaga sin pasos recuperables."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.acceso.ruta_reproducible",
+            "difficulty": 2,
+            "prompt": "Al repetir, el orden de resultados cambió. ¿Significa que la ruta fracasó?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A2-ST16",
+            "hint": "Distingue proceso de presentación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sí, reproducir exige una pantalla idéntica.",
+                "feedback": "Revisa la idea clave. La reproducibilidad se centra en método y recuperación, no en orden exacto del algoritmo."
+              },
+              {
+                "id": "b",
+                "text": "No necesariamente: pudo aplicar el mismo método y localizar la misma guía.",
+                "feedback": "Correcto. La reproducibilidad se centra en método y recuperación, no en orden exacto del algoritmo."
+              },
+              {
+                "id": "c",
+                "text": "Sí, cualquier cambio invalida toda evidencia.",
+                "feedback": "Revisa la idea clave. La reproducibilidad se centra en método y recuperación, no en orden exacto del algoritmo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A2.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.acceso.ruta_reproducible",
+            "difficulty": 1,
+            "prompt": "¿Qué registro protege mejor la privacidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Conserva decisiones académicas, no identidad innecesaria.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una captura con contraseñas visibles.",
+                "feedback": "Revisa la idea clave. La trazabilidad de la investigación no requiere datos personales."
+              },
+              {
+                "id": "b",
+                "text": "Una lista de contactos para demostrar autoría.",
+                "feedback": "Revisa la idea clave. La trazabilidad de la investigación no requiere datos personales."
+              },
+              {
+                "id": "c",
+                "text": "Una bitácora de consultas y fuentes sin nombres, cuentas ni historial personal.",
+                "feedback": "Correcto. La trazabilidad de la investigación no requiere datos personales."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A2.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.acceso.ruta_reproducible",
+            "difficulty": 1,
+            "prompt": "¿Cuál bitácora es suficiente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A2-ST15",
+            "hint": "Busca una ruta completa de principio a fin.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pregunta + consultas y cambios + filtros + fuente completa + parte usada + fecha + razón y límites.",
+                "feedback": "Correcto. La opción permite repetir, evaluar y comprender la decisión."
+              },
+              {
+                "id": "b",
+                "text": "Solo «encontré algo útil».",
+                "feedback": "Revisa la idea clave. La opción permite repetir, evaluar y comprender la decisión."
+              },
+              {
+                "id": "c",
+                "text": "Solo una captura del primer resultado.",
+                "feedback": "Revisa la idea clave. La opción permite repetir, evaluar y comprender la decisión."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A2.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya dejas una ruta que otros pueden seguir",
+            "body": "Documentaste consultas, filtros, fuentes, decisiones y límites. Otra persona puede revisar tu método y recuperar la evidencia sin acceder a datos personales.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
