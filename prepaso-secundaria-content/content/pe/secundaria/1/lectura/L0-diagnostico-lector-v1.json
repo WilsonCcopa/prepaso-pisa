@@ -1,0 +1,2607 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.3",
+  "locale": "es-PE",
+  "unit": {
+    "id": "L0",
+    "globalId": "pe-sec1-lec-L0",
+    "sequence": 0,
+    "grade": "sec1",
+    "subject": "lectura",
+    "title": "Diagnóstico lector y propósito",
+    "shortTitle": "Puente de Lectura",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "Lectura es una ruta especializada de Prepaso dentro del área oficial de Comunicación. L0 organiza un diagnóstico formativo y no es una unidad oficial obligatoria de MINEDU.",
+    "unitOutcome": "Activa propósito, fluidez, navegación, recuperación, inferencia, idea principal, voz y evaluación inicial para entrar a primer grado con estrategias explícitas.",
+    "finalEvidence": "Ocho tickets breves de lectura que orientan apoyos y registran estrategias, sin convertir el diagnóstico en una etiqueta.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "area": "Comunicación",
+      "cycle": "VI",
+      "competency": "Lee diversos tipos de textos escritos en su lengua materna",
+      "capacities": [
+        "Obtiene información del texto escrito",
+        "Infiere e interpreta información del texto",
+        "Reflexiona y evalúa la forma, el contenido y contexto del texto"
+      ],
+      "operationalAlignment": "Recupera prerrequisitos para localizar, inferir, interpretar y evaluar textos continuos, discontinuos y digitales breves."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Lector con propósito"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todos los estímulos son originales de Prepaso y no reproducen textos ni actividades de materiales de MINEDU.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Currículo Nacional de la Educación Básica",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/4551"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "L0-T01A",
+        "title": "Aviso del taller",
+        "format": "continuous",
+        "genre": "aviso escolar",
+        "content": "El taller de ajedrez se reunirá el jueves a las 3:30 p. m. en la biblioteca. Pueden participar estudiantes de primer grado. Para asistir, inscríbete hasta el miércoles en la mesa de atención.",
+        "sourceNote": "Texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T01B",
+        "title": "El sonido de la lluvia",
+        "format": "continuous",
+        "genre": "relato breve",
+        "content": "La lluvia golpeaba suavemente el techo. Amaru dejó el cuaderno a un lado, abrió la ventana y escuchó. Por unos minutos no buscó información ni instrucciones: solo siguió el ritmo del agua.",
+        "sourceNote": "Texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T02A",
+        "title": "Una pausa necesaria",
+        "format": "continuous",
+        "genre": "microdiálogo",
+        "content": "Antes de salir, Rosa dijo: «No esperen, todavía falta guardar los materiales». Después añadió: «Ahora sí, vamos». El grupo cerró las cajas y recién entonces salió.",
+        "sourceNote": "Texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T02B",
+        "title": "Turno de lectura",
+        "format": "continuous",
+        "genre": "párrafo informativo",
+        "content": "El colibrí puede permanecer suspendido en el aire. Para lograrlo, mueve sus alas con gran rapidez y cambia su inclinación. Así alcanza flores pequeñas sin posarse en una rama.",
+        "sourceNote": "Texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T03A",
+        "title": "Guía de la biblioteca",
+        "format": "digital_simulated",
+        "genre": "página con secciones",
+        "content": "GUÍA DE LA BIBLIOTECA. Sección 1: Horarios. Lunes a viernes, de 8:00 a. m. a 5:00 p. m. Sección 2: Préstamos. Se permiten dos libros por siete días. Sección 3: Computadoras. Se reservan por turnos de 30 minutos. Sección 4: Contacto. Atención en el mostrador principal.",
+        "sourceNote": "Interfaz simulada y texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T03B",
+        "title": "Contenido de una guía de huerto",
+        "format": "discontinuous",
+        "genre": "índice",
+        "content": "ÍNDICE. 1. Elegir el lugar — página 2. 2. Preparar la tierra — página 4. 3. Sembrar — página 7. 4. Regar y cuidar — página 10. 5. Cosechar — página 14.",
+        "sourceNote": "Texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T04A",
+        "title": "Campaña de abrigo",
+        "format": "continuous",
+        "genre": "nota breve",
+        "content": "La campaña recibirá chompas y frazadas limpias hasta el 20 de junio. Las cajas estarán en la entrada del colegio de 8:00 a. m. a 4:00 p. m. No se recibirán juguetes ni alimentos. El sábado 22, las prendas serán clasificadas por voluntarios.",
+        "sourceNote": "Texto y situación ficticios originales de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T04B",
+        "title": "Préstamo de bicicletas",
+        "format": "continuous",
+        "genre": "reglamento breve",
+        "content": "El módulo presta bicicletas de martes a domingo entre las 9:00 a. m. y las 5:00 p. m. Cada préstamo dura como máximo dos horas. Se debe devolver la bicicleta en el mismo módulo y entregar el casco recibido.",
+        "sourceNote": "Texto y situación ficticios originales de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T05A",
+        "title": "La ventana cerrada",
+        "format": "continuous",
+        "genre": "relato breve",
+        "content": "Nadia entró al aula y vio varias hojas moviéndose sobre las mesas. Corrió hacia la ventana, la cerró y recogió los papeles que habían caído al piso. Luego colocó una piedra limpia sobre cada grupo de hojas.",
+        "sourceNote": "Texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T05B",
+        "title": "Camino al entrenamiento",
+        "format": "continuous",
+        "genre": "relato breve",
+        "content": "Joel salió con una botella llena y una gorra. Al llegar a la cancha, buscó la sombra y bebió agua antes de empezar. El entrenador había anunciado que esa tarde la temperatura sería alta.",
+        "sourceNote": "Texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T06A",
+        "title": "Árboles en el patio",
+        "format": "continuous",
+        "genre": "párrafo informativo",
+        "content": "Los árboles del patio reducen la sensación de calor porque ofrecen sombra y liberan vapor de agua. También sirven de refugio para aves e insectos. Por estas razones, la escuela protegerá los árboles existentes y plantará especies adecuadas al clima local.",
+        "sourceNote": "Texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T06B",
+        "title": "Botellas reutilizables",
+        "format": "continuous",
+        "genre": "párrafo argumentativo",
+        "content": "Llevar una botella reutilizable puede disminuir el uso de envases descartables. Para que la medida funcione, la botella debe lavarse con frecuencia y existir acceso seguro a agua. No es una solución única, pero sí una acción concreta que puede mantenerse cada día.",
+        "sourceNote": "Texto original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T07A",
+        "title": "Dos mensajes sobre el patio",
+        "format": "multiple",
+        "genre": "comunicados comparados",
+        "content": "MENSAJE A — Dirección: «El patio norte permanecerá cerrado el lunes por mantenimiento. Utilicen el patio central durante el recreo». MENSAJE B — Consejo estudiantil: «Este viernes reuniremos propuestas para mejorar los espacios de recreo. Déjanos tu idea en el buzón del aula».",
+        "sourceNote": "Mensajes ficticios originales de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T07B",
+        "title": "Cuidado del agua",
+        "format": "multiple",
+        "genre": "mensajes comparados",
+        "content": "MENSAJE A — Empresa de agua: «Por trabajos de mantenimiento, el servicio se interrumpirá de 1:00 p. m. a 5:00 p. m.». MENSAJE B — Brigada escolar: «Revisa que los caños queden cerrados y comunica cualquier fuga al personal responsable».",
+        "sourceNote": "Mensajes ficticios originales de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T08A",
+        "title": "Consejo reenviado",
+        "format": "digital_simulated",
+        "genre": "mensaje de chat simulado",
+        "content": "Mensaje reenviado muchas veces: «Si estudias escuchando cualquier canción a volumen alto, recordarás el doble. Funciona para todas las personas. Reenvía este consejo hoy». No se menciona autor, estudio, fecha ni fuente.",
+        "sourceNote": "Mensaje simulado original de Prepaso; no describe un consejo validado.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "L0-T08B",
+        "title": "Horario del museo",
+        "format": "multiple",
+        "genre": "publicación y fuente institucional",
+        "content": "PUBLICACIÓN: «El museo abrirá gratis este domingo». FUENTE INSTITUCIONAL: «Ingreso gratuito el primer domingo de cada mes, de 10:00 a. m. a 4:00 p. m. Capacidad limitada». Ambas publicaciones indican como fecha de actualización el 2 de septiembre de 2026.",
+        "sourceNote": "Caso ficticio original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "L0.01",
+        "globalId": "pe-sec1-lec-L0-01",
+        "sequence": 1,
+        "title": "Leer con un propósito",
+        "subtitle": "La forma de leer cambia según lo que necesitas",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.puente.proposito",
+        "learningOutcome": "Ajusta atención, recorrido y velocidad a una meta de lectura.",
+        "successEvidence": "Elige y explica una estrategia distinta para buscar un dato, comprender o disfrutar.",
+        "prerequisites": [],
+        "misconceptions": [
+          "Leer siempre a la misma velocidad",
+          "Creer que buscar un dato exige memorizar todo",
+          "Pensar que releer es fracasar"
+        ],
+        "screens": [
+          {
+            "id": "L0.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Antes de leer, decide para qué",
+            "body": "No existe una única manera correcta de leer. Puedes explorar rápido para encontrar una hora, leer despacio para comprender una idea o seguir un relato por interés. El propósito dirige tu atención.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L0.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.puente.proposito",
+            "difficulty": 1,
+            "prompt": "Si solo necesitas saber la hora del taller, ¿qué conviene hacer primero?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L0-T01A",
+            "hint": "Busca números seguidos de a. m. o p. m.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Memorizar cada palabra.",
+                "feedback": "Revisa la idea clave. El propósito es localizar un dato específico; una búsqueda focalizada es suficiente."
+              },
+              {
+                "id": "b",
+                "text": "Recorrer el aviso buscando una hora.",
+                "feedback": "Correcto. El propósito es localizar un dato específico; una búsqueda focalizada es suficiente."
+              },
+              {
+                "id": "c",
+                "text": "Leer únicamente el último punto.",
+                "feedback": "Revisa la idea clave. El propósito es localizar un dato específico; una búsqueda focalizada es suficiente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Tres propósitos frecuentes",
+            "body": "Buscar un dato requiere localizar palabras clave; aprender exige conectar ideas y comprobar si entendiste; disfrutar permite seguir el ritmo, imaginar y volver a una parte interesante.",
+            "examples": [
+              "Buscar: fecha, lugar o requisito",
+              "Aprender: idea, explicación y ejemplo",
+              "Disfrutar: personajes, ambiente y acciones"
+            ],
+            "memoryAid": "Nombra tu propósito antes de empezar."
+          },
+          {
+            "id": "L0.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Una ruta simple",
+            "body": "Primero mira título y forma del texto. Después formula una pregunta concreta. Recorre el texto según esa pregunta y detente en la sección útil. Al final comprueba si hallaste lo que necesitabas.",
+            "examples": [
+              "Pregunta: ¿hasta qué día puedo inscribirme?",
+              "Pista: una fecha cercana a 'inscríbete'"
+            ],
+            "memoryAid": "Propósito → pregunta → recorrido → comprobación."
+          },
+          {
+            "id": "L0.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.puente.proposito",
+            "difficulty": 1,
+            "prompt": "¿Hasta cuándo se puede realizar la inscripción?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L0-T01A",
+            "hint": "Ubica la palabra 'inscríbete'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hasta el jueves.",
+                "feedback": "Revisa la idea clave. La oración final indica el límite: 'hasta el miércoles'."
+              },
+              {
+                "id": "b",
+                "text": "Hasta las 3:30 p. m.",
+                "feedback": "Revisa la idea clave. La oración final indica el límite: 'hasta el miércoles'."
+              },
+              {
+                "id": "c",
+                "text": "Hasta el miércoles.",
+                "feedback": "Correcto. La oración final indica el límite: 'hasta el miércoles'."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.puente.proposito",
+            "difficulty": 1,
+            "prompt": "Relaciona cada propósito con una estrategia inicial.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "No todas las lecturas exigen el mismo recorrido.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Encontrar una fecha",
+                "rightId": "r1",
+                "right": "Buscar números y palabras temporales"
+              },
+              {
+                "leftId": "l2",
+                "left": "Comprender una explicación",
+                "rightId": "r2",
+                "right": "Leer ideas conectadas y ejemplos"
+              },
+              {
+                "leftId": "l3",
+                "left": "Disfrutar un relato",
+                "rightId": "r3",
+                "right": "Seguir acciones, ambiente y ritmo"
+              }
+            ],
+            "feedbackCorrect": "Bien: la estrategia responde a la meta.",
+            "feedbackIncorrect": "Pregunta qué información necesita cada propósito."
+          },
+          {
+            "id": "L0.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Cambiar de estrategia es avanzar",
+            "body": "Si una lectura rápida no basta, puedes bajar la velocidad, releer una oración o revisar palabras cercanas. Ajustar la estrategia demuestra control, no falta de capacidad.",
+            "examples": [
+              "No hallé el dato: reviso subtítulos",
+              "No entendí la relación: releo dos oraciones juntas"
+            ],
+            "memoryAid": "Un lector competente modifica su plan cuando lo necesita."
+          },
+          {
+            "id": "L0.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.puente.proposito",
+            "difficulty": 1,
+            "prompt": "¿Cuál propósito describe mejor la lectura de 'El sonido de la lluvia'?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T01B",
+            "hint": "Observa el género y lo que hace el personaje.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Encontrar un precio.",
+                "feedback": "Revisa la idea clave. El texto presenta una escena y sensaciones, no datos operativos ni reglas."
+              },
+              {
+                "id": "b",
+                "text": "Seguir una escena breve y disfrutar su ambiente.",
+                "feedback": "Correcto. El texto presenta una escena y sensaciones, no datos operativos ni reglas."
+              },
+              {
+                "id": "c",
+                "text": "Aprender un reglamento.",
+                "feedback": "Revisa la idea clave. El texto presenta una escena y sensaciones, no datos operativos ni reglas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.puente.proposito",
+            "difficulty": 2,
+            "prompt": "Una estudiante quiere hallar el lugar del taller, pero lee todo tres veces sin formular una pregunta. ¿Qué ajuste le ayudaría?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T01A",
+            "hint": "Convierte la meta en una pregunta: ¿dónde será?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Buscar la palabra relacionada con lugar y revisar la oración cercana.",
+                "feedback": "Correcto. Una pregunta concreta dirige la atención hacia 'biblioteca'."
+              },
+              {
+                "id": "b",
+                "text": "Leer cada vez más rápido sin mirar el propósito.",
+                "feedback": "Revisa la idea clave. Una pregunta concreta dirige la atención hacia 'biblioteca'."
+              },
+              {
+                "id": "c",
+                "text": "Ignorar título y palabras clave.",
+                "feedback": "Revisa la idea clave. Una pregunta concreta dirige la atención hacia 'biblioteca'."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L0.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.puente.proposito",
+            "difficulty": 1,
+            "prompt": "Necesitas contar qué hizo Amaru. ¿Qué estrategia conviene?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T01B",
+            "hint": "Localiza los verbos que indican acciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Buscar únicamente números.",
+                "feedback": "Revisa la idea clave. Para reconstruir acciones debes seguir las oraciones del relato."
+              },
+              {
+                "id": "b",
+                "text": "Leer solo el título.",
+                "feedback": "Revisa la idea clave. Para reconstruir acciones debes seguir las oraciones del relato."
+              },
+              {
+                "id": "c",
+                "text": "Leer las acciones en orden y resumirlas con tus palabras.",
+                "feedback": "Correcto. Para reconstruir acciones debes seguir las oraciones del relato."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.puente.proposito",
+            "difficulty": 1,
+            "prompt": "¿Qué decisión muestra mejor control lector?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Piensa qué hace un lector cuando necesita otra clase de información.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usar siempre la misma velocidad.",
+                "feedback": "Revisa la idea clave. Ajustar atención, velocidad o recorrido permite cumplir la meta."
+              },
+              {
+                "id": "b",
+                "text": "Cambiar de estrategia cuando la primera no responde al propósito.",
+                "feedback": "Correcto. Ajustar atención, velocidad o recorrido permite cumplir la meta."
+              },
+              {
+                "id": "c",
+                "text": "Evitar releer aunque algo no se entienda.",
+                "feedback": "Revisa la idea clave. Ajustar atención, velocidad o recorrido permite cumplir la meta."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees con una meta visible",
+            "body": "Elegiste estrategias según el propósito y comprobaste si respondían a tu pregunta. Esa decisión te ahorrará esfuerzo y mejorará tu comprensión.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L0.02",
+        "globalId": "pe-sec1-lec-L0-02",
+        "sequence": 2,
+        "title": "Fluidez con sentido",
+        "subtitle": "Precisión y pausas ayudan a construir significado",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.puente.fluidez",
+        "learningOutcome": "Lee frases y párrafos breves con precisión y reconoce pausas que organizan el sentido.",
+        "successEvidence": "Agrupa palabras relacionadas, respeta signos y explica cómo una pausa cambia la comprensión.",
+        "prerequisites": [
+          "Reconoce palabras de uso frecuente"
+        ],
+        "misconceptions": [
+          "Confundir fluidez con velocidad máxima",
+          "Ignorar puntuación",
+          "Detenerse después de cada palabra"
+        ],
+        "screens": [
+          {
+            "id": "L0.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Leer fluido no es correr",
+            "body": "La fluidez une precisión, ritmo y sentido. Las palabras que forman una idea se leen juntas; los signos indican dónde hacer una pausa y cómo conectar la siguiente parte.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L0.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.puente.fluidez",
+            "difficulty": 1,
+            "prompt": "En la frase «No esperen, todavía falta guardar los materiales», ¿para qué sirve la coma?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L0-T02A",
+            "hint": "Lee lo que aparece antes y después de la coma.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elimina la palabra 'esperen'.",
+                "feedback": "Revisa la idea clave. La pausa breve organiza dos partes conectadas de la misma idea."
+              },
+              {
+                "id": "b",
+                "text": "Separa una indicación de la explicación que sigue.",
+                "feedback": "Correcto. La pausa breve organiza dos partes conectadas de la misma idea."
+              },
+              {
+                "id": "c",
+                "text": "Indica que terminó todo el texto.",
+                "feedback": "Revisa la idea clave. La pausa breve organiza dos partes conectadas de la misma idea."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Lee por grupos de sentido",
+            "body": "En lugar de cortar palabra por palabra, reúne expresiones que funcionan juntas. Esto libera atención para comprender lo que ocurre.",
+            "examples": [
+              "Antes de salir / Rosa dijo...",
+              "mueve sus alas / con gran rapidez"
+            ],
+            "memoryAid": "Agrupa palabras que responden a una misma pregunta."
+          },
+          {
+            "id": "L0.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Los signos orientan",
+            "body": "La coma marca una pausa breve; el punto cierra una idea; dos puntos pueden anunciar una explicación o una cita. La pausa no es adorno: ayuda a decidir qué palabras se relacionan.",
+            "examples": [
+              "No esperen, todavía falta...",
+              "Después añadió: «Ahora sí...»"
+            ],
+            "memoryAid": "Mira el signo antes de decidir dónde detenerte."
+          },
+          {
+            "id": "L0.02-S05",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "lec.puente.fluidez",
+            "difficulty": 1,
+            "prompt": "Ordena los grupos para reconstruir la acción final.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L0-T02A",
+            "hint": "Empieza por el sujeto y su primera acción.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "El grupo cerró las cajas"
+              },
+              {
+                "id": "i2",
+                "text": "y recién entonces"
+              },
+              {
+                "id": "i3",
+                "text": "salió"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3"
+            ],
+            "feedbackCorrect": "Correcto: los grupos forman una acción completa en orden.",
+            "feedbackIncorrect": "Busca primero quién actúa, luego cuándo y finalmente qué hace."
+          },
+          {
+            "id": "L0.02-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.puente.fluidez",
+            "difficulty": 1,
+            "prompt": "¿Cuál lectura por grupos conserva mejor el sentido?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T02B",
+            "hint": "Evita separar artículo y sustantivo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El / colibrí puede / permanecer suspendido en / el aire.",
+                "feedback": "Revisa la idea clave. Los grupos reúnen palabras relacionadas sin cortar expresiones básicas."
+              },
+              {
+                "id": "b",
+                "text": "El colibrí puede permanecer suspendido en el aire sin ninguna pausa posible.",
+                "feedback": "Revisa la idea clave. Los grupos reúnen palabras relacionadas sin cortar expresiones básicas."
+              },
+              {
+                "id": "c",
+                "text": "El colibrí / puede permanecer suspendido / en el aire.",
+                "feedback": "Correcto. Los grupos reúnen palabras relacionadas sin cortar expresiones básicas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Precisión antes que velocidad",
+            "body": "Si una palabra cambia el sentido, conviene detenerse, releerla y comprobarla con el contexto. Aumentar velocidad sin precisión puede producir una interpretación equivocada.",
+            "examples": [
+              "suspendido no significa detenido para siempre",
+              "posarse se entiende por la acción del colibrí"
+            ],
+            "memoryAid": "Comprender con ritmo estable vale más que terminar primero."
+          },
+          {
+            "id": "L0.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.puente.fluidez",
+            "difficulty": 1,
+            "prompt": "¿Cómo logra el colibrí permanecer suspendido?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T02B",
+            "hint": "Relee la oración que empieza con 'Para lograrlo'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Se posa siempre en una rama.",
+                "feedback": "Revisa la idea clave. La segunda oración explica el mecanismo con dos acciones."
+              },
+              {
+                "id": "b",
+                "text": "Mueve sus alas con rapidez y cambia su inclinación.",
+                "feedback": "Correcto. La segunda oración explica el mecanismo con dos acciones."
+              },
+              {
+                "id": "c",
+                "text": "Deja de mover las alas.",
+                "feedback": "Revisa la idea clave. La segunda oración explica el mecanismo con dos acciones."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.puente.fluidez",
+            "difficulty": 2,
+            "prompt": "Un lector termina muy rápido pero cambia 'antes' por 'después'. ¿Qué conviene priorizar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T02A",
+            "hint": "Compara lo que significan 'antes' y 'después'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La precisión, porque esa palabra cambia el orden de las acciones.",
+                "feedback": "Correcto. La fluidez debe conservar el significado; una palabra temporal puede modificar toda la secuencia."
+              },
+              {
+                "id": "b",
+                "text": "Aumentar todavía más la velocidad.",
+                "feedback": "Revisa la idea clave. La fluidez debe conservar el significado; una palabra temporal puede modificar toda la secuencia."
+              },
+              {
+                "id": "c",
+                "text": "Ignorar palabras temporales.",
+                "feedback": "Revisa la idea clave. La fluidez debe conservar el significado; una palabra temporal puede modificar toda la secuencia."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "L0.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.puente.fluidez",
+            "difficulty": 1,
+            "prompt": "Si no comprendes 'posarse', ¿qué pista cercana ayuda más?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T02B",
+            "hint": "Busca palabras de la misma oración y la siguiente.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El nombre del personaje Rosa.",
+                "feedback": "Revisa la idea clave. El contexto contrasta permanecer en el aire con apoyarse en una rama."
+              },
+              {
+                "id": "b",
+                "text": "La hora del taller.",
+                "feedback": "Revisa la idea clave. El contexto contrasta permanecer en el aire con apoyarse en una rama."
+              },
+              {
+                "id": "c",
+                "text": "La idea de alcanzar flores sin estar sobre una rama.",
+                "feedback": "Correcto. El contexto contrasta permanecer en el aire con apoyarse en una rama."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.puente.fluidez",
+            "difficulty": 1,
+            "prompt": "¿Qué describe mejor una lectura fluida?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Recuerda que velocidad sola no basta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Lee lo más rápido posible aunque cambie palabras.",
+                "feedback": "Revisa la idea clave. La fluidez sirve a la comprensión mediante precisión y ritmo."
+              },
+              {
+                "id": "b",
+                "text": "Lee con precisión, agrupa ideas y ajusta las pausas al sentido.",
+                "feedback": "Correcto. La fluidez sirve a la comprensión mediante precisión y ritmo."
+              },
+              {
+                "id": "c",
+                "text": "Se detiene después de cada palabra sin conectar ideas.",
+                "feedback": "Revisa la idea clave. La fluidez sirve a la comprensión mediante precisión y ritmo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya das ritmo al significado",
+            "body": "Agrupaste palabras, usaste los signos y priorizaste precisión. Leer con fluidez te deja más atención disponible para comprender.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L0.03",
+        "globalId": "pe-sec1-lec-L0-03",
+        "sequence": 3,
+        "title": "Navegar un texto",
+        "subtitle": "Las partes del texto muestran dónde buscar",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.puente.navegacion",
+        "learningOutcome": "Usa título, subtítulos, secciones e índices para localizar información.",
+        "successEvidence": "Elige una sección útil y explica qué elemento de navegación orientó su búsqueda.",
+        "prerequisites": [
+          "Reconoce títulos y párrafos"
+        ],
+        "misconceptions": [
+          "Leer siempre desde la primera palabra",
+          "Tratar todos los subtítulos como decoración",
+          "Confundir página de índice con contenido final"
+        ],
+        "screens": [
+          {
+            "id": "L0.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El texto también tiene un mapa",
+            "body": "Títulos, subtítulos, índices y enlaces simulados anticipan lo que encontrarás. Usarlos te permite llegar a la sección útil sin perder comprensión.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L0.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.puente.navegacion",
+            "difficulty": 1,
+            "prompt": "¿En qué sección buscarías cuánto dura un préstamo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L0-T03A",
+            "hint": "Relaciona la palabra principal de la pregunta con un subtítulo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Horarios",
+                "feedback": "Revisa la idea clave. El subtítulo 'Préstamos' coincide directamente con la información solicitada."
+              },
+              {
+                "id": "b",
+                "text": "Préstamos",
+                "feedback": "Correcto. El subtítulo 'Préstamos' coincide directamente con la información solicitada."
+              },
+              {
+                "id": "c",
+                "text": "Contacto",
+                "feedback": "Revisa la idea clave. El subtítulo 'Préstamos' coincide directamente con la información solicitada."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Mira la estructura primero",
+            "body": "El título presenta el tema general. Los subtítulos dividen ese tema en partes. Un índice conecta cada parte con su ubicación.",
+            "examples": [
+              "Título: Guía de la biblioteca",
+              "Subtítulo: Préstamos",
+              "Índice: Sembrar — página 7"
+            ],
+            "memoryAid": "La estructura convierte un texto largo en rutas pequeñas."
+          },
+          {
+            "id": "L0.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Convierte la pregunta en una sección",
+            "body": "Si preguntas cuánto dura un préstamo, busca un subtítulo relacionado con préstamos, no con horarios o contacto. Después lee el fragmento completo de esa sección.",
+            "examples": [
+              "Pregunta sobre turnos → Computadoras",
+              "Pregunta sobre apertura → Horarios"
+            ],
+            "memoryAid": "La mejor sección comparte el tema exacto de la pregunta."
+          },
+          {
+            "id": "L0.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.puente.navegacion",
+            "difficulty": 1,
+            "prompt": "¿Cuántos libros se permiten por préstamo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L0-T03A",
+            "hint": "Distingue cantidad de libros y duración.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Siete libros",
+                "feedback": "Revisa la idea clave. La sección Préstamos indica 'dos libros por siete días'."
+              },
+              {
+                "id": "b",
+                "text": "Treinta libros",
+                "feedback": "Revisa la idea clave. La sección Préstamos indica 'dos libros por siete días'."
+              },
+              {
+                "id": "c",
+                "text": "Dos libros",
+                "feedback": "Correcto. La sección Préstamos indica 'dos libros por siete días'."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.03-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.puente.navegacion",
+            "difficulty": 1,
+            "prompt": "Relaciona la necesidad con la sección adecuada.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T03A",
+            "hint": "No hace falta leer todas las secciones para orientarte.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Saber cuándo abre",
+                "rightId": "r1",
+                "right": "Horarios"
+              },
+              {
+                "leftId": "l2",
+                "left": "Reservar una computadora",
+                "rightId": "r2",
+                "right": "Computadoras"
+              },
+              {
+                "leftId": "l3",
+                "left": "Pedir ayuda presencial",
+                "rightId": "r3",
+                "right": "Contacto"
+              }
+            ],
+            "feedbackCorrect": "Bien: usaste los subtítulos como señales.",
+            "feedbackIncorrect": "Busca la coincidencia temática más directa."
+          },
+          {
+            "id": "L0.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Navegar no significa adivinar",
+            "body": "Un subtítulo ayuda a llegar, pero la respuesta se confirma en el contenido. No respondas solo por el nombre de la sección.",
+            "examples": [
+              "Llegar a 'Préstamos'",
+              "Leer: dos libros por siete días"
+            ],
+            "memoryAid": "Usa la estructura para ubicar y el párrafo para comprobar."
+          },
+          {
+            "id": "L0.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.puente.navegacion",
+            "difficulty": 1,
+            "prompt": "Según el índice, ¿en qué página comienza 'Sembrar'?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T03B",
+            "hint": "Sigue la línea del título hasta su número.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Página 4",
+                "feedback": "Revisa la idea clave. El índice conecta 'Sembrar' con la página 7."
+              },
+              {
+                "id": "b",
+                "text": "Página 7",
+                "feedback": "Correcto. El índice conecta 'Sembrar' con la página 7."
+              },
+              {
+                "id": "c",
+                "text": "Página 10",
+                "feedback": "Revisa la idea clave. El índice conecta 'Sembrar' con la página 7."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.puente.navegacion",
+            "difficulty": 2,
+            "prompt": "Alguien responde que las computadoras se usan 30 minutos solo porque leyó el subtítulo. ¿Qué paso faltó?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T03A",
+            "hint": "Diferencia ubicación de comprobación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cambiar el título del documento.",
+                "feedback": "Revisa la idea clave. El subtítulo orienta, pero el valor exacto aparece en la oración de la sección."
+              },
+              {
+                "id": "b",
+                "text": "Ignorar la pregunta.",
+                "feedback": "Revisa la idea clave. El subtítulo orienta, pero el valor exacto aparece en la oración de la sección."
+              },
+              {
+                "id": "c",
+                "text": "Leer el contenido de la sección para confirmar el dato.",
+                "feedback": "Correcto. El subtítulo orienta, pero el valor exacto aparece en la oración de la sección."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.puente.navegacion",
+            "difficulty": 1,
+            "prompt": "Quieres aprender a preparar la tierra. ¿Qué ruta es más eficiente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T03B",
+            "hint": "Busca la entrada que repite 'Preparar la tierra'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Empezar por la página 14.",
+                "feedback": "Revisa la idea clave. El índice señala directamente la sección y su página."
+              },
+              {
+                "id": "b",
+                "text": "Usar el índice para ir a la página 4 y leer esa sección.",
+                "feedback": "Correcto. El índice señala directamente la sección y su página."
+              },
+              {
+                "id": "c",
+                "text": "Leer solo el nombre de la guía.",
+                "feedback": "Revisa la idea clave. El índice señala directamente la sección y su página."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.puente.navegacion",
+            "difficulty": 1,
+            "prompt": "¿Cuál regla resume mejor la navegación de textos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Separa orientación y comprobación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Responder solo con el subtítulo.",
+                "feedback": "Revisa la idea clave. La estructura reduce el recorrido; la lectura del fragmento aporta evidencia."
+              },
+              {
+                "id": "b",
+                "text": "Leer siempre todo desde el inicio aunque busques un dato.",
+                "feedback": "Revisa la idea clave. La estructura reduce el recorrido; la lectura del fragmento aporta evidencia."
+              },
+              {
+                "id": "c",
+                "text": "Usar la estructura para ubicar y el contenido para confirmar.",
+                "feedback": "Correcto. La estructura reduce el recorrido; la lectura del fragmento aporta evidencia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya puedes recorrer un texto con mapa",
+            "body": "Usaste títulos, secciones e índices para llegar a información útil y luego la confirmaste. Esta habilidad será clave en textos largos y pantallas digitales.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L0.04",
+        "globalId": "pe-sec1-lec-L0-04",
+        "sequence": 4,
+        "title": "Información explícita",
+        "subtitle": "La respuesta está escrita, pero debes elegir el dato exacto",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.puente.informacion_explicita",
+        "learningOutcome": "Recupera información explícita relevante frente a datos cercanos.",
+        "successEvidence": "Responde con el dato exacto y señala la frase que lo demuestra.",
+        "prerequisites": [
+          "Navega títulos y párrafos breves"
+        ],
+        "misconceptions": [
+          "Elegir el primer número visible",
+          "Responder con un dato relacionado pero distinto",
+          "Agregar información no escrita"
+        ],
+        "screens": [
+          {
+            "id": "L0.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Encontrar no es solo reconocer palabras",
+            "body": "Un texto puede contener varias fechas, objetos o condiciones. Tu tarea es conectar la pregunta con el dato exacto y comprobarlo en una frase completa.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L0.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.puente.informacion_explicita",
+            "difficulty": 1,
+            "prompt": "¿Hasta qué fecha se reciben las prendas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L0-T04A",
+            "hint": "Busca la expresión 'hasta'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hasta el 22 de junio.",
+                "feedback": "Revisa la idea clave. La primera oración establece la fecha límite de recepción."
+              },
+              {
+                "id": "b",
+                "text": "Hasta el 20 de junio.",
+                "feedback": "Correcto. La primera oración establece la fecha límite de recepción."
+              },
+              {
+                "id": "c",
+                "text": "Hasta las 4:00 p. m. del sábado.",
+                "feedback": "Revisa la idea clave. La primera oración establece la fecha límite de recepción."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Desarma la pregunta",
+            "body": "Identifica qué tipo de dato necesitas: quién, qué, cuándo, dónde, cuánto o bajo qué condición. Después conserva las palabras que limitan la búsqueda.",
+            "examples": [
+              "¿Hasta cuándo? → fecha límite",
+              "¿Qué no se recibe? → objeto excluido"
+            ],
+            "memoryAid": "El detalle de la pregunta evita elegir un dato cercano pero incorrecto."
+          },
+          {
+            "id": "L0.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Lee la oración completa",
+            "body": "La palabra clave te lleva a una zona; la oración completa define la respuesta. Lee también una oración antes o después si hay pronombres o condiciones.",
+            "examples": [
+              "hasta el 20 de junio",
+              "No se recibirán juguetes ni alimentos"
+            ],
+            "memoryAid": "Localiza con una palabra; responde con una relación completa."
+          },
+          {
+            "id": "L0.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.puente.informacion_explicita",
+            "difficulty": 1,
+            "prompt": "¿Qué artículos no recibe la campaña?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L0-T04A",
+            "hint": "Busca la palabra 'No'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Chompas ni frazadas.",
+                "feedback": "Revisa la idea clave. La tercera oración excluye de forma explícita juguetes y alimentos."
+              },
+              {
+                "id": "b",
+                "text": "Cajas ni prendas limpias.",
+                "feedback": "Revisa la idea clave. La tercera oración excluye de forma explícita juguetes y alimentos."
+              },
+              {
+                "id": "c",
+                "text": "Juguetes ni alimentos.",
+                "feedback": "Correcto. La tercera oración excluye de forma explícita juguetes y alimentos."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.puente.informacion_explicita",
+            "difficulty": 1,
+            "prompt": "Relaciona cada pregunta con el dato exacto.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T04A",
+            "hint": "No intercambies datos que aparecen cerca.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "¿Dónde están las cajas?",
+                "rightId": "r1",
+                "right": "En la entrada del colegio"
+              },
+              {
+                "leftId": "l2",
+                "left": "¿A qué hora termina la recepción diaria?",
+                "rightId": "r2",
+                "right": "A las 4:00 p. m."
+              },
+              {
+                "leftId": "l3",
+                "left": "¿Quién clasifica las prendas?",
+                "rightId": "r3",
+                "right": "Voluntarios"
+              }
+            ],
+            "feedbackCorrect": "Correcto: cada respuesta conserva la relación escrita.",
+            "feedbackIncorrect": "Verifica persona, lugar y hora por separado."
+          },
+          {
+            "id": "L0.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Cita o parafrasea sin inventar",
+            "body": "Puedes copiar un dato breve o expresarlo con tus palabras, siempre que mantengas el significado y no agregues una causa que el texto no ofrece.",
+            "examples": [
+              "Texto: máximo dos horas",
+              "Respuesta válida: puede usarse hasta por dos horas"
+            ],
+            "memoryAid": "Cada respuesta debe poder señalar su evidencia."
+          },
+          {
+            "id": "L0.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.puente.informacion_explicita",
+            "difficulty": 1,
+            "prompt": "¿Cuánto dura como máximo cada préstamo de bicicleta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T04B",
+            "hint": "Busca la expresión 'como máximo'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "De martes a domingo.",
+                "feedback": "Revisa la idea clave. El texto fija explícitamente un máximo de dos horas por préstamo."
+              },
+              {
+                "id": "b",
+                "text": "Dos horas.",
+                "feedback": "Correcto. El texto fija explícitamente un máximo de dos horas por préstamo."
+              },
+              {
+                "id": "c",
+                "text": "Hasta las 5:00 p. m. sin límite.",
+                "feedback": "Revisa la idea clave. El texto fija explícitamente un máximo de dos horas por préstamo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.puente.informacion_explicita",
+            "difficulty": 2,
+            "prompt": "Un lector responde 'domingo' a la pregunta sobre duración. ¿Qué confundió?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T04B",
+            "hint": "Identifica qué unidad pide la pregunta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Confundió una bicicleta con un casco.",
+                "feedback": "Revisa la idea clave. Domingo pertenece al horario semanal; la duración está expresada en horas."
+              },
+              {
+                "id": "b",
+                "text": "El texto no contiene ninguna fecha.",
+                "feedback": "Revisa la idea clave. Domingo pertenece al horario semanal; la duración está expresada en horas."
+              },
+              {
+                "id": "c",
+                "text": "Confundió un día de atención con el tiempo máximo del préstamo.",
+                "feedback": "Correcto. Domingo pertenece al horario semanal; la duración está expresada en horas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.puente.informacion_explicita",
+            "difficulty": 1,
+            "prompt": "¿Dónde debe devolverse la bicicleta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T04B",
+            "hint": "Busca el verbo 'devolver'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "En cualquier parque.",
+                "feedback": "Revisa la idea clave. La última oración indica de forma explícita el lugar de devolución."
+              },
+              {
+                "id": "b",
+                "text": "En el mismo módulo.",
+                "feedback": "Correcto. La última oración indica de forma explícita el lugar de devolución."
+              },
+              {
+                "id": "c",
+                "text": "En la escuela.",
+                "feedback": "Revisa la idea clave. La última oración indica de forma explícita el lugar de devolución."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.puente.informacion_explicita",
+            "difficulty": 1,
+            "prompt": "¿Qué demuestra una respuesta explícita bien resuelta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Pregunta: ¿dónde está escrito?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Incluye una opinión aunque el texto no la mencione.",
+                "feedback": "Revisa la idea clave. La trazabilidad entre pregunta, respuesta y evidencia protege la precisión."
+              },
+              {
+                "id": "b",
+                "text": "Elige cualquier número cercano.",
+                "feedback": "Revisa la idea clave. La trazabilidad entre pregunta, respuesta y evidencia protege la precisión."
+              },
+              {
+                "id": "c",
+                "text": "Puede señalar la frase exacta que contiene el dato solicitado.",
+                "feedback": "Correcto. La trazabilidad entre pregunta, respuesta y evidencia protege la precisión."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya recuperas el dato correcto",
+            "body": "Distinguiste fechas, horas, condiciones y lugares cercanos. Ahora puedes mostrar no solo qué respondes, sino dónde se sostiene.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L0.05",
+        "globalId": "pe-sec1-lec-L0-05",
+        "sequence": 5,
+        "title": "Inferencia local",
+        "subtitle": "Unir dos pistas permite comprender lo que no se dice directamente",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.puente.inferencia_local",
+        "learningOutcome": "Construye una inferencia sencilla a partir de pistas cercanas.",
+        "successEvidence": "Explica una conclusión y menciona al menos dos pistas del texto.",
+        "prerequisites": [
+          "Recupera información explícita"
+        ],
+        "misconceptions": [
+          "Confundir inferir con adivinar",
+          "Usar experiencia sin evidencia textual",
+          "Apoyarse en una sola palabra aislada"
+        ],
+        "screens": [
+          {
+            "id": "L0.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Comprender también es conectar",
+            "body": "A veces el texto no dice 'había viento', pero muestra hojas moviéndose y una ventana que alguien cierra. Inferir es unir esas pistas, no inventar libremente.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L0.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.puente.inferencia_local",
+            "difficulty": 1,
+            "prompt": "¿Qué se puede inferir sobre lo que ocurría en el aula?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L0-T05A",
+            "hint": "Une la primera observación con la acción de Nadia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Alguien estaba regando plantas.",
+                "feedback": "Revisa la idea clave. Las hojas se movían y Nadia cerró la ventana; ambas pistas apuntan a una corriente de aire."
+              },
+              {
+                "id": "b",
+                "text": "Entraba aire por la ventana y movía las hojas.",
+                "feedback": "Correcto. Las hojas se movían y Nadia cerró la ventana; ambas pistas apuntan a una corriente de aire."
+              },
+              {
+                "id": "c",
+                "text": "Las hojas eran juguetes.",
+                "feedback": "Revisa la idea clave. Las hojas se movían y Nadia cerró la ventana; ambas pistas apuntan a una corriente de aire."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Pista más pista",
+            "body": "Una inferencia local nace de información cercana. Formula una conclusión provisional y comprueba si cada pista encaja sin contradicción.",
+            "examples": [
+              "Hojas se mueven + cierra ventana → entraba aire",
+              "Botella + busca sombra + calor anunciado → se prepara para el calor"
+            ],
+            "memoryAid": "Conclusión = pistas conectadas + razonamiento."
+          },
+          {
+            "id": "L0.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Explica el puente",
+            "body": "No basta responder. Usa una frase como: 'Se puede inferir que..., porque el texto dice... y también...'. Esto hace visible tu razonamiento.",
+            "examples": [
+              "Se infiere viento porque las hojas se movían y Nadia cerró la ventana"
+            ],
+            "memoryAid": "La palabra 'porque' obliga a volver a la evidencia."
+          },
+          {
+            "id": "L0.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.puente.inferencia_local",
+            "difficulty": 1,
+            "prompt": "¿Por qué Nadia colocó piedras sobre los grupos de hojas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L0-T05A",
+            "hint": "Relaciona la última acción con el problema inicial.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Para escribir sobre las piedras.",
+                "feedback": "Revisa la idea clave. La acción responde al problema presentado: los papeles se movían y habían caído."
+              },
+              {
+                "id": "b",
+                "text": "Para romper las hojas.",
+                "feedback": "Revisa la idea clave. La acción responde al problema presentado: los papeles se movían y habían caído."
+              },
+              {
+                "id": "c",
+                "text": "Para evitar que volvieran a moverse o caer.",
+                "feedback": "Correcto. La acción responde al problema presentado: los papeles se movían y habían caído."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.puente.inferencia_local",
+            "difficulty": 1,
+            "prompt": "Relaciona cada pista con la conclusión más cercana.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T05A",
+            "hint": "Busca la relación causa y respuesta.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Hojas moviéndose",
+                "rightId": "r1",
+                "right": "Había una corriente de aire"
+              },
+              {
+                "leftId": "l2",
+                "left": "Cerró la ventana",
+                "rightId": "r2",
+                "right": "Quiso detener esa corriente"
+              },
+              {
+                "leftId": "l3",
+                "left": "Piedras sobre las hojas",
+                "rightId": "r3",
+                "right": "Quiso mantenerlas en su lugar"
+              }
+            ],
+            "feedbackCorrect": "Bien: cada conclusión se apoya en una acción visible.",
+            "feedbackIncorrect": "No agregues motivos que el relato no sugiere."
+          },
+          {
+            "id": "L0.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Evita saltos demasiado grandes",
+            "body": "Una inferencia debe ser la explicación más cercana que encaja con el texto. No atribuyas sentimientos, causas o intenciones si no hay pistas suficientes.",
+            "examples": [
+              "Con evidencia: hacía calor",
+              "Sin evidencia: Joel odiaba entrenar"
+            ],
+            "memoryAid": "Elige la conclusión mínima que explica las pistas."
+          },
+          {
+            "id": "L0.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.puente.inferencia_local",
+            "difficulty": 1,
+            "prompt": "¿Por qué Joel lleva agua y busca sombra antes de entrenar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T05B",
+            "hint": "Usa al menos dos acciones y la información del entrenador.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque la cancha estaba cerrada.",
+                "feedback": "Revisa la idea clave. La botella, la sombra y el anuncio de temperatura alta forman un conjunto de pistas coherente."
+              },
+              {
+                "id": "b",
+                "text": "Porque se prepara para una tarde calurosa.",
+                "feedback": "Correcto. La botella, la sombra y el anuncio de temperatura alta forman un conjunto de pistas coherente."
+              },
+              {
+                "id": "c",
+                "text": "Porque olvidó su gorra.",
+                "feedback": "Revisa la idea clave. La botella, la sombra y el anuncio de temperatura alta forman un conjunto de pistas coherente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.puente.inferencia_local",
+            "difficulty": 2,
+            "prompt": "Una respuesta dice: 'Joel no quería entrenar'. ¿Por qué es débil?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T05B",
+            "hint": "Busca una pista sobre su deseo de entrenar; no la hay.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque toda inferencia debe copiar una oración exacta.",
+                "feedback": "Revisa la idea clave. Inferir no permite añadir una emoción sin señales suficientes."
+              },
+              {
+                "id": "b",
+                "text": "Porque Joel no aparece en el texto.",
+                "feedback": "Revisa la idea clave. Inferir no permite añadir una emoción sin señales suficientes."
+              },
+              {
+                "id": "c",
+                "text": "El texto muestra preparación para el calor, pero no dice ni sugiere rechazo al entrenamiento.",
+                "feedback": "Correcto. Inferir no permite añadir una emoción sin señales suficientes."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.puente.inferencia_local",
+            "difficulty": 1,
+            "prompt": "¿Qué conclusión está mejor sustentada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T05B",
+            "hint": "Elige la conclusión mínima que explica las acciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Joel quería abandonar el equipo.",
+                "feedback": "Revisa la idea clave. Sus objetos y acciones responden directamente al anuncio de alta temperatura."
+              },
+              {
+                "id": "b",
+                "text": "Joel sabía que debía cuidarse del calor.",
+                "feedback": "Correcto. Sus objetos y acciones responden directamente al anuncio de alta temperatura."
+              },
+              {
+                "id": "c",
+                "text": "Joel perdió la botella.",
+                "feedback": "Revisa la idea clave. Sus objetos y acciones responden directamente al anuncio de alta temperatura."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.puente.inferencia_local",
+            "difficulty": 1,
+            "prompt": "¿Qué fórmula ayuda a comunicar una inferencia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "La respuesta debe permitir que otra persona revise tu razonamiento.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Opinión + gusto personal.",
+                "feedback": "Revisa la idea clave. Una inferencia se vuelve verificable cuando muestra el puente entre evidencia y conclusión."
+              },
+              {
+                "id": "b",
+                "text": "Una palabra aislada sin explicación.",
+                "feedback": "Revisa la idea clave. Una inferencia se vuelve verificable cuando muestra el puente entre evidencia y conclusión."
+              },
+              {
+                "id": "c",
+                "text": "Conclusión + porque + pistas del texto.",
+                "feedback": "Correcto. Una inferencia se vuelve verificable cuando muestra el puente entre evidencia y conclusión."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya conectas pistas sin adivinar",
+            "body": "Construiste conclusiones pequeñas y explicaste el puente con evidencia. Esta habilidad crecerá hacia inferencias más complejas en textos extensos.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L0.06",
+        "globalId": "pe-sec1-lec-L0-06",
+        "sequence": 6,
+        "title": "Idea principal",
+        "subtitle": "El tema dice de qué se habla; la idea principal dice qué se afirma",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.puente.idea_principal",
+        "learningOutcome": "Distingue tema, idea principal y detalle en párrafos breves.",
+        "successEvidence": "Selecciona un resumen completo y descarta opciones demasiado amplias o detalladas.",
+        "prerequisites": [
+          "Recupera datos e inferencias locales"
+        ],
+        "misconceptions": [
+          "Elegir el primer detalle",
+          "Confundir tema con idea principal",
+          "Escoger un resumen que agrega una opinión"
+        ],
+        "screens": [
+          {
+            "id": "L0.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Encontrar el centro del párrafo",
+            "body": "El tema puede expresarse con pocas palabras, como 'árboles del patio'. La idea principal completa lo que el texto afirma sobre ese tema y reúne los detalles importantes.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L0.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.puente.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el tema del párrafo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L0-T06A",
+            "hint": "Busca el elemento que se mantiene en todo el párrafo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La velocidad de las aves.",
+                "feedback": "Revisa la idea clave. Todas las oraciones desarrollan beneficios y cuidado de los árboles del patio."
+              },
+              {
+                "id": "b",
+                "text": "Los árboles del patio escolar.",
+                "feedback": "Correcto. Todas las oraciones desarrollan beneficios y cuidado de los árboles del patio."
+              },
+              {
+                "id": "c",
+                "text": "La construcción de aulas.",
+                "feedback": "Revisa la idea clave. Todas las oraciones desarrollan beneficios y cuidado de los árboles del patio."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Tema, idea y detalle",
+            "body": "El tema responde '¿de qué habla?'. La idea principal responde '¿qué dice principalmente sobre eso?'. Los detalles explican, prueban o ejemplifican esa idea.",
+            "examples": [
+              "Tema: árboles",
+              "Idea: aportan varios beneficios y deben protegerse",
+              "Detalle: ofrecen sombra"
+            ],
+            "memoryAid": "Una idea principal suele necesitar sujeto y afirmación."
+          },
+          {
+            "id": "L0.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Prueba de cobertura",
+            "body": "Una buena idea principal incluye la mayor parte del párrafo sin copiarlo entero. Si una opción solo explica una oración, probablemente es un detalle.",
+            "examples": [
+              "Demasiado estrecho: solo dan sombra",
+              "Completo: reducen calor, apoyan vida y por eso se protegen"
+            ],
+            "memoryAid": "Pregunta: ¿esta oración deja afuera una parte importante?"
+          },
+          {
+            "id": "L0.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.puente.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la idea principal?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L0-T06A",
+            "hint": "Comprueba si incluye las tres oraciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los árboles solo sirven para dar sombra.",
+                "feedback": "Revisa la idea clave. La opción integra beneficios y decisión sin reducir el texto a un detalle."
+              },
+              {
+                "id": "b",
+                "text": "Los insectos viven en todos los patios del mundo.",
+                "feedback": "Revisa la idea clave. La opción integra beneficios y decisión sin reducir el texto a un detalle."
+              },
+              {
+                "id": "c",
+                "text": "Los árboles aportan varios beneficios, por eso la escuela los protegerá y plantará más.",
+                "feedback": "Correcto. La opción integra beneficios y decisión sin reducir el texto a un detalle."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.puente.idea_principal",
+            "difficulty": 1,
+            "prompt": "Relaciona cada fragmento con su función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T06A",
+            "hint": "El detalle es verdadero, pero no cubre todo.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Los árboles del patio",
+                "rightId": "r1",
+                "right": "Tema"
+              },
+              {
+                "leftId": "l2",
+                "left": "Aportan beneficios y serán protegidos",
+                "rightId": "r2",
+                "right": "Idea principal"
+              },
+              {
+                "leftId": "l3",
+                "left": "Sirven de refugio para aves",
+                "rightId": "r3",
+                "right": "Detalle"
+              }
+            ],
+            "feedbackCorrect": "Correcto: distinguiste asunto, afirmación central y apoyo.",
+            "feedbackIncorrect": "Pregunta si cada frase nombra, resume o ejemplifica."
+          },
+          {
+            "id": "L0.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Resumen fiel",
+            "body": "El mejor resumen conserva la idea central, elimina repeticiones y no añade información externa. Puede usar palabras distintas sin cambiar el sentido.",
+            "examples": [
+              "Fiel: una botella reutilizable ayuda, pero necesita cuidado y acceso a agua",
+              "Inventado: elimina por sí sola toda la contaminación"
+            ],
+            "memoryAid": "Breve no significa incompleto ni exagerado."
+          },
+          {
+            "id": "L0.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.puente.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Cuál resumen representa mejor el texto sobre botellas reutilizables?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T06B",
+            "hint": "Incluye tanto la posibilidad como las condiciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Son la única solución posible.",
+                "feedback": "Revisa la idea clave. El resumen conserva beneficio, condiciones y límite."
+              },
+              {
+                "id": "b",
+                "text": "Pueden reducir descartables si se cuidan y existe acceso seguro a agua.",
+                "feedback": "Correcto. El resumen conserva beneficio, condiciones y límite."
+              },
+              {
+                "id": "c",
+                "text": "Solo deben usarse una vez.",
+                "feedback": "Revisa la idea clave. El resumen conserva beneficio, condiciones y límite."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.puente.idea_principal",
+            "difficulty": 2,
+            "prompt": "Alguien elige 'lavar la botella' como idea principal. ¿Qué problema tiene esa respuesta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T06B",
+            "hint": "Revisa qué otras ideas quedarían fuera.",
+            "options": [
+              {
+                "id": "a",
+                "text": "No aparece en el texto.",
+                "feedback": "Revisa la idea clave. La idea principal debe cubrir el conjunto, no una sola acción."
+              },
+              {
+                "id": "b",
+                "text": "Es demasiado general para el párrafo.",
+                "feedback": "Revisa la idea clave. La idea principal debe cubrir el conjunto, no una sola acción."
+              },
+              {
+                "id": "c",
+                "text": "Es un detalle importante, pero no incluye el beneficio ni las demás condiciones.",
+                "feedback": "Correcto. La idea principal debe cubrir el conjunto, no una sola acción."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.puente.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Qué afirmación evita exagerar el texto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T06B",
+            "hint": "Busca expresiones como 'no es una solución única'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usarla elimina todo residuo.",
+                "feedback": "Revisa la idea clave. La última oración limita explícitamente el alcance de la medida."
+              },
+              {
+                "id": "b",
+                "text": "La botella reutilizable es una acción concreta, no una solución única.",
+                "feedback": "Correcto. La última oración limita explícitamente el alcance de la medida."
+              },
+              {
+                "id": "c",
+                "text": "Funciona aunque nunca se lave.",
+                "feedback": "Revisa la idea clave. La última oración limita explícitamente el alcance de la medida."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.puente.idea_principal",
+            "difficulty": 1,
+            "prompt": "¿Cómo reconoces una buena idea principal?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Aplica la prueba de cobertura.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Repite el primer sustantivo.",
+                "feedback": "Revisa la idea clave. La idea principal une tema y afirmación con cobertura suficiente."
+              },
+              {
+                "id": "b",
+                "text": "Escoge el dato más llamativo aunque sea secundario.",
+                "feedback": "Revisa la idea clave. La idea principal une tema y afirmación con cobertura suficiente."
+              },
+              {
+                "id": "c",
+                "text": "Expresa qué se afirma sobre el tema y cubre los detalles centrales.",
+                "feedback": "Correcto. La idea principal une tema y afirmación con cobertura suficiente."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya encuentras el centro del texto",
+            "body": "Separaste tema, idea principal y detalles, y elegiste resúmenes fieles. Esta distinción hará más fácil estudiar, explicar y comparar textos.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L0.07",
+        "globalId": "pe-sec1-lec-L0-07",
+        "sequence": 7,
+        "title": "Propósito y voz",
+        "subtitle": "Quién comunica y para qué orienta el mensaje",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.puente.proposito_voz",
+        "learningOutcome": "Reconoce la voz que comunica y el propósito principal de mensajes breves.",
+        "successEvidence": "Compara dos mensajes sobre un tema e identifica emisor, audiencia y acción buscada.",
+        "prerequisites": [
+          "Distingue idea principal y detalle"
+        ],
+        "misconceptions": [
+          "Confundir tema con propósito",
+          "Suponer que todos los mensajes informan de la misma manera",
+          "Atribuir una voz sin evidencia"
+        ],
+        "screens": [
+          {
+            "id": "L0.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Todo mensaje parte de una voz",
+            "body": "Dos textos pueden hablar del mismo patio y buscar cosas distintas. Identificar quién comunica, a quién se dirige y qué espera ayuda a comprender el propósito.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L0.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.puente.proposito_voz",
+            "difficulty": 1,
+            "prompt": "¿Quién emite el mensaje A?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L0-T07A",
+            "hint": "Mira el nombre antes de los dos puntos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El consejo estudiantil.",
+                "feedback": "Revisa la idea clave. La etiqueta 'Dirección' identifica de forma explícita a la voz emisora."
+              },
+              {
+                "id": "b",
+                "text": "La dirección de la escuela.",
+                "feedback": "Correcto. La etiqueta 'Dirección' identifica de forma explícita a la voz emisora."
+              },
+              {
+                "id": "c",
+                "text": "Una tienda.",
+                "feedback": "Revisa la idea clave. La etiqueta 'Dirección' identifica de forma explícita a la voz emisora."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Tres preguntas",
+            "body": "Pregunta: ¿quién parece emitir el mensaje?, ¿a quién se dirige?, ¿qué quiere que esa audiencia sepa, piense o haga? Usa nombres, verbos e instrucciones como evidencia.",
+            "examples": [
+              "Dirección → estudiantes → informar un cierre",
+              "Consejo estudiantil → comunidad → recoger propuestas"
+            ],
+            "memoryAid": "Emisor + audiencia + acción buscada revelan el propósito."
+          },
+          {
+            "id": "L0.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Propósitos frecuentes",
+            "body": "Informar presenta datos o cambios; explicar aclara cómo o por qué; invitar busca participación; recomendar propone una acción; entretener construye una experiencia.",
+            "examples": [
+              "Permanecerá cerrado: informar",
+              "Déjanos tu idea: invitar a participar"
+            ],
+            "memoryAid": "Un texto puede tener varios efectos, pero suele haber un propósito principal."
+          },
+          {
+            "id": "L0.07-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.puente.proposito_voz",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el propósito principal del mensaje B?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L0-T07A",
+            "hint": "Busca qué acción se pide a la audiencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Anunciar el cierre del patio norte.",
+                "feedback": "Revisa la idea clave. El verbo 'déjanos' solicita participación en una actividad concreta."
+              },
+              {
+                "id": "b",
+                "text": "Vender materiales deportivos.",
+                "feedback": "Revisa la idea clave. El verbo 'déjanos' solicita participación en una actividad concreta."
+              },
+              {
+                "id": "c",
+                "text": "Invitar a enviar propuestas para mejorar espacios de recreo.",
+                "feedback": "Correcto. El verbo 'déjanos' solicita participación en una actividad concreta."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.puente.proposito_voz",
+            "difficulty": 1,
+            "prompt": "Relaciona cada mensaje con voz y propósito.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T07A",
+            "hint": "Ambos hablan de espacios escolares, pero no buscan lo mismo.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Mensaje A",
+                "rightId": "r1",
+                "right": "Dirección: informar una restricción temporal"
+              },
+              {
+                "leftId": "l2",
+                "left": "Mensaje B",
+                "rightId": "r2",
+                "right": "Consejo estudiantil: recoger propuestas"
+              }
+            ],
+            "feedbackCorrect": "Correcto: el tema compartido no borra las diferencias de voz y propósito.",
+            "feedbackIncorrect": "Identifica quién firma y qué verbo usa."
+          },
+          {
+            "id": "L0.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "La voz se demuestra",
+            "body": "No adivines al emisor por el tono. Busca firmas, nombres de instituciones, uso de 'nosotros' y responsabilidades que el mensaje declara.",
+            "examples": [
+              "Dirección anuncia mantenimiento",
+              "Brigada escolar solicita comunicar fugas"
+            ],
+            "memoryAid": "La respuesta debe señalar una marca del texto."
+          },
+          {
+            "id": "L0.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.puente.proposito_voz",
+            "difficulty": 1,
+            "prompt": "En 'Cuidado del agua', ¿qué busca el mensaje de la empresa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T07B",
+            "hint": "Observa que ofrece un dato temporal concreto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pedir propuestas para una campaña.",
+                "feedback": "Revisa la idea clave. Incluye motivo y horario para que la audiencia se prepare."
+              },
+              {
+                "id": "b",
+                "text": "Informar una interrupción programada del servicio.",
+                "feedback": "Correcto. Incluye motivo y horario para que la audiencia se prepare."
+              },
+              {
+                "id": "c",
+                "text": "Culpar a estudiantes por una fuga.",
+                "feedback": "Revisa la idea clave. Incluye motivo y horario para que la audiencia se prepare."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.puente.proposito_voz",
+            "difficulty": 2,
+            "prompt": "Un lector dice que ambos mensajes tienen exactamente el mismo propósito porque hablan de agua. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T07B",
+            "hint": "Compara los verbos 'se interrumpirá' y 'revisa'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo texto sobre agua entretiene.",
+                "feedback": "Revisa la idea clave. Tema y propósito son categorías distintas."
+              },
+              {
+                "id": "b",
+                "text": "La voz no influye en el propósito.",
+                "feedback": "Revisa la idea clave. Tema y propósito son categorías distintas."
+              },
+              {
+                "id": "c",
+                "text": "El tema coincide, pero uno informa un corte y el otro recomienda acciones de cuidado.",
+                "feedback": "Correcto. Tema y propósito son categorías distintas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.puente.proposito_voz",
+            "difficulty": 1,
+            "prompt": "¿A quién parece dirigirse la brigada escolar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T07B",
+            "hint": "Usa el nombre del emisor y la acción solicitada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Solo a técnicos de la empresa de agua.",
+                "feedback": "Revisa la idea clave. La instrucción sobre caños y personal responsable pertenece al entorno escolar."
+              },
+              {
+                "id": "b",
+                "text": "A la comunidad escolar que usa los caños.",
+                "feedback": "Correcto. La instrucción sobre caños y personal responsable pertenece al entorno escolar."
+              },
+              {
+                "id": "c",
+                "text": "A visitantes de un museo.",
+                "feedback": "Revisa la idea clave. La instrucción sobre caños y personal responsable pertenece al entorno escolar."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.puente.proposito_voz",
+            "difficulty": 1,
+            "prompt": "¿Qué evidencia ayuda más a reconocer un propósito?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca lo que espera que la audiencia sepa o haga.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El color que imaginas para el texto.",
+                "feedback": "Revisa la idea clave. Los verbos y datos del mensaje muestran su función comunicativa."
+              },
+              {
+                "id": "b",
+                "text": "Tu opinión sobre el emisor.",
+                "feedback": "Revisa la idea clave. Los verbos y datos del mensaje muestran su función comunicativa."
+              },
+              {
+                "id": "c",
+                "text": "La acción que el mensaje pide o el cambio que anuncia.",
+                "feedback": "Correcto. Los verbos y datos del mensaje muestran su función comunicativa."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reconoces quién habla y qué busca",
+            "body": "Comparaste mensajes por voz, audiencia y propósito. Esa mirada te ayudará a interpretar avisos, noticias, publicidad y publicaciones digitales.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "L0.08",
+        "globalId": "pe-sec1-lec-L0-08",
+        "sequence": 8,
+        "title": "Evaluación inicial",
+        "subtitle": "Una recomendación confiable necesita señales verificables",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "lec.puente.evaluacion_inicial",
+        "learningOutcome": "Emite un juicio inicial sobre confiabilidad usando evidencia del texto y su procedencia.",
+        "successEvidence": "Distingue señales favorables y alertas, y formula un veredicto prudente.",
+        "prerequisites": [
+          "Reconoce propósito, voz e información explícita"
+        ],
+        "misconceptions": [
+          "Creer algo porque se reenvió muchas veces",
+          "Confiar solo por un tono seguro",
+          "Decidir que todo es verdadero o falso sin grados"
+        ],
+        "screens": [
+          {
+            "id": "L0.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Antes de aceptar, busca señales",
+            "body": "Evaluar no es desconfiar de todo. Es revisar quién publica, qué evidencia ofrece, cuándo se actualizó y si puedes comprobar la afirmación en una fuente pertinente.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "L0.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "lec.puente.evaluacion_inicial",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la principal alerta del consejo reenviado?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "L0-T08A",
+            "hint": "Busca qué necesitarías para verificarla.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usa la palabra 'canción'.",
+                "feedback": "Revisa la idea clave. La afirmación amplia no ofrece procedencia ni evidencia que pueda comprobarse."
+              },
+              {
+                "id": "b",
+                "text": "No identifica autor, estudio, fecha ni fuente.",
+                "feedback": "Correcto. La afirmación amplia no ofrece procedencia ni evidencia que pueda comprobarse."
+              },
+              {
+                "id": "c",
+                "text": "Fue escrito en una sola oración.",
+                "feedback": "Revisa la idea clave. La afirmación amplia no ofrece procedencia ni evidencia que pueda comprobarse."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Señales que puedes revisar",
+            "body": "Observa autor o institución, fecha, fuente, evidencia y alcance de la afirmación. Ninguna señal aislada garantiza verdad, pero juntas ayudan a decidir el siguiente paso.",
+            "examples": [
+              "Autor identificable",
+              "Fecha vigente",
+              "Dato acompañado de fuente"
+            ],
+            "memoryAid": "Apariencia profesional o popularidad no reemplazan evidencia."
+          },
+          {
+            "id": "L0.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Veredicto prudente",
+            "body": "No siempre debes responder verdadero o falso de inmediato. Puedes decidir: suficientemente respaldado para esta acción, necesita verificación o no usar/compartir todavía.",
+            "examples": [
+              "Sin fuente y afirma 'para todos' → necesita verificación",
+              "Coincide con aviso institucional vigente → mejor respaldado"
+            ],
+            "memoryAid": "La fuerza del veredicto debe corresponder a la evidencia disponible."
+          },
+          {
+            "id": "L0.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "lec.puente.evaluacion_inicial",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el veredicto inicial más responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "L0-T08A",
+            "hint": "Elige una decisión proporcional a la evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Creerlo porque fue reenviado muchas veces.",
+                "feedback": "Revisa la idea clave. La falta de fuente exige pausa y verificación, no aceptación ni rechazo automático."
+              },
+              {
+                "id": "b",
+                "text": "Afirmar que es falso sin revisar nada.",
+                "feedback": "Revisa la idea clave. La falta de fuente exige pausa y verificación, no aceptación ni rechazo automático."
+              },
+              {
+                "id": "c",
+                "text": "No aplicarlo como regla general ni reenviarlo hasta verificar evidencia confiable.",
+                "feedback": "Correcto. La falta de fuente exige pausa y verificación, no aceptación ni rechazo automático."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "lec.puente.evaluacion_inicial",
+            "difficulty": 1,
+            "prompt": "Relaciona cada señal con la pregunta que ayuda a responder.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Piensa qué duda resuelve cada dato.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Autor o institución",
+                "rightId": "r1",
+                "right": "¿Quién responde por el contenido?"
+              },
+              {
+                "leftId": "l2",
+                "left": "Fecha",
+                "rightId": "r2",
+                "right": "¿Sigue vigente?"
+              },
+              {
+                "leftId": "l3",
+                "left": "Fuente o estudio",
+                "rightId": "r3",
+                "right": "¿Qué evidencia sostiene la afirmación?"
+              }
+            ],
+            "feedbackCorrect": "Bien: cada señal cumple una función distinta.",
+            "feedbackIncorrect": "No confundas identidad, vigencia y evidencia."
+          },
+          {
+            "id": "L0.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Verificar es volver a la fuente",
+            "body": "Busca la organización responsable o el documento original. Comprueba fecha, condiciones y si la publicación secundaria cambió algo importante.",
+            "examples": [
+              "Publicación sobre museo → horario institucional",
+              "Consejo de salud → fuente sanitaria competente"
+            ],
+            "memoryAid": "Otra cuenta que repite lo mismo no siempre es una fuente independiente."
+          },
+          {
+            "id": "L0.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "lec.puente.evaluacion_inicial",
+            "difficulty": 1,
+            "prompt": "¿Qué dato de la fuente institucional limita la frase 'abrirá gratis'?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T08B",
+            "hint": "Busca cuándo, durante cuánto tiempo y bajo qué límite.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El museo abre gratis todos los días.",
+                "feedback": "Revisa la idea clave. La fuente agrega condiciones necesarias para actuar correctamente."
+              },
+              {
+                "id": "b",
+                "text": "La gratuidad aplica el primer domingo, de 10:00 a. m. a 4:00 p. m., con capacidad limitada.",
+                "feedback": "Correcto. La fuente agrega condiciones necesarias para actuar correctamente."
+              },
+              {
+                "id": "c",
+                "text": "No existe ningún horario.",
+                "feedback": "Revisa la idea clave. La fuente agrega condiciones necesarias para actuar correctamente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "lec.puente.evaluacion_inicial",
+            "difficulty": 2,
+            "prompt": "Alguien confía en el mensaje musical porque 'muchas personas lo compartieron'. ¿Qué confunde?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "L0-T08A",
+            "hint": "Pregunta si compartir equivale a investigar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Fecha con autoría.",
+                "feedback": "Revisa la idea clave. El número de reenvíos no demuestra una relación causal ni un efecto universal."
+              },
+              {
+                "id": "b",
+                "text": "Horario con capacidad.",
+                "feedback": "Revisa la idea clave. El número de reenvíos no demuestra una relación causal ni un efecto universal."
+              },
+              {
+                "id": "c",
+                "text": "Popularidad con evidencia de que la afirmación funciona para todas las personas.",
+                "feedback": "Correcto. El número de reenvíos no demuestra una relación causal ni un efecto universal."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "lec.puente.evaluacion_inicial",
+            "difficulty": 1,
+            "prompt": "Antes de visitar el museo, ¿qué fuente conviene usar para decidir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "L0-T08B",
+            "hint": "Elige la fuente que puede responder por la información.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Un comentario sin fecha.",
+                "feedback": "Revisa la idea clave. La institución responsable y la fecha ofrecen una base más pertinente para el horario."
+              },
+              {
+                "id": "b",
+                "text": "La fuente institucional actualizada, revisando sus condiciones.",
+                "feedback": "Correcto. La institución responsable y la fecha ofrecen una base más pertinente para el horario."
+              },
+              {
+                "id": "c",
+                "text": "Una imagen recortada sin procedencia.",
+                "feedback": "Revisa la idea clave. La institución responsable y la fecha ofrecen una base más pertinente para el horario."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "L0.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "lec.puente.evaluacion_inicial",
+            "difficulty": 1,
+            "prompt": "¿Qué frase expresa una evaluación responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Evita conclusiones absolutas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si se ve bien diseñada, siempre es verdadera.",
+                "feedback": "Revisa la idea clave. El juicio reconoce la evidencia disponible y también sus límites."
+              },
+              {
+                "id": "b",
+                "text": "Nada en internet puede comprobarse.",
+                "feedback": "Revisa la idea clave. El juicio reconoce la evidencia disponible y también sus límites."
+              },
+              {
+                "id": "c",
+                "text": "La información parece respaldada para esta visita, pero debo respetar horario y capacidad.",
+                "feedback": "Correcto. El juicio reconoce la evidencia disponible y también sus límites."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "L0.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya haces una pausa crítica",
+            "body": "Revisaste procedencia, fecha, evidencia y condiciones antes de actuar. No necesitas saberlo todo para tomar una decisión mejor: necesitas reconocer qué está respaldado y qué falta comprobar.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
