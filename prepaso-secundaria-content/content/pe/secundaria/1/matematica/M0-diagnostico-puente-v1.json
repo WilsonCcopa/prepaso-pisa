@@ -1,0 +1,2396 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.3",
+  "locale": "es-PE",
+  "unit": {
+    "id": "M0",
+    "globalId": "pe-sec1-mat-M0",
+    "sequence": 0,
+    "grade": "sec1",
+    "subject": "matematica",
+    "title": "Diagnóstico y puente desde primaria",
+    "shortTitle": "Puente de Matemática",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "MINEDU define competencias, capacidades, estándares y desempeños; M0 es una secuencia diagnóstica y de recuperación creada por Prepaso, no una unidad oficial con nombre obligatorio.",
+    "unitOutcome": "Activa prerrequisitos de número, cálculo, proporcionalidad, patrones, medida, geometría, datos y azar para iniciar primer grado con una base visible y recuperable.",
+    "finalEvidence": "Ruta diagnóstica de ocho evidencias breves con retroalimentación; orienta apoyos sin etiquetar ni excluir al estudiante.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "cycle": "VI",
+      "competencies": [
+        "Resuelve problemas de cantidad",
+        "Resuelve problemas de regularidad, equivalencia y cambio",
+        "Resuelve problemas de forma, movimiento y localización",
+        "Resuelve problemas de gestión de datos e incertidumbre"
+      ],
+      "operationalAlignment": "Recupera aprendizajes previos necesarios para modelar, comunicar, usar estrategias y argumentar en las cuatro competencias matemáticas."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Base matemática lista"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Currículo Nacional de la Educación Básica",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/4551"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "M0.01",
+        "globalId": "pe-sec1-mat-M0-01",
+        "sequence": 1,
+        "title": "Sentido numérico",
+        "subtitle": "Diferentes escrituras pueden representar la misma cantidad",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.puente.sentido_numerico",
+        "learningOutcome": "Compara, ordena y representa números naturales, fracciones y decimales familiares.",
+        "successEvidence": "Ordena cantidades de tres formas distintas y explica qué referencia utilizó.",
+        "prerequisites": [],
+        "misconceptions": [
+          "Creer que más cifras siempre significan un número mayor",
+          "Comparar numerador y denominador por separado",
+          "Pensar que una fracción y un decimal nunca pueden valer lo mismo"
+        ],
+        "screens": [
+          {
+            "id": "M0.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Todo número cuenta una cantidad",
+            "body": "Empezaremos con una idea que ya usas al comprar, medir o repartir: dos números se comparan por la cantidad que representan, no por cómo se ven escritos. Avanzarás desde números naturales hasta fracciones y decimales conocidos.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M0.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.puente.sentido_numerico",
+            "difficulty": 1,
+            "prompt": "¿Cuál cantidad es mayor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Compara el valor de cada posición decimal.",
+            "options": [
+              {
+                "id": "a",
+                "text": "0,4",
+                "feedback": "Revisa la idea clave. Siete décimos son más que cuatro décimos y que siete centésimos."
+              },
+              {
+                "id": "b",
+                "text": "0,7",
+                "feedback": "Correcto. Siete décimos son más que cuatro décimos y que siete centésimos."
+              },
+              {
+                "id": "c",
+                "text": "0,07",
+                "feedback": "Revisa la idea clave. Siete décimos son más que cuatro décimos y que siete centésimos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Una referencia hace visible la cantidad",
+            "body": "Para comparar, imagina una recta que empieza en 0 y aumenta hacia la derecha. El número ubicado más a la derecha es mayor. Esta misma regla funciona con naturales, fracciones y decimales.",
+            "examples": [
+              "5 está a la derecha de 3",
+              "0,8 está a la derecha de 0,5",
+              "3/4 está entre 1/2 y 1"
+            ],
+            "memoryAid": "Pregunta siempre: ¿qué cantidad representa y dónde quedaría entre 0 y 1?"
+          },
+          {
+            "id": "M0.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Cambia la escritura, no la cantidad",
+            "body": "Una mitad puede escribirse como 1/2 o 0,5. Una forma práctica de comparar fracciones familiares es convertirlas mentalmente a partes de una unidad o a decimales conocidos.",
+            "examples": [
+              "1/2 = 0,5",
+              "1/4 = 0,25",
+              "3/4 = 0,75"
+            ],
+            "memoryAid": "Si dos escrituras ocupan el mismo punto, representan la misma cantidad."
+          },
+          {
+            "id": "M0.01-S05",
+            "type": "number_line",
+            "role": "guided_practice",
+            "skillId": "mat.puente.sentido_numerico",
+            "difficulty": 1,
+            "prompt": "Ubica 0,5 en una recta de 0 a 1.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Busca la mitad entre 0 y 1.",
+            "range": {
+              "min": 0,
+              "max": 1,
+              "step": 0.25
+            },
+            "correctValue": 0.5,
+            "feedbackCorrect": "0,5 está exactamente a mitad del recorrido.",
+            "feedbackIncorrect": "Divide el tramo de 0 a 1 en dos partes iguales."
+          },
+          {
+            "id": "M0.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.puente.sentido_numerico",
+            "difficulty": 1,
+            "prompt": "Relaciona cada escritura con una cantidad equivalente.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Piensa en mitades y cuartos de una unidad.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "1/2",
+                "rightId": "r1",
+                "right": "0,5"
+              },
+              {
+                "leftId": "l2",
+                "left": "1/4",
+                "rightId": "r2",
+                "right": "0,25"
+              },
+              {
+                "leftId": "l3",
+                "left": "3/4",
+                "rightId": "r3",
+                "right": "0,75"
+              }
+            ],
+            "feedbackCorrect": "Correcto: reconociste tres equivalencias frecuentes.",
+            "feedbackIncorrect": "Representa cada fracción como parte de una unidad antes de emparejar."
+          },
+          {
+            "id": "M0.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "El error que parece lógico",
+            "body": "0,35 tiene más cifras que 0,5, pero eso no lo hace mayor. Escribe 0,5 como 0,50: ahora puedes comparar 35 centésimos con 50 centésimos.",
+            "examples": [
+              "0,35 < 0,50",
+              "0,7 = 0,70",
+              "2/4 = 1/2"
+            ],
+            "memoryAid": "Agregar ceros a la derecha de un decimal no cambia su valor."
+          },
+          {
+            "id": "M0.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.puente.sentido_numerico",
+            "difficulty": 1,
+            "prompt": "Para una bebida se usó 3/4 de litro. Otra botella contiene 0,6 litros. ¿Cuál cantidad es mayor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Convierte 3/4 en un decimal conocido.",
+            "options": [
+              {
+                "id": "a",
+                "text": "0,6 litros",
+                "feedback": "Revisa la idea clave. 3/4 equivale a 0,75, y 0,75 es mayor que 0,6."
+              },
+              {
+                "id": "b",
+                "text": "Son iguales",
+                "feedback": "Revisa la idea clave. 3/4 equivale a 0,75, y 0,75 es mayor que 0,6."
+              },
+              {
+                "id": "c",
+                "text": "3/4 de litro",
+                "feedback": "Correcto. 3/4 equivale a 0,75, y 0,75 es mayor que 0,6."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.puente.sentido_numerico",
+            "difficulty": 2,
+            "prompt": "Diego afirma: “0,35 es mayor que 0,5 porque 35 es mayor que 5”. ¿Cuál corrección es mejor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Escribe ambos números con la misma cantidad de cifras decimales.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tiene razón porque 35 siempre es mayor que 5.",
+                "feedback": "Revisa la idea clave. Los decimales se comparan por valor posicional, no como números enteros sin coma."
+              },
+              {
+                "id": "b",
+                "text": "Debe comparar 0,35 con 0,50; entonces 0,35 es menor.",
+                "feedback": "Correcto. Los decimales se comparan por valor posicional, no como números enteros sin coma."
+              },
+              {
+                "id": "c",
+                "text": "Debe borrar la coma y sumar ambos números.",
+                "feedback": "Revisa la idea clave. Los decimales se comparan por valor posicional, no como números enteros sin coma."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.puente.sentido_numerico",
+            "difficulty": 2,
+            "prompt": "Tres precios son S/2,50, S/2,05 y S/2,75. ¿Cuál es el orden de menor a mayor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Compara primero la parte entera y después la decimal.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/2,05; S/2,50; S/2,75",
+                "feedback": "Correcto. Todos tienen 2 soles; luego se comparan los centésimos: 5, 50 y 75."
+              },
+              {
+                "id": "b",
+                "text": "S/2,50; S/2,05; S/2,75",
+                "feedback": "Revisa la idea clave. Todos tienen 2 soles; luego se comparan los centésimos: 5, 50 y 75."
+              },
+              {
+                "id": "c",
+                "text": "S/2,75; S/2,50; S/2,05",
+                "feedback": "Revisa la idea clave. Todos tienen 2 soles; luego se comparan los centésimos: 5, 50 y 75."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M0.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.puente.sentido_numerico",
+            "difficulty": 1,
+            "prompt": "¿Qué afirmación es verdadera?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Representa cada opción entre 0 y 1.",
+            "options": [
+              {
+                "id": "a",
+                "text": "0,8 es menor que 0,3.",
+                "feedback": "Revisa la idea clave. Una mitad y cinco décimos representan la misma cantidad."
+              },
+              {
+                "id": "b",
+                "text": "1/4 es mayor que 3/4.",
+                "feedback": "Revisa la idea clave. Una mitad y cinco décimos representan la misma cantidad."
+              },
+              {
+                "id": "c",
+                "text": "1/2 y 0,5 ocupan el mismo punto en la recta.",
+                "feedback": "Correcto. Una mitad y cinco décimos representan la misma cantidad."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya comparas cantidades por su valor",
+            "body": "Comenzaste desde una idea esencial y conectaste naturales, fracciones y decimales. Si una escritura cambia, ahora sabes buscar la cantidad que hay detrás.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M0.02",
+        "globalId": "pe-sec1-mat-M0-02",
+        "sequence": 2,
+        "title": "Cálculo esencial",
+        "subtitle": "Primero comprende y estima; después calcula",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.puente.calculo_esencial",
+        "learningOutcome": "Elige la operación adecuada y estima el resultado antes de calcular.",
+        "successEvidence": "Resuelve una compra sencilla, explica la operación y detecta un resultado imposible.",
+        "prerequisites": [
+          "Lee números naturales y decimales sencillos"
+        ],
+        "misconceptions": [
+          "Elegir una operación solo por una palabra",
+          "Calcular sin anticipar el tamaño del resultado",
+          "Aceptar una respuesta imposible porque salió de una cuenta"
+        ],
+        "screens": [
+          {
+            "id": "M0.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Calcular empieza antes de la cuenta",
+            "body": "No necesitas correr. Primero identifica qué cambia, luego estima y finalmente calcula. Esa pausa breve te permite escoger la operación correcta y detectar errores.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M0.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.puente.calculo_esencial",
+            "difficulty": 1,
+            "prompt": "Una libreta cuesta S/7 y un lapicero S/3. ¿Qué operación halla el total?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Busca si las cantidades se juntan o se separan.",
+            "options": [
+              {
+                "id": "a",
+                "text": "7 - 3",
+                "feedback": "Revisa la idea clave. Se combinan dos precios; por eso se suma."
+              },
+              {
+                "id": "b",
+                "text": "7 + 3",
+                "feedback": "Correcto. Se combinan dos precios; por eso se suma."
+              },
+              {
+                "id": "c",
+                "text": "7 × 3",
+                "feedback": "Revisa la idea clave. Se combinan dos precios; por eso se suma."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Cuatro preguntas antes de operar",
+            "body": "Lee la situación y pregúntate: ¿qué conozco?, ¿qué debo hallar?, ¿la cantidad aumenta, disminuye, se repite o se reparte?, ¿qué resultado aproximado espero?",
+            "examples": [
+              "Juntar suele requerir suma",
+              "Hallar lo que queda suele requerir resta",
+              "Repetir grupos iguales puede requerir multiplicación"
+            ],
+            "memoryAid": "La operación debe contar la historia de la situación."
+          },
+          {
+            "id": "M0.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Estimar es una red de seguridad",
+            "body": "Una estimación no reemplaza el cálculo exacto: lo protege. Redondea a números fáciles y decide un rango razonable antes de hacer la cuenta.",
+            "examples": [
+              "S/19 + S/31 está cerca de S/50",
+              "4 paquetes de 6 contienen cerca de 24 unidades",
+              "S/100 menos S/38 debe quedar entre S/60 y S/70"
+            ],
+            "memoryAid": "Si el resultado exacto queda muy lejos de tu estimación, revisa."
+          },
+          {
+            "id": "M0.02-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.puente.calculo_esencial",
+            "difficulty": 1,
+            "prompt": "Estima 49 + 32 redondeando a decenas.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Usa 50 y 30.",
+            "answer": {
+              "kind": "number",
+              "value": 80
+            },
+            "suffix": "aprox.",
+            "feedbackCorrect": "49 está cerca de 50 y 32 cerca de 30: 50 + 30 = 80.",
+            "feedbackIncorrect": "Redondea cada sumando a la decena más cercana antes de sumar."
+          },
+          {
+            "id": "M0.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.puente.calculo_esencial",
+            "difficulty": 1,
+            "prompt": "Relaciona la situación con la operación que la representa.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Juntar, quitar, repetir y repartir describen relaciones distintas.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Juntar 12 y 8 tarjetas",
+                "rightId": "r1",
+                "right": "12 + 8"
+              },
+              {
+                "leftId": "l2",
+                "left": "Quitar 5 de 17 frutas",
+                "rightId": "r2",
+                "right": "17 - 5"
+              },
+              {
+                "leftId": "l3",
+                "left": "Formar 4 grupos de 6",
+                "rightId": "r3",
+                "right": "4 × 6"
+              },
+              {
+                "leftId": "l4",
+                "left": "Repartir 20 entre 5",
+                "rightId": "r4",
+                "right": "20 ÷ 5"
+              }
+            ],
+            "feedbackCorrect": "Bien: elegiste la operación por la relación entre cantidades.",
+            "feedbackIncorrect": "Cuenta qué ocurre con las cantidades en cada situación."
+          },
+          {
+            "id": "M0.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Una palabra no manda sola",
+            "body": "La palabra 'más' no siempre indica suma. En 'Ana tiene 4 más que Luis', si conoces lo de Ana y buscas lo de Luis, quizá debas restar. Comprende la relación completa.",
+            "examples": [
+              "Total: combinar",
+              "Diferencia: comparar",
+              "Reparto: formar partes iguales"
+            ],
+            "memoryAid": "Dibuja cantidades o explica la situación con tus palabras antes de elegir."
+          },
+          {
+            "id": "M0.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.puente.calculo_esencial",
+            "difficulty": 1,
+            "prompt": "Tienes S/50 y pagas S/18. ¿Cuánto debe quedar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Resta el gasto del dinero inicial.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/68",
+                "feedback": "Revisa la idea clave. La cantidad disminuye: 50 - 18 = 32."
+              },
+              {
+                "id": "b",
+                "text": "S/28",
+                "feedback": "Revisa la idea clave. La cantidad disminuye: 50 - 18 = 32."
+              },
+              {
+                "id": "c",
+                "text": "S/32",
+                "feedback": "Correcto. La cantidad disminuye: 50 - 18 = 32."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.puente.calculo_esencial",
+            "difficulty": 2,
+            "prompt": "Para 6 cajas con 4 botellas cada una, alguien obtuvo 10 botellas. ¿Cómo detectas el error antes de repetir la cuenta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Imagina las seis cajas y cuenta cuatro por cada una.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El total debe ser mayor que 6 y que 4; 10 no representa seis grupos de cuatro.",
+                "feedback": "Correcto. Seis grupos de cuatro producen 24; pensar en grupos permite descartar 10."
+              },
+              {
+                "id": "b",
+                "text": "Todo resultado menor que 20 es imposible.",
+                "feedback": "Revisa la idea clave. Seis grupos de cuatro producen 24; pensar en grupos permite descartar 10."
+              },
+              {
+                "id": "c",
+                "text": "La multiplicación siempre termina en cero.",
+                "feedback": "Revisa la idea clave. Seis grupos de cuatro producen 24; pensar en grupos permite descartar 10."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M0.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.puente.calculo_esencial",
+            "difficulty": 1,
+            "prompt": "Un bus tiene 36 asientos y 29 están ocupados. ¿Cuántos quedan libres?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "El resultado debe ser menor que 36.",
+            "options": [
+              {
+                "id": "a",
+                "text": "65",
+                "feedback": "Revisa la idea clave. Los asientos libres son la diferencia: 36 - 29 = 7."
+              },
+              {
+                "id": "b",
+                "text": "7",
+                "feedback": "Correcto. Los asientos libres son la diferencia: 36 - 29 = 7."
+              },
+              {
+                "id": "c",
+                "text": "5",
+                "feedback": "Revisa la idea clave. Los asientos libres son la diferencia: 36 - 29 = 7."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.puente.calculo_esencial",
+            "difficulty": 1,
+            "prompt": "Antes de calcular 198 + 304, ¿cuál es la mejor estimación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Redondea a centenas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cerca de 50",
+                "feedback": "Revisa la idea clave. 198 está cerca de 200 y 304 cerca de 300; juntos están cerca de 500."
+              },
+              {
+                "id": "b",
+                "text": "Cerca de 5 000",
+                "feedback": "Revisa la idea clave. 198 está cerca de 200 y 304 cerca de 300; juntos están cerca de 500."
+              },
+              {
+                "id": "c",
+                "text": "Cerca de 500",
+                "feedback": "Correcto. 198 está cerca de 200 y 304 cerca de 300; juntos están cerca de 500."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Tus cálculos ahora tienen control",
+            "body": "Elegiste operaciones por su sentido y usaste la estimación para revisar resultados. Esa combinación vale más que memorizar cuentas aisladas.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M0.03",
+        "globalId": "pe-sec1-mat-M0-03",
+        "sequence": 3,
+        "title": "Proporciones iniciales",
+        "subtitle": "Cuando una cantidad cambia, la otra puede cambiar al mismo ritmo",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.puente.proporcion_inicial",
+        "learningOutcome": "Reconoce y completa relaciones multiplicativas sencillas en contextos cotidianos.",
+        "successEvidence": "Ajusta una receta y explica el factor usado sin confundir suma con multiplicación.",
+        "prerequisites": [
+          "Multiplica números naturales pequeños"
+        ],
+        "misconceptions": [
+          "Sumar la misma cantidad cuando corresponde multiplicar",
+          "Cambiar una cantidad y dejar la otra igual",
+          "Aplicar una regla de tres sin comprender la relación"
+        ],
+        "screens": [
+          {
+            "id": "M0.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Crecer al mismo ritmo",
+            "body": "Si una receta para 2 personas se prepara para 4, todas sus cantidades deben duplicarse. Hoy reconocerás ese ritmo común sin fórmulas largas.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M0.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.puente.proporcion_inicial",
+            "difficulty": 1,
+            "prompt": "Una receta usa 2 huevos para 4 personas. ¿Cuántos huevos se necesitan para 8 personas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Encuentra el factor que lleva de 4 a 8.",
+            "options": [
+              {
+                "id": "a",
+                "text": "6 huevos",
+                "feedback": "Revisa la idea clave. De 4 a 8 personas se duplica; 2 huevos también se duplican."
+              },
+              {
+                "id": "b",
+                "text": "4 huevos",
+                "feedback": "Correcto. De 4 a 8 personas se duplica; 2 huevos también se duplican."
+              },
+              {
+                "id": "c",
+                "text": "2 huevos",
+                "feedback": "Revisa la idea clave. De 4 a 8 personas se duplica; 2 huevos también se duplican."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Busca cuántas veces cambia",
+            "body": "Compara la nueva cantidad con la original. Si las personas pasan de 2 a 6, ahora hay 3 veces más personas. En una relación proporcional, cada ingrediente también se multiplica por 3.",
+            "examples": [
+              "2 a 4: factor 2",
+              "3 a 9: factor 3",
+              "5 a 10: factor 2"
+            ],
+            "memoryAid": "El mismo factor se aplica a todas las cantidades relacionadas."
+          },
+          {
+            "id": "M0.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Construye una tabla pequeña",
+            "body": "Una tabla permite ver pares que van juntos. Empieza con el par conocido y avanza por duplicación, triplicación o por una unidad.",
+            "examples": [
+              "2 personas → 1 taza",
+              "4 personas → 2 tazas",
+              "6 personas → 3 tazas"
+            ],
+            "memoryAid": "Comprueba dividiendo: tazas ÷ personas mantiene el mismo valor."
+          },
+          {
+            "id": "M0.03-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.puente.proporcion_inicial",
+            "difficulty": 1,
+            "prompt": "Relaciona cada cambio con su factor.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "No busques cuánto se sumó; busca cuántas veces creció.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "De 2 a 6",
+                "rightId": "r1",
+                "right": "Multiplicar por 3"
+              },
+              {
+                "leftId": "l2",
+                "left": "De 4 a 8",
+                "rightId": "r2",
+                "right": "Multiplicar por 2"
+              },
+              {
+                "leftId": "l3",
+                "left": "De 5 a 20",
+                "rightId": "r3",
+                "right": "Multiplicar por 4"
+              }
+            ],
+            "feedbackCorrect": "Correcto: comparaste por multiplicación.",
+            "feedbackIncorrect": "Pregunta cuántas veces cabe el valor inicial en el final."
+          },
+          {
+            "id": "M0.03-S06",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.puente.proporcion_inicial",
+            "difficulty": 1,
+            "prompt": "Si 3 botellas llenan 6 vasos, ¿cuántos vasos llenan 6 botellas al mismo ritmo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Multiplica 6 vasos por 2.",
+            "answer": {
+              "kind": "number",
+              "value": 12
+            },
+            "suffix": "vasos",
+            "feedbackCorrect": "Se duplicaron las botellas, así que también se duplican los 6 vasos: 12.",
+            "feedbackIncorrect": "De 3 a 6 el factor es 2. Aplica el mismo factor a los vasos."
+          },
+          {
+            "id": "M0.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "No toda relación es proporcional",
+            "body": "Si hay un costo fijo de entrada y luego un costo por juego, duplicar los juegos no duplica necesariamente el total. Primero verifica si ambos valores parten de cero y mantienen el mismo factor.",
+            "examples": [
+              "3 cuadernos cuestan triple que 1, si todos valen igual",
+              "La edad no crece proporcionalmente entre hermanos"
+            ],
+            "memoryAid": "No uses proporción solo porque aparecen dos cantidades."
+          },
+          {
+            "id": "M0.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.puente.proporcion_inicial",
+            "difficulty": 1,
+            "prompt": "Para 3 personas se usan 150 g de avena. Para 9 personas, ¿cuánto se usa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Calcula el factor entre 3 y 9.",
+            "options": [
+              {
+                "id": "a",
+                "text": "156 g",
+                "feedback": "Revisa la idea clave. Nueve es tres veces 3; 150 × 3 = 450."
+              },
+              {
+                "id": "b",
+                "text": "300 g",
+                "feedback": "Revisa la idea clave. Nueve es tres veces 3; 150 × 3 = 450."
+              },
+              {
+                "id": "c",
+                "text": "450 g",
+                "feedback": "Correcto. Nueve es tres veces 3; 150 × 3 = 450."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.puente.proporcion_inicial",
+            "difficulty": 2,
+            "prompt": "Una estudiante pasa de 2 a 5 personas y suma 3 gramos a cada ingrediente. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Compara 5 ÷ 2.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe multiplicar cada cantidad por 2,5, no sumar 3 unidades.",
+                "feedback": "Correcto. En una receta proporcional se conserva la cantidad por persona; por eso se usa un mismo factor."
+              },
+              {
+                "id": "b",
+                "text": "Debe dejar todos los ingredientes iguales.",
+                "feedback": "Revisa la idea clave. En una receta proporcional se conserva la cantidad por persona; por eso se usa un mismo factor."
+              },
+              {
+                "id": "c",
+                "text": "Debe multiplicar solo el ingrediente más grande.",
+                "feedback": "Revisa la idea clave. En una receta proporcional se conserva la cantidad por persona; por eso se usa un mismo factor."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M0.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.puente.proporcion_inicial",
+            "difficulty": 1,
+            "prompt": "Dos entradas cuestan S/10 en total. Si cada entrada mantiene el precio, ¿cuánto cuestan 6?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca cuántos grupos de 2 hay en 6.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/14",
+                "feedback": "Revisa la idea clave. Seis entradas son tres veces dos; el costo también se triplica: 10 × 3."
+              },
+              {
+                "id": "b",
+                "text": "S/30",
+                "feedback": "Correcto. Seis entradas son tres veces dos; el costo también se triplica: 10 × 3."
+              },
+              {
+                "id": "c",
+                "text": "S/60",
+                "feedback": "Revisa la idea clave. Seis entradas son tres veces dos; el costo también se triplica: 10 × 3."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.puente.proporcion_inicial",
+            "difficulty": 1,
+            "prompt": "¿Qué tabla muestra una relación proporcional?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Divide costo entre cantidad en cada fila.",
+            "options": [
+              {
+                "id": "a",
+                "text": "1 cuaderno → S/4; 2 → S/6; 3 → S/8",
+                "feedback": "Revisa la idea clave. El precio por cuaderno se mantiene en S/4 en todos los pares."
+              },
+              {
+                "id": "b",
+                "text": "1 cuaderno → S/4; 2 → S/9; 3 → S/12",
+                "feedback": "Revisa la idea clave. El precio por cuaderno se mantiene en S/4 en todos los pares."
+              },
+              {
+                "id": "c",
+                "text": "1 cuaderno → S/4; 2 → S/8; 3 → S/12",
+                "feedback": "Correcto. El precio por cuaderno se mantiene en S/4 en todos los pares."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reconoces un ritmo común",
+            "body": "Ajustaste cantidades con un mismo factor y comprobaste cuándo una relación sí es proporcional. Ese razonamiento será la base de porcentajes, escalas y tasas.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M0.04",
+        "globalId": "pe-sec1-mat-M0-04",
+        "sequence": 4,
+        "title": "Patrones y símbolos",
+        "subtitle": "Una regla explica todos los pasos, no solo el siguiente",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.puente.patrones_simbolos",
+        "learningOutcome": "Continúa patrones sencillos y comprende un símbolo como valor desconocido.",
+        "successEvidence": "Completa una secuencia, describe su regla y halla un valor faltante.",
+        "prerequisites": [
+          "Suma y resta números naturales pequeños"
+        ],
+        "misconceptions": [
+          "Adivinar por los dos últimos términos",
+          "Confundir el número de posición con el valor",
+          "Pensar que un símbolo siempre vale lo mismo en cualquier problema"
+        ],
+        "screens": [
+          {
+            "id": "M0.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Descubrir qué se repite",
+            "body": "Un patrón no es una adivinanza: es una regularidad que puedes comprobar. Empezaremos observando cambios simples y luego usaremos un símbolo para una cantidad que todavía no conocemos.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M0.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.puente.patrones_simbolos",
+            "difficulty": 1,
+            "prompt": "Completa: 4, 7, 10, __",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Compara 7 - 4 y 10 - 7.",
+            "options": [
+              {
+                "id": "a",
+                "text": "12",
+                "feedback": "Revisa la idea clave. Cada término aumenta en 3: 10 + 3 = 13."
+              },
+              {
+                "id": "b",
+                "text": "13",
+                "feedback": "Correcto. Cada término aumenta en 3: 10 + 3 = 13."
+              },
+              {
+                "id": "c",
+                "text": "14",
+                "feedback": "Revisa la idea clave. Cada término aumenta en 3: 10 + 3 = 13."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Mira el cambio entre pasos",
+            "body": "Compara cada término con el siguiente. Si el cambio se repite, puedes expresarlo con palabras: sumar 3, quitar 2 o alternar dos movimientos.",
+            "examples": [
+              "2, 5, 8, 11: sumar 3",
+              "10, 8, 6, 4: restar 2",
+              "círculo, cuadrado, círculo, cuadrado: alternar"
+            ],
+            "memoryAid": "Comprueba la regla en todos los saltos visibles."
+          },
+          {
+            "id": "M0.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Un símbolo guarda un lugar",
+            "body": "En □ + 4 = 9, el cuadro representa el número que hace verdadera la igualdad. Puedes hallarlo preguntando qué cantidad falta para llegar de 4 a 9.",
+            "examples": [
+              "□ + 4 = 9, entonces □ = 5",
+              "3 × △ = 12, entonces △ = 4"
+            ],
+            "memoryAid": "El símbolo no es una decoración: representa una cantidad desconocida."
+          },
+          {
+            "id": "M0.04-S05",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mat.puente.patrones_simbolos",
+            "difficulty": 1,
+            "prompt": "Ordena los términos para formar un patrón que aumenta de 2 en 2.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Empieza por el menor.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "3"
+              },
+              {
+                "id": "i2",
+                "text": "5"
+              },
+              {
+                "id": "i3",
+                "text": "7"
+              },
+              {
+                "id": "i4",
+                "text": "9"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3",
+              "i4"
+            ],
+            "feedbackCorrect": "Correcto: cada salto aumenta exactamente 2.",
+            "feedbackIncorrect": "Busca una secuencia en la que la diferencia entre vecinos sea 2."
+          },
+          {
+            "id": "M0.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.puente.patrones_simbolos",
+            "difficulty": 1,
+            "prompt": "Relaciona cada secuencia con su regla.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "No basta con que funcione una sola vez.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "2, 4, 6, 8",
+                "rightId": "r1",
+                "right": "Sumar 2"
+              },
+              {
+                "leftId": "l2",
+                "left": "9, 6, 3, 0",
+                "rightId": "r2",
+                "right": "Restar 3"
+              },
+              {
+                "leftId": "l3",
+                "left": "1, 2, 1, 2",
+                "rightId": "r3",
+                "right": "Alternar 1 y 2"
+              }
+            ],
+            "feedbackCorrect": "Bien: cada regla funciona en todos los pasos.",
+            "feedbackIncorrect": "Prueba la regla entre cada par de términos."
+          },
+          {
+            "id": "M0.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "La regla debe explicar más de un caso",
+            "body": "Decir 'el siguiente es 14' no describe la regla. Una buena explicación permite que otra persona continúe la secuencia y compruebe términos lejanos.",
+            "examples": [
+              "Regla útil: empezar en 2 y sumar 3",
+              "Respuesta incompleta: después viene 14"
+            ],
+            "memoryAid": "Nombra el inicio y el cambio que se repite."
+          },
+          {
+            "id": "M0.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.puente.patrones_simbolos",
+            "difficulty": 1,
+            "prompt": "En □ + 6 = 10, ¿qué valor tiene □?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Pregunta cuánto falta desde 6 hasta 10.",
+            "options": [
+              {
+                "id": "a",
+                "text": "16",
+                "feedback": "Revisa la idea clave. Cuatro más seis es diez; por eso el valor desconocido es 4."
+              },
+              {
+                "id": "b",
+                "text": "6",
+                "feedback": "Revisa la idea clave. Cuatro más seis es diez; por eso el valor desconocido es 4."
+              },
+              {
+                "id": "c",
+                "text": "4",
+                "feedback": "Correcto. Cuatro más seis es diez; por eso el valor desconocido es 4."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.puente.patrones_simbolos",
+            "difficulty": 2,
+            "prompt": "Para 5, 10, 15, 20, Ana dice que la regla es 'el siguiente es 25'. ¿Qué explicación es mejor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Busca una regla que funcione en cada salto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Memorizar que termina en 25.",
+                "feedback": "Revisa la idea clave. La regla 'sumar 5' explica todos los términos y permite continuar."
+              },
+              {
+                "id": "b",
+                "text": "Empezar en 5 y sumar 5 cada vez.",
+                "feedback": "Correcto. La regla 'sumar 5' explica todos los términos y permite continuar."
+              },
+              {
+                "id": "c",
+                "text": "Sumar un número distinto en cada paso.",
+                "feedback": "Revisa la idea clave. La regla 'sumar 5' explica todos los términos y permite continuar."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.puente.patrones_simbolos",
+            "difficulty": 2,
+            "prompt": "Una meta de ahorro aumenta así: S/3, S/6, S/9, S/12. ¿Cuál es la quinta cantidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Identifica la diferencia común.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/15",
+                "feedback": "Correcto. La regla es sumar S/3; después de S/12 viene S/15."
+              },
+              {
+                "id": "b",
+                "text": "S/14",
+                "feedback": "Revisa la idea clave. La regla es sumar S/3; después de S/12 viene S/15."
+              },
+              {
+                "id": "c",
+                "text": "S/18",
+                "feedback": "Revisa la idea clave. La regla es sumar S/3; después de S/12 viene S/15."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M0.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.puente.patrones_simbolos",
+            "difficulty": 1,
+            "prompt": "¿Qué valor hace verdadera 3 + ★ = 8?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Cuenta cuánto falta de 3 a 8.",
+            "options": [
+              {
+                "id": "a",
+                "text": "11",
+                "feedback": "Revisa la idea clave. Cinco completa la igualdad porque 3 + 5 = 8."
+              },
+              {
+                "id": "b",
+                "text": "3",
+                "feedback": "Revisa la idea clave. Cinco completa la igualdad porque 3 + 5 = 8."
+              },
+              {
+                "id": "c",
+                "text": "5",
+                "feedback": "Correcto. Cinco completa la igualdad porque 3 + 5 = 8."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya puedes explicar una regularidad",
+            "body": "No solo encontraste términos: formulaste reglas y usaste símbolos para cantidades desconocidas. Es el primer paso del pensamiento algebraico.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M0.05",
+        "globalId": "pe-sec1-mat-M0-05",
+        "sequence": 5,
+        "title": "Medición y unidades",
+        "subtitle": "Medir es comparar con una unidad adecuada",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.puente.medicion_unidades",
+        "learningOutcome": "Selecciona unidades adecuadas y convierte medidas cotidianas básicas.",
+        "successEvidence": "Elige unidad e instrumento y realiza conversiones simples de masa y tiempo.",
+        "prerequisites": [
+          "Multiplica y divide por 10, 60 y 1 000 en casos sencillos"
+        ],
+        "misconceptions": [
+          "Elegir una unidad por su nombre y no por la magnitud",
+          "Confundir 100 con 1 000 en masa",
+          "Tratar una hora como si tuviera 100 minutos"
+        ],
+        "screens": [
+          {
+            "id": "M0.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La unidad correcta hace útil la medida",
+            "body": "Decir que algo mide 20 no basta: necesitamos saber 20 qué. Aprenderás a elegir unidades razonables y a pasar entre ellas sin perder el sentido de la cantidad.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M0.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.puente.medicion_unidades",
+            "difficulty": 1,
+            "prompt": "¿Qué unidad conviene para expresar la masa de una mochila?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Identifica qué magnitud se está midiendo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "minutos",
+                "feedback": "Revisa la idea clave. La masa de una mochila se expresa razonablemente en kilogramos."
+              },
+              {
+                "id": "b",
+                "text": "kilogramos",
+                "feedback": "Correcto. La masa de una mochila se expresa razonablemente en kilogramos."
+              },
+              {
+                "id": "c",
+                "text": "centímetros",
+                "feedback": "Revisa la idea clave. La masa de una mochila se expresa razonablemente en kilogramos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Primero identifica qué mides",
+            "body": "Longitud describe qué tan largo o alto es algo; masa, cuánto pesa aproximadamente; tiempo, cuánto dura; temperatura, qué tan caliente o frío está.",
+            "examples": [
+              "Largo de un lápiz: centímetros",
+              "Masa de una bolsa de arroz: kilogramos",
+              "Duración del recreo: minutos"
+            ],
+            "memoryAid": "Magnitud primero, unidad después."
+          },
+          {
+            "id": "M0.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Convierte usando equivalencias",
+            "body": "Una equivalencia dice cuánto vale una unidad grande en unidades pequeñas. Para pasar de grande a pequeña, multiplicas; para volver, divides.",
+            "examples": [
+              "1 kg = 1 000 g",
+              "1 h = 60 min",
+              "1 m = 100 cm"
+            ],
+            "memoryAid": "Antes de calcular, predice si el número debe crecer o disminuir."
+          },
+          {
+            "id": "M0.05-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.puente.medicion_unidades",
+            "difficulty": 1,
+            "prompt": "Relaciona cada situación con una unidad adecuada.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Una unidad debe producir un número práctico.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Largo de un lápiz",
+                "rightId": "r1",
+                "right": "centímetros"
+              },
+              {
+                "leftId": "l2",
+                "left": "Duración de una canción",
+                "rightId": "r2",
+                "right": "minutos"
+              },
+              {
+                "leftId": "l3",
+                "left": "Masa de una manzana",
+                "rightId": "r3",
+                "right": "gramos"
+              },
+              {
+                "leftId": "l4",
+                "left": "Temperatura del ambiente",
+                "rightId": "r4",
+                "right": "grados Celsius"
+              }
+            ],
+            "feedbackCorrect": "Correcto: elegiste unidades según la magnitud y el tamaño.",
+            "feedbackIncorrect": "Decide primero si se trata de longitud, tiempo, masa o temperatura."
+          },
+          {
+            "id": "M0.05-S06",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.puente.medicion_unidades",
+            "difficulty": 1,
+            "prompt": "¿Cuántos gramos hay en 2 kilogramos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Usa 1 kg = 1 000 g.",
+            "answer": {
+              "kind": "number",
+              "value": 2000
+            },
+            "suffix": "g",
+            "feedbackCorrect": "Cada kilogramo contiene 1 000 gramos; 2 × 1 000 = 2 000.",
+            "feedbackIncorrect": "Pasa de una unidad grande a una más pequeña multiplicando por 1 000."
+          },
+          {
+            "id": "M0.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Comprueba si la medida es razonable",
+            "body": "Un cuaderno no suele pesar 5 toneladas ni una clase durar 45 horas. Tu experiencia cotidiana ayuda a detectar una unidad equivocada.",
+            "examples": [
+              "Botella personal: cerca de 500 mL",
+              "Puerta: cerca de 2 m",
+              "Película: cerca de 2 h"
+            ],
+            "memoryAid": "Pregunta: ¿esta medida podría ocurrir en la realidad?"
+          },
+          {
+            "id": "M0.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.puente.medicion_unidades",
+            "difficulty": 1,
+            "prompt": "Una actividad dura 1 hora y 30 minutos. ¿Cuántos minutos son en total?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "No uses base 100 para el tiempo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "130 minutos",
+                "feedback": "Revisa la idea clave. Una hora son 60 minutos; 60 + 30 = 90."
+              },
+              {
+                "id": "b",
+                "text": "60 minutos",
+                "feedback": "Revisa la idea clave. Una hora son 60 minutos; 60 + 30 = 90."
+              },
+              {
+                "id": "c",
+                "text": "90 minutos",
+                "feedback": "Correcto. Una hora son 60 minutos; 60 + 30 = 90."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.puente.medicion_unidades",
+            "difficulty": 2,
+            "prompt": "Luis dice que 3 kg son 300 g. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Escribe la equivalencia 1 kg = 1 000 g.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe dividir 3 entre 60.",
+                "feedback": "Revisa la idea clave. Cada kilogramo contiene mil gramos, no cien."
+              },
+              {
+                "id": "b",
+                "text": "Debe multiplicar 3 por 1 000: son 3 000 g.",
+                "feedback": "Correcto. Cada kilogramo contiene mil gramos, no cien."
+              },
+              {
+                "id": "c",
+                "text": "Debe cambiar kilogramos por minutos.",
+                "feedback": "Revisa la idea clave. Cada kilogramo contiene mil gramos, no cien."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.puente.medicion_unidades",
+            "difficulty": 1,
+            "prompt": "Para medir el largo de un salón, ¿qué combinación es más práctica?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Relaciona instrumento, magnitud y unidad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una cinta métrica y metros",
+                "feedback": "Correcto. El largo es una longitud; una cinta y los metros son adecuados para esa escala."
+              },
+              {
+                "id": "b",
+                "text": "Una balanza y gramos",
+                "feedback": "Revisa la idea clave. El largo es una longitud; una cinta y los metros son adecuados para esa escala."
+              },
+              {
+                "id": "c",
+                "text": "Un reloj y minutos",
+                "feedback": "Revisa la idea clave. El largo es una longitud; una cinta y los metros son adecuados para esa escala."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M0.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.puente.medicion_unidades",
+            "difficulty": 1,
+            "prompt": "¿Cuál equivalencia es correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Recuerda que una hora tiene 60 minutos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "2 horas = 200 minutos",
+                "feedback": "Revisa la idea clave. Dos grupos de 60 minutos suman 120."
+              },
+              {
+                "id": "b",
+                "text": "2 kilogramos = 200 gramos",
+                "feedback": "Revisa la idea clave. Dos grupos de 60 minutos suman 120."
+              },
+              {
+                "id": "c",
+                "text": "2 horas = 120 minutos",
+                "feedback": "Correcto. Dos grupos de 60 minutos suman 120."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya mides con intención",
+            "body": "Elegiste unidades según la magnitud, convertiste casos cotidianos y comprobaste si una medida tenía sentido. Medir bien empieza por pensar bien.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M0.06",
+        "globalId": "pe-sec1-mat-M0-06",
+        "sequence": 6,
+        "title": "Geometría visual",
+        "subtitle": "Las figuras se reconocen por sus propiedades, no por su posición",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.puente.geometria_visual",
+        "learningOutcome": "Reconoce figuras planas, sólidos y relaciones espaciales frecuentes mediante atributos.",
+        "successEvidence": "Clasifica objetos por lados, vértices, caras y superficies, y justifica una elección.",
+        "prerequisites": [
+          "Observa y cuenta atributos visibles"
+        ],
+        "misconceptions": [
+          "Creer que una figura cambia al girarla",
+          "Confundir figura plana con sólido",
+          "Clasificar solo por parecido visual"
+        ],
+        "screens": [
+          {
+            "id": "M0.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Girar no cambia las propiedades",
+            "body": "Una figura puede verse distinta cuando gira, pero conserva sus lados y ángulos. Aprenderás a reconocer figuras y sólidos por características que permanecen.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M0.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.puente.geometria_visual",
+            "difficulty": 1,
+            "prompt": "¿Qué propiedad identifica a todo triángulo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Cuenta el número de lados.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tiene cuatro ángulos rectos.",
+                "feedback": "Revisa la idea clave. El rasgo común de todos los triángulos es tener tres lados."
+              },
+              {
+                "id": "b",
+                "text": "Tiene tres lados.",
+                "feedback": "Correcto. El rasgo común de todos los triángulos es tener tres lados."
+              },
+              {
+                "id": "c",
+                "text": "Tiene una superficie curva.",
+                "feedback": "Revisa la idea clave. El rasgo común de todos los triángulos es tener tres lados."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Figuras planas",
+            "body": "Una figura plana se describe con lados, vértices, ángulos y líneas curvas. Un triángulo tiene tres lados; un cuadrilátero, cuatro.",
+            "examples": [
+              "Triángulo: 3 lados y 3 vértices",
+              "Rectángulo: 4 lados y 4 ángulos rectos",
+              "Círculo: borde curvo, sin lados rectos"
+            ],
+            "memoryAid": "Cuenta atributos; no dependas de que la figura esté 'derecha'."
+          },
+          {
+            "id": "M0.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Sólidos en el espacio",
+            "body": "Un sólido ocupa espacio y puede tener caras planas, superficies curvas, aristas y vértices. Una caja se aproxima a un prisma; una lata, a un cilindro.",
+            "examples": [
+              "Cubo: 6 caras cuadradas",
+              "Cilindro: 2 bases circulares y superficie curva",
+              "Esfera: superficie curva sin aristas"
+            ],
+            "memoryAid": "Pregunta si el objeto puede sostenerse, rodar o apilarse y por qué."
+          },
+          {
+            "id": "M0.06-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.puente.geometria_visual",
+            "difficulty": 1,
+            "prompt": "Relaciona cada objeto con el modelo geométrico más cercano.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Ignora el color y el material del objeto.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Dado",
+                "rightId": "r1",
+                "right": "cubo"
+              },
+              {
+                "leftId": "l2",
+                "left": "Lata",
+                "rightId": "r2",
+                "right": "cilindro"
+              },
+              {
+                "leftId": "l3",
+                "left": "Pelota",
+                "rightId": "r3",
+                "right": "esfera"
+              },
+              {
+                "leftId": "l4",
+                "left": "Caja de cereal",
+                "rightId": "r4",
+                "right": "prisma rectangular"
+              }
+            ],
+            "feedbackCorrect": "Bien: comparaste forma y superficies.",
+            "feedbackIncorrect": "Observa bases, caras y superficies curvas."
+          },
+          {
+            "id": "M0.06-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.puente.geometria_visual",
+            "difficulty": 1,
+            "prompt": "Un cuadrado se gira hasta parecer un rombo en la pantalla. ¿Qué ocurre con sus lados?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Imagina que giras una hoja sin cortarla.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Se convierten en tres.",
+                "feedback": "Revisa la idea clave. Girar cambia la orientación, no las longitudes ni el número de lados."
+              },
+              {
+                "id": "b",
+                "text": "Dos lados desaparecen.",
+                "feedback": "Revisa la idea clave. Girar cambia la orientación, no las longitudes ni el número de lados."
+              },
+              {
+                "id": "c",
+                "text": "Siguen siendo cuatro e iguales.",
+                "feedback": "Correcto. Girar cambia la orientación, no las longitudes ni el número de lados."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Parecido no significa igualdad",
+            "body": "Dos figuras pueden compartir una característica y diferir en otra. Un cuadrado y un rectángulo tienen cuatro ángulos rectos, pero el cuadrado además tiene sus cuatro lados iguales.",
+            "examples": [
+              "Todo cuadrado es un rectángulo especial",
+              "No todo rectángulo es cuadrado"
+            ],
+            "memoryAid": "Clasifica con condiciones observables, no solo por apariencia."
+          },
+          {
+            "id": "M0.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.puente.geometria_visual",
+            "difficulty": 1,
+            "prompt": "¿Cuál es una figura plana?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Pregunta si ocupa volumen real en el modelo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una caja",
+                "feedback": "Revisa la idea clave. El rectángulo del dibujo tiene dos dimensiones; caja y pelota son sólidos."
+              },
+              {
+                "id": "b",
+                "text": "Un rectángulo dibujado en una hoja",
+                "feedback": "Correcto. El rectángulo del dibujo tiene dos dimensiones; caja y pelota son sólidos."
+              },
+              {
+                "id": "c",
+                "text": "Una pelota",
+                "feedback": "Revisa la idea clave. El rectángulo del dibujo tiene dos dimensiones; caja y pelota son sólidos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.puente.geometria_visual",
+            "difficulty": 2,
+            "prompt": "Alguien dice: “No es triángulo porque apunta hacia abajo”. ¿Cuál es la mejor respuesta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Cuenta sus lados aunque esté girado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La orientación no importa; si tiene tres lados, sigue siendo triángulo.",
+                "feedback": "Correcto. La clasificación depende de propiedades, no de la dirección en que apunta."
+              },
+              {
+                "id": "b",
+                "text": "Solo los triángulos que apuntan arriba son correctos.",
+                "feedback": "Revisa la idea clave. La clasificación depende de propiedades, no de la dirección en que apunta."
+              },
+              {
+                "id": "c",
+                "text": "Al girarlo se convierte en círculo.",
+                "feedback": "Revisa la idea clave. La clasificación depende de propiedades, no de la dirección en que apunta."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M0.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.puente.geometria_visual",
+            "difficulty": 1,
+            "prompt": "Quieres guardar una pelota sin que ruede. ¿Qué propiedad explica el problema?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Relaciona el movimiento con el tipo de superficie.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La esfera tiene seis caras planas.",
+                "feedback": "Revisa la idea clave. La superficie curva facilita que la esfera ruede."
+              },
+              {
+                "id": "b",
+                "text": "La pelota es un triángulo.",
+                "feedback": "Revisa la idea clave. La superficie curva facilita que la esfera ruede."
+              },
+              {
+                "id": "c",
+                "text": "La esfera tiene una superficie curva.",
+                "feedback": "Correcto. La superficie curva facilita que la esfera ruede."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.puente.geometria_visual",
+            "difficulty": 1,
+            "prompt": "¿Qué afirmación es verdadera?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Distingue caras planas de superficies curvas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Un círculo tiene cuatro lados.",
+                "feedback": "Revisa la idea clave. El cubo posee seis caras y cada una es un cuadrado."
+              },
+              {
+                "id": "b",
+                "text": "Un cubo tiene seis caras cuadradas.",
+                "feedback": "Correcto. El cubo posee seis caras y cada una es un cuadrado."
+              },
+              {
+                "id": "c",
+                "text": "Un cilindro no tiene bases.",
+                "feedback": "Revisa la idea clave. El cubo posee seis caras y cada una es un cuadrado."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya ves propiedades, no posturas",
+            "body": "Reconociste figuras y sólidos aunque cambiaran de orientación. Describir propiedades te permitirá justificar clasificaciones y resolver problemas geométricos.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M0.07",
+        "globalId": "pe-sec1-mat-M0-07",
+        "sequence": 7,
+        "title": "Lectura de datos",
+        "subtitle": "Título, categorías, escala y valor trabajan juntos",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.puente.lectura_datos",
+        "learningOutcome": "Interpreta tablas y gráficos sencillos y detecta lecturas equivocadas.",
+        "successEvidence": "Recupera valores, compara categorías y fundamenta una conclusión con datos visibles.",
+        "prerequisites": [
+          "Compara números naturales"
+        ],
+        "misconceptions": [
+          "Mirar solo la barra más alta",
+          "Ignorar la escala",
+          "Confundir una opinión con lo que muestran los datos"
+        ],
+        "screens": [
+          {
+            "id": "M0.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un gráfico también se lee",
+            "body": "Los datos no hablan solos. Necesitas revisar el título, las categorías, la escala y los valores antes de concluir. Empezaremos con tablas pequeñas y comparaciones claras.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M0.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.puente.lectura_datos",
+            "difficulty": 1,
+            "prompt": "Tabla de préstamos: lunes 8, martes 12, miércoles 9. ¿Qué día hubo más préstamos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Compara 8, 12 y 9.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Lunes",
+                "feedback": "Revisa la idea clave. Doce es el valor mayor de la tabla."
+              },
+              {
+                "id": "b",
+                "text": "Martes",
+                "feedback": "Correcto. Doce es el valor mayor de la tabla."
+              },
+              {
+                "id": "c",
+                "text": "Miércoles",
+                "feedback": "Revisa la idea clave. Doce es el valor mayor de la tabla."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Lee de afuera hacia adentro",
+            "body": "Primero identifica de qué trata el registro y en qué unidad está. Luego ubica la categoría preguntada y recién entonces lee su valor.",
+            "examples": [
+              "Título: Libros leídos por mes",
+              "Categorías: abril, mayo, junio",
+              "Unidad: cantidad de libros"
+            ],
+            "memoryAid": "Título, categoría, escala y valor: en ese orden."
+          },
+          {
+            "id": "M0.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Comparar requiere dos valores",
+            "body": "Para decir cuánto más o cuánto menos hay, recupera ambos datos y calcula la diferencia. La barra más alta muestra un máximo, pero no explica por sí sola la distancia.",
+            "examples": [
+              "12 frente a 8: diferencia de 4",
+              "15 y 15: misma cantidad"
+            ],
+            "memoryAid": "Señala los números que sostienen tu comparación."
+          },
+          {
+            "id": "M0.07-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.puente.lectura_datos",
+            "difficulty": 1,
+            "prompt": "Relaciona cada pregunta con el cálculo o lectura necesaria.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Máximo, diferencia y total no significan lo mismo.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "¿Cuál fue el máximo?",
+                "rightId": "r1",
+                "right": "Buscar el valor mayor"
+              },
+              {
+                "leftId": "l2",
+                "left": "¿Cuánto más?",
+                "rightId": "r2",
+                "right": "Calcular una diferencia"
+              },
+              {
+                "leftId": "l3",
+                "left": "¿Cuántos en total?",
+                "rightId": "r3",
+                "right": "Sumar los valores"
+              }
+            ],
+            "feedbackCorrect": "Correcto: cada pregunta pide una acción distinta.",
+            "feedbackIncorrect": "Subraya la expresión clave de la pregunta."
+          },
+          {
+            "id": "M0.07-S06",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.puente.lectura_datos",
+            "difficulty": 1,
+            "prompt": "En una tabla aparecen 6, 9 y 5 participantes. ¿Cuántos hay en total?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Suma 6 + 9 y luego agrega 5.",
+            "answer": {
+              "kind": "number",
+              "value": 20
+            },
+            "suffix": "participantes",
+            "feedbackCorrect": "Se suman las tres categorías: 6 + 9 + 5 = 20.",
+            "feedbackIncorrect": "Incluye los tres valores una sola vez."
+          },
+          {
+            "id": "M0.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "La escala puede cambiar la impresión",
+            "body": "Si las marcas avanzan de 2 en 2, una barra en la tercera marca representa 6, no 3. Una lectura responsable mira las etiquetas del eje antes de contar divisiones.",
+            "examples": [
+              "0, 2, 4, 6",
+              "0, 5, 10, 15"
+            ],
+            "memoryAid": "No conviertas marcas en valores sin revisar cuánto vale cada salto."
+          },
+          {
+            "id": "M0.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.puente.lectura_datos",
+            "difficulty": 1,
+            "prompt": "Un eje está marcado 0, 5, 10, 15. Una barra llega a la marca 10. ¿Qué valor representa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Mira el número junto a la altura alcanzada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "2",
+                "feedback": "Revisa la idea clave. La altura se lee con las etiquetas de la escala, no contando marcas."
+              },
+              {
+                "id": "b",
+                "text": "15",
+                "feedback": "Revisa la idea clave. La altura se lee con las etiquetas de la escala, no contando marcas."
+              },
+              {
+                "id": "c",
+                "text": "10",
+                "feedback": "Correcto. La altura se lee con las etiquetas de la escala, no contando marcas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.puente.lectura_datos",
+            "difficulty": 2,
+            "prompt": "Sofía dice: “La barra azul es el doble” solo porque se ve muy alta. ¿Qué falta comprobar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Busca evidencia numérica antes de aceptar 'el doble'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El color favorito de Sofía.",
+                "feedback": "Revisa la idea clave. La proporción se decide con valores comparables y una escala conocida."
+              },
+              {
+                "id": "b",
+                "text": "Los valores y la escala de ambas barras.",
+                "feedback": "Correcto. La proporción se decide con valores comparables y una escala conocida."
+              },
+              {
+                "id": "c",
+                "text": "El ancho de la pantalla.",
+                "feedback": "Revisa la idea clave. La proporción se decide con valores comparables y una escala conocida."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.puente.lectura_datos",
+            "difficulty": 1,
+            "prompt": "Registro de botellas reutilizadas: aula A 14, aula B 11. ¿Cuántas más reunió A?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "La frase 'cuántas más' pide comparar mediante resta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "25",
+                "feedback": "Revisa la idea clave. La diferencia es 14 - 11 = 3."
+              },
+              {
+                "id": "b",
+                "text": "14",
+                "feedback": "Revisa la idea clave. La diferencia es 14 - 11 = 3."
+              },
+              {
+                "id": "c",
+                "text": "3",
+                "feedback": "Correcto. La diferencia es 14 - 11 = 3."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.puente.lectura_datos",
+            "difficulty": 1,
+            "prompt": "¿Cuál conclusión está respaldada por la tabla: lunes 4, martes 7, miércoles 7?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Compara cada afirmación con los tres números.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Miércoles tiene el doble que martes.",
+                "feedback": "Revisa la idea clave. Los datos muestran empate en 7 y un valor menor de 4."
+              },
+              {
+                "id": "b",
+                "text": "Martes y miércoles registran la misma cantidad y superan al lunes.",
+                "feedback": "Correcto. Los datos muestran empate en 7 y un valor menor de 4."
+              },
+              {
+                "id": "c",
+                "text": "Lunes es el valor mayor.",
+                "feedback": "Revisa la idea clave. Los datos muestran empate en 7 y un valor menor de 4."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees datos con evidencia",
+            "body": "Usaste título, categorías, escala y valores para responder y revisar conclusiones. Un gráfico deja de ser una imagen cuando puedes explicar qué dato sostiene tu respuesta.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M0.08",
+        "globalId": "pe-sec1-mat-M0-08",
+        "sequence": 8,
+        "title": "Azar intuitivo",
+        "subtitle": "Seguro, posible e imposible describen grados distintos de posibilidad",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.puente.azar_intuitivo",
+        "learningOutcome": "Distingue sucesos seguros, posibles e imposibles en experimentos sencillos.",
+        "successEvidence": "Clasifica eventos de un juego y justifica la clasificación usando los resultados disponibles.",
+        "prerequisites": [
+          "Reconoce conjuntos pequeños de resultados"
+        ],
+        "misconceptions": [
+          "Creer que posible significa seguro",
+          "Pensar que un resultado debe salir porque no apareció antes",
+          "Juzgar sin revisar las opciones disponibles"
+        ],
+        "screens": [
+          {
+            "id": "M0.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "No todo lo posible va a ocurrir",
+            "body": "En una situación de azar no sabemos el resultado exacto, pero sí podemos revisar cuáles resultados están disponibles. Con eso distinguiremos lo seguro, lo posible y lo imposible.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M0.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.puente.azar_intuitivo",
+            "difficulty": 1,
+            "prompt": "Al lanzar un dado común, ¿cuál suceso es imposible?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Enumera las seis caras.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Obtener 3",
+                "feedback": "Revisa la idea clave. Un dado común solo tiene resultados del 1 al 6."
+              },
+              {
+                "id": "b",
+                "text": "Obtener 8",
+                "feedback": "Correcto. Un dado común solo tiene resultados del 1 al 6."
+              },
+              {
+                "id": "c",
+                "text": "Obtener un número par",
+                "feedback": "Revisa la idea clave. Un dado común solo tiene resultados del 1 al 6."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Empieza por los resultados posibles",
+            "body": "Antes de clasificar un evento, enumera qué puede ocurrir. En una bolsa con fichas rojas y azules, sacar roja o azul es posible; sacar verde es imposible.",
+            "examples": [
+              "Moneda: cara o sello",
+              "Dado común: 1, 2, 3, 4, 5 o 6"
+            ],
+            "memoryAid": "La lista de resultados disponibles es tu evidencia."
+          },
+          {
+            "id": "M0.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Tres palabras con significados precisos",
+            "body": "Seguro ocurre en todos los resultados disponibles. Posible ocurre en algunos, pero no en todos. Imposible no aparece en ninguno.",
+            "examples": [
+              "Dado: obtener menos de 7 es seguro",
+              "Dado: obtener 4 es posible",
+              "Dado: obtener 9 es imposible"
+            ],
+            "memoryAid": "Seguro = todos; posible = algunos; imposible = ninguno."
+          },
+          {
+            "id": "M0.08-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.puente.azar_intuitivo",
+            "difficulty": 1,
+            "prompt": "Relaciona cada evento con su clasificación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "No necesitas lanzar el dado para saberlo.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Dado: obtener un número del 1 al 6",
+                "rightId": "r1",
+                "right": "Seguro"
+              },
+              {
+                "leftId": "l2",
+                "left": "Dado: obtener 2",
+                "rightId": "r2",
+                "right": "Posible"
+              },
+              {
+                "leftId": "l3",
+                "left": "Dado: obtener 10",
+                "rightId": "r3",
+                "right": "Imposible"
+              }
+            ],
+            "feedbackCorrect": "Correcto: usaste todos, algunos o ningún resultado.",
+            "feedbackIncorrect": "Compara cada evento con la lista 1, 2, 3, 4, 5, 6."
+          },
+          {
+            "id": "M0.08-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.puente.azar_intuitivo",
+            "difficulty": 1,
+            "prompt": "Una bolsa tiene 3 fichas amarillas y 2 verdes. Sin mirar, sacar una amarilla es...",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Revisa si el evento aparece en algunos o en todos los resultados.",
+            "options": [
+              {
+                "id": "a",
+                "text": "imposible",
+                "feedback": "Revisa la idea clave. Hay fichas amarillas, pero también verdes; por eso puede ocurrir sin estar garantizado."
+              },
+              {
+                "id": "b",
+                "text": "seguro",
+                "feedback": "Revisa la idea clave. Hay fichas amarillas, pero también verdes; por eso puede ocurrir sin estar garantizado."
+              },
+              {
+                "id": "c",
+                "text": "posible, pero no seguro",
+                "feedback": "Correcto. Hay fichas amarillas, pero también verdes; por eso puede ocurrir sin estar garantizado."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "El azar no tiene memoria",
+            "body": "Si una moneda dio cara tres veces, el siguiente lanzamiento todavía puede ser cara o sello. Los resultados anteriores no obligan a compensar el siguiente.",
+            "examples": [
+              "Una racha no convierte un resultado en seguro",
+              "Cada lanzamiento nuevo conserva sus resultados posibles"
+            ],
+            "memoryAid": "No confundas lo que deseas o esperas con lo que está garantizado."
+          },
+          {
+            "id": "M0.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.puente.azar_intuitivo",
+            "difficulty": 1,
+            "prompt": "Una ruleta tiene únicamente sectores rojos. Obtener rojo es...",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Pregunta si existe algún sector de otro color.",
+            "options": [
+              {
+                "id": "a",
+                "text": "imposible",
+                "feedback": "Revisa la idea clave. Todos los sectores son rojos, así que cualquier resultado cumple el evento."
+              },
+              {
+                "id": "b",
+                "text": "seguro",
+                "feedback": "Correcto. Todos los sectores son rojos, así que cualquier resultado cumple el evento."
+              },
+              {
+                "id": "c",
+                "text": "solo posible",
+                "feedback": "Revisa la idea clave. Todos los sectores son rojos, así que cualquier resultado cumple el evento."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.puente.azar_intuitivo",
+            "difficulty": 2,
+            "prompt": "Una moneda dio cara cuatro veces. Mateo afirma que ahora el sello es seguro. ¿Qué corrección es adecuada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Piensa solo en las opciones del nuevo lanzamiento.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sello sigue siendo posible, pero no seguro; cara también puede salir.",
+                "feedback": "Correcto. Los lanzamientos anteriores no eliminan ninguno de los dos resultados del próximo lanzamiento."
+              },
+              {
+                "id": "b",
+                "text": "Mateo tiene razón porque el azar compensa siempre.",
+                "feedback": "Revisa la idea clave. Los lanzamientos anteriores no eliminan ninguno de los dos resultados del próximo lanzamiento."
+              },
+              {
+                "id": "c",
+                "text": "La moneda ya no puede volver a usarse.",
+                "feedback": "Revisa la idea clave. Los lanzamientos anteriores no eliminan ninguno de los dos resultados del próximo lanzamiento."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M0.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.puente.azar_intuitivo",
+            "difficulty": 1,
+            "prompt": "En una caja hay tarjetas 1, 2, 3 y 4. ¿Qué evento es seguro?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Comprueba el evento con cada tarjeta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sacar 4",
+                "feedback": "Revisa la idea clave. Todas las tarjetas muestran números menores que 5."
+              },
+              {
+                "id": "b",
+                "text": "Sacar 7",
+                "feedback": "Revisa la idea clave. Todas las tarjetas muestran números menores que 5."
+              },
+              {
+                "id": "c",
+                "text": "Sacar un número menor que 5",
+                "feedback": "Correcto. Todas las tarjetas muestran números menores que 5."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M0.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.puente.azar_intuitivo",
+            "difficulty": 1,
+            "prompt": "¿Qué explicación usa mejor la evidencia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca la opción que menciona el contenido de la bolsa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sacar azul es difícil porque hoy no tengo suerte.",
+                "feedback": "Revisa la idea clave. La posibilidad se justifica con los resultados disponibles, no con preferencias o rachas."
+              },
+              {
+                "id": "b",
+                "text": "Sacar azul es imposible porque la bolsa solo contiene fichas blancas y negras.",
+                "feedback": "Correcto. La posibilidad se justifica con los resultados disponibles, no con preferencias o rachas."
+              },
+              {
+                "id": "c",
+                "text": "Sacar blanco es seguro porque es mi color favorito.",
+                "feedback": "Revisa la idea clave. La posibilidad se justifica con los resultados disponibles, no con preferencias o rachas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M0.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya describes el azar con precisión",
+            "body": "Clasificaste eventos usando los resultados disponibles y evitaste confundir posible con seguro. Esta base permitirá calcular probabilidades más adelante.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
