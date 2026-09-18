@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentRelease": "2026.09.5",
+  "contentRelease": "2026.09.6",
   "locale": "es-PE",
   "country": "PE",
   "minimumEngineVersion": "0.1.0",
@@ -46,6 +46,36 @@
               "readyLessonCount": 8,
               "version": "1.0.0",
               "path": "pe/secundaria/1/matematica/M2-fracciones-decimales-porcentajes-v1.json"
+            },
+            {
+              "id": "M3",
+              "sequence": 3,
+              "title": "Operaciones con expresiones fraccionarias y decimales",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/matematica/M3-operaciones-fracciones-decimales-v1.json"
+            },
+            {
+              "id": "M4",
+              "sequence": 4,
+              "title": "Proporcionalidad, porcentajes y medición",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/matematica/M4-proporcionalidad-porcentajes-medicion-v1.json"
+            },
+            {
+              "id": "M5",
+              "sequence": 5,
+              "title": "Patrones y progresiones aritméticas",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/matematica/M5-patrones-progresiones-v1.json"
             }
           ]
         },
