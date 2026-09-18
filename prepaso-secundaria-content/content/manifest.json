@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentRelease": "2026.09.6",
+  "contentRelease": "2026.09.7",
   "locale": "es-PE",
   "country": "PE",
   "minimumEngineVersion": "0.1.0",
@@ -115,6 +115,36 @@
               "readyLessonCount": 8,
               "version": "1.0.0",
               "path": "pe/secundaria/1/lectura/L2-inferir-significados-relaciones-v1.json"
+            },
+            {
+              "id": "L3",
+              "sequence": 3,
+              "title": "Tema, subtemas, ideas y síntesis",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/lectura/L3-tema-ideas-sintesis-v1.json"
+            },
+            {
+              "id": "L4",
+              "sequence": 4,
+              "title": "Narrativa, literatura y perspectiva",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/lectura/L4-narrativa-literatura-perspectiva-v1.json"
+            },
+            {
+              "id": "L5",
+              "sequence": 5,
+              "title": "Textos expositivos, científicos y procedimentales",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/lectura/L5-expositivos-cientificos-procedimentales-v1.json"
             }
           ]
         },
