@@ -1,0 +1,2334 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.5",
+  "locale": "es-PE",
+  "unit": {
+    "id": "M2",
+    "globalId": "pe-sec1-mat-M2",
+    "sequence": 2,
+    "grade": "sec1",
+    "subject": "matematica",
+    "title": "Fracciones, decimales y porcentajes equivalentes",
+    "shortTitle": "Fracciones y porcentajes",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "MINEDU define competencias, capacidades, estándares y desempeños. M2 es una secuencia editorial de Prepaso alineada a primer grado; no es el nombre de una unidad oficial obligatoria.",
+    "unitOutcome": "Interpreta, compara y transforma fracciones, decimales y porcentajes, eligiendo la representación más eficiente para cada situación.",
+    "finalEvidence": "Tablero de equivalencias aplicado a repartos, medidas, descuentos y encuestas, con conversión, comparación y justificación de la representación elegida.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "cycle": "VI",
+      "competency": "Resuelve problemas de cantidad",
+      "capacities": [
+        "Traduce cantidades a expresiones numéricas",
+        "Comunica su comprensión sobre los números y las operaciones",
+        "Usa estrategias y procedimientos de estimación y cálculo",
+        "Argumenta afirmaciones sobre las relaciones numéricas y las operaciones"
+      ],
+      "operationalAlignment": "Conecta fracción, decimal y porcentaje mediante representaciones, equivalencias, comparación, cálculo sencillo y argumentación."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Traductor de cantidades"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Currículo Nacional de la Educación Básica",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.gob.pe/institucion/minedu/campa%C3%B1as/106784-curriculo-nacional-de-la-educacion-basica"
+      }
+    ],
+    "stimuli": [],
+    "lessons": [
+      {
+        "id": "M2.01",
+        "globalId": "pe-sec1-mat-M2-01",
+        "sequence": 1,
+        "title": "Fracción como número",
+        "subtitle": "Una fracción expresa una cantidad y ocupa un lugar exacto",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.fraccion_numero",
+        "learningOutcome": "Interpreta fracciones como parte de una unidad, medida, cociente y punto de la recta numérica.",
+        "successEvidence": "Representa una fracción en dos contextos y explica el significado del numerador y del denominador.",
+        "prerequisites": [
+          "Reconoce mitades y cuartos",
+          "Ubica cero y uno en una recta"
+        ],
+        "misconceptions": [
+          "Creer que una fracción siempre es menor que uno",
+          "Leer numerador y denominador como dos números sin relación",
+          "Contar marcas en vez de intervalos en la recta"
+        ],
+        "screens": [
+          {
+            "id": "M2.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una fracción también es un número",
+            "body": "En primaria quizá coloreaste partes de figuras. Ahora darás un paso más: una fracción representa una cantidad completa, puede superar la unidad y tiene una posición precisa en la recta. Empezaremos sin reglas difíciles.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M2.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.fraccion_numero",
+            "difficulty": 1,
+            "prompt": "Una barra se divide en 4 partes iguales y se toman 3. ¿Qué fracción se tomó?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Primero pregunta en cuántas partes iguales se dividió la unidad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4/3",
+                "feedback": "Revisa la idea clave. El denominador registra cuatro partes iguales y el numerador las tres partes tomadas."
+              },
+              {
+                "id": "b",
+                "text": "3/4",
+                "feedback": "Correcto. El denominador registra cuatro partes iguales y el numerador las tres partes tomadas."
+              },
+              {
+                "id": "c",
+                "text": "1/4",
+                "feedback": "Revisa la idea clave. El denominador registra cuatro partes iguales y el numerador las tres partes tomadas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Denominador: en cuántas partes iguales",
+            "body": "En 3/4, el denominador 4 indica que cada unidad se divide en cuatro partes iguales. Si las partes no son iguales, no representan cuartos. El tamaño de una parte depende del denominador.",
+            "examples": [
+              "1/2: la unidad se divide en 2 partes iguales",
+              "1/5: la unidad se divide en 5 partes iguales"
+            ],
+            "memoryAid": "El número de abajo nombra el tamaño de cada parte."
+          },
+          {
+            "id": "M2.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Numerador: cuántas partes contamos",
+            "body": "En 3/4, el numerador 3 indica que contamos tres partes del tamaño 1/4. Si contamos más partes que las que forman una unidad, obtenemos una fracción mayor que uno: 5/4 es un entero y un cuarto.",
+            "examples": [
+              "3 × 1/4 = 3/4",
+              "5/4 = 4/4 + 1/4 = 1 1/4"
+            ],
+            "memoryAid": "Abajo define la parte; arriba dice cuántas partes hay."
+          },
+          {
+            "id": "M2.01-S05",
+            "type": "number_line",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.fraccion_numero",
+            "difficulty": 1,
+            "prompt": "Ubica 3/4 en la recta.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Cada paso vale 1/4 = 0,25.",
+            "range": {
+              "min": 0,
+              "max": 2,
+              "step": 0.25
+            },
+            "correctValue": 0.75,
+            "feedbackCorrect": "3/4 equivale a tres avances de 1/4 desde cero.",
+            "feedbackIncorrect": "Divide el tramo de 0 a 1 en cuatro intervalos y cuenta tres."
+          },
+          {
+            "id": "M2.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.fraccion_numero",
+            "difficulty": 1,
+            "prompt": "Relaciona cada fracción con su interpretación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "El denominador define el tamaño de cada parte.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "2/3",
+                "rightId": "r1",
+                "right": "Dos partes de tamaño un tercio"
+              },
+              {
+                "leftId": "l2",
+                "left": "5/4",
+                "rightId": "r2",
+                "right": "Cinco partes de tamaño un cuarto"
+              },
+              {
+                "leftId": "l3",
+                "left": "1/6",
+                "rightId": "r3",
+                "right": "Una parte de una unidad dividida en seis"
+              }
+            ],
+            "feedbackCorrect": "Cada relación distingue el tamaño de la parte y cuántas se cuentan.",
+            "feedbackIncorrect": "Vuelve a separar la función del numerador y del denominador."
+          },
+          {
+            "id": "M2.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "En la recta se cuentan intervalos",
+            "body": "Para ubicar 3/4, divide el tramo entre 0 y 1 en cuatro intervalos iguales y avanza tres. Las marcas son los límites; lo que debe ser igual son los espacios entre ellas.",
+            "examples": [
+              "0, 1/4, 2/4, 3/4, 1",
+              "6/4 queda dos cuartos después de 1"
+            ],
+            "memoryAid": "Divide la unidad y luego cuenta avances desde cero."
+          },
+          {
+            "id": "M2.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.fraccion_numero",
+            "difficulty": 1,
+            "prompt": "¿Cuál fracción es mayor que una unidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Compara el numerador con el denominador.",
+            "options": [
+              {
+                "id": "a",
+                "text": "3/4",
+                "feedback": "Revisa la idea clave. Una unidad completa son 4/4; 5/4 contiene una parte adicional."
+              },
+              {
+                "id": "b",
+                "text": "1/4",
+                "feedback": "Revisa la idea clave. Una unidad completa son 4/4; 5/4 contiene una parte adicional."
+              },
+              {
+                "id": "c",
+                "text": "5/4",
+                "feedback": "Correcto. Una unidad completa son 4/4; 5/4 contiene una parte adicional."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.fraccion_numero",
+            "difficulty": 2,
+            "prompt": "Mía ubicó 2/3 contando dos marcas después de 0, pero dividió de 0 a 1 en solo dos espacios. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "En una recta se cuentan intervalos, no solo marcas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe cambiar 2/3 por 3/2.",
+                "feedback": "Revisa la idea clave. El denominador 3 exige tres intervalos iguales entre 0 y 1."
+              },
+              {
+                "id": "b",
+                "text": "Debe dividir la unidad en tres intervalos iguales y avanzar dos.",
+                "feedback": "Correcto. El denominador 3 exige tres intervalos iguales entre 0 y 1."
+              },
+              {
+                "id": "c",
+                "text": "Debe empezar a contar desde 1.",
+                "feedback": "Revisa la idea clave. El denominador 3 exige tres intervalos iguales entre 0 y 1."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.fraccion_numero",
+            "difficulty": 1,
+            "prompt": "Tres panes se reparten por igual entre cuatro personas. ¿Cuánto pan recibe cada una?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Escribe cantidad repartida sobre número de personas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4/3 de pan",
+                "feedback": "Revisa la idea clave. La división 3 ÷ 4 se expresa como 3/4."
+              },
+              {
+                "id": "b",
+                "text": "1/4 de pan",
+                "feedback": "Revisa la idea clave. La división 3 ÷ 4 se expresa como 3/4."
+              },
+              {
+                "id": "c",
+                "text": "3/4 de pan",
+                "feedback": "Correcto. La división 3 ÷ 4 se expresa como 3/4."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.fraccion_numero",
+            "difficulty": 1,
+            "prompt": "¿Qué explicación de 7/5 es correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Separa 7/5 en 5/5 + 2/5.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Son siete partes de tamaño un quinto; equivale a 1 2/5.",
+                "feedback": "Correcto. Cinco quintos forman una unidad y sobran dos quintos."
+              },
+              {
+                "id": "b",
+                "text": "Es una parte de tamaño siete quintos.",
+                "feedback": "Revisa la idea clave. Cinco quintos forman una unidad y sobran dos quintos."
+              },
+              {
+                "id": "c",
+                "text": "Siempre es menor que uno porque tiene denominador.",
+                "feedback": "Revisa la idea clave. Cinco quintos forman una unidad y sobran dos quintos."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya ves la fracción como una cantidad",
+            "body": "Interpretaste numerador y denominador, ubicando fracciones menores y mayores que uno. La fracción dejó de ser solo una figura coloreada: ahora es un número con sentido.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M2.02",
+        "globalId": "pe-sec1-mat-M2-02",
+        "sequence": 2,
+        "title": "Fracciones equivalentes",
+        "subtitle": "Distintas escrituras pueden representar la misma cantidad",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.fracciones_equivalentes",
+        "learningOutcome": "Genera, simplifica y verifica fracciones equivalentes conservando su valor.",
+        "successEvidence": "Completa equivalencias y explica por qué multiplicar o dividir ambos términos por el mismo número conserva la cantidad.",
+        "prerequisites": [
+          "Interpreta numerador y denominador",
+          "Multiplica y divide naturales"
+        ],
+        "misconceptions": [
+          "Cambiar solo el numerador o solo el denominador",
+          "Creer que una fracción con números mayores siempre vale más",
+          "Simplificar mediante restas"
+        ],
+        "screens": [
+          {
+            "id": "M2.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La misma cantidad puede tener varios nombres",
+            "body": "Media pizza puede escribirse 1/2, 2/4 o 4/8. Cambió el número de partes dibujadas, pero no la cantidad. Aprenderás a producir y comprobar esos nombres equivalentes.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M2.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.fracciones_equivalentes",
+            "difficulty": 1,
+            "prompt": "¿Cuál fracción es equivalente a 1/2?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Busca una fracción que represente la mitad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "2/3",
+                "feedback": "Revisa la idea clave. Al multiplicar 1/2 por 3/3 obtenemos 3/6."
+              },
+              {
+                "id": "b",
+                "text": "3/6",
+                "feedback": "Correcto. Al multiplicar 1/2 por 3/3 obtenemos 3/6."
+              },
+              {
+                "id": "c",
+                "text": "1/4",
+                "feedback": "Revisa la idea clave. Al multiplicar 1/2 por 3/3 obtenemos 3/6."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Amplificar sin cambiar el valor",
+            "body": "Multiplicar numerador y denominador por el mismo número divide cada parte en trozos más pequeños y aumenta en la misma proporción cuántos trozos contamos. La cantidad total se conserva.",
+            "examples": [
+              "1/2 × 2/2 = 2/4",
+              "3/5 × 3/3 = 9/15"
+            ],
+            "memoryAid": "Misma operación arriba y abajo: mismo valor."
+          },
+          {
+            "id": "M2.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Simplificar es agrupar partes",
+            "body": "Si numerador y denominador tienen un divisor común, podemos dividir ambos. En 6/8, dividir entre 2 agrupa los octavos de dos en dos y produce 3/4.",
+            "examples": [
+              "6/8 ÷ 2/2 = 3/4",
+              "10/15 ÷ 5/5 = 2/3"
+            ],
+            "memoryAid": "Divide ambos términos por un mismo divisor mayor que uno."
+          },
+          {
+            "id": "M2.02-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.fracciones_equivalentes",
+            "difficulty": 1,
+            "prompt": "Completa: 2/3 = 8/__. Escribe el denominador.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "La equivalencia exige la misma escala arriba y abajo.",
+            "answer": {
+              "kind": "number",
+              "value": 12
+            },
+            "feedbackCorrect": "El numerador se multiplicó por 4; el denominador también: 3 × 4 = 12.",
+            "feedbackIncorrect": "Identifica por cuánto pasó 2 a 8 y aplica el mismo factor abajo."
+          },
+          {
+            "id": "M2.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.fracciones_equivalentes",
+            "difficulty": 1,
+            "prompt": "Relaciona cada fracción con una equivalente.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Prueba dividir cada par entre 2 o entre 3.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "2/4",
+                "rightId": "r1",
+                "right": "1/2"
+              },
+              {
+                "leftId": "l2",
+                "left": "6/9",
+                "rightId": "r2",
+                "right": "2/3"
+              },
+              {
+                "leftId": "l3",
+                "left": "9/12",
+                "rightId": "r3",
+                "right": "3/4"
+              }
+            ],
+            "feedbackCorrect": "Simplificaste cada fracción usando un divisor común.",
+            "feedbackIncorrect": "Divide numerador y denominador por el mismo número."
+          },
+          {
+            "id": "M2.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Verificar con productos cruzados",
+            "body": "Dos fracciones a/b y c/d son equivalentes si a × d = b × c. Esta comprobación compara la misma escala sin depender del dibujo.",
+            "examples": [
+              "2/3 y 6/9: 2×9 = 18 y 3×6 = 18",
+              "2/5 y 3/5: 2×5 ≠ 5×3"
+            ],
+            "memoryAid": "Productos cruzados iguales indican equivalencia."
+          },
+          {
+            "id": "M2.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.fracciones_equivalentes",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la forma simplificada de 12/18?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Busca el mayor número que divide exactamente 12 y 18.",
+            "options": [
+              {
+                "id": "a",
+                "text": "6/9",
+                "feedback": "Revisa la idea clave. Dividir numerador y denominador entre 6 produce 2/3."
+              },
+              {
+                "id": "b",
+                "text": "4/5",
+                "feedback": "Revisa la idea clave. Dividir numerador y denominador entre 6 produce 2/3."
+              },
+              {
+                "id": "c",
+                "text": "2/3",
+                "feedback": "Correcto. Dividir numerador y denominador entre 6 produce 2/3."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.fracciones_equivalentes",
+            "difficulty": 2,
+            "prompt": "Leo afirma que 3/5 = 4/6 porque sumó 1 arriba y abajo. ¿Qué ocurre?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Comprueba con productos cruzados.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sí son equivalentes porque cambió ambos términos.",
+                "feedback": "Revisa la idea clave. Sumar la misma cantidad no conserva la proporción; amplificar requiere multiplicar por el mismo factor."
+              },
+              {
+                "id": "b",
+                "text": "No son equivalentes: 3×6 = 18 y 5×4 = 20.",
+                "feedback": "Correcto. Sumar la misma cantidad no conserva la proporción; amplificar requiere multiplicar por el mismo factor."
+              },
+              {
+                "id": "c",
+                "text": "Solo debe sumar 2 al denominador.",
+                "feedback": "Revisa la idea clave. Sumar la misma cantidad no conserva la proporción; amplificar requiere multiplicar por el mismo factor."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.fracciones_equivalentes",
+            "difficulty": 1,
+            "prompt": "Una receta usa 3/4 de taza. La jarra marca octavos. ¿Qué marca representa la misma cantidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Cada cuarto se divide en dos octavos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "3/8",
+                "feedback": "Revisa la idea clave. Multiplicar 3/4 por 2/2 da 6/8."
+              },
+              {
+                "id": "b",
+                "text": "7/8",
+                "feedback": "Revisa la idea clave. Multiplicar 3/4 por 2/2 da 6/8."
+              },
+              {
+                "id": "c",
+                "text": "6/8",
+                "feedback": "Correcto. Multiplicar 3/4 por 2/2 da 6/8."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.fracciones_equivalentes",
+            "difficulty": 1,
+            "prompt": "¿Qué pareja NO es equivalente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Verifica cada pareja con productos cruzados.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4/6 y 3/5",
+                "feedback": "Correcto. 4×5 = 20 y 6×3 = 18; los productos cruzados no coinciden."
+              },
+              {
+                "id": "b",
+                "text": "1/3 y 3/9",
+                "feedback": "Revisa la idea clave. 4×5 = 20 y 6×3 = 18; los productos cruzados no coinciden."
+              },
+              {
+                "id": "c",
+                "text": "5/10 y 1/2",
+                "feedback": "Revisa la idea clave. 4×5 = 20 y 6×3 = 18; los productos cruzados no coinciden."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reconoces cantidades con distintos nombres",
+            "body": "Amplificaste, simplificaste y verificaste equivalencias. Ahora puedes cambiar la escritura de una fracción sin cambiar su valor.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M2.03",
+        "globalId": "pe-sec1-mat-M2-03",
+        "sequence": 3,
+        "title": "Orden de fracciones",
+        "subtitle": "Comparar es decidir cuál cantidad ocupa más lugar",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.orden_fracciones",
+        "learningOutcome": "Compara y ordena fracciones usando referentes, denominadores comunes y razonamiento sobre el tamaño de las partes.",
+        "successEvidence": "Ordena cuatro fracciones y justifica al menos una comparación con una estrategia visible.",
+        "prerequisites": [
+          "Reconoce fracciones equivalentes",
+          "Ubica fracciones en la recta"
+        ],
+        "misconceptions": [
+          "Elegir como mayor la fracción con denominador mayor",
+          "Comparar numeradores ignorando el tamaño de las partes",
+          "Usar productos cruzados sin interpretar el resultado"
+        ],
+        "screens": [
+          {
+            "id": "M2.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El denominador grande crea partes pequeñas",
+            "body": "Entre 1/3 y 1/8, un octavo es una parte más pequeña: por eso 1/3 es mayor. No basta comparar cifras aisladas. Elegiremos la estrategia más simple para cada caso.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M2.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.orden_fracciones",
+            "difficulty": 1,
+            "prompt": "¿Cuál es mayor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Los denominadores ya son iguales.",
+            "options": [
+              {
+                "id": "a",
+                "text": "3/8",
+                "feedback": "Revisa la idea clave. Ambas son octavos; cinco partes superan tres."
+              },
+              {
+                "id": "b",
+                "text": "5/8",
+                "feedback": "Correcto. Ambas son octavos; cinco partes superan tres."
+              },
+              {
+                "id": "c",
+                "text": "Son iguales",
+                "feedback": "Revisa la idea clave. Ambas son octavos; cinco partes superan tres."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Mismo denominador: compara cuántas partes",
+            "body": "Si las partes tienen el mismo tamaño, la fracción con más partes es mayor. Con séptimos, 5/7 supera 3/7 porque cinco partes iguales son más que tres.",
+            "examples": [
+              "5/7 > 3/7",
+              "2/9 < 8/9"
+            ],
+            "memoryAid": "Mismo tamaño de parte: compara numeradores."
+          },
+          {
+            "id": "M2.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Mismo numerador: compara el tamaño de cada parte",
+            "body": "Si contamos la misma cantidad de partes, es mayor la fracción con denominador menor, porque cada parte es más grande. Dos tercios ocupan más que dos quintos.",
+            "examples": [
+              "2/3 > 2/5",
+              "1/4 > 1/10"
+            ],
+            "memoryAid": "Misma cantidad de partes: menos divisiones producen partes mayores."
+          },
+          {
+            "id": "M2.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.orden_fracciones",
+            "difficulty": 1,
+            "prompt": "¿Cuál es mayor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Imagina dividir una misma barra en 3 y en 7.",
+            "options": [
+              {
+                "id": "a",
+                "text": "2/7",
+                "feedback": "Revisa la idea clave. Con el mismo numerador, los tercios son partes mayores que los séptimos."
+              },
+              {
+                "id": "b",
+                "text": "Son iguales",
+                "feedback": "Revisa la idea clave. Con el mismo numerador, los tercios son partes mayores que los séptimos."
+              },
+              {
+                "id": "c",
+                "text": "2/3",
+                "feedback": "Correcto. Con el mismo numerador, los tercios son partes mayores que los séptimos."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.03-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.orden_fracciones",
+            "difficulty": 1,
+            "prompt": "Ordena de menor a mayor.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Mantén el orden 1, 2, 4 y 5 en los numeradores.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "1/5"
+              },
+              {
+                "id": "i2",
+                "text": "2/5"
+              },
+              {
+                "id": "i3",
+                "text": "4/5"
+              },
+              {
+                "id": "i4",
+                "text": "5/5"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3",
+              "i4"
+            ],
+            "feedbackCorrect": "Todos son quintos: el orden sigue la cantidad de partes.",
+            "feedbackIncorrect": "Como el denominador es común, compara numeradores."
+          },
+          {
+            "id": "M2.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Referentes y denominador común",
+            "body": "Compara primero con 0, 1/2 o 1. Si eso no basta, convierte a un denominador común. Para comparar 2/3 y 3/5, usa quinceavos: 10/15 y 9/15.",
+            "examples": [
+              "2/3 > 1/2 y 1/3 < 1/2",
+              "2/3 = 10/15 > 9/15 = 3/5"
+            ],
+            "memoryAid": "Usa la herramienta más corta que permita explicar."
+          },
+          {
+            "id": "M2.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.orden_fracciones",
+            "difficulty": 1,
+            "prompt": "¿Qué comparación es correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Convierte un medio a octavos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "3/8 < 1/2",
+                "feedback": "Correcto. 1/2 equivale a 4/8 y 3/8 es menor que 4/8."
+              },
+              {
+                "id": "b",
+                "text": "3/8 > 1/2",
+                "feedback": "Revisa la idea clave. 1/2 equivale a 4/8 y 3/8 es menor que 4/8."
+              },
+              {
+                "id": "c",
+                "text": "3/8 = 1/2",
+                "feedback": "Revisa la idea clave. 1/2 equivale a 4/8 y 3/8 es menor que 4/8."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.orden_fracciones",
+            "difficulty": 2,
+            "prompt": "Noa afirma que 3/10 es mayor que 3/4 porque 10 > 4. ¿Qué debe revisar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Compara el tamaño de un décimo y un cuarto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tiene razón: siempre gana el denominador mayor.",
+                "feedback": "Revisa la idea clave. El denominador indica cuántas partes forman la unidad; más partes significa partes individuales más pequeñas."
+              },
+              {
+                "id": "b",
+                "text": "Con el mismo numerador, décimos son partes más pequeñas; 3/10 < 3/4.",
+                "feedback": "Correcto. El denominador indica cuántas partes forman la unidad; más partes significa partes individuales más pequeñas."
+              },
+              {
+                "id": "c",
+                "text": "Debe sumar numerador y denominador.",
+                "feedback": "Revisa la idea clave. El denominador indica cuántas partes forman la unidad; más partes significa partes individuales más pequeñas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.orden_fracciones",
+            "difficulty": 1,
+            "prompt": "Dos ofertas entregan 2/3 y 3/5 de una barra. ¿Cuál entrega más?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca un denominador común: 15.",
+            "options": [
+              {
+                "id": "a",
+                "text": "3/5",
+                "feedback": "Revisa la idea clave. 2/3 = 10/15 y 3/5 = 9/15; diez quinceavos es mayor."
+              },
+              {
+                "id": "b",
+                "text": "Entregan lo mismo",
+                "feedback": "Revisa la idea clave. 2/3 = 10/15 y 3/5 = 9/15; diez quinceavos es mayor."
+              },
+              {
+                "id": "c",
+                "text": "2/3",
+                "feedback": "Correcto. 2/3 = 10/15 y 3/5 = 9/15; diez quinceavos es mayor."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.orden_fracciones",
+            "difficulty": 1,
+            "prompt": "¿Cuál orden es correcto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Convierte 1/2 en 2/4.",
+            "options": [
+              {
+                "id": "a",
+                "text": "1/4 < 1/2 < 3/4",
+                "feedback": "Correcto. En cuartos, 1/4 < 2/4 < 3/4."
+              },
+              {
+                "id": "b",
+                "text": "3/4 < 1/2 < 1/4",
+                "feedback": "Revisa la idea clave. En cuartos, 1/4 < 2/4 < 3/4."
+              },
+              {
+                "id": "c",
+                "text": "1/2 < 1/4 < 3/4",
+                "feedback": "Revisa la idea clave. En cuartos, 1/4 < 2/4 < 3/4."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya comparas fracciones con sentido",
+            "body": "Ordenaste fracciones usando partes iguales, referentes y equivalencias. Ya no dependes de mirar cuál cifra parece mayor: justificas la cantidad.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M2.04",
+        "globalId": "pe-sec1-mat-M2-04",
+        "sequence": 4,
+        "title": "Decimal y valor posicional",
+        "subtitle": "Cada posición decimal representa una parte diez veces menor",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.decimal_valor_posicional",
+        "learningOutcome": "Lee, compone, descompone y compara números decimales hasta los milésimos.",
+        "successEvidence": "Descompone un decimal, reconoce el valor de una cifra y ordena medidas o precios.",
+        "prerequisites": [
+          "Comprende unidades, decenas y centenas",
+          "Interpreta décimos y centésimos"
+        ],
+        "misconceptions": [
+          "Pensar que 0,35 es menor que 0,4 porque 35 es menor que 4",
+          "Confundir el valor de la cifra con la cifra misma",
+          "Añadir ceros a la izquierda de la parte decimal y cambiar el número"
+        ],
+        "screens": [
+          {
+            "id": "M2.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Después de la coma, cada lugar importa",
+            "body": "En 2,374, el 3 representa tres décimos, el 7 siete centésimos y el 4 cuatro milésimos. Leer por posiciones permite entender medidas y dinero sin adivinar.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M2.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.decimal_valor_posicional",
+            "difficulty": 1,
+            "prompt": "En 5,28, ¿qué valor representa el 2?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Cuenta posiciones desde la coma.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Dos centésimos",
+                "feedback": "Revisa la idea clave. El 2 ocupa la primera posición a la derecha de la coma."
+              },
+              {
+                "id": "b",
+                "text": "Dos décimos",
+                "feedback": "Correcto. El 2 ocupa la primera posición a la derecha de la coma."
+              },
+              {
+                "id": "c",
+                "text": "Dos unidades",
+                "feedback": "Revisa la idea clave. El 2 ocupa la primera posición a la derecha de la coma."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Décimos, centésimos y milésimos",
+            "body": "Una unidad contiene 10 décimos, 100 centésimos o 1000 milésimos. Cada paso a la derecha divide el valor entre diez.",
+            "examples": [
+              "0,1 = un décimo",
+              "0,01 = un centésimo",
+              "0,001 = un milésimo"
+            ],
+            "memoryAid": "A la derecha, cada posición vale diez veces menos."
+          },
+          {
+            "id": "M2.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Descomponer muestra el valor",
+            "body": "El número 4,307 se compone de 4 unidades, 3 décimos, 0 centésimos y 7 milésimos. El cero mantiene la posición aunque no aporte cantidad.",
+            "examples": [
+              "4,307 = 4 + 0,3 + 0,007",
+              "2,05 = 2 + 0,05"
+            ],
+            "memoryAid": "No saltes una posición: el cero puede ser un marcador necesario."
+          },
+          {
+            "id": "M2.04-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.decimal_valor_posicional",
+            "difficulty": 1,
+            "prompt": "Escribe como decimal: 3 unidades y 7 centésimos.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Entre la coma y los centésimos está la posición de décimos.",
+            "answer": {
+              "kind": "number",
+              "value": 3.07
+            },
+            "feedbackCorrect": "Como no hay décimos, se conserva el cero: 3,07.",
+            "feedbackIncorrect": "Coloca 7 en la posición de centésimos."
+          },
+          {
+            "id": "M2.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.decimal_valor_posicional",
+            "difficulty": 1,
+            "prompt": "Relaciona cada decimal con su descomposición.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Primera posición: décimos; segunda: centésimos; tercera: milésimos.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "0,6",
+                "rightId": "r1",
+                "right": "6 décimos"
+              },
+              {
+                "leftId": "l2",
+                "left": "0,06",
+                "rightId": "r2",
+                "right": "6 centésimos"
+              },
+              {
+                "leftId": "l3",
+                "left": "1,006",
+                "rightId": "r3",
+                "right": "1 unidad y 6 milésimos"
+              }
+            ],
+            "feedbackCorrect": "Cada 6 tiene un valor distinto según su posición.",
+            "feedbackIncorrect": "Ubica la cifra contando lugares desde la coma."
+          },
+          {
+            "id": "M2.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Comparar alineando posiciones",
+            "body": "Compara primero la parte entera. Si empatan, compara décimos, luego centésimos y después milésimos. Agregar ceros a la derecha no cambia el valor y ayuda a alinear.",
+            "examples": [
+              "0,4 = 0,40 > 0,35",
+              "2,070 = 2,07"
+            ],
+            "memoryAid": "Alinea la coma y compara de izquierda a derecha."
+          },
+          {
+            "id": "M2.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.decimal_valor_posicional",
+            "difficulty": 1,
+            "prompt": "¿Cuál número es mayor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Agrega un cero a la derecha: 0,70.",
+            "options": [
+              {
+                "id": "a",
+                "text": "0,65",
+                "feedback": "Revisa la idea clave. 0,7 = 0,70 y setenta centésimos supera sesenta y cinco centésimos."
+              },
+              {
+                "id": "b",
+                "text": "Son iguales",
+                "feedback": "Revisa la idea clave. 0,7 = 0,70 y setenta centésimos supera sesenta y cinco centésimos."
+              },
+              {
+                "id": "c",
+                "text": "0,7",
+                "feedback": "Correcto. 0,7 = 0,70 y setenta centésimos supera sesenta y cinco centésimos."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.decimal_valor_posicional",
+            "difficulty": 2,
+            "prompt": "Iván dice que 1,08 es mayor que 1,5 porque 8 > 5. ¿Qué debe hacer?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Compara primero los décimos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Comparar solo las cifras finales.",
+                "feedback": "Revisa la idea clave. La comparación decimal empieza por la posición de mayor valor que sea diferente."
+              },
+              {
+                "id": "b",
+                "text": "Alinear posiciones: 1,08 < 1,50 porque 0 décimos es menor que 5 décimos.",
+                "feedback": "Correcto. La comparación decimal empieza por la posición de mayor valor que sea diferente."
+              },
+              {
+                "id": "c",
+                "text": "Quitar la coma y elegir 108.",
+                "feedback": "Revisa la idea clave. La comparación decimal empieza por la posición de mayor valor que sea diferente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.decimal_valor_posicional",
+            "difficulty": 1,
+            "prompt": "Una cinta mide 2,305 m y otra 2,35 m. ¿Cuál es más larga?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Completa ambas hasta milésimos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La de 2,305 m",
+                "feedback": "Revisa la idea clave. 2,35 = 2,350, que supera 2,305."
+              },
+              {
+                "id": "b",
+                "text": "Miden igual",
+                "feedback": "Revisa la idea clave. 2,35 = 2,350, que supera 2,305."
+              },
+              {
+                "id": "c",
+                "text": "La de 2,35 m",
+                "feedback": "Correcto. 2,35 = 2,350, que supera 2,305."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.decimal_valor_posicional",
+            "difficulty": 1,
+            "prompt": "¿Qué igualdad es correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Asegúrate de no mover la coma.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4,5 = 4,500",
+                "feedback": "Correcto. Los ceros añadidos a la derecha de la parte decimal no cambian el valor."
+              },
+              {
+                "id": "b",
+                "text": "4,5 = 4,05",
+                "feedback": "Revisa la idea clave. Los ceros añadidos a la derecha de la parte decimal no cambian el valor."
+              },
+              {
+                "id": "c",
+                "text": "4,50 = 45,0",
+                "feedback": "Revisa la idea clave. Los ceros añadidos a la derecha de la parte decimal no cambian el valor."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees el valor de cada cifra",
+            "body": "Compusiste, descompusiste y comparaste decimales hasta los milésimos. La coma ya no separa cifras misteriosas: organiza valores precisos.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M2.05",
+        "globalId": "pe-sec1-mat-M2-05",
+        "sequence": 5,
+        "title": "Fracción a decimal",
+        "subtitle": "Dividir el numerador entre el denominador revela otra escritura",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.fraccion_decimal",
+        "learningOutcome": "Convierte fracciones frecuentes en decimales mediante equivalencias y división, y comprueba si el resultado es razonable.",
+        "successEvidence": "Convierte cuatro fracciones a decimal y verifica una conversión usando multiplicación o un referente.",
+        "prerequisites": [
+          "Comprende fracciones equivalentes",
+          "Lee números decimales"
+        ],
+        "misconceptions": [
+          "Escribir numerador y denominador a ambos lados de la coma",
+          "Invertir la división",
+          "Aceptar un decimal sin comprobar su tamaño aproximado"
+        ],
+        "screens": [
+          {
+            "id": "M2.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La barra de fracción también significa dividir",
+            "body": "La fracción 3/4 significa 3 ÷ 4. Esa división produce 0,75. Fracción y decimal son dos escrituras de la misma cantidad, no resultados distintos.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M2.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.fraccion_decimal",
+            "difficulty": 1,
+            "prompt": "¿Qué operación convierte 3/5 en decimal?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Lee 3/5 como tres dividido entre cinco.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5 ÷ 3",
+                "feedback": "Revisa la idea clave. La barra de fracción indica numerador dividido entre denominador."
+              },
+              {
+                "id": "b",
+                "text": "3 ÷ 5",
+                "feedback": "Correcto. La barra de fracción indica numerador dividido entre denominador."
+              },
+              {
+                "id": "c",
+                "text": "3 + 5",
+                "feedback": "Revisa la idea clave. La barra de fracción indica numerador dividido entre denominador."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Primero busca una equivalencia conocida",
+            "body": "Si el denominador puede convertirse fácilmente en 10, 100 o 1000, la escritura decimal aparece de inmediato. Dos quintos equivalen a cuatro décimos.",
+            "examples": [
+              "2/5 = 4/10 = 0,4",
+              "3/20 = 15/100 = 0,15"
+            ],
+            "memoryAid": "Antes de dividir, pregunta si puedes llegar a 10 o 100."
+          },
+          {
+            "id": "M2.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Si no, divide numerador entre denominador",
+            "body": "En a/b, el numerador es la cantidad que se reparte y el denominador indica entre cuántos. Para 3/8, calcula 3 ÷ 8 = 0,375.",
+            "examples": [
+              "1/4 = 1 ÷ 4 = 0,25",
+              "7/2 = 7 ÷ 2 = 3,5"
+            ],
+            "memoryAid": "Siempre: numerador dividido entre denominador."
+          },
+          {
+            "id": "M2.05-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.fraccion_decimal",
+            "difficulty": 1,
+            "prompt": "Convierte 1/2 a decimal.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "1/2 = 5/10.",
+            "answer": {
+              "kind": "number",
+              "value": 0.5
+            },
+            "feedbackCorrect": "1 ÷ 2 = 0,5.",
+            "feedbackIncorrect": "Piensa en cinco décimos."
+          },
+          {
+            "id": "M2.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.fraccion_decimal",
+            "difficulty": 1,
+            "prompt": "Relaciona cada fracción con su decimal.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "1/4 equivale a 25/100.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "1/4",
+                "rightId": "r1",
+                "right": "0,25"
+              },
+              {
+                "leftId": "l2",
+                "left": "3/5",
+                "rightId": "r2",
+                "right": "0,6"
+              },
+              {
+                "leftId": "l3",
+                "left": "9/10",
+                "rightId": "r3",
+                "right": "0,9"
+              }
+            ],
+            "feedbackCorrect": "Cada pareja expresa la misma posición en la recta.",
+            "feedbackIncorrect": "Convierte el denominador a 10 o 100 cuando sea posible."
+          },
+          {
+            "id": "M2.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Estima antes de aceptar",
+            "body": "Si la fracción es menor que uno, su decimal debe quedar entre 0 y 1. Si 3/4 está cerca de uno, 0,75 es razonable; 7,5 no lo sería.",
+            "examples": [
+              "1/2 = 0,5",
+              "1/4 = 0,25",
+              "3/4 = 0,75"
+            ],
+            "memoryAid": "Comprueba el intervalo: menor que 1, igual a 1 o mayor que 1."
+          },
+          {
+            "id": "M2.05-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.fraccion_decimal",
+            "difficulty": 1,
+            "prompt": "Convierte 3/8 a decimal.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "8 × 125 = 1000.",
+            "answer": {
+              "kind": "number",
+              "value": 0.375
+            },
+            "feedbackCorrect": "3 ÷ 8 = 0,375.",
+            "feedbackIncorrect": "Divide 3 entre 8 o convierte a milésimos."
+          },
+          {
+            "id": "M2.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.fraccion_decimal",
+            "difficulty": 2,
+            "prompt": "Sara escribió 2/5 = 2,5. ¿Cuál fue su error?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Comprueba: 2/5 es menor que 1.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debió calcular 5 ÷ 2 = 2,5.",
+                "feedback": "Revisa la idea clave. La escritura decimal se obtiene mediante equivalencia o división, no copiando las cifras."
+              },
+              {
+                "id": "b",
+                "text": "Colocó las cifras alrededor de la coma sin calcular 2 ÷ 5; el resultado es 0,4.",
+                "feedback": "Correcto. La escritura decimal se obtiene mediante equivalencia o división, no copiando las cifras."
+              },
+              {
+                "id": "c",
+                "text": "Toda fracción debe dar un número mayor que uno.",
+                "feedback": "Revisa la idea clave. La escritura decimal se obtiene mediante equivalencia o división, no copiando las cifras."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.fraccion_decimal",
+            "difficulty": 1,
+            "prompt": "Una botella está llena en 7/10 de su capacidad. ¿Qué decimal muestra el mismo nivel?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "El denominador 10 corresponde a la primera posición decimal.",
+            "options": [
+              {
+                "id": "a",
+                "text": "0,07",
+                "feedback": "Revisa la idea clave. Siete décimos se escriben 0,7."
+              },
+              {
+                "id": "b",
+                "text": "7,0",
+                "feedback": "Revisa la idea clave. Siete décimos se escriben 0,7."
+              },
+              {
+                "id": "c",
+                "text": "0,7",
+                "feedback": "Correcto. Siete décimos se escriben 0,7."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.fraccion_decimal",
+            "difficulty": 1,
+            "prompt": "¿Qué conversión es razonable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Primero decide entre qué enteros debe quedar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5/4 = 1,25",
+                "feedback": "Correcto. 5/4 es un poco mayor que uno: 1,25 cumple esa estimación."
+              },
+              {
+                "id": "b",
+                "text": "5/4 = 0,54",
+                "feedback": "Revisa la idea clave. 5/4 es un poco mayor que uno: 1,25 cumple esa estimación."
+              },
+              {
+                "id": "c",
+                "text": "5/4 = 5,4",
+                "feedback": "Revisa la idea clave. 5/4 es un poco mayor que uno: 1,25 cumple esa estimación."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya traduces fracciones a decimales",
+            "body": "Usaste equivalencias, división y estimación para cambiar de escritura sin perder el valor. Ahora puedes elegir la forma más útil para medir o comparar.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M2.06",
+        "globalId": "pe-sec1-mat-M2-06",
+        "sequence": 6,
+        "title": "Porcentaje como fracción",
+        "subtitle": "Un porcentaje indica cuántas partes hay de cada cien",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.porcentaje_significado",
+        "learningOutcome": "Interpreta porcentajes como fracciones de denominador cien y calcula porcentajes sencillos de una cantidad.",
+        "successEvidence": "Representa un porcentaje de tres formas y calcula 10 %, 25 % o 50 % de una cantidad explicando el procedimiento.",
+        "prerequisites": [
+          "Interpreta fracciones",
+          "Comprende centésimos"
+        ],
+        "misconceptions": [
+          "Pensar que porcentaje significa sumar cien",
+          "Confundir 5 % con 0,5",
+          "Calcular un porcentaje sin identificar la cantidad total"
+        ],
+        "screens": [
+          {
+            "id": "M2.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Por ciento significa de cada cien",
+            "body": "El símbolo % resume una idea: 25 % significa 25 de cada 100, es decir 25/100. Podemos simplificarlo a 1/4 o escribirlo como 0,25.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M2.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.porcentaje_significado",
+            "difficulty": 1,
+            "prompt": "¿Qué significa 30 %?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Lee el símbolo % como 'de cada 100'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "30 de cada 10",
+                "feedback": "Revisa la idea clave. Por ciento significa literalmente por cada cien."
+              },
+              {
+                "id": "b",
+                "text": "30 de cada 100",
+                "feedback": "Correcto. Por ciento significa literalmente por cada cien."
+              },
+              {
+                "id": "c",
+                "text": "Sumar 30 y 100",
+                "feedback": "Revisa la idea clave. Por ciento significa literalmente por cada cien."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Tres escrituras, una cantidad",
+            "body": "Para pasar de porcentaje a fracción, colócalo sobre 100. Para obtener el decimal, divide entre 100, lo que desplaza la coma dos posiciones hacia la izquierda.",
+            "examples": [
+              "40 % = 40/100 = 0,40",
+              "5 % = 5/100 = 0,05"
+            ],
+            "memoryAid": "Porcentaje → sobre cien → decimal."
+          },
+          {
+            "id": "M2.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Porcentajes de referencia",
+            "body": "Algunos porcentajes se reconocen con fracciones simples: 50 % es la mitad, 25 % es la cuarta parte y 10 % es la décima parte. Estos referentes permiten calcular mentalmente.",
+            "examples": [
+              "50 % de 30 = 15",
+              "25 % de 20 = 5",
+              "10 % de 70 = 7"
+            ],
+            "memoryAid": "Mitad, cuarta parte y décima parte son atajos con significado."
+          },
+          {
+            "id": "M2.06-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.porcentaje_significado",
+            "difficulty": 1,
+            "prompt": "Escribe 25 % como decimal.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Mover la coma dos posiciones a la izquierda equivale a dividir entre 100.",
+            "answer": {
+              "kind": "number",
+              "value": 0.25
+            },
+            "feedbackCorrect": "25 % = 25/100 = 0,25.",
+            "feedbackIncorrect": "Divide 25 entre 100."
+          },
+          {
+            "id": "M2.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.porcentaje_significado",
+            "difficulty": 1,
+            "prompt": "Relaciona cada porcentaje con una fracción equivalente.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "50/100 se simplifica dividiendo entre 50.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "50 %",
+                "rightId": "r1",
+                "right": "1/2"
+              },
+              {
+                "leftId": "l2",
+                "left": "25 %",
+                "rightId": "r2",
+                "right": "1/4"
+              },
+              {
+                "leftId": "l3",
+                "left": "10 %",
+                "rightId": "r3",
+                "right": "1/10"
+              }
+            ],
+            "feedbackCorrect": "Estos porcentajes de referencia representan fracciones conocidas.",
+            "feedbackIncorrect": "Escribe cada porcentaje sobre 100 y simplifica."
+          },
+          {
+            "id": "M2.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "El total representa 100 %",
+            "body": "Antes de calcular, identifica cuál cantidad es el total. Si hay 40 estudiantes, esos 40 representan 100 %. Entonces 25 % del grupo es la cuarta parte: 10 estudiantes.",
+            "examples": [
+              "100 % de 40 = 40",
+              "25 % de 40 = 10"
+            ],
+            "memoryAid": "Escribe siempre: ¿100 % de qué cantidad?"
+          },
+          {
+            "id": "M2.06-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.porcentaje_significado",
+            "difficulty": 1,
+            "prompt": "¿Cuánto es 10 % de 80?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Divide 80 entre 10.",
+            "answer": {
+              "kind": "number",
+              "value": 8
+            },
+            "feedbackCorrect": "10 % es una décima parte: 80 ÷ 10 = 8.",
+            "feedbackIncorrect": "Busca la décima parte del total."
+          },
+          {
+            "id": "M2.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.porcentaje_significado",
+            "difficulty": 2,
+            "prompt": "Alex escribió 5 % = 0,5. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Compara 5 de cada 100 con la mitad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe escribir 5,00 porque el símbolo desaparece.",
+                "feedback": "Revisa la idea clave. Dividir entre 100 mueve la cifra 5 hasta los centésimos."
+              },
+              {
+                "id": "b",
+                "text": "5 % es 5/100 = 0,05; 0,5 representa 50 %.",
+                "feedback": "Correcto. Dividir entre 100 mueve la cifra 5 hasta los centésimos."
+              },
+              {
+                "id": "c",
+                "text": "Debe sumar 100 y obtener 105.",
+                "feedback": "Revisa la idea clave. Dividir entre 100 mueve la cifra 5 hasta los centésimos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.porcentaje_significado",
+            "difficulty": 1,
+            "prompt": "En una clase de 24 estudiantes, 50 % llevó una botella reutilizable. ¿Cuántos estudiantes son?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Usa el referente 50 % = 1/2.",
+            "options": [
+              {
+                "id": "a",
+                "text": "24",
+                "feedback": "Revisa la idea clave. 50 % es la mitad y la mitad de 24 es 12."
+              },
+              {
+                "id": "b",
+                "text": "50",
+                "feedback": "Revisa la idea clave. 50 % es la mitad y la mitad de 24 es 12."
+              },
+              {
+                "id": "c",
+                "text": "12",
+                "feedback": "Correcto. 50 % es la mitad y la mitad de 24 es 12."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.porcentaje_significado",
+            "difficulty": 1,
+            "prompt": "¿Qué equivalencia es correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Parte de 75/100 y simplifica entre 25.",
+            "options": [
+              {
+                "id": "a",
+                "text": "75 % = 3/4 = 0,75",
+                "feedback": "Correcto. 75/100 se simplifica a 3/4 y se escribe 0,75."
+              },
+              {
+                "id": "b",
+                "text": "75 % = 3/5 = 0,75",
+                "feedback": "Revisa la idea clave. 75/100 se simplifica a 3/4 y se escribe 0,75."
+              },
+              {
+                "id": "c",
+                "text": "75 % = 75/10 = 7,5",
+                "feedback": "Revisa la idea clave. 75/100 se simplifica a 3/4 y se escribe 0,75."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya entiendes qué mide un porcentaje",
+            "body": "Conectaste porcentajes con fracciones y decimales, identificaste el total y calculaste porcentajes de referencia sin fórmulas vacías.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M2.07",
+        "globalId": "pe-sec1-mat-M2-07",
+        "sequence": 7,
+        "title": "Equivalencias múltiples",
+        "subtitle": "Fracción, decimal y porcentaje describen la misma posición",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.equivalencias_multiples",
+        "learningOutcome": "Convierte con fluidez entre fracciones, decimales y porcentajes, y comprueba la equivalencia.",
+        "successEvidence": "Completa una tabla de equivalencias y detecta una asociación incorrecta justificando la corrección.",
+        "prerequisites": [
+          "Convierte fracciones a decimales",
+          "Interpreta porcentajes"
+        ],
+        "misconceptions": [
+          "Aplicar reglas distintas sin comprobar el valor",
+          "Confundir 0,2 con 2 %",
+          "Creer que el símbolo cambia la cantidad"
+        ],
+        "screens": [
+          {
+            "id": "M2.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Cambiar de escritura no cambia la cantidad",
+            "body": "1/2, 0,5 y 50 % son tres etiquetas para el mismo punto. Practicarás rutas cortas para pasar de una a otra y usarás referentes para detectar errores.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M2.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.equivalencias_multiples",
+            "difficulty": 1,
+            "prompt": "¿Qué porcentaje equivale a 0,4?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Imagina 0,4 como 40 centésimos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4 %",
+                "feedback": "Revisa la idea clave. 0,4 × 100 = 40."
+              },
+              {
+                "id": "b",
+                "text": "40 %",
+                "feedback": "Correcto. 0,4 × 100 = 40."
+              },
+              {
+                "id": "c",
+                "text": "400 %",
+                "feedback": "Revisa la idea clave. 0,4 × 100 = 40."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Decimal y porcentaje",
+            "body": "Para convertir decimal a porcentaje, multiplica por 100 y añade %. Para regresar, divide el porcentaje entre 100. La posición en la recta no cambia.",
+            "examples": [
+              "0,32 = 32 %",
+              "7 % = 0,07"
+            ],
+            "memoryAid": "Decimal × 100; porcentaje ÷ 100."
+          },
+          {
+            "id": "M2.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Fracción, decimal y porcentaje",
+            "body": "Convierte la fracción a decimal mediante división; después pasa el decimal a porcentaje. También puedes convertir la fracción a un denominador 100 cuando sea sencillo.",
+            "examples": [
+              "3/5 = 0,6 = 60 %",
+              "7/20 = 35/100 = 0,35 = 35 %"
+            ],
+            "memoryAid": "El decimal funciona como puente entre las tres formas."
+          },
+          {
+            "id": "M2.07-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.equivalencias_multiples",
+            "difficulty": 1,
+            "prompt": "Convierte 35 % a decimal.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Coloca 35 en centésimos.",
+            "answer": {
+              "kind": "number",
+              "value": 0.35
+            },
+            "feedbackCorrect": "35 % = 35/100 = 0,35.",
+            "feedbackIncorrect": "Divide entre 100."
+          },
+          {
+            "id": "M2.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.equivalencias_multiples",
+            "difficulty": 1,
+            "prompt": "Forma grupos equivalentes.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "1/5 equivale a 2/10.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "1/5",
+                "rightId": "r1",
+                "right": "0,2 = 20 %"
+              },
+              {
+                "leftId": "l2",
+                "left": "3/4",
+                "rightId": "r2",
+                "right": "0,75 = 75 %"
+              },
+              {
+                "leftId": "l3",
+                "left": "9/10",
+                "rightId": "r3",
+                "right": "0,9 = 90 %"
+              }
+            ],
+            "feedbackCorrect": "Cada fila señala el mismo valor con tres escrituras.",
+            "feedbackIncorrect": "Convierte primero la fracción a decimal."
+          },
+          {
+            "id": "M2.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Anclas para comprobar",
+            "body": "Memoriza pocas equivalencias con sentido: 0 es 0 %, 1/4 es 25 %, 1/2 es 50 %, 3/4 es 75 % y 1 es 100 %. Úsalas para estimar.",
+            "examples": [
+              "0,48 debe estar cerca de 50 %",
+              "4/5 debe superar 75 %"
+            ],
+            "memoryAid": "Compara con 0, 1/4, 1/2, 3/4 y 1."
+          },
+          {
+            "id": "M2.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.equivalencias_multiples",
+            "difficulty": 1,
+            "prompt": "¿Qué fracción simplificada equivale a 60 %?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Empieza con 60/100.",
+            "options": [
+              {
+                "id": "a",
+                "text": "6/100",
+                "feedback": "Revisa la idea clave. 60/100 se simplifica dividiendo entre 20: 3/5."
+              },
+              {
+                "id": "b",
+                "text": "2/3",
+                "feedback": "Revisa la idea clave. 60/100 se simplifica dividiendo entre 20: 3/5."
+              },
+              {
+                "id": "c",
+                "text": "3/5",
+                "feedback": "Correcto. 60/100 se simplifica dividiendo entre 20: 3/5."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.equivalencias_multiples",
+            "difficulty": 2,
+            "prompt": "Lina relacionó 0,2 con 2 %. ¿Qué corrección necesita?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Escribe 0,2 como 0,20.",
+            "options": [
+              {
+                "id": "a",
+                "text": "0,2 equivale a 200 %.",
+                "feedback": "Revisa la idea clave. Para convertir decimal a porcentaje se multiplica por 100."
+              },
+              {
+                "id": "b",
+                "text": "0,2 son veinte centésimos, por eso equivale a 20 %.",
+                "feedback": "Correcto. Para convertir decimal a porcentaje se multiplica por 100."
+              },
+              {
+                "id": "c",
+                "text": "2 % y 20 % son iguales.",
+                "feedback": "Revisa la idea clave. Para convertir decimal a porcentaje se multiplica por 100."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.equivalencias_multiples",
+            "difficulty": 1,
+            "prompt": "Una encuesta indica que 3/10 del grupo prefiere caminar. ¿Qué par comunica la misma proporción?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Amplifica 3/10 a 30/100.",
+            "options": [
+              {
+                "id": "a",
+                "text": "0,03 y 3 %",
+                "feedback": "Revisa la idea clave. 3/10 se escribe 0,3 y equivale a 30 de cada 100."
+              },
+              {
+                "id": "b",
+                "text": "3,0 y 300 %",
+                "feedback": "Revisa la idea clave. 3/10 se escribe 0,3 y equivale a 30 de cada 100."
+              },
+              {
+                "id": "c",
+                "text": "0,3 y 30 %",
+                "feedback": "Correcto. 3/10 se escribe 0,3 y equivale a 30 de cada 100."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.equivalencias_multiples",
+            "difficulty": 1,
+            "prompt": "¿Cuál cadena es incorrecta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Calcula 2 ÷ 5.",
+            "options": [
+              {
+                "id": "a",
+                "text": "2/5 = 0,2 = 20 %",
+                "feedback": "Correcto. 2/5 equivale a 0,4 y 40 %, no a 0,2."
+              },
+              {
+                "id": "b",
+                "text": "1/4 = 0,25 = 25 %",
+                "feedback": "Revisa la idea clave. 2/5 equivale a 0,4 y 40 %, no a 0,2."
+              },
+              {
+                "id": "c",
+                "text": "4/5 = 0,8 = 80 %",
+                "feedback": "Revisa la idea clave. 2/5 equivale a 0,4 y 40 %, no a 0,2."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya cambias de forma sin perder el valor",
+            "body": "Conectaste fracciones, decimales y porcentajes, usando anclas para comprobar. Ahora puedes leer datos aunque cambie su presentación.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M2.08",
+        "globalId": "pe-sec1-mat-M2-08",
+        "sequence": 8,
+        "title": "Elegir una representación",
+        "subtitle": "La mejor escritura depende de lo que necesitas hacer",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.elegir_representacion",
+        "learningOutcome": "Elige entre fracción, decimal y porcentaje para comparar, calcular o comunicar una cantidad y justifica su decisión.",
+        "successEvidence": "Resuelve una situación usando una representación eficiente y explica por qué facilita el procedimiento.",
+        "prerequisites": [
+          "Convierte entre fracción, decimal y porcentaje",
+          "Compara cantidades racionales sencillas"
+        ],
+        "misconceptions": [
+          "Creer que siempre existe una única forma correcta de escribir",
+          "Convertir por costumbre aunque complique el cálculo",
+          "Comparar representaciones distintas sin hacerlas compatibles"
+        ],
+        "screens": [
+          {
+            "id": "M2.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una buena representación ahorra trabajo",
+            "body": "25 %, 0,25 y 1/4 valen lo mismo, pero no siempre sirven igual. Para hallar la cuarta parte de 80 conviene 1/4; para leer una rebaja comercial suele ser más claro 25 %.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M2.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.elegir_representacion",
+            "difficulty": 1,
+            "prompt": "¿Qué forma facilita hallar la mitad de 36 sin calculadora?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Elige la forma que muestra la operación más sencilla.",
+            "options": [
+              {
+                "id": "a",
+                "text": "0,50 con tres decimales",
+                "feedback": "Revisa la idea clave. La fracción 1/2 indica directamente dividir entre dos."
+              },
+              {
+                "id": "b",
+                "text": "1/2",
+                "feedback": "Correcto. La fracción 1/2 indica directamente dividir entre dos."
+              },
+              {
+                "id": "c",
+                "text": "50/1",
+                "feedback": "Revisa la idea clave. La fracción 1/2 indica directamente dividir entre dos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Fracciones para repartir",
+            "body": "Cuando la situación habla de partes iguales, cocientes o proporciones exactas, la fracción suele mostrar mejor la estructura. Un tercio comunica un reparto exacto aunque su decimal no termine.",
+            "examples": [
+              "1/3 de una ruta",
+              "3 pizzas entre 8 personas: 3/8 para cada una"
+            ],
+            "memoryAid": "Si importa el reparto exacto, prueba una fracción."
+          },
+          {
+            "id": "M2.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Decimales para medir y calcular",
+            "body": "Precios, longitudes y registros instrumentales suelen usar decimales porque se alinean por valor posicional y permiten operar con las mismas unidades.",
+            "examples": [
+              "S/ 12,50",
+              "1,75 m",
+              "0,8 L"
+            ],
+            "memoryAid": "Si importa una medida posicional, el decimal suele ser directo."
+          },
+          {
+            "id": "M2.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.elegir_representacion",
+            "difficulty": 1,
+            "prompt": "Para registrar una longitud de un metro y veinticinco centímetros, ¿qué forma es más práctica?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Piensa en la escritura habitual de un instrumento de medición.",
+            "options": [
+              {
+                "id": "a",
+                "text": "125 % de metro sin explicación",
+                "feedback": "Revisa la idea clave. Las medidas decimales alinean metros y centésimos de metro."
+              },
+              {
+                "id": "b",
+                "text": "125/1 m",
+                "feedback": "Revisa la idea clave. Las medidas decimales alinean metros y centésimos de metro."
+              },
+              {
+                "id": "c",
+                "text": "1,25 m",
+                "feedback": "Correcto. Las medidas decimales alinean metros y centésimos de metro."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.elegir_representacion",
+            "difficulty": 1,
+            "prompt": "Relaciona la tarea con una representación especialmente útil.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Cada representación destaca una relación diferente.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Repartir 5 panes entre 8",
+                "rightId": "r1",
+                "right": "Fracción 5/8"
+              },
+              {
+                "leftId": "l2",
+                "left": "Registrar S/ 3 y 50 céntimos",
+                "rightId": "r2",
+                "right": "Decimal 3,50"
+              },
+              {
+                "leftId": "l3",
+                "left": "Comparar aprobación entre grupos de distinto tamaño",
+                "rightId": "r3",
+                "right": "Porcentaje"
+              }
+            ],
+            "feedbackCorrect": "Elegiste según la estructura del problema, no por costumbre.",
+            "feedbackIncorrect": "Pregunta si debes repartir, medir o comparar proporciones."
+          },
+          {
+            "id": "M2.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Porcentajes para comparar proporciones",
+            "body": "El porcentaje lleva distintas cantidades a una base común de cien. Por eso ayuda a comparar encuestas, descuentos o avances aunque los totales sean diferentes.",
+            "examples": [
+              "18 de 30 = 60 %",
+              "40 de 80 = 50 %; así 60 % es mayor"
+            ],
+            "memoryAid": "Si los totales cambian, una base de cien facilita comparar."
+          },
+          {
+            "id": "M2.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.elegir_representacion",
+            "difficulty": 1,
+            "prompt": "Dos equipos acertaron 12 de 20 y 21 de 30 preguntas. ¿Qué forma permite comparar con rapidez?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Lleva ambas razones a cada cien.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porcentajes: 60 % y 70 %.",
+                "feedback": "Correcto. Como los totales son distintos, convertir a una base común permite comparar justamente."
+              },
+              {
+                "id": "b",
+                "text": "Solo los aciertos: 12 y 21.",
+                "feedback": "Revisa la idea clave. Como los totales son distintos, convertir a una base común permite comparar justamente."
+              },
+              {
+                "id": "c",
+                "text": "Sumar aciertos y totales: 33 de 50.",
+                "feedback": "Revisa la idea clave. Como los totales son distintos, convertir a una base común permite comparar justamente."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.elegir_representacion",
+            "difficulty": 2,
+            "prompt": "Renzo convierte 1/3 a 0,33 y afirma que son exactamente iguales. ¿Qué debe precisar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Pregunta si la división termina.",
+            "options": [
+              {
+                "id": "a",
+                "text": "0,33 es mayor que uno.",
+                "feedback": "Revisa la idea clave. El decimal de 1/3 continúa: 0,333…; cortar cifras produce una aproximación."
+              },
+              {
+                "id": "b",
+                "text": "0,33 es una aproximación; 1/3 conserva el valor exacto.",
+                "feedback": "Correcto. El decimal de 1/3 continúa: 0,333…; cortar cifras produce una aproximación."
+              },
+              {
+                "id": "c",
+                "text": "Toda fracción debe convertirse a porcentaje.",
+                "feedback": "Revisa la idea clave. El decimal de 1/3 continúa: 0,333…; cortar cifras produce una aproximación."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M2.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.elegir_representacion",
+            "difficulty": 1,
+            "prompt": "Una tienda anuncia que un producto cuesta ahora 3/4 de su precio original. ¿Qué porcentaje del precio se paga?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Convierte la fracción a centésimos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "25 %",
+                "feedback": "Revisa la idea clave. 3/4 = 0,75 = 75 %; el descuento sería el 25 % restante."
+              },
+              {
+                "id": "b",
+                "text": "34 %",
+                "feedback": "Revisa la idea clave. 3/4 = 0,75 = 75 %; el descuento sería el 25 % restante."
+              },
+              {
+                "id": "c",
+                "text": "75 %",
+                "feedback": "Correcto. 3/4 = 0,75 = 75 %; el descuento sería el 25 % restante."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M2.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.elegir_representacion",
+            "difficulty": 1,
+            "prompt": "¿Cuál justificación es mejor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una razón matemática, no solo una preferencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Uso 25 % para comparar descuentos porque todos quedan expresados sobre una base de cien.",
+                "feedback": "Correcto. La elección se justifica por la tarea y la información que hace visible."
+              },
+              {
+                "id": "b",
+                "text": "Uso porcentaje porque siempre tiene menos cifras.",
+                "feedback": "Revisa la idea clave. La elección se justifica por la tarea y la información que hace visible."
+              },
+              {
+                "id": "c",
+                "text": "Uso decimal porque nunca necesito explicar la unidad.",
+                "feedback": "Revisa la idea clave. La elección se justifica por la tarea y la información que hace visible."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M2.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya eliges la herramienta numérica",
+            "body": "Decidiste cuándo conviene una fracción, un decimal o un porcentaje. Dominar varias representaciones no es memorizar tres respuestas: es escoger la más clara y eficiente.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
