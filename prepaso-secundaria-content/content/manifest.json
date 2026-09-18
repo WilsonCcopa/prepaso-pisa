@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentRelease": "2026.09.3",
+  "contentRelease": "2026.09.4",
   "locale": "es-PE",
   "country": "PE",
   "minimumEngineVersion": "0.1.0",
@@ -31,11 +31,11 @@
               "id": "M1",
               "sequence": 1,
               "title": "Enteros, orden y divisibilidad",
-              "status": "partial",
+              "status": "ready",
               "plannedLessonCount": 8,
-              "readyLessonCount": 5,
-              "version": "1.0.0",
-              "path": "pe/secundaria/1/matematica/M1-enteros-v1.json"
+              "readyLessonCount": 8,
+              "version": "2.0.0",
+              "path": "pe/secundaria/1/matematica/M1-enteros-v2.json"
             }
           ]
         },
@@ -60,11 +60,11 @@
               "id": "L1",
               "sequence": 1,
               "title": "Localizar e integrar información",
-              "status": "partial",
+              "status": "ready",
               "plannedLessonCount": 8,
-              "readyLessonCount": 5,
-              "version": "1.0.0",
-              "path": "pe/secundaria/1/lectura/L1-localizar-integrar-v1.json"
+              "readyLessonCount": 8,
+              "version": "2.0.0",
+              "path": "pe/secundaria/1/lectura/L1-localizar-integrar-v2.json"
             }
           ]
         },
@@ -84,6 +84,16 @@
               "readyLessonCount": 8,
               "version": "1.0.0",
               "path": "pe/secundaria/1/mail/A0-ciudadania-digital-v1.json"
+            },
+            {
+              "id": "A1",
+              "sequence": 1,
+              "title": "Autores, audiencias y economía de la atención",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/mail/A1-autores-audiencias-atencion-v1.json"
             }
           ]
         }
