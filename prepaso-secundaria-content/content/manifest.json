@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "contentRelease": "2026.09.1",
+  "contentRelease": "2026.09.3",
   "locale": "es-PE",
   "country": "PE",
   "minimumEngineVersion": "0.1.0",
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-09-18",
   "grades": [
     {
       "id": "sec1",
@@ -18,6 +18,16 @@
           "colorToken": "subject-math",
           "units": [
             {
+              "id": "M0",
+              "sequence": 0,
+              "title": "Diagnóstico y puente desde primaria",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/matematica/M0-diagnostico-puente-v1.json"
+            },
+            {
               "id": "M1",
               "sequence": 1,
               "title": "Enteros, orden y divisibilidad",
@@ -26,6 +36,54 @@
               "readyLessonCount": 5,
               "version": "1.0.0",
               "path": "pe/secundaria/1/matematica/M1-enteros-v1.json"
+            }
+          ]
+        },
+        {
+          "id": "lectura",
+          "label": "Lectura",
+          "officialArea": "Comunicación",
+          "officialCompetency": "Lee diversos tipos de textos escritos en su lengua materna",
+          "colorToken": "subject-reading",
+          "units": [
+            {
+              "id": "L0",
+              "sequence": 0,
+              "title": "Diagnóstico lector y propósito",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/lectura/L0-diagnostico-lector-v1.json"
+            },
+            {
+              "id": "L1",
+              "sequence": 1,
+              "title": "Localizar e integrar información",
+              "status": "partial",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 5,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/lectura/L1-localizar-integrar-v1.json"
+            }
+          ]
+        },
+        {
+          "id": "mail",
+          "label": "MAIL",
+          "officialArea": "Competencia transversal TIC y dominio innovador PISA 2029",
+          "officialCompetency": "Se desenvuelve en entornos virtuales generados por las TIC",
+          "colorToken": "subject-mail",
+          "units": [
+            {
+              "id": "A0",
+              "sequence": 0,
+              "title": "Ciudadanía digital, identidad y agencia",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/mail/A0-ciudadania-digital-v1.json"
             }
           ]
         }
