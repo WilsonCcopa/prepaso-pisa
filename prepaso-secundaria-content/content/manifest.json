@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentRelease": "2026.09.7",
+  "contentRelease": "2026.09.8",
   "locale": "es-PE",
   "country": "PE",
   "minimumEngineVersion": "0.1.0",
@@ -184,6 +184,36 @@
               "readyLessonCount": 8,
               "version": "1.0.0",
               "path": "pe/secundaria/1/mail/A2-acceso-busqueda-organizacion-v1.json"
+            },
+            {
+              "id": "A3",
+              "sequence": 3,
+              "title": "Credibilidad, verificación y desinformación",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/mail/A3-credibilidad-verificacion-desinformacion-v1.json"
+            },
+            {
+              "id": "A4",
+              "sequence": 4,
+              "title": "Mensajes, significados y representaciones",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/mail/A4-mensajes-significados-representaciones-v1.json"
+            },
+            {
+              "id": "A5",
+              "sequence": 5,
+              "title": "Datos, algoritmos y sistemas de recomendación",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/mail/A5-datos-algoritmos-recomendacion-v1.json"
             }
           ]
         }
