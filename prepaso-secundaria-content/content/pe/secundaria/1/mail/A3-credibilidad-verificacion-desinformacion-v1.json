@@ -1,0 +1,2727 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.8",
+  "locale": "es-PE",
+  "unit": {
+    "id": "A3",
+    "globalId": "pe-sec1-mail-A3",
+    "sequence": 3,
+    "grade": "sec1",
+    "subject": "mail",
+    "title": "Credibilidad, verificación y desinformación",
+    "shortTitle": "Verificar contenido",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb_y_al_borrador_mail_2029",
+    "officialStatusNote": "A3 es una secuencia editorial de Prepaso. Se alinea con la competencia transversal del CNEB y con el primer borrador preliminar del marco PISA 2029 MAIL publicado por la OCDE en enero de 2026, sujeto a revisión antes de su versión oficial.",
+    "unitOutcome": "Evalúa la credibilidad de contenido humano o generado por IA mediante afirmaciones precisas, fuentes trazables, evidencia pertinente y conclusiones calibradas.",
+    "finalEvidence": "Ficha de verificación con afirmación, procedencia, evidencias independientes, método, contexto, veredicto, límites y corrección responsable.",
+    "curriculumAlignment": {
+      "frameworks": [
+        "CNEB Perú",
+        "PISA 2029 Media and Artificial Intelligence Literacy — first draft",
+        "EC-OECD AI Literacy Framework for Primary and Secondary Education 2026"
+      ],
+      "cnebCompetency": "Se desenvuelve en entornos virtuales generados por las TIC",
+      "cnebCapacities": [
+        "Gestiona información del entorno virtual",
+        "Interactúa en entornos virtuales",
+        "Crea objetos virtuales en diversos formatos"
+      ],
+      "mailKeyConcepts": [
+        "Información y evidencia",
+        "Autores y audiencias",
+        "Sistemas generativos"
+      ],
+      "mailCompetencies": [
+        "Analizar y evaluar",
+        "Acceder y usar",
+        "Reflexionar y actuar ética y responsablemente"
+      ],
+      "operationalAlignment": "Distingue afirmaciones, rastrea originales, evalúa autoridad y método, lee lateralmente, reconstruye contexto multimedia, audita salidas de IA y emite veredictos graduados."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Verificador con criterio"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "safetyPolicy": {
+      "realAccountsRequired": false,
+      "realPersonalDataRequested": false,
+      "openSocialInteraction": false,
+      "caseData": "fictitious",
+      "adultSupportPrompts": true,
+      "credentialCollection": false,
+      "note": "Todas las actividades usan personas, perfiles, plataformas, datos y documentos ficticios. Nunca solicitan cuentas, contactos, historial real, ubicación precisa, fotografías, voz, contraseñas ni experiencias sensibles del estudiante."
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todas las publicaciones, interfaces, medios, datos, servicios y situaciones son simulaciones originales de Prepaso.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "PISA 2029 Media and Artificial Intelligence Literacy",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/en/about/projects/pisa-2029-media-and-artificial-intelligence-literacy.html",
+        "status": "official_project_page"
+      },
+      {
+        "title": "PISA 2029 MAIL Assessment Framework First Draft",
+        "publisher": "OECD",
+        "edition": "January 2026",
+        "url": "https://www.oecd.org/content/dam/oecd/en/about/projects/edu/the-pisa-2029-media-and-artificial-intelligence-%28mail%29-assessment-will-shed-light-on-whether-young-students-have-had-opportunities-to-learn-and-to-engage-proactively-and-critically-in-a-world-where-production%2C-participation%2C-and-social-networking-are-increasingly-mediated-by-digital-and-ai-tools-/PISA%202029%20MAIL%20Assessment%20Framework%20First%20Draft.pdf",
+        "status": "first_preliminary_draft_subject_to_revision"
+      },
+      {
+        "title": "Empowering Learners for the Age of AI",
+        "publisher": "OECD and European Commission",
+        "edition": "June 2026",
+        "url": "https://www.oecd.org/en/publications/empowering-learners-for-the-age-of-ai_65cd27d4-en.html"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "A3-ST01",
+        "title": "Cuatro frases en una publicación",
+        "format": "mixed",
+        "genre": "simulación de publicación",
+        "content": "Cuenta AulaVerde: «El biohuerto produjo 18 kg de verduras en agosto. Es el proyecto más bonito del distrito. El próximo año duplicará su producción. Si no te gusta, seguramente odias la naturaleza». La publicación mezcla un dato que puede contrastarse, una valoración personal, una predicción y un ataque que no demuestra nada.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST02",
+        "title": "Tablero para clasificar",
+        "format": "mixed",
+        "genre": "simulación de actividad",
+        "content": "Tarjeta A: «La biblioteca abre a las 8:00», según su horario publicado. Tarjeta B: «Leer en el patio es agradable». Tarjeta C: «Mañana lloverá con seguridad». Tarjeta D: «Última hora: los cuadernos hablan», publicada por una cuenta de humor y marcada como sátira. Antes de verificar, el tablero pide identificar qué tipo de enunciado es cada uno.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST03",
+        "title": "La cadena del anuncio",
+        "format": "mixed",
+        "genre": "simulación de red social",
+        "content": "Mensaje viral: «Suspendieron todas las clases del viernes». Reenvío 3 cita al canal NoticiasYa; NoticiasYa copió una captura de VecinosCentro; VecinosCentro recortó un aviso del colegio Los Cedros. El aviso original dice: «Se suspenden únicamente los talleres deportivos del viernes por mantenimiento del coliseo». Ninguno de los reenvíos enlaza el documento completo.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST04",
+        "title": "Resumen y documento",
+        "format": "mixed",
+        "genre": "simulación de fuentes",
+        "content": "Blog EstudioFlash: «Un informe demuestra que dormir ocho horas garantiza notas altas». Documento original: encuesta a 120 estudiantes de una sola institución; encontró asociación entre horas de sueño declaradas y promedio, pero advierte que no prueba causalidad y que no controló todas las diferencias. El blog enlaza el documento, aunque cambia su alcance.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST05",
+        "title": "¿Quién sabe de qué?",
+        "format": "mixed",
+        "genre": "simulación de perfiles",
+        "content": "Perfil 1: Rosa M., ingeniera sanitaria con experiencia en calidad de agua y métodos publicados. Perfil 2: LeoMix, creador de videos de cocina con muchos seguidores. Perfil 3: Ana P., historiadora que investiga archivos del siglo XIX. Pregunta: ¿quién tiene experiencia pertinente para explicar resultados de una prueba microbiológica de agua? Popularidad y experiencia real no son lo mismo.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST06",
+        "title": "La experta transparente",
+        "format": "mixed",
+        "genre": "simulación de entrevista",
+        "content": "Entrevista a la bióloga Camila Torres sobre polinizadores. Explica su formación, distingue observaciones de hipótesis, enlaza el informe que comenta y declara que asesora sin pago a una asociación ambiental. También reconoce que el estudio se hizo en una sola zona. La transparencia no vuelve infalible a una persona, pero permite evaluar mejor su aporte.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST07",
+        "title": "Tres apoyos para una afirmación",
+        "format": "mixed",
+        "genre": "simulación de evidencia",
+        "content": "Afirmación: «El nuevo horario redujo las tardanzas». Apoyo A: un estudiante dice que ahora llega antes. Apoyo B: un registro compara 240 llegadas durante cuatro semanas antes y cuatro después: la tasa bajó de 18 % a 11 %. Apoyo C: una encuesta pregunta a 12 voluntarios si les gusta el horario. El registro es más directo, pero aún deben revisarse otras diferencias entre periodos.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST08",
+        "title": "Cómo se obtuvo el resultado",
+        "format": "mixed",
+        "genre": "ficha metodológica simulada",
+        "content": "Ensayo de filtros ficticios: se prepararon cuatro recipientes iguales, se midió la turbidez antes y después con el mismo instrumento y se repitió el procedimiento tres veces. No se midieron microorganismos ni sustancias disueltas. Resultado: el filtro B redujo más la turbidez visible. Límite: el ensayo no permite afirmar que el agua sea potable.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST09",
+        "title": "Sitio que habla de sí mismo",
+        "format": "mixed",
+        "genre": "simulación de sitio web",
+        "content": "Academia Brillo afirma en su portada: «Somos la fuente educativa número uno, completamente neutral y reconocida por todos». Muestra sellos propios, testimonios sin apellido y un contador de visitas. No indica quién redacta, cómo corrige errores ni qué institución independiente otorgó los reconocimientos. La apariencia es ordenada y profesional.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST10",
+        "title": "Tres pestañas laterales",
+        "format": "mixed",
+        "genre": "simulación de navegación",
+        "content": "Pestaña 1, página de Academia Brillo: repite que es líder. Pestaña 2, registro público de organizaciones: confirma que existe desde 2025, sin evaluar calidad. Pestaña 3, revisión de una universidad: analiza diez materiales, reconoce claridad, pero encuentra fuentes incompletas en cuatro. Leer lateralmente permite conocer existencia, reputación y límites sin depender de la autopresentación.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST11",
+        "title": "La foto recortada",
+        "format": "mixed",
+        "genre": "simulación de verificación visual",
+        "content": "Publicación: una fotografía muestra una plaza aparentemente vacía con el texto «Nadie asistió a la feria científica». Búsqueda inversa simulada: la imagen completa incluye, fuera del recorte, varios puestos y visitantes. Metadatos del archivo escolar: fue tomada dos horas antes de la apertura. La foto es real, pero el recorte y la hora cambian su significado.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST12",
+        "title": "El audio de siete segundos",
+        "format": "mixed",
+        "genre": "simulación de audio transcrito",
+        "content": "Clip viral: «...no necesitamos revisar los resultados...». Grabación completa: «No necesitamos revisar los resultados ahora mismo; primero terminaremos la medición y mañana los compararemos con el registro anterior». El clip conserva palabras auténticas, pero elimina el tiempo y la secuencia que aclaran la decisión. No hay indicios suficientes para decir que la voz fue generada.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST13",
+        "title": "Respuesta del asistente Nexo",
+        "format": "mixed",
+        "genre": "simulación de IA",
+        "content": "Pregunta: «¿Cuánta agua ahorra una llave aireadora?». Nexo responde: «Ahorra exactamente 73 % en todos los hogares». Cita «Instituto Mundial del Agua, 2024», pero el enlace conduce a una página inexistente. También atribuye una cifra a una guía municipal que solo describe instalación. El tono seguro no reemplaza una fuente comprobable.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST14",
+        "title": "Auditoría de la respuesta",
+        "format": "mixed",
+        "genre": "simulación de verificación",
+        "content": "La estudiante separa tres afirmaciones de Nexo, abre los enlaces y busca documentos originales. Encuentra que el ahorro varía según caudal, presión y uso; una ficha técnica ofrece un rango bajo condiciones específicas. Registra: afirmación 1, no sustentada; afirmación 2, parcialmente apoyada; cita 3, inexistente. Luego reescribe la respuesta con rango, condiciones y enlaces reales.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST15",
+        "title": "Caso del cierre del parque",
+        "format": "mixed",
+        "genre": "expediente simulado",
+        "content": "Rumor: «Cerrarán para siempre el parque Amanecer». Evidencia disponible: un aviso municipal anuncia cierre de tres días por reparación; dos publicaciones repiten «para siempre» sin nueva fuente; una foto muestra una reja, pero fue tomada durante el mantenimiento. No aparece una resolución de cierre definitivo. La evidencia confirma un cierre temporal y contradice la versión permanente.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A3-ST16",
+        "title": "Corrección sin amplificar",
+        "format": "mixed",
+        "genre": "simulación de mensaje",
+        "content": "Borrador A: «¡Miren esta mentira absurda!», seguido de una captura grande del rumor. Borrador B: «El parque Amanecer cerrará del 12 al 14 por reparación, según el aviso municipal. No encontramos evidencia de cierre permanente. Si recibiste el rumor, comparte la aclaración y el enlace original». La segunda corrección prioriza el dato verificado y declara el límite.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "A3.01",
+        "globalId": "pe-sec1-mail-A3-01",
+        "sequence": 1,
+        "title": "Afirmación verificable",
+        "subtitle": "Antes de buscar, identifica qué clase de frase tienes delante",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.verificacion.afirmacion",
+        "learningOutcome": "Distingue hechos comprobables, opiniones, predicciones, sátira y ataques irrelevantes antes de iniciar una verificación.",
+        "successEvidence": "Clasifica enunciados y formula una pregunta verificable que indica qué evidencia permitiría responderla.",
+        "prerequisites": [
+          "Distingue información y valoración",
+          "Reconoce propósito comunicativo"
+        ],
+        "misconceptions": [
+          "Toda frase puede verificarse del mismo modo",
+          "Una opinión popular se vuelve hecho",
+          "Una predicción segura ya es un resultado"
+        ],
+        "screens": [
+          {
+            "id": "A3.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Primero clasifica; después verifica",
+            "body": "No se comprueba «es el proyecto más bonito» como se comprueban 18 kilogramos. Identificar si una frase describe, valora, predice o bromea evita buscar pruebas que no podrían responderla.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A3.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.verificacion.afirmacion",
+            "difficulty": 1,
+            "prompt": "¿Qué frase de AulaVerde puede comprobarse con un registro de cosecha?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A3-ST01",
+            "hint": "Busca una frase que un registro pueda confirmar o refutar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Es el proyecto más bonito del distrito.",
+                "feedback": "Revisa la idea clave. Incluye cantidad, objeto y periodo observables."
+              },
+              {
+                "id": "b",
+                "text": "El biohuerto produjo 18 kg de verduras en agosto.",
+                "feedback": "Correcto. Incluye cantidad, objeto y periodo observables."
+              },
+              {
+                "id": "c",
+                "text": "Quien discrepa odia la naturaleza.",
+                "feedback": "Revisa la idea clave. Incluye cantidad, objeto y periodo observables."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Hecho comprobable",
+            "body": "Una afirmación verificable describe algo que podría contrastarse con registros, observaciones o documentos. Debe ser suficientemente precisa.",
+            "examples": [
+              "18 kg en agosto",
+              "la biblioteca abre a las 8:00"
+            ],
+            "memoryAid": "Pregunta: ¿qué observación podría mostrar que es verdadera o falsa?"
+          },
+          {
+            "id": "A3.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Opinión, predicción y sátira",
+            "body": "Una opinión expresa valoración; una predicción habla del futuro; la sátira usa ficción o exageración. Pueden analizarse, pero no se tratan como un dato ya ocurrido.",
+            "examples": [
+              "es bonito = valoración",
+              "duplicará = predicción",
+              "los cuadernos hablan = sátira marcada"
+            ],
+            "memoryAid": "El tipo de frase determina la pregunta."
+          },
+          {
+            "id": "A3.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.afirmacion",
+            "difficulty": 1,
+            "prompt": "¿Cuál tarjeta contiene principalmente una opinión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A3-ST02",
+            "hint": "Distingue gusto personal de horario registrado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "«La biblioteca abre a las 8:00».",
+                "feedback": "Revisa la idea clave. «Agradable» expresa una valoración que puede variar entre personas."
+              },
+              {
+                "id": "b",
+                "text": "«Los cuadernos hablan», marcada como sátira.",
+                "feedback": "Revisa la idea clave. «Agradable» expresa una valoración que puede variar entre personas."
+              },
+              {
+                "id": "c",
+                "text": "«Leer en el patio es agradable».",
+                "feedback": "Correcto. «Agradable» expresa una valoración que puede variar entre personas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.afirmacion",
+            "difficulty": 1,
+            "prompt": "Relaciona cada frase con su tipo.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST02",
+            "hint": "Una predicción todavía no es un resultado.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "La biblioteca abre a las 8:00",
+                "rightId": "r1",
+                "right": "Hecho comprobable"
+              },
+              {
+                "leftId": "l2",
+                "left": "Leer en el patio es agradable",
+                "rightId": "r2",
+                "right": "Opinión"
+              },
+              {
+                "leftId": "l3",
+                "left": "Mañana lloverá con seguridad",
+                "rightId": "r3",
+                "right": "Predicción"
+              },
+              {
+                "leftId": "l4",
+                "left": "Los cuadernos hablan",
+                "rightId": "r4",
+                "right": "Sátira marcada"
+              }
+            ],
+            "feedbackCorrect": "Separaste cuatro tipos de enunciado antes de buscar evidencia.",
+            "feedbackIncorrect": "Revisa si la frase describe algo ocurrido, valora, anticipa o juega con la ficción."
+          },
+          {
+            "id": "A3.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Separa la afirmación del ruido",
+            "body": "Un ataque a quien discrepa no aporta evidencia. Reescribe el núcleo con sujeto, variable, lugar y periodo cuando sea posible.",
+            "examples": [
+              "Dato: producción en agosto",
+              "Ruido: «odias la naturaleza»"
+            ],
+            "memoryAid": "Una afirmación clara cabe en una pregunta clara."
+          },
+          {
+            "id": "A3.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.verificacion.afirmacion",
+            "difficulty": 1,
+            "prompt": "¿Cuál pregunta vuelve verificable la predicción del biohuerto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST01",
+            "hint": "Convierte «duplicará» en una cantidad observable.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿La producción total del próximo año será al menos 36 kg bajo el mismo modo de medición?",
+                "feedback": "Correcto. Define cantidad, periodo y criterio de comparación."
+              },
+              {
+                "id": "b",
+                "text": "¿El proyecto será increíble?",
+                "feedback": "Revisa la idea clave. Define cantidad, periodo y criterio de comparación."
+              },
+              {
+                "id": "c",
+                "text": "¿Quién quiere más a la naturaleza?",
+                "feedback": "Revisa la idea clave. Define cantidad, periodo y criterio de comparación."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.verificacion.afirmacion",
+            "difficulty": 2,
+            "prompt": "Luz afirma que la predicción ya está confirmada porque suena segura. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST01",
+            "hint": "Pregunta si el hecho ya ocurrió.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda frase futura es necesariamente falsa.",
+                "feedback": "Revisa la idea clave. El tiempo verbal y la evidencia disponible importan."
+              },
+              {
+                "id": "b",
+                "text": "Una predicción necesita esperar el resultado o apoyarse en un modelo explícito; no es un hecho cumplido.",
+                "feedback": "Correcto. El tiempo verbal y la evidencia disponible importan."
+              },
+              {
+                "id": "c",
+                "text": "La seguridad del tono reemplaza los datos.",
+                "feedback": "Revisa la idea clave. El tiempo verbal y la evidencia disponible importan."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.verificacion.afirmacion",
+            "difficulty": 1,
+            "prompt": "¿Qué reformulación elimina el ataque y conserva lo comprobable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST01",
+            "hint": "Conserva el dato y retira juicios sobre personas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Quien duda del registro está contra el ambiente.",
+                "feedback": "Revisa la idea clave. La reformulación centra la revisión en una evidencia pertinente."
+              },
+              {
+                "id": "b",
+                "text": "El biohuerto es sin duda el mejor.",
+                "feedback": "Revisa la idea clave. La reformulación centra la revisión en una evidencia pertinente."
+              },
+              {
+                "id": "c",
+                "text": "El registro de agosto debe revisarse para confirmar si la producción fue de 18 kg.",
+                "feedback": "Correcto. La reformulación centra la revisión en una evidencia pertinente."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.verificacion.afirmacion",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el primer paso de una verificación responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST02",
+            "hint": "Antes de abrir fuentes, aclara qué estás evaluando.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Aislar la afirmación y clasificar si es hecho, opinión, predicción o sátira.",
+                "feedback": "Correcto. La clasificación indica qué evidencia corresponde y si la frase puede comprobarse ahora."
+              },
+              {
+                "id": "b",
+                "text": "Compartirla para ver cuántas reacciones obtiene.",
+                "feedback": "Revisa la idea clave. La clasificación indica qué evidencia corresponde y si la frase puede comprobarse ahora."
+              },
+              {
+                "id": "c",
+                "text": "Buscar únicamente páginas que coincidan.",
+                "feedback": "Revisa la idea clave. La clasificación indica qué evidencia corresponde y si la frase puede comprobarse ahora."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya sabes qué estás intentando comprobar",
+            "body": "Separaste datos, opiniones, predicciones y sátira. Esa pausa inicial evita verificaciones confusas y te permite buscar evidencia pertinente.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A3.02",
+        "globalId": "pe-sec1-mail-A3-02",
+        "sequence": 2,
+        "title": "Fuente original",
+        "subtitle": "Un reenvío no es una segunda fuente y un resumen no reemplaza el documento",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.verificacion.fuente_original",
+        "learningOutcome": "Rastrea una afirmación hasta la publicación o evidencia original y compara el mensaje viral con su alcance real.",
+        "successEvidence": "Reconstruye una cadena de procedencia y señala exactamente dónde cambió el significado.",
+        "prerequisites": [
+          "Identifica autor e intermediario",
+          "Lee enlaces y atribuciones"
+        ],
+        "misconceptions": [
+          "Muchos reenvíos equivalen a muchas confirmaciones",
+          "La captura más cercana es el origen",
+          "Un resumen conserva siempre el alcance"
+        ],
+        "screens": [
+          {
+            "id": "A3.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Sigue la cadena hasta el primer documento",
+            "body": "Tres cuentas pueden repetir una misma captura sin aportar tres pruebas. Rastrear hacia atrás permite encontrar quién publicó primero, qué decía exactamente y qué partes se perdieron.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A3.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.verificacion.fuente_original",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la fuente original más pertinente sobre la suspensión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A3-ST03",
+            "hint": "Retrocede hasta quien tenía autoridad para anunciar la medida.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El tercer reenvío del mensaje.",
+                "feedback": "Revisa la idea clave. El colegio emitió el aviso y especificó el alcance."
+              },
+              {
+                "id": "b",
+                "text": "El aviso completo del colegio Los Cedros.",
+                "feedback": "Correcto. El colegio emitió el aviso y especificó el alcance."
+              },
+              {
+                "id": "c",
+                "text": "La captura recortada de VecinosCentro.",
+                "feedback": "Revisa la idea clave. El colegio emitió el aviso y especificó el alcance."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Repetición no es corroboración",
+            "body": "Si varias publicaciones dependen del mismo aviso, forman una sola cadena. La cantidad de copias mide difusión, no independencia.",
+            "examples": [
+              "reenvío → noticia → captura → aviso",
+              "una raíz, muchas ramas"
+            ],
+            "memoryAid": "Cuenta fuentes independientes, no pantallas."
+          },
+          {
+            "id": "A3.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Busca el origen más cercano al hecho",
+            "body": "Prefiere el documento completo de la institución responsable, el conjunto de datos o el estudio citado. Registra fecha y versión.",
+            "examples": [
+              "aviso completo del colegio",
+              "informe metodológico original"
+            ],
+            "memoryAid": "Ve del comentario a la evidencia."
+          },
+          {
+            "id": "A3.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.fuente_original",
+            "difficulty": 1,
+            "prompt": "¿Qué cambió al circular el anuncio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A3-ST03",
+            "hint": "Compara exactamente los sujetos de ambas frases.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La fecha se volvió más precisa.",
+                "feedback": "Revisa la idea clave. El reenvío amplió indebidamente el grupo de actividades suspendidas."
+              },
+              {
+                "id": "b",
+                "text": "Apareció un documento independiente adicional.",
+                "feedback": "Revisa la idea clave. El reenvío amplió indebidamente el grupo de actividades suspendidas."
+              },
+              {
+                "id": "c",
+                "text": "«Talleres deportivos» se convirtió en «todas las clases».",
+                "feedback": "Correcto. El reenvío amplió indebidamente el grupo de actividades suspendidas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.fuente_original",
+            "difficulty": 1,
+            "prompt": "Reconstruye la función de cada elemento de la cadena.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST03",
+            "hint": "El aviso completo es la pieza que permite comparar el rumor.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Reenvío 3",
+                "rightId": "r1",
+                "right": "Copia del mensaje"
+              },
+              {
+                "leftId": "l2",
+                "left": "VecinosCentro",
+                "rightId": "r2",
+                "right": "Intermediario con captura"
+              },
+              {
+                "leftId": "l3",
+                "left": "Colegio Los Cedros",
+                "rightId": "r3",
+                "right": "Emisor del aviso original"
+              },
+              {
+                "leftId": "l4",
+                "left": "Aviso completo",
+                "rightId": "r4",
+                "right": "Documento que fija el alcance"
+              }
+            ],
+            "feedbackCorrect": "Diferenciaste copias, intermediarios, emisor y documento.",
+            "feedbackIncorrect": "Sigue la cadena hacia atrás: no todo lo publicado es una fuente nueva."
+          },
+          {
+            "id": "A3.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Compara palabras que cambian alcance",
+            "body": "«Talleres deportivos» no significa «todas las clases»; «asociación» no significa «garantía». Las diferencias pequeñas pueden transformar la conclusión.",
+            "examples": [
+              "parte frente a totalidad",
+              "relación frente a causa"
+            ],
+            "memoryAid": "Subraya sujeto, cantidad, periodo y certeza."
+          },
+          {
+            "id": "A3.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.verificacion.fuente_original",
+            "difficulty": 1,
+            "prompt": "¿Qué afirma realmente el documento del sueño?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST04",
+            "hint": "Lee método y advertencias, no solo el titular.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Encontró una asociación en una muestra limitada y no demostró causalidad.",
+                "feedback": "Correcto. El estudio declara muestra y límites que el blog elimina."
+              },
+              {
+                "id": "b",
+                "text": "Garantizó notas altas a cualquier estudiante que duerma ocho horas.",
+                "feedback": "Revisa la idea clave. El estudio declara muestra y límites que el blog elimina."
+              },
+              {
+                "id": "c",
+                "text": "Probó que solo el sueño determina el promedio.",
+                "feedback": "Revisa la idea clave. El estudio declara muestra y límites que el blog elimina."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.verificacion.fuente_original",
+            "difficulty": 2,
+            "prompt": "Un estudiante cuenta cada reenvío como confirmación independiente. ¿Cuál es el error?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST03",
+            "hint": "Dibuja las flechas de procedencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los mensajes repetidos dejan de existir.",
+                "feedback": "Revisa la idea clave. La independencia depende de cómo se obtuvo la información, no de cuántas cuentas la copian."
+              },
+              {
+                "id": "b",
+                "text": "Todos dependen del mismo aviso y no aportan observaciones separadas.",
+                "feedback": "Correcto. La independencia depende de cómo se obtuvo la información, no de cuántas cuentas la copian."
+              },
+              {
+                "id": "c",
+                "text": "Solo las capturas pueden ser fuentes originales.",
+                "feedback": "Revisa la idea clave. La independencia depende de cómo se obtuvo la información, no de cuántas cuentas la copian."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.verificacion.fuente_original",
+            "difficulty": 1,
+            "prompt": "¿Qué registro permite que otra persona repita el rastreo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST04",
+            "hint": "Anota cómo llegaste al origen.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Solo el número de compartidos.",
+                "feedback": "Revisa la idea clave. La trazabilidad documenta la ruta y la versión evaluada."
+              },
+              {
+                "id": "b",
+                "text": "Una opinión sobre cuál página luce mejor.",
+                "feedback": "Revisa la idea clave. La trazabilidad documenta la ruta y la versión evaluada."
+              },
+              {
+                "id": "c",
+                "text": "Enlaces o nombres de cada paso, fecha, autor y documento original consultado.",
+                "feedback": "Correcto. La trazabilidad documenta la ruta y la versión evaluada."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.verificacion.fuente_original",
+            "difficulty": 1,
+            "prompt": "¿Cuál regla resume esta lección?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST04",
+            "hint": "Busca cuatro acciones, no una señal superficial.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Rastrear, abrir el original, comparar el alcance y contar fuentes independientes.",
+                "feedback": "Correcto. El proceso recupera procedencia, contexto e independencia."
+              },
+              {
+                "id": "b",
+                "text": "Creer el primer resumen que tenga un enlace.",
+                "feedback": "Revisa la idea clave. El proceso recupera procedencia, contexto e independencia."
+              },
+              {
+                "id": "c",
+                "text": "Sumar reenvíos hasta alcanzar mayoría.",
+                "feedback": "Revisa la idea clave. El proceso recupera procedencia, contexto e independencia."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya puedes llegar al origen sin perderte entre copias",
+            "body": "Reconstruiste procedencia, comparaste el mensaje con el documento y evitaste contar repeticiones como confirmaciones independientes.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A3.03",
+        "globalId": "pe-sec1-mail-A3-03",
+        "sequence": 3,
+        "title": "Autoridad pertinente",
+        "subtitle": "La experiencia debe corresponder al tema y mostrarse con transparencia",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.verificacion.autoridad",
+        "learningOutcome": "Evalúa si una persona o institución posee experiencia relevante, transparencia y límites adecuados para una afirmación concreta.",
+        "successEvidence": "Selecciona una fuente experta para una pregunta específica y justifica con campo, método, independencia y límites.",
+        "prerequisites": [
+          "Rastrea la fuente original",
+          "Distingue popularidad y evidencia"
+        ],
+        "misconceptions": [
+          "Muchos seguidores prueban experiencia",
+          "Ser experto en un área vuelve autoridad en todas",
+          "Declarar un conflicto invalida automáticamente todo"
+        ],
+        "screens": [
+          {
+            "id": "A3.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La pregunta correcta necesita la experiencia correcta",
+            "body": "Una historiadora puede ser excelente en archivos y no ser la fuente principal para microbiología. La autoridad es pertinente cuando formación, experiencia y método coinciden con la pregunta.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A3.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.verificacion.autoridad",
+            "difficulty": 1,
+            "prompt": "¿Quién tiene experiencia más pertinente para interpretar una prueba microbiológica de agua?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A3-ST05",
+            "hint": "Relaciona la pregunta con el área profesional.",
+            "options": [
+              {
+                "id": "a",
+                "text": "LeoMix, creador de cocina con muchos seguidores.",
+                "feedback": "Revisa la idea clave. Su campo y experiencia coinciden con la pregunta técnica."
+              },
+              {
+                "id": "b",
+                "text": "Rosa M., ingeniera sanitaria con experiencia en calidad de agua.",
+                "feedback": "Correcto. Su campo y experiencia coinciden con la pregunta técnica."
+              },
+              {
+                "id": "c",
+                "text": "Ana P., historiadora de archivos del siglo XIX.",
+                "feedback": "Revisa la idea clave. Su campo y experiencia coinciden con la pregunta técnica."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Pertinencia antes que prestigio",
+            "body": "Comprueba si el campo de trabajo se relaciona directamente con la afirmación y si la persona muestra cómo sabe lo que afirma.",
+            "examples": [
+              "agua microbiológica → ingeniería sanitaria",
+              "archivo histórico → historia"
+            ],
+            "memoryAid": "No preguntes solo «¿es famosa?», sino «¿experta en qué?»."
+          },
+          {
+            "id": "A3.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Busca señales verificables",
+            "body": "Formación, trabajo publicado, institución, método y acceso a la evidencia permiten evaluar mejor que una biografía grandiosa.",
+            "examples": [
+              "métodos publicados",
+              "documento enlazado",
+              "límites reconocidos"
+            ],
+            "memoryAid": "Credenciales + práctica + evidencia."
+          },
+          {
+            "id": "A3.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.autoridad",
+            "difficulty": 1,
+            "prompt": "¿Qué conducta de Camila aumenta la evaluabilidad de su aporte?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A3-ST06",
+            "hint": "Busca información que permita comprobar, no solo confiar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Habla con absoluta seguridad.",
+                "feedback": "Revisa la idea clave. La transparencia deja revisar evidencia, alcance e intereses."
+              },
+              {
+                "id": "b",
+                "text": "Evita mencionar su relación con asociaciones.",
+                "feedback": "Revisa la idea clave. La transparencia deja revisar evidencia, alcance e intereses."
+              },
+              {
+                "id": "c",
+                "text": "Enlaza el informe, separa hipótesis y reconoce límites.",
+                "feedback": "Correcto. La transparencia deja revisar evidencia, alcance e intereses."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.03-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.autoridad",
+            "difficulty": 1,
+            "prompt": "Relaciona pregunta y experiencia pertinente.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST05",
+            "hint": "Seguidores no constituyen un campo de especialización.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Calidad microbiológica del agua",
+                "rightId": "r1",
+                "right": "Ingeniería sanitaria"
+              },
+              {
+                "leftId": "l2",
+                "left": "Documento del siglo XIX",
+                "rightId": "r2",
+                "right": "Historia y archivos"
+              },
+              {
+                "leftId": "l3",
+                "left": "Técnica culinaria",
+                "rightId": "r3",
+                "right": "Experiencia demostrable en cocina"
+              },
+              {
+                "leftId": "l4",
+                "left": "Número de seguidores",
+                "rightId": "r4",
+                "right": "Popularidad, no autoridad temática"
+              }
+            ],
+            "feedbackCorrect": "Elegiste autoridad por correspondencia temática, no por fama.",
+            "feedbackIncorrect": "Revisa qué conocimientos exige realmente cada pregunta."
+          },
+          {
+            "id": "A3.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Transparencia permite calibrar",
+            "body": "Declarar relaciones, financiamiento y límites no garantiza verdad, pero ayuda a valorar posibles intereses y alcance.",
+            "examples": [
+              "asesoría sin pago declarada",
+              "estudio de una sola zona"
+            ],
+            "memoryAid": "Una buena fuente muestra también lo que no sabe."
+          },
+          {
+            "id": "A3.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.verificacion.autoridad",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta es más útil al evaluar autoridad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST05",
+            "hint": "Cambia popularidad por pertinencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Su experiencia y método son relevantes para esta afirmación concreta?",
+                "feedback": "Correcto. La autoridad depende de correspondencia temática y trabajo verificable."
+              },
+              {
+                "id": "b",
+                "text": "¿Tiene el video más visto?",
+                "feedback": "Revisa la idea clave. La autoridad depende de correspondencia temática y trabajo verificable."
+              },
+              {
+                "id": "c",
+                "text": "¿Su fotografía parece profesional?",
+                "feedback": "Revisa la idea clave. La autoridad depende de correspondencia temática y trabajo verificable."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.verificacion.autoridad",
+            "difficulty": 2,
+            "prompt": "Un perfil afirma: «Soy científico, por eso sé de cualquier tema». ¿Qué falla?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST05",
+            "hint": "Pregunta «¿científico en qué área?». ",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo título profesional es falso.",
+                "feedback": "Revisa la idea clave. Ninguna credencial elimina la necesidad de pertinencia y prueba."
+              },
+              {
+                "id": "b",
+                "text": "La experiencia es específica; deben revisarse campo, evidencia y relación con la pregunta.",
+                "feedback": "Correcto. Ninguna credencial elimina la necesidad de pertinencia y prueba."
+              },
+              {
+                "id": "c",
+                "text": "Solo una persona sin formación puede opinar.",
+                "feedback": "Revisa la idea clave. Ninguna credencial elimina la necesidad de pertinencia y prueba."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.verificacion.autoridad",
+            "difficulty": 1,
+            "prompt": "Camila declara que asesora a una asociación. ¿Cuál respuesta es responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST06",
+            "hint": "Transparencia informa el juicio; no lo reemplaza.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ignorar la declaración porque toda experta es neutral.",
+                "feedback": "Revisa la idea clave. Un posible interés se analiza junto con método y evidencia."
+              },
+              {
+                "id": "b",
+                "text": "Rechazar cada dato sin leerlo.",
+                "feedback": "Revisa la idea clave. Un posible interés se analiza junto con método y evidencia."
+              },
+              {
+                "id": "c",
+                "text": "Registrar la relación, revisar si afecta la afirmación y comprobar la evidencia, sin aceptar ni descartar automáticamente.",
+                "feedback": "Correcto. Un posible interés se analiza junto con método y evidencia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.verificacion.autoridad",
+            "difficulty": 1,
+            "prompt": "¿Cuál justificación es más sólida?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST06",
+            "hint": "Incluye campo, método, evidencia y límites.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La fuente es pertinente porque trabaja el tema, explica su método, enlaza evidencia y reconoce límites.",
+                "feedback": "Correcto. La justificación reúne señales comprobables y ajustadas a la pregunta."
+              },
+              {
+                "id": "b",
+                "text": "Es confiable porque habla con seguridad.",
+                "feedback": "Revisa la idea clave. La justificación reúne señales comprobables y ajustadas a la pregunta."
+              },
+              {
+                "id": "c",
+                "text": "Es correcta porque tiene más seguidores.",
+                "feedback": "Revisa la idea clave. La justificación reúne señales comprobables y ajustadas a la pregunta."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya evalúas experiencia sin rendirte ante la fama",
+            "body": "Relacionaste pregunta y campo, buscaste señales verificables y usaste la transparencia para calibrar, no para decidir automáticamente.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A3.04",
+        "globalId": "pe-sec1-mail-A3-04",
+        "sequence": 4,
+        "title": "Evidencia y método",
+        "subtitle": "La fuerza de una prueba depende de cómo responde a la afirmación",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.verificacion.evidencia_metodo",
+        "learningOutcome": "Compara datos, documentos, observaciones y testimonios según pertinencia, método, tamaño, controles y límites.",
+        "successEvidence": "Ordena apoyos para una afirmación concreta y explica qué puede y qué no puede concluirse del método.",
+        "prerequisites": [
+          "Formula afirmaciones verificables",
+          "Reconoce fuente y autoridad"
+        ],
+        "misconceptions": [
+          "Todo dato numérico es fuerte",
+          "Un testimonio prueba una tendencia",
+          "Medir una propiedad permite asegurar todas las demás"
+        ],
+        "screens": [
+          {
+            "id": "A3.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "No existe evidencia fuerte en abstracto",
+            "body": "Una evidencia es fuerte para una pregunta cuando mide de manera directa, suficiente y transparente lo que la afirmación declara. También debe mostrar sus límites.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A3.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.verificacion.evidencia_metodo",
+            "difficulty": 1,
+            "prompt": "¿Qué apoyo responde de modo más directo a «el horario redujo las tardanzas»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A3-ST07",
+            "hint": "Busca la misma variable que aparece en la afirmación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La opinión de un estudiante.",
+                "feedback": "Revisa la idea clave. Mide la tasa de tardanza en dos periodos comparables."
+              },
+              {
+                "id": "b",
+                "text": "El registro de 240 llegadas antes y después.",
+                "feedback": "Correcto. Mide la tasa de tardanza en dos periodos comparables."
+              },
+              {
+                "id": "c",
+                "text": "La encuesta de gusto a 12 voluntarios.",
+                "feedback": "Revisa la idea clave. Mide la tasa de tardanza en dos periodos comparables."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Pertinencia: ¿mide lo que se afirma?",
+            "body": "Para evaluar tardanzas, un registro de llegadas es más directo que preguntar si gusta el horario. La evidencia debe corresponder con la variable.",
+            "examples": [
+              "afirmación: menos tardanzas",
+              "medida: tasa de llegadas tarde"
+            ],
+            "memoryAid": "Primero une afirmación y medición."
+          },
+          {
+            "id": "A3.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Método: ¿cómo se obtuvo?",
+            "body": "Revisa muestra, periodo, comparación, instrumento, repetición y variables alternativas. Los números sin método no se interpretan solos.",
+            "examples": [
+              "240 llegadas",
+              "cuatro semanas antes y después",
+              "mismo instrumento"
+            ],
+            "memoryAid": "Pregunta siempre de dónde salió el número."
+          },
+          {
+            "id": "A3.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.evidencia_metodo",
+            "difficulty": 1,
+            "prompt": "¿Qué conclusión permite el ensayo de filtros?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A3-ST08",
+            "hint": "No atribuyas propiedades que no se midieron.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El filtro B volvió potable toda el agua.",
+                "feedback": "Revisa la idea clave. El ensayo solo midió turbidez con un procedimiento específico."
+              },
+              {
+                "id": "b",
+                "text": "El filtro B elimina cualquier contaminante.",
+                "feedback": "Revisa la idea clave. El ensayo solo midió turbidez con un procedimiento específico."
+              },
+              {
+                "id": "c",
+                "text": "El filtro B redujo más la turbidez visible en esas condiciones.",
+                "feedback": "Correcto. El ensayo solo midió turbidez con un procedimiento específico."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.evidencia_metodo",
+            "difficulty": 1,
+            "prompt": "Relaciona cada apoyo con lo que realmente aporta.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST07",
+            "hint": "Gusto por el horario no equivale a llegar a tiempo.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Registro de 240 llegadas",
+                "rightId": "r1",
+                "right": "Medida directa de tardanza"
+              },
+              {
+                "leftId": "l2",
+                "left": "Testimonio de un estudiante",
+                "rightId": "r2",
+                "right": "Experiencia individual"
+              },
+              {
+                "leftId": "l3",
+                "left": "Encuesta de agrado",
+                "rightId": "r3",
+                "right": "Actitud, no tardanza"
+              },
+              {
+                "leftId": "l4",
+                "left": "Variable no medida",
+                "rightId": "r4",
+                "right": "Límite de la conclusión"
+              }
+            ],
+            "feedbackCorrect": "Calibraste evidencia por pertinencia y alcance.",
+            "feedbackIncorrect": "Pregunta qué variable mide cada apoyo y a cuántas observaciones representa."
+          },
+          {
+            "id": "A3.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Límite: ¿hasta dónde alcanza?",
+            "body": "Reducir turbidez visible no demuestra potabilidad. Una conclusión responsable conserva la frontera entre lo medido y lo no medido.",
+            "examples": [
+              "sí: menos turbidez",
+              "no: ausencia de microorganismos"
+            ],
+            "memoryAid": "No cruces de una variable a otra sin prueba."
+          },
+          {
+            "id": "A3.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.verificacion.evidencia_metodo",
+            "difficulty": 1,
+            "prompt": "¿Por qué el testimonio individual no basta para probar una reducción general?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST07",
+            "hint": "Distingue ejemplo de patrón.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Describe una experiencia, pero no compara sistemáticamente el conjunto de llegadas.",
+                "feedback": "Correcto. Puede aportar contexto, aunque no estima por sí solo una tendencia del grupo."
+              },
+              {
+                "id": "b",
+                "text": "Porque los testimonios nunca contienen información.",
+                "feedback": "Revisa la idea clave. Puede aportar contexto, aunque no estima por sí solo una tendencia del grupo."
+              },
+              {
+                "id": "c",
+                "text": "Porque toda experiencia personal es falsa.",
+                "feedback": "Revisa la idea clave. Puede aportar contexto, aunque no estima por sí solo una tendencia del grupo."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.verificacion.evidencia_metodo",
+            "difficulty": 2,
+            "prompt": "Un titular dice «agua segura» porque bajó la turbidez. ¿Qué error comete?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST08",
+            "hint": "Compara lo medido con lo prometido.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usa una palabra demasiado corta.",
+                "feedback": "Revisa la idea clave. La conclusión supera las variables del método."
+              },
+              {
+                "id": "b",
+                "text": "Extiende una medida visual a microorganismos y sustancias que no fueron evaluados.",
+                "feedback": "Correcto. La conclusión supera las variables del método."
+              },
+              {
+                "id": "c",
+                "text": "Incluye el nombre del filtro.",
+                "feedback": "Revisa la idea clave. La conclusión supera las variables del método."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.verificacion.evidencia_metodo",
+            "difficulty": 1,
+            "prompt": "¿Qué dato adicional ayudaría a interpretar la caída de tardanzas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST07",
+            "hint": "Busca variables alternativas plausibles.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El color de la puerta del colegio.",
+                "feedback": "Revisa la idea clave. Otras diferencias podrían explicar parte del cambio observado."
+              },
+              {
+                "id": "b",
+                "text": "La cantidad de letras del horario.",
+                "feedback": "Revisa la idea clave. Otras diferencias podrían explicar parte del cambio observado."
+              },
+              {
+                "id": "c",
+                "text": "Cambios simultáneos en transporte, clima o modo de registro entre ambos periodos.",
+                "feedback": "Correcto. Otras diferencias podrían explicar parte del cambio observado."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.verificacion.evidencia_metodo",
+            "difficulty": 1,
+            "prompt": "¿Cuál fórmula produce una conclusión responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST08",
+            "hint": "Incluye cómo se sabe y hasta dónde.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Afirmación precisa + medida pertinente + método visible + límite explícito.",
+                "feedback": "Correcto. La fuerza proviene de la relación entre pregunta, obtención y alcance."
+              },
+              {
+                "id": "b",
+                "text": "Número llamativo + certeza absoluta.",
+                "feedback": "Revisa la idea clave. La fuerza proviene de la relación entre pregunta, obtención y alcance."
+              },
+              {
+                "id": "c",
+                "text": "Testimonio + muchos reenvíos.",
+                "feedback": "Revisa la idea clave. La fuerza proviene de la relación entre pregunta, obtención y alcance."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya preguntas cómo se produjo la evidencia",
+            "body": "Vinculaste afirmación y medida, revisaste el método y evitaste concluir sobre variables que nunca fueron evaluadas.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A3.05",
+        "globalId": "pe-sec1-mail-A3-05",
+        "sequence": 5,
+        "title": "Lectura lateral",
+        "subtitle": "Para conocer una fuente, sal de su propia página y consulta otras",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.verificacion.lectura_lateral",
+        "learningOutcome": "Investiga una entidad, afirmación o sitio mediante fuentes externas independientes antes de dedicar tiempo a su contenido.",
+        "successEvidence": "Diseña una ruta lateral breve que distingue existencia, reputación, evidencia y límites.",
+        "prerequisites": [
+          "Rastrea fuentes",
+          "Evalúa autoridad y método"
+        ],
+        "misconceptions": [
+          "Un diseño profesional prueba credibilidad",
+          "La sección «Sobre nosotros» es independiente",
+          "Una fuente externa favorable basta para todo"
+        ],
+        "screens": [
+          {
+            "id": "A3.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "No te quedes encerrado en la página que evalúas",
+            "body": "Un sitio controla lo que dice de sí mismo. Abrir otras pestañas permite saber quién está detrás, qué opinan fuentes independientes y si existen correcciones o análisis documentados.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A3.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.verificacion.lectura_lateral",
+            "difficulty": 1,
+            "prompt": "¿Qué señal de Academia Brillo NO demuestra por sí sola calidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A3-ST09",
+            "hint": "Distingue autopresentación de evaluación externa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una revisión universitaria con muestra y criterios.",
+                "feedback": "Revisa la idea clave. La entidad controla sus propios sellos y afirmaciones."
+              },
+              {
+                "id": "b",
+                "text": "Los sellos creados por la propia academia.",
+                "feedback": "Correcto. La entidad controla sus propios sellos y afirmaciones."
+              },
+              {
+                "id": "c",
+                "text": "La existencia confirmada en un registro público.",
+                "feedback": "Revisa la idea clave. La entidad controla sus propios sellos y afirmaciones."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Lee lateralmente antes de profundizar",
+            "body": "Haz una búsqueda nueva del nombre, autor o afirmación. No uses solo enlaces elegidos por la propia página.",
+            "examples": [
+              "nombre + revisión",
+              "nombre + institución",
+              "afirmación + fuente original"
+            ],
+            "memoryAid": "Sal, compara y vuelve."
+          },
+          {
+            "id": "A3.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Cada pestaña responde algo distinto",
+            "body": "Un registro confirma existencia; una revisión analiza calidad; el documento original prueba contenido. No confundas funciones.",
+            "examples": [
+              "registro: quién existe",
+              "revisión: desempeño",
+              "original: evidencia"
+            ],
+            "memoryAid": "Pregunta qué demuestra cada fuente."
+          },
+          {
+            "id": "A3.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.lectura_lateral",
+            "difficulty": 1,
+            "prompt": "¿Qué aporta la revisión de la universidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A3-ST10",
+            "hint": "Busca qué examinó y qué encontró.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La prueba de que toda afirmación futura será correcta.",
+                "feedback": "Revisa la idea clave. La revisión tiene objeto, muestra y resultado específicos."
+              },
+              {
+                "id": "b",
+                "text": "Solo confirma que la organización existe.",
+                "feedback": "Revisa la idea clave. La revisión tiene objeto, muestra y resultado específicos."
+              },
+              {
+                "id": "c",
+                "text": "Un análisis externo de diez materiales con fortalezas y fallas observadas.",
+                "feedback": "Correcto. La revisión tiene objeto, muestra y resultado específicos."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.lectura_lateral",
+            "difficulty": 1,
+            "prompt": "Relaciona cada fuente con la pregunta que puede responder.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST10",
+            "hint": "Un registro no evalúa necesariamente calidad educativa.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Portada de Academia Brillo",
+                "rightId": "r1",
+                "right": "Autopresentación"
+              },
+              {
+                "leftId": "l2",
+                "left": "Registro público",
+                "rightId": "r2",
+                "right": "Existencia de la organización"
+              },
+              {
+                "leftId": "l3",
+                "left": "Revisión universitaria",
+                "rightId": "r3",
+                "right": "Evaluación externa limitada"
+              },
+              {
+                "leftId": "l4",
+                "left": "Documento original",
+                "rightId": "r4",
+                "right": "Base para comprobar una afirmación"
+              }
+            ],
+            "feedbackCorrect": "Separaste autopresentación, existencia, revisión y evidencia.",
+            "feedbackIncorrect": "No asumas que una fuente responde todas las preguntas."
+          },
+          {
+            "id": "A3.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Busca independencia y trazabilidad",
+            "body": "Comprueba quién publica, qué método usa y si repite a la entidad evaluada o aporta análisis propio.",
+            "examples": [
+              "diez materiales revisados",
+              "criterio declarado",
+              "límites encontrados"
+            ],
+            "memoryAid": "Otra URL no siempre es otra fuente."
+          },
+          {
+            "id": "A3.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.verificacion.lectura_lateral",
+            "difficulty": 1,
+            "prompt": "¿Cuál sería una primera consulta lateral útil?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST09",
+            "hint": "Usa el nombre más un término de evaluación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Buscar «Academia Brillo revisión» en una pestaña nueva.",
+                "feedback": "Correcto. La consulta busca información fuera del control del sitio."
+              },
+              {
+                "id": "b",
+                "text": "Leer diez veces la portada de Academia Brillo.",
+                "feedback": "Revisa la idea clave. La consulta busca información fuera del control del sitio."
+              },
+              {
+                "id": "c",
+                "text": "Contar sus sellos sin abrir información externa.",
+                "feedback": "Revisa la idea clave. La consulta busca información fuera del control del sitio."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.verificacion.lectura_lateral",
+            "difficulty": 2,
+            "prompt": "Un estudiante afirma que el registro público certifica la calidad. ¿Qué confunde?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST10",
+            "hint": "Distingue «existe» de «es de calidad».",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los registros nunca sirven para nada.",
+                "feedback": "Revisa la idea clave. Cada fuente responde una pregunta diferente."
+              },
+              {
+                "id": "b",
+                "text": "El registro confirma existencia jurídica, no exactitud pedagógica de los materiales.",
+                "feedback": "Correcto. Cada fuente responde una pregunta diferente."
+              },
+              {
+                "id": "c",
+                "text": "Toda academia registrada es falsa.",
+                "feedback": "Revisa la idea clave. Cada fuente responde una pregunta diferente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.verificacion.lectura_lateral",
+            "difficulty": 1,
+            "prompt": "¿Qué haría más sólida la revisión externa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST10",
+            "hint": "Busca método y posibles intereses.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usar más adjetivos positivos.",
+                "feedback": "Revisa la idea clave. La transparencia permite evaluar independencia y alcance."
+              },
+              {
+                "id": "b",
+                "text": "Ocultar cómo eligió los materiales.",
+                "feedback": "Revisa la idea clave. La transparencia permite evaluar independencia y alcance."
+              },
+              {
+                "id": "c",
+                "text": "Explicar criterios, selección de materiales, autores y posibles vínculos con la academia.",
+                "feedback": "Correcto. La transparencia permite evaluar independencia y alcance."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.verificacion.lectura_lateral",
+            "difficulty": 1,
+            "prompt": "¿Qué secuencia representa lectura lateral?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST10",
+            "hint": "Incluye salir de la página y contrastar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Identificar la entidad, abrir búsquedas externas, comparar funciones de fuentes y volver con contexto.",
+                "feedback": "Correcto. La secuencia reduce dependencia de la autopresentación."
+              },
+              {
+                "id": "b",
+                "text": "Permanecer en la portada hasta sentirse seguro.",
+                "feedback": "Revisa la idea clave. La secuencia reduce dependencia de la autopresentación."
+              },
+              {
+                "id": "c",
+                "text": "Elegir la primera opinión que coincide.",
+                "feedback": "Revisa la idea clave. La secuencia reduce dependencia de la autopresentación."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya sabes salir de una página para entenderla mejor",
+            "body": "Usaste otras pestañas con propósitos claros y regresaste con contexto sobre existencia, reputación, método y límites.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A3.06",
+        "globalId": "pe-sec1-mail-A3-06",
+        "sequence": 6,
+        "title": "Imagen, audio y contexto",
+        "subtitle": "Un archivo auténtico también puede engañar cuando se recorta, fecha mal o atribuye fuera de contexto",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.verificacion.contexto_multimedia",
+        "learningOutcome": "Evalúa procedencia, fecha, encuadre, edición y contexto de imágenes o audios sin prometer detección perfecta.",
+        "successEvidence": "Reconstruye el contexto de una pieza y formula una conclusión calibrada sobre qué está verificado y qué sigue incierto.",
+        "prerequisites": [
+          "Rastrea fuente original",
+          "Distingue evidencia y alcance"
+        ],
+        "misconceptions": [
+          "Si una imagen es real, el mensaje también",
+          "Todo recorte es manipulación maliciosa",
+          "Un clip extraño demuestra que fue generado por IA"
+        ],
+        "screens": [
+          {
+            "id": "A3.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Autenticidad y contexto son preguntas distintas",
+            "body": "La foto de la plaza sí fue tomada, pero antes de la apertura y con un recorte que excluye visitantes. Verificar el archivo no basta: hay que comprobar cuándo, dónde y para qué se usa.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A3.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.verificacion.contexto_multimedia",
+            "difficulty": 1,
+            "prompt": "¿Qué vuelve engañosa la publicación de la plaza?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A3-ST11",
+            "hint": "Revisa qué quedó fuera y a qué hora se tomó.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La fotografía contiene personas.",
+                "feedback": "Revisa la idea clave. El contexto temporal y visual contradice el mensaje."
+              },
+              {
+                "id": "b",
+                "text": "Combina un recorte con una foto tomada antes de la apertura para afirmar ausencia de público.",
+                "feedback": "Correcto. El contexto temporal y visual contradice el mensaje."
+              },
+              {
+                "id": "c",
+                "text": "La plaza tiene puestos de feria.",
+                "feedback": "Revisa la idea clave. El contexto temporal y visual contradice el mensaje."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Empieza por procedencia y fecha",
+            "body": "Busca publicación original, archivo completo, autor, momento y lugar. Una búsqueda inversa simulada o el registro de una institución puede revelar usos anteriores.",
+            "examples": [
+              "foto completa",
+              "hora antes de la apertura",
+              "grabación completa"
+            ],
+            "memoryAid": "¿De dónde salió y cuándo?"
+          },
+          {
+            "id": "A3.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Compara dentro y fuera del recorte",
+            "body": "Revisa qué aparece antes, después o alrededor. El contexto puede cambiar sujeto, secuencia y sentido sin alterar cada palabra.",
+            "examples": [
+              "puestos fuera del marco",
+              "«ahora mismo» omitido"
+            ],
+            "memoryAid": "Mira los bordes y escucha antes y después."
+          },
+          {
+            "id": "A3.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.contexto_multimedia",
+            "difficulty": 1,
+            "prompt": "¿Qué cambia al escuchar la grabación completa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A3-ST12",
+            "hint": "Escucha lo que ocurre antes y después del clip.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La voz se vuelve automáticamente falsa.",
+                "feedback": "Revisa la idea clave. Las palabras omitidas delimitan tiempo y plan posterior."
+              },
+              {
+                "id": "b",
+                "text": "Desaparece toda mención a resultados.",
+                "feedback": "Revisa la idea clave. Las palabras omitidas delimitan tiempo y plan posterior."
+              },
+              {
+                "id": "c",
+                "text": "«Ahora mismo» y la secuencia muestran que la revisión fue aplazada, no rechazada.",
+                "feedback": "Correcto. Las palabras omitidas delimitan tiempo y plan posterior."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.contexto_multimedia",
+            "difficulty": 1,
+            "prompt": "Relaciona cada comprobación con la pregunta que responde.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST11",
+            "hint": "El archivo completo no demuestra por sí solo quién lo generó.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Imagen completa",
+                "rightId": "r1",
+                "right": "Amplía el encuadre"
+              },
+              {
+                "leftId": "l2",
+                "left": "Metadatos de hora",
+                "rightId": "r2",
+                "right": "Ubican el momento"
+              },
+              {
+                "leftId": "l3",
+                "left": "Recorte publicado",
+                "rightId": "r3",
+                "right": "Excluye visitantes"
+              },
+              {
+                "leftId": "l4",
+                "left": "Búsqueda inversa simulada",
+                "rightId": "r4",
+                "right": "Encuentra otra versión"
+              }
+            ],
+            "feedbackCorrect": "Reconstruiste procedencia, tiempo, encuadre y nivel de certeza.",
+            "feedbackIncorrect": "Cada prueba resuelve una parte distinta del contexto."
+          },
+          {
+            "id": "A3.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "No adivines la técnica",
+            "body": "Si la evidencia muestra descontextualización, afirma eso. No concluyas edición avanzada o generación de IA sin indicadores y análisis suficientes.",
+            "examples": [
+              "confirmado: recorte",
+              "incierto: origen sintético"
+            ],
+            "memoryAid": "Nombra el problema demostrado, no el más llamativo."
+          },
+          {
+            "id": "A3.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.verificacion.contexto_multimedia",
+            "difficulty": 1,
+            "prompt": "¿Qué afirmación está mejor respaldada sobre la foto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST11",
+            "hint": "Afirma solo lo que muestran las comprobaciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Es una imagen real usada con recorte y horario que alteran su interpretación.",
+                "feedback": "Correcto. La búsqueda y los metadatos prueban contexto, no generación artificial."
+              },
+              {
+                "id": "b",
+                "text": "Fue generada por IA con certeza.",
+                "feedback": "Revisa la idea clave. La búsqueda y los metadatos prueban contexto, no generación artificial."
+              },
+              {
+                "id": "c",
+                "text": "Nunca hubo feria en la plaza.",
+                "feedback": "Revisa la idea clave. La búsqueda y los metadatos prueban contexto, no generación artificial."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.verificacion.contexto_multimedia",
+            "difficulty": 2,
+            "prompt": "Una persona etiqueta el audio como «deepfake» solo porque está cortado. ¿Qué error comete?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST12",
+            "hint": "Nombra el problema que sí observaste.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo clip breve es completo.",
+                "feedback": "Revisa la idea clave. Son hipótesis distintas y exigen evidencias diferentes."
+              },
+              {
+                "id": "b",
+                "text": "Confunde descontextualización demostrada con generación sintética no demostrada.",
+                "feedback": "Correcto. Son hipótesis distintas y exigen evidencias diferentes."
+              },
+              {
+                "id": "c",
+                "text": "La edición nunca afecta el sentido.",
+                "feedback": "Revisa la idea clave. Son hipótesis distintas y exigen evidencias diferentes."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.verificacion.contexto_multimedia",
+            "difficulty": 1,
+            "prompt": "¿Qué acción protege mejor antes de compartir una imagen viral?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST11",
+            "hint": "Empieza por origen, no por intuición visual.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Aumentar brillo y decidir por apariencia.",
+                "feedback": "Revisa la idea clave. La procedencia recupera el contexto de uso."
+              },
+              {
+                "id": "b",
+                "text": "Compartir para preguntar después.",
+                "feedback": "Revisa la idea clave. La procedencia recupera el contexto de uso."
+              },
+              {
+                "id": "c",
+                "text": "Buscar versiones anteriores o completas y comprobar fecha, lugar y pie original.",
+                "feedback": "Correcto. La procedencia recupera el contexto de uso."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.verificacion.contexto_multimedia",
+            "difficulty": 1,
+            "prompt": "¿Cuál es un veredicto calibrado sobre el audio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST12",
+            "hint": "Incluye certeza y límite.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El clip es engañoso por omisión de contexto; no hay evidencia suficiente para afirmar que la voz sea generada.",
+                "feedback": "Correcto. Distingue la conclusión demostrada de la hipótesis pendiente."
+              },
+              {
+                "id": "b",
+                "text": "La grabación completa prueba cualquier intención.",
+                "feedback": "Revisa la idea clave. Distingue la conclusión demostrada de la hipótesis pendiente."
+              },
+              {
+                "id": "c",
+                "text": "Toda la entrevista es falsa.",
+                "feedback": "Revisa la idea clave. Distingue la conclusión demostrada de la hipótesis pendiente."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya verificas medios sin prometer magia",
+            "body": "Comprobaste origen, fecha y contexto, detectaste recortes y mantuviste separada una edición demostrada de una hipótesis no probada.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A3.07",
+        "globalId": "pe-sec1-mail-A3-07",
+        "sequence": 7,
+        "title": "Salidas de IA",
+        "subtitle": "Una respuesta fluida puede contener cifras, citas o relaciones inventadas",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.verificacion.salidas_ia",
+        "learningOutcome": "Descompone una salida generada en afirmaciones verificables, comprueba fuentes primarias y corrige con condiciones y grado de certeza.",
+        "successEvidence": "Audita una respuesta de IA mediante una tabla de afirmación, fuente, hallazgo, veredicto y reescritura.",
+        "prerequisites": [
+          "Formula afirmaciones",
+          "Rastrea originales",
+          "Evalúa método"
+        ],
+        "misconceptions": [
+          "El tono seguro indica exactitud",
+          "Un enlace visible siempre sustenta la frase",
+          "La IA puede citarse como única prueba de su propia respuesta"
+        ],
+        "screens": [
+          {
+            "id": "A3.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "No verifiques el párrafo entero de una sola vez",
+            "body": "Separa cifras, causas, fechas y citas. Cada pieza puede tener una situación distinta: apoyada, parcialmente apoyada, no sustentada o contradicha.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A3.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.verificacion.salidas_ia",
+            "difficulty": 1,
+            "prompt": "¿Qué señal exige verificación prioritaria en la respuesta de Nexo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A3-ST13",
+            "hint": "Prioriza precisión alta y alcance amplio.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que la respuesta use una oración completa.",
+                "feedback": "Revisa la idea clave. Una cifra universal puede influir en decisiones y requiere fuente y condiciones."
+              },
+              {
+                "id": "b",
+                "text": "La cifra exacta de 73 % aplicada a todos los hogares.",
+                "feedback": "Correcto. Una cifra universal puede influir en decisiones y requiere fuente y condiciones."
+              },
+              {
+                "id": "c",
+                "text": "Que el asistente tenga un nombre.",
+                "feedback": "Revisa la idea clave. Una cifra universal puede influir en decisiones y requiere fuente y condiciones."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Divide la salida en unidades",
+            "body": "Subraya cada afirmación que pueda cambiar una decisión. Prioriza cifras exactas, consejos de seguridad, nombres de documentos y causalidades.",
+            "examples": [
+              "73 % exacto",
+              "en todos los hogares",
+              "guía municipal"
+            ],
+            "memoryAid": "Una fila por afirmación."
+          },
+          {
+            "id": "A3.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Abre y lee la fuente",
+            "body": "Comprueba que el enlace exista, que el documento diga lo atribuido y que sus condiciones coincidan con el caso.",
+            "examples": [
+              "enlace inexistente",
+              "guía de instalación sin cifra",
+              "rango condicionado"
+            ],
+            "memoryAid": "Cita visible no es cita verificada."
+          },
+          {
+            "id": "A3.07-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.salidas_ia",
+            "difficulty": 1,
+            "prompt": "¿Qué encontró la auditoría sobre el ahorro?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A3-ST14",
+            "hint": "Busca rango y variables, no solo un número.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Siempre es exactamente 73 %.",
+                "feedback": "Revisa la idea clave. La evidencia original reemplaza el absoluto por una conclusión condicionada."
+              },
+              {
+                "id": "b",
+                "text": "Ninguna fuente trata el tema.",
+                "feedback": "Revisa la idea clave. La evidencia original reemplaza el absoluto por una conclusión condicionada."
+              },
+              {
+                "id": "c",
+                "text": "Varía según caudal, presión y uso; existe un rango bajo condiciones específicas.",
+                "feedback": "Correcto. La evidencia original reemplaza el absoluto por una conclusión condicionada."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.salidas_ia",
+            "difficulty": 1,
+            "prompt": "Relaciona cada elemento de la auditoría con su función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST14",
+            "hint": "Una ficha con rango no respalda un absoluto universal.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "73 % exacto",
+                "rightId": "r1",
+                "right": "Afirmación a verificar"
+              },
+              {
+                "leftId": "l2",
+                "left": "Enlace inexistente",
+                "rightId": "r2",
+                "right": "Cita no verificable"
+              },
+              {
+                "leftId": "l3",
+                "left": "Ficha con rango",
+                "rightId": "r3",
+                "right": "Evidencia condicionada"
+              },
+              {
+                "leftId": "l4",
+                "left": "Respuesta corregida",
+                "rightId": "r4",
+                "right": "Conclusión calibrada"
+              }
+            ],
+            "feedbackCorrect": "Separaste afirmación, problema de fuente, evidencia y corrección.",
+            "feedbackIncorrect": "Sigue el recorrido desde lo que dice la IA hasta la versión sustentada."
+          },
+          {
+            "id": "A3.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Reescribe con calibración",
+            "body": "Sustituye absolutos por rangos o condiciones cuando la evidencia lo exige y enlaza la fuente original.",
+            "examples": [
+              "puede variar según caudal",
+              "bajo estas condiciones",
+              "no encontramos sustento"
+            ],
+            "memoryAid": "Corrige contenido, certeza y procedencia."
+          },
+          {
+            "id": "A3.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.verificacion.salidas_ia",
+            "difficulty": 1,
+            "prompt": "¿Qué hacer si el enlace citado no existe?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST13",
+            "hint": "No completes una fuente con imaginación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Marcar la cita como no verificada, buscar el documento por vías independientes y no usarla como apoyo.",
+                "feedback": "Correcto. La ausencia del documento impide atribuirle evidencia."
+              },
+              {
+                "id": "b",
+                "text": "Inventar una dirección parecida.",
+                "feedback": "Revisa la idea clave. La ausencia del documento impide atribuirle evidencia."
+              },
+              {
+                "id": "c",
+                "text": "Confiar porque el título parece institucional.",
+                "feedback": "Revisa la idea clave. La ausencia del documento impide atribuirle evidencia."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.verificacion.salidas_ia",
+            "difficulty": 2,
+            "prompt": "Un estudiante confirma la frase porque Nexo repite la misma cifra al preguntarle de nuevo. ¿Qué falla?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST14",
+            "hint": "Busca independencia, no consistencia aparente.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Las respuestas repetidas nunca contienen palabras.",
+                "feedback": "Revisa la idea clave. La verificación debe salir del sistema y llegar a evidencia original."
+              },
+              {
+                "id": "b",
+                "text": "Repetir una salida del mismo sistema no crea una fuente independiente.",
+                "feedback": "Correcto. La verificación debe salir del sistema y llegar a evidencia original."
+              },
+              {
+                "id": "c",
+                "text": "Solo se puede preguntar una vez a una IA.",
+                "feedback": "Revisa la idea clave. La verificación debe salir del sistema y llegar a evidencia original."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.verificacion.salidas_ia",
+            "difficulty": 1,
+            "prompt": "¿Cuál reescritura es responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST14",
+            "hint": "Evita «siempre» cuando la fuente ofrece un rango.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda llave ahorra exactamente 73 %.",
+                "feedback": "Revisa la idea clave. Conserva lo apoyado e incluye condiciones y límites."
+              },
+              {
+                "id": "b",
+                "text": "Las aireadoras nunca modifican el consumo.",
+                "feedback": "Revisa la idea clave. Conserva lo apoyado e incluye condiciones y límites."
+              },
+              {
+                "id": "c",
+                "text": "El ahorro puede variar; una ficha técnica ofrece un rango bajo condiciones que deben compararse con el caso.",
+                "feedback": "Correcto. Conserva lo apoyado e incluye condiciones y límites."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.verificacion.salidas_ia",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la ruta completa de auditoría?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST14",
+            "hint": "Incluye evidencia externa y corrección.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Separar afirmaciones, priorizar riesgos, abrir fuentes, registrar hallazgos y reescribir.",
+                "feedback": "Correcto. La ruta convierte una salida fluida en piezas comprobables."
+              },
+              {
+                "id": "b",
+                "text": "Copiar, decorar y compartir.",
+                "feedback": "Revisa la idea clave. La ruta convierte una salida fluida en piezas comprobables."
+              },
+              {
+                "id": "c",
+                "text": "Preguntar a la misma IA si está segura.",
+                "feedback": "Revisa la idea clave. La ruta convierte una salida fluida en piezas comprobables."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya puedes auditar una respuesta generada",
+            "body": "No te dejaste llevar por la fluidez: separaste afirmaciones, verificaste documentos y reescribiste con fuentes, condiciones y certeza proporcionada.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A3.08",
+        "globalId": "pe-sec1-mail-A3-08",
+        "sequence": 8,
+        "title": "Veredicto responsable",
+        "subtitle": "Confirmado, falso, engañoso, no sustentado e incierto no significan lo mismo",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.verificacion.veredicto",
+        "learningOutcome": "Emite un veredicto graduado basado en evidencia disponible, explica límites y corrige sin amplificar contenido dañino.",
+        "successEvidence": "Produce una ficha final con afirmación, evidencias independientes, categoría, justificación, incertidumbre y mensaje correctivo.",
+        "prerequisites": [
+          "Completa las siete lecciones anteriores"
+        ],
+        "misconceptions": [
+          "Todo es verdadero o falso sin matices",
+          "No encontrar evidencia prueba falsedad",
+          "Corregir exige repetir de forma llamativa el rumor"
+        ],
+        "screens": [
+          {
+            "id": "A3.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El veredicto debe ser tan preciso como la evidencia",
+            "body": "El parque sí cerrará, pero solo tres días. Por eso el rumor de cierre permanente no es simplemente una frase sin datos: usa un hecho real para construir una conclusión engañosa.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A3.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.verificacion.veredicto",
+            "difficulty": 1,
+            "prompt": "¿Qué categoría describe mejor «cerrarán para siempre el parque»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A3-ST15",
+            "hint": "Compara duración del rumor y del documento.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Confirmado: existe una reja.",
+                "feedback": "Revisa la idea clave. El aviso confirma la parte temporal y contradice el alcance permanente."
+              },
+              {
+                "id": "b",
+                "text": "Engañoso: usa un cierre real, pero cambia tres días por permanencia.",
+                "feedback": "Correcto. El aviso confirma la parte temporal y contradice el alcance permanente."
+              },
+              {
+                "id": "c",
+                "text": "Incierto: no hay ningún documento disponible.",
+                "feedback": "Revisa la idea clave. El aviso confirma la parte temporal y contradice el alcance permanente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Usa categorías con criterio",
+            "body": "Confirmado: evidencia suficiente coincide. Falso: evidencia suficiente contradice. Engañoso: mezcla elementos reales con contexto o alcance alterado. No sustentado: falta apoyo. Incierto: aún no puede resolverse.",
+            "examples": [
+              "cierre temporal confirmado",
+              "cierre permanente contradicho",
+              "foto real con uso engañoso"
+            ],
+            "memoryAid": "La categoría resume una relación con evidencia."
+          },
+          {
+            "id": "A3.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Justifica y declara límites",
+            "body": "Explica qué documentos usaste, si son independientes y qué falta. Un veredicto sin razonamiento no enseña a verificar.",
+            "examples": [
+              "aviso municipal",
+              "foto durante mantenimiento",
+              "sin resolución definitiva"
+            ],
+            "memoryAid": "Di cómo sabes y qué no sabes."
+          },
+          {
+            "id": "A3.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.veredicto",
+            "difficulty": 1,
+            "prompt": "¿Por qué el borrador B corrige mejor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A3-ST16",
+            "hint": "Busca corrección, procedencia y límite.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Incluye más insultos que el rumor.",
+                "feedback": "Revisa la idea clave. Reduce amplificación y entrega evidencia útil."
+              },
+              {
+                "id": "b",
+                "text": "Oculta la fecha correcta.",
+                "feedback": "Revisa la idea clave. Reduce amplificación y entrega evidencia útil."
+              },
+              {
+                "id": "c",
+                "text": "Prioriza el dato verificado, enlaza el origen y declara que no encontró cierre permanente.",
+                "feedback": "Correcto. Reduce amplificación y entrega evidencia útil."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.verificacion.veredicto",
+            "difficulty": 1,
+            "prompt": "Relaciona cada veredicto con su criterio.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST15",
+            "hint": "Una verdad parcial fuera de contexto suele ser engañosa.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Confirmado",
+                "rightId": "r1",
+                "right": "Evidencia suficiente coincide"
+              },
+              {
+                "leftId": "l2",
+                "left": "Falso",
+                "rightId": "r2",
+                "right": "Evidencia suficiente contradice"
+              },
+              {
+                "leftId": "l3",
+                "left": "Engañoso",
+                "rightId": "r3",
+                "right": "Verdad parcial con contexto alterado"
+              },
+              {
+                "leftId": "l4",
+                "left": "Incierto",
+                "rightId": "r4",
+                "right": "La evidencia actual no permite resolver"
+              }
+            ],
+            "feedbackCorrect": "Usaste categorías graduadas en lugar de una decisión automática.",
+            "feedbackIncorrect": "Revisa la diferencia entre contradicción, mezcla de contexto y falta de resolución."
+          },
+          {
+            "id": "A3.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Corrige sin amplificar",
+            "body": "Coloca primero el dato correcto, evita insultos y reduce la reproducción visual del rumor. Ofrece enlace original y una acción útil.",
+            "examples": [
+              "cierre del 12 al 14",
+              "no hallamos cierre permanente",
+              "comparte la aclaración"
+            ],
+            "memoryAid": "La corrección debe viajar mejor que el rumor."
+          },
+          {
+            "id": "A3.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.verificacion.veredicto",
+            "difficulty": 1,
+            "prompt": "¿Cuándo corresponde «no sustentado» en lugar de «falso»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST15",
+            "hint": "Distingue falta de prueba y refutación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cuando no hay evidencia suficiente para apoyar la afirmación, pero tampoco para contradecirla de manera concluyente.",
+                "feedback": "Correcto. Ausencia de apoyo no siempre equivale a prueba de lo contrario."
+              },
+              {
+                "id": "b",
+                "text": "Cuando una frase no nos gusta.",
+                "feedback": "Revisa la idea clave. Ausencia de apoyo no siempre equivale a prueba de lo contrario."
+              },
+              {
+                "id": "c",
+                "text": "Cuando tiene pocas reacciones.",
+                "feedback": "Revisa la idea clave. Ausencia de apoyo no siempre equivale a prueba de lo contrario."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.verificacion.veredicto",
+            "difficulty": 2,
+            "prompt": "Un verificador escribe «falso» sin mencionar el cierre temporal. ¿Qué pierde?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A3-ST15",
+            "hint": "Busca qué parte sí ocurrió.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hace que el parque cierre más días.",
+                "feedback": "Revisa la idea clave. La categoría debe representar toda la relación entre rumor y evidencia."
+              },
+              {
+                "id": "b",
+                "text": "Oculta la parte real que explica por qué el rumor resulta convincente y engañoso.",
+                "feedback": "Correcto. La categoría debe representar toda la relación entre rumor y evidencia."
+              },
+              {
+                "id": "c",
+                "text": "Convierte el aviso en una fotografía.",
+                "feedback": "Revisa la idea clave. La categoría debe representar toda la relación entre rumor y evidencia."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A3.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.verificacion.veredicto",
+            "difficulty": 1,
+            "prompt": "¿Qué elemento debe aparecer en la ficha final?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST16",
+            "hint": "Incluye proceso y no solo resultado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Solo una etiqueta grande.",
+                "feedback": "Revisa la idea clave. La trazabilidad permite revisar el juicio."
+              },
+              {
+                "id": "b",
+                "text": "El número de veces que se compartió.",
+                "feedback": "Revisa la idea clave. La trazabilidad permite revisar el juicio."
+              },
+              {
+                "id": "c",
+                "text": "La afirmación exacta, evidencia consultada, categoría, justificación y límites.",
+                "feedback": "Correcto. La trazabilidad permite revisar el juicio."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A3.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.verificacion.veredicto",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la mejor acción antes de compartir una corrección?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A3-ST16",
+            "hint": "Pon primero lo verificado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Revisar que la evidencia esté enlazada, el lenguaje sea proporcional y el rumor no domine el mensaje.",
+                "feedback": "Correcto. Una corrección eficaz informa sin aumentar el alcance del contenido erróneo."
+              },
+              {
+                "id": "b",
+                "text": "Añadir una captura más grande del rumor.",
+                "feedback": "Revisa la idea clave. Una corrección eficaz informa sin aumentar el alcance del contenido erróneo."
+              },
+              {
+                "id": "c",
+                "text": "Eliminar cualquier señal de incertidumbre.",
+                "feedback": "Revisa la idea clave. Una corrección eficaz informa sin aumentar el alcance del contenido erróneo."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A3.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya verificas y corriges con responsabilidad",
+            "body": "Llegaste desde una afirmación confusa hasta un veredicto trazable, graduado y útil, sin convertir la corrección en publicidad para el rumor.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}

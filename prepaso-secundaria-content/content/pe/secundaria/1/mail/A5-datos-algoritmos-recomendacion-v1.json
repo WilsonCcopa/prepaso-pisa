@@ -1,0 +1,2730 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.8",
+  "locale": "es-PE",
+  "unit": {
+    "id": "A5",
+    "globalId": "pe-sec1-mail-A5",
+    "sequence": 5,
+    "grade": "sec1",
+    "subject": "mail",
+    "title": "Datos, algoritmos y sistemas de recomendación",
+    "shortTitle": "Datos y recomendadores",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb_y_al_borrador_mail_2029",
+    "officialStatusNote": "A5 es una secuencia editorial de Prepaso. Se alinea con la competencia transversal del CNEB y con el primer borrador preliminar del marco PISA 2029 MAIL publicado por la OCDE en enero de 2026, sujeto a revisión antes de su versión oficial.",
+    "unitOutcome": "Comprende cómo datos, decisiones humanas, reglas y objetivos producen recomendaciones y propone sistemas más transparentes, diversos, seguros y justos.",
+    "finalEvidence": "Auditoría de recomendador ficticio con mapa de datos, regla, objetivo, métricas desagregadas, pruebas de control y mejoras medibles.",
+    "curriculumAlignment": {
+      "frameworks": [
+        "CNEB Perú",
+        "PISA 2029 Media and Artificial Intelligence Literacy — first draft",
+        "EC-OECD AI Literacy Framework for Primary and Secondary Education 2026"
+      ],
+      "cnebCompetency": "Se desenvuelve en entornos virtuales generados por las TIC",
+      "cnebCapacities": [
+        "Gestiona información del entorno virtual",
+        "Interactúa en entornos virtuales",
+        "Crea objetos virtuales en diversos formatos"
+      ],
+      "mailKeyConcepts": [
+        "Sistemas y datos",
+        "Agencia y control",
+        "Representaciones y realidades"
+      ],
+      "mailCompetencies": [
+        "Acceder y usar",
+        "Analizar y evaluar",
+        "Reflexionar y actuar ética y responsablemente"
+      ],
+      "operationalAlignment": "Distingue tipos de datos, ejecuta reglas, relaciona objetivos y métricas, interpreta perfiles y bucles, detecta sesgos, usa controles y audita recomendadores."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Auditor de algoritmos"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "safetyPolicy": {
+      "realAccountsRequired": false,
+      "realPersonalDataRequested": false,
+      "openSocialInteraction": false,
+      "caseData": "fictitious",
+      "adultSupportPrompts": true,
+      "credentialCollection": false,
+      "note": "Todas las actividades usan personas, perfiles, plataformas, datos y documentos ficticios. Nunca solicitan cuentas, contactos, historial real, ubicación precisa, fotografías, voz, contraseñas ni experiencias sensibles del estudiante."
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todas las publicaciones, interfaces, medios, datos, servicios y situaciones son simulaciones originales de Prepaso.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "PISA 2029 Media and Artificial Intelligence Literacy",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/en/about/projects/pisa-2029-media-and-artificial-intelligence-literacy.html",
+        "status": "official_project_page"
+      },
+      {
+        "title": "PISA 2029 MAIL Assessment Framework First Draft",
+        "publisher": "OECD",
+        "edition": "January 2026",
+        "url": "https://www.oecd.org/content/dam/oecd/en/about/projects/edu/the-pisa-2029-media-and-artificial-intelligence-%28mail%29-assessment-will-shed-light-on-whether-young-students-have-had-opportunities-to-learn-and-to-engage-proactively-and-critically-in-a-world-where-production%2C-participation%2C-and-social-networking-are-increasingly-mediated-by-digital-and-ai-tools-/PISA%202029%20MAIL%20Assessment%20Framework%20First%20Draft.pdf",
+        "status": "first_preliminary_draft_subject_to_revision"
+      },
+      {
+        "title": "Empowering Learners for the Age of AI",
+        "publisher": "OECD and European Commission",
+        "edition": "June 2026",
+        "url": "https://www.oecd.org/en/publications/empowering-learners-for-the-age-of-ai_65cd27d4-en.html"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "A5-ST01",
+        "title": "Tres clases de datos",
+        "format": "mixed",
+        "genre": "simulación de aplicación",
+        "content": "App ficticia Lectora: el usuario elige idioma y temas favoritos —datos proporcionados—. El sistema registra qué textos abre y cuánto tiempo permanece —datos observados—. Luego estima que prefiere ciencia —dato inferido—. La inferencia puede ser útil y también equivocarse: una lectura larga quizá se debió a dificultad, no a interés.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST02",
+        "title": "Registro mínimo",
+        "format": "mixed",
+        "genre": "simulación de diseño",
+        "content": "Dos propuestas para recomendar lecturas. Diseño A guarda nombre completo, ubicación precisa, contactos y cada toque. Diseño B usa un identificador aleatorio, temas elegidos y lecturas terminadas, con borrado accesible. Para la tarea de recomendar por tema, muchos datos del diseño A son innecesarios y aumentan el riesgo.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST03",
+        "title": "Una regla transparente",
+        "format": "mixed",
+        "genre": "simulación de algoritmo",
+        "content": "Regla: 1) descartar contenidos marcados como no aptos para la edad; 2) sumar 2 puntos si coincide con un tema elegido; 3) sumar 1 si ofrece un formato distinto al último visto; 4) ordenar por puntaje; 5) si hay empate, mostrar primero el menos visto. La regla es un procedimiento diseñado por personas, no una voluntad propia.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST04",
+        "title": "La fila de recomendaciones",
+        "format": "mixed",
+        "genre": "simulación paso a paso",
+        "content": "Preferencias: ciencia y relatos. Último formato: video. Candidato P: ciencia, artículo, 3 puntos. Candidato Q: relatos, video, 2 puntos. Candidato R: deportes, pódcast, 1 punto. Candidato S: ciencia, video, marcado no apto para la edad, descartado antes de puntuar. Resultado esperado: P, Q, R.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST05",
+        "title": "Dos objetivos",
+        "format": "mixed",
+        "genre": "simulación comparativa",
+        "content": "Sistema ClicMax ordena lo que tiene mayor probabilidad de clic inmediato. Sistema Explora exige que cuatro recomendaciones incluyan al menos tres temas y dos formatos, además de seguridad. Con el mismo historial, ClicMax repite videos de un solo tema; Explora ofrece dos intereses conocidos y dos opciones cercanas nuevas.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST06",
+        "title": "La métrica mueve el resultado",
+        "format": "mixed",
+        "genre": "simulación de panel",
+        "content": "Prueba de una semana con perfiles ficticios. ClicMax: 84 clics, 2 temas distintos por usuario, 78 % de un solo formato. Explora: 70 clics, 5 temas, 46 % de un solo formato. Ningún resultado es «mejor» sin declarar el objetivo; maximizar clics y ampliar diversidad son metas distintas que producen costos y beneficios.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST07",
+        "title": "Historial de Luna-27",
+        "format": "mixed",
+        "genre": "simulación de perfil ficticio",
+        "content": "Historial: abrió tres videos de volcanes para una tarea, terminó un cuento de misterio y descartó dos noticias deportivas. Perfil calculado: ciencia 70 %, relatos 20 %, deportes 10 %. El porcentaje es una predicción basada en señales limitadas; no describe toda la identidad ni demuestra por qué abrió cada contenido.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST08",
+        "title": "Predicción que se actualiza",
+        "format": "mixed",
+        "genre": "simulación de resultados",
+        "content": "Ronda inicial: el sistema recomienda principalmente ciencia. Luna-27 usa «ver menos de este tema», elige dos relatos y borra el historial de la tarea. Nuevo perfil: ciencia 40 %, relatos 50 %, otros 10 %. La predicción cambia con datos y controles; no era una etiqueta permanente ni una verdad sobre la persona.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST09",
+        "title": "Cinco rondas",
+        "format": "mixed",
+        "genre": "simulación de tabla",
+        "content": "R1: 4 temas ofrecidos, se elige cocina. R2: 3 temas, se elige cocina. R3: 2 temas, se elige cocina. R4: 1 tema, cocina. R5: 1 tema, cocina. El sistema interpreta elecciones como preferencia y reduce variedad; al ver menos alternativas, aumenta la probabilidad de volver a elegir lo mismo.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST10",
+        "title": "Romper el bucle",
+        "format": "mixed",
+        "genre": "simulación de controles",
+        "content": "Opciones del recomendador: «mezclar temas», «explorar al azar con seguridad», «reiniciar sugerencias» y «¿por qué veo esto?». Al activar «mezclar temas», la siguiente ronda incluye cocina, ciencia, música y deporte. El historial no desaparece, pero la regla reserva espacio para diversidad y debilita el ciclo de repetición.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST11",
+        "title": "Datos de entrenamiento incompletos",
+        "format": "mixed",
+        "genre": "simulación de conjunto de datos",
+        "content": "Clasificador ficticio de actividades escolares entrenado con 1 000 ejemplos: 760 deportes urbanos, 180 música, 50 ciencia y 10 prácticas agrícolas. En una prueba rural, etiqueta varias actividades de cultivo como «otros» con baja precisión. El problema no demuestra intención de discriminar; revela ausencia y representación desigual en los ejemplos.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST12",
+        "title": "Prueba por grupos",
+        "format": "mixed",
+        "genre": "simulación de auditoría",
+        "content": "Exactitud global: 90 %. Desglose: deportes urbanos 95 %, música 92 %, ciencia 84 %, prácticas agrícolas 40 %. El promedio alto oculta un fallo serio para la categoría menos representada. Propuesta: ampliar ejemplos relevantes con revisión local, volver a entrenar y repetir pruebas separadas por categoría.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST13",
+        "title": "Panel de control",
+        "format": "mixed",
+        "genre": "simulación de configuración",
+        "content": "Controles: pausar historial, borrar actividad, editar temas, ver por qué aparece una recomendación, pedir menos de un tema y activar variedad. Cada opción incluye una explicación breve y vista previa del efecto. El botón de borrar no promete eliminar datos que deban conservarse legalmente; informa alcance y plazo del proceso ficticio.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST14",
+        "title": "Control aparente",
+        "format": "mixed",
+        "genre": "simulación de interfaz",
+        "content": "Otra app muestra «Tú controlas tus recomendaciones», pero solo permite cambiar el color del perfil. La opción «no me interesa» desaparece en un menú de seis pasos y no explica qué cambia. Un control real debe relacionarse con datos o reglas del sistema, ser comprensible y producir un efecto verificable.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST15",
+        "title": "Auditoría del recomendador Faro",
+        "format": "mixed",
+        "genre": "simulación de resultados",
+        "content": "Pruebas ficticias: seguridad, 20 de 20 contenidos no aptos bloqueados; utilidad, 15 de 20 recomendaciones relacionadas con la tarea; diversidad, solo 1 de 5 temas representado; control, «ver menos» tarda cuatro rondas en notarse; justicia, rendimiento mucho menor en actividades rurales. Faro funciona en algunas dimensiones y falla en otras.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A5-ST16",
+        "title": "Plan de mejora medible",
+        "format": "mixed",
+        "genre": "simulación de propuesta",
+        "content": "Mejoras propuestas: reservar dos de seis espacios para temas distintos; aplicar «ver menos» desde la siguiente ronda; ampliar y documentar ejemplos rurales; publicar una explicación simple de cada recomendación. Indicadores: número de temas por fila, rondas hasta cambio, precisión por categoría y comprensión del motivo en una prueba con estudiantes ficticios.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "A5.01",
+        "globalId": "pe-sec1-mail-A5-01",
+        "sequence": 1,
+        "title": "Datos que dejamos",
+        "subtitle": "Un sistema puede usar lo que entregas, lo que haces y lo que infiere",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.tipos_datos",
+        "learningOutcome": "Distingue datos proporcionados, observados e inferidos y aplica minimización a una finalidad concreta.",
+        "successEvidence": "Clasifica señales de un caso ficticio, detecta inferencias falibles y elimina datos innecesarios de un diseño.",
+        "prerequisites": [
+          "Comprende huella digital",
+          "Distingue hecho e inferencia"
+        ],
+        "misconceptions": [
+          "Solo cuenta como dato lo escrito en un formulario",
+          "Una inferencia describe perfectamente a la persona",
+          "Más datos siempre mejoran el sistema"
+        ],
+        "screens": [
+          {
+            "id": "A5.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "También produces datos cuando no llenas un formulario",
+            "body": "Elegir un tema es dato proporcionado; abrir un texto es observado; «prefiere ciencia» es inferido. Cada tipo tiene origen, utilidad y posibilidad de error distintos.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A5.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.tipos_datos",
+            "difficulty": 1,
+            "prompt": "¿Qué tipo de dato es «temas favoritos elegidos»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A5-ST01",
+            "hint": "Pregunta quién originó la información.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Inferido por el sistema.",
+                "feedback": "Revisa la idea clave. La persona lo selecciona directamente."
+              },
+              {
+                "id": "b",
+                "text": "Proporcionado por el usuario.",
+                "feedback": "Correcto. La persona lo selecciona directamente."
+              },
+              {
+                "id": "c",
+                "text": "Observado sin interacción.",
+                "feedback": "Revisa la idea clave. La persona lo selecciona directamente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Tres orígenes",
+            "body": "Proporcionado: lo declaras. Observado: la interacción se registra. Inferido: el sistema calcula una posibilidad a partir de otras señales.",
+            "examples": [
+              "idioma elegido",
+              "tiempo de lectura",
+              "interés estimado"
+            ],
+            "memoryAid": "Dijo, hizo, sistema supuso."
+          },
+          {
+            "id": "A5.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Inferencia no es identidad",
+            "body": "Una señal admite explicaciones alternativas. Leer mucho tiempo puede indicar interés, dificultad o interrupción.",
+            "examples": [
+              "probabilidad, no esencia",
+              "contexto ausente"
+            ],
+            "memoryAid": "Perfil útil no es verdad total."
+          },
+          {
+            "id": "A5.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.tipos_datos",
+            "difficulty": 1,
+            "prompt": "¿Qué tipo de dato es «prefiere ciencia 70 %»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A5-ST01",
+            "hint": "Busca una estimación derivada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Proporcionado como nombre legal.",
+                "feedback": "Revisa la idea clave. El sistema calcula una predicción, no recibe esa frase como declaración."
+              },
+              {
+                "id": "b",
+                "text": "Un hecho permanente sobre la identidad.",
+                "feedback": "Revisa la idea clave. El sistema calcula una predicción, no recibe esa frase como declaración."
+              },
+              {
+                "id": "c",
+                "text": "Inferido a partir de señales.",
+                "feedback": "Correcto. El sistema calcula una predicción, no recibe esa frase como declaración."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.tipos_datos",
+            "difficulty": 1,
+            "prompt": "Relaciona cada elemento con su tipo o evaluación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST01",
+            "hint": "Una recomendación por tema no necesita contactos.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Idioma elegido",
+                "rightId": "r1",
+                "right": "Dato proporcionado"
+              },
+              {
+                "leftId": "l2",
+                "left": "Texto abierto",
+                "rightId": "r2",
+                "right": "Dato observado"
+              },
+              {
+                "leftId": "l3",
+                "left": "Interés estimado",
+                "rightId": "r3",
+                "right": "Dato inferido"
+              },
+              {
+                "leftId": "l4",
+                "left": "Tiempo de lectura largo",
+                "rightId": "r4",
+                "right": "Señal ambigua"
+              }
+            ],
+            "feedbackCorrect": "Diferenciaste datos declarados, registrados, calculados y excesivos.",
+            "feedbackIncorrect": "Pregunta si la persona lo dijo, el sistema lo observó o lo dedujo."
+          },
+          {
+            "id": "A5.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Minimiza según la finalidad",
+            "body": "Pide y conserva solo lo necesario, durante el tiempo necesario, con controles claros.",
+            "examples": [
+              "temas elegidos sí",
+              "contactos no",
+              "ubicación precisa no"
+            ],
+            "memoryAid": "Finalidad primero; dato después."
+          },
+          {
+            "id": "A5.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.tipos_datos",
+            "difficulty": 1,
+            "prompt": "¿Por qué una lectura larga no prueba interés?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST01",
+            "hint": "Busca causas alternativas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "También podría deberse a dificultad, pausa o interrupción.",
+                "feedback": "Correcto. La misma señal admite varias explicaciones."
+              },
+              {
+                "id": "b",
+                "text": "Porque el tiempo nunca puede registrarse.",
+                "feedback": "Revisa la idea clave. La misma señal admite varias explicaciones."
+              },
+              {
+                "id": "c",
+                "text": "Porque todo texto científico es fácil.",
+                "feedback": "Revisa la idea clave. La misma señal admite varias explicaciones."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.tipos_datos",
+            "difficulty": 2,
+            "prompt": "Un diseño pide contactos para recomendar por tema. ¿Qué problema tiene?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST02",
+            "hint": "Pregunta si la función puede operar sin ese dato.",
+            "options": [
+              {
+                "id": "a",
+                "text": "No podrá mostrar ningún texto.",
+                "feedback": "Revisa la idea clave. La minimización exige justificar cada dato."
+              },
+              {
+                "id": "b",
+                "text": "Recolecta información innecesaria para la finalidad y aumenta el riesgo.",
+                "feedback": "Correcto. La minimización exige justificar cada dato."
+              },
+              {
+                "id": "c",
+                "text": "Los contactos siempre son públicos.",
+                "feedback": "Revisa la idea clave. La minimización exige justificar cada dato."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.tipos_datos",
+            "difficulty": 1,
+            "prompt": "¿Qué diseño aplica mejor minimización?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST02",
+            "hint": "Elige lo suficiente, no lo máximo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nombre, ubicación precisa, contactos y cada toque.",
+                "feedback": "Revisa la idea clave. Conserva señales pertinentes y controles sin datos excesivos."
+              },
+              {
+                "id": "b",
+                "text": "Guardar todo para una finalidad futura desconocida.",
+                "feedback": "Revisa la idea clave. Conserva señales pertinentes y controles sin datos excesivos."
+              },
+              {
+                "id": "c",
+                "text": "Identificador aleatorio, temas elegidos, lecturas terminadas y borrado accesible.",
+                "feedback": "Correcto. Conserva señales pertinentes y controles sin datos excesivos."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.tipos_datos",
+            "difficulty": 1,
+            "prompt": "¿Cuál regla protege la agencia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST02",
+            "hint": "Incluye origen, finalidad y control.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Explicar qué se recoge, para qué, qué se infiere y cómo editar o borrar cuando corresponda.",
+                "feedback": "Correcto. La transparencia permite entender y corregir el perfil."
+              },
+              {
+                "id": "b",
+                "text": "Ocultar las inferencias para no confundir.",
+                "feedback": "Revisa la idea clave. La transparencia permite entender y corregir el perfil."
+              },
+              {
+                "id": "c",
+                "text": "Tratar cada predicción como identidad permanente.",
+                "feedback": "Revisa la idea clave. La transparencia permite entender y corregir el perfil."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya ves los datos visibles e invisibles",
+            "body": "Clasificaste señales por origen, trataste las inferencias como falibles y redujiste la recolección a lo necesario.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A5.02",
+        "globalId": "pe-sec1-mail-A5-02",
+        "sequence": 2,
+        "title": "Regla y algoritmo",
+        "subtitle": "Un algoritmo es un procedimiento diseñado, no un ser que quiere cosas",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.regla_algoritmo",
+        "learningOutcome": "Ejecuta y explica una regla algorítmica sencilla, identifica decisiones humanas y predice cambios cuando se modifica una condición.",
+        "successEvidence": "Ordena candidatos con una regla transparente y señala dónde intervienen seguridad, puntaje, desempate y diseño.",
+        "prerequisites": [
+          "Ordena instrucciones",
+          "Compara cantidades pequeñas"
+        ],
+        "misconceptions": [
+          "El algoritmo decide con intención propia",
+          "Toda regla usa IA",
+          "Un resultado aparece sin decisiones humanas"
+        ],
+        "screens": [
+          {
+            "id": "A5.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Paso a paso, sin magia",
+            "body": "Descartar contenido no apto, sumar puntos, ordenar y desempatar son pasos definidos por personas. Ejecutarlos permite comprender por qué aparece una fila concreta.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A5.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.regla_algoritmo",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el primer paso de la regla?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A5-ST03",
+            "hint": "Sigue el número de los pasos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ordenar alfabéticamente todos los títulos.",
+                "feedback": "Revisa la idea clave. La seguridad se aplica antes del puntaje."
+              },
+              {
+                "id": "b",
+                "text": "Descartar contenido marcado como no apto para la edad.",
+                "feedback": "Correcto. La seguridad se aplica antes del puntaje."
+              },
+              {
+                "id": "c",
+                "text": "Preguntar qué contenido tiene intención propia.",
+                "feedback": "Revisa la idea clave. La seguridad se aplica antes del puntaje."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Algoritmo = pasos y condiciones",
+            "body": "Describe entrada, operaciones, orden y salida. Una regla simple puede ser algoritmo sin aprendizaje automático.",
+            "examples": [
+              "entrada: candidatos",
+              "pasos: filtrar y puntuar",
+              "salida: lista"
+            ],
+            "memoryAid": "Qué entra, qué pasa, qué sale."
+          },
+          {
+            "id": "A5.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Las decisiones viven en la regla",
+            "body": "Personas eligieron qué filtrar, cuántos puntos dar y cómo resolver empates. Esas decisiones expresan objetivos y valores.",
+            "examples": [
+              "edad antes de puntaje",
+              "+2 por tema",
+              "+1 por formato"
+            ],
+            "memoryAid": "El procedimiento fue diseñado."
+          },
+          {
+            "id": "A5.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.regla_algoritmo",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el orden esperado de los candidatos aptos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A5-ST04",
+            "hint": "Calcula después de aplicar el filtro.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S, R, Q.",
+                "feedback": "Revisa la idea clave. P obtiene 3 puntos, Q 2 y R 1; S se descarta."
+              },
+              {
+                "id": "b",
+                "text": "Q, P, S.",
+                "feedback": "Revisa la idea clave. P obtiene 3 puntos, Q 2 y R 1; S se descarta."
+              },
+              {
+                "id": "c",
+                "text": "P, Q, R.",
+                "feedback": "Correcto. P obtiene 3 puntos, Q 2 y R 1; S se descarta."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.regla_algoritmo",
+            "difficulty": 1,
+            "prompt": "Relaciona cada parte del algoritmo con su función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST03",
+            "hint": "El filtro actúa antes que el puntaje.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Contenidos candidatos",
+                "rightId": "r1",
+                "right": "Entrada"
+              },
+              {
+                "leftId": "l2",
+                "left": "Filtro de edad",
+                "rightId": "r2",
+                "right": "Condición prioritaria"
+              },
+              {
+                "leftId": "l3",
+                "left": "Suma de puntos",
+                "rightId": "r3",
+                "right": "Operación"
+              },
+              {
+                "leftId": "l4",
+                "left": "Menos visto en empate",
+                "rightId": "r4",
+                "right": "Regla de desempate"
+              }
+            ],
+            "feedbackCorrect": "Reconstruiste entrada, condición, operación y salida.",
+            "feedbackIncorrect": "Sigue el procedimiento desde los datos hasta la lista final."
+          },
+          {
+            "id": "A5.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Prueba con casos pequeños",
+            "body": "Ejecuta cada paso en orden y conserva una tabla. Luego cambia una condición para ver su efecto.",
+            "examples": [
+              "P=3, Q=2, R=1",
+              "S descartado"
+            ],
+            "memoryAid": "No saltes el filtro inicial."
+          },
+          {
+            "id": "A5.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.regla_algoritmo",
+            "difficulty": 1,
+            "prompt": "¿Por qué S no debe aparecer aunque coincide con ciencia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST04",
+            "hint": "El orden de pasos importa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La condición de seguridad lo descarta antes de puntuar.",
+                "feedback": "Correcto. Una condición prioritaria limita el conjunto de candidatos."
+              },
+              {
+                "id": "b",
+                "text": "Porque ciencia nunca puede recomendarse.",
+                "feedback": "Revisa la idea clave. Una condición prioritaria limita el conjunto de candidatos."
+              },
+              {
+                "id": "c",
+                "text": "Porque los videos siempre valen cero.",
+                "feedback": "Revisa la idea clave. Una condición prioritaria limita el conjunto de candidatos."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.regla_algoritmo",
+            "difficulty": 2,
+            "prompt": "Una persona dice «el algoritmo quiso protegerme». ¿Qué formulación es más precisa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST03",
+            "hint": "Nombra regla y diseñadores.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El algoritmo sintió preocupación.",
+                "feedback": "Revisa la idea clave. Evita atribuir intención humana al procedimiento."
+              },
+              {
+                "id": "b",
+                "text": "El sistema aplicó una regla de seguridad definida por quienes lo diseñaron.",
+                "feedback": "Correcto. Evita atribuir intención humana al procedimiento."
+              },
+              {
+                "id": "c",
+                "text": "Nadie tomó decisiones al construirlo.",
+                "feedback": "Revisa la idea clave. Evita atribuir intención humana al procedimiento."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.regla_algoritmo",
+            "difficulty": 1,
+            "prompt": "Si se elimina el punto por formato distinto, ¿qué puede cambiar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST04",
+            "hint": "Cambia solo una parte y recalcula.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S dejaría de estar marcado por edad automáticamente.",
+                "feedback": "Revisa la idea clave. Modificar una regla modifica puntajes, no condiciones ajenas."
+              },
+              {
+                "id": "b",
+                "text": "Todos los candidatos tendrían siempre tres puntos.",
+                "feedback": "Revisa la idea clave. Modificar una regla modifica puntajes, no condiciones ajenas."
+              },
+              {
+                "id": "c",
+                "text": "P perdería un punto y el orden podría depender del puntaje restante o del desempate.",
+                "feedback": "Correcto. Modificar una regla modifica puntajes, no condiciones ajenas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.regla_algoritmo",
+            "difficulty": 1,
+            "prompt": "¿Qué hace transparente una regla?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST03",
+            "hint": "Otro estudiante debería poder ejecutarla.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Publicar criterios, prioridad, puntajes, desempate y ejemplos de ejecución.",
+                "feedback": "Correcto. La explicación permite repetir y cuestionar el resultado."
+              },
+              {
+                "id": "b",
+                "text": "Decir solamente «es inteligente».",
+                "feedback": "Revisa la idea clave. La explicación permite repetir y cuestionar el resultado."
+              },
+              {
+                "id": "c",
+                "text": "Ocultar los descartes y mostrar la salida.",
+                "feedback": "Revisa la idea clave. La explicación permite repetir y cuestionar el resultado."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya puedes abrir la caja de una regla",
+            "body": "Ejecutaste el algoritmo paso a paso, identificaste decisiones de diseño y explicaste el resultado sin atribuirle intención humana.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A5.03",
+        "globalId": "pe-sec1-mail-A5-03",
+        "sequence": 3,
+        "title": "Objetivo del sistema",
+        "subtitle": "Lo que se optimiza cambia lo que aparece y lo que queda fuera",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.objetivo",
+        "learningOutcome": "Relaciona métricas y objetivos con resultados, beneficios y costos de un sistema de recomendación.",
+        "successEvidence": "Compara dos objetivos con el mismo historial y justifica cuál combinación sirve mejor a una necesidad declarada.",
+        "prerequisites": [
+          "Comprende reglas algorítmicas",
+          "Lee porcentajes y tablas"
+        ],
+        "misconceptions": [
+          "El sistema busca el bien general por defecto",
+          "Más clics significa mejor aprendizaje",
+          "Solo existe una métrica válida"
+        ],
+        "screens": [
+          {
+            "id": "A5.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El sistema mejora aquello que le pedimos medir",
+            "body": "Maximizar clics favorece contenido probable y repetido. Reservar diversidad sacrifica algunos clics inmediatos, pero amplía temas y formatos. Ninguna métrica representa todos los valores.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A5.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.objetivo",
+            "difficulty": 1,
+            "prompt": "¿Qué optimiza principalmente ClicMax?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A5-ST05",
+            "hint": "Busca la métrica priorizada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La diversidad mínima de tres temas.",
+                "feedback": "Revisa la idea clave. Su regla ordena por la señal de clic probable."
+              },
+              {
+                "id": "b",
+                "text": "La probabilidad de clic inmediato.",
+                "feedback": "Correcto. Su regla ordena por la señal de clic probable."
+              },
+              {
+                "id": "c",
+                "text": "La comprensión profunda de cada estudiante.",
+                "feedback": "Revisa la idea clave. Su regla ordena por la señal de clic probable."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Separa objetivo y métrica",
+            "body": "Objetivo es la meta; métrica es la señal utilizada para aproximarla. Una métrica puede ser incompleta.",
+            "examples": [
+              "meta: interés inmediato",
+              "métrica: clics",
+              "meta: exploración",
+              "métrica: temas distintos"
+            ],
+            "memoryAid": "Lo medido no agota lo valioso."
+          },
+          {
+            "id": "A5.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Sigue efectos y compensaciones",
+            "body": "Optimizar una dimensión puede reducir otra. Observa utilidad, diversidad, seguridad, bienestar y tiempo.",
+            "examples": [
+              "84 clics y 2 temas",
+              "70 clics y 5 temas"
+            ],
+            "memoryAid": "Toda optimización elige prioridades."
+          },
+          {
+            "id": "A5.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.objetivo",
+            "difficulty": 1,
+            "prompt": "¿Qué resultado distingue a Explora?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A5-ST06",
+            "hint": "Compara más de una columna.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Bloquea todo contenido nuevo.",
+                "feedback": "Revisa la idea clave. La tabla muestra cinco temas y menor concentración de formato."
+              },
+              {
+                "id": "b",
+                "text": "Obtiene 84 clics y dos temas.",
+                "feedback": "Revisa la idea clave. La tabla muestra cinco temas y menor concentración de formato."
+              },
+              {
+                "id": "c",
+                "text": "Ofrece más variedad de temas y formatos, con menos clics en la prueba.",
+                "feedback": "Correcto. La tabla muestra cinco temas y menor concentración de formato."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.03-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.objetivo",
+            "difficulty": 1,
+            "prompt": "Relaciona cada métrica con la dimensión que aproxima.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST06",
+            "hint": "Los clics muestran acción inmediata, no aprendizaje garantizado.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "84 frente a 70 clics",
+                "rightId": "r1",
+                "right": "Interacción inmediata"
+              },
+              {
+                "leftId": "l2",
+                "left": "2 frente a 5 temas",
+                "rightId": "r2",
+                "right": "Diversidad temática"
+              },
+              {
+                "leftId": "l3",
+                "left": "78 % de un formato",
+                "rightId": "r3",
+                "right": "Alta concentración"
+              },
+              {
+                "leftId": "l4",
+                "left": "46 % de un formato",
+                "rightId": "r4",
+                "right": "Menor concentración"
+              }
+            ],
+            "feedbackCorrect": "Separaste interacción inmediata, diversidad y concentración de formato.",
+            "feedbackIncorrect": "Una métrica no puede representar todas las dimensiones."
+          },
+          {
+            "id": "A5.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Declara la necesidad",
+            "body": "La mejor configuración depende del propósito. Para explorar, diversidad importa; para encontrar una tarea específica, pertinencia puede pesar más.",
+            "examples": [
+              "explorar intereses",
+              "resolver encargo",
+              "evitar contenido no apto"
+            ],
+            "memoryAid": "Primero finalidad; luego criterio."
+          },
+          {
+            "id": "A5.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.objetivo",
+            "difficulty": 1,
+            "prompt": "¿Por qué 84 clics no prueba que ClicMax sea mejor en todo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST06",
+            "hint": "Pregunta qué no mide el contador.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los clics no miden por sí solos diversidad, aprendizaje, seguridad o bienestar.",
+                "feedback": "Correcto. Una métrica parcial no representa todos los objetivos."
+              },
+              {
+                "id": "b",
+                "text": "Porque 84 siempre es menor que 70.",
+                "feedback": "Revisa la idea clave. Una métrica parcial no representa todos los objetivos."
+              },
+              {
+                "id": "c",
+                "text": "Porque ningún clic puede registrarse.",
+                "feedback": "Revisa la idea clave. Una métrica parcial no representa todos los objetivos."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.objetivo",
+            "difficulty": 2,
+            "prompt": "Un equipo llama «fracaso» a Explora por tener 14 clics menos. ¿Qué falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST06",
+            "hint": "Evalúa la compensación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ocultar la tabla de temas.",
+                "feedback": "Revisa la idea clave. El costo en clics puede corresponder a otro valor buscado."
+              },
+              {
+                "id": "b",
+                "text": "Comparar el propósito declarado y el aumento de diversidad antes de juzgar.",
+                "feedback": "Correcto. El costo en clics puede corresponder a otro valor buscado."
+              },
+              {
+                "id": "c",
+                "text": "Convertir todos los formatos en video.",
+                "feedback": "Revisa la idea clave. El costo en clics puede corresponder a otro valor buscado."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.objetivo",
+            "difficulty": 1,
+            "prompt": "Para descubrir intereses nuevos, ¿qué objetivo es más coherente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST05",
+            "hint": "Combina variedad y límites.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mostrar únicamente el tema más pulsado.",
+                "feedback": "Revisa la idea clave. La regla crea oportunidades de exploración sin abandonar relevancia."
+              },
+              {
+                "id": "b",
+                "text": "Maximizar repetición sin controles.",
+                "feedback": "Revisa la idea clave. La regla crea oportunidades de exploración sin abandonar relevancia."
+              },
+              {
+                "id": "c",
+                "text": "Reservar espacio para temas y formatos diversos manteniendo seguridad y cierta pertinencia.",
+                "feedback": "Correcto. La regla crea oportunidades de exploración sin abandonar relevancia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.objetivo",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta revela el objetivo de un sistema?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST06",
+            "hint": "Busca la definición de éxito.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué resultado cuenta como éxito y qué métrica se usa para decidirlo?",
+                "feedback": "Correcto. Objetivo y métrica explican por qué se ordenan resultados."
+              },
+              {
+                "id": "b",
+                "text": "¿Qué color tiene el botón principal?",
+                "feedback": "Revisa la idea clave. Objetivo y métrica explican por qué se ordenan resultados."
+              },
+              {
+                "id": "c",
+                "text": "¿Cuántas letras tiene el nombre?",
+                "feedback": "Revisa la idea clave. Objetivo y métrica explican por qué se ordenan resultados."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya preguntas qué está optimizando el sistema",
+            "body": "Comparaste métricas, visibilizaste compensaciones y elegiste objetivos a partir de una necesidad, no del número más grande.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A5.04",
+        "globalId": "pe-sec1-mail-A5-04",
+        "sequence": 4,
+        "title": "Perfil y predicción",
+        "subtitle": "Un perfil resume señales pasadas para anticipar posibilidades, no para definir a una persona",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.perfil_prediccion",
+        "learningOutcome": "Explica cómo un historial ficticio alimenta predicciones, reconoce incertidumbre y actualiza el perfil con nuevas señales y controles.",
+        "successEvidence": "Simula dos rondas de recomendación y distingue observación, inferencia, probabilidad y cambio de contexto.",
+        "prerequisites": [
+          "Distingue datos observados e inferidos",
+          "Comprende objetivos"
+        ],
+        "misconceptions": [
+          "El perfil conoce la intención",
+          "Una probabilidad es una etiqueta permanente",
+          "Toda acción refleja preferencia libre"
+        ],
+        "screens": [
+          {
+            "id": "A5.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El sistema ve señales, no razones completas",
+            "body": "Abrir tres videos de volcanes para una tarea parece interés por ciencia, pero el sistema no conoce automáticamente el encargo. Por eso una predicción debe poder corregirse y cambiar.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A5.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.perfil_prediccion",
+            "difficulty": 1,
+            "prompt": "¿Qué observó directamente el sistema sobre Luna-27?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A5-ST07",
+            "hint": "Separa eventos y conclusiones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que ama la ciencia para siempre.",
+                "feedback": "Revisa la idea clave. El historial registra acciones, no motivos internos."
+              },
+              {
+                "id": "b",
+                "text": "Que abrió tres videos de volcanes, terminó un cuento y descartó noticias deportivas.",
+                "feedback": "Correcto. El historial registra acciones, no motivos internos."
+              },
+              {
+                "id": "c",
+                "text": "Que detesta toda actividad física.",
+                "feedback": "Revisa la idea clave. El historial registra acciones, no motivos internos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Del historial al perfil",
+            "body": "El sistema selecciona señales, les asigna peso y calcula una estimación. La regla de peso también es una decisión de diseño.",
+            "examples": [
+              "tres aperturas de volcanes",
+              "un cuento terminado",
+              "dos deportes descartados"
+            ],
+            "memoryAid": "Señales + pesos = perfil provisional."
+          },
+          {
+            "id": "A5.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Probabilidad no es identidad",
+            "body": "70 % expresa una estimación para una acción o categoría, no que 70 % de la persona sea ciencia.",
+            "examples": [
+              "predicción situada",
+              "puede fallar",
+              "no explica motivo"
+            ],
+            "memoryAid": "Predice una posibilidad, no describe un ser."
+          },
+          {
+            "id": "A5.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.perfil_prediccion",
+            "difficulty": 1,
+            "prompt": "¿Qué representa «ciencia 70 %»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A5-ST07",
+            "hint": "Pregunta quién produjo esa cifra.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Setenta por ciento de la identidad de Luna-27.",
+                "feedback": "Revisa la idea clave. El porcentaje pertenece al modelo, no a la esencia personal."
+              },
+              {
+                "id": "b",
+                "text": "Una declaración escrita por la persona.",
+                "feedback": "Revisa la idea clave. El porcentaje pertenece al modelo, no a la esencia personal."
+              },
+              {
+                "id": "c",
+                "text": "Una predicción calculada a partir de señales limitadas.",
+                "feedback": "Correcto. El porcentaje pertenece al modelo, no a la esencia personal."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.perfil_prediccion",
+            "difficulty": 1,
+            "prompt": "Relaciona historial, predicción, contexto y control.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST07",
+            "hint": "Una tarea puede producir señales temporales.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Abrir tres videos",
+                "rightId": "r1",
+                "right": "Señal observada"
+              },
+              {
+                "leftId": "l2",
+                "left": "Ciencia 70 %",
+                "rightId": "r2",
+                "right": "Inferencia probabilística"
+              },
+              {
+                "leftId": "l3",
+                "left": "Tarea escolar",
+                "rightId": "r3",
+                "right": "Contexto no capturado automáticamente"
+              },
+              {
+                "leftId": "l4",
+                "left": "Editar temas",
+                "rightId": "r4",
+                "right": "Control del usuario"
+              }
+            ],
+            "feedbackCorrect": "Separaste acción registrada, cálculo, razón posible y capacidad de corrección.",
+            "feedbackIncorrect": "El sistema observa el clic, pero no necesariamente su motivo."
+          },
+          {
+            "id": "A5.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "El perfil debe poder cambiar",
+            "body": "Nuevas elecciones, eliminación de señales o controles pueden actualizar recomendaciones.",
+            "examples": [
+              "ver menos",
+              "borrar historial de tarea",
+              "elegir relatos"
+            ],
+            "memoryAid": "Un perfil editable protege agencia."
+          },
+          {
+            "id": "A5.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.perfil_prediccion",
+            "difficulty": 1,
+            "prompt": "¿Qué muestra la actualización del perfil?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST08",
+            "hint": "Compara antes y después.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que nuevas señales y controles cambian la predicción.",
+                "feedback": "Correcto. El modelo responde a la información que conserva y a la regla aplicada."
+              },
+              {
+                "id": "b",
+                "text": "Que el perfil inicial era una verdad inmutable.",
+                "feedback": "Revisa la idea clave. El modelo responde a la información que conserva y a la regla aplicada."
+              },
+              {
+                "id": "c",
+                "text": "Que borrar una tarea elimina toda cuenta.",
+                "feedback": "Revisa la idea clave. El modelo responde a la información que conserva y a la regla aplicada."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.perfil_prediccion",
+            "difficulty": 2,
+            "prompt": "Un docente interpreta el 70 % como prueba de vocación científica. ¿Qué omite?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST07",
+            "hint": "Busca por qué se produjo el historial.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La ciencia no existe como tema.",
+                "feedback": "Revisa la idea clave. Contexto y finalidad de la acción limitan la inferencia."
+              },
+              {
+                "id": "b",
+                "text": "Los videos fueron abiertos para una tarea y la predicción no revela intención ni vocación.",
+                "feedback": "Correcto. Contexto y finalidad de la acción limitan la inferencia."
+              },
+              {
+                "id": "c",
+                "text": "Los porcentajes solo sirven en deportes.",
+                "feedback": "Revisa la idea clave. Contexto y finalidad de la acción limitan la inferencia."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.perfil_prediccion",
+            "difficulty": 1,
+            "prompt": "¿Qué control corrige mejor una señal temporal?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST08",
+            "hint": "Relaciona control y dato.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añadir más videos de volcanes sin preguntar.",
+                "feedback": "Revisa la idea clave. El control actúa sobre la señal y permite expresar preferencia actual."
+              },
+              {
+                "id": "b",
+                "text": "Ocultar el perfil calculado.",
+                "feedback": "Revisa la idea clave. El control actúa sobre la señal y permite expresar preferencia actual."
+              },
+              {
+                "id": "c",
+                "text": "Borrar o separar el historial de la tarea y permitir editar temas.",
+                "feedback": "Correcto. El control actúa sobre la señal y permite expresar preferencia actual."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.perfil_prediccion",
+            "difficulty": 1,
+            "prompt": "¿Cuál explicación es responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST08",
+            "hint": "No antropomorfices ni conviertas probabilidad en destino.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El perfil estima intereses desde acciones registradas; puede equivocarse, cambia y no define a la persona.",
+                "feedback": "Correcto. La explicación incluye mecanismo, incertidumbre y agencia."
+              },
+              {
+                "id": "b",
+                "text": "El sistema sabe exactamente por qué actuaste.",
+                "feedback": "Revisa la idea clave. La explicación incluye mecanismo, incertidumbre y agencia."
+              },
+              {
+                "id": "c",
+                "text": "Una predicción alta debe obedecerse.",
+                "feedback": "Revisa la idea clave. La explicación incluye mecanismo, incertidumbre y agencia."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya tratas un perfil como hipótesis editable",
+            "body": "Pasaste de acciones a predicciones sin confundirlas con identidad y usaste contexto y controles para actualizar la representación.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A5.05",
+        "globalId": "pe-sec1-mail-A5-05",
+        "sequence": 5,
+        "title": "Bucle de retroalimentación",
+        "subtitle": "Lo que eliges cambia lo que ves; lo que ves limita lo que puedes elegir",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.retroalimentacion",
+        "learningOutcome": "Sigue varias rondas de recomendación, identifica ciclos de concentración y prueba intervenciones que recuperan diversidad.",
+        "successEvidence": "Representa un bucle con flechas, mide cambio de variedad y predice el efecto de modificar una regla.",
+        "prerequisites": [
+          "Comprende perfil y predicción",
+          "Lee secuencias"
+        ],
+        "misconceptions": [
+          "El historial solo mira al pasado",
+          "Repetir contenido demuestra preferencia pura",
+          "Una sola elección causa siempre una burbuja"
+        ],
+        "screens": [
+          {
+            "id": "A5.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Cada ronda alimenta la siguiente",
+            "body": "Elegir cocina aumenta recomendaciones de cocina; recibir menos alternativas hace más probable elegir cocina otra vez. El ciclo surge de la interacción entre usuario y sistema, no de una sola causa.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A5.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.retroalimentacion",
+            "difficulty": 1,
+            "prompt": "¿Qué patrón muestra la tabla de cinco rondas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A5-ST09",
+            "hint": "Cuenta temas ofrecidos en cada ronda.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cada ronda añade un tema nuevo.",
+                "feedback": "Revisa la idea clave. La secuencia evidencia concentración progresiva."
+              },
+              {
+                "id": "b",
+                "text": "La variedad baja de cuatro temas a uno mientras se repite cocina.",
+                "feedback": "Correcto. La secuencia evidencia concentración progresiva."
+              },
+              {
+                "id": "c",
+                "text": "El historial desaparece en la ronda dos.",
+                "feedback": "Revisa la idea clave. La secuencia evidencia concentración progresiva."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Dibuja el ciclo",
+            "body": "Oferta → elección → registro → actualización del perfil → nueva oferta. Una flecha circular muestra cómo la salida vuelve como entrada.",
+            "examples": [
+              "4 temas → 3 → 2 → 1",
+              "elección repetida"
+            ],
+            "memoryAid": "La salida de hoy alimenta mañana."
+          },
+          {
+            "id": "A5.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Mide concentración",
+            "body": "Cuenta temas, autores o formatos por ronda. La reducción sostenida de variedad es una señal, no prueba automática de daño.",
+            "examples": [
+              "R1: 4 temas",
+              "R4: 1 tema"
+            ],
+            "memoryAid": "Observa tendencia, no una captura."
+          },
+          {
+            "id": "A5.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.retroalimentacion",
+            "difficulty": 1,
+            "prompt": "¿Qué cambia al activar «mezclar temas»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A5-ST10",
+            "hint": "Compara las listas antes y después.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Se borra toda la aplicación.",
+                "feedback": "Revisa la idea clave. La intervención reserva variedad en la oferta."
+              },
+              {
+                "id": "b",
+                "text": "Desaparecen las reglas de seguridad.",
+                "feedback": "Revisa la idea clave. La intervención reserva variedad en la oferta."
+              },
+              {
+                "id": "c",
+                "text": "La siguiente ronda vuelve a incluir cuatro temas distintos.",
+                "feedback": "Correcto. La intervención reserva variedad en la oferta."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.retroalimentacion",
+            "difficulty": 1,
+            "prompt": "Relaciona cada etapa del bucle con su función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST09",
+            "hint": "La nueva oferta vuelve a ser entrada para otra elección.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Oferta",
+                "rightId": "r1",
+                "right": "Opciones visibles"
+              },
+              {
+                "leftId": "l2",
+                "left": "Elección",
+                "rightId": "r2",
+                "right": "Acción registrada"
+              },
+              {
+                "leftId": "l3",
+                "left": "Perfil actualizado",
+                "rightId": "r3",
+                "right": "Predicción modificada"
+              },
+              {
+                "leftId": "l4",
+                "left": "Nueva oferta",
+                "rightId": "r4",
+                "right": "Salida que reinicia el ciclo"
+              }
+            ],
+            "feedbackCorrect": "Reconstruiste cómo la salida vuelve a alimentar la siguiente ronda.",
+            "feedbackIncorrect": "Sigue las flechas desde lo visible hasta la actualización."
+          },
+          {
+            "id": "A5.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Intervén en distintos puntos",
+            "body": "Puedes modificar perfil, regla o elección: mezclar temas, explorar, reiniciar o pedir explicación.",
+            "examples": [
+              "reserva de diversidad",
+              "reinicio",
+              "ver menos"
+            ],
+            "memoryAid": "Romper el bucle requiere una salida alternativa."
+          },
+          {
+            "id": "A5.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.retroalimentacion",
+            "difficulty": 1,
+            "prompt": "¿Por qué el ciclo no depende solo del usuario?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST09",
+            "hint": "Mira las dos direcciones del bucle.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La oferta del sistema condiciona qué alternativas están disponibles para elegir.",
+                "feedback": "Correcto. Elección y arquitectura interactúan."
+              },
+              {
+                "id": "b",
+                "text": "Porque el usuario nunca toma decisiones.",
+                "feedback": "Revisa la idea clave. Elección y arquitectura interactúan."
+              },
+              {
+                "id": "c",
+                "text": "Porque el sistema conoce intenciones privadas.",
+                "feedback": "Revisa la idea clave. Elección y arquitectura interactúan."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.retroalimentacion",
+            "difficulty": 2,
+            "prompt": "Una persona concluye que cocinar es el único interés real porque solo aparece cocina en R5. ¿Qué omite?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST09",
+            "hint": "Pregunta qué podía elegir en esa ronda.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que la ronda cinco tiene un número.",
+                "feedback": "Revisa la idea clave. La oferta concentrada no permite observar preferencias entre opciones ausentes."
+              },
+              {
+                "id": "b",
+                "text": "La recomendación ya redujo las alternativas y pudo reforzar la repetición.",
+                "feedback": "Correcto. La oferta concentrada no permite observar preferencias entre opciones ausentes."
+              },
+              {
+                "id": "c",
+                "text": "Que los temas nunca cambian.",
+                "feedback": "Revisa la idea clave. La oferta concentrada no permite observar preferencias entre opciones ausentes."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.retroalimentacion",
+            "difficulty": 1,
+            "prompt": "¿Qué prueba muestra mejor si la intervención funciona?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST10",
+            "hint": "Mide más de una ronda.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mirar una sola miniatura.",
+                "feedback": "Revisa la idea clave. La tendencia temporal permite observar efecto y duración."
+              },
+              {
+                "id": "b",
+                "text": "Preguntar al sistema si es diverso.",
+                "feedback": "Revisa la idea clave. La tendencia temporal permite observar efecto y duración."
+              },
+              {
+                "id": "c",
+                "text": "Comparar temas ofrecidos y elegidos durante varias rondas antes y después.",
+                "feedback": "Correcto. La tendencia temporal permite observar efecto y duración."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.retroalimentacion",
+            "difficulty": 1,
+            "prompt": "¿Qué explicación completa el bucle?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST10",
+            "hint": "Incluye cinco etapas con flechas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La oferta influye en la elección, la elección actualiza el perfil y el perfil reorganiza la siguiente oferta.",
+                "feedback": "Correcto. La cadena conecta acciones y resultados en ambas direcciones."
+              },
+              {
+                "id": "b",
+                "text": "El sistema repite sin usar ningún dato.",
+                "feedback": "Revisa la idea clave. La cadena conecta acciones y resultados en ambas direcciones."
+              },
+              {
+                "id": "c",
+                "text": "Una elección revela toda la identidad.",
+                "feedback": "Revisa la idea clave. La cadena conecta acciones y resultados en ambas direcciones."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya puedes ver y modificar el ciclo",
+            "body": "Seguiste varias rondas, mediste la pérdida de diversidad y probaste controles que abren nuevamente el espacio de elección.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A5.06",
+        "globalId": "pe-sec1-mail-A5-06",
+        "sequence": 6,
+        "title": "Sesgo de datos",
+        "subtitle": "Un promedio alto puede esconder fallas para casos poco representados",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.sesgo_datos",
+        "learningOutcome": "Reconoce ausencia y sobrerrepresentación, compara desempeño por categorías y propone mejoras con participación pertinente.",
+        "successEvidence": "Audita un conjunto ficticio, identifica a quién perjudica y diseña recolección y prueba más representativas.",
+        "prerequisites": [
+          "Comprende datos y métricas",
+          "Interpreta porcentajes"
+        ],
+        "misconceptions": [
+          "Sesgo siempre implica intención de dañar",
+          "La exactitud global describe a cada grupo",
+          "Agregar muchos datos cualesquiera resuelve el problema"
+        ],
+        "screens": [
+          {
+            "id": "A5.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Pregunta quién aparece en los ejemplos",
+            "body": "Diez prácticas agrícolas entre mil ejemplos ofrecen poca variedad para aprender esa categoría. El sistema puede alcanzar 90 % global y fallar justamente donde casi no tuvo oportunidades de aprender.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A5.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.sesgo_datos",
+            "difficulty": 1,
+            "prompt": "¿Qué categoría está menos representada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A5-ST11",
+            "hint": "Compara cantidades por categoría.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Deportes urbanos, con 760.",
+                "feedback": "Revisa la idea clave. Diez ejemplos ofrecen una cobertura muy pequeña."
+              },
+              {
+                "id": "b",
+                "text": "Prácticas agrícolas, con 10 de 1 000 ejemplos.",
+                "feedback": "Correcto. Diez ejemplos ofrecen una cobertura muy pequeña."
+              },
+              {
+                "id": "c",
+                "text": "Música, con 180.",
+                "feedback": "Revisa la idea clave. Diez ejemplos ofrecen una cobertura muy pequeña."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Inspecciona representación",
+            "body": "Cuenta ejemplos por categoría, procedencia, condiciones y calidad de etiqueta. Cantidad total no garantiza cobertura.",
+            "examples": [
+              "760 deportes urbanos",
+              "10 prácticas agrícolas"
+            ],
+            "memoryAid": "¿Quién aparece mucho, poco o nada?"
+          },
+          {
+            "id": "A5.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Desagrega el rendimiento",
+            "body": "Calcula resultados por grupo o categoría relevante. El promedio global puede quedar dominado por el grupo mayoritario.",
+            "examples": [
+              "global 90 %",
+              "agrícola 40 %"
+            ],
+            "memoryAid": "Promedio alto, experiencia desigual."
+          },
+          {
+            "id": "A5.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.sesgo_datos",
+            "difficulty": 1,
+            "prompt": "¿Qué revela el desglose de exactitud?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A5-ST12",
+            "hint": "No te detengas en la cifra agregada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todas las categorías funcionan igual.",
+                "feedback": "Revisa la idea clave. El rendimiento difiere mucho entre categorías."
+              },
+              {
+                "id": "b",
+                "text": "El promedio global es 40 %.",
+                "feedback": "Revisa la idea clave. El rendimiento difiere mucho entre categorías."
+              },
+              {
+                "id": "c",
+                "text": "El 90 % global oculta solo 40 % en prácticas agrícolas.",
+                "feedback": "Correcto. El rendimiento difiere mucho entre categorías."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.sesgo_datos",
+            "difficulty": 1,
+            "prompt": "Relaciona cada cifra con su significado en la auditoría.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST12",
+            "hint": "El 90 % está dominado por categorías frecuentes.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "90 % global",
+                "rightId": "r1",
+                "right": "Métrica agregada"
+              },
+              {
+                "leftId": "l2",
+                "left": "95 % en deportes urbanos",
+                "rightId": "r2",
+                "right": "Rendimiento alto de una categoría frecuente"
+              },
+              {
+                "leftId": "l3",
+                "left": "40 % en prácticas agrícolas",
+                "rightId": "r3",
+                "right": "Falla visible al desagregar"
+              },
+              {
+                "leftId": "l4",
+                "left": "Resultados por categoría",
+                "rightId": "r4",
+                "right": "Vista que revela desigualdad"
+              }
+            ],
+            "feedbackCorrect": "Viste diferencias de rendimiento detrás del promedio.",
+            "feedbackIncorrect": "Distingue la métrica agregada de los resultados por categoría."
+          },
+          {
+            "id": "A5.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Mejora con pertinencia y prueba",
+            "body": "Añade ejemplos diversos y correctos con revisión de personas conocedoras; documenta origen y repite pruebas separadas.",
+            "examples": [
+              "revisión local",
+              "más contextos",
+              "métricas por categoría"
+            ],
+            "memoryAid": "Más datos pertinentes, no solo más datos."
+          },
+          {
+            "id": "A5.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.sesgo_datos",
+            "difficulty": 1,
+            "prompt": "¿Por qué no es necesario suponer intención de discriminar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST11",
+            "hint": "No uses intención como única definición.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La falla puede surgir de representación desigual y decisiones de datos, aunque el efecto siga importando.",
+                "feedback": "Correcto. Causa e impacto deben analizarse por separado."
+              },
+              {
+                "id": "b",
+                "text": "Porque el sesgo nunca perjudica.",
+                "feedback": "Revisa la idea clave. Causa e impacto deben analizarse por separado."
+              },
+              {
+                "id": "c",
+                "text": "Porque diez ejemplos son suficientes.",
+                "feedback": "Revisa la idea clave. Causa e impacto deben analizarse por separado."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.sesgo_datos",
+            "difficulty": 2,
+            "prompt": "Un equipo celebra 90 % y no mira categorías. ¿Cuál es el riesgo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST12",
+            "hint": "Pregunta quién recibe los fallos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que el promedio aumente solo.",
+                "feedback": "Revisa la idea clave. La métrica global oculta una distribución desigual de errores."
+              },
+              {
+                "id": "b",
+                "text": "Tomar decisiones con un sistema que falla mucho para actividades rurales poco representadas.",
+                "feedback": "Correcto. La métrica global oculta una distribución desigual de errores."
+              },
+              {
+                "id": "c",
+                "text": "Que los deportes desaparezcan del conjunto.",
+                "feedback": "Revisa la idea clave. La métrica global oculta una distribución desigual de errores."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.sesgo_datos",
+            "difficulty": 1,
+            "prompt": "¿Qué mejora es más responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST12",
+            "hint": "Une recolección, revisión y nueva prueba.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Duplicar solo deportes urbanos.",
+                "feedback": "Revisa la idea clave. Responde a la ausencia con datos pertinentes y evaluación específica."
+              },
+              {
+                "id": "b",
+                "text": "Eliminar el desglose y conservar el promedio.",
+                "feedback": "Revisa la idea clave. Responde a la ausencia con datos pertinentes y evaluación específica."
+              },
+              {
+                "id": "c",
+                "text": "Ampliar ejemplos agrícolas variados con revisión local, documentarlos y repetir pruebas por categoría.",
+                "feedback": "Correcto. Responde a la ausencia con datos pertinentes y evaluación específica."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.sesgo_datos",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la secuencia de auditoría de sesgo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST12",
+            "hint": "No olvides la prueba posterior.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Revisar representación, desagregar resultados, identificar afectados, mejorar datos y volver a probar.",
+                "feedback": "Correcto. La secuencia conecta diagnóstico con cambio verificable."
+              },
+              {
+                "id": "b",
+                "text": "Mirar el promedio, felicitar y publicar.",
+                "feedback": "Revisa la idea clave. La secuencia conecta diagnóstico con cambio verificable."
+              },
+              {
+                "id": "c",
+                "text": "Adivinar intención y terminar.",
+                "feedback": "Revisa la idea clave. La secuencia conecta diagnóstico con cambio verificable."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya sabes preguntar para quién funciona",
+            "body": "Inspeccionaste representación, abriste el promedio por categorías y diseñaste una mejora pertinente que deberá comprobarse otra vez.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A5.07",
+        "globalId": "pe-sec1-mail-A5-07",
+        "sequence": 7,
+        "title": "Control del usuario",
+        "subtitle": "Un control real es comprensible, relevante y produce un efecto observable",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.control_usuario",
+        "learningOutcome": "Evalúa y diseña controles sobre historial, preferencias y recomendaciones con alcance, efecto y reversibilidad claros.",
+        "successEvidence": "Rediseña un panel ficticio y conecta cada control con el dato o regla que modifica y la señal de que funcionó.",
+        "prerequisites": [
+          "Comprende perfiles y bucles",
+          "Aplica minimización de datos"
+        ],
+        "misconceptions": [
+          "Cualquier ajuste estético otorga control algorítmico",
+          "Borrar siempre es instantáneo y total",
+          "Ocultar opciones protege de la confusión"
+        ],
+        "screens": [
+          {
+            "id": "A5.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Control no es un eslogan",
+            "body": "Cambiar el color del perfil no modifica recomendaciones. Pausar historial, editar temas o pedir variedad sí pueden actuar sobre datos o reglas, pero deben explicar cuándo y hasta dónde.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A5.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.control_usuario",
+            "difficulty": 1,
+            "prompt": "¿Qué control actúa directamente sobre datos futuros?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A5-ST13",
+            "hint": "Busca una opción vinculada a recolección.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cambiar el color del perfil.",
+                "feedback": "Revisa la idea clave. Evita registrar nuevas actividades mientras esté activo."
+              },
+              {
+                "id": "b",
+                "text": "Pausar historial.",
+                "feedback": "Correcto. Evita registrar nuevas actividades mientras esté activo."
+              },
+              {
+                "id": "c",
+                "text": "Mover un icono decorativo.",
+                "feedback": "Revisa la idea clave. Evita registrar nuevas actividades mientras esté activo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Control relevante",
+            "body": "La opción debe relacionarse con la decisión del sistema: datos conservados, señales usadas, temas, frecuencia o diversidad.",
+            "examples": [
+              "pausar historial",
+              "editar temas",
+              "ver menos"
+            ],
+            "memoryAid": "¿Qué parte del sistema cambia?"
+          },
+          {
+            "id": "A5.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Control comprensible",
+            "body": "Usa nombre claro, explicación previa, consecuencias y confirmación dentro de la experiencia; evita rutas escondidas.",
+            "examples": [
+              "vista previa",
+              "plazo informado",
+              "deshacer cuando sea posible"
+            ],
+            "memoryAid": "La persona debe anticipar el efecto."
+          },
+          {
+            "id": "A5.07-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.control_usuario",
+            "difficulty": 1,
+            "prompt": "¿Por qué el control de la segunda app es aparente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A5-ST14",
+            "hint": "Compara promesa y función real.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque ofrece demasiada transparencia.",
+                "feedback": "Revisa la idea clave. El eslogan no corresponde con controles relevantes y accesibles."
+              },
+              {
+                "id": "b",
+                "text": "Porque borra el historial al instante.",
+                "feedback": "Revisa la idea clave. El eslogan no corresponde con controles relevantes y accesibles."
+              },
+              {
+                "id": "c",
+                "text": "Solo cambia apariencia y esconde «no me interesa» sin explicar efecto.",
+                "feedback": "Correcto. El eslogan no corresponde con controles relevantes y accesibles."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.control_usuario",
+            "difficulty": 1,
+            "prompt": "Relaciona cada control con su efecto real.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST13",
+            "hint": "Un control de datos debe cambiar algo más que el color.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Pausar historial",
+                "rightId": "r1",
+                "right": "Detiene registro futuro"
+              },
+              {
+                "leftId": "l2",
+                "left": "Editar temas",
+                "rightId": "r2",
+                "right": "Modifica preferencias declaradas"
+              },
+              {
+                "leftId": "l3",
+                "left": "¿Por qué veo esto?",
+                "rightId": "r3",
+                "right": "Explica señales o reglas"
+              },
+              {
+                "leftId": "l4",
+                "left": "Cambiar color",
+                "rightId": "r4",
+                "right": "Personalización estética"
+              }
+            ],
+            "feedbackCorrect": "Diferenciaste recolección, preferencia, explicación y apariencia.",
+            "feedbackIncorrect": "No todo ajuste visual modifica el recomendador."
+          },
+          {
+            "id": "A5.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Control verificable",
+            "body": "Después de actuar, muestra estado y permite comprobar el cambio en siguientes rondas o en un panel.",
+            "examples": [
+              "historial pausado",
+              "tema reducido desde próxima ronda"
+            ],
+            "memoryAid": "Si nada observable cambia, revisa el control."
+          },
+          {
+            "id": "A5.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.control_usuario",
+            "difficulty": 1,
+            "prompt": "¿Qué debe explicar una opción de borrado?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST13",
+            "hint": "Describe objeto, plazo y resultado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Qué datos cubre, cuándo se procesa, qué excepciones existen y cómo se confirma.",
+                "feedback": "Correcto. El alcance evita expectativas falsas."
+              },
+              {
+                "id": "b",
+                "text": "Que todo desaparecerá siempre de inmediato.",
+                "feedback": "Revisa la idea clave. El alcance evita expectativas falsas."
+              },
+              {
+                "id": "c",
+                "text": "Solo el color del botón.",
+                "feedback": "Revisa la idea clave. El alcance evita expectativas falsas."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.control_usuario",
+            "difficulty": 2,
+            "prompt": "Un botón dice «más variedad», pero la fila no cambia en cinco rondas. ¿Qué debe hacerse?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST14",
+            "hint": "Mide el antes y después.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Culpar al usuario por pulsarlo.",
+                "feedback": "Revisa la idea clave. Un control necesita efecto verificable o una explicación honesta de su demora."
+              },
+              {
+                "id": "b",
+                "text": "Investigar si la regla aplica el control, mostrar estado y corregir o explicar el retraso.",
+                "feedback": "Correcto. Un control necesita efecto verificable o una explicación honesta de su demora."
+              },
+              {
+                "id": "c",
+                "text": "Ocultar el historial de pruebas.",
+                "feedback": "Revisa la idea clave. Un control necesita efecto verificable o una explicación honesta de su demora."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.control_usuario",
+            "difficulty": 1,
+            "prompt": "¿Qué combinación mejora agencia sin exigir datos nuevos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST13",
+            "hint": "No recolectes más para permitir decidir.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Solicitar ubicación y contactos para activar ajustes.",
+                "feedback": "Revisa la idea clave. Actúa sobre transparencia y reglas con señales ya disponibles."
+              },
+              {
+                "id": "b",
+                "text": "Eliminar todos los controles para simplificar.",
+                "feedback": "Revisa la idea clave. Actúa sobre transparencia y reglas con señales ya disponibles."
+              },
+              {
+                "id": "c",
+                "text": "Explicar «por qué veo esto», permitir «ver menos» y ofrecer variedad o reinicio.",
+                "feedback": "Correcto. Actúa sobre transparencia y reglas con señales ya disponibles."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.control_usuario",
+            "difficulty": 1,
+            "prompt": "¿Cuál prueba evalúa un control?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST14",
+            "hint": "Comprueba uso real, no presencia visual.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una persona comprende qué hará, lo activa y observa el cambio previsto dentro del plazo informado.",
+                "feedback": "Correcto. Evalúa comprensión, acción y resultado."
+              },
+              {
+                "id": "b",
+                "text": "El botón tiene un color atractivo.",
+                "feedback": "Revisa la idea clave. Evalúa comprensión, acción y resultado."
+              },
+              {
+                "id": "c",
+                "text": "La opción aparece en publicidad.",
+                "feedback": "Revisa la idea clave. Evalúa comprensión, acción y resultado."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya distingues control real de decoración",
+            "body": "Conectaste cada opción con datos o reglas, exigiste explicaciones claras y propusiste una manera de comprobar su efecto.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A5.08",
+        "globalId": "pe-sec1-mail-A5-08",
+        "sequence": 8,
+        "title": "Auditar un recomendador",
+        "subtitle": "Evalúa utilidad, diversidad, seguridad, control y justicia por separado",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.auditoria_recomendador",
+        "learningOutcome": "Diseña y ejecuta una auditoría escolar de caja negra con perfiles ficticios, criterios múltiples y mejoras medibles.",
+        "successEvidence": "Entrega matriz de pruebas, resultados por dimensión, límites, prioridad de mejora e indicadores de seguimiento.",
+        "prerequisites": [
+          "Completa las siete lecciones anteriores"
+        ],
+        "misconceptions": [
+          "Un sistema es bueno o malo en bloque",
+          "Un caso exitoso demuestra calidad total",
+          "Una mejora sin indicador puede darse por cumplida"
+        ],
+        "screens": [
+          {
+            "id": "A5.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Prueba una dimensión a la vez y luego integra",
+            "body": "Faro bloquea contenido no apto, pero concentra temas, tarda en responder al control y falla más en actividades rurales. Una auditoría evita ocultar fallas detrás de un resultado fuerte.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A5.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.auditoria_recomendador",
+            "difficulty": 1,
+            "prompt": "¿En qué dimensión Faro obtuvo el resultado más fuerte?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A5-ST15",
+            "hint": "Compara resultados por dimensión.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Diversidad: mostró cinco temas.",
+                "feedback": "Revisa la idea clave. La matriz registra cumplimiento completo de la prueba de seguridad."
+              },
+              {
+                "id": "b",
+                "text": "Seguridad: bloqueó 20 de 20 contenidos no aptos.",
+                "feedback": "Correcto. La matriz registra cumplimiento completo de la prueba de seguridad."
+              },
+              {
+                "id": "c",
+                "text": "Control: respondió en la siguiente ronda.",
+                "feedback": "Revisa la idea clave. La matriz registra cumplimiento completo de la prueba de seguridad."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Define criterios y casos",
+            "body": "Crea perfiles y tareas ficticias para utilidad, seguridad, diversidad, control y justicia. No uses datos reales de estudiantes.",
+            "examples": [
+              "tarea de ciencia",
+              "perfil con interés nuevo",
+              "categorías rurales y urbanas"
+            ],
+            "memoryAid": "Criterio claro, caso seguro, resultado esperado."
+          },
+          {
+            "id": "A5.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Registra resultados desagregados",
+            "body": "Mide aciertos, variedad, rondas hasta cambio y diferencias entre categorías. Anota límites de muestra.",
+            "examples": [
+              "20/20 bloqueados",
+              "1 de 5 temas",
+              "cuatro rondas"
+            ],
+            "memoryAid": "Una matriz muestra fortalezas y fallas juntas."
+          },
+          {
+            "id": "A5.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.auditoria_recomendador",
+            "difficulty": 1,
+            "prompt": "¿Qué falla de diversidad aparece?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A5-ST15",
+            "hint": "Busca cuántos temas distintos se muestran.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Aparecen seis temas por fila.",
+                "feedback": "Revisa la idea clave. La oferta está concentrada en una sola categoría."
+              },
+              {
+                "id": "b",
+                "text": "Todos los formatos se mezclan por igual.",
+                "feedback": "Revisa la idea clave. La oferta está concentrada en una sola categoría."
+              },
+              {
+                "id": "c",
+                "text": "Solo uno de cinco temas está representado.",
+                "feedback": "Correcto. La oferta está concentrada en una sola categoría."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.auditoria_recomendador",
+            "difficulty": 1,
+            "prompt": "Relaciona cada resultado con la dimensión auditada.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST15",
+            "hint": "Bloquear contenido no apto mide seguridad, no diversidad.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "15 de 20 pertinentes",
+                "rightId": "r1",
+                "right": "Utilidad"
+              },
+              {
+                "leftId": "l2",
+                "left": "1 de 5 temas",
+                "rightId": "r2",
+                "right": "Diversidad"
+              },
+              {
+                "leftId": "l3",
+                "left": "20 de 20 bloqueados",
+                "rightId": "r3",
+                "right": "Seguridad"
+              },
+              {
+                "leftId": "l4",
+                "left": "Rendimiento rural menor",
+                "rightId": "r4",
+                "right": "Justicia"
+              }
+            ],
+            "feedbackCorrect": "Leíste la matriz sin convertir una fortaleza en nota total.",
+            "feedbackIncorrect": "Cada cifra responde una pregunta distinta sobre el sistema."
+          },
+          {
+            "id": "A5.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Propón mejoras comprobables",
+            "body": "Cada cambio debe tener indicador y umbral o dirección esperada. Repite pruebas después de implementar.",
+            "examples": [
+              "dos de seis espacios diversos",
+              "control desde próxima ronda",
+              "precisión por categoría"
+            ],
+            "memoryAid": "Mejora + indicador + nueva prueba."
+          },
+          {
+            "id": "A5.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.auditoria_recomendador",
+            "difficulty": 1,
+            "prompt": "¿Qué indicador comprueba la mejora de «ver menos»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST16",
+            "hint": "Une promesa y medida.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Número de rondas hasta observar una reducción del tema.",
+                "feedback": "Correcto. Mide directamente la rapidez del efecto prometido."
+              },
+              {
+                "id": "b",
+                "text": "Color del botón.",
+                "feedback": "Revisa la idea clave. Mide directamente la rapidez del efecto prometido."
+              },
+              {
+                "id": "c",
+                "text": "Cantidad de letras de la explicación.",
+                "feedback": "Revisa la idea clave. Mide directamente la rapidez del efecto prometido."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.auditoria_recomendador",
+            "difficulty": 2,
+            "prompt": "Un equipo declara aprobado Faro solo por 20/20 en seguridad. ¿Qué error comete?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A5-ST15",
+            "hint": "Mira toda la matriz.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Revisa demasiadas métricas.",
+                "feedback": "Revisa la idea clave. Una auditoría multidimensional no se reduce al mejor resultado."
+              },
+              {
+                "id": "b",
+                "text": "Usa una dimensión para ocultar problemas de diversidad, control y justicia.",
+                "feedback": "Correcto. Una auditoría multidimensional no se reduce al mejor resultado."
+              },
+              {
+                "id": "c",
+                "text": "La seguridad nunca importa.",
+                "feedback": "Revisa la idea clave. Una auditoría multidimensional no se reduce al mejor resultado."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A5.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.auditoria_recomendador",
+            "difficulty": 1,
+            "prompt": "¿Qué mejora responde a la falla rural?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST16",
+            "hint": "Incluye datos pertinentes y nueva prueba.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añadir más casos urbanos únicamente.",
+                "feedback": "Revisa la idea clave. Actúa sobre representación y vuelve comprobable el cambio."
+              },
+              {
+                "id": "b",
+                "text": "Dejar de mostrar resultados desagregados.",
+                "feedback": "Revisa la idea clave. Actúa sobre representación y vuelve comprobable el cambio."
+              },
+              {
+                "id": "c",
+                "text": "Ampliar ejemplos rurales documentados, revisar con conocimiento local y medir precisión por categoría.",
+                "feedback": "Correcto. Actúa sobre representación y vuelve comprobable el cambio."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A5.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.auditoria_recomendador",
+            "difficulty": 1,
+            "prompt": "¿Qué hace responsable la auditoría?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A5-ST16",
+            "hint": "Incluye seguridad de datos y trazabilidad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usa casos ficticios, criterios explícitos, resultados desagregados, límites y seguimiento de mejoras.",
+                "feedback": "Correcto. Protege a estudiantes y hace revisable cada conclusión."
+              },
+              {
+                "id": "b",
+                "text": "Recoge historial real de menores sin permiso.",
+                "feedback": "Revisa la idea clave. Protege a estudiantes y hace revisable cada conclusión."
+              },
+              {
+                "id": "c",
+                "text": "Publica una nota única sin método.",
+                "feedback": "Revisa la idea clave. Protege a estudiantes y hace revisable cada conclusión."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A5.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya puedes auditar y mejorar un recomendador",
+            "body": "Probaste varias dimensiones con casos ficticios, encontraste fortalezas y fallas, y propusiste cambios con indicadores que permitirán volver a evaluar.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}

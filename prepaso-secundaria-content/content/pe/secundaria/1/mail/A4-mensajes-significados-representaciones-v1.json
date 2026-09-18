@@ -1,0 +1,2722 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.8",
+  "locale": "es-PE",
+  "unit": {
+    "id": "A4",
+    "globalId": "pe-sec1-mail-A4",
+    "sequence": 4,
+    "grade": "sec1",
+    "subject": "mail",
+    "title": "Mensajes, significados y representaciones",
+    "shortTitle": "Mensajes y representación",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb_y_al_borrador_mail_2029",
+    "officialStatusNote": "A4 es una secuencia editorial de Prepaso. Se alinea con la competencia transversal del CNEB y con el primer borrador preliminar del marco PISA 2029 MAIL publicado por la OCDE en enero de 2026, sujeto a revisión antes de su versión oficial.",
+    "unitOutcome": "Explica cómo lenguaje, diseño, selección y representación construyen significado y afectan la interpretación de distintas audiencias.",
+    "finalEvidence": "Análisis comparativo de dos representaciones con observaciones, énfasis, omisiones, recursos, perspectivas, interpretación, evidencia y límites.",
+    "curriculumAlignment": {
+      "frameworks": [
+        "CNEB Perú",
+        "PISA 2029 Media and Artificial Intelligence Literacy — first draft",
+        "EC-OECD AI Literacy Framework for Primary and Secondary Education 2026"
+      ],
+      "cnebCompetency": "Se desenvuelve en entornos virtuales generados por las TIC",
+      "cnebCapacities": [
+        "Gestiona información del entorno virtual",
+        "Interactúa en entornos virtuales",
+        "Crea objetos virtuales en diversos formatos"
+      ],
+      "mailKeyConcepts": [
+        "Mensajes y significados",
+        "Representaciones y realidades",
+        "Autores y audiencias"
+      ],
+      "mailCompetencies": [
+        "Analizar y evaluar",
+        "Crear",
+        "Reflexionar y actuar ética y responsablemente"
+      ],
+      "operationalAlignment": "Interpreta capas explícitas e implícitas y analiza encuadre, omisión, estereotipos, datos, estética y perspectivas antes de defender una lectura responsable."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Lector de representaciones"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "safetyPolicy": {
+      "realAccountsRequired": false,
+      "realPersonalDataRequested": false,
+      "openSocialInteraction": false,
+      "caseData": "fictitious",
+      "adultSupportPrompts": true,
+      "credentialCollection": false,
+      "note": "Todas las actividades usan personas, perfiles, plataformas, datos y documentos ficticios. Nunca solicitan cuentas, contactos, historial real, ubicación precisa, fotografías, voz, contraseñas ni experiencias sensibles del estudiante."
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todas las publicaciones, interfaces, medios, datos, servicios y situaciones son simulaciones originales de Prepaso.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "PISA 2029 Media and Artificial Intelligence Literacy",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/en/about/projects/pisa-2029-media-and-artificial-intelligence-literacy.html",
+        "status": "official_project_page"
+      },
+      {
+        "title": "PISA 2029 MAIL Assessment Framework First Draft",
+        "publisher": "OECD",
+        "edition": "January 2026",
+        "url": "https://www.oecd.org/content/dam/oecd/en/about/projects/edu/the-pisa-2029-media-and-artificial-intelligence-%28mail%29-assessment-will-shed-light-on-whether-young-students-have-had-opportunities-to-learn-and-to-engage-proactively-and-critically-in-a-world-where-production%2C-participation%2C-and-social-networking-are-increasingly-mediated-by-digital-and-ai-tools-/PISA%202029%20MAIL%20Assessment%20Framework%20First%20Draft.pdf",
+        "status": "first_preliminary_draft_subject_to_revision"
+      },
+      {
+        "title": "Empowering Learners for the Age of AI",
+        "publisher": "OECD and European Commission",
+        "edition": "June 2026",
+        "url": "https://www.oecd.org/en/publications/empowering-learners-for-the-age-of-ai_65cd27d4-en.html"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "A4-ST01",
+        "title": "El anuncio de la botella",
+        "format": "mixed",
+        "genre": "simulación publicitaria",
+        "content": "Imagen: una botella reutilizable frente a una montaña limpia. Texto visible: «Lleva agua durante ocho horas». Frase secundaria: «Quienes cuidan de verdad el planeta eligen EcoRuta». Lo explícito describe duración; lo implícito asocia la compra con ser una persona ambientalmente responsable, aunque adquirir un producto no demuestra por sí solo ese compromiso.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST02",
+        "title": "Cartel de convivencia",
+        "format": "mixed",
+        "genre": "simulación de cartel escolar",
+        "content": "Título: «Aquí todos cuentan». Ilustración: seis estudiantes colaboran, pero solo uno sostiene el plumón y aparece en el centro con mayor tamaño. Texto: «Escuchamos todas las ideas». El mensaje verbal promueve participación; la composición puede sugerir que una sola voz dirige mientras las demás acompañan.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST03",
+        "title": "Dos titulares, un mismo partido",
+        "format": "mixed",
+        "genre": "simulación de portada",
+        "content": "Hecho base: el equipo Azul empató 1-1 después de ir perdiendo y permanece quinto. Titular A: «Azul rescata un punto con reacción final». Titular B: «Azul vuelve a dejar escapar la victoria». Ambos pueden ser compatibles con el resultado, pero el primero enfatiza recuperación y el segundo, oportunidad perdida.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST04",
+        "title": "Dentro y fuera del encuadre",
+        "format": "mixed",
+        "genre": "simulación fotográfica",
+        "content": "Foto A encuadra a tres personas recogiendo residuos junto al río. Foto B, tomada desde más lejos en el mismo momento, muestra además a cuarenta voluntarios, bolsas clasificadas y una zona todavía contaminada. El recorte cercano destaca acción individual; el plano amplio muestra escala colectiva y tarea pendiente.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST05",
+        "title": "Informe de la biblioteca",
+        "format": "mixed",
+        "genre": "simulación de reporte",
+        "content": "Mensaje: «Los préstamos crecieron 50 % este mes: éxito total». Tabla: abril, 20 préstamos; mayo, 30. Datos omitidos: la biblioteca tiene 600 estudiantes, estuvo cerrada una semana en abril y no se indica cuántos usuarios distintos participaron. El aumento es real, pero la interpretación necesita base, contexto y alcance.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST06",
+        "title": "Encuesta sin denominador",
+        "format": "mixed",
+        "genre": "simulación de publicación",
+        "content": "Historia de una cuenta: «9 de cada 10 prefieren clases al aire libre». Nota pequeña: encuesta voluntaria respondida por 10 seguidores de la cuenta durante una hora. No informa edad, institución ni opciones ofrecidas. El numerador parece grande, pero el grupo es diminuto y autoseleccionado.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST07",
+        "title": "Personaje de juego",
+        "format": "mixed",
+        "genre": "simulación narrativa",
+        "content": "Juego AulaNova: todos los personajes que resuelven problemas tecnológicos son varones; las dos chicas aparecen dando ánimo o decorando el espacio. Ningún diálogo afirma que las chicas no puedan programar. Sin embargo, la repetición distribuye capacidades y papeles de forma desigual y puede reforzar una generalización.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST08",
+        "title": "Rediseño del equipo",
+        "format": "mixed",
+        "genre": "simulación de prototipo",
+        "content": "Versión revisada: cuatro personajes con distintos géneros alternan tareas de programar, investigar, organizar y comunicar. Cada uno comete errores y aprende; sus habilidades no dependen de su apariencia. El rediseño no elimina diferencias entre personajes: evita convertir una característica de grupo en destino fijo.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST09",
+        "title": "El gráfico que empieza en 94",
+        "format": "mixed",
+        "genre": "simulación de gráfico",
+        "content": "Gráfico de satisfacción: Curso A, 96 %; Curso B, 98 %. El eje vertical empieza en 94 y termina en 100, por lo que la barra de B parece tres veces más alta. Los valores están escritos correctamente, pero la escala visual exagera una diferencia de solo dos puntos porcentuales.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST10",
+        "title": "Promedio o distribución",
+        "format": "mixed",
+        "genre": "simulación de datos",
+        "content": "Dos grupos obtienen promedio 14. Grupo Norte: 14, 14, 14, 14. Grupo Sur: 8, 12, 16, 20. Un mensaje dice «Los resultados son iguales». Los promedios coinciden, pero la distribución muestra experiencias distintas. Elegir solo el promedio oculta variación relevante.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST11",
+        "title": "Dos versiones del mismo recorrido",
+        "format": "mixed",
+        "genre": "simulación audiovisual",
+        "content": "Video 1 del camino a la escuela: música rápida, cortes breves, colores intensos y primeros planos de bicicletas; transmite energía. Video 2: sonido ambiente, tomas largas y colores suaves; permite observar cruces y tránsito. Las imágenes se grabaron el mismo día. La edición cambia ritmo, atención y emoción, no necesariamente los hechos visibles.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST12",
+        "title": "Alerta roja",
+        "format": "mixed",
+        "genre": "simulación de interfaz",
+        "content": "Una aplicación muestra consumo de agua con fondo rojo, vibración y la frase «¡PELIGRO!». Otra presenta los mismos 112 litros con fondo neutro, comparación con la meta y dos acciones posibles. El dato es idéntico; el primer diseño intensifica urgencia, mientras el segundo facilita interpretar y decidir.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST13",
+        "title": "La plaza que será renovada",
+        "format": "mixed",
+        "genre": "simulación de consulta",
+        "content": "Proyecto municipal ficticio: ampliar zona deportiva y reducir bancas. Voces incluidas: deportistas adolescentes y equipo de obras. Voces ausentes: personas mayores que descansan allí, vendedores autorizados, cuidadores de niños y usuarios con movilidad reducida. Ausencia no significa oposición automática, pero sí una consulta incompleta.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST14",
+        "title": "Mapa de personas afectadas",
+        "format": "mixed",
+        "genre": "simulación de mapa",
+        "content": "Centro: cambio de plaza. Afectados directos: quienes practican deporte, descansan, trabajan o atraviesan el lugar. Decisores: municipalidad y comité vecinal. Conocimiento útil: personal de accesibilidad, mantenimiento y seguridad vial. El mapa no decide cuál propuesta gana; ayuda a identificar a quién escuchar y qué consecuencias evaluar.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST15",
+        "title": "Mural bajo la lluvia",
+        "format": "mixed",
+        "genre": "simulación visual descrita",
+        "content": "Mural: una niña sostiene un paraguas enorme sobre varias casas; al fondo, nubes oscuras y una pequeña franja amarilla. Placa: obra creada después de inundaciones locales para un encuentro comunitario. Interpretación A: «La protección colectiva ocupa el centro». Interpretación B: «La artista odia la lluvia». Solo la primera se apoya claramente en composición y contexto.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A4-ST16",
+        "title": "Escalera de interpretación",
+        "format": "mixed",
+        "genre": "simulación de razonamiento",
+        "content": "Nivel 1, observación: el paraguas cubre varias casas. Nivel 2, relación: una figura protege a más de una familia. Nivel 3, interpretación: la imagen puede representar cuidado colectivo. Nivel 4, límite: no sabemos qué sentimientos privados tiene la artista. La escalera separa lo visible, la inferencia plausible y lo que no puede afirmarse.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "A4.01",
+        "globalId": "pe-sec1-mail-A4-01",
+        "sequence": 1,
+        "title": "Mensaje explícito e implícito",
+        "subtitle": "Un mensaje comunica con palabras y también con asociaciones de diseño",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.significado.explicito_implicito",
+        "learningOutcome": "Distingue lo afirmado directamente de lo sugerido por lenguaje, tamaño, posición, imagen y relación entre elementos.",
+        "successEvidence": "Anota evidencias observables y formula una interpretación implícita sin presentarla como cita literal.",
+        "prerequisites": [
+          "Distingue información e inferencia",
+          "Reconoce recursos visuales básicos"
+        ],
+        "misconceptions": [
+          "Todo significado está escrito",
+          "Una inferencia es una frase literal",
+          "Cualquier interpretación vale sin evidencia"
+        ],
+        "screens": [
+          {
+            "id": "A4.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Lee lo que dice y lo que hace sugerir",
+            "body": "«Lleva agua ocho horas» aparece escrito. «Comprar esta botella prueba que cuidas el planeta» se construye al unir montaña limpia, identidad moral y producto. Ambas capas deben separarse.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A4.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.significado.explicito_implicito",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el mensaje explícito del anuncio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A4-ST01",
+            "hint": "Busca una frase que pueda citarse.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Comprar demuestra que una persona cuida de verdad el planeta.",
+                "feedback": "Revisa la idea clave. La duración aparece directamente en el texto visible."
+              },
+              {
+                "id": "b",
+                "text": "La botella mantiene agua durante ocho horas.",
+                "feedback": "Correcto. La duración aparece directamente en el texto visible."
+              },
+              {
+                "id": "c",
+                "text": "La montaña pertenece a quien compra.",
+                "feedback": "Revisa la idea clave. La duración aparece directamente en el texto visible."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Explícito: puede señalarse literalmente",
+            "body": "Localiza palabras, cifras, objetos y acciones visibles. No agregues todavía intención o valoración.",
+            "examples": [
+              "ocho horas",
+              "seis estudiantes",
+              "un plumón central"
+            ],
+            "memoryAid": "Primero describe sin interpretar."
+          },
+          {
+            "id": "A4.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Implícito: surge de relaciones",
+            "body": "Pregunta qué asociación producen elección de imagen, jerarquía, contraste y frase secundaria.",
+            "examples": [
+              "producto = identidad responsable",
+              "tamaño central = liderazgo"
+            ],
+            "memoryAid": "Después explica qué sugiere y por qué."
+          },
+          {
+            "id": "A4.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.significado.explicito_implicito",
+            "difficulty": 1,
+            "prompt": "¿Qué puede sugerir la composición del cartel escolar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A4-ST02",
+            "hint": "Relaciona posición y rol visual.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que el plumón pesa exactamente un kilogramo.",
+                "feedback": "Revisa la idea clave. Tamaño, centro y acción principal orientan la atención."
+              },
+              {
+                "id": "b",
+                "text": "Que ningún estudiante está presente.",
+                "feedback": "Revisa la idea clave. Tamaño, centro y acción principal orientan la atención."
+              },
+              {
+                "id": "c",
+                "text": "Que una voz ocupa el centro mientras las demás acompañan.",
+                "feedback": "Correcto. Tamaño, centro y acción principal orientan la atención."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.significado.explicito_implicito",
+            "difficulty": 1,
+            "prompt": "Relaciona elemento y función interpretativa.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST02",
+            "hint": "«Puede sugerir» indica que no estás citando una frase literal.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "«Aquí todos cuentan»",
+                "rightId": "r1",
+                "right": "Mensaje explícito"
+              },
+              {
+                "leftId": "l2",
+                "left": "Seis estudiantes colaboran",
+                "rightId": "r2",
+                "right": "Escena visible"
+              },
+              {
+                "leftId": "l3",
+                "left": "Una figura central más grande",
+                "rightId": "r3",
+                "right": "Jerarquía compositiva"
+              },
+              {
+                "leftId": "l4",
+                "left": "Solo una persona sostiene el plumón",
+                "rightId": "r4",
+                "right": "Distribución de la acción"
+              }
+            ],
+            "feedbackCorrect": "Separaste texto literal, asociación, jerarquía y grado de certeza.",
+            "feedbackIncorrect": "Primero decide qué se observa y luego qué lectura permite."
+          },
+          {
+            "id": "A4.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Formula con grado de certeza",
+            "body": "Usa «sugiere», «puede asociar» o «favorece la lectura» cuando el mensaje no lo declara de forma directa.",
+            "examples": [
+              "no dice que los demás no participen",
+              "la composición puede priorizar una voz"
+            ],
+            "memoryAid": "Inferencia apoyada, no lectura de mente."
+          },
+          {
+            "id": "A4.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.significado.explicito_implicito",
+            "difficulty": 1,
+            "prompt": "¿Qué evidencia sostiene la lectura implícita del anuncio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST01",
+            "hint": "Señala palabras e imagen concretas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La montaña limpia y la frase «quienes cuidan de verdad» junto al producto.",
+                "feedback": "Correcto. La asociación surge de elementos visibles del propio mensaje."
+              },
+              {
+                "id": "b",
+                "text": "El número de letras del nombre EcoRuta.",
+                "feedback": "Revisa la idea clave. La asociación surge de elementos visibles del propio mensaje."
+              },
+              {
+                "id": "c",
+                "text": "Una opinión externa no mostrada.",
+                "feedback": "Revisa la idea clave. La asociación surge de elementos visibles del propio mensaje."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.significado.explicito_implicito",
+            "difficulty": 2,
+            "prompt": "Una estudiante escribe «el cartel dice que solo uno puede opinar». ¿Qué debe ajustar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST02",
+            "hint": "Usa «sugiere» y cita la composición.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe borrar toda observación visual.",
+                "feedback": "Revisa la idea clave. Separa contradicción entre mensaje verbal y jerarquía visual sin inventar una frase literal."
+              },
+              {
+                "id": "b",
+                "text": "Debe decir que la composición puede sugerir centralidad de una voz, porque el texto afirma que todos cuentan.",
+                "feedback": "Correcto. Separa contradicción entre mensaje verbal y jerarquía visual sin inventar una frase literal."
+              },
+              {
+                "id": "c",
+                "text": "Debe convertir su inferencia en una cita.",
+                "feedback": "Revisa la idea clave. Separa contradicción entre mensaje verbal y jerarquía visual sin inventar una frase literal."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.significado.explicito_implicito",
+            "difficulty": 1,
+            "prompt": "¿Qué cambio alinearía mejor forma y mensaje del cartel?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST02",
+            "hint": "Piensa cómo mostrar colaboración.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hacer aún más grande al personaje central.",
+                "feedback": "Revisa la idea clave. El rediseño vuelve coherente la igualdad verbal con la representación visual."
+              },
+              {
+                "id": "b",
+                "text": "Eliminar la frase sobre escuchar.",
+                "feedback": "Revisa la idea clave. El rediseño vuelve coherente la igualdad verbal con la representación visual."
+              },
+              {
+                "id": "c",
+                "text": "Distribuir plumones, turnos o tamaños para hacer visible la participación de varias personas.",
+                "feedback": "Correcto. El rediseño vuelve coherente la igualdad verbal con la representación visual."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.significado.explicito_implicito",
+            "difficulty": 1,
+            "prompt": "¿Cuál es una respuesta completa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST01",
+            "hint": "Incluye qué dice, qué sugiere y qué no demuestra.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El anuncio afirma una duración y su diseño asocia el producto con identidad ambiental, aunque comprarlo no prueba esa identidad.",
+                "feedback": "Correcto. Distingue capas, evidencia y límite."
+              },
+              {
+                "id": "b",
+                "text": "La botella es buena porque la montaña es bonita.",
+                "feedback": "Revisa la idea clave. Distingue capas, evidencia y límite."
+              },
+              {
+                "id": "c",
+                "text": "Toda publicidad es falsa.",
+                "feedback": "Revisa la idea clave. Distingue capas, evidencia y límite."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees dos capas sin confundirlas",
+            "body": "Describiste lo visible, explicaste asociaciones implícitas y marcaste el grado de certeza de tu interpretación.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A4.02",
+        "globalId": "pe-sec1-mail-A4-02",
+        "sequence": 2,
+        "title": "Encuadre",
+        "subtitle": "Título, recorte y orden hacen visible una parte del hecho y relegan otra",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.significado.encuadre",
+        "learningOutcome": "Reconoce cómo titulares, ángulos, recortes y secuencias priorizan una perspectiva sin asumir que todo encuadre es falso.",
+        "successEvidence": "Compara dos encuadres del mismo hecho y redacta dos titulares fieles con énfasis diferentes.",
+        "prerequisites": [
+          "Distingue explícito e implícito",
+          "Reconoce tema e idea principal"
+        ],
+        "misconceptions": [
+          "Solo existe un titular correcto",
+          "Encuadrar siempre significa mentir",
+          "Una fotografía muestra todo lo relevante"
+        ],
+        "screens": [
+          {
+            "id": "A4.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Todo mensaje elige un marco",
+            "body": "El empate puede contarse como reacción final o como oportunidad perdida. Los dos enfoques caben en los datos, pero guían la emoción y la evaluación hacia aspectos distintos.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A4.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.significado.encuadre",
+            "difficulty": 1,
+            "prompt": "¿Qué prioriza el titular «rescata un punto»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A4-ST03",
+            "hint": "Busca la parte del hecho destacada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La cantidad total de espectadores.",
+                "feedback": "Revisa la idea clave. El verbo «rescata» enfoca recuperación dentro del empate."
+              },
+              {
+                "id": "b",
+                "text": "La reacción del equipo después de ir perdiendo.",
+                "feedback": "Correcto. El verbo «rescata» enfoca recuperación dentro del empate."
+              },
+              {
+                "id": "c",
+                "text": "Que el equipo ganó el partido.",
+                "feedback": "Revisa la idea clave. El verbo «rescata» enfoca recuperación dentro del empate."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Encuadre es selección de énfasis",
+            "body": "Identifica qué aspecto entra al título o primer plano y qué queda en segundo lugar.",
+            "examples": [
+              "reacción final",
+              "victoria que no llegó",
+              "acción individual"
+            ],
+            "memoryAid": "Pregunta: ¿qué parte ocupa el centro?"
+          },
+          {
+            "id": "A4.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Comprueba fidelidad al hecho base",
+            "body": "Un énfasis puede ser distinto sin contradecir datos. Se vuelve engañoso cuando oculta condiciones esenciales o afirma algo incompatible.",
+            "examples": [
+              "empate 1-1 en ambos",
+              "quinto puesto no cambia"
+            ],
+            "memoryAid": "Énfasis diferente, hechos compatibles."
+          },
+          {
+            "id": "A4.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.significado.encuadre",
+            "difficulty": 1,
+            "prompt": "¿Qué añade el plano amplio de la limpieza?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A4-ST04",
+            "hint": "Compara dentro y fuera del recorte.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Prueba que solo trabajaron tres personas.",
+                "feedback": "Revisa la idea clave. El encuadre amplio incorpora participantes y tarea pendiente."
+              },
+              {
+                "id": "b",
+                "text": "Elimina a quienes aparecen en el primer plano.",
+                "feedback": "Revisa la idea clave. El encuadre amplio incorpora participantes y tarea pendiente."
+              },
+              {
+                "id": "c",
+                "text": "La escala colectiva y la contaminación que todavía queda.",
+                "feedback": "Correcto. El encuadre amplio incorpora participantes y tarea pendiente."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.significado.encuadre",
+            "difficulty": 1,
+            "prompt": "Relaciona cada elección de encuadre con su énfasis.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST03",
+            "hint": "Los dos titulares parten del mismo empate.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "«Rescata un punto»",
+                "rightId": "r1",
+                "right": "Enfatiza recuperación"
+              },
+              {
+                "leftId": "l2",
+                "left": "«Deja escapar la victoria»",
+                "rightId": "r2",
+                "right": "Enfatiza pérdida de oportunidad"
+              },
+              {
+                "leftId": "l3",
+                "left": "Empate 1-1",
+                "rightId": "r3",
+                "right": "Hecho compartido"
+              },
+              {
+                "leftId": "l4",
+                "left": "Permanece quinto",
+                "rightId": "r4",
+                "right": "Contexto de clasificación"
+              }
+            ],
+            "feedbackCorrect": "Reconociste cómo palabras y planos priorizan perspectivas.",
+            "feedbackIncorrect": "No decidas si te gusta: pregunta qué hace visible primero."
+          },
+          {
+            "id": "A4.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Amplía el marco",
+            "body": "Busca plano más abierto, periodo anterior, datos de base y voces adicionales antes de concluir.",
+            "examples": [
+              "40 voluntarios",
+              "zona aún contaminada"
+            ],
+            "memoryAid": "Alejar la cámara también puede añadir contexto."
+          },
+          {
+            "id": "A4.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.significado.encuadre",
+            "difficulty": 1,
+            "prompt": "¿Por qué ambos titulares pueden ser fieles?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST03",
+            "hint": "Verifica primero los datos comunes.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Comparten el empate y seleccionan aspectos distintos: reacción y oportunidad perdida.",
+                "feedback": "Correcto. La diferencia de énfasis no contradice el resultado base."
+              },
+              {
+                "id": "b",
+                "text": "Porque cualquier titular es verdadero.",
+                "feedback": "Revisa la idea clave. La diferencia de énfasis no contradice el resultado base."
+              },
+              {
+                "id": "c",
+                "text": "Porque ninguno menciona al equipo.",
+                "feedback": "Revisa la idea clave. La diferencia de énfasis no contradice el resultado base."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.significado.encuadre",
+            "difficulty": 2,
+            "prompt": "Una publicación usa la foto cercana para afirmar «solo tres ayudaron». ¿Qué problema tiene?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST04",
+            "hint": "No confundas marco con totalidad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Las fotos cercanas están prohibidas.",
+                "feedback": "Revisa la idea clave. Lo fuera de cuadro vuelve falsa la generalización."
+              },
+              {
+                "id": "b",
+                "text": "Convierte el recorte en afirmación sobre toda la escena, aunque el plano amplio muestra cuarenta voluntarios.",
+                "feedback": "Correcto. Lo fuera de cuadro vuelve falsa la generalización."
+              },
+              {
+                "id": "c",
+                "text": "Tres nunca es un número válido.",
+                "feedback": "Revisa la idea clave. Lo fuera de cuadro vuelve falsa la generalización."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.significado.encuadre",
+            "difficulty": 1,
+            "prompt": "¿Qué titular alternativo sería fiel al mismo partido?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST03",
+            "hint": "Conserva resultado y contexto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Azul gana por goleada y sube al primer lugar.",
+                "feedback": "Revisa la idea clave. Integra recuperación y posición sin inventar."
+              },
+              {
+                "id": "b",
+                "text": "El partido no tuvo resultado.",
+                "feedback": "Revisa la idea clave. Integra recuperación y posición sin inventar."
+              },
+              {
+                "id": "c",
+                "text": "Azul empata 1-1 tras reaccionar, pero sigue quinto.",
+                "feedback": "Correcto. Integra recuperación y posición sin inventar."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.significado.encuadre",
+            "difficulty": 1,
+            "prompt": "¿Cómo comparar encuadres responsablemente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST04",
+            "hint": "Usa una tabla de coincidencias y diferencias.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Identificar hechos comunes, énfasis, omisiones relevantes y efecto probable en la audiencia.",
+                "feedback": "Correcto. El método compara contenido y efecto sin decidir por preferencia."
+              },
+              {
+                "id": "b",
+                "text": "Elegir el que genera más emoción.",
+                "feedback": "Revisa la idea clave. El método compara contenido y efecto sin decidir por preferencia."
+              },
+              {
+                "id": "c",
+                "text": "Suponer que el segundo siempre corrige al primero.",
+                "feedback": "Revisa la idea clave. El método compara contenido y efecto sin decidir por preferencia."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya ves el marco además de la escena",
+            "body": "Comparaste titulares y fotografías por hechos, énfasis y omisiones, sin confundir una perspectiva legítima con una visión completa.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A4.03",
+        "globalId": "pe-sec1-mail-A4-03",
+        "sequence": 3,
+        "title": "Selección y omisión",
+        "subtitle": "Un dato verdadero puede producir una lectura incompleta si falta la base o el contexto",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.significado.seleccion_omision",
+        "learningOutcome": "Identifica información necesaria ausente y formula preguntas que limitan conclusiones antes de aceptar un mensaje.",
+        "successEvidence": "Completa una ficha de incertidumbres sobre base, denominador, periodo, muestra, comparación y variables relevantes.",
+        "prerequisites": [
+          "Analiza encuadre",
+          "Lee porcentajes sencillos"
+        ],
+        "misconceptions": [
+          "Un porcentaje se interpreta sin cantidad base",
+          "Omitir siempre equivale a mentir",
+          "Si el aumento es real, cualquier valoración también"
+        ],
+        "screens": [
+          {
+            "id": "A4.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Pregunta qué falta para interpretar",
+            "body": "Subir de 20 a 30 préstamos es un aumento de 50 %, pero «éxito total» exige más contexto: cuántos estudiantes, usuarios distintos, tiempo de apertura y objetivo del programa.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A4.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.significado.seleccion_omision",
+            "difficulty": 1,
+            "prompt": "¿Qué parte del mensaje de la biblioteca es numéricamente correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A4-ST05",
+            "hint": "Separa cálculo y valoración.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Participó la mayoría de 600 estudiantes.",
+                "feedback": "Revisa la idea clave. El porcentaje se obtiene sobre la base inicial de 20."
+              },
+              {
+                "id": "b",
+                "text": "Los préstamos pasaron de 20 a 30, un aumento de 50 %.",
+                "feedback": "Correcto. El porcentaje se obtiene sobre la base inicial de 20."
+              },
+              {
+                "id": "c",
+                "text": "Cada préstamo corresponde a una persona distinta.",
+                "feedback": "Revisa la idea clave. El porcentaje se obtiene sobre la base inicial de 20."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Recupera la base",
+            "body": "Todo porcentaje compara cantidades. Averigua numerador, denominador y valor inicial.",
+            "examples": [
+              "20 a 30 = +10",
+              "9 de 10 = muestra de 10"
+            ],
+            "memoryAid": "Sin base, el porcentaje flota."
+          },
+          {
+            "id": "A4.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Busca contexto de comparación",
+            "body": "Pregunta periodo, cambios simultáneos, población, selección y objetivo. Estos datos no anulan el resultado; delimitan su lectura.",
+            "examples": [
+              "cierre en abril",
+              "600 estudiantes",
+              "encuesta de seguidores"
+            ],
+            "memoryAid": "¿Comparables en qué condiciones?"
+          },
+          {
+            "id": "A4.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.significado.seleccion_omision",
+            "difficulty": 1,
+            "prompt": "¿Qué limita más la frase «9 de cada 10 prefieren»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A4-ST06",
+            "hint": "Busca quiénes respondieron y cómo llegaron.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El mensaje usa el número nueve.",
+                "feedback": "Revisa la idea clave. La muestra pequeña y autoseleccionada no representa a todos los estudiantes."
+              },
+              {
+                "id": "b",
+                "text": "La encuesta tiene una frase corta.",
+                "feedback": "Revisa la idea clave. La muestra pequeña y autoseleccionada no representa a todos los estudiantes."
+              },
+              {
+                "id": "c",
+                "text": "Solo respondieron diez seguidores voluntarios durante una hora.",
+                "feedback": "Correcto. La muestra pequeña y autoseleccionada no representa a todos los estudiantes."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.03-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.significado.seleccion_omision",
+            "difficulty": 1,
+            "prompt": "Relaciona cada dato con su función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST05",
+            "hint": "La población potencial no es lo mismo que la muestra observada.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "20 préstamos",
+                "rightId": "r1",
+                "right": "Valor inicial"
+              },
+              {
+                "leftId": "l2",
+                "left": "30 préstamos",
+                "rightId": "r2",
+                "right": "Valor final"
+              },
+              {
+                "leftId": "l3",
+                "left": "600 estudiantes",
+                "rightId": "r3",
+                "right": "Población potencial"
+              },
+              {
+                "leftId": "l4",
+                "left": "Usuarios únicos no informados",
+                "rightId": "r4",
+                "right": "Incertidumbre relevante"
+              }
+            ],
+            "feedbackCorrect": "Separaste base, resultado, población e información faltante.",
+            "feedbackIncorrect": "Un préstamo no equivale necesariamente a un usuario."
+          },
+          {
+            "id": "A4.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Escribe incertidumbres, no acusaciones",
+            "body": "Si no tienes el dato, formula «no se informa» y explica por qué importa. No inventes una intención de ocultamiento.",
+            "examples": [
+              "no sabemos usuarios únicos",
+              "no conocemos opciones de respuesta"
+            ],
+            "memoryAid": "Ausencia observada; intención desconocida."
+          },
+          {
+            "id": "A4.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.significado.seleccion_omision",
+            "difficulty": 1,
+            "prompt": "¿Qué dato falta para saber cuántos lectores distintos usaron la biblioteca?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST05",
+            "hint": "Distingue acciones y personas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El número de usuarios únicos, no solo de préstamos.",
+                "feedback": "Correcto. Una misma persona puede realizar varios préstamos."
+              },
+              {
+                "id": "b",
+                "text": "El color de cada libro.",
+                "feedback": "Revisa la idea clave. Una misma persona puede realizar varios préstamos."
+              },
+              {
+                "id": "c",
+                "text": "La altura de los estantes.",
+                "feedback": "Revisa la idea clave. Una misma persona puede realizar varios préstamos."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.significado.seleccion_omision",
+            "difficulty": 2,
+            "prompt": "Un alumno concluye que 90 % de todo el colegio prefiere clases al aire libre. ¿Qué error comete?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST06",
+            "hint": "Pregunta «¿90 % de quiénes?». ",
+            "options": [
+              {
+                "id": "a",
+                "text": "Divide nueve entre diez.",
+                "feedback": "Revisa la idea clave. El denominador observado no representa al colegio."
+              },
+              {
+                "id": "b",
+                "text": "Generaliza desde diez seguidores voluntarios a una población no estudiada.",
+                "feedback": "Correcto. El denominador observado no representa al colegio."
+              },
+              {
+                "id": "c",
+                "text": "Reconoce que la encuesta duró una hora.",
+                "feedback": "Revisa la idea clave. El denominador observado no representa al colegio."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.significado.seleccion_omision",
+            "difficulty": 1,
+            "prompt": "¿Cuál pregunta mejora la interpretación del crecimiento de préstamos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST05",
+            "hint": "Busca una base y un cambio de condiciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué adjetivo suena más entusiasta?",
+                "feedback": "Revisa la idea clave. La pregunta recupera participación y comparabilidad temporal."
+              },
+              {
+                "id": "b",
+                "text": "¿Cuál portada tiene más colores?",
+                "feedback": "Revisa la idea clave. La pregunta recupera participación y comparabilidad temporal."
+              },
+              {
+                "id": "c",
+                "text": "¿Cuántos usuarios únicos hubo y cómo influyó el cierre de una semana en abril?",
+                "feedback": "Correcto. La pregunta recupera participación y comparabilidad temporal."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.significado.seleccion_omision",
+            "difficulty": 1,
+            "prompt": "¿Cuál conclusión está mejor calibrada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST05",
+            "hint": "Dato confirmado + límite explícito.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los préstamos aumentaron de 20 a 30; faltan datos para afirmar alcance entre estudiantes o éxito total.",
+                "feedback": "Correcto. Conserva el resultado y marca lo que no puede concluirse."
+              },
+              {
+                "id": "b",
+                "text": "La biblioteca fracasó porque solo fueron diez más.",
+                "feedback": "Revisa la idea clave. Conserva el resultado y marca lo que no puede concluirse."
+              },
+              {
+                "id": "c",
+                "text": "Toda la escuela participó con seguridad.",
+                "feedback": "Revisa la idea clave. Conserva el resultado y marca lo que no puede concluirse."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya notas el espacio en blanco alrededor del dato",
+            "body": "Interpretaste porcentajes con su base y convertiste omisiones en preguntas precisas, sin inventar respuestas ni intenciones.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A4.04",
+        "globalId": "pe-sec1-mail-A4-04",
+        "sequence": 4,
+        "title": "Estereotipos",
+        "subtitle": "La repetición puede asignar capacidades o destinos a grupos sin decirlo de forma directa",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.significado.estereotipos",
+        "learningOutcome": "Identifica generalizaciones y patrones de representación, explica sus efectos y propone revisiones más justas sin borrar diferencias individuales.",
+        "successEvidence": "Analiza roles distribuidos en una pieza y rediseña una escena manteniendo personajes complejos y agencia diversa.",
+        "prerequisites": [
+          "Distingue explícito e implícito",
+          "Reconoce selección y omisión"
+        ],
+        "misconceptions": [
+          "Solo hay estereotipo si aparece un insulto",
+          "Una excepción borra todo patrón",
+          "Representación justa significa personajes idénticos"
+        ],
+        "screens": [
+          {
+            "id": "A4.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Mira quién actúa, quién decide y quién solo acompaña",
+            "body": "El juego nunca afirma que las chicas no puedan programar, pero repite varones resolviendo tecnología y chicas decorando. La distribución constante construye una idea implícita sobre capacidades.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A4.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.significado.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Qué patrón aparece en AulaNova?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A4-ST07",
+            "hint": "Observa quién resuelve y quién acompaña.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cada personaje realiza todas las tareas por igual.",
+                "feedback": "Revisa la idea clave. La repetición distribuye capacidades de forma desigual."
+              },
+              {
+                "id": "b",
+                "text": "Los roles tecnológicos activos se asignan a varones y los de apoyo a chicas.",
+                "feedback": "Correcto. La repetición distribuye capacidades de forma desigual."
+              },
+              {
+                "id": "c",
+                "text": "No existe ningún personaje femenino.",
+                "feedback": "Revisa la idea clave. La repetición distribuye capacidades de forma desigual."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Busca patrones, no solo palabras",
+            "body": "Registra quién inicia acciones, resuelve problemas, se equivoca, aprende y recibe reconocimiento.",
+            "examples": [
+              "programar siempre varones",
+              "dar ánimo siempre chicas"
+            ],
+            "memoryAid": "Cuenta roles y agencia."
+          },
+          {
+            "id": "A4.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Distingue persona y categoría",
+            "body": "Un personaje puede tener rasgos particulares; el problema aparece cuando una característica grupal predice siempre capacidad, conducta o valor.",
+            "examples": [
+              "una persona disfruta decorar",
+              "todas asignadas a decorar"
+            ],
+            "memoryAid": "Individualidad no es destino de grupo."
+          },
+          {
+            "id": "A4.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.significado.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Qué mejora central introduce el rediseño?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A4-ST08",
+            "hint": "Busca distribución de oportunidades.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elimina todas las diferencias entre personajes.",
+                "feedback": "Revisa la idea clave. Amplía agencia sin convertir al equipo en personajes idénticos."
+              },
+              {
+                "id": "b",
+                "text": "Asigna tecnología a una sola persona distinta.",
+                "feedback": "Revisa la idea clave. Amplía agencia sin convertir al equipo en personajes idénticos."
+              },
+              {
+                "id": "c",
+                "text": "Alterna tareas y muestra que las habilidades no dependen de la apariencia o género.",
+                "feedback": "Correcto. Amplía agencia sin convertir al equipo en personajes idénticos."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.significado.estereotipos",
+            "difficulty": 1,
+            "prompt": "Relaciona cada acción con la dimensión que permite analizar.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST07",
+            "hint": "Un personaje complejo también puede cometer errores.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Resolver el circuito",
+                "rightId": "r1",
+                "right": "Agencia técnica"
+              },
+              {
+                "leftId": "l2",
+                "left": "Tomar la decisión final",
+                "rightId": "r2",
+                "right": "Poder narrativo"
+              },
+              {
+                "leftId": "l3",
+                "left": "Solo decorar",
+                "rightId": "r3",
+                "right": "Rol de apoyo limitado"
+              },
+              {
+                "leftId": "l4",
+                "left": "Equivocarse y aprender",
+                "rightId": "r4",
+                "right": "Complejidad del personaje"
+              }
+            ],
+            "feedbackCorrect": "Leíste agencia, poder, limitación y complejidad.",
+            "feedbackIncorrect": "Pregunta quién actúa, quién decide y quién puede cambiar."
+          },
+          {
+            "id": "A4.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Rediseña sin volverlos copias",
+            "body": "Distribuye oportunidades, complejidad y aprendizaje entre personajes. Conserva voces y habilidades distintas.",
+            "examples": [
+              "alternar tareas",
+              "todos pueden fallar y aprender"
+            ],
+            "memoryAid": "Equidad no exige uniformidad."
+          },
+          {
+            "id": "A4.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.significado.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Por qué puede haber estereotipo sin frase ofensiva?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST07",
+            "hint": "Analiza acciones y reconocimiento.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque la repetición de roles puede sugerir quién es capaz o importante.",
+                "feedback": "Correcto. La representación también comunica mediante patrones."
+              },
+              {
+                "id": "b",
+                "text": "Porque todo personaje representa a todas las personas.",
+                "feedback": "Revisa la idea clave. La representación también comunica mediante patrones."
+              },
+              {
+                "id": "c",
+                "text": "Porque cualquier historia corta es injusta.",
+                "feedback": "Revisa la idea clave. La representación también comunica mediante patrones."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.significado.estereotipos",
+            "difficulty": 2,
+            "prompt": "Un autor añade una chica programadora al final, pero todos los demás roles siguen iguales. ¿Qué conviene revisar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST08",
+            "hint": "Mira el conjunto, no una casilla.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si el personaje usa exactamente el mismo color.",
+                "feedback": "Revisa la idea clave. Una excepción aislada no transforma necesariamente la estructura repetida."
+              },
+              {
+                "id": "b",
+                "text": "Si la excepción cambia realmente el patrón de agencia o solo lo disimula.",
+                "feedback": "Correcto. Una excepción aislada no transforma necesariamente la estructura repetida."
+              },
+              {
+                "id": "c",
+                "text": "Si puede eliminarse toda diversidad.",
+                "feedback": "Revisa la idea clave. Una excepción aislada no transforma necesariamente la estructura repetida."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.significado.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Qué rediseño evita otro estereotipo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST08",
+            "hint": "No cambies una jerarquía por otra.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Convertir a un grupo en perfecto y al otro en incapaz.",
+                "feedback": "Revisa la idea clave. La complejidad compartida evita invertir la simplificación."
+              },
+              {
+                "id": "b",
+                "text": "Asignar cada habilidad por apariencia.",
+                "feedback": "Revisa la idea clave. La complejidad compartida evita invertir la simplificación."
+              },
+              {
+                "id": "c",
+                "text": "Dar tareas variadas, errores, decisiones y crecimiento a personajes diferentes.",
+                "feedback": "Correcto. La complejidad compartida evita invertir la simplificación."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.significado.estereotipos",
+            "difficulty": 1,
+            "prompt": "¿Cómo se justifica un análisis de representación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST07",
+            "hint": "Cita patrones y efectos posibles.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Con ejemplos repetidos de roles, decisiones, voz y consecuencias dentro de la pieza.",
+                "feedback": "Correcto. La evidencia debe estar en la representación observable."
+              },
+              {
+                "id": "b",
+                "text": "Con una impresión sin señalar escenas.",
+                "feedback": "Revisa la idea clave. La evidencia debe estar en la representación observable."
+              },
+              {
+                "id": "c",
+                "text": "Con la intención imaginada del autor.",
+                "feedback": "Revisa la idea clave. La evidencia debe estar en la representación observable."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya detectas patrones sin reducir a las personas",
+            "body": "Analizaste roles y agencia, evitaste generalizar desde una escena y propusiste personajes variados, capaces de decidir, fallar y aprender.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A4.05",
+        "globalId": "pe-sec1-mail-A4-05",
+        "sequence": 5,
+        "title": "Datos como mensaje",
+        "subtitle": "Escala, denominador, promedio y periodo también persuaden",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.significado.datos",
+        "learningOutcome": "Evalúa cómo la selección y visualización de datos modifica la impresión sin cambiar necesariamente los valores escritos.",
+        "successEvidence": "Corrige un gráfico o resumen engañoso y explica por qué la nueva representación permite una comparación más justa.",
+        "prerequisites": [
+          "Interpreta porcentajes",
+          "Reconoce omisiones"
+        ],
+        "misconceptions": [
+          "Si los números son correctos, el gráfico no puede engañar",
+          "El promedio describe a todos",
+          "Una barra más alta implica una diferencia enorme"
+        ],
+        "screens": [
+          {
+            "id": "A4.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Los datos también tienen encuadre",
+            "body": "96 % y 98 % difieren en dos puntos, pero un eje que empieza en 94 hace que una barra parezca mucho mayor. El valor no cambió; cambió la impresión visual.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A4.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.significado.datos",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la diferencia real entre 96 % y 98 %?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A4-ST09",
+            "hint": "Lee etiquetas antes de mirar altura.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El triple.",
+                "feedback": "Revisa la idea clave. La resta entre valores es 2, aunque las barras parezcan muy distintas."
+              },
+              {
+                "id": "b",
+                "text": "Dos puntos porcentuales.",
+                "feedback": "Correcto. La resta entre valores es 2, aunque las barras parezcan muy distintas."
+              },
+              {
+                "id": "c",
+                "text": "Noventa y cuatro puntos.",
+                "feedback": "Revisa la idea clave. La resta entre valores es 2, aunque las barras parezcan muy distintas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Revisa escala y proporción",
+            "body": "Busca dónde comienza el eje, intervalos, unidades y relación entre área visual y diferencia numérica.",
+            "examples": [
+              "eje 94–100",
+              "diferencia real: 2 puntos"
+            ],
+            "memoryAid": "Lee números antes de comparar alturas."
+          },
+          {
+            "id": "A4.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Promedio no es distribución",
+            "body": "Dos grupos pueden compartir promedio y diferir en variación. Examina valores, rango y grupos internos cuando importen.",
+            "examples": [
+              "14,14,14,14",
+              "8,12,16,20"
+            ],
+            "memoryAid": "Mismo centro, historias distintas."
+          },
+          {
+            "id": "A4.05-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.significado.datos",
+            "difficulty": 1,
+            "prompt": "¿Qué oculta decir que Norte y Sur son «iguales»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A4-ST10",
+            "hint": "Compara cada lista, no solo su centro.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que ambos grupos tienen cuatro valores.",
+                "feedback": "Revisa la idea clave. La igualdad del promedio no implica experiencias idénticas."
+              },
+              {
+                "id": "b",
+                "text": "Que el promedio es 14.",
+                "feedback": "Revisa la idea clave. La igualdad del promedio no implica experiencias idénticas."
+              },
+              {
+                "id": "c",
+                "text": "Que tienen el mismo promedio, pero distribuciones y rangos diferentes.",
+                "feedback": "Correcto. La igualdad del promedio no implica experiencias idénticas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.significado.datos",
+            "difficulty": 1,
+            "prompt": "Relaciona cada elemento con lo que representa.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST10",
+            "hint": "El rango de Sur no aparece en el promedio.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Promedio 14 en ambos",
+                "rightId": "r1",
+                "right": "Mismo centro"
+              },
+              {
+                "leftId": "l2",
+                "left": "14, 14, 14, 14",
+                "rightId": "r2",
+                "right": "Sin variación en Norte"
+              },
+              {
+                "leftId": "l3",
+                "left": "8, 12, 16, 20",
+                "rightId": "r3",
+                "right": "Mayor variación en Sur"
+              },
+              {
+                "leftId": "l4",
+                "left": "«Son iguales»",
+                "rightId": "r4",
+                "right": "Resumen que omite distribución"
+              }
+            ],
+            "feedbackCorrect": "Diferenciaste centro, distribución y resumen excesivo.",
+            "feedbackIncorrect": "No confundas compartir promedio con tener los mismos resultados."
+          },
+          {
+            "id": "A4.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Rediseña para responder la pregunta",
+            "body": "Usa una escala explicada, muestra valores y añade distribución o contexto cuando la decisión lo necesite.",
+            "examples": [
+              "eje coherente",
+              "puntos individuales",
+              "nota metodológica"
+            ],
+            "memoryAid": "La claridad se diseña para comparar, no impresionar."
+          },
+          {
+            "id": "A4.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.significado.datos",
+            "difficulty": 1,
+            "prompt": "¿Por qué el eje desde 94 exagera visualmente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST09",
+            "hint": "Observa cuánto del eje ocupa la diferencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Convierte una diferencia pequeña en gran parte de la altura disponible.",
+                "feedback": "Correcto. El recorte del rango amplifica la distancia visual relativa."
+              },
+              {
+                "id": "b",
+                "text": "Cambia 98 por 100.",
+                "feedback": "Revisa la idea clave. El recorte del rango amplifica la distancia visual relativa."
+              },
+              {
+                "id": "c",
+                "text": "Elimina todas las etiquetas.",
+                "feedback": "Revisa la idea clave. El recorte del rango amplifica la distancia visual relativa."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.significado.datos",
+            "difficulty": 2,
+            "prompt": "Un informe usa solo promedio para asignar apoyo. ¿Qué riesgo aparece?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST10",
+            "hint": "Pregunta quién queda detrás del centro.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todos obtendrán exactamente 14.",
+                "feedback": "Revisa la idea clave. La distribución importa para decisiones sobre necesidades diferentes."
+              },
+              {
+                "id": "b",
+                "text": "Puede ocultar estudiantes con resultados muy bajos o muy altos dentro del mismo promedio.",
+                "feedback": "Correcto. La distribución importa para decisiones sobre necesidades diferentes."
+              },
+              {
+                "id": "c",
+                "text": "El promedio deja de poder calcularse.",
+                "feedback": "Revisa la idea clave. La distribución importa para decisiones sobre necesidades diferentes."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.significado.datos",
+            "difficulty": 1,
+            "prompt": "¿Qué mejora el gráfico de satisfacción?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST09",
+            "hint": "Haz visible valor y escala.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Quitar los números y agrandar la barra de 98.",
+                "feedback": "Revisa la idea clave. La representación debe corresponder a la magnitud real."
+              },
+              {
+                "id": "b",
+                "text": "Empezar el eje aún más cerca de 96.",
+                "feedback": "Revisa la idea clave. La representación debe corresponder a la magnitud real."
+              },
+              {
+                "id": "c",
+                "text": "Mostrar ambos valores con una escala no exagerada y explicar que difieren en dos puntos.",
+                "feedback": "Correcto. La representación debe corresponder a la magnitud real."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.significado.datos",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la revisión mínima de un mensaje con datos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST10",
+            "hint": "Usa una lista de seis controles.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Comprobar fuente, base, escala, periodo, medida resumida y variación relevante.",
+                "feedback": "Correcto. Los elementos técnicos determinan qué historia puede sostenerse."
+              },
+              {
+                "id": "b",
+                "text": "Mirar solo el color dominante.",
+                "feedback": "Revisa la idea clave. Los elementos técnicos determinan qué historia puede sostenerse."
+              },
+              {
+                "id": "c",
+                "text": "Aceptar todo promedio sin contexto.",
+                "feedback": "Revisa la idea clave. Los elementos técnicos determinan qué historia puede sostenerse."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya ves la decisión detrás del gráfico",
+            "body": "Leíste escala, magnitud y distribución, y rediseñaste la presentación para informar antes que impresionar.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A4.06",
+        "globalId": "pe-sec1-mail-A4-06",
+        "sequence": 6,
+        "title": "Emoción y estética",
+        "subtitle": "Música, color, ritmo y edición orientan atención y disposición",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.significado.emocion_estetica",
+        "learningOutcome": "Explica cómo recursos sonoros y visuales influyen en emoción, urgencia y comprensión sin confundir efecto con falsedad.",
+        "successEvidence": "Compara dos versiones con los mismos datos y atribuye efectos probables a recursos específicos.",
+        "prerequisites": [
+          "Analiza encuadre",
+          "Distingue mensaje e interpretación"
+        ],
+        "misconceptions": [
+          "Emocionar vuelve falso un contenido",
+          "El color tiene un significado universal fijo",
+          "Si los datos coinciden, las versiones producen la misma experiencia"
+        ],
+        "screens": [
+          {
+            "id": "A4.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El mismo hecho puede sentirse diferente",
+            "body": "Cortes rápidos y música intensa pueden volver enérgico un recorrido. Tomas largas y sonido ambiente permiten observar cruces. Ninguna estética reemplaza la revisión de hechos, pero sí organiza la recepción.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A4.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.significado.emocion_estetica",
+            "difficulty": 1,
+            "prompt": "¿Qué recurso hace más enérgico el Video 1?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A4-ST11",
+            "hint": "Señala elementos de edición.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una tabla con promedios.",
+                "feedback": "Revisa la idea clave. La combinación acelera ritmo y concentra atención en movimiento."
+              },
+              {
+                "id": "b",
+                "text": "Música rápida, cortes breves y colores intensos.",
+                "feedback": "Correcto. La combinación acelera ritmo y concentra atención en movimiento."
+              },
+              {
+                "id": "c",
+                "text": "El silencio y las tomas largas.",
+                "feedback": "Revisa la idea clave. La combinación acelera ritmo y concentra atención en movimiento."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Nombra el recurso observable",
+            "body": "Antes de decir «manipula», identifica ritmo, plano, contraste, sonido, tipografía, vibración o repetición.",
+            "examples": [
+              "cortes breves",
+              "fondo rojo",
+              "sonido ambiente"
+            ],
+            "memoryAid": "Recurso primero; efecto después."
+          },
+          {
+            "id": "A4.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Formula un efecto probable",
+            "body": "Relaciona recurso y atención con lenguaje calibrado: puede acelerar, alarmar, tranquilizar o facilitar comparación.",
+            "examples": [
+              "rojo + vibración → urgencia",
+              "tomas largas → observación"
+            ],
+            "memoryAid": "Puede influir; no controla a todas las personas."
+          },
+          {
+            "id": "A4.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.significado.emocion_estetica",
+            "difficulty": 1,
+            "prompt": "¿Qué diferencia principal existe entre las interfaces de agua?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A4-ST12",
+            "hint": "Comprueba primero que el dato coincide.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Muestran cantidades de agua distintas.",
+                "feedback": "Revisa la idea clave. Diseño y opciones cambian recepción y capacidad de actuar."
+              },
+              {
+                "id": "b",
+                "text": "La segunda oculta los 112 litros.",
+                "feedback": "Revisa la idea clave. Diseño y opciones cambian recepción y capacidad de actuar."
+              },
+              {
+                "id": "c",
+                "text": "Con el mismo dato, una intensifica alarma y la otra ofrece comparación y acciones.",
+                "feedback": "Correcto. Diseño y opciones cambian recepción y capacidad de actuar."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.significado.emocion_estetica",
+            "difficulty": 1,
+            "prompt": "Relaciona recurso y efecto probable.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST12",
+            "hint": "La comparación con una meta informa, no solo decora.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "112 litros",
+                "rightId": "r1",
+                "right": "Dato compartido"
+              },
+              {
+                "leftId": "l2",
+                "left": "Rojo y vibración",
+                "rightId": "r2",
+                "right": "Intensifican urgencia"
+              },
+              {
+                "leftId": "l3",
+                "left": "Comparación con la meta",
+                "rightId": "r3",
+                "right": "Añade contexto"
+              },
+              {
+                "leftId": "l4",
+                "left": "Dos acciones posibles",
+                "rightId": "r4",
+                "right": "Favorecen agencia"
+              }
+            ],
+            "feedbackCorrect": "Explicaste efectos desde elementos observables.",
+            "feedbackIncorrect": "No atribuyas intenciones; relaciona forma y recepción probable."
+          },
+          {
+            "id": "A4.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Separa emoción y exactitud",
+            "body": "Una pieza emotiva puede contener datos correctos; una pieza sobria puede engañar. Evalúa estética y evidencia en carriles relacionados pero distintos.",
+            "examples": [
+              "112 litros en ambas",
+              "efecto diferente, dato igual"
+            ],
+            "memoryAid": "Sentir no demuestra; comprobar tampoco elimina el efecto."
+          },
+          {
+            "id": "A4.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.significado.emocion_estetica",
+            "difficulty": 1,
+            "prompt": "¿Qué permite mejor el Video 2?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST11",
+            "hint": "Distingue posibilidad de observar y conclusión total.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Observar cruces y tránsito mediante tomas largas y sonido ambiente.",
+                "feedback": "Correcto. La estética favorece observación, pero no demuestra seguridad universal."
+              },
+              {
+                "id": "b",
+                "text": "Probar que el camino es seguro en todo momento.",
+                "feedback": "Revisa la idea clave. La estética favorece observación, pero no demuestra seguridad universal."
+              },
+              {
+                "id": "c",
+                "text": "Eliminar cualquier emoción del espectador.",
+                "feedback": "Revisa la idea clave. La estética favorece observación, pero no demuestra seguridad universal."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.significado.emocion_estetica",
+            "difficulty": 2,
+            "prompt": "Una persona dice «el fondo rojo vuelve falso el número». ¿Qué confunde?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST12",
+            "hint": "Analiza dato y presentación en dos pasos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los colores nunca tienen efecto.",
+                "feedback": "Revisa la idea clave. El recurso puede exagerar urgencia sin modificar necesariamente la cifra."
+              },
+              {
+                "id": "b",
+                "text": "El efecto emocional del diseño con la exactitud del dato, que debe evaluarse por separado.",
+                "feedback": "Correcto. El recurso puede exagerar urgencia sin modificar necesariamente la cifra."
+              },
+              {
+                "id": "c",
+                "text": "Toda alerta debe ser roja.",
+                "feedback": "Revisa la idea clave. El recurso puede exagerar urgencia sin modificar necesariamente la cifra."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.significado.emocion_estetica",
+            "difficulty": 1,
+            "prompt": "¿Qué rediseño favorece una decisión informada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST12",
+            "hint": "No elimines el dato; añade sentido.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ocultar la cantidad para reducir preocupación.",
+                "feedback": "Revisa la idea clave. Contexto y opciones convierten alerta en comprensión y agencia."
+              },
+              {
+                "id": "b",
+                "text": "Aumentar vibración sin explicar nada.",
+                "feedback": "Revisa la idea clave. Contexto y opciones convierten alerta en comprensión y agencia."
+              },
+              {
+                "id": "c",
+                "text": "Mantener el dato, añadir referencia comprensible y ofrecer acciones proporcionales.",
+                "feedback": "Correcto. Contexto y opciones convierten alerta en comprensión y agencia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.significado.emocion_estetica",
+            "difficulty": 1,
+            "prompt": "¿Cómo se argumenta un efecto estético?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST11",
+            "hint": "Muestra qué produce la lectura, no qué pensó alguien.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Recurso observable + atención que orienta + efecto probable + límite de la interpretación.",
+                "feedback": "Correcto. La cadena mantiene el análisis visible y calibrado."
+              },
+              {
+                "id": "b",
+                "text": "Adjetivo fuerte sin evidencia.",
+                "feedback": "Revisa la idea clave. La cadena mantiene el análisis visible y calibrado."
+              },
+              {
+                "id": "c",
+                "text": "Intención privada atribuida al diseñador.",
+                "feedback": "Revisa la idea clave. La cadena mantiene el análisis visible y calibrado."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya puedes sentir y analizar al mismo tiempo",
+            "body": "Nombraste recursos estéticos, explicaste sus efectos probables y mantuviste separadas emoción, evidencia y certeza.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A4.07",
+        "globalId": "pe-sec1-mail-A4-07",
+        "sequence": 7,
+        "title": "Perspectivas",
+        "subtitle": "Pregunta quién habla, quién falta y quién vive las consecuencias",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.significado.perspectivas",
+        "learningOutcome": "Reconoce voces presentes, ausentes, afectadas y decisoras, y propone una consulta pertinente sin suponer qué dirá cada grupo.",
+        "successEvidence": "Construye un mapa de actores y justifica qué perspectiva adicional necesita una decisión.",
+        "prerequisites": [
+          "Identifica autor y audiencia",
+          "Reconoce selección y omisión"
+        ],
+        "misconceptions": [
+          "Una voz habla por todo su grupo",
+          "Ausencia prueba desacuerdo",
+          "Escuchar a todos significa aceptar todas las propuestas"
+        ],
+        "screens": [
+          {
+            "id": "A4.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una decisión cambia según desde dónde se vive",
+            "body": "Deportistas y personal de obras aportan información, pero una plaza también sostiene descanso, trabajo, cuidado y tránsito. Mapear perspectivas revela preguntas que todavía no fueron formuladas.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A4.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.significado.perspectivas",
+            "difficulty": 1,
+            "prompt": "¿Qué perspectiva falta explícitamente en la consulta de la plaza?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A4-ST13",
+            "hint": "Busca usos del espacio que no aparecen entre las voces incluidas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El equipo de obras.",
+                "feedback": "Revisa la idea clave. El caso señala que esas personas no fueron consultadas."
+              },
+              {
+                "id": "b",
+                "text": "Personas mayores que usan las bancas para descansar.",
+                "feedback": "Correcto. El caso señala que esas personas no fueron consultadas."
+              },
+              {
+                "id": "c",
+                "text": "Deportistas adolescentes.",
+                "feedback": "Revisa la idea clave. El caso señala que esas personas no fueron consultadas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Distingue roles",
+            "body": "Separa afectados directos, decisores, expertos y audiencias. Una persona puede ocupar más de un rol.",
+            "examples": [
+              "usuarios mayores: afectados",
+              "municipalidad: decisora",
+              "accesibilidad: conocimiento técnico"
+            ],
+            "memoryAid": "¿Quién decide, usa, conoce y recibe efectos?"
+          },
+          {
+            "id": "A4.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "No inventes la voz ausente",
+            "body": "La ausencia indica falta de consulta, no una postura conocida. Formula preguntas y busca participación segura y representativa.",
+            "examples": [
+              "no sabemos si se oponen",
+              "sí sabemos que no fueron consultados"
+            ],
+            "memoryAid": "Ausencia es una pregunta, no una respuesta."
+          },
+          {
+            "id": "A4.07-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.significado.perspectivas",
+            "difficulty": 1,
+            "prompt": "¿Para qué sirve el mapa de afectados?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A4-ST14",
+            "hint": "Distingue herramienta de decisión final.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Para decidir automáticamente quién gana.",
+                "feedback": "Revisa la idea clave. El mapa organiza perspectivas; no resuelve por sí solo el conflicto."
+              },
+              {
+                "id": "b",
+                "text": "Para reemplazar toda evidencia técnica.",
+                "feedback": "Revisa la idea clave. El mapa organiza perspectivas; no resuelve por sí solo el conflicto."
+              },
+              {
+                "id": "c",
+                "text": "Para identificar a quién escuchar y qué consecuencias evaluar.",
+                "feedback": "Correcto. El mapa organiza perspectivas; no resuelve por sí solo el conflicto."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.significado.perspectivas",
+            "difficulty": 1,
+            "prompt": "Relaciona actor y papel en la decisión.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST14",
+            "hint": "La perspectiva pendiente todavía no tiene una postura conocida.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Deportistas",
+                "rightId": "r1",
+                "right": "Usuarios directos consultados"
+              },
+              {
+                "leftId": "l2",
+                "left": "Municipalidad",
+                "rightId": "r2",
+                "right": "Decisor institucional"
+              },
+              {
+                "leftId": "l3",
+                "left": "Especialista en accesibilidad",
+                "rightId": "r3",
+                "right": "Conocimiento técnico pertinente"
+              },
+              {
+                "leftId": "l4",
+                "left": "Personas mayores no consultadas",
+                "rightId": "r4",
+                "right": "Perspectiva pendiente"
+              }
+            ],
+            "feedbackCorrect": "Diferenciaste uso, decisión, conocimiento y ausencia.",
+            "feedbackIncorrect": "Una persona afectada no es automáticamente la decisora."
+          },
+          {
+            "id": "A4.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Integra sin contar votos a ciegas",
+            "body": "Compara necesidades, derechos, evidencia y efectos. Escuchar amplía la decisión; no elimina la responsabilidad de justificarla.",
+            "examples": [
+              "deporte",
+              "descanso",
+              "accesibilidad",
+              "mantenimiento"
+            ],
+            "memoryAid": "Más voces, mejor razonamiento."
+          },
+          {
+            "id": "A4.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.significado.perspectivas",
+            "difficulty": 1,
+            "prompt": "¿Qué puede afirmarse sobre vendedores no consultados?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST13",
+            "hint": "Declara lo conocido y lo pendiente.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Su perspectiva no fue recogida y debe investigarse; no conocemos aún su postura.",
+                "feedback": "Correcto. Ausencia de voz no permite inventar una posición."
+              },
+              {
+                "id": "b",
+                "text": "Todos rechazan la obra.",
+                "feedback": "Revisa la idea clave. Ausencia de voz no permite inventar una posición."
+              },
+              {
+                "id": "c",
+                "text": "Ninguno será afectado.",
+                "feedback": "Revisa la idea clave. Ausencia de voz no permite inventar una posición."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.significado.perspectivas",
+            "difficulty": 2,
+            "prompt": "Una consulta invita a una sola persona y dice representar a todo un grupo. ¿Qué debe revisarse?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST14",
+            "hint": "No conviertas una experiencia en totalidad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La longitud del nombre de la persona.",
+                "feedback": "Revisa la idea clave. Los grupos no son homogéneos y la representación necesita criterios."
+              },
+              {
+                "id": "b",
+                "text": "Diversidad interna, selección y posibilidad de que una voz no cubra todas las experiencias.",
+                "feedback": "Correcto. Los grupos no son homogéneos y la representación necesita criterios."
+              },
+              {
+                "id": "c",
+                "text": "Si habla con absoluta seguridad.",
+                "feedback": "Revisa la idea clave. Los grupos no son homogéneos y la representación necesita criterios."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.significado.perspectivas",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta sería pertinente para usuarios con movilidad reducida?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST13",
+            "hint": "Pregunta por efectos concretos del proyecto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué música prefieren en casa?",
+                "feedback": "Revisa la idea clave. La pregunta conecta el diseño con condiciones de uso y acceso."
+              },
+              {
+                "id": "b",
+                "text": "¿Quién ganará el próximo partido?",
+                "feedback": "Revisa la idea clave. La pregunta conecta el diseño con condiciones de uso y acceso."
+              },
+              {
+                "id": "c",
+                "text": "¿Cómo cambiarán rutas, superficies, accesos y lugares de descanso con la nueva distribución?",
+                "feedback": "Correcto. La pregunta conecta el diseño con condiciones de uso y acceso."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.significado.perspectivas",
+            "difficulty": 1,
+            "prompt": "¿Qué producto demuestra análisis de perspectivas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST14",
+            "hint": "Incluye roles y preguntas, no posturas inventadas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Mapa de actores con voz presente o ausente, rol, posible efecto y pregunta pendiente.",
+                "feedback": "Correcto. El mapa deja trazable quién fue considerado y qué falta comprender."
+              },
+              {
+                "id": "b",
+                "text": "Lista de personas famosas.",
+                "feedback": "Revisa la idea clave. El mapa deja trazable quién fue considerado y qué falta comprender."
+              },
+              {
+                "id": "c",
+                "text": "Una votación sin información sobre consecuencias.",
+                "feedback": "Revisa la idea clave. El mapa deja trazable quién fue considerado y qué falta comprender."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya amplías la mesa sin inventar voces",
+            "body": "Mapeaste afectados, decisores y conocimientos, y convertiste ausencias en consultas concretas en lugar de suposiciones.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A4.08",
+        "globalId": "pe-sec1-mail-A4-08",
+        "sequence": 8,
+        "title": "Interpretación responsable",
+        "subtitle": "Una lectura sólida avanza desde observaciones hacia inferencias con límites",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.significado.interpretacion_responsable",
+        "learningOutcome": "Distingue observación, relación, interpretación plausible y afirmación infundada, y defiende una lectura con evidencias visibles.",
+        "successEvidence": "Redacta un análisis comparativo que cita elementos, explica relaciones, considera otra lectura y marca lo que no puede saberse.",
+        "prerequisites": [
+          "Completa las siete lecciones anteriores"
+        ],
+        "misconceptions": [
+          "Interpretar es adivinar intención",
+          "Solo existe una lectura posible",
+          "Citar un detalle basta sin explicar su relación"
+        ],
+        "screens": [
+          {
+            "id": "A4.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Sube la escalera sin saltarte peldaños",
+            "body": "Ver un paraguas sobre casas es observación. Relacionarlo con protección es inferencia. Con el contexto de inundaciones, cuidado colectivo es una lectura plausible. Afirmar que la artista odia la lluvia no tiene apoyo.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A4.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.significado.interpretacion_responsable",
+            "difficulty": 1,
+            "prompt": "¿Cuál enunciado es una observación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A4-ST15",
+            "hint": "Elige lo que puede señalarse en la imagen.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La artista quiere salvar a toda la ciudad.",
+                "feedback": "Revisa la idea clave. Describe una relación visible sin atribuir intención."
+              },
+              {
+                "id": "b",
+                "text": "El paraguas cubre varias casas.",
+                "feedback": "Correcto. Describe una relación visible sin atribuir intención."
+              },
+              {
+                "id": "c",
+                "text": "La obra demuestra una emoción privada.",
+                "feedback": "Revisa la idea clave. Describe una relación visible sin atribuir intención."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Observa antes de interpretar",
+            "body": "Enumera composición, palabras, datos, sonidos y contexto disponible sin convertirlos todavía en significado.",
+            "examples": [
+              "paraguas central",
+              "casas cubiertas",
+              "franja amarilla"
+            ],
+            "memoryAid": "Lo visible es el primer peldaño."
+          },
+          {
+            "id": "A4.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Construye el puente",
+            "body": "Explica cómo dos o más elementos producen una relación y por qué esa relación apoya tu lectura.",
+            "examples": [
+              "una figura protege varias casas",
+              "contexto posterior a inundaciones"
+            ],
+            "memoryAid": "Evidencia + relación = interpretación."
+          },
+          {
+            "id": "A4.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.significado.interpretacion_responsable",
+            "difficulty": 1,
+            "prompt": "¿Por qué «cuidado colectivo» es una interpretación plausible?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A4-ST16",
+            "hint": "Usa al menos dos evidencias.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque toda niña representa al gobierno.",
+                "feedback": "Revisa la idea clave. Composición y contexto convergen en esa lectura."
+              },
+              {
+                "id": "b",
+                "text": "Porque la lluvia siempre significa odio.",
+                "feedback": "Revisa la idea clave. Composición y contexto convergen en esa lectura."
+              },
+              {
+                "id": "c",
+                "text": "La figura protege varias casas y la obra se creó después de inundaciones comunitarias.",
+                "feedback": "Correcto. Composición y contexto convergen en esa lectura."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.significado.interpretacion_responsable",
+            "difficulty": 1,
+            "prompt": "Relaciona cada enunciado con el nivel de la escalera.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST16",
+            "hint": "Los sentimientos privados no aparecen en la obra.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Paraguas sobre casas",
+                "rightId": "r1",
+                "right": "Observación"
+              },
+              {
+                "leftId": "l2",
+                "left": "Protección de varias familias",
+                "rightId": "r2",
+                "right": "Relación inferida"
+              },
+              {
+                "leftId": "l3",
+                "left": "Cuidado colectivo",
+                "rightId": "r3",
+                "right": "Interpretación plausible"
+              },
+              {
+                "leftId": "l4",
+                "left": "Sentimiento privado de la artista",
+                "rightId": "r4",
+                "right": "Límite no observable"
+              }
+            ],
+            "feedbackCorrect": "Separaste observación, inferencia, interpretación y límite.",
+            "feedbackIncorrect": "No conviertas una interpretación en un hecho visible."
+          },
+          {
+            "id": "A4.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Prueba alternativas y límites",
+            "body": "Pregunta si otra lectura también encaja, qué evidencia la debilita y qué información privada no está disponible.",
+            "examples": [
+              "esperanza además de protección",
+              "sentimiento personal desconocido"
+            ],
+            "memoryAid": "Una buena lectura sabe dónde detenerse."
+          },
+          {
+            "id": "A4.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.significado.interpretacion_responsable",
+            "difficulty": 1,
+            "prompt": "¿Qué afirmación supera la evidencia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST15",
+            "hint": "Distingue obra observada y mente imaginada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La artista odia personalmente la lluvia.",
+                "feedback": "Correcto. No hay acceso a sentimientos privados de la autora."
+              },
+              {
+                "id": "b",
+                "text": "El paraguas ocupa el centro.",
+                "feedback": "Revisa la idea clave. No hay acceso a sentimientos privados de la autora."
+              },
+              {
+                "id": "c",
+                "text": "La placa menciona inundaciones.",
+                "feedback": "Revisa la idea clave. No hay acceso a sentimientos privados de la autora."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.significado.interpretacion_responsable",
+            "difficulty": 2,
+            "prompt": "Un comentario cita «paraguas» y concluye «libertad», sin explicar vínculo. ¿Qué le falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A4-ST16",
+            "hint": "Explica cómo el detalle produce significado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añadir más adjetivos.",
+                "feedback": "Revisa la idea clave. La evidencia necesita una cadena de razonamiento."
+              },
+              {
+                "id": "b",
+                "text": "Mostrar qué relación entre paraguas, casas y contexto sostiene esa lectura.",
+                "feedback": "Correcto. La evidencia necesita una cadena de razonamiento."
+              },
+              {
+                "id": "c",
+                "text": "Asegurar que es la única interpretación.",
+                "feedback": "Revisa la idea clave. La evidencia necesita una cadena de razonamiento."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A4.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.significado.interpretacion_responsable",
+            "difficulty": 1,
+            "prompt": "¿Qué lectura alternativa podría explorarse responsablemente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST15",
+            "hint": "Busca otra relación apoyada en la composición.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La artista predijo una fecha exacta.",
+                "feedback": "Revisa la idea clave. La alternativa usa un elemento visible y lenguaje calibrado."
+              },
+              {
+                "id": "b",
+                "text": "Las casas no existen porque son pintadas.",
+                "feedback": "Revisa la idea clave. La alternativa usa un elemento visible y lenguaje calibrado."
+              },
+              {
+                "id": "c",
+                "text": "La franja amarilla puede sugerir esperanza, si se explica su contraste con las nubes y se mantiene como posibilidad.",
+                "feedback": "Correcto. La alternativa usa un elemento visible y lenguaje calibrado."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A4.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.significado.interpretacion_responsable",
+            "difficulty": 1,
+            "prompt": "¿Cuál estructura produce una interpretación responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A4-ST16",
+            "hint": "Sube cada peldaño y marca dónde termina.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Observación, relación, lectura, evidencia adicional, alternativa y límite.",
+                "feedback": "Correcto. La estructura hace revisable el razonamiento."
+              },
+              {
+                "id": "b",
+                "text": "Opinión, certeza e intención inventada.",
+                "feedback": "Revisa la idea clave. La estructura hace revisable el razonamiento."
+              },
+              {
+                "id": "c",
+                "text": "Título, reacción y número de seguidores.",
+                "feedback": "Revisa la idea clave. La estructura hace revisable el razonamiento."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "A4.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya interpretas con imaginación y disciplina",
+            "body": "Construiste una lectura desde evidencias, explicaste el puente y dejaste espacio para alternativas y límites sin caer en afirmaciones gratuitas.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
