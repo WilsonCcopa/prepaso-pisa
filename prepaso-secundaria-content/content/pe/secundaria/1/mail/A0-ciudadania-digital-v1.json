@@ -1,0 +1,2677 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.3",
+  "locale": "es-PE",
+  "unit": {
+    "id": "A0",
+    "globalId": "pe-sec1-mail-A0",
+    "sequence": 0,
+    "grade": "sec1",
+    "subject": "mail",
+    "title": "Ciudadanía digital, identidad y agencia",
+    "shortTitle": "Ciudadanía digital",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb_y_al_borrador_mail_2029",
+    "officialStatusNote": "A0 es una secuencia editorial de Prepaso. Se alinea con la competencia transversal del CNEB y con el primer borrador del marco PISA 2029 MAIL, que la OCDE indica que será revisado tras el piloto y el estudio de campo.",
+    "unitOutcome": "Comprende que cada acción digital tiene actores, audiencia, huella, propósito y consecuencias, y practica decisiones seguras con datos ficticios.",
+    "finalEvidence": "Mapa privado y ficticio de decisiones digitales más un acuerdo personal revisable, sin solicitar cuentas, ubicaciones ni datos reales.",
+    "curriculumAlignment": {
+      "frameworks": [
+        "CNEB Perú",
+        "PISA 2029 Media and Artificial Intelligence Literacy — first draft"
+      ],
+      "cnebCompetency": "Se desenvuelve en entornos virtuales generados por las TIC",
+      "cnebCapacities": [
+        "Personaliza entornos virtuales",
+        "Gestiona información del entorno virtual",
+        "Interactúa en entornos virtuales",
+        "Crea objetos virtuales en diversos formatos"
+      ],
+      "mailCompetencies": [
+        "Reflexionar y actuar ética y responsablemente",
+        "Acceder y usar",
+        "Participar y colaborar",
+        "Crear"
+      ],
+      "operationalAlignment": "Introduce agencia, identidad, audiencia, persistencia, consentimiento, convivencia y bienestar antes de analizar medios o sistemas de IA más complejos."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Agente digital responsable"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "safetyPolicy": {
+      "realAccountsRequired": false,
+      "realPersonalDataRequested": false,
+      "openSocialInteraction": false,
+      "caseData": "fictitious",
+      "adultSupportPrompts": true,
+      "note": "Las actividades se resuelven con perfiles, mensajes y datos ficticios. Nunca se solicitan contraseñas, cuentas, ubicación precisa, contactos, fotografías ni experiencias sensibles reales."
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todas las interfaces y situaciones son simulaciones originales de Prepaso.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "PISA 2029 Media and Artificial Intelligence Literacy",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/en/about/projects/pisa-rdi-programme.html",
+        "status": "official_project_page"
+      },
+      {
+        "title": "PISA 2029 MAIL Assessment Framework First Draft",
+        "publisher": "OECD",
+        "edition": "January 2026",
+        "url": "https://www.oecd.org/content/dam/oecd/en/about/projects/edu/the-pisa-2029-media-and-artificial-intelligence-%28mail%29-assessment-will-shed-light-on-whether-young-students-have-had-opportunities-to-learn-and-to-engage-proactively-and-critically-in-a-world-where-production%2C-participation%2C-and-social-networking-are-increasingly-mediated-by-digital-and-ai-tools-/PISA%202029%20MAIL%20Assessment%20Framework%20First%20Draft.pdf",
+        "status": "first_draft_subject_to_revision"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "A0-T01A",
+        "title": "Un día digital ficticio",
+        "format": "digital_simulated",
+        "genre": "registro simulado",
+        "content": "7:10 — alarma del teléfono. 8:30 — aula virtual de la escuela. 1:00 — mapa para revisar una ruta. 4:20 — editor para preparar una exposición. 7:00 — plataforma de videos para aprender una canción. En cada actividad participan una persona, una herramienta y, a veces, una institución o empresa.",
+        "sourceNote": "Escenario ficticio original de Prepaso; no recopila actividad real.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T01B",
+        "title": "Proyecto del biohuerto",
+        "format": "digital_simulated",
+        "genre": "flujo simulado",
+        "content": "Un grupo usa una cámara para registrar el crecimiento de plantas, una carpeta compartida para ordenar imágenes y una presentación para explicar resultados. La escuela administra las cuentas; estudiantes y docente deciden qué materiales se incluyen.",
+        "sourceNote": "Escenario ficticio original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T02A",
+        "title": "Perfil ficticio de Luna27",
+        "format": "digital_simulated",
+        "genre": "perfil simulado",
+        "content": "Alias: Luna27. Avatar: ilustración de una montaña. Descripción: «Me gustan la astronomía y el vóley». La pantalla también propone completar: nombre legal, fecha exacta de nacimiento, dirección, colegio y ubicación en tiempo real. Ningún campo está completado.",
+        "sourceNote": "Perfil completamente ficticio original de Prepaso; no contiene datos reales.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T02B",
+        "title": "Tres capas de identidad",
+        "format": "discontinuous",
+        "genre": "ficha conceptual",
+        "content": "PERSONA: experiencias, relaciones y valores que no caben por completo en una pantalla. PERFIL: selección de nombre, imagen y datos para un contexto. REPUTACIÓN: impresiones que otras personas forman con el tiempo a partir de acciones y contenido visible.",
+        "sourceNote": "Ficha original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T03A",
+        "title": "La publicación que viajó",
+        "format": "digital_simulated",
+        "genre": "secuencia simulada",
+        "content": "1. Alex publica un dibujo en un grupo pequeño. 2. Una persona toma una captura. 3. La captura llega a otro grupo. 4. Alguien recorta el nombre y vuelve a publicarla. 5. Alex borra el mensaje original, pero las copias continúan en otros dispositivos.",
+        "sourceNote": "Escenario ficticio original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T03B",
+        "title": "Comentario fuera de contexto",
+        "format": "digital_simulated",
+        "genre": "caso simulado",
+        "content": "En un chat de juego, Sam escribe en tono de broma: «Qué desastre de equipo». Una captura muestra solo esa frase y elimina los mensajes anteriores donde el grupo se reía del resultado. La imagen circula sin la conversación completa.",
+        "sourceNote": "Escenario ficticio original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T04A",
+        "title": "El mensaje del ensayo",
+        "format": "digital_simulated",
+        "genre": "mensaje simulado",
+        "content": "Mara escribe en el grupo del elenco: «Mañana ensayamos a las 4. Llevaré el vestuario que estamos probando». El grupo tiene 12 integrantes. Una persona reenvía el mensaje a un grupo de familias y otra publica una captura en una cuenta abierta.",
+        "sourceNote": "Escenario ficticio original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T04B",
+        "title": "Audiencias de una publicación",
+        "format": "discontinuous",
+        "genre": "mapa de alcance",
+        "content": "Audiencia prevista: tres amistades. Audiencia directa: seguidores de la cuenta. Audiencia ampliada: personas que reciben capturas o reenvíos. Audiencia futura: quienes encuentran una copia semanas o meses después.",
+        "sourceNote": "Mapa conceptual original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T05A",
+        "title": "Foto del proyecto",
+        "format": "digital_simulated",
+        "genre": "dilema simulado",
+        "content": "El equipo terminó una maqueta. Dani propone subir una foto donde aparecen cuatro compañeros. Dos aceptan publicarla en la cuenta cerrada del aula, una persona pide que su rostro no aparezca y otra todavía no respondió. La foto también muestra una hoja con apellidos al fondo.",
+        "sourceNote": "Escenario ficticio original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T05B",
+        "title": "Audio de una exposición",
+        "format": "digital_simulated",
+        "genre": "dilema simulado",
+        "content": "Durante una práctica, el grupo graba un audio para revisar la exposición. Al final, una estudiante cuenta algo personal sin saber que la grabación seguía activa. Otro integrante quiere enviar el archivo completo a un grupo distinto para pedir consejos.",
+        "sourceNote": "Escenario ficticio original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T06A",
+        "title": "Normas de un club digital",
+        "format": "digital_simulated",
+        "genre": "normas simuladas",
+        "content": "Norma 1: comentar sobre ideas sin insultar a personas. Norma 2: pedir permiso antes de compartir trabajos ajenos. Norma 3: no publicar datos de contacto. Norma 4: si ocurre un problema, guardar evidencia y pedir apoyo a una persona adulta responsable. Norma 5: explicar las decisiones de moderación.",
+        "sourceNote": "Normas ficticias originales de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T06B",
+        "title": "Conversación sobre una tarea",
+        "format": "digital_simulated",
+        "genre": "chat simulado",
+        "content": "A: «Tu idea no sirve». B: «No entendí esa parte del gráfico». C: «Podemos revisar el título y proponer otra forma de mostrar los datos». D: «Saquemos a B del grupo por preguntar».",
+        "sourceNote": "Conversación ficticia original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T07A",
+        "title": "Mensaje urgente",
+        "format": "digital_simulated",
+        "genre": "mensaje simulado",
+        "content": "«URGENTE: mañana se suspenden todas las clases. Reenvía antes de que borren el aviso». El mensaje no indica autor ni enlaza un comunicado. La web oficial de la escuela no muestra cambios y el tutor no ha enviado información.",
+        "sourceNote": "Mensaje ficticio original de Prepaso; no anuncia una suspensión real.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T07B",
+        "title": "Respuesta en caliente",
+        "format": "digital_simulated",
+        "genre": "chat simulado",
+        "content": "En un grupo, alguien interpreta mal una frase y escribe una respuesta ofensiva. Antes de enviarla, ve que el mensaje original puede tener dos significados. Tiene cuatro opciones: enviar de inmediato, pedir aclaración, esperar y releer, o publicar una captura en otro grupo.",
+        "sourceNote": "Escenario ficticio original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T08A",
+        "title": "Semana digital ficticia",
+        "format": "discontinuous",
+        "genre": "autoregistro simulado",
+        "content": "Meta: terminar tareas sin interrupciones. Lunes: notificaciones activas, tres cambios de aplicación. Martes: modo concentración por 25 minutos, una pausa. Miércoles: teléfono fuera de alcance, tarea terminada antes de la cena. Jueves: notificaciones activas, tarea incompleta. Los datos son ficticios y solo muestran un ejemplo de observación.",
+        "sourceNote": "Registro ficticio original de Prepaso; la actividad no pide datos reales.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A0-T08B",
+        "title": "Acuerdo revisable",
+        "format": "continuous",
+        "genre": "plan simulado",
+        "content": "Durante una semana, Kai probará silenciar notificaciones en un bloque de estudio de 25 minutos. Al terminar, registrará solo si completó la tarea y cómo se sintió: con calma, igual o con tensión. El domingo revisará si la medida ayudó y decidirá mantenerla, ajustarla o descartarla.",
+        "sourceNote": "Plan ficticio original de Prepaso; no recopila información personal.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "A0.01",
+        "globalId": "pe-sec1-mail-A0-01",
+        "sequence": 1,
+        "title": "Mi entorno digital",
+        "subtitle": "Herramientas, personas y organizaciones forman un sistema",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.ciudadania.entorno_digital",
+        "learningOutcome": "Reconoce herramientas, actores, datos y propósitos en actividades digitales cotidianas.",
+        "successEvidence": "Construye un mapa conceptual con ejemplos ficticios sin registrar cuentas ni datos personales.",
+        "prerequisites": [],
+        "misconceptions": [
+          "Pensar que una aplicación actúa sola",
+          "Confundir dispositivo con servicio",
+          "Creer que toda actividad digital exige revelar identidad"
+        ],
+        "screens": [
+          {
+            "id": "A0.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Lo digital también tiene participantes",
+            "body": "Cuando usas un mapa, una carpeta o una plataforma, intervienen personas, herramientas, organizaciones y datos. Reconocerlos te permite decidir con más autonomía y seguridad.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A0.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.ciudadania.entorno_digital",
+            "difficulty": 1,
+            "prompt": "En el registro, ¿cuál es una herramienta usada para producir contenido?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A0-T01A",
+            "hint": "Busca una acción de creación, no un momento del día.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La hora 7:10.",
+                "feedback": "Revisa la idea clave. El editor permite crear y organizar un producto digital."
+              },
+              {
+                "id": "b",
+                "text": "El editor para preparar una exposición.",
+                "feedback": "Correcto. El editor permite crear y organizar un producto digital."
+              },
+              {
+                "id": "c",
+                "text": "La palabra 'día'.",
+                "feedback": "Revisa la idea clave. El editor permite crear y organizar un producto digital."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Cuatro piezas del entorno",
+            "body": "Una actividad puede incluir: la persona que actúa, la herramienta o dispositivo, el servicio que organiza la interacción y los datos necesarios para cumplir el propósito.",
+            "examples": [
+              "Persona: estudiante",
+              "Herramienta: cámara",
+              "Servicio: carpeta escolar",
+              "Dato necesario: archivo del proyecto"
+            ],
+            "memoryAid": "Pregunta quién, con qué, para qué y qué información interviene."
+          },
+          {
+            "id": "A0.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Propósito antes que permiso",
+            "body": "Una función útil no necesita todos los datos posibles. Para mostrar una ruta aproximada puede requerir ubicación durante el uso; no necesariamente contactos o micrófono.",
+            "examples": [
+              "Editar una diapositiva no requiere ubicación",
+              "Tomar una foto requiere cámara mientras se usa"
+            ],
+            "memoryAid": "Relaciona cada dato con una función concreta."
+          },
+          {
+            "id": "A0.01-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.entorno_digital",
+            "difficulty": 1,
+            "prompt": "Relaciona cada elemento del proyecto con su función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A0-T01B",
+            "hint": "No confundas quién decide con la herramienta usada.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Cámara",
+                "rightId": "r1",
+                "right": "Registrar imágenes de las plantas"
+              },
+              {
+                "leftId": "l2",
+                "left": "Carpeta compartida",
+                "rightId": "r2",
+                "right": "Ordenar archivos"
+              },
+              {
+                "leftId": "l3",
+                "left": "Presentación",
+                "rightId": "r3",
+                "right": "Comunicar resultados"
+              },
+              {
+                "leftId": "l4",
+                "left": "Escuela",
+                "rightId": "r4",
+                "right": "Administrar las cuentas"
+              }
+            ],
+            "feedbackCorrect": "Correcto: cada actor o herramienta cumple una función distinta.",
+            "feedbackIncorrect": "Busca el verbo asociado a cada elemento."
+          },
+          {
+            "id": "A0.01-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.entorno_digital",
+            "difficulty": 1,
+            "prompt": "¿Quién decide qué materiales entran en la presentación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A0-T01B",
+            "hint": "Busca quién elige, no solo qué almacena.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La cámara por sí sola.",
+                "feedback": "Revisa la idea clave. Las herramientas procesan acciones, pero las personas asumen decisiones del proyecto."
+              },
+              {
+                "id": "b",
+                "text": "La carpeta sin intervención humana.",
+                "feedback": "Revisa la idea clave. Las herramientas procesan acciones, pero las personas asumen decisiones del proyecto."
+              },
+              {
+                "id": "c",
+                "text": "Estudiantes y docente.",
+                "feedback": "Correcto. Las herramientas procesan acciones, pero las personas asumen decisiones del proyecto."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Un mapa sin datos reales",
+            "body": "Puedes aprender usando escenarios ficticios, categorías y alias. No necesitas escribir cuentas, contraseñas, direcciones ni historiales personales para comprender el sistema.",
+            "examples": [
+              "Alias inventado",
+              "Proyecto escolar ficticio",
+              "Ubicación genérica, no exacta"
+            ],
+            "memoryAid": "Aprender sobre privacidad también implica practicarla."
+          },
+          {
+            "id": "A0.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.ciudadania.entorno_digital",
+            "difficulty": 1,
+            "prompt": "Una app de notas pide acceso permanente a la ubicación. ¿Cuál pregunta conviene hacer primero?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Conecta el dato solicitado con la función principal.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿El botón es de mi color favorito?",
+                "feedback": "Revisa la idea clave. Evaluar la relación entre dato y propósito ayuda a minimizar permisos innecesarios."
+              },
+              {
+                "id": "b",
+                "text": "¿Qué función de tomar notas necesita realmente mi ubicación?",
+                "feedback": "Correcto. Evaluar la relación entre dato y propósito ayuda a minimizar permisos innecesarios."
+              },
+              {
+                "id": "c",
+                "text": "¿Cuántas veces puedo abrirla?",
+                "feedback": "Revisa la idea clave. Evaluar la relación entre dato y propósito ayuda a minimizar permisos innecesarios."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.ciudadania.entorno_digital",
+            "difficulty": 2,
+            "prompt": "Alguien afirma: 'La cámara eligió qué plantas mostrar'. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T01B",
+            "hint": "Separa registrar de seleccionar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La cámara también administra la escuela.",
+                "feedback": "Revisa la idea clave. Distinguir herramienta y decisión humana evita atribuir agencia donde no corresponde."
+              },
+              {
+                "id": "b",
+                "text": "Nadie tomó ninguna decisión.",
+                "feedback": "Revisa la idea clave. Distinguir herramienta y decisión humana evita atribuir agencia donde no corresponde."
+              },
+              {
+                "id": "c",
+                "text": "La cámara registró; las personas eligieron qué incluir.",
+                "feedback": "Correcto. Distinguir herramienta y decisión humana evita atribuir agencia donde no corresponde."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.ciudadania.entorno_digital",
+            "difficulty": 1,
+            "prompt": "¿Cuál mapa protege mejor la privacidad para practicar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Elige el ejemplo que cumple la meta con menos datos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nombre legal + contraseña + dirección exacta.",
+                "feedback": "Revisa la idea clave. Un ejemplo ficticio permite analizar el sistema sin exponer información personal."
+              },
+              {
+                "id": "b",
+                "text": "Persona ficticia + herramienta + propósito + dato genérico necesario.",
+                "feedback": "Correcto. Un ejemplo ficticio permite analizar el sistema sin exponer información personal."
+              },
+              {
+                "id": "c",
+                "text": "Captura de una cuenta real con contactos.",
+                "feedback": "Revisa la idea clave. Un ejemplo ficticio permite analizar el sistema sin exponer información personal."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.ciudadania.entorno_digital",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta resume mejor el análisis de un entorno digital?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Recuerda: quién, con qué, para qué y qué datos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué aplicación tiene más colores?",
+                "feedback": "Revisa la idea clave. Las cuatro preguntas muestran actores, función, propósito y flujo de información."
+              },
+              {
+                "id": "b",
+                "text": "¿Cómo publico todos mis datos?",
+                "feedback": "Revisa la idea clave. Las cuatro preguntas muestran actores, función, propósito y flujo de información."
+              },
+              {
+                "id": "c",
+                "text": "¿Quién participa, qué herramienta usa, para qué y con qué datos?",
+                "feedback": "Correcto. Las cuatro preguntas muestran actores, función, propósito y flujo de información."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya ves el sistema detrás de la pantalla",
+            "body": "Reconociste personas, herramientas, organizaciones y datos sin usar información real. Esa mirada será la base para decidir con agencia.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A0.02",
+        "globalId": "pe-sec1-mail-A0-02",
+        "sequence": 2,
+        "title": "Identidad y perfil",
+        "subtitle": "Tu perfil muestra una parte de ti, no toda tu identidad",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.ciudadania.identidad_perfil",
+        "learningOutcome": "Distingue identidad personal, perfil digital y reputación, y minimiza datos visibles.",
+        "successEvidence": "Clasifica información entre pública, reservada o innecesaria para un perfil ficticio y justifica su decisión.",
+        "prerequisites": [
+          "Reconoce actores y datos en un entorno digital"
+        ],
+        "misconceptions": [
+          "Creer que el perfil equivale a toda la persona",
+          "Completar todo campo solo porque existe",
+          "Pensar que un alias permite actuar sin consecuencias"
+        ],
+        "screens": [
+          {
+            "id": "A0.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Tú eres más que un perfil",
+            "body": "Una plataforma muestra una selección: alias, imagen, descripción y acciones visibles. Elegir esa selección con cuidado protege tu privacidad sin borrar tu personalidad.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A0.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.ciudadania.identidad_perfil",
+            "difficulty": 1,
+            "prompt": "¿Qué elemento del perfil comunica un interés sin revelar un dato de contacto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A0-T02A",
+            "hint": "Busca el dato menos sensible que cumple el propósito.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La dirección exacta.",
+                "feedback": "Revisa la idea clave. Los intereses pueden expresarse sin exponer dónde vive o está la persona."
+              },
+              {
+                "id": "b",
+                "text": "La descripción sobre astronomía y vóley.",
+                "feedback": "Correcto. Los intereses pueden expresarse sin exponer dónde vive o está la persona."
+              },
+              {
+                "id": "c",
+                "text": "La ubicación en tiempo real.",
+                "feedback": "Revisa la idea clave. Los intereses pueden expresarse sin exponer dónde vive o está la persona."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Tres conceptos distintos",
+            "body": "Identidad personal es amplia y cambia con experiencias. Perfil es una representación para un contexto. Reputación es lo que otras personas infieren con el tiempo a partir de señales visibles.",
+            "examples": [
+              "Alias: parte del perfil",
+              "Valores y relaciones: parte de la identidad",
+              "Impresión de confiabilidad: reputación"
+            ],
+            "memoryAid": "Perfil representa; reputación se forma; identidad es más amplia."
+          },
+          {
+            "id": "A0.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "No todo campo debe completarse",
+            "body": "Antes de compartir un dato, pregunta si es necesario para participar, quién podrá verlo y qué ocurriría si se copiara. Deja vacío lo que no cumple una función clara.",
+            "examples": [
+              "Alias: puede bastar en un juego",
+              "Dirección exacta: no es necesaria para mostrar intereses",
+              "Ubicación en tiempo real: alto nivel de exposición"
+            ],
+            "memoryAid": "Campo disponible no significa campo obligatorio."
+          },
+          {
+            "id": "A0.02-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.identidad_perfil",
+            "difficulty": 1,
+            "prompt": "Relaciona cada concepto con su descripción.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A0-T02B",
+            "hint": "El perfil es una representación, no la persona completa.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Identidad personal",
+                "rightId": "r1",
+                "right": "Experiencias y valores más amplios que una pantalla"
+              },
+              {
+                "leftId": "l2",
+                "left": "Perfil",
+                "rightId": "r2",
+                "right": "Selección de datos e imagen para un contexto"
+              },
+              {
+                "leftId": "l3",
+                "left": "Reputación",
+                "rightId": "r3",
+                "right": "Impresiones formadas con el tiempo"
+              }
+            ],
+            "feedbackCorrect": "Bien: los tres conceptos se relacionan, pero no son iguales.",
+            "feedbackIncorrect": "Observa quién selecciona y quién forma impresiones."
+          },
+          {
+            "id": "A0.02-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.identidad_perfil",
+            "difficulty": 1,
+            "prompt": "¿Qué campo conviene dejar sin completar en un perfil público de intereses?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A0-T02A",
+            "hint": "Aplica necesidad y alcance.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Un alias no identificable.",
+                "feedback": "Revisa la idea clave. La ubicación precisa aumenta el riesgo y no es necesaria para compartir intereses."
+              },
+              {
+                "id": "b",
+                "text": "Una ilustración como avatar.",
+                "feedback": "Revisa la idea clave. La ubicación precisa aumenta el riesgo y no es necesaria para compartir intereses."
+              },
+              {
+                "id": "c",
+                "text": "La ubicación en tiempo real.",
+                "feedback": "Correcto. La ubicación precisa aumenta el riesgo y no es necesaria para compartir intereses."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Coherencia y contexto",
+            "body": "Puedes usar distintos perfiles para escuela, juego o creación, manteniendo normas y respeto. Un alias no elimina la responsabilidad por lo que haces.",
+            "examples": [
+              "Perfil escolar: nombre acordado por la institución",
+              "Perfil creativo: seudónimo sin datos de contacto"
+            ],
+            "memoryAid": "Adapta la representación; conserva tus criterios de cuidado."
+          },
+          {
+            "id": "A0.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.ciudadania.identidad_perfil",
+            "difficulty": 1,
+            "prompt": "¿Cuál afirmación es correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T02B",
+            "hint": "Compara el alcance de cada concepto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El perfil contiene todo lo que una persona es.",
+                "feedback": "Revisa la idea clave. La identidad incluye dimensiones que ninguna ficha digital puede contener por completo."
+              },
+              {
+                "id": "b",
+                "text": "Un perfil representa solo una parte de la identidad.",
+                "feedback": "Correcto. La identidad incluye dimensiones que ninguna ficha digital puede contener por completo."
+              },
+              {
+                "id": "c",
+                "text": "La reputación depende únicamente del avatar.",
+                "feedback": "Revisa la idea clave. La identidad incluye dimensiones que ninguna ficha digital puede contener por completo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.ciudadania.identidad_perfil",
+            "difficulty": 2,
+            "prompt": "Una pantalla muestra diez campos opcionales. Alguien afirma que debe llenarlos todos. ¿Qué debe revisar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Disponible no equivale a obligatorio.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si el formulario se ve moderno.",
+                "feedback": "Revisa la idea clave. Minimizar datos significa compartir solo lo necesario y comprender la audiencia."
+              },
+              {
+                "id": "b",
+                "text": "Si puede inventar una contraseña corta.",
+                "feedback": "Revisa la idea clave. Minimizar datos significa compartir solo lo necesario y comprender la audiencia."
+              },
+              {
+                "id": "c",
+                "text": "Si cada dato es necesario para el propósito y quién podrá verlo.",
+                "feedback": "Correcto. Minimizar datos significa compartir solo lo necesario y comprender la audiencia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.ciudadania.identidad_perfil",
+            "difficulty": 1,
+            "prompt": "Para participar en un foro de astronomía escolar simulado, ¿qué perfil es más prudente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A0-T02A",
+            "hint": "Busca utilidad con mínima exposición.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nombre legal, dirección y ubicación en vivo.",
+                "feedback": "Revisa la idea clave. La opción permite participar y reduce información innecesaria."
+              },
+              {
+                "id": "b",
+                "text": "Alias, avatar no fotográfico e interés general, sin dirección ni ubicación.",
+                "feedback": "Correcto. La opción permite participar y reduce información innecesaria."
+              },
+              {
+                "id": "c",
+                "text": "Contraseña escrita en la descripción.",
+                "feedback": "Revisa la idea clave. La opción permite participar y reduce información innecesaria."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.ciudadania.identidad_perfil",
+            "difficulty": 1,
+            "prompt": "¿Qué regla conviene recordar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Piensa en propósito, necesidad y visibilidad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Completar todos los campos siempre.",
+                "feedback": "Revisa la idea clave. La agencia digital combina expresión, contexto y responsabilidad."
+              },
+              {
+                "id": "b",
+                "text": "Un alias permite ignorar las consecuencias.",
+                "feedback": "Revisa la idea clave. La agencia digital combina expresión, contexto y responsabilidad."
+              },
+              {
+                "id": "c",
+                "text": "Compartir solo los datos necesarios para el contexto y la audiencia.",
+                "feedback": "Correcto. La agencia digital combina expresión, contexto y responsabilidad."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya distingues persona, perfil y reputación",
+            "body": "Elegiste qué mostrar según propósito y audiencia. Proteger datos no significa desaparecer: significa decidir con intención.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A0.03",
+        "globalId": "pe-sec1-mail-A0-03",
+        "sequence": 3,
+        "title": "Huella digital",
+        "subtitle": "Copiar y reenviar puede extender la vida de un contenido",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.ciudadania.huella_digital",
+        "learningOutcome": "Anticipa persistencia, copia, recorte y redistribución de contenido digital.",
+        "successEvidence": "Predice al menos dos trayectorias posibles de una publicación y propone una prevención realista.",
+        "prerequisites": [
+          "Distingue perfil y audiencia"
+        ],
+        "misconceptions": [
+          "Creer que borrar elimina todas las copias",
+          "Pensar que un grupo pequeño impide capturas",
+          "Suponer que el contexto siempre viaja con el contenido"
+        ],
+        "screens": [
+          {
+            "id": "A0.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una publicación puede seguir otros caminos",
+            "body": "Después de enviar algo, otras personas pueden copiarlo, recortarlo o reenviarlo. No controlas toda trayectoria, pero sí puedes reducir exposición y decidir mejor antes de publicar.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A0.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.ciudadania.huella_digital",
+            "difficulty": 1,
+            "prompt": "¿Qué muestra la secuencia sobre borrar el mensaje original?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A0-T03A",
+            "hint": "Sigue la secuencia después del paso 5.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Elimina automáticamente todas las copias.",
+                "feedback": "Revisa la idea clave. La huella puede persistir fuera del lugar donde comenzó."
+              },
+              {
+                "id": "b",
+                "text": "Puede quedar contenido en capturas y otros dispositivos.",
+                "feedback": "Correcto. La huella puede persistir fuera del lugar donde comenzó."
+              },
+              {
+                "id": "c",
+                "text": "Impide que alguien recorte la imagen.",
+                "feedback": "Revisa la idea clave. La huella puede persistir fuera del lugar donde comenzó."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Cuatro propiedades de la huella",
+            "body": "El contenido puede persistir, copiarse, buscarse o perder contexto. Borrar el original reduce acceso, pero no garantiza eliminar capturas o descargas existentes.",
+            "examples": [
+              "Persistencia: queda una copia",
+              "Replicabilidad: se duplica",
+              "Pérdida de contexto: cambia la interpretación"
+            ],
+            "memoryAid": "Imagina no solo el primer envío, sino el segundo y el tercero."
+          },
+          {
+            "id": "A0.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Prevenir sin culpar",
+            "body": "La responsabilidad de quien redistribuye sin permiso sigue existiendo. A la vez, antes de publicar puedes quitar datos, limitar audiencia o no compartir un contenido sensible.",
+            "examples": [
+              "Recortar apellidos visibles",
+              "Pedir consentimiento",
+              "Usar un canal adecuado"
+            ],
+            "memoryAid": "Cuidarse no convierte a la persona afectada en culpable."
+          },
+          {
+            "id": "A0.03-S05",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.huella_digital",
+            "difficulty": 1,
+            "prompt": "Ordena la trayectoria observada de la publicación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A0-T03A",
+            "hint": "Empieza por la acción de Alex.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "Publicación en grupo pequeño"
+              },
+              {
+                "id": "i2",
+                "text": "Captura de pantalla"
+              },
+              {
+                "id": "i3",
+                "text": "Reenvío a otro grupo"
+              },
+              {
+                "id": "i4",
+                "text": "Nueva publicación recortada"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3",
+              "i4"
+            ],
+            "feedbackCorrect": "Correcto: cada paso amplía o transforma el contenido.",
+            "feedbackIncorrect": "Revisa los números del caso."
+          },
+          {
+            "id": "A0.03-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.huella_digital",
+            "difficulty": 1,
+            "prompt": "¿Qué se pierde cuando la frase de Sam circula sin mensajes anteriores?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A0-T03B",
+            "hint": "Compara la conversación completa con la captura.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La capacidad de leer la frase.",
+                "feedback": "Revisa la idea clave. El recorte conserva palabras, pero elimina señales necesarias para interpretarlas."
+              },
+              {
+                "id": "b",
+                "text": "El nombre del deporte.",
+                "feedback": "Revisa la idea clave. El recorte conserva palabras, pero elimina señales necesarias para interpretarlas."
+              },
+              {
+                "id": "c",
+                "text": "El contexto que mostraba el tono de broma.",
+                "feedback": "Correcto. El recorte conserva palabras, pero elimina señales necesarias para interpretarlas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Qué hacer si ya ocurrió",
+            "body": "Evita ampliar la difusión. Guarda evidencia cuando sea seguro, usa herramientas de reporte, solicita retiro y busca apoyo de una persona adulta o institución responsable.",
+            "examples": [
+              "No reenviar 'para avisar'",
+              "Conservar enlaces o capturas necesarias",
+              "Pedir ayuda"
+            ],
+            "memoryAid": "Respuesta: contener, documentar y buscar apoyo."
+          },
+          {
+            "id": "A0.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.ciudadania.huella_digital",
+            "difficulty": 1,
+            "prompt": "Antes de publicar un trabajo, ¿qué acción reduce exposición innecesaria?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Piensa qué puede retirarse sin perder el propósito.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Agregar más datos para que parezca completo.",
+                "feedback": "Revisa la idea clave. Minimizar información reduce lo que podría copiarse fuera de contexto."
+              },
+              {
+                "id": "b",
+                "text": "Revisar si aparecen nombres, ubicación u otros datos que no hacen falta.",
+                "feedback": "Correcto. Minimizar información reduce lo que podría copiarse fuera de contexto."
+              },
+              {
+                "id": "c",
+                "text": "Suponer que nadie puede hacer capturas.",
+                "feedback": "Revisa la idea clave. Minimizar información reduce lo que podría copiarse fuera de contexto."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.ciudadania.huella_digital",
+            "difficulty": 2,
+            "prompt": "Alguien dice: 'Si estaba en un grupo pequeño, no podía salir de allí'. ¿Qué evidencia lo contradice?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T03A",
+            "hint": "Identifica el primer salto fuera del grupo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Alex usó un dibujo.",
+                "feedback": "Revisa la idea clave. Una audiencia inicial limitada no impide copias realizadas por integrantes."
+              },
+              {
+                "id": "b",
+                "text": "El mensaje tenía cinco pasos.",
+                "feedback": "Revisa la idea clave. Una audiencia inicial limitada no impide copias realizadas por integrantes."
+              },
+              {
+                "id": "c",
+                "text": "Una persona pudo capturar y reenviar el contenido.",
+                "feedback": "Correcto. Una audiencia inicial limitada no impide copias realizadas por integrantes."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.ciudadania.huella_digital",
+            "difficulty": 1,
+            "prompt": "Si una captura dañina ya circula, ¿cuál es una respuesta prudente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Evita acciones que amplíen el alcance.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Reenviarla a más grupos para preguntar qué pasó.",
+                "feedback": "Revisa la idea clave. Contener la difusión y buscar apoyo reduce daño sin exponer más información."
+              },
+              {
+                "id": "b",
+                "text": "No reenviarla, conservar evidencia necesaria y pedir apoyo para reportarla.",
+                "feedback": "Correcto. Contener la difusión y buscar apoyo reduce daño sin exponer más información."
+              },
+              {
+                "id": "c",
+                "text": "Responder publicando datos de quien la compartió.",
+                "feedback": "Revisa la idea clave. Contener la difusión y buscar apoyo reduce daño sin exponer más información."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.ciudadania.huella_digital",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta ayuda antes de publicar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Piensa más allá de la audiencia inicial.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Puedo confiar en que borrar elimina toda copia?",
+                "feedback": "Revisa la idea clave. Anticipar trayectorias futuras mejora la decisión presente."
+              },
+              {
+                "id": "b",
+                "text": "¿Cuántos datos adicionales puedo incluir?",
+                "feedback": "Revisa la idea clave. Anticipar trayectorias futuras mejora la decisión presente."
+              },
+              {
+                "id": "c",
+                "text": "¿Estaría bien si esto llegara a una audiencia mayor o perdiera contexto?",
+                "feedback": "Correcto. Anticipar trayectorias futuras mejora la decisión presente."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya anticipas el recorrido de una publicación",
+            "body": "Reconociste copia, persistencia y pérdida de contexto. También practicaste respuestas que contienen el daño sin culpar a quien resulta afectado.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A0.04",
+        "globalId": "pe-sec1-mail-A0-04",
+        "sequence": 4,
+        "title": "Audiencias invisibles",
+        "subtitle": "La audiencia real puede superar a la prevista",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.ciudadania.audiencias",
+        "learningOutcome": "Distingue audiencia prevista, directa, ampliada y futura en situaciones simuladas.",
+        "successEvidence": "Revisa un mensaje según posibles lectores y ajusta contenido o canal.",
+        "prerequisites": [
+          "Comprende copia y redistribución"
+        ],
+        "misconceptions": [
+          "Confundir seguidores con audiencia total",
+          "Suponer que reenviar conserva el contexto",
+          "Creer que privacidad técnica equivale a confianza garantizada"
+        ],
+        "screens": [
+          {
+            "id": "A0.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "¿Quién podría verlo después?",
+            "body": "Cuando escribes para doce personas, el mensaje puede llegar a familias, seguidores o lectores futuros. Pensar en audiencias posibles ayuda a elegir canal, tono y datos.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A0.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.ciudadania.audiencias",
+            "difficulty": 1,
+            "prompt": "¿Cuál era la audiencia prevista por Mara?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A0-T04A",
+            "hint": "Distingue intención inicial de alcance posterior.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda la cuenta abierta.",
+                "feedback": "Revisa la idea clave. Mara escribió para coordinar con el grupo donde envió el mensaje."
+              },
+              {
+                "id": "b",
+                "text": "El grupo del elenco.",
+                "feedback": "Correcto. Mara escribió para coordinar con el grupo donde envió el mensaje."
+              },
+              {
+                "id": "c",
+                "text": "Personas desconocidas meses después.",
+                "feedback": "Revisa la idea clave. Mara escribió para coordinar con el grupo donde envió el mensaje."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Capas de audiencia",
+            "body": "Prevista es la gente que imaginas; directa es quien puede verlo en el canal; ampliada recibe copias o reenvíos; futura lo encuentra más adelante.",
+            "examples": [
+              "Prevista: elenco",
+              "Directa: 12 integrantes",
+              "Ampliada: grupo de familias",
+              "Futura: audiencia de la cuenta abierta"
+            ],
+            "memoryAid": "Audiencia no es solo a quién nombras, sino quién puede acceder."
+          },
+          {
+            "id": "A0.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Revisa contenido y canal",
+            "body": "Un horario de ensayo puede compartirse en el grupo adecuado. Detalles personales, imágenes o ubicaciones exigen más cuidado y consentimiento.",
+            "examples": [
+              "Canal del elenco para coordinación",
+              "Cuenta abierta: alcance innecesario para una prueba de vestuario"
+            ],
+            "memoryAid": "Pregunta si el canal necesita ese dato y esa audiencia."
+          },
+          {
+            "id": "A0.04-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.audiencias",
+            "difficulty": 1,
+            "prompt": "Relaciona cada audiencia con un ejemplo.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A0-T04B",
+            "hint": "Prevista no siempre coincide con directa.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Prevista",
+                "rightId": "r1",
+                "right": "Tres amistades imaginadas"
+              },
+              {
+                "leftId": "l2",
+                "left": "Directa",
+                "rightId": "r2",
+                "right": "Seguidores con acceso"
+              },
+              {
+                "leftId": "l3",
+                "left": "Ampliada",
+                "rightId": "r3",
+                "right": "Personas que reciben una captura"
+              },
+              {
+                "leftId": "l4",
+                "left": "Futura",
+                "rightId": "r4",
+                "right": "Quienes encuentran una copia después"
+              }
+            ],
+            "feedbackCorrect": "Bien: el alcance puede crecer en tiempo y canales.",
+            "feedbackIncorrect": "Usa las definiciones del mapa."
+          },
+          {
+            "id": "A0.04-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.audiencias",
+            "difficulty": 1,
+            "prompt": "¿Qué acción amplió más el alcance del mensaje?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A0-T04A",
+            "hint": "Busca el cambio de canal y visibilidad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Escribir la hora del ensayo.",
+                "feedback": "Revisa la idea clave. Una cuenta abierta permite acceso a personas fuera del grupo original."
+              },
+              {
+                "id": "b",
+                "text": "Usar la palabra 'mañana'.",
+                "feedback": "Revisa la idea clave. Una cuenta abierta permite acceso a personas fuera del grupo original."
+              },
+              {
+                "id": "c",
+                "text": "Publicar una captura en una cuenta abierta.",
+                "feedback": "Correcto. Una cuenta abierta permite acceso a personas fuera del grupo original."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Privado reduce, no elimina",
+            "body": "Una configuración cerrada limita acceso directo, pero integrantes todavía pueden copiar. Combina controles técnicos con acuerdos, consentimiento y contenido mínimo.",
+            "examples": [
+              "Cuenta cerrada + permiso",
+              "Mensaje breve sin datos sensibles"
+            ],
+            "memoryAid": "La seguridad se construye en varias capas."
+          },
+          {
+            "id": "A0.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.ciudadania.audiencias",
+            "difficulty": 1,
+            "prompt": "Antes de enviar el mensaje, ¿qué revisión sería útil?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T04A",
+            "hint": "Aplica necesidad y audiencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añadir nombres completos de todas las personas.",
+                "feedback": "Revisa la idea clave. El propósito es coordinar; el canal y los datos deben limitarse a esa meta."
+              },
+              {
+                "id": "b",
+                "text": "Quitar detalles no necesarios y confirmar que el canal corresponde al elenco.",
+                "feedback": "Correcto. El propósito es coordinar; el canal y los datos deben limitarse a esa meta."
+              },
+              {
+                "id": "c",
+                "text": "Publicarlo también en una cuenta abierta.",
+                "feedback": "Revisa la idea clave. El propósito es coordinar; el canal y los datos deben limitarse a esa meta."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.ciudadania.audiencias",
+            "difficulty": 2,
+            "prompt": "'La cuenta es cerrada, así que nadie puede copiar'. ¿Qué debe corregirse?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Combina protección técnica y decisión responsable.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una cuenta cerrada es igual que una cuenta pública.",
+                "feedback": "Revisa la idea clave. Los controles ayudan, pero no eliminan todas las trayectorias humanas."
+              },
+              {
+                "id": "b",
+                "text": "Ninguna configuración sirve para nada.",
+                "feedback": "Revisa la idea clave. Los controles ayudan, pero no eliminan todas las trayectorias humanas."
+              },
+              {
+                "id": "c",
+                "text": "La cuenta cerrada reduce acceso directo, pero quienes están dentro aún pueden capturar o reenviar.",
+                "feedback": "Correcto. Los controles ayudan, pero no eliminan todas las trayectorias humanas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.ciudadania.audiencias",
+            "difficulty": 1,
+            "prompt": "Quieres compartir la hora de una reunión con 10 integrantes. ¿Cuál opción tiene mejor ajuste de audiencia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Elige la audiencia mínima suficiente.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Publicar nombres y ubicaciones en una cuenta abierta.",
+                "feedback": "Revisa la idea clave. El canal interno cumple el propósito con menor exposición."
+              },
+              {
+                "id": "b",
+                "text": "Enviar el horario en el canal interno del grupo, sin datos adicionales.",
+                "feedback": "Correcto. El canal interno cumple el propósito con menor exposición."
+              },
+              {
+                "id": "c",
+                "text": "Etiquetar a personas desconocidas.",
+                "feedback": "Revisa la idea clave. El canal interno cumple el propósito con menor exposición."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.ciudadania.audiencias",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta revela una audiencia invisible?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Imagina el segundo salto del contenido.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué color tiene el botón?",
+                "feedback": "Revisa la idea clave. Pensar en reenvíos muestra personas fuera de la audiencia directa."
+              },
+              {
+                "id": "b",
+                "text": "¿Cuántas letras tiene el mensaje?",
+                "feedback": "Revisa la idea clave. Pensar en reenvíos muestra personas fuera de la audiencia directa."
+              },
+              {
+                "id": "c",
+                "text": "¿Quién podría recibir una captura aunque no esté en el grupo?",
+                "feedback": "Correcto. Pensar en reenvíos muestra personas fuera de la audiencia directa."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya piensas más allá del primer envío",
+            "body": "Diferenciaste audiencias previstas, directas, ampliadas y futuras. Esa anticipación te permite ajustar canal y contenido antes de compartir.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A0.05",
+        "globalId": "pe-sec1-mail-A0-05",
+        "sequence": 5,
+        "title": "Consentimiento",
+        "subtitle": "Compartir contenido ajeno requiere un sí informado y específico",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.ciudadania.consentimiento",
+        "learningOutcome": "Pide, interpreta y respeta consentimiento antes de compartir datos, imágenes o voces ajenas.",
+        "successEvidence": "Resuelve un dilema indicando qué permiso falta, para qué uso y qué alternativa respeta la decisión.",
+        "prerequisites": [
+          "Reconoce audiencias y datos visibles"
+        ],
+        "misconceptions": [
+          "Tomar silencio como permiso",
+          "Creer que posar para una foto autoriza toda publicación",
+          "Pensar que el permiso no puede retirarse"
+        ],
+        "screens": [
+          {
+            "id": "A0.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Consentir es comprender y elegir",
+            "body": "Un sí válido necesita saber qué se compartirá, dónde, con quién y para qué. El silencio o una respuesta pendiente no equivalen a permiso.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A0.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.ciudadania.consentimiento",
+            "difficulty": 1,
+            "prompt": "¿Qué impide publicar la foto tal como está?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A0-T05A",
+            "hint": "Revisa personas y fondo por separado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La maqueta ya está terminada.",
+                "feedback": "Revisa la idea clave. Faltan permisos y el fondo expone datos adicionales."
+              },
+              {
+                "id": "b",
+                "text": "Una persona no quiere aparecer, otra no respondió y hay apellidos visibles.",
+                "feedback": "Correcto. Faltan permisos y el fondo expone datos adicionales."
+              },
+              {
+                "id": "c",
+                "text": "Dos personas sí aceptaron.",
+                "feedback": "Revisa la idea clave. Faltan permisos y el fondo expone datos adicionales."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Cuatro condiciones",
+            "body": "El consentimiento debe ser informado, específico, libre y revisable. Aceptar una foto no significa aceptar cualquier canal ni cualquier edición.",
+            "examples": [
+              "Qué archivo",
+              "Qué propósito",
+              "Qué audiencia",
+              "Durante cuánto tiempo"
+            ],
+            "memoryAid": "Pregunta concreta, respuesta clara y posibilidad de cambiar de decisión."
+          },
+          {
+            "id": "A0.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Si falta un sí",
+            "body": "Espera, recorta, desenfoca o elige otra imagen. La meta del proyecto puede cumplirse sin presionar a quien no quiere aparecer.",
+            "examples": [
+              "Rostro fuera del encuadre",
+              "Foto solo de la maqueta",
+              "Versión aprobada por el grupo"
+            ],
+            "memoryAid": "No conviertas participar en obligación de exponerse."
+          },
+          {
+            "id": "A0.05-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.consentimiento",
+            "difficulty": 1,
+            "prompt": "Relaciona cada situación con una respuesta respetuosa.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A0-T05A",
+            "hint": "El objetivo es mostrar la maqueta, no exponer al grupo.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "No quiere aparecer",
+                "rightId": "r1",
+                "right": "Usar una foto sin su rostro"
+              },
+              {
+                "leftId": "l2",
+                "left": "No respondió",
+                "rightId": "r2",
+                "right": "Esperar o elegir otra imagen"
+              },
+              {
+                "leftId": "l3",
+                "left": "Apellidos al fondo",
+                "rightId": "r3",
+                "right": "Retirar o cubrir la hoja"
+              }
+            ],
+            "feedbackCorrect": "Correcto: cada riesgo tiene una alternativa concreta.",
+            "feedbackIncorrect": "No uses el permiso de dos personas para decidir por las demás."
+          },
+          {
+            "id": "A0.05-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.consentimiento",
+            "difficulty": 1,
+            "prompt": "¿Cuál pregunta de consentimiento es más clara?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una solicitud específica y comprensible.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Todo bien?",
+                "feedback": "Revisa la idea clave. La pregunta identifica archivo, canal, audiencia y propósito."
+              },
+              {
+                "id": "b",
+                "text": "¿Puedo usar cualquier foto tuya para siempre?",
+                "feedback": "Revisa la idea clave. La pregunta identifica archivo, canal, audiencia y propósito."
+              },
+              {
+                "id": "c",
+                "text": "¿Aceptas que esta foto específica se publique en la cuenta cerrada del aula para mostrar el proyecto?",
+                "feedback": "Correcto. La pregunta identifica archivo, canal, audiencia y propósito."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "También revisa el fondo",
+            "body": "El consentimiento de las personas no autoriza mostrar datos que aparecen detrás: listas, credenciales, pantallas o ubicaciones. Examina todo el encuadre.",
+            "examples": [
+              "Hoja con apellidos",
+              "Pantalla con correo",
+              "Etiqueta con dirección"
+            ],
+            "memoryAid": "Personas, datos y contexto requieren revisión separada."
+          },
+          {
+            "id": "A0.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.ciudadania.consentimiento",
+            "difficulty": 1,
+            "prompt": "¿Qué debe hacerse con el audio antes de compartirlo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T05B",
+            "hint": "Distingue grabar para revisar de compartir con otro grupo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Enviar el archivo completo porque se grabó en grupo.",
+                "feedback": "Revisa la idea clave. La estudiante no sabía que seguía grabada y no consintió esa difusión."
+              },
+              {
+                "id": "b",
+                "text": "Detener el envío y retirar el fragmento personal; luego pedir permiso para una versión concreta.",
+                "feedback": "Correcto. La estudiante no sabía que seguía grabada y no consintió esa difusión."
+              },
+              {
+                "id": "c",
+                "text": "Publicarlo para que otros decidan.",
+                "feedback": "Revisa la idea clave. La estudiante no sabía que seguía grabada y no consintió esa difusión."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.ciudadania.consentimiento",
+            "difficulty": 2,
+            "prompt": "Alguien dice: 'Como no respondió, seguramente acepta'. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Pendiente no significa aprobado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El silencio vale más que un sí.",
+                "feedback": "Revisa la idea clave. El permiso debe expresarse de forma clara y libre."
+              },
+              {
+                "id": "b",
+                "text": "Solo importa la decisión de quien publica.",
+                "feedback": "Revisa la idea clave. El permiso debe expresarse de forma clara y libre."
+              },
+              {
+                "id": "c",
+                "text": "El silencio no es consentimiento; hay que esperar o usar una alternativa.",
+                "feedback": "Correcto. El permiso debe expresarse de forma clara y libre."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.ciudadania.consentimiento",
+            "difficulty": 1,
+            "prompt": "¿Cuál alternativa cumple el objetivo con menor exposición?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A0-T05A",
+            "hint": "Separa el propósito del proyecto de la identidad del equipo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Publicar los rostros y apellidos de todos.",
+                "feedback": "Revisa la idea clave. El producto puede mostrarse sin identificar a las personas."
+              },
+              {
+                "id": "b",
+                "text": "Fotografiar solo la maqueta sobre un fondo sin datos.",
+                "feedback": "Correcto. El producto puede mostrarse sin identificar a las personas."
+              },
+              {
+                "id": "c",
+                "text": "Añadir la ubicación exacta.",
+                "feedback": "Revisa la idea clave. El producto puede mostrarse sin identificar a las personas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.ciudadania.consentimiento",
+            "difficulty": 1,
+            "prompt": "¿Qué regla resume el consentimiento digital?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Recuerda las cuatro condiciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una foto tomada puede usarse en cualquier lugar.",
+                "feedback": "Revisa la idea clave. El consentimiento es informado, específico, libre y revisable."
+              },
+              {
+                "id": "b",
+                "text": "No responder equivale a decir sí.",
+                "feedback": "Revisa la idea clave. El consentimiento es informado, específico, libre y revisable."
+              },
+              {
+                "id": "c",
+                "text": "Saber qué, dónde, para qué y con quién; aceptar libremente y poder revisar la decisión.",
+                "feedback": "Correcto. El consentimiento es informado, específico, libre y revisable."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya compartes respetando decisiones",
+            "body": "Identificaste permisos faltantes y encontraste alternativas que cumplen el propósito sin forzar exposición. Consentir no es un trámite: es agencia.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A0.06",
+        "globalId": "pe-sec1-mail-A0-06",
+        "sequence": 6,
+        "title": "Normas y valores",
+        "subtitle": "Una buena norma explica qué protege y cómo se aplica",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.ciudadania.normas_valores",
+        "learningOutcome": "Relaciona normas digitales con respeto, inclusión, privacidad, seguridad y justicia.",
+        "successEvidence": "Propone una norma clara, señala el daño que previene y evita castigos desproporcionados.",
+        "prerequisites": [
+          "Comprende consentimiento y audiencias"
+        ],
+        "misconceptions": [
+          "Pensar que una norma solo sirve para castigar",
+          "Aplicar reglas sin explicar decisiones",
+          "Confundir crítica a una idea con ataque a una persona"
+        ],
+        "screens": [
+          {
+            "id": "A0.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Las normas deben cuidar a la comunidad",
+            "body": "Una norma útil no solo prohíbe: describe una conducta, protege un valor y ofrece una respuesta justa cuando algo sale mal.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A0.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.ciudadania.normas_valores",
+            "difficulty": 1,
+            "prompt": "¿Qué valor protege pedir permiso antes de compartir trabajos ajenos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A0-T06A",
+            "hint": "Piensa qué derecho conserva quien creó el contenido.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Velocidad de conexión.",
+                "feedback": "Revisa la idea clave. El permiso respeta el control de la persona y su relación con el trabajo."
+              },
+              {
+                "id": "b",
+                "text": "Privacidad y reconocimiento de la autoría.",
+                "feedback": "Correcto. El permiso respeta el control de la persona y su relación con el trabajo."
+              },
+              {
+                "id": "c",
+                "text": "Popularidad del grupo.",
+                "feedback": "Revisa la idea clave. El permiso respeta el control de la persona y su relación con el trabajo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Conducta, valor y respuesta",
+            "body": "Escribe qué se espera, qué valor protege y qué hacer ante un problema. Así la norma puede aplicarse de forma consistente.",
+            "examples": [
+              "Pedir permiso → privacidad y autoría",
+              "Comentar ideas sin insultar → respeto",
+              "Guardar evidencia y pedir apoyo → seguridad"
+            ],
+            "memoryAid": "Una norma clara permite anticipar consecuencias."
+          },
+          {
+            "id": "A0.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Criticar sin atacar",
+            "body": "Puedes cuestionar una idea con razones y propuestas. Los insultos, burlas o exclusiones personales no mejoran el trabajo y pueden silenciar a la comunidad.",
+            "examples": [
+              "Útil: no entiendo el eje del gráfico; revisemos el título",
+              "Daño: tú no sirves"
+            ],
+            "memoryAid": "Separa la calidad de la idea del valor de la persona."
+          },
+          {
+            "id": "A0.06-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.normas_valores",
+            "difficulty": 1,
+            "prompt": "Relaciona la norma con el valor principal.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A0-T06A",
+            "hint": "Una norma puede proteger más de un valor, pero elige el más directo.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "No publicar datos de contacto",
+                "rightId": "r1",
+                "right": "Privacidad"
+              },
+              {
+                "leftId": "l2",
+                "left": "Comentar sin insultar",
+                "rightId": "r2",
+                "right": "Respeto"
+              },
+              {
+                "leftId": "l3",
+                "left": "Pedir apoyo ante un problema",
+                "rightId": "r3",
+                "right": "Seguridad"
+              },
+              {
+                "leftId": "l4",
+                "left": "Explicar moderación",
+                "rightId": "r4",
+                "right": "Justicia y transparencia"
+              }
+            ],
+            "feedbackCorrect": "Bien: cada regla responde a un valor identificable.",
+            "feedbackIncorrect": "Pregunta qué daño intenta prevenir cada norma."
+          },
+          {
+            "id": "A0.06-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.normas_valores",
+            "difficulty": 1,
+            "prompt": "¿Cuál intervención mejora la conversación sobre el gráfico?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A0-T06B",
+            "hint": "Busca una respuesta concreta que no ataque a nadie.",
+            "options": [
+              {
+                "id": "a",
+                "text": "«Tu idea no sirve».",
+                "feedback": "Revisa la idea clave. La propuesta se enfoca en el trabajo y abre una vía de mejora."
+              },
+              {
+                "id": "b",
+                "text": "«Saquemos a B por preguntar».",
+                "feedback": "Revisa la idea clave. La propuesta se enfoca en el trabajo y abre una vía de mejora."
+              },
+              {
+                "id": "c",
+                "text": "«Podemos revisar el título y proponer otra forma de mostrar los datos».",
+                "feedback": "Correcto. La propuesta se enfoca en el trabajo y abre una vía de mejora."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Moderación con explicación",
+            "body": "Si se retira contenido o se limita una cuenta, la comunidad necesita saber qué regla se aplicó y cómo pedir revisión. La transparencia reduce decisiones arbitrarias.",
+            "examples": [
+              "Citar norma",
+              "Explicar acción",
+              "Ofrecer canal de revisión"
+            ],
+            "memoryAid": "Cuidar la comunidad también exige rendir cuentas."
+          },
+          {
+            "id": "A0.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.ciudadania.normas_valores",
+            "difficulty": 1,
+            "prompt": "¿Qué norma responde al problema sin silenciar preguntas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T06B",
+            "hint": "Distingue desacuerdo de ataque.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Expulsar a quien no entiende a la primera.",
+                "feedback": "Revisa la idea clave. La norma protege aprendizaje e inclusión sin impedir la crítica."
+              },
+              {
+                "id": "b",
+                "text": "Criticar ideas con razones y permitir preguntas para aclarar.",
+                "feedback": "Correcto. La norma protege aprendizaje e inclusión sin impedir la crítica."
+              },
+              {
+                "id": "c",
+                "text": "Prohibir toda opinión diferente.",
+                "feedback": "Revisa la idea clave. La norma protege aprendizaje e inclusión sin impedir la crítica."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.ciudadania.normas_valores",
+            "difficulty": 2,
+            "prompt": "Una moderación borra un mensaje sin explicar qué regla incumplió. ¿Qué falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T06A",
+            "hint": "Busca rendición de cuentas, no exposición.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Publicar datos de la persona moderada.",
+                "feedback": "Revisa la idea clave. Explicar decisiones permite evaluar consistencia y justicia."
+              },
+              {
+                "id": "b",
+                "text": "Eliminar todas las reglas.",
+                "feedback": "Revisa la idea clave. Explicar decisiones permite evaluar consistencia y justicia."
+              },
+              {
+                "id": "c",
+                "text": "Transparencia sobre la norma aplicada y una vía de revisión.",
+                "feedback": "Correcto. Explicar decisiones permite evaluar consistencia y justicia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.ciudadania.normas_valores",
+            "difficulty": 1,
+            "prompt": "¿Cuál norma está mejor formulada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Elige una regla que pueda comprenderse y aplicarse.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Pórtate bien siempre.",
+                "feedback": "Revisa la idea clave. La primera indica una conducta observable y el daño que evita."
+              },
+              {
+                "id": "b",
+                "text": "Al comentar, describe la idea, da una razón y propone una mejora; no insultes a la persona.",
+                "feedback": "Correcto. La primera indica una conducta observable y el daño que evita."
+              },
+              {
+                "id": "c",
+                "text": "Queda prohibido equivocarse.",
+                "feedback": "Revisa la idea clave. La primera indica una conducta observable y el daño que evita."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.ciudadania.normas_valores",
+            "difficulty": 1,
+            "prompt": "¿Qué hace valiosa a una norma digital?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Piensa qué protege y cómo se aplica.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Impone el castigo más fuerte posible.",
+                "feedback": "Revisa la idea clave. Claridad, propósito y proporcionalidad permiten convivencia justa."
+              },
+              {
+                "id": "b",
+                "text": "Cambia según quién participa.",
+                "feedback": "Revisa la idea clave. Claridad, propósito y proporcionalidad permiten convivencia justa."
+              },
+              {
+                "id": "c",
+                "text": "Conecta una conducta clara con el valor que protege y una respuesta proporcional.",
+                "feedback": "Correcto. Claridad, propósito y proporcionalidad permiten convivencia justa."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya conviertes valores en reglas útiles",
+            "body": "Relacionaste privacidad, respeto, seguridad y justicia con conductas concretas. Una comunidad sana necesita reglas comprensibles y decisiones explicables.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A0.07",
+        "globalId": "pe-sec1-mail-A0-07",
+        "sequence": 7,
+        "title": "Pausa y decisión",
+        "subtitle": "Detenerse unos segundos puede cambiar el resultado",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.ciudadania.pausa_decision",
+        "learningOutcome": "Aplica una rutina antes de publicar, reenviar o responder en situaciones simuladas.",
+        "successEvidence": "Elige entre verificar, aclarar, esperar, consultar o no compartir y explica el criterio.",
+        "prerequisites": [
+          "Reconoce fuente, audiencia, huella y normas"
+        ],
+        "misconceptions": [
+          "Creer que urgencia escrita exige actuar rápido",
+          "Responder mientras aumenta la emoción",
+          "Reenviar para preguntar sin considerar el alcance"
+        ],
+        "screens": [
+          {
+            "id": "A0.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Pausa no significa quedarse inmóvil",
+            "body": "Pausar crea espacio para revisar propósito, fuente, audiencia y consecuencias. Después eliges una acción: verificar, pedir contexto, consultar, guardar o no compartir.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A0.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.ciudadania.pausa_decision",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la primera acción ante el mensaje urgente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A0-T07A",
+            "hint": "La urgencia escrita no reemplaza verificación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Reenviarlo antes de leer completo.",
+                "feedback": "Revisa la idea clave. El mensaje carece de autor y evidencia; la pausa evita ampliar información incierta."
+              },
+              {
+                "id": "b",
+                "text": "No reenviar todavía y revisar una fuente responsable.",
+                "feedback": "Correcto. El mensaje carece de autor y evidencia; la pausa evita ampliar información incierta."
+              },
+              {
+                "id": "c",
+                "text": "Responder con otro rumor.",
+                "feedback": "Revisa la idea clave. El mensaje carece de autor y evidencia; la pausa evita ampliar información incierta."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Rutina PARE",
+            "body": "Pausa. Analiza qué afirma y cómo te hace sentir. Revisa fuente, fecha y audiencia. Elige la acción con menor daño y mejor evidencia.",
+            "examples": [
+              "P: no enviar todavía",
+              "A: separar afirmación de emoción",
+              "R: buscar fuente",
+              "E: decidir"
+            ],
+            "memoryAid": "La urgencia del mensaje no decide por ti."
+          },
+          {
+            "id": "A0.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Opciones entre reaccionar y callar",
+            "body": "Puedes pedir aclaración, responder en privado, consultar una fuente, esperar a estar calmado, reportar o no compartir. La mejor opción depende del riesgo y del propósito.",
+            "examples": [
+              "Ambigüedad → pedir aclaración",
+              "Rumor → verificar",
+              "Amenaza → guardar evidencia y buscar apoyo"
+            ],
+            "memoryAid": "Decidir bien es elegir entre varias acciones posibles."
+          },
+          {
+            "id": "A0.07-S05",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.pausa_decision",
+            "difficulty": 1,
+            "prompt": "Ordena la rutina PARE.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "P-A-R-E coincide con las iniciales.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "Pausar"
+              },
+              {
+                "id": "i2",
+                "text": "Analizar afirmación y emoción"
+              },
+              {
+                "id": "i3",
+                "text": "Revisar fuente, fecha y audiencia"
+              },
+              {
+                "id": "i4",
+                "text": "Elegir una acción"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3",
+              "i4"
+            ],
+            "feedbackCorrect": "Correcto: la decisión llega después de revisar.",
+            "feedbackIncorrect": "Empieza por detener el impulso y termina actuando."
+          },
+          {
+            "id": "A0.07-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.pausa_decision",
+            "difficulty": 1,
+            "prompt": "¿Qué dato actual ofrece mejor base?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A0-T07A",
+            "hint": "Distingue evidencia de presión emocional.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La palabra URGENTE.",
+                "feedback": "Revisa la idea clave. Las fuentes responsables y verificables pesan más que el formato alarmante."
+              },
+              {
+                "id": "b",
+                "text": "El pedido de reenviar.",
+                "feedback": "Revisa la idea clave. Las fuentes responsables y verificables pesan más que el formato alarmante."
+              },
+              {
+                "id": "c",
+                "text": "La web oficial no muestra cambios y el tutor no ha informado suspensión.",
+                "feedback": "Correcto. Las fuentes responsables y verificables pesan más que el formato alarmante."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Señales de manipulación",
+            "body": "Mayúsculas, cuenta regresiva, amenaza de borrar o pedido de reenvío inmediato buscan acelerar. Son señales para reducir velocidad, no pruebas de falsedad por sí solas.",
+            "examples": [
+              "URGENTE",
+              "Reenvía ahora",
+              "Antes de que lo borren"
+            ],
+            "memoryAid": "Una señal activa revisión; la evidencia determina el veredicto."
+          },
+          {
+            "id": "A0.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.ciudadania.pausa_decision",
+            "difficulty": 1,
+            "prompt": "Ante una frase ambigua, ¿qué opción reduce mejor el riesgo de conflicto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T07B",
+            "hint": "Elige una acción reversible y de menor daño.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Enviar de inmediato una respuesta ofensiva.",
+                "feedback": "Revisa la idea clave. Aclarar o esperar evita escalar una interpretación posiblemente equivocada."
+              },
+              {
+                "id": "b",
+                "text": "Pedir aclaración o esperar y releer antes de responder.",
+                "feedback": "Correcto. Aclarar o esperar evita escalar una interpretación posiblemente equivocada."
+              },
+              {
+                "id": "c",
+                "text": "Publicar una captura en otro grupo.",
+                "feedback": "Revisa la idea clave. Aclarar o esperar evita escalar una interpretación posiblemente equivocada."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.ciudadania.pausa_decision",
+            "difficulty": 2,
+            "prompt": "'Dice que lo borrarán, por eso debe ser verdad'. ¿Qué error contiene?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T07A",
+            "hint": "Pregunta qué prueba ofrece realmente el mensaje.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Confunde hora con fecha.",
+                "feedback": "Revisa la idea clave. Una amenaza de desaparición puede acelerar la reacción, pero no demuestra el contenido."
+              },
+              {
+                "id": "b",
+                "text": "Confunde un perfil con identidad.",
+                "feedback": "Revisa la idea clave. Una amenaza de desaparición puede acelerar la reacción, pero no demuestra el contenido."
+              },
+              {
+                "id": "c",
+                "text": "Confunde presión de urgencia con evidencia de la afirmación.",
+                "feedback": "Correcto. Una amenaza de desaparición puede acelerar la reacción, pero no demuestra el contenido."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.ciudadania.pausa_decision",
+            "difficulty": 1,
+            "prompt": "Si un mensaje contiene una amenaza creíble, ¿qué decisión es más segura?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Prioriza seguridad y acompañamiento.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Responder con amenazas mayores.",
+                "feedback": "Revisa la idea clave. El apoyo responsable permite evaluar y actuar sin aumentar exposición."
+              },
+              {
+                "id": "b",
+                "text": "No enfrentarlo solo, conservar evidencia cuando sea seguro y buscar apoyo adulto o institucional.",
+                "feedback": "Correcto. El apoyo responsable permite evaluar y actuar sin aumentar exposición."
+              },
+              {
+                "id": "c",
+                "text": "Difundirlo públicamente con datos personales.",
+                "feedback": "Revisa la idea clave. El apoyo responsable permite evaluar y actuar sin aumentar exposición."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.ciudadania.pausa_decision",
+            "difficulty": 1,
+            "prompt": "¿Cuál frase resume mejor la pausa digital?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "La meta es recuperar agencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "No volver a usar herramientas digitales.",
+                "feedback": "Revisa la idea clave. Pausar prepara una decisión; no elimina la acción."
+              },
+              {
+                "id": "b",
+                "text": "Esperar siempre sin hacer nada.",
+                "feedback": "Revisa la idea clave. Pausar prepara una decisión; no elimina la acción."
+              },
+              {
+                "id": "c",
+                "text": "Detener el impulso para revisar y elegir una acción responsable.",
+                "feedback": "Correcto. Pausar prepara una decisión; no elimina la acción."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya tienes una rutina para decidir",
+            "body": "Aplicaste PARE y elegiste respuestas proporcionales. La pausa protege tu agencia frente a presión, emoción y contenido incierto.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A0.08",
+        "globalId": "pe-sec1-mail-A0-08",
+        "sequence": 8,
+        "title": "Compromiso personal",
+        "subtitle": "Una meta pequeña, observable y revisable construye bienestar",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.ciudadania.compromiso_personal",
+        "learningOutcome": "Formula un acuerdo digital personal específico, medible, seguro y revisable.",
+        "successEvidence": "Elige una meta de bienestar, define una prueba breve y decide cómo revisarla sin recopilar datos sensibles.",
+        "prerequisites": [
+          "Aplica una rutina de decisión"
+        ],
+        "misconceptions": [
+          "Confundir bienestar con una cantidad universal de pantalla",
+          "Crear metas imposibles",
+          "Registrar más datos de los necesarios"
+        ],
+        "screens": [
+          {
+            "id": "A0.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Tu acuerdo debe servirte, no juzgarte",
+            "body": "El bienestar digital no se reduce a un número idéntico para todos. Una buena meta responde a una necesidad, prueba una acción pequeña y se revisa con evidencia sencilla.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A0.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.ciudadania.compromiso_personal",
+            "difficulty": 1,
+            "prompt": "¿Qué día del registro ofrece la evidencia más clara de una estrategia útil?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A0-T08A",
+            "hint": "Busca acción y resultado en la misma fila.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Lunes: tres cambios de aplicación.",
+                "feedback": "Revisa la idea clave. Ese día conecta una acción concreta con el resultado buscado, aunque aún requiere más prueba."
+              },
+              {
+                "id": "b",
+                "text": "Miércoles: teléfono fuera de alcance y tarea terminada.",
+                "feedback": "Correcto. Ese día conecta una acción concreta con el resultado buscado, aunque aún requiere más prueba."
+              },
+              {
+                "id": "c",
+                "text": "Jueves: tarea incompleta.",
+                "feedback": "Revisa la idea clave. Ese día conecta una acción concreta con el resultado buscado, aunque aún requiere más prueba."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Meta específica y amable",
+            "body": "Describe cuándo, qué harás y para qué. Evita etiquetas sobre tu valor personal. La meta debe poder probarse durante pocos días.",
+            "examples": [
+              "Durante 25 minutos de estudio, silenciaré notificaciones",
+              "Al terminar, revisaré si completé la tarea"
+            ],
+            "memoryAid": "Conducta concreta, momento claro y propósito propio."
+          },
+          {
+            "id": "A0.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Mide lo mínimo",
+            "body": "Registra solo lo necesario para decidir si la prueba ayudó: tarea completada, interrupciones por categorías o sensación general. No recopiles mensajes, nombres ni historial detallado.",
+            "examples": [
+              "Sí/no completé",
+              "calma/igual/tensión",
+              "sin contenido de chats"
+            ],
+            "memoryAid": "Medir mejor no significa guardar más datos."
+          },
+          {
+            "id": "A0.08-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.compromiso_personal",
+            "difficulty": 1,
+            "prompt": "Relaciona cada parte del acuerdo con su función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A0-T08B",
+            "hint": "Una meta completa necesita cuándo, qué y para qué.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "25 minutos",
+                "rightId": "r1",
+                "right": "Duración de la prueba"
+              },
+              {
+                "leftId": "l2",
+                "left": "Silenciar notificaciones",
+                "rightId": "r2",
+                "right": "Acción concreta"
+              },
+              {
+                "leftId": "l3",
+                "left": "Completar la tarea",
+                "rightId": "r3",
+                "right": "Resultado observado"
+              },
+              {
+                "leftId": "l4",
+                "left": "Revisar el domingo",
+                "rightId": "r4",
+                "right": "Momento de decisión"
+              }
+            ],
+            "feedbackCorrect": "Bien: el acuerdo tiene acción, medida y revisión.",
+            "feedbackIncorrect": "Distingue qué haces de cómo compruebas."
+          },
+          {
+            "id": "A0.08-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.ciudadania.compromiso_personal",
+            "difficulty": 1,
+            "prompt": "¿Qué dato evita recopilar el acuerdo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A0-T08B",
+            "hint": "Pregunta qué dato no aporta a la decisión.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Si terminó la tarea.",
+                "feedback": "Revisa la idea clave. El plan usa indicadores mínimos y no necesita inspeccionar comunicaciones privadas."
+              },
+              {
+                "id": "b",
+                "text": "Una sensación general al finalizar.",
+                "feedback": "Revisa la idea clave. El plan usa indicadores mínimos y no necesita inspeccionar comunicaciones privadas."
+              },
+              {
+                "id": "c",
+                "text": "Contenido de mensajes y nombres de contactos.",
+                "feedback": "Correcto. El plan usa indicadores mínimos y no necesita inspeccionar comunicaciones privadas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Revisar permite ajustar",
+            "body": "Una prueba no es promesa eterna. Al final, mantén lo útil, cambia lo que no funcionó o descártalo. El contexto, acceso y necesidades de cada persona importan.",
+            "examples": [
+              "Mantener 25 minutos",
+              "Probar 15",
+              "Cambiar la hora"
+            ],
+            "memoryAid": "Una meta revisable aumenta autonomía."
+          },
+          {
+            "id": "A0.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.ciudadania.compromiso_personal",
+            "difficulty": 1,
+            "prompt": "¿Cuál meta está mejor formulada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Busca una acción que pueda probarse y revisarse.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nunca volveré a distraerme.",
+                "feedback": "Revisa la idea clave. La primera es concreta, temporal y no juzga el valor personal."
+              },
+              {
+                "id": "b",
+                "text": "Durante un bloque de estudio probaré silenciar notificaciones y revisaré al final si me ayudó.",
+                "feedback": "Correcto. La primera es concreta, temporal y no juzga el valor personal."
+              },
+              {
+                "id": "c",
+                "text": "Seré mejor persona si uso menos el teléfono.",
+                "feedback": "Revisa la idea clave. La primera es concreta, temporal y no juzga el valor personal."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.ciudadania.compromiso_personal",
+            "difficulty": 2,
+            "prompt": "Tras una semana, la medida no ayuda. ¿Significa que la persona fracasó?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A0-T08B",
+            "hint": "Separa resultado de valor personal.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sí; una meta nunca debe cambiar.",
+                "feedback": "Revisa la idea clave. Una prueba revisable produce aprendizaje incluso cuando no funciona como se esperaba."
+              },
+              {
+                "id": "b",
+                "text": "Sí; debe ocultar el resultado.",
+                "feedback": "Revisa la idea clave. Una prueba revisable produce aprendizaje incluso cuando no funciona como se esperaba."
+              },
+              {
+                "id": "c",
+                "text": "No; la evidencia permite ajustar duración, horario o estrategia.",
+                "feedback": "Correcto. Una prueba revisable produce aprendizaje incluso cuando no funciona como se esperaba."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.ciudadania.compromiso_personal",
+            "difficulty": 1,
+            "prompt": "¿Qué registro protege mejor la privacidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Mide el resultado, no la vida digital completa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Copiar todos los mensajes recibidos.",
+                "feedback": "Revisa la idea clave. El indicador mínimo responde a la meta sin recopilar información ajena."
+              },
+              {
+                "id": "b",
+                "text": "Marcar tarea completa o incompleta sin guardar contenido de aplicaciones.",
+                "feedback": "Correcto. El indicador mínimo responde a la meta sin recopilar información ajena."
+              },
+              {
+                "id": "c",
+                "text": "Guardar nombres y horarios de cada contacto.",
+                "feedback": "Revisa la idea clave. El indicador mínimo responde a la meta sin recopilar información ajena."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A0.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.ciudadania.compromiso_personal",
+            "difficulty": 1,
+            "prompt": "¿Qué hace responsable a un compromiso digital?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Recuerda propósito, prueba y revisión.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usa una regla idéntica para todas las personas.",
+                "feedback": "Revisa la idea clave. Un buen acuerdo combina agencia, evidencia y capacidad de ajuste."
+              },
+              {
+                "id": "b",
+                "text": "No puede modificarse aunque cause tensión.",
+                "feedback": "Revisa la idea clave. Un buen acuerdo combina agencia, evidencia y capacidad de ajuste."
+              },
+              {
+                "id": "c",
+                "text": "Tiene propósito, acción pequeña, medida mínima y fecha de revisión.",
+                "feedback": "Correcto. Un buen acuerdo combina agencia, evidencia y capacidad de ajuste."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A0.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya puedes crear un acuerdo que te sirva",
+            "body": "Diseñaste una meta concreta, mediste solo lo necesario y dejaste espacio para ajustar. El bienestar digital se construye con agencia, no con culpa.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
