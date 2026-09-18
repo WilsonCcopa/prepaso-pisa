@@ -1,0 +1,2168 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.6",
+  "locale": "es-PE",
+  "unit": {
+    "id": "M4",
+    "globalId": "pe-sec1-mat-M4",
+    "sequence": 4,
+    "grade": "sec1",
+    "subject": "matematica",
+    "title": "Proporcionalidad, porcentajes y medición",
+    "shortTitle": "Proporciones y medidas",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "MINEDU define competencias, capacidades, estándares y desempeños. M4 es una secuencia editorial de Prepaso alineada a primer grado; no es el nombre de una unidad oficial obligatoria.",
+    "unitOutcome": "Resuelve decisiones cotidianas con tasas, proporciones, porcentajes y conversiones de medida, manteniendo bases y unidades explícitas.",
+    "finalEvidence": "Reto de planificación que integra tasa unitaria, proporcionalidad, porcentaje, conversión y presupuesto verificado.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "cycle": "VI",
+      "competency": "Resuelve problemas de cantidad",
+      "capacities": [
+        "Traduce cantidades a expresiones numéricas",
+        "Comunica su comprensión sobre los números y las operaciones",
+        "Usa estrategias y procedimientos de estimación y cálculo",
+        "Argumenta afirmaciones sobre relaciones numéricas"
+      ],
+      "operationalAlignment": "Modela razones, tasas, proporciones directas, porcentajes y magnitudes con unidades, conectando cantidad y regularidad."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Planificador proporcional"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Currículo Nacional de la Educación Básica",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.gob.pe/institucion/minedu/campa%C3%B1as/106784-curriculo-nacional-de-la-educacion-basica"
+      }
+    ],
+    "stimuli": [],
+    "lessons": [
+      {
+        "id": "M4.01",
+        "globalId": "pe-sec1-mat-M4-01",
+        "sequence": 1,
+        "title": "Razón y tasa unitaria",
+        "subtitle": "Comparar cantidades ayuda a decidir, no solo a describir",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.razon_tasa_unitaria",
+        "learningOutcome": "Interpreta razones y calcula tasas unitarias distinguiendo comparación parte-parte, parte-todo y cantidades con unidades.",
+        "successEvidence": "Compara dos ofertas o ritmos mediante una tasa por unidad y explica qué representa el resultado.",
+        "prerequisites": [
+          "Divide números naturales y decimales",
+          "Interpreta fracciones"
+        ],
+        "misconceptions": [
+          "Invertir la comparación",
+          "Confundir razón con diferencia",
+          "Omitir las unidades de una tasa"
+        ],
+        "screens": [
+          {
+            "id": "M4.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una razón responde «cuánto de una cantidad por otra»",
+            "body": "Si hay 6 libros para 3 estudiantes, la razón es 6 a 3 y la tasa unitaria es 2 libros por estudiante. Restar 6 - 3 no responde la misma pregunta.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M4.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.razon_tasa_unitaria",
+            "difficulty": 1,
+            "prompt": "Hay 8 vasos para 4 mesas. ¿Cuál es la tasa unitaria?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Divide vasos entre mesas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4 vasos por mesa",
+                "feedback": "Revisa la idea clave. 8 ÷ 4 = 2 y la referencia es una mesa."
+              },
+              {
+                "id": "b",
+                "text": "2 vasos por mesa",
+                "feedback": "Correcto. 8 ÷ 4 = 2 y la referencia es una mesa."
+              },
+              {
+                "id": "c",
+                "text": "12 vasos por mesa",
+                "feedback": "Revisa la idea clave. 8 ÷ 4 = 2 y la referencia es una mesa."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "El orden de la razón importa",
+            "body": "La razón 6 libros : 3 estudiantes compara libros por estudiante. La razón inversa compara estudiantes por libro y tiene otro significado.",
+            "examples": [
+              "6:3 = 2 libros/estudiante",
+              "3:6 = 0,5 estudiante/libro"
+            ],
+            "memoryAid": "Di primero qué cantidad va por cuál."
+          },
+          {
+            "id": "M4.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Lleva la segunda cantidad a uno",
+            "body": "Divide ambos términos por la cantidad de referencia. Así obtienes una tasa que permite comparar situaciones de tamaños diferentes.",
+            "examples": [
+              "S/ 12 por 3 kg = S/ 4 por kg",
+              "150 km en 3 h = 50 km/h"
+            ],
+            "memoryAid": "Tasa unitaria: cuánto corresponde a 1."
+          },
+          {
+            "id": "M4.01-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.razon_tasa_unitaria",
+            "difficulty": 1,
+            "prompt": "Un paquete de 3 kg cuesta S/ 12. ¿Cuánto cuesta 1 kg?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Divide costo entre kilogramos.",
+            "answer": {
+              "kind": "number",
+              "value": 4
+            },
+            "suffix": "soles por kg",
+            "feedbackCorrect": "12 ÷ 3 = 4 soles por kilogramo.",
+            "feedbackIncorrect": "Busca cuánto corresponde a un solo kilogramo."
+          },
+          {
+            "id": "M4.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.razon_tasa_unitaria",
+            "difficulty": 1,
+            "prompt": "Relaciona situación y tasa.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "En 150 km y 3 horas, calcula 150 ÷ 3.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "150 km en 3 h",
+                "rightId": "r1",
+                "right": "50 km/h"
+              },
+              {
+                "leftId": "l2",
+                "left": "18 panes para 6 familias",
+                "rightId": "r2",
+                "right": "3 panes/familia"
+              },
+              {
+                "leftId": "l3",
+                "left": "S/ 20 por 4 entradas",
+                "rightId": "r3",
+                "right": "S/ 5/entrada"
+              }
+            ],
+            "feedbackCorrect": "Cada tasa expresa cuánto corresponde a una unidad de referencia.",
+            "feedbackIncorrect": "Divide la primera cantidad entre la segunda."
+          },
+          {
+            "id": "M4.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Conserva las unidades",
+            "body": "El número y la unidad forman una sola idea. «4» no basta si la decisión depende de saber que son soles por kilogramo.",
+            "examples": [
+              "5 L/min",
+              "3 cuadernos/estudiante"
+            ],
+            "memoryAid": "Escribe siempre «cantidad por unidad»."
+          },
+          {
+            "id": "M4.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.razon_tasa_unitaria",
+            "difficulty": 1,
+            "prompt": "Equipo A lee 24 páginas en 3 días y equipo B, 35 en 5 días. ¿Quién tiene mayor tasa diaria?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Convierte ambos ritmos a un día.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Equipo A: 8 páginas por día",
+                "feedback": "Correcto. 24 ÷ 3 = 8 y 35 ÷ 5 = 7; se comparan tasas con la misma unidad."
+              },
+              {
+                "id": "b",
+                "text": "Equipo B: 7 páginas por día",
+                "feedback": "Revisa la idea clave. 24 ÷ 3 = 8 y 35 ÷ 5 = 7; se comparan tasas con la misma unidad."
+              },
+              {
+                "id": "c",
+                "text": "Empatan porque ambos leen más de 20",
+                "feedback": "Revisa la idea clave. 24 ÷ 3 = 8 y 35 ÷ 5 = 7; se comparan tasas con la misma unidad."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.razon_tasa_unitaria",
+            "difficulty": 2,
+            "prompt": "Rosa afirma que de 10 niñas y 5 niños la razón niñas por niño es 5:10. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Lee literalmente «niñas por niño».",
+            "options": [
+              {
+                "id": "a",
+                "text": "Restar: la razón es 5.",
+                "feedback": "Revisa la idea clave. La primera cantidad nombrada ocupa el primer lugar."
+              },
+              {
+                "id": "b",
+                "text": "Respetar el orden: niñas por niño es 10:5 = 2.",
+                "feedback": "Correcto. La primera cantidad nombrada ocupa el primer lugar."
+              },
+              {
+                "id": "c",
+                "text": "Sumar: la razón es 15.",
+                "feedback": "Revisa la idea clave. La primera cantidad nombrada ocupa el primer lugar."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.razon_tasa_unitaria",
+            "difficulty": 1,
+            "prompt": "Una botella de 1,5 L cuesta S/ 4,50. ¿Cuál es su precio por litro?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Costo total ÷ litros.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/ 6,75 por litro",
+                "feedback": "Revisa la idea clave. 4,50 ÷ 1,5 = 3."
+              },
+              {
+                "id": "b",
+                "text": "S/ 0,33 por litro",
+                "feedback": "Revisa la idea clave. 4,50 ÷ 1,5 = 3."
+              },
+              {
+                "id": "c",
+                "text": "S/ 3 por litro",
+                "feedback": "Correcto. 4,50 ÷ 1,5 = 3."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M4.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.razon_tasa_unitaria",
+            "difficulty": 1,
+            "prompt": "¿Cuál expresión comunica una tasa completa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca número y ambas unidades.",
+            "options": [
+              {
+                "id": "a",
+                "text": "12 kilómetros por hora",
+                "feedback": "Correcto. Una tasa nombra las dos magnitudes comparadas."
+              },
+              {
+                "id": "b",
+                "text": "12 kilómetros",
+                "feedback": "Revisa la idea clave. Una tasa nombra las dos magnitudes comparadas."
+              },
+              {
+                "id": "c",
+                "text": "12 por hora sin indicar qué se mide",
+                "feedback": "Revisa la idea clave. Una tasa nombra las dos magnitudes comparadas."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya comparas mediante una unidad común",
+            "body": "Construiste razones en el orden correcto, calculaste tasas unitarias y conservaste las unidades para interpretar cada decisión.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M4.02",
+        "globalId": "pe-sec1-mat-M4-02",
+        "sequence": 2,
+        "title": "Proporción directa",
+        "subtitle": "Si una cantidad se multiplica, la otra cambia por el mismo factor",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.regularidad.proporcion_directa",
+        "learningOutcome": "Reconoce relaciones de proporcionalidad directa y completa valores mediante factor multiplicativo o tasa constante.",
+        "successEvidence": "Decide si una tabla es proporcional, halla un valor faltante y justifica con razones equivalentes.",
+        "prerequisites": [
+          "Calcula tasas unitarias",
+          "Reconoce fracciones equivalentes"
+        ],
+        "misconceptions": [
+          "Suponer que toda tabla creciente es proporcional",
+          "Usar siempre una diferencia constante",
+          "Aplicar factores distintos a cada magnitud"
+        ],
+        "screens": [
+          {
+            "id": "M4.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Duplicar una cantidad debe duplicar la otra",
+            "body": "Si cada cuaderno cuesta S/ 3, entonces 2 cuestan S/ 6 y 4 cuestan S/ 12. La razón costo/cantidad se mantiene en 3 soles por cuaderno.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M4.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.regularidad.proporcion_directa",
+            "difficulty": 1,
+            "prompt": "Si 2 jugos cuestan S/ 6, ¿cuánto cuestan 4 al mismo precio unitario?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "De 2 a 4 multiplicas por 2.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/ 8",
+                "feedback": "Revisa la idea clave. Al duplicar la cantidad se duplica el costo."
+              },
+              {
+                "id": "b",
+                "text": "S/ 12",
+                "feedback": "Correcto. Al duplicar la cantidad se duplica el costo."
+              },
+              {
+                "id": "c",
+                "text": "S/ 24",
+                "feedback": "Revisa la idea clave. Al duplicar la cantidad se duplica el costo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Busca una tasa constante",
+            "body": "Una relación es directamente proporcional si el cociente entre cantidades correspondientes se mantiene.",
+            "examples": [
+              "6÷2 = 3",
+              "12÷4 = 3"
+            ],
+            "memoryAid": "Misma tasa en todas las parejas."
+          },
+          {
+            "id": "M4.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Usa el mismo factor",
+            "body": "Si pasas de 2 a 6 multiplicando por 3, la cantidad asociada también debe multiplicarse por 3.",
+            "examples": [
+              "2 cuadernos → S/ 6",
+              "6 cuadernos → S/ 18"
+            ],
+            "memoryAid": "Lo que haces en una columna, hazlo en la otra."
+          },
+          {
+            "id": "M4.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.proporcion_directa",
+            "difficulty": 1,
+            "prompt": "¿Qué tabla representa una proporción directa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Divide cada segundo valor entre el primero.",
+            "options": [
+              {
+                "id": "a",
+                "text": "1→4, 2→7, 3→10",
+                "feedback": "Revisa la idea clave. Todos los cocientes de la primera tabla valen 4."
+              },
+              {
+                "id": "b",
+                "text": "1→4, 2→8, 3→13",
+                "feedback": "Revisa la idea clave. Todos los cocientes de la primera tabla valen 4."
+              },
+              {
+                "id": "c",
+                "text": "1→4, 2→8, 3→12",
+                "feedback": "Correcto. Todos los cocientes de la primera tabla valen 4."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M4.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.proporcion_directa",
+            "difficulty": 1,
+            "prompt": "Relaciona cambio y efecto proporcional.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Si compras la mitad, pagas la mitad cuando no hay cuota fija.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Cantidad ×2",
+                "rightId": "r1",
+                "right": "Costo ×2"
+              },
+              {
+                "leftId": "l2",
+                "left": "Tiempo ×3 a ritmo constante",
+                "rightId": "r2",
+                "right": "Distancia ×3"
+              },
+              {
+                "leftId": "l3",
+                "left": "Cantidad ÷2",
+                "rightId": "r3",
+                "right": "Costo ÷2"
+              }
+            ],
+            "feedbackCorrect": "Aplicaste el mismo factor multiplicativo a ambas magnitudes.",
+            "feedbackIncorrect": "Una proporción conserva la tasa."
+          },
+          {
+            "id": "M4.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Crecer no basta",
+            "body": "Una tarifa con cobro fijo puede aumentar sin ser proporcional. Si 0 unidades no corresponde a 0 costo, revisa la situación.",
+            "examples": [
+              "Taxi: bajada de bandera + recorrido",
+              "S/ 3 por cuaderno sin cuota fija"
+            ],
+            "memoryAid": "Proporcional implica tasa constante y origen en cero."
+          },
+          {
+            "id": "M4.02-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.regularidad.proporcion_directa",
+            "difficulty": 1,
+            "prompt": "Tres entradas cuestan S/ 18. ¿Cuánto cuestan 5 al mismo precio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "18 ÷ 3 y luego ×5.",
+            "answer": {
+              "kind": "number",
+              "value": 30
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "Cada entrada cuesta S/ 6; cinco cuestan S/ 30.",
+            "feedbackIncorrect": "Halla primero la tasa para una entrada."
+          },
+          {
+            "id": "M4.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.regularidad.proporcion_directa",
+            "difficulty": 2,
+            "prompt": "Una tabla muestra 1→5, 2→7, 3→9. Luis dice que es proporcional porque aumenta. ¿Qué falla?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Compara cocientes, no solo aumentos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nada; todo crecimiento es proporcional.",
+                "feedback": "Revisa la idea clave. Aquí hay una diferencia constante, pero no una tasa multiplicativa constante."
+              },
+              {
+                "id": "b",
+                "text": "La razón cambia: 5/1, 7/2 y 9/3 no son iguales.",
+                "feedback": "Correcto. Aquí hay una diferencia constante, pero no una tasa multiplicativa constante."
+              },
+              {
+                "id": "c",
+                "text": "Solo falta sumar los valores.",
+                "feedback": "Revisa la idea clave. Aquí hay una diferencia constante, pero no una tasa multiplicativa constante."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.regularidad.proporcion_directa",
+            "difficulty": 1,
+            "prompt": "Una receta para 4 personas usa 300 g de arroz. ¿Cuánto necesita para 6 personas manteniendo porciones iguales?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Calcula gramos por persona.",
+            "options": [
+              {
+                "id": "a",
+                "text": "302 g",
+                "feedback": "Revisa la idea clave. 300÷4 = 75 g por persona; 75×6 = 450 g."
+              },
+              {
+                "id": "b",
+                "text": "600 g",
+                "feedback": "Revisa la idea clave. 300÷4 = 75 g por persona; 75×6 = 450 g."
+              },
+              {
+                "id": "c",
+                "text": "450 g",
+                "feedback": "Correcto. 300÷4 = 75 g por persona; 75×6 = 450 g."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M4.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.regularidad.proporcion_directa",
+            "difficulty": 1,
+            "prompt": "¿Qué condición confirma proporcionalidad directa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una razón estable.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El cociente y/x es constante para todas las parejas y 0 corresponde a 0.",
+                "feedback": "Correcto. La tasa multiplicativa constante caracteriza la proporción directa."
+              },
+              {
+                "id": "b",
+                "text": "La diferencia y-x es constante.",
+                "feedback": "Revisa la idea clave. La tasa multiplicativa constante caracteriza la proporción directa."
+              },
+              {
+                "id": "c",
+                "text": "Los valores solo tienen que crecer.",
+                "feedback": "Revisa la idea clave. La tasa multiplicativa constante caracteriza la proporción directa."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya distingues una proporción de un simple aumento",
+            "body": "Verificaste tasas constantes, aplicaste factores equivalentes y rechazaste relaciones crecientes que no eran proporcionales.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M4.03",
+        "globalId": "pe-sec1-mat-M4-03",
+        "sequence": 3,
+        "title": "Regla de tres con sentido",
+        "subtitle": "La tabla y la tasa explican el procedimiento",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.regla_tres_directa",
+        "learningOutcome": "Resuelve valores faltantes en relaciones directamente proporcionales mediante reducción a la unidad, escalamiento o producto cruzado razonado.",
+        "successEvidence": "Organiza magnitudes y unidades, elige una estrategia y comprueba que la tasa se conserva.",
+        "prerequisites": [
+          "Reconoce proporción directa",
+          "Opera decimales"
+        ],
+        "misconceptions": [
+          "Multiplicar en cruz sin comprobar proporcionalidad",
+          "Mezclar columnas o unidades",
+          "Aceptar un valor incompatible con la escala"
+        ],
+        "screens": [
+          {
+            "id": "M4.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Antes de cruzar números, entiende qué cambia",
+            "body": "Si 3 kg cuestan S/ 12, un kilogramo cuesta S/ 4 y 5 kg cuestan S/ 20. La llamada regla de tres resume esta relación; no reemplaza la comprensión.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M4.03-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.regla_tres_directa",
+            "difficulty": 1,
+            "prompt": "Si 3 kg cuestan S/ 12, ¿cuánto cuesta 1 kg?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "12 ÷ 3.",
+            "answer": {
+              "kind": "number",
+              "value": 4
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "La tasa es S/ 4 por kilogramo.",
+            "feedbackIncorrect": "Reduce la pareja conocida a una unidad."
+          },
+          {
+            "id": "M4.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Organiza magnitudes iguales",
+            "body": "Coloca cantidades de la misma clase en la misma columna y escribe sus unidades. Esto evita comparar kilogramos con soles por accidente.",
+            "examples": [
+              "3 kg ↔ S/ 12",
+              "5 kg ↔ S/ x"
+            ],
+            "memoryAid": "Columna con columna; unidad con unidad."
+          },
+          {
+            "id": "M4.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Elige una ruta visible",
+            "body": "Puedes reducir a uno, escalar con un factor o usar la igualdad de razones. El método más claro depende de los números.",
+            "examples": [
+              "12÷3=4; 4×5=20",
+              "3→6 es ×2; 12→24 es ×2"
+            ],
+            "memoryAid": "La estrategia debe conservar la tasa."
+          },
+          {
+            "id": "M4.03-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.regla_tres_directa",
+            "difficulty": 1,
+            "prompt": "Si 3 kg cuestan S/ 12, ¿cuánto cuestan 5 kg?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "4 × 5.",
+            "answer": {
+              "kind": "number",
+              "value": 20
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "A S/ 4 por kilogramo, cinco cuestan S/ 20.",
+            "feedbackIncorrect": "Usa la tasa unitaria obtenida."
+          },
+          {
+            "id": "M4.03-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.regla_tres_directa",
+            "difficulty": 1,
+            "prompt": "Ordena una resolución con sentido.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Primero decide si la situación es proporcional.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Confirmar que el precio por unidad es constante"
+              },
+              {
+                "id": "b",
+                "text": "Organizar kg con kg y soles con soles"
+              },
+              {
+                "id": "c",
+                "text": "Calcular la tasa unitaria"
+              },
+              {
+                "id": "d",
+                "text": "Escalar a la cantidad pedida"
+              },
+              {
+                "id": "e",
+                "text": "Comprobar la razón"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e"
+            ],
+            "feedbackCorrect": "La regla aparece después de validar la relación y organizar los datos.",
+            "feedbackIncorrect": "No calcules antes de saber si la proporción es válida."
+          },
+          {
+            "id": "M4.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Comprueba la razón y la escala",
+            "body": "Si compras más a precio constante, no puedes pagar menos. Verifica que costo/cantidad sea igual en ambas parejas.",
+            "examples": [
+              "12/3 = 4",
+              "20/5 = 4"
+            ],
+            "memoryAid": "Misma tasa, resultado razonable."
+          },
+          {
+            "id": "M4.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.regla_tres_directa",
+            "difficulty": 1,
+            "prompt": "Cuatro cuadernos cuestan S/ 14. ¿Cuánto cuestan 10 al mismo precio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Reduce a un cuaderno o multiplica por 2,5.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/ 35",
+                "feedback": "Correcto. 14÷4 = 3,5 por cuaderno; 3,5×10 = 35."
+              },
+              {
+                "id": "b",
+                "text": "S/ 24",
+                "feedback": "Revisa la idea clave. 14÷4 = 3,5 por cuaderno; 3,5×10 = 35."
+              },
+              {
+                "id": "c",
+                "text": "S/ 140",
+                "feedback": "Revisa la idea clave. 14÷4 = 3,5 por cuaderno; 3,5×10 = 35."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.regla_tres_directa",
+            "difficulty": 2,
+            "prompt": "Pedro aplica regla de tres a un taxi que cobra S/ 5 fijos más S/ 2 por km. ¿Qué problema hay?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Pregunta qué ocurre cuando la distancia es cero.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda tarifa es proporcional.",
+                "feedback": "Revisa la idea clave. Con 0 km aún se pagan S/ 5; la razón costo/km no es constante."
+              },
+              {
+                "id": "b",
+                "text": "La cuota fija impide una proporción directa entre kilómetros y costo total.",
+                "feedback": "Correcto. Con 0 km aún se pagan S/ 5; la razón costo/km no es constante."
+              },
+              {
+                "id": "c",
+                "text": "Solo debe intercambiar las unidades.",
+                "feedback": "Revisa la idea clave. Con 0 km aún se pagan S/ 5; la razón costo/km no es constante."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.03-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.cantidad.regla_tres_directa",
+            "difficulty": 1,
+            "prompt": "Una máquina llena 18 botellas en 3 minutos a ritmo constante. ¿Cuántas llena en 8 minutos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "18 ÷ 3 y luego ×8.",
+            "answer": {
+              "kind": "number",
+              "value": 48
+            },
+            "suffix": "botellas",
+            "feedbackCorrect": "La tasa es 6 botellas por minuto; en 8 minutos llena 48.",
+            "feedbackIncorrect": "Primero halla cuántas llena en un minuto."
+          },
+          {
+            "id": "M4.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.regla_tres_directa",
+            "difficulty": 1,
+            "prompt": "¿Qué comprobación valida que 7 m de tela cuestan S/ 63 si 3 m cuestan S/ 27?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Compara costo dividido entre metros.",
+            "options": [
+              {
+                "id": "a",
+                "text": "63/7 = 27/3 = 9 soles por metro",
+                "feedback": "Correcto. Las dos parejas conservan la misma tasa unitaria."
+              },
+              {
+                "id": "b",
+                "text": "63-7 = 27-3",
+                "feedback": "Revisa la idea clave. Las dos parejas conservan la misma tasa unitaria."
+              },
+              {
+                "id": "c",
+                "text": "63+7 = 27+3",
+                "feedback": "Revisa la idea clave. Las dos parejas conservan la misma tasa unitaria."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya usas la regla de tres como relación, no como truco",
+            "body": "Validaste la proporcionalidad, ordenaste unidades, elegiste una estrategia visible y comprobaste la tasa final.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M4.04",
+        "globalId": "pe-sec1-mat-M4-04",
+        "sequence": 4,
+        "title": "Porcentaje de una cantidad",
+        "subtitle": "Un porcentaje es una razón de cada cien",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.porcentaje_cantidad",
+        "learningOutcome": "Calcula porcentajes de cantidades mediante referentes, fracciones equivalentes y forma decimal.",
+        "successEvidence": "Resuelve porcentajes usuales y no usuales, explica la estrategia y estima si el resultado es razonable.",
+        "prerequisites": [
+          "Relaciona fracción, decimal y porcentaje",
+          "Multiplica decimales"
+        ],
+        "misconceptions": [
+          "Sumar el porcentaje a la cantidad",
+          "Confundir porcentaje con cantidad final",
+          "Mover la coma sin interpretar"
+        ],
+        "screens": [
+          {
+            "id": "M4.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "25 % significa 25 de cada 100, es decir un cuarto",
+            "body": "Para hallar 25 % de 80 puedes dividir 80 entre 4: obtienes 20. También puedes calcular 0,25 × 80. Ambas rutas expresan la misma relación.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M4.04-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.porcentaje_cantidad",
+            "difficulty": 1,
+            "prompt": "Calcula 10 % de 80.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "80 ÷ 10.",
+            "answer": {
+              "kind": "number",
+              "value": 8
+            },
+            "feedbackCorrect": "Una décima parte de 80 es 8.",
+            "feedbackIncorrect": "10 % equivale a dividir entre 10."
+          },
+          {
+            "id": "M4.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Usa porcentajes referentes",
+            "body": "10 % es una décima parte, 50 % es la mitad y 25 % es la cuarta parte. Combínalos para construir otros porcentajes.",
+            "examples": [
+              "10 % de 70 = 7",
+              "15 % = 10 % + 5 %"
+            ],
+            "memoryAid": "Parte de 10 %, 25 % o 50 %."
+          },
+          {
+            "id": "M4.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Convierte a fracción o decimal",
+            "body": "p % de una cantidad equivale a p/100 multiplicado por esa cantidad.",
+            "examples": [
+              "30 % de 60 = 0,30 × 60",
+              "75 % = 3/4"
+            ],
+            "memoryAid": "Porcentaje de cantidad: multiplica por la parte."
+          },
+          {
+            "id": "M4.04-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.porcentaje_cantidad",
+            "difficulty": 1,
+            "prompt": "Calcula 25 % de 80.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Divide entre cuatro.",
+            "answer": {
+              "kind": "number",
+              "value": 20
+            },
+            "feedbackCorrect": "25 % es 1/4; 80 ÷ 4 = 20.",
+            "feedbackIncorrect": "Usa el referente de un cuarto."
+          },
+          {
+            "id": "M4.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.porcentaje_cantidad",
+            "difficulty": 1,
+            "prompt": "Relaciona porcentaje y estrategia.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "75 % equivale a 3/4.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "50 % de 36",
+                "rightId": "r1",
+                "right": "La mitad: 18"
+              },
+              {
+                "leftId": "l2",
+                "left": "20 % de 50",
+                "rightId": "r2",
+                "right": "Dos veces 10 %: 10"
+              },
+              {
+                "leftId": "l3",
+                "left": "75 % de 40",
+                "rightId": "r3",
+                "right": "Tres cuartos: 30"
+              }
+            ],
+            "feedbackCorrect": "Usaste referentes equivalentes en lugar de una receta única.",
+            "feedbackIncorrect": "Traduce cada porcentaje a una parte conocida."
+          },
+          {
+            "id": "M4.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Controla el tamaño",
+            "body": "Si el porcentaje está entre 0 % y 100 %, la parte no puede superar el total. Estima con un referente cercano.",
+            "examples": [
+              "19 % de 200 está cerca de 20 %: cerca de 40",
+              "120 % de 50 sí supera 50"
+            ],
+            "memoryAid": "Compara porcentaje, parte y total."
+          },
+          {
+            "id": "M4.04-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.porcentaje_cantidad",
+            "difficulty": 1,
+            "prompt": "Calcula 15 % de 200.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "La mitad de 10 % es 5 %.",
+            "answer": {
+              "kind": "number",
+              "value": 30
+            },
+            "feedbackCorrect": "10 % es 20 y 5 % es 10; juntos forman 30.",
+            "feedbackIncorrect": "Construye 15 % con 10 % y 5 %."
+          },
+          {
+            "id": "M4.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.porcentaje_cantidad",
+            "difficulty": 2,
+            "prompt": "Mateo calculó 20 % de 60 como 60 + 20 = 80. ¿Qué debe cambiar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Convierte 20 % en 0,20.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe restar siempre 20.",
+                "feedback": "Revisa la idea clave. El porcentaje es una proporción del total, no una cantidad que se suma directamente."
+              },
+              {
+                "id": "b",
+                "text": "Debe tomar 20 de cada 100: 0,20 × 60 = 12.",
+                "feedback": "Correcto. El porcentaje es una proporción del total, no una cantidad que se suma directamente."
+              },
+              {
+                "id": "c",
+                "text": "Debe dividir 20 entre 60 y sumar.",
+                "feedback": "Revisa la idea clave. El porcentaje es una proporción del total, no una cantidad que se suma directamente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.04-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.cantidad.porcentaje_cantidad",
+            "difficulty": 1,
+            "prompt": "En un aula de 40 estudiantes, 35 % eligió ajedrez. ¿Cuántos fueron?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "12 + 2.",
+            "answer": {
+              "kind": "number",
+              "value": 14
+            },
+            "suffix": "estudiantes",
+            "feedbackCorrect": "0,35 × 40 = 14.",
+            "feedbackIncorrect": "Puedes sumar 30 % de 40 y 5 % de 40."
+          },
+          {
+            "id": "M4.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.porcentaje_cantidad",
+            "difficulty": 1,
+            "prompt": "¿Qué estimación apoya que 19 % de 200 = 38?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Redondea 19 % a 20 %.",
+            "options": [
+              {
+                "id": "a",
+                "text": "20 % de 200 es 40, así que 38 es razonable.",
+                "feedback": "Correcto. El referente 20 % produce un valor muy cercano."
+              },
+              {
+                "id": "b",
+                "text": "19 % debe ser mayor que 200.",
+                "feedback": "Revisa la idea clave. El referente 20 % produce un valor muy cercano."
+              },
+              {
+                "id": "c",
+                "text": "200 + 19 = 219.",
+                "feedback": "Revisa la idea clave. El referente 20 % produce un valor muy cercano."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya calculas porcentajes entendiendo la parte",
+            "body": "Usaste referentes, fracciones y decimales para hallar partes de una cantidad y controlar su magnitud.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M4.05",
+        "globalId": "pe-sec1-mat-M4-05",
+        "sequence": 5,
+        "title": "Aumentos y descuentos",
+        "subtitle": "Primero halla el cambio; después construye el valor final",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.aumentos_descuentos",
+        "learningOutcome": "Calcula aumentos y descuentos porcentuales distinguiendo cantidad inicial, cambio y valor final.",
+        "successEvidence": "Resuelve una variación porcentual, muestra monto del cambio y comprueba el valor final.",
+        "prerequisites": [
+          "Calcula porcentajes de una cantidad",
+          "Suma y resta decimales"
+        ],
+        "misconceptions": [
+          "Confundir descuento con precio final",
+          "Calcular el porcentaje sobre una base equivocada",
+          "Tratar aumentos sucesivos como una sola suma"
+        ],
+        "screens": [
+          {
+            "id": "M4.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "20 % de descuento no significa pagar 20 %",
+            "body": "Si una mochila cuesta S/ 80, el descuento es 20 % de 80 = S/ 16. El precio final es 80 - 16 = S/ 64, equivalente a pagar 80 %.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M4.05-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.aumentos_descuentos",
+            "difficulty": 1,
+            "prompt": "Una mochila cuesta S/ 80 y tiene 20 % de descuento. ¿Cuánto se descuenta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "10 % es 8; duplícalo.",
+            "answer": {
+              "kind": "number",
+              "value": 16
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "20 % de 80 es 16.",
+            "feedbackIncorrect": "Calcula primero el cambio, no el precio final."
+          },
+          {
+            "id": "M4.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Separa base, cambio y final",
+            "body": "La base es el valor inicial. El cambio es el porcentaje de esa base. En un descuento se resta; en un aumento se suma.",
+            "examples": [
+              "Base 80; cambio 16; final 64",
+              "Base 50; aumento 5; final 55"
+            ],
+            "memoryAid": "Base ± cambio = final."
+          },
+          {
+            "id": "M4.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "También puedes usar el factor final",
+            "body": "Tras un descuento de p %, queda 100 %-p %. Tras un aumento queda 100 %+p %.",
+            "examples": [
+              "-20 % → pagar 80 % → ×0,80",
+              "+15 % → quedar en 115 % → ×1,15"
+            ],
+            "memoryAid": "Descuento resta; factor restante multiplica."
+          },
+          {
+            "id": "M4.05-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.aumentos_descuentos",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el precio final de la mochila?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Base menos cambio.",
+            "answer": {
+              "kind": "number",
+              "value": 64
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "80 - 16 = 64 soles.",
+            "feedbackIncorrect": "Resta el descuento al precio inicial."
+          },
+          {
+            "id": "M4.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.aumentos_descuentos",
+            "difficulty": 1,
+            "prompt": "Relaciona variación y factor final.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Después de -10 % queda 90 %.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "10 % de descuento",
+                "rightId": "r1",
+                "right": "×0,90"
+              },
+              {
+                "leftId": "l2",
+                "left": "25 % de aumento",
+                "rightId": "r2",
+                "right": "×1,25"
+              },
+              {
+                "leftId": "l3",
+                "left": "40 % de descuento",
+                "rightId": "r3",
+                "right": "×0,60"
+              }
+            ],
+            "feedbackCorrect": "Cada factor representa el porcentaje que queda después del cambio.",
+            "feedbackIncorrect": "Parte de 100 % y suma o resta."
+          },
+          {
+            "id": "M4.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Cada cambio tiene su propia base",
+            "body": "En cambios sucesivos, el segundo porcentaje se calcula sobre el nuevo valor, no siempre sobre el inicial.",
+            "examples": [
+              "100 -20 % = 80",
+              "80 +20 % = 96, no 100"
+            ],
+            "memoryAid": "La base cambia después de cada paso."
+          },
+          {
+            "id": "M4.05-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.aumentos_descuentos",
+            "difficulty": 1,
+            "prompt": "Un servicio cuesta S/ 50 y aumenta 12 %. ¿Cuál es el nuevo precio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "10 % es 5 y 2 % es 1.",
+            "answer": {
+              "kind": "number",
+              "value": 56
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "12 % de 50 es 6; 50 + 6 = 56.",
+            "feedbackIncorrect": "En un aumento, añade el cambio a la base."
+          },
+          {
+            "id": "M4.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.aumentos_descuentos",
+            "difficulty": 2,
+            "prompt": "Carla dice que un descuento de 30 % sobre S/ 200 deja el precio en S/ 60. ¿Qué confundió?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Distingue cuánto se descuenta de cuánto se paga.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/ 60 es siempre el precio final.",
+                "feedback": "Revisa la idea clave. Primero se calcula el cambio y luego se resta de la base."
+              },
+              {
+                "id": "b",
+                "text": "S/ 60 es el descuento; el precio final es S/ 140.",
+                "feedback": "Correcto. Primero se calcula el cambio y luego se resta de la base."
+              },
+              {
+                "id": "c",
+                "text": "Debía sumar S/ 30.",
+                "feedback": "Revisa la idea clave. Primero se calcula el cambio y luego se resta de la base."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.05-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.cantidad.aumentos_descuentos",
+            "difficulty": 1,
+            "prompt": "Un precio de S/ 100 baja 20 % y luego sube 20 %. ¿En cuánto termina?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Calcula cada cambio por separado.",
+            "answer": {
+              "kind": "number",
+              "value": 96
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "Baja a 80; el 20 % posterior se calcula sobre 80 y suma 16: termina en 96.",
+            "feedbackIncorrect": "La segunda base ya no es 100."
+          },
+          {
+            "id": "M4.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.aumentos_descuentos",
+            "difficulty": 1,
+            "prompt": "¿Qué expresión calcula directamente un aumento de 8 % sobre 250?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Convierte 108 % a decimal.",
+            "options": [
+              {
+                "id": "a",
+                "text": "250 × 1,08",
+                "feedback": "Correcto. El factor 1,08 conserva el 100 % y añade 8 %."
+              },
+              {
+                "id": "b",
+                "text": "250 × 0,08 como valor final",
+                "feedback": "Revisa la idea clave. El factor 1,08 conserva el 100 % y añade 8 %."
+              },
+              {
+                "id": "c",
+                "text": "250 - 8",
+                "feedback": "Revisa la idea clave. El factor 1,08 conserva el 100 % y añade 8 %."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya separas el cambio del valor final",
+            "body": "Calculaste descuentos y aumentos con base explícita y comprendiste por qué los cambios sucesivos no se cancelan automáticamente.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M4.06",
+        "globalId": "pe-sec1-mat-M4-06",
+        "sequence": 6,
+        "title": "Masa, tiempo y temperatura",
+        "subtitle": "Medir bien exige elegir unidad, convertir y conservar el sentido",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.magnitudes_fisicas",
+        "learningOutcome": "Resuelve problemas de masa, tiempo y temperatura seleccionando unidades y realizando conversiones pertinentes.",
+        "successEvidence": "Modela una situación con unidades compatibles, convierte sin perder equivalencia y justifica la precisión usada.",
+        "prerequisites": [
+          "Multiplica y divide decimales",
+          "Interpreta tasas"
+        ],
+        "misconceptions": [
+          "Sumar medidas con unidades distintas",
+          "Usar factores de conversión al revés",
+          "Tratar horas y minutos como escritura decimal centesimal"
+        ],
+        "screens": [
+          {
+            "id": "M4.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Las unidades también participan en el cálculo",
+            "body": "1,5 kg y 300 g no se suman directamente. Puedes convertir 1,5 kg en 1500 g y obtener 1800 g, o convertir 300 g en 0,3 kg y obtener 1,8 kg.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M4.06-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.magnitudes_fisicas",
+            "difficulty": 1,
+            "prompt": "Convierte 2,3 kg a gramos.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Multiplica por 1000.",
+            "answer": {
+              "kind": "number",
+              "value": 2300
+            },
+            "suffix": "g",
+            "feedbackCorrect": "2,3 × 1000 = 2300 gramos.",
+            "feedbackIncorrect": "Un kilogramo contiene mil gramos."
+          },
+          {
+            "id": "M4.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Convierte a una unidad común",
+            "body": "Antes de sumar o comparar, expresa todas las medidas en la misma unidad.",
+            "examples": [
+              "1 kg = 1000 g",
+              "1 h = 60 min"
+            ],
+            "memoryAid": "Misma magnitud, misma unidad."
+          },
+          {
+            "id": "M4.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Tiempo no usa base cien",
+            "body": "1,5 horas equivale a 1 hora y media: 1 h 30 min. En cambio, 1 h 50 min no equivale a 1,50 h.",
+            "examples": [
+              "0,25 h = 15 min",
+              "90 min = 1,5 h"
+            ],
+            "memoryAid": "Multiplica la parte de hora por 60."
+          },
+          {
+            "id": "M4.06-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.magnitudes_fisicas",
+            "difficulty": 1,
+            "prompt": "Convierte 150 minutos a horas.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Divide entre 60.",
+            "answer": {
+              "kind": "number",
+              "value": 2.5
+            },
+            "suffix": "h",
+            "feedbackCorrect": "150 ÷ 60 = 2,5 horas, es decir 2 h 30 min.",
+            "feedbackIncorrect": "Cada hora agrupa 60 minutos."
+          },
+          {
+            "id": "M4.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.magnitudes_fisicas",
+            "difficulty": 1,
+            "prompt": "Relaciona medidas equivalentes.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "0,25 de hora son 15 minutos.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "0,75 kg",
+                "rightId": "r1",
+                "right": "750 g"
+              },
+              {
+                "leftId": "l2",
+                "left": "1,25 h",
+                "rightId": "r2",
+                "right": "1 h 15 min"
+              },
+              {
+                "leftId": "l3",
+                "left": "180 min",
+                "rightId": "r3",
+                "right": "3 h"
+              }
+            ],
+            "feedbackCorrect": "Aplicaste el factor propio de cada magnitud.",
+            "feedbackIncorrect": "Masa usa mil; tiempo usa sesenta."
+          },
+          {
+            "id": "M4.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "La temperatura puede variar bajo cero",
+            "body": "Un cambio se calcula como final menos inicial. Los signos indican dirección respecto de cero.",
+            "examples": [
+              "De -2 °C a 5 °C: sube 7 °C",
+              "De 8 °C a 3 °C: baja 5 °C"
+            ],
+            "memoryAid": "Cambio = final - inicial."
+          },
+          {
+            "id": "M4.06-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.magnitudes_fisicas",
+            "difficulty": 1,
+            "prompt": "Una receta mezcla 1,2 kg y 350 g. ¿Cuál es la masa total en gramos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "1,2 × 1000.",
+            "answer": {
+              "kind": "number",
+              "value": 1550
+            },
+            "suffix": "g",
+            "feedbackCorrect": "1,2 kg = 1200 g; 1200 + 350 = 1550 g.",
+            "feedbackIncorrect": "Convierte ambas cantidades a gramos."
+          },
+          {
+            "id": "M4.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.magnitudes_fisicas",
+            "difficulty": 2,
+            "prompt": "Iván escribió 1 h 45 min = 1,45 h. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Divide 45 entre 60.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Es correcto porque una hora tiene 100 minutos.",
+                "feedback": "Revisa la idea clave. La notación decimal usa partes de una unidad, y una hora tiene 60 minutos."
+              },
+              {
+                "id": "b",
+                "text": "45 min son 45/60 = 0,75 h; por tanto son 1,75 h.",
+                "feedback": "Correcto. La notación decimal usa partes de una unidad, y una hora tiene 60 minutos."
+              },
+              {
+                "id": "c",
+                "text": "Debe escribir 145 horas.",
+                "feedback": "Revisa la idea clave. La notación decimal usa partes de una unidad, y una hora tiene 60 minutos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.06-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.cantidad.magnitudes_fisicas",
+            "difficulty": 1,
+            "prompt": "La temperatura pasó de -3 °C a 4 °C. ¿Cuántos grados aumentó?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "3 + 4.",
+            "answer": {
+              "kind": "number",
+              "value": 7
+            },
+            "suffix": "°C",
+            "feedbackCorrect": "4 - (-3) = 7 grados.",
+            "feedbackIncorrect": "Cuenta desde -3 hasta 0 y luego hasta 4."
+          },
+          {
+            "id": "M4.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.magnitudes_fisicas",
+            "difficulty": 1,
+            "prompt": "¿Qué suma está lista para calcular sin convertir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca unidades idénticas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "2,4 kg + 0,6 kg",
+                "feedback": "Correcto. Ambas medidas ya usan la misma unidad."
+              },
+              {
+                "id": "b",
+                "text": "2 kg + 300 g",
+                "feedback": "Revisa la idea clave. Ambas medidas ya usan la misma unidad."
+              },
+              {
+                "id": "c",
+                "text": "45 min + 1 h",
+                "feedback": "Revisa la idea clave. Ambas medidas ya usan la misma unidad."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya haces que las unidades trabajen contigo",
+            "body": "Elegiste unidades comunes, trataste correctamente el tiempo sexagesimal y calculaste cambios de temperatura con signo.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M4.07",
+        "globalId": "pe-sec1-mat-M4-07",
+        "sequence": 7,
+        "title": "Magnitudes monetarias",
+        "subtitle": "Planificar dinero combina decimales, tasas y porcentajes",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.magnitudes_monetarias",
+        "learningOutcome": "Resuelve presupuestos y comparaciones monetarias con precio unitario, descuentos, cambio y redondeo responsable.",
+        "successEvidence": "Construye un presupuesto con operaciones visibles, verifica que respeta el límite y explica la mejor decisión.",
+        "prerequisites": [
+          "Calcula tasas y porcentajes",
+          "Opera decimales"
+        ],
+        "misconceptions": [
+          "Comparar solo precios totales de paquetes distintos",
+          "Redondear demasiado pronto",
+          "Confundir ahorro con precio final"
+        ],
+        "screens": [
+          {
+            "id": "M4.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El precio menor no siempre es la mejor comparación",
+            "body": "Un paquete de 3 cuesta S/ 9 y uno de 5 cuesta S/ 13. Sus precios unitarios son S/ 3 y S/ 2,60. Comparar por unidad permite decidir sin ignorar cuánto realmente necesitas.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M4.07-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.magnitudes_monetarias",
+            "difficulty": 1,
+            "prompt": "Un paquete de 4 cuadernos cuesta S/ 10. ¿Cuál es el precio por cuaderno?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Costo ÷ cantidad.",
+            "answer": {
+              "kind": "number",
+              "value": 2.5
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "10 ÷ 4 = 2,50 soles por cuaderno.",
+            "feedbackIncorrect": "Compara usando una sola unidad."
+          },
+          {
+            "id": "M4.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Compara en la misma base",
+            "body": "Cuando las presentaciones tienen tamaños distintos, calcula costo por unidad, kilogramo o litro.",
+            "examples": [
+              "S/ 9÷3 = S/ 3/unidad",
+              "S/ 13÷5 = S/ 2,60/unidad"
+            ],
+            "memoryAid": "Primero iguala la referencia."
+          },
+          {
+            "id": "M4.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Presupuesta antes de comprar",
+            "body": "Multiplica cantidades por precios, suma subtotales y compara con el dinero disponible. Conserva céntimos durante el proceso.",
+            "examples": [
+              "3×S/ 2,40 = S/ 7,20",
+              "Disponible - total = saldo"
+            ],
+            "memoryAid": "Cantidad × precio; luego suma."
+          },
+          {
+            "id": "M4.07-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.magnitudes_monetarias",
+            "difficulty": 1,
+            "prompt": "Compras 3 artículos de S/ 2,40. ¿Cuál es el subtotal?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "2,40 + 2,40 + 2,40.",
+            "answer": {
+              "kind": "number",
+              "value": 7.2
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "3 × 2,40 = 7,20.",
+            "feedbackIncorrect": "Son tres grupos del mismo precio."
+          },
+          {
+            "id": "M4.07-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.magnitudes_monetarias",
+            "difficulty": 1,
+            "prompt": "Relaciona dato y función en un presupuesto.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "El saldo se conoce después de hallar el total.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Precio unitario",
+                "rightId": "r1",
+                "right": "Comparar presentaciones"
+              },
+              {
+                "leftId": "l2",
+                "left": "Subtotal",
+                "rightId": "r2",
+                "right": "Cantidad por precio"
+              },
+              {
+                "leftId": "l3",
+                "left": "Saldo",
+                "rightId": "r3",
+                "right": "Disponible menos total"
+              },
+              {
+                "leftId": "l4",
+                "left": "Descuento",
+                "rightId": "r4",
+                "right": "Porcentaje de la base"
+              }
+            ],
+            "feedbackCorrect": "Cada cantidad responde una pregunta distinta.",
+            "feedbackIncorrect": "No confundas ahorro con lo que finalmente pagas."
+          },
+          {
+            "id": "M4.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Redondea con propósito",
+            "body": "Para estimar puedes redondear; para pagar usa el valor exacto. Declara si redondeas hacia arriba para proteger el presupuesto.",
+            "examples": [
+              "S/ 4,98 ≈ S/ 5 para estimar",
+              "Pago exacto: S/ 4,98"
+            ],
+            "memoryAid": "Estimación guía; monto exacto decide."
+          },
+          {
+            "id": "M4.07-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.magnitudes_monetarias",
+            "difficulty": 1,
+            "prompt": "Tienes S/ 25. Compras por S/ 7,20 y S/ 12,35. ¿Cuánto queda?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "25,00 - (7,20 + 12,35).",
+            "answer": {
+              "kind": "number",
+              "value": 5.45
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "El total es 19,55; 25 - 19,55 = 5,45.",
+            "feedbackIncorrect": "Suma gastos antes de restarlos del disponible."
+          },
+          {
+            "id": "M4.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.magnitudes_monetarias",
+            "difficulty": 2,
+            "prompt": "Tienda A ofrece 6 unidades por S/ 15 y B, 4 por S/ 11. ¿Qué comparación es correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Calcula cada precio unitario.",
+            "options": [
+              {
+                "id": "a",
+                "text": "B es mejor porque 11 es menor que 15.",
+                "feedback": "Revisa la idea clave. Los totales no son comparables sin considerar distintas cantidades."
+              },
+              {
+                "id": "b",
+                "text": "A cuesta S/ 2,50 por unidad y B S/ 2,75; A es menor por unidad.",
+                "feedback": "Correcto. Los totales no son comparables sin considerar distintas cantidades."
+              },
+              {
+                "id": "c",
+                "text": "Empatan porque ambos precios son enteros.",
+                "feedback": "Revisa la idea clave. Los totales no son comparables sin considerar distintas cantidades."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.07-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.cantidad.magnitudes_monetarias",
+            "difficulty": 1,
+            "prompt": "Un producto de S/ 40 tiene 15 % de descuento. ¿Cuál es el precio final?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "10 % es 4 y 5 % es 2.",
+            "answer": {
+              "kind": "number",
+              "value": 34
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "15 % de 40 es 6; 40 - 6 = 34.",
+            "feedbackIncorrect": "Halla el ahorro y réstalo."
+          },
+          {
+            "id": "M4.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.magnitudes_monetarias",
+            "difficulty": 1,
+            "prompt": "Para no exceder S/ 30, ¿qué estimación es más segura con precios S/ 9,80, S/ 7,95 y S/ 11,10?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Elige una estimación conservadora.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Redondear hacia arriba a 10 + 8 + 12 = 30",
+                "feedback": "Correcto. Redondear hacia arriba evita subestimar el gasto en una verificación rápida."
+              },
+              {
+                "id": "b",
+                "text": "Redondear todos hacia abajo a 9 + 7 + 11",
+                "feedback": "Revisa la idea clave. Redondear hacia arriba evita subestimar el gasto en una verificación rápida."
+              },
+              {
+                "id": "c",
+                "text": "Ignorar los céntimos y afirmar que sobra",
+                "feedback": "Revisa la idea clave. Redondear hacia arriba evita subestimar el gasto en una verificación rápida."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya tomas decisiones monetarias comparables",
+            "body": "Calculaste precios unitarios, presupuestos, saldos y descuentos, diferenciando estimación de pago exacto.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M4.08",
+        "globalId": "pe-sec1-mat-M4-08",
+        "sequence": 8,
+        "title": "Reto integrado",
+        "subtitle": "Razones, porcentajes y medidas se unen en una decisión completa",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.proporcionalidad_reto",
+        "learningOutcome": "Modela una situación multietapa que integra tasa, proporción, porcentaje, conversión de unidades y presupuesto.",
+        "successEvidence": "Presenta un plan de cálculo con supuestos, estimación, operaciones, unidades, comprobación y decisión argumentada.",
+        "prerequisites": [
+          "Calcula tasas y proporciones",
+          "Aplica porcentajes",
+          "Convierte medidas"
+        ],
+        "misconceptions": [
+          "Operar datos sin plan",
+          "Mezclar unidades entre etapas",
+          "Dar una decisión sin evidencia numérica"
+        ],
+        "screens": [
+          {
+            "id": "M4.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un problema real se resuelve por etapas conectadas",
+            "body": "Para organizar agua en una caminata hay que calcular litros por persona, escalar al grupo, convertir presentaciones, aplicar un descuento y comprobar el presupuesto. Cada resultado alimenta el siguiente.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M4.08-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.proporcionalidad_reto",
+            "difficulty": 1,
+            "prompt": "Doce personas necesitan 0,75 L cada una. ¿Cuántos litros se requieren?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Tres cuartos de 12.",
+            "answer": {
+              "kind": "number",
+              "value": 9
+            },
+            "suffix": "L",
+            "feedbackCorrect": "12 × 0,75 = 9 litros.",
+            "feedbackIncorrect": "Escala la tasa por persona al grupo."
+          },
+          {
+            "id": "M4.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Define la pregunta y los datos",
+            "body": "Separa datos necesarios, unidades, restricciones y lo que debes decidir. Anota cualquier supuesto razonable.",
+            "examples": [
+              "12 personas",
+              "0,75 L por persona",
+              "botellas de 1,5 L"
+            ],
+            "memoryAid": "Antes de calcular, construye el mapa."
+          },
+          {
+            "id": "M4.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Encadena resultados con unidades",
+            "body": "Calcula necesidad total, número de envases y costo. Redondea envases hacia arriba si no se pueden comprar fracciones.",
+            "examples": [
+              "12×0,75 L = 9 L",
+              "9÷1,5 = 6 botellas"
+            ],
+            "memoryAid": "Cada salida es la entrada del siguiente paso."
+          },
+          {
+            "id": "M4.08-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.proporcionalidad_reto",
+            "difficulty": 1,
+            "prompt": "Si las botellas son de 1,5 L, ¿cuántas se necesitan para 9 L?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Transforma a 90 ÷ 15.",
+            "answer": {
+              "kind": "number",
+              "value": 6
+            },
+            "suffix": "botellas",
+            "feedbackCorrect": "9 ÷ 1,5 = 6 botellas.",
+            "feedbackIncorrect": "Cuenta cuántas porciones de 1,5 L caben."
+          },
+          {
+            "id": "M4.08-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.proporcionalidad_reto",
+            "difficulty": 1,
+            "prompt": "Ordena el plan del reto.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Primero necesidad; al final decisión.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Calcular litros necesarios"
+              },
+              {
+                "id": "b",
+                "text": "Convertir litros en número de botellas"
+              },
+              {
+                "id": "c",
+                "text": "Calcular costo sin descuento"
+              },
+              {
+                "id": "d",
+                "text": "Aplicar el descuento"
+              },
+              {
+                "id": "e",
+                "text": "Comparar con el presupuesto y comprobar capacidad"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e"
+            ],
+            "feedbackCorrect": "El orden evita aplicar porcentajes o costos sobre una base equivocada.",
+            "feedbackIncorrect": "La cantidad necesaria debe conocerse antes de comprar."
+          },
+          {
+            "id": "M4.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Verifica y comunica la decisión",
+            "body": "Comprueba capacidad, costo y margen. Explica por qué la opción cumple la necesidad y el límite.",
+            "examples": [
+              "6×1,5 L = 9 L",
+              "Costo final ≤ presupuesto"
+            ],
+            "memoryAid": "Una decisión incluye evidencia y límite."
+          },
+          {
+            "id": "M4.08-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.proporcionalidad_reto",
+            "difficulty": 1,
+            "prompt": "Cada botella cuesta S/ 4. ¿Cuál es el costo de 6 botellas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Seis grupos de cuatro.",
+            "answer": {
+              "kind": "number",
+              "value": 24
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "6 × 4 = 24 soles.",
+            "feedbackIncorrect": "Usa cantidad por precio unitario."
+          },
+          {
+            "id": "M4.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.proporcionalidad_reto",
+            "difficulty": 2,
+            "prompt": "El equipo aplicó 10 % de descuento a los 9 litros y obtuvo 8,1 litros. ¿Qué error cometió?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Identifica la base indicada por la oferta.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debía sumar litros y soles.",
+                "feedback": "Revisa la idea clave. El descuento modifica el precio, no la cantidad de agua."
+              },
+              {
+                "id": "b",
+                "text": "Aplicó el descuento a la magnitud equivocada; debe aplicarlo al costo de S/ 24.",
+                "feedback": "Correcto. El descuento modifica el precio, no la cantidad de agua."
+              },
+              {
+                "id": "c",
+                "text": "Todo porcentaje se aplica a la primera cifra.",
+                "feedback": "Revisa la idea clave. El descuento modifica el precio, no la cantidad de agua."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M4.08-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.cantidad.proporcionalidad_reto",
+            "difficulty": 1,
+            "prompt": "Con 10 % de descuento sobre S/ 24, ¿cuál es el costo final?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Después del descuento se paga 90 %.",
+            "answer": {
+              "kind": "number",
+              "value": 21.6
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "El descuento es S/ 2,40; el costo final es S/ 21,60.",
+            "feedbackIncorrect": "Puedes multiplicar 24 por 0,90."
+          },
+          {
+            "id": "M4.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.proporcionalidad_reto",
+            "difficulty": 1,
+            "prompt": "El presupuesto es S/ 22. ¿Qué conclusión está completamente sustentada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Incluye cantidades, unidades y margen.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Seis botellas aportan 9 L y cuestan S/ 21,60; cubren la necesidad y sobran S/ 0,40.",
+                "feedback": "Correcto. La decisión verifica simultáneamente capacidad y presupuesto."
+              },
+              {
+                "id": "b",
+                "text": "Alcanza porque 6 es menor que 22.",
+                "feedback": "Revisa la idea clave. La decisión verifica simultáneamente capacidad y presupuesto."
+              },
+              {
+                "id": "c",
+                "text": "Conviene sin comprobar litros ni costo.",
+                "feedback": "Revisa la idea clave. La decisión verifica simultáneamente capacidad y presupuesto."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M4.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya integras magnitudes para decidir",
+            "body": "Construiste un plan multietapa, mantuviste unidades y bases correctas, y defendiste una decisión con comprobaciones.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}

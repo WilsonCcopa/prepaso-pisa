@@ -1,0 +1,2264 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.6",
+  "locale": "es-PE",
+  "unit": {
+    "id": "M3",
+    "globalId": "pe-sec1-mat-M3",
+    "sequence": 3,
+    "grade": "sec1",
+    "subject": "matematica",
+    "title": "Operaciones con expresiones fraccionarias y decimales",
+    "shortTitle": "Operaciones racionales",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "MINEDU define competencias, capacidades, estándares y desempeños. M3 es una secuencia editorial de Prepaso alineada a primer grado; no es el nombre de una unidad oficial obligatoria.",
+    "unitOutcome": "Resuelve y estima situaciones aditivas y multiplicativas con números racionales, eligiendo operaciones y explicando sus resultados.",
+    "finalEvidence": "Plan de cálculo con estimación, operación, comprobación y explicación de un error frecuente.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "cycle": "VI",
+      "competency": "Resuelve problemas de cantidad",
+      "capacities": [
+        "Traduce cantidades a expresiones numéricas",
+        "Comunica su comprensión sobre los números y las operaciones",
+        "Usa estrategias y procedimientos de estimación y cálculo",
+        "Argumenta afirmaciones sobre las relaciones numéricas y las operaciones"
+      ],
+      "operationalAlignment": "Resuelve y estima situaciones aditivas, multiplicativas y combinadas con fracciones y decimales, analizando procedimientos y errores."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Estratega del cálculo"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Currículo Nacional de la Educación Básica",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.gob.pe/institucion/minedu/campa%C3%B1as/106784-curriculo-nacional-de-la-educacion-basica"
+      }
+    ],
+    "stimuli": [],
+    "lessons": [
+      {
+        "id": "M3.01",
+        "globalId": "pe-sec1-mat-M3-01",
+        "sequence": 1,
+        "title": "Sumar y restar fracciones",
+        "subtitle": "Solo se combinan directamente partes del mismo tamaño",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.operar_fracciones_aditivas",
+        "learningOutcome": "Suma y resta fracciones de igual o distinto denominador, explicando la unidad común utilizada.",
+        "successEvidence": "Resuelve una combinación y una diferencia de fracciones, estima el resultado y lo comprueba con una representación.",
+        "prerequisites": [
+          "Reconoce fracciones equivalentes",
+          "Compara fracciones con referentes"
+        ],
+        "misconceptions": [
+          "Sumar numeradores y denominadores por separado",
+          "Cambiar denominadores sin mantener equivalencia",
+          "Aceptar un resultado sin compararlo con una estimación"
+        ],
+        "screens": [
+          {
+            "id": "M3.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Para combinar partes, primero deben tener el mismo tamaño",
+            "body": "Dos cuartos y un cuarto pueden sumarse directamente porque todas las partes son cuartos. En cambio, un medio y un cuarto necesitan expresarse con una misma unidad antes de contar.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M3.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.operar_fracciones_aditivas",
+            "difficulty": 1,
+            "prompt": "Calcula 2/7 + 3/7.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "El denominador ya es común.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5/14",
+                "feedback": "Revisa la idea clave. Las partes son séptimos; se suman 2 + 3 y se conserva 7."
+              },
+              {
+                "id": "b",
+                "text": "5/7",
+                "feedback": "Correcto. Las partes son séptimos; se suman 2 + 3 y se conserva 7."
+              },
+              {
+                "id": "c",
+                "text": "6/7",
+                "feedback": "Revisa la idea clave. Las partes son séptimos; se suman 2 + 3 y se conserva 7."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Igual denominador: conserva el tamaño",
+            "body": "Si las partes ya tienen el mismo tamaño, suma o resta cuántas hay y conserva el denominador.",
+            "examples": [
+              "2/7 + 3/7 = 5/7",
+              "6/8 - 1/8 = 5/8"
+            ],
+            "memoryAid": "Se combinan cantidades de partes, no el nombre de la parte."
+          },
+          {
+            "id": "M3.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Distinto denominador: crea una unidad común",
+            "body": "Busca un múltiplo común y construye fracciones equivalentes. Para 1/2 + 1/4, convierte 1/2 en 2/4; luego 2/4 + 1/4 = 3/4.",
+            "examples": [
+              "1/3 + 1/6 = 2/6 + 1/6",
+              "3/4 - 1/2 = 3/4 - 2/4"
+            ],
+            "memoryAid": "Equivale primero; opera después."
+          },
+          {
+            "id": "M3.01-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.operar_fracciones_aditivas",
+            "difficulty": 1,
+            "prompt": "Calcula 1/2 + 1/4.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Convierte el medio a cuartos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "2/6",
+                "feedback": "Revisa la idea clave. 1/2 equivale a 2/4; al añadir 1/4 resultan 3/4."
+              },
+              {
+                "id": "b",
+                "text": "2/4",
+                "feedback": "Revisa la idea clave. 1/2 equivale a 2/4; al añadir 1/4 resultan 3/4."
+              },
+              {
+                "id": "c",
+                "text": "3/4",
+                "feedback": "Correcto. 1/2 equivale a 2/4; al añadir 1/4 resultan 3/4."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M3.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.operar_fracciones_aditivas",
+            "difficulty": 1,
+            "prompt": "Relaciona cada operación con su resultado simplificado.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "1/3 equivale a 2/6.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "1/3 + 1/6",
+                "rightId": "r1",
+                "right": "1/2"
+              },
+              {
+                "leftId": "l2",
+                "left": "3/4 - 1/2",
+                "rightId": "r2",
+                "right": "1/4"
+              },
+              {
+                "leftId": "l3",
+                "left": "2/5 + 1/5",
+                "rightId": "r3",
+                "right": "3/5"
+              }
+            ],
+            "feedbackCorrect": "Usaste una unidad común y simplificaste cuando fue necesario.",
+            "feedbackIncorrect": "Convierte solo cuando los denominadores son distintos."
+          },
+          {
+            "id": "M3.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Estima y simplifica",
+            "body": "Compara cada fracción con 0, 1/2 o 1 antes de calcular. Al final simplifica si numerador y denominador comparten un divisor.",
+            "examples": [
+              "1/2 + 1/4 debe quedar entre 1/2 y 1",
+              "4/6 se simplifica a 2/3"
+            ],
+            "memoryAid": "Estimación antes; forma simple después."
+          },
+          {
+            "id": "M3.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.operar_fracciones_aditivas",
+            "difficulty": 1,
+            "prompt": "Calcula 5/6 - 1/3.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Convierte tercios a sextos y simplifica.",
+            "options": [
+              {
+                "id": "a",
+                "text": "1/2",
+                "feedback": "Correcto. 1/3 = 2/6; entonces 5/6 - 2/6 = 3/6 = 1/2."
+              },
+              {
+                "id": "b",
+                "text": "4/3",
+                "feedback": "Revisa la idea clave. 1/3 = 2/6; entonces 5/6 - 2/6 = 3/6 = 1/2."
+              },
+              {
+                "id": "c",
+                "text": "4/6 sin simplificar como respuesta final",
+                "feedback": "Revisa la idea clave. 1/3 = 2/6; entonces 5/6 - 2/6 = 3/6 = 1/2."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.operar_fracciones_aditivas",
+            "difficulty": 2,
+            "prompt": "Diego resolvió 1/2 + 1/3 = 2/5. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Busca un múltiplo común de 2 y 3.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe conservar 2/5 porque sumó arriba y abajo.",
+                "feedback": "Revisa la idea clave. Sumar denominadores cambia el tamaño de las partes y no representa la combinación."
+              },
+              {
+                "id": "b",
+                "text": "Debe usar sextos: 3/6 + 2/6 = 5/6.",
+                "feedback": "Correcto. Sumar denominadores cambia el tamaño de las partes y no representa la combinación."
+              },
+              {
+                "id": "c",
+                "text": "Debe restar los denominadores.",
+                "feedback": "Revisa la idea clave. Sumar denominadores cambia el tamaño de las partes y no representa la combinación."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.operar_fracciones_aditivas",
+            "difficulty": 1,
+            "prompt": "Una receta usa 3/4 de taza de avena y 1/2 taza de fruta. ¿Cuánto hay en total?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Expresa ambas cantidades en cuartos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4/6 de taza",
+                "feedback": "Revisa la idea clave. 1/2 = 2/4; 3/4 + 2/4 = 5/4 = 1 1/4."
+              },
+              {
+                "id": "b",
+                "text": "1/4 de taza",
+                "feedback": "Revisa la idea clave. 1/2 = 2/4; 3/4 + 2/4 = 5/4 = 1 1/4."
+              },
+              {
+                "id": "c",
+                "text": "1 1/4 tazas",
+                "feedback": "Correcto. 1/2 = 2/4; 3/4 + 2/4 = 5/4 = 1 1/4."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M3.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.operar_fracciones_aditivas",
+            "difficulty": 1,
+            "prompt": "¿Qué resultado es razonable para 7/8 - 1/4?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "La resta debe producir una cantidad menor que 7/8.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5/8",
+                "feedback": "Correcto. 1/4 = 2/8; 7/8 - 2/8 = 5/8, menor que 7/8."
+              },
+              {
+                "id": "b",
+                "text": "8/12",
+                "feedback": "Revisa la idea clave. 1/4 = 2/8; 7/8 - 2/8 = 5/8, menor que 7/8."
+              },
+              {
+                "id": "c",
+                "text": "1 1/8",
+                "feedback": "Revisa la idea clave. 1/4 = 2/8; 7/8 - 2/8 = 5/8, menor que 7/8."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya combinas fracciones con una unidad común",
+            "body": "Sumaste y restaste fracciones sin mezclar tamaños distintos. También estimaste y simplificaste para comprobar que el resultado conserva sentido.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M3.02",
+        "globalId": "pe-sec1-mat-M3-02",
+        "sequence": 2,
+        "title": "Multiplicar fracciones",
+        "subtitle": "Multiplicar por una fracción significa tomar una parte de otra cantidad",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.multiplicar_fracciones",
+        "learningOutcome": "Interpreta y calcula productos de fracciones mediante parte de una cantidad, modelos de área y simplificación.",
+        "successEvidence": "Resuelve un producto fraccionario y explica por qué el resultado aumenta o disminuye según el factor.",
+        "prerequisites": [
+          "Interpreta fracción como operador",
+          "Simplifica fracciones"
+        ],
+        "misconceptions": [
+          "Sumar en lugar de multiplicar numeradores y denominadores",
+          "Creer que multiplicar siempre aumenta",
+          "Simplificar términos que se suman y no factores"
+        ],
+        "screens": [
+          {
+            "id": "M3.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "«Tres cuartos de dos tercios» es una multiplicación",
+            "body": "La palabra de suele indicar una fracción aplicada a otra cantidad. Tomar 3/4 de 2/3 produce 6/12, es decir 1/2 de la unidad.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M3.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.multiplicar_fracciones",
+            "difficulty": 1,
+            "prompt": "¿Cuánto es 1/2 de 3/4?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Multiplica numeradores y denominadores.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4/6",
+                "feedback": "Revisa la idea clave. 1×3 sobre 2×4 produce 3/8."
+              },
+              {
+                "id": "b",
+                "text": "3/8",
+                "feedback": "Correcto. 1×3 sobre 2×4 produce 3/8."
+              },
+              {
+                "id": "c",
+                "text": "3/6",
+                "feedback": "Revisa la idea clave. 1×3 sobre 2×4 produce 3/8."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Multiplica partes de partes",
+            "body": "Multiplica numeradores para contar la región compartida y denominadores para contar todas las partes iguales del modelo.",
+            "examples": [
+              "2/3 × 3/5 = 6/15",
+              "1/2 × 1/4 = 1/8"
+            ],
+            "memoryAid": "Arriba por arriba; abajo por abajo, con significado."
+          },
+          {
+            "id": "M3.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "El modelo de área muestra por qué",
+            "body": "Sombrea una fracción en una dirección y la otra en la dirección perpendicular. La zona superpuesta representa el producto.",
+            "examples": [
+              "1/2 de 2/3 = 2/6 = 1/3",
+              "3/4 de 1/2 = 3/8"
+            ],
+            "memoryAid": "El producto es la intersección de dos particiones."
+          },
+          {
+            "id": "M3.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.multiplicar_fracciones",
+            "difficulty": 1,
+            "prompt": "Calcula 2/3 × 3/5.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Obtén 6/15 y simplifica.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5/8",
+                "feedback": "Revisa la idea clave. 6/15 se simplifica dividiendo entre 3: 2/5."
+              },
+              {
+                "id": "b",
+                "text": "6/8",
+                "feedback": "Revisa la idea clave. 6/15 se simplifica dividiendo entre 3: 2/5."
+              },
+              {
+                "id": "c",
+                "text": "2/5",
+                "feedback": "Correcto. 6/15 se simplifica dividiendo entre 3: 2/5."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M3.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.multiplicar_fracciones",
+            "difficulty": 1,
+            "prompt": "Relaciona producto y resultado.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "En 4/7 × 7/8 se cancelan 7 y parte de 4 con 8.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "1/4 × 2",
+                "rightId": "r1",
+                "right": "1/2"
+              },
+              {
+                "leftId": "l2",
+                "left": "3/5 × 1/3",
+                "rightId": "r2",
+                "right": "1/5"
+              },
+              {
+                "leftId": "l3",
+                "left": "4/7 × 7/8",
+                "rightId": "r3",
+                "right": "1/2"
+              }
+            ],
+            "feedbackCorrect": "Cada producto conserva la idea de tomar una parte de otra cantidad.",
+            "feedbackIncorrect": "Simplifica factores comunes cuando aparezcan."
+          },
+          {
+            "id": "M3.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Simplifica antes o después",
+            "body": "Puedes cancelar factores comunes entre numeradores y denominadores antes de multiplicar. Esto reduce números sin cambiar el valor.",
+            "examples": [
+              "2/3 × 9/10 → 1/3 × 9/5 → 3/5",
+              "4/7 × 7/8 = 1/2"
+            ],
+            "memoryAid": "Cancela factores, no términos unidos por suma."
+          },
+          {
+            "id": "M3.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.multiplicar_fracciones",
+            "difficulty": 1,
+            "prompt": "¿Cuánto es 3/4 de 20?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Halla primero 1/4 de 20.",
+            "options": [
+              {
+                "id": "a",
+                "text": "15",
+                "feedback": "Correcto. Un cuarto de 20 es 5; tres cuartos son 15."
+              },
+              {
+                "id": "b",
+                "text": "5",
+                "feedback": "Revisa la idea clave. Un cuarto de 20 es 5; tres cuartos son 15."
+              },
+              {
+                "id": "c",
+                "text": "80",
+                "feedback": "Revisa la idea clave. Un cuarto de 20 es 5; tres cuartos son 15."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.multiplicar_fracciones",
+            "difficulty": 2,
+            "prompt": "Lucía afirma que 1/2 × 1/3 debe ser mayor que 1/2 porque toda multiplicación aumenta. ¿Qué corrección corresponde?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Interpreta ×1/3 como tomar un tercio.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El resultado es 2/5 y siempre aumenta.",
+                "feedback": "Revisa la idea clave. Un factor entre 0 y 1 reduce la cantidad positiva a una parte de ella."
+              },
+              {
+                "id": "b",
+                "text": "Multiplicar por 1/3 toma solo una parte; 1/2 × 1/3 = 1/6, que es menor.",
+                "feedback": "Correcto. Un factor entre 0 y 1 reduce la cantidad positiva a una parte de ella."
+              },
+              {
+                "id": "c",
+                "text": "Las fracciones no se pueden multiplicar.",
+                "feedback": "Revisa la idea clave. Un factor entre 0 y 1 reduce la cantidad positiva a una parte de ella."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.multiplicar_fracciones",
+            "difficulty": 1,
+            "prompt": "Una parcela ocupa 2/3 del terreno y 3/5 de esa parcela se sembrará. ¿Qué fracción del terreno se sembrará?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "La palabra «de» conecta las dos fracciones mediante multiplicación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5/8",
+                "feedback": "Revisa la idea clave. 3/5 de 2/3 es 6/15 = 2/5."
+              },
+              {
+                "id": "b",
+                "text": "1/5",
+                "feedback": "Revisa la idea clave. 3/5 de 2/3 es 6/15 = 2/5."
+              },
+              {
+                "id": "c",
+                "text": "2/5",
+                "feedback": "Correcto. 3/5 de 2/3 es 6/15 = 2/5."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M3.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.multiplicar_fracciones",
+            "difficulty": 1,
+            "prompt": "¿Qué simplificación es válida?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una división común aplicada a toda la fracción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "6/15 = 2/5",
+                "feedback": "Correcto. Dividir numerador y denominador de 6/15 entre 3 conserva el valor."
+              },
+              {
+                "id": "b",
+                "text": "3/4 + 1/4: cancelar los cuatros antes de sumar",
+                "feedback": "Revisa la idea clave. Dividir numerador y denominador de 6/15 entre 3 conserva el valor."
+              },
+              {
+                "id": "c",
+                "text": "2/3 × 4/5 = 6/8",
+                "feedback": "Revisa la idea clave. Dividir numerador y denominador de 6/15 entre 3 conserva el valor."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya calculas una parte de otra parte",
+            "body": "Interpretaste productos con modelos de área, calculaste y simplificaste. También entendiste por qué multiplicar por una fracción propia puede reducir una cantidad.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M3.03",
+        "globalId": "pe-sec1-mat-M3-03",
+        "sequence": 3,
+        "title": "Dividir fracciones",
+        "subtitle": "Dividir responde cuántas porciones caben o cuánto recibe cada grupo",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.dividir_fracciones",
+        "learningOutcome": "Interpreta y calcula divisiones de fracciones mediante medida, reparto y multiplicación por el recíproco.",
+        "successEvidence": "Resuelve una división fraccionaria y comprueba el cociente multiplicándolo por el divisor.",
+        "prerequisites": [
+          "Multiplica fracciones",
+          "Reconoce fracciones recíprocas"
+        ],
+        "misconceptions": [
+          "Invertir la primera fracción",
+          "Aplicar el algoritmo sin interpretar qué se cuenta",
+          "Creer que dividir siempre produce un número menor"
+        ],
+        "screens": [
+          {
+            "id": "M3.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "¿Cuántos medios caben en tres?",
+            "body": "En cada unidad caben dos medios; en tres unidades caben seis. Por eso 3 ÷ 1/2 = 6. La división crece porque contamos porciones más pequeñas que una unidad.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M3.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.dividir_fracciones",
+            "difficulty": 1,
+            "prompt": "¿Cuántos cuartos caben en 3/4?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Cuenta 1/4 + 1/4 + 1/4.",
+            "options": [
+              {
+                "id": "a",
+                "text": "1/3",
+                "feedback": "Revisa la idea clave. Tres porciones de 1/4 completan 3/4."
+              },
+              {
+                "id": "b",
+                "text": "3",
+                "feedback": "Correcto. Tres porciones de 1/4 completan 3/4."
+              },
+              {
+                "id": "c",
+                "text": "4",
+                "feedback": "Revisa la idea clave. Tres porciones de 1/4 completan 3/4."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "División como medida",
+            "body": "La pregunta a ÷ b puede leerse «¿cuántas veces cabe b en a?». Si hay 3/4 de litro y cada vaso recibe 1/4, caben tres vasos.",
+            "examples": [
+              "3/4 ÷ 1/4 = 3",
+              "2 ÷ 1/2 = 4"
+            ],
+            "memoryAid": "Cantidad total ÷ tamaño de porción."
+          },
+          {
+            "id": "M3.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Multiplicar por el recíproco",
+            "body": "Dividir por b/c equivale a multiplicar por c/b porque el recíproco convierte cada porción en una unidad de conteo.",
+            "examples": [
+              "2/3 ÷ 4/5 = 2/3 × 5/4",
+              "3 ÷ 1/2 = 3 × 2"
+            ],
+            "memoryAid": "Conserva la primera; multiplica por el recíproco de la segunda."
+          },
+          {
+            "id": "M3.03-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.dividir_fracciones",
+            "difficulty": 1,
+            "prompt": "Calcula 2 ÷ 1/2.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Pregunta cuántos medios hay en dos enteros.",
+            "options": [
+              {
+                "id": "a",
+                "text": "1",
+                "feedback": "Revisa la idea clave. Cada unidad contiene dos medios; dos unidades contienen cuatro."
+              },
+              {
+                "id": "b",
+                "text": "2 1/2",
+                "feedback": "Revisa la idea clave. Cada unidad contiene dos medios; dos unidades contienen cuatro."
+              },
+              {
+                "id": "c",
+                "text": "4",
+                "feedback": "Correcto. Cada unidad contiene dos medios; dos unidades contienen cuatro."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M3.03-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.dividir_fracciones",
+            "difficulty": 1,
+            "prompt": "Relaciona situación y división.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Los vasos de 1/4 indican el divisor.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "3/4 L en vasos de 1/4 L",
+                "rightId": "r1",
+                "right": "3/4 ÷ 1/4"
+              },
+              {
+                "leftId": "l2",
+                "left": "2 pizzas entre 4 personas",
+                "rightId": "r2",
+                "right": "2 ÷ 4"
+              },
+              {
+                "leftId": "l3",
+                "left": "2/3 m en tramos de 1/6 m",
+                "rightId": "r3",
+                "right": "2/3 ÷ 1/6"
+              }
+            ],
+            "feedbackCorrect": "Distinguiste cantidad total, tamaño de porción y número de grupos.",
+            "feedbackIncorrect": "Escribe total ÷ porción cuando preguntas cuántas caben."
+          },
+          {
+            "id": "M3.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Comprueba con la operación inversa",
+            "body": "Si a ÷ b = c, entonces c × b debe devolver a. Esta prueba detecta inversiones y simplificaciones incorrectas.",
+            "examples": [
+              "3/4 ÷ 1/4 = 3; 3 × 1/4 = 3/4",
+              "2/3 ÷ 1/6 = 4; 4 × 1/6 = 2/3"
+            ],
+            "memoryAid": "Cociente × divisor = cantidad inicial."
+          },
+          {
+            "id": "M3.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.dividir_fracciones",
+            "difficulty": 1,
+            "prompt": "Calcula 2/3 ÷ 4/5.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Multiplica por 5/4 y simplifica.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5/6",
+                "feedback": "Correcto. 2/3 × 5/4 = 10/12 = 5/6."
+              },
+              {
+                "id": "b",
+                "text": "8/15",
+                "feedback": "Revisa la idea clave. 2/3 × 5/4 = 10/12 = 5/6."
+              },
+              {
+                "id": "c",
+                "text": "6/5",
+                "feedback": "Revisa la idea clave. 2/3 × 5/4 = 10/12 = 5/6."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.dividir_fracciones",
+            "difficulty": 2,
+            "prompt": "Mario resolvió 3/5 ÷ 2/7 invirtiendo 3/5. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Identifica qué fracción está después del signo ÷.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe invertir ambas fracciones.",
+                "feedback": "Revisa la idea clave. La transformación usa el recíproco del segundo número, que es el divisor."
+              },
+              {
+                "id": "b",
+                "text": "Debe conservar 3/5 e invertir solo el divisor: 3/5 × 7/2.",
+                "feedback": "Correcto. La transformación usa el recíproco del segundo número, que es el divisor."
+              },
+              {
+                "id": "c",
+                "text": "Debe sumar los denominadores.",
+                "feedback": "Revisa la idea clave. La transformación usa el recíproco del segundo número, que es el divisor."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.dividir_fracciones",
+            "difficulty": 1,
+            "prompt": "Hay 1 1/2 kg de fruta y cada bolsa lleva 1/4 kg. ¿Cuántas bolsas completas se llenan?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Convierte el total a cuartos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "3",
+                "feedback": "Revisa la idea clave. 1 1/2 = 6/4; seis porciones de 1/4 caben exactamente."
+              },
+              {
+                "id": "b",
+                "text": "8",
+                "feedback": "Revisa la idea clave. 1 1/2 = 6/4; seis porciones de 1/4 caben exactamente."
+              },
+              {
+                "id": "c",
+                "text": "6",
+                "feedback": "Correcto. 1 1/2 = 6/4; seis porciones de 1/4 caben exactamente."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M3.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.dividir_fracciones",
+            "difficulty": 1,
+            "prompt": "¿Qué comprobación valida 3/4 ÷ 1/8 = 6?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Usa la operación inversa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "6 × 1/8 = 3/4",
+                "feedback": "Correcto. El cociente multiplicado por el divisor recupera la cantidad inicial."
+              },
+              {
+                "id": "b",
+                "text": "6 + 1/8 = 3/4",
+                "feedback": "Revisa la idea clave. El cociente multiplicado por el divisor recupera la cantidad inicial."
+              },
+              {
+                "id": "c",
+                "text": "3/4 × 1/8 = 6",
+                "feedback": "Revisa la idea clave. El cociente multiplicado por el divisor recupera la cantidad inicial."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya interpretas qué cuenta una división",
+            "body": "Determinaste cuántas porciones caben, aplicaste el recíproco con sentido y verificaste cada cociente mediante multiplicación.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M3.04",
+        "globalId": "pe-sec1-mat-M3-04",
+        "sequence": 4,
+        "title": "Sumar y restar decimales",
+        "subtitle": "Alinear la coma significa alinear valores posicionales",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.decimales_aditivos",
+        "learningOutcome": "Suma y resta decimales alineando posiciones, estimando y comprobando el resultado.",
+        "successEvidence": "Resuelve una cuenta con centésimos, explica los ceros añadidos y detecta una alineación incorrecta.",
+        "prerequisites": [
+          "Lee décimos, centésimos y milésimos",
+          "Suma y resta naturales"
+        ],
+        "misconceptions": [
+          "Alinear por la última cifra y no por la coma",
+          "Creer que añadir ceros a la derecha cambia el valor",
+          "Bajar la coma sin estimar el orden del resultado"
+        ],
+        "screens": [
+          {
+            "id": "M3.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Unidades con unidades, décimos con décimos",
+            "body": "Para sumar 3,4 + 0,27, escribe 3,40 + 0,27. Los ceros ayudan a ver centésimos sin cambiar el valor. El resultado 3,67 queda cerca de la estimación 3,4 + 0,3.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M3.04-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.decimales_aditivos",
+            "difficulty": 1,
+            "prompt": "Calcula 2,5 + 1,3.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Suma décimos con décimos.",
+            "answer": {
+              "kind": "number",
+              "value": 3.8
+            },
+            "feedbackCorrect": "Unidades y décimos alineados producen 3,8.",
+            "feedbackIncorrect": "Alinea ambas comas."
+          },
+          {
+            "id": "M3.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Alinea por la coma decimal",
+            "body": "La coma separa unidades y partes de unidad. Colocarla en la misma columna asegura que cada cifra se combine con otra del mismo valor.",
+            "examples": [
+              "3,40",
+              "+0,27",
+              "=3,67"
+            ],
+            "memoryAid": "Coma bajo coma; posición bajo posición."
+          },
+          {
+            "id": "M3.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Completa con ceros a la derecha",
+            "body": "3,4 y 3,40 representan lo mismo. El cero adicional permite mostrar que hay 40 centésimos.",
+            "examples": [
+              "5,2 = 5,20",
+              "0,7 = 0,700"
+            ],
+            "memoryAid": "Ceros a la derecha ayudan; no mueven la coma."
+          },
+          {
+            "id": "M3.04-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.decimales_aditivos",
+            "difficulty": 1,
+            "prompt": "Calcula 3,4 + 0,27.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Completa centésimos con un cero.",
+            "answer": {
+              "kind": "number",
+              "value": 3.67
+            },
+            "feedbackCorrect": "3,40 + 0,27 = 3,67.",
+            "feedbackIncorrect": "Escribe 3,4 como 3,40."
+          },
+          {
+            "id": "M3.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.decimales_aditivos",
+            "difficulty": 1,
+            "prompt": "Relaciona operación y resultado.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "5,20 ya muestra unidades, décimos y centésimos.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "5,20 - 1,05",
+                "rightId": "r1",
+                "right": "4,15"
+              },
+              {
+                "leftId": "l2",
+                "left": "0,75 + 0,08",
+                "rightId": "r2",
+                "right": "0,83"
+              },
+              {
+                "leftId": "l3",
+                "left": "6,4 - 2,7",
+                "rightId": "r3",
+                "right": "3,7"
+              }
+            ],
+            "feedbackCorrect": "Alineaste cada posición decimal.",
+            "feedbackIncorrect": "Escribe igual cantidad de posiciones si ayuda."
+          },
+          {
+            "id": "M3.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Estima y usa la inversa",
+            "body": "Redondea para anticipar. Después de una resta, suma diferencia y sustraendo para recuperar el minuendo.",
+            "examples": [
+              "8,02 - 3,7 ≈ 8 - 4 = 4",
+              "4,32 + 3,70 = 8,02"
+            ],
+            "memoryAid": "Estima antes y comprueba después."
+          },
+          {
+            "id": "M3.04-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.decimales_aditivos",
+            "difficulty": 1,
+            "prompt": "Calcula 8,02 - 3,7.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Alinea centésimos antes de restar.",
+            "answer": {
+              "kind": "number",
+              "value": 4.32
+            },
+            "feedbackCorrect": "8,02 - 3,70 = 4,32.",
+            "feedbackIncorrect": "Completa 3,7 como 3,70."
+          },
+          {
+            "id": "M3.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.decimales_aditivos",
+            "difficulty": 2,
+            "prompt": "Elena escribió 4,8 + 0,35 = 4,115. ¿Qué error cometió?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Escribe 4,8 como 4,80 y alinea las comas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo resultado con dos decimales es incorrecto.",
+                "feedback": "Revisa la idea clave. Las unidades, décimos y centésimos deben ocupar sus respectivas columnas."
+              },
+              {
+                "id": "b",
+                "text": "Alineó las cifras finales en vez de las comas; debe calcular 4,80 + 0,35 = 5,15.",
+                "feedback": "Correcto. Las unidades, décimos y centésimos deben ocupar sus respectivas columnas."
+              },
+              {
+                "id": "c",
+                "text": "Añadir ceros a la derecha siempre cambia el número.",
+                "feedback": "Revisa la idea clave. Las unidades, décimos y centésimos deben ocupar sus respectivas columnas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.decimales_aditivos",
+            "difficulty": 1,
+            "prompt": "Compras cuestan S/ 7,80 y S/ 2,35. Pagas con S/ 15. ¿Qué vuelto recibes?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Suma compras y luego resta del pago.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/ 5,15",
+                "feedback": "Revisa la idea clave. El total es 10,15 y 15,00 - 10,15 = 4,85."
+              },
+              {
+                "id": "b",
+                "text": "S/ 9,65",
+                "feedback": "Revisa la idea clave. El total es 10,15 y 15,00 - 10,15 = 4,85."
+              },
+              {
+                "id": "c",
+                "text": "S/ 4,85",
+                "feedback": "Correcto. El total es 10,15 y 15,00 - 10,15 = 4,85."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M3.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.decimales_aditivos",
+            "difficulty": 1,
+            "prompt": "¿Qué estimación apoya que 12,48 - 5,91 = 6,57?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Redondea ambos números a valores sencillos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "12,5 - 6 ≈ 6,5",
+                "feedback": "Correcto. La estimación 6,5 queda muy cerca de 6,57."
+              },
+              {
+                "id": "b",
+                "text": "12 - 5 ≈ 17",
+                "feedback": "Revisa la idea clave. La estimación 6,5 queda muy cerca de 6,57."
+              },
+              {
+                "id": "c",
+                "text": "5,91 es mayor que 12,48",
+                "feedback": "Revisa la idea clave. La estimación 6,5 queda muy cerca de 6,57."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya operas decimales por su valor",
+            "body": "Alineaste posiciones, usaste ceros sin cambiar cantidades y comprobaste resultados con estimación y operación inversa.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M3.05",
+        "globalId": "pe-sec1-mat-M3-05",
+        "sequence": 5,
+        "title": "Multiplicar decimales",
+        "subtitle": "El valor posicional decide dónde queda la coma",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.multiplicar_decimales",
+        "learningOutcome": "Multiplica decimales interpretando los factores, estimando el tamaño del producto y ubicando la coma por valor posicional.",
+        "successEvidence": "Resuelve un producto decimal, anticipa su magnitud y lo comprueba con descomposición o una situación de medida.",
+        "prerequisites": [
+          "Multiplica números naturales",
+          "Reconoce décimos y centésimos"
+        ],
+        "misconceptions": [
+          "Alinear comas como en la suma",
+          "Colocar la coma sin estimar",
+          "Creer que multiplicar siempre aumenta"
+        ],
+        "screens": [
+          {
+            "id": "M3.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Multiplicar 2,4 por 3 es sumar 2,4 tres veces",
+            "body": "Como 2,4 está cerca de 2,5, el producto debe estar cerca de 7,5. El cálculo exacto es 7,2. Estimar primero evita aceptar una coma mal colocada.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M3.05-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.multiplicar_decimales",
+            "difficulty": 1,
+            "prompt": "Calcula 2,4 × 3.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Piensa en 24 décimos por 3.",
+            "answer": {
+              "kind": "number",
+              "value": 7.2
+            },
+            "feedbackCorrect": "Tres grupos de 2,4 suman 7,2.",
+            "feedbackIncorrect": "El producto debe estar cerca de 2,5 × 3 = 7,5."
+          },
+          {
+            "id": "M3.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Empieza por el significado",
+            "body": "Un producto puede representar grupos iguales, un área o una parte de una cantidad. Decide qué representan los factores antes de calcular.",
+            "examples": [
+              "2,4 × 3: tres grupos de 2,4",
+              "1,5 × 0,4: cuatro décimos de 1,5"
+            ],
+            "memoryAid": "Nombra los factores antes de operar."
+          },
+          {
+            "id": "M3.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Multiplica y reconstruye el valor",
+            "body": "Puedes multiplicar como enteros y después considerar cuántas cifras decimales aportan ambos factores. En 1,2 × 0,3, 12 × 3 = 36 y el producto representa 36 centésimos: 0,36.",
+            "examples": [
+              "2,5 × 4 = 10",
+              "1,2 × 0,3 = 0,36"
+            ],
+            "memoryAid": "La coma expresa valor; no se coloca al azar."
+          },
+          {
+            "id": "M3.05-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.multiplicar_decimales",
+            "difficulty": 1,
+            "prompt": "Calcula 1,2 × 0,3.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Calcula 12 × 3 y expresa 36 centésimos.",
+            "answer": {
+              "kind": "number",
+              "value": 0.36
+            },
+            "feedbackCorrect": "12 décimos por 3 décimos representan 36 centésimos: 0,36.",
+            "feedbackIncorrect": "El resultado debe ser menor que 1,2 porque multiplicas por 0,3."
+          },
+          {
+            "id": "M3.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.multiplicar_decimales",
+            "difficulty": 1,
+            "prompt": "Relaciona producto y resultado.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "La mitad de 6 es 3.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "0,5 × 6",
+                "rightId": "r1",
+                "right": "3"
+              },
+              {
+                "leftId": "l2",
+                "left": "2,5 × 4",
+                "rightId": "r2",
+                "right": "10"
+              },
+              {
+                "leftId": "l3",
+                "left": "1,25 × 2",
+                "rightId": "r3",
+                "right": "2,5"
+              }
+            ],
+            "feedbackCorrect": "Relacionaste grupos iguales y valor posicional.",
+            "feedbackIncorrect": "Estima cada producto antes de decidir."
+          },
+          {
+            "id": "M3.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Estima para elegir la coma",
+            "body": "Redondea los factores. Si 3,2 × 1,9 está cerca de 3 × 2 = 6, el resultado 6,08 es razonable; 60,8 no lo es.",
+            "examples": [
+              "0,5 × 8 ≈ 4",
+              "4,9 × 2,1 ≈ 10"
+            ],
+            "memoryAid": "Primero tamaño aproximado; luego cálculo exacto."
+          },
+          {
+            "id": "M3.05-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.multiplicar_decimales",
+            "difficulty": 1,
+            "prompt": "Calcula 3,2 × 1,5.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Suma 3,2 y su mitad.",
+            "answer": {
+              "kind": "number",
+              "value": 4.8
+            },
+            "feedbackCorrect": "3,2 × 1,5 = 3,2 + 1,6 = 4,8.",
+            "feedbackIncorrect": "Multiplicar por 1,5 equivale a tomar una vez y media."
+          },
+          {
+            "id": "M3.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.multiplicar_decimales",
+            "difficulty": 2,
+            "prompt": "Ana obtuvo 32,5 al calcular 2,5 × 1,3. ¿Qué muestra la estimación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Compara primero con 2,5 × 1.",
+            "options": [
+              {
+                "id": "a",
+                "text": "32,5 es razonable porque multiplicar siempre aumenta mucho.",
+                "feedback": "Revisa la idea clave. La estimación detecta que la coma quedó una posición demasiado a la derecha."
+              },
+              {
+                "id": "b",
+                "text": "El producto debe estar cerca de 2,5 × 1 = 2,5; el valor correcto es 3,25.",
+                "feedback": "Correcto. La estimación detecta que la coma quedó una posición demasiado a la derecha."
+              },
+              {
+                "id": "c",
+                "text": "Debe alinear las comas y sumar.",
+                "feedback": "Revisa la idea clave. La estimación detecta que la coma quedó una posición demasiado a la derecha."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.05-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.cantidad.multiplicar_decimales",
+            "difficulty": 1,
+            "prompt": "Un kilogramo de fruta cuesta S/ 8 y compras 1,25 kg. ¿Cuánto pagas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Calcula 1 kg y 1/4 kg por separado.",
+            "answer": {
+              "kind": "number",
+              "value": 10
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "1,25 × 8 = 10 soles.",
+            "feedbackIncorrect": "Interpreta el precio como ocho soles por cada kilogramo."
+          },
+          {
+            "id": "M3.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.multiplicar_decimales",
+            "difficulty": 1,
+            "prompt": "¿Cuál producto es menor que 4?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca el factor menor que 1.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4 × 0,6",
+                "feedback": "Correcto. Multiplicar una cantidad positiva por un factor entre 0 y 1 toma solo una parte de ella."
+              },
+              {
+                "id": "b",
+                "text": "4 × 1,2",
+                "feedback": "Revisa la idea clave. Multiplicar una cantidad positiva por un factor entre 0 y 1 toma solo una parte de ella."
+              },
+              {
+                "id": "c",
+                "text": "4 × 2,5",
+                "feedback": "Revisa la idea clave. Multiplicar una cantidad positiva por un factor entre 0 y 1 toma solo una parte de ella."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya multiplicas decimales con control de magnitud",
+            "body": "Interpretaste los factores, reconstruiste el valor posicional y usaste estimaciones para ubicar correctamente la coma.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M3.06",
+        "globalId": "pe-sec1-mat-M3-06",
+        "sequence": 6,
+        "title": "Dividir decimales",
+        "subtitle": "Convierte el divisor en entero sin cambiar el cociente",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.dividir_decimales",
+        "learningOutcome": "Divide decimales mediante reparto o medida, transforma divisores decimales y comprueba el cociente.",
+        "successEvidence": "Resuelve una división decimal, explica la transformación aplicada y verifica multiplicando cociente por divisor.",
+        "prerequisites": [
+          "Divide números naturales",
+          "Multiplica decimales"
+        ],
+        "misconceptions": [
+          "Mover la coma solo en el divisor",
+          "Creer que dividir entre un decimal siempre reduce",
+          "No comprobar el cociente"
+        ],
+        "screens": [
+          {
+            "id": "M3.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Dividir puede ser repartir o contar porciones",
+            "body": "7,2 ÷ 3 pregunta cuánto recibe cada uno de tres grupos: 2,4. En cambio, 4,5 ÷ 0,5 pregunta cuántos medios caben: caben 9.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M3.06-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.dividir_decimales",
+            "difficulty": 1,
+            "prompt": "Calcula 7,2 ÷ 3.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Piensa en 72 décimos entre 3.",
+            "answer": {
+              "kind": "number",
+              "value": 2.4
+            },
+            "feedbackCorrect": "Repartir 7,2 en tres grupos da 2,4 por grupo.",
+            "feedbackIncorrect": "Comprueba con 2,4 × 3."
+          },
+          {
+            "id": "M3.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Lee la situación antes del algoritmo",
+            "body": "Si conoces el total y el número de grupos, repartes. Si conoces el tamaño de cada porción, cuentas cuántas caben.",
+            "examples": [
+              "7,2 entre 3 personas",
+              "4,5 L en botellas de 0,5 L"
+            ],
+            "memoryAid": "Total ÷ grupos o total ÷ tamaño de porción."
+          },
+          {
+            "id": "M3.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Haz entero el divisor",
+            "body": "Multiplica dividendo y divisor por la misma potencia de 10. El cociente no cambia porque ambas cantidades se escalan igual.",
+            "examples": [
+              "12,6 ÷ 1,4 = 126 ÷ 14",
+              "3,6 ÷ 0,12 = 360 ÷ 12"
+            ],
+            "memoryAid": "Mueve ambas comas la misma cantidad."
+          },
+          {
+            "id": "M3.06-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.dividir_decimales",
+            "difficulty": 1,
+            "prompt": "Calcula 4,5 ÷ 0,5.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Transforma a 45 ÷ 5.",
+            "answer": {
+              "kind": "number",
+              "value": 9
+            },
+            "feedbackCorrect": "En 4,5 caben nueve porciones de 0,5.",
+            "feedbackIncorrect": "Dividir entre una mitad cuenta cuántas mitades caben."
+          },
+          {
+            "id": "M3.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.dividir_decimales",
+            "difficulty": 1,
+            "prompt": "Relaciona división y transformación equivalente.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Cuenta cuántas cifras necesita el divisor para ser entero.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "12,6 ÷ 1,4",
+                "rightId": "r1",
+                "right": "126 ÷ 14"
+              },
+              {
+                "leftId": "l2",
+                "left": "3,5 ÷ 0,5",
+                "rightId": "r2",
+                "right": "35 ÷ 5"
+              },
+              {
+                "leftId": "l3",
+                "left": "0,84 ÷ 0,07",
+                "rightId": "r3",
+                "right": "84 ÷ 7"
+              }
+            ],
+            "feedbackCorrect": "Multiplicaste dividendo y divisor por la misma potencia de diez.",
+            "feedbackIncorrect": "No muevas la coma en un solo número."
+          },
+          {
+            "id": "M3.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Comprueba multiplicando",
+            "body": "El cociente por el divisor debe devolver el dividendo. También estima para decidir si el resultado puede ser mayor o menor.",
+            "examples": [
+              "2,4 × 3 = 7,2",
+              "9 × 0,5 = 4,5"
+            ],
+            "memoryAid": "Cociente × divisor = dividendo."
+          },
+          {
+            "id": "M3.06-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.dividir_decimales",
+            "difficulty": 1,
+            "prompt": "Calcula 12,6 ÷ 1,4.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Mueve una posición en ambos números.",
+            "answer": {
+              "kind": "number",
+              "value": 9
+            },
+            "feedbackCorrect": "126 ÷ 14 = 9 y 9 × 1,4 = 12,6.",
+            "feedbackIncorrect": "Convierte la operación en 126 ÷ 14."
+          },
+          {
+            "id": "M3.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.dividir_decimales",
+            "difficulty": 2,
+            "prompt": "Luis transformó 3,6 ÷ 0,4 en 3,6 ÷ 4. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "La misma transformación se aplica arriba y abajo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe sumar 10 a ambos números.",
+                "feedback": "Revisa la idea clave. Escalar únicamente el divisor cambia la relación original."
+              },
+              {
+                "id": "b",
+                "text": "Debe multiplicar ambos números por 10: 36 ÷ 4 = 9.",
+                "feedback": "Correcto. Escalar únicamente el divisor cambia la relación original."
+              },
+              {
+                "id": "c",
+                "text": "Debe mover solo la coma de 3,6.",
+                "feedback": "Revisa la idea clave. Escalar únicamente el divisor cambia la relación original."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.06-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.cantidad.dividir_decimales",
+            "difficulty": 1,
+            "prompt": "S/ 10,50 se reparten por igual entre 3 estudiantes. ¿Cuánto recibe cada uno?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "1050 céntimos entre 3 son 350.",
+            "answer": {
+              "kind": "number",
+              "value": 3.5
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "10,50 ÷ 3 = 3,50 soles.",
+            "feedbackIncorrect": "Reparte el total en tres partes iguales."
+          },
+          {
+            "id": "M3.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.dividir_decimales",
+            "difficulty": 1,
+            "prompt": "¿Qué comprobación valida 8,4 ÷ 0,7 = 12?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Usa la operación inversa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "12 × 0,7 = 8,4",
+                "feedback": "Correcto. Multiplicar cociente por divisor recupera el dividendo."
+              },
+              {
+                "id": "b",
+                "text": "12 + 0,7 = 8,4",
+                "feedback": "Revisa la idea clave. Multiplicar cociente por divisor recupera el dividendo."
+              },
+              {
+                "id": "c",
+                "text": "8,4 × 0,7 = 12",
+                "feedback": "Revisa la idea clave. Multiplicar cociente por divisor recupera el dividendo."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya divides decimales con significado",
+            "body": "Diferenciaste reparto y medida, transformaste divisores sin alterar el cociente y comprobaste cada resultado.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M3.07",
+        "globalId": "pe-sec1-mat-M3-07",
+        "sequence": 7,
+        "title": "Expresiones combinadas",
+        "subtitle": "El orden de las operaciones hace que todos interpretemos igual",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.expresiones_racionales",
+        "learningOutcome": "Resuelve expresiones con fracciones y decimales respetando agrupación y jerarquía, con pasos verificables.",
+        "successEvidence": "Organiza un cálculo combinado, registra cada transformación y justifica el orden aplicado.",
+        "prerequisites": [
+          "Opera fracciones",
+          "Opera decimales"
+        ],
+        "misconceptions": [
+          "Resolver siempre de izquierda a derecha",
+          "Ignorar paréntesis",
+          "Cambiar varias partes en una misma línea sin registro"
+        ],
+        "screens": [
+          {
+            "id": "M3.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una expresión es una instrucción con prioridades",
+            "body": "En 3 + 2 × 0,5, primero se calcula el producto: 2 × 0,5 = 1; luego 3 + 1 = 4. Si sumáramos primero obtendríamos otra expresión.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M3.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.expresiones_racionales",
+            "difficulty": 1,
+            "prompt": "¿Qué operación va primero en 3 + 2 × 0,5?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Busca multiplicación o división antes de sumar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "3 + 2",
+                "feedback": "Revisa la idea clave. El producto tiene prioridad sobre la suma."
+              },
+              {
+                "id": "b",
+                "text": "2 × 0,5",
+                "feedback": "Correcto. El producto tiene prioridad sobre la suma."
+              },
+              {
+                "id": "c",
+                "text": "3 + 0,5",
+                "feedback": "Revisa la idea clave. El producto tiene prioridad sobre la suma."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Primero agrupaciones",
+            "body": "Resuelve paréntesis, corchetes o barras de fracción desde la agrupación más interna. Copia sin cambios lo que todavía espera.",
+            "examples": [
+              "(2,5 + 1,5) ÷ 2",
+              "3 × (1/2 + 1/4)"
+            ],
+            "memoryAid": "Abre la caja interna antes de continuar."
+          },
+          {
+            "id": "M3.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Luego productos y cocientes",
+            "body": "Multiplicación y división tienen prioridad sobre suma y resta. Si comparten nivel, avanza de izquierda a derecha.",
+            "examples": [
+              "3 + 2 × 0,5 = 4",
+              "8 ÷ 2 × 3 = 12"
+            ],
+            "memoryAid": "Agrupa; multiplica o divide; suma o resta."
+          },
+          {
+            "id": "M3.07-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.expresiones_racionales",
+            "difficulty": 1,
+            "prompt": "Calcula 3 + 2 × 0,5.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Respeta producto antes de suma.",
+            "answer": {
+              "kind": "number",
+              "value": 4
+            },
+            "feedbackCorrect": "Primero 2 × 0,5 = 1; después 3 + 1 = 4.",
+            "feedbackIncorrect": "No sumes 3 + 2 primero."
+          },
+          {
+            "id": "M3.07-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.expresiones_racionales",
+            "difficulty": 1,
+            "prompt": "Ordena los pasos para calcular (2,5 + 1,5) ÷ 2.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "El paréntesis es la primera caja que debes abrir.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Resolver el paréntesis: 2,5 + 1,5 = 4"
+              },
+              {
+                "id": "b",
+                "text": "Reescribir: 4 ÷ 2"
+              },
+              {
+                "id": "c",
+                "text": "Dividir: 4 ÷ 2 = 2"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c"
+            ],
+            "feedbackCorrect": "Cada paso conserva el valor y respeta la agrupación.",
+            "feedbackIncorrect": "Empieza por la operación dentro del paréntesis."
+          },
+          {
+            "id": "M3.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Una transformación por línea",
+            "body": "Escribir pasos permite localizar el primer error. Estima el resultado antes y revisa cada línea después.",
+            "examples": [
+              "6 - 2 × 1,5 → 6 - 3 → 3",
+              "(3/4 + 1/4) × 2 → 1 × 2 → 2"
+            ],
+            "memoryAid": "Cada línea debe conservar el valor."
+          },
+          {
+            "id": "M3.07-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.expresiones_racionales",
+            "difficulty": 1,
+            "prompt": "Calcula 6 - 2 × 1,5.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Haz el producto antes de restar.",
+            "answer": {
+              "kind": "number",
+              "value": 3
+            },
+            "feedbackCorrect": "2 × 1,5 = 3; luego 6 - 3 = 3.",
+            "feedbackIncorrect": "El resultado debe ser cercano a 6 - 3."
+          },
+          {
+            "id": "M3.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.expresiones_racionales",
+            "difficulty": 2,
+            "prompt": "Sara calculó 8 ÷ 2 × 2 = 8 ÷ 4 = 2. ¿Dónde está el primer error?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Observa que ÷ y × comparten prioridad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debía sumar los tres números.",
+                "feedback": "Revisa la idea clave. Cuando las operaciones tienen el mismo nivel se resuelven en el orden en que aparecen."
+              },
+              {
+                "id": "b",
+                "text": "División y multiplicación tienen la misma prioridad; debía avanzar de izquierda a derecha: 8 ÷ 2 = 4.",
+                "feedback": "Correcto. Cuando las operaciones tienen el mismo nivel se resuelven en el orden en que aparecen."
+              },
+              {
+                "id": "c",
+                "text": "El resultado 2 es correcto porque multiplicar siempre va antes.",
+                "feedback": "Revisa la idea clave. Cuando las operaciones tienen el mismo nivel se resuelven en el orden en que aparecen."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.07-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.cantidad.expresiones_racionales",
+            "difficulty": 1,
+            "prompt": "Un paquete cuesta S/ 3,50. Compras 4 y usas un descuento total de S/ 2. ¿Cuánto pagas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Multiplica antes de restar.",
+            "answer": {
+              "kind": "number",
+              "value": 12
+            },
+            "suffix": "soles",
+            "feedbackCorrect": "4 × 3,50 - 2 = 14 - 2 = 12.",
+            "feedbackIncorrect": "Primero calcula el costo de cuatro paquetes."
+          },
+          {
+            "id": "M3.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.expresiones_racionales",
+            "difficulty": 1,
+            "prompt": "Calcula (3/4 + 1/4) × 2.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Resuelve primero la suma de cuartos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "2",
+                "feedback": "Correcto. Dentro del paréntesis hay una unidad; una unidad por 2 es 2."
+              },
+              {
+                "id": "b",
+                "text": "5/8",
+                "feedback": "Revisa la idea clave. Dentro del paréntesis hay una unidad; una unidad por 2 es 2."
+              },
+              {
+                "id": "c",
+                "text": "1",
+                "feedback": "Revisa la idea clave. Dentro del paréntesis hay una unidad; una unidad por 2 es 2."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya haces visibles los pasos de un cálculo combinado",
+            "body": "Aplicaste agrupación y jerarquía, mantuviste una transformación por línea y usaste la estimación para controlar resultados.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M3.08",
+        "globalId": "pe-sec1-mat-M3-08",
+        "sequence": 8,
+        "title": "Análisis de error",
+        "subtitle": "Encontrar el primer paso incorrecto ayuda más que mirar solo la respuesta",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.analizar_errores_racionales",
+        "learningOutcome": "Localiza, explica y corrige errores en operaciones con fracciones y decimales usando estimación y operaciones inversas.",
+        "successEvidence": "Elabora una corrección respetuosa que identifica el primer error, explica la regla y verifica el resultado correcto.",
+        "prerequisites": [
+          "Opera fracciones y decimales",
+          "Usa estimación y operaciones inversas"
+        ],
+        "misconceptions": [
+          "Decir solo «está mal»",
+          "Corregir el resultado sin localizar la causa",
+          "Confundir un error de copia con uno conceptual"
+        ],
+        "screens": [
+          {
+            "id": "M3.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un error es una pista sobre el procedimiento",
+            "body": "Si alguien escribe 1/2 + 1/3 = 2/5, el primer error es combinar partes de tamaños diferentes. Una buena explicación propone sextos y muestra 3/6 + 2/6 = 5/6.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M3.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.analizar_errores_racionales",
+            "difficulty": 1,
+            "prompt": "En 2/5 + 1/5 = 3/10, ¿cuál es el primer error?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Pregunta si cambió el nombre de la parte.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sumó mal 2 + 1.",
+                "feedback": "Revisa la idea clave. Con igual denominador se conserva el tamaño de la parte: 3/5."
+              },
+              {
+                "id": "b",
+                "text": "Sumó denominadores aunque las partes ya eran quintos.",
+                "feedback": "Correcto. Con igual denominador se conserva el tamaño de la parte: 3/5."
+              },
+              {
+                "id": "c",
+                "text": "Debió multiplicar por 5.",
+                "feedback": "Revisa la idea clave. Con igual denominador se conserva el tamaño de la parte: 3/5."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Busca el primer paso que cambia el valor",
+            "body": "Lee línea por línea y compara cada transformación con la anterior. Todo lo que viene después puede depender de ese primer quiebre.",
+            "examples": [
+              "3,4 + 0,27 → 3,67: conserva valor",
+              "1/2 + 1/3 → 2/5: no conserva valor"
+            ],
+            "memoryAid": "Primer error, no último síntoma."
+          },
+          {
+            "id": "M3.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Nombra el tipo de error",
+            "body": "Puede ser conceptual, de procedimiento, de cálculo o de copia. Nombrarlo permite ofrecer la ayuda adecuada.",
+            "examples": [
+              "Conceptual: sumar denominadores",
+              "Procedimental: mover una sola coma",
+              "Cálculo: 7 × 8 = 54"
+            ],
+            "memoryAid": "Diagnóstico preciso, ayuda precisa."
+          },
+          {
+            "id": "M3.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.analizar_errores_racionales",
+            "difficulty": 1,
+            "prompt": "¿Qué corrección es más útil para 3,2 + 0,45 = 3,77?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Elige la explicación que permite aprender.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Está mal.",
+                "feedback": "Revisa la idea clave. La corrección localiza el procedimiento, muestra el cálculo y añade una comprobación."
+              },
+              {
+                "id": "b",
+                "text": "Cambia 0,45 por 45.",
+                "feedback": "Revisa la idea clave. La corrección localiza el procedimiento, muestra el cálculo y añade una comprobación."
+              },
+              {
+                "id": "c",
+                "text": "Alinea posiciones: 3,20 + 0,45 = 3,65; luego estima 3,2 + 0,5 ≈ 3,7.",
+                "feedback": "Correcto. La corrección localiza el procedimiento, muestra el cálculo y añade una comprobación."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M3.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.analizar_errores_racionales",
+            "difficulty": 1,
+            "prompt": "Relaciona error y categoría.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Mover solo una coma es un problema de procedimiento.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "1/2 + 1/3 = 2/5",
+                "rightId": "r1",
+                "right": "Conceptual"
+              },
+              {
+                "leftId": "l2",
+                "left": "6 × 7 = 40",
+                "rightId": "r2",
+                "right": "Cálculo"
+              },
+              {
+                "leftId": "l3",
+                "left": "12,6 ÷ 1,4 → 12,6 ÷ 14",
+                "rightId": "r3",
+                "right": "Procedimiento"
+              }
+            ],
+            "feedbackCorrect": "Distinguiste la causa probable de cada resultado.",
+            "feedbackIncorrect": "Observa si falla la idea, la cuenta o la secuencia."
+          },
+          {
+            "id": "M3.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Corrige y verifica",
+            "body": "Explica qué regla se necesita, rehace desde el punto del error y comprueba con estimación, equivalencia u operación inversa.",
+            "examples": [
+              "5/6 - 1/3 = 3/6 = 1/2",
+              "4,5 ÷ 0,5 = 9; 9 × 0,5 = 4,5"
+            ],
+            "memoryAid": "Detecta, explica, corrige y comprueba."
+          },
+          {
+            "id": "M3.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.analizar_errores_racionales",
+            "difficulty": 1,
+            "prompt": "Calcula correctamente 5/6 - 1/3.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Convierte tercios a sextos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "1/2",
+                "feedback": "Correcto. 1/3 = 2/6; 5/6 - 2/6 = 3/6 = 1/2."
+              },
+              {
+                "id": "b",
+                "text": "4/3",
+                "feedback": "Revisa la idea clave. 1/3 = 2/6; 5/6 - 2/6 = 3/6 = 1/2."
+              },
+              {
+                "id": "c",
+                "text": "4/6 como forma final sin simplificar",
+                "feedback": "Revisa la idea clave. 1/3 = 2/6; 5/6 - 2/6 = 3/6 = 1/2."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M3.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.analizar_errores_racionales",
+            "difficulty": 2,
+            "prompt": "Un procedimiento dice: 4,8 ÷ 0,6 = 4,8 ÷ 6 = 0,8. ¿Qué paso debe cambiar?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Escala dividendo y divisor por 10.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe sumar las comas.",
+                "feedback": "Revisa la idea clave. Mover la coma solo en el divisor altera el cociente."
+              },
+              {
+                "id": "b",
+                "text": "Debe transformar ambos números: 48 ÷ 6 = 8.",
+                "feedback": "Correcto. Mover la coma solo en el divisor altera el cociente."
+              },
+              {
+                "id": "c",
+                "text": "Debe conservar 0,8 porque es menor.",
+                "feedback": "Revisa la idea clave. Mover la coma solo en el divisor altera el cociente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M3.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.analizar_errores_racionales",
+            "difficulty": 1,
+            "prompt": "Una familia estima S/ 2,90 × 4 ≈ S/ 12, pero una calculadora muestra S/ 116. ¿Qué conclusión es razonable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Compara 2,90 con 3.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La estimación siempre debe descartarse.",
+                "feedback": "Revisa la idea clave. Un valor exacto debe ser compatible con el orden de magnitud anticipado."
+              },
+              {
+                "id": "b",
+                "text": "El producto debe ser mayor que cien porque hay decimales.",
+                "feedback": "Revisa la idea clave. Un valor exacto debe ser compatible con el orden de magnitud anticipado."
+              },
+              {
+                "id": "c",
+                "text": "La estimación revela una coma mal ubicada; el producto exacto es S/ 11,60.",
+                "feedback": "Correcto. Un valor exacto debe ser compatible con el orden de magnitud anticipado."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M3.08-S11",
+            "type": "ordering",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.analizar_errores_racionales",
+            "difficulty": 1,
+            "prompt": "Ordena una revisión matemática útil.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Empieza anticipando el tamaño del resultado.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Estimar el resultado esperado"
+              },
+              {
+                "id": "b",
+                "text": "Localizar el primer paso que no conserva el valor"
+              },
+              {
+                "id": "c",
+                "text": "Explicar y corregir ese paso"
+              },
+              {
+                "id": "d",
+                "text": "Comprobar el nuevo resultado"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "feedbackCorrect": "Construiste una revisión que ayuda a comprender y no solo reemplaza la respuesta.",
+            "feedbackIncorrect": "La estimación orienta; la comprobación cierra."
+          },
+          {
+            "id": "M3.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya conviertes los errores en aprendizaje",
+            "body": "Localizaste causas, formulaste correcciones claras y comprobaste resultados sin etiquetar ni desanimar a quien aprende.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}

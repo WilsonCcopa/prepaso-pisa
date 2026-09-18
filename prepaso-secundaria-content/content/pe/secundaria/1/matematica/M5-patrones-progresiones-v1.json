@@ -1,0 +1,2284 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.6",
+  "locale": "es-PE",
+  "unit": {
+    "id": "M5",
+    "globalId": "pe-sec1-mat-M5",
+    "sequence": 5,
+    "grade": "sec1",
+    "subject": "matematica",
+    "title": "Patrones y progresiones aritméticas",
+    "shortTitle": "Patrones y progresiones",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "MINEDU define competencias, capacidades, estándares y desempeños. M5 es una secuencia editorial de Prepaso alineada a primer grado; no es el nombre de una unidad oficial obligatoria.",
+    "unitOutcome": "Describe cambios constantes, construye reglas recursivas y algebraicas, determina términos y posiciones y valida con argumentos o contraejemplos.",
+    "finalEvidence": "Informe de un patrón con figura o contexto, tabla, regla verbal, expresión algebraica, predicción y validación.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "cycle": "VI",
+      "competency": "Resuelve problemas de regularidad, equivalencia y cambio",
+      "capacities": [
+        "Traduce datos y condiciones a expresiones algebraicas y gráficas",
+        "Comunica su comprensión sobre las relaciones algebraicas",
+        "Usa estrategias y procedimientos para encontrar equivalencias y reglas generales",
+        "Argumenta afirmaciones sobre relaciones de cambio y equivalencia"
+      ],
+      "operationalAlignment": "Reconoce, representa y generaliza patrones y progresiones aritméticas, conectando lenguaje verbal, tabla, gráfico y regla algebraica."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Cazador de patrones"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Currículo Nacional de la Educación Básica",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.gob.pe/institucion/minedu/campa%C3%B1as/106784-curriculo-nacional-de-la-educacion-basica"
+      }
+    ],
+    "stimuli": [],
+    "lessons": [
+      {
+        "id": "M5.01",
+        "globalId": "pe-sec1-mat-M5-01",
+        "sequence": 1,
+        "title": "Ver regularidades",
+        "subtitle": "Observar qué cambia y qué se conserva es el inicio del álgebra",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.regularidad.identificar_patrones",
+        "learningOutcome": "Identifica regularidades numéricas y figurales describiendo cambio, permanencia y posición.",
+        "successEvidence": "Extiende un patrón, explica la regla observada y diferencia una conjetura de una regla verificada.",
+        "prerequisites": [
+          "Suma y resta números naturales",
+          "Compara cantidades"
+        ],
+        "misconceptions": [
+          "Mirar solo los dos primeros términos",
+          "Describir valores sin explicar el cambio",
+          "Suponer que toda secuencia tiene una única regla"
+        ],
+        "screens": [
+          {
+            "id": "M5.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un patrón es una regla que organiza, no solo una lista",
+            "body": "En 4, 7, 10, 13 cada término aumenta 3. Para confiar en la regla, verifica que el mismo cambio funciona entre todas las parejas mostradas.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M5.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.regularidad.identificar_patrones",
+            "difficulty": 1,
+            "prompt": "¿Qué cambio se repite en 5, 8, 11, 14?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Resta un término menos el anterior.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Multiplicar por 3",
+                "feedback": "Revisa la idea clave. Cada diferencia consecutiva vale 3."
+              },
+              {
+                "id": "b",
+                "text": "Sumar 3",
+                "feedback": "Correcto. Cada diferencia consecutiva vale 3."
+              },
+              {
+                "id": "c",
+                "text": "Sumar 5",
+                "feedback": "Revisa la idea clave. Cada diferencia consecutiva vale 3."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Mira términos y cambios",
+            "body": "Registra cuánto cambia de un término al siguiente. En figuras, cuenta elementos nuevos y partes que permanecen.",
+            "examples": [
+              "4→7: +3",
+              "7→10: +3"
+            ],
+            "memoryAid": "Observa entre términos, no solo cada término."
+          },
+          {
+            "id": "M5.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Describe la regla con precisión",
+            "body": "Una regla debe permitir construir el siguiente término y comprobar los anteriores.",
+            "examples": [
+              "«Empieza en 4 y suma 3»",
+              "«Añade dos cuadrados en cada figura»"
+            ],
+            "memoryAid": "Inicio más transformación."
+          },
+          {
+            "id": "M5.01-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.identificar_patrones",
+            "difficulty": 1,
+            "prompt": "Continúa 5, 8, 11, 14, __.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Suma tres al último término.",
+            "answer": {
+              "kind": "number",
+              "value": 17
+            },
+            "feedbackCorrect": "14 + 3 = 17.",
+            "feedbackIncorrect": "Aplica el mismo cambio."
+          },
+          {
+            "id": "M5.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.identificar_patrones",
+            "difficulty": 1,
+            "prompt": "Relaciona secuencia y regla.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "En la tercera secuencia, cada término es dos veces el anterior.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "2, 4, 6, 8",
+                "rightId": "r1",
+                "right": "Empieza en 2 y suma 2"
+              },
+              {
+                "leftId": "l2",
+                "left": "10, 8, 6, 4",
+                "rightId": "r2",
+                "right": "Empieza en 10 y resta 2"
+              },
+              {
+                "leftId": "l3",
+                "left": "3, 6, 12, 24",
+                "rightId": "r3",
+                "right": "Empieza en 3 y duplica"
+              }
+            ],
+            "feedbackCorrect": "Reconociste reglas aditivas y multiplicativas.",
+            "feedbackIncorrect": "Compara cada término con el anterior."
+          },
+          {
+            "id": "M5.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Verifica más de una transición",
+            "body": "Dos términos pueden admitir muchas reglas. Usa todos los datos disponibles y reconoce si falta información.",
+            "examples": [
+              "2, 4 podría seguir 6 o 8 según la regla",
+              "2, 4, 6, 8 apoya sumar 2"
+            ],
+            "memoryAid": "Una conjetura mejora con más evidencia."
+          },
+          {
+            "id": "M5.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.regularidad.identificar_patrones",
+            "difficulty": 1,
+            "prompt": "Una figura tiene 3 palitos; la siguiente 5; luego 7. ¿Cuántos tendrá la cuarta si continúa el patrón?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Busca el aumento entre 3, 5 y 7.",
+            "options": [
+              {
+                "id": "a",
+                "text": "9",
+                "feedback": "Correcto. Cada figura añade dos palitos."
+              },
+              {
+                "id": "b",
+                "text": "8",
+                "feedback": "Revisa la idea clave. Cada figura añade dos palitos."
+              },
+              {
+                "id": "c",
+                "text": "10",
+                "feedback": "Revisa la idea clave. Cada figura añade dos palitos."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.regularidad.identificar_patrones",
+            "difficulty": 2,
+            "prompt": "Con solo 2, 4, ¿se puede asegurar que el siguiente es 6?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Piensa en otra regla que también empiece 2, 4.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sí, toda secuencia suma 2.",
+                "feedback": "Revisa la idea clave. Dos términos no determinan por sí solos una única regla."
+              },
+              {
+                "id": "b",
+                "text": "No; podría seguir distintas reglas y se necesitan más términos o contexto.",
+                "feedback": "Correcto. Dos términos no determinan por sí solos una única regla."
+              },
+              {
+                "id": "c",
+                "text": "Sí, porque 4 es par.",
+                "feedback": "Revisa la idea clave. Dos términos no determinan por sí solos una única regla."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.regularidad.identificar_patrones",
+            "difficulty": 1,
+            "prompt": "Una escalera usa 4 bloques en la figura 1, 7 en la 2 y 10 en la 3. ¿Qué descripción sirve para construirla?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una instrucción reproducible.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usa siempre 10 bloques.",
+                "feedback": "Revisa la idea clave. La descripción incluye el valor inicial y el cambio repetido."
+              },
+              {
+                "id": "b",
+                "text": "Añade el número de figura sin regla fija.",
+                "feedback": "Revisa la idea clave. La descripción incluye el valor inicial y el cambio repetido."
+              },
+              {
+                "id": "c",
+                "text": "Empieza con 4 bloques y añade 3 en cada nueva figura.",
+                "feedback": "Correcto. La descripción incluye el valor inicial y el cambio repetido."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M5.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.regularidad.identificar_patrones",
+            "difficulty": 1,
+            "prompt": "¿Qué evidencia confirma mejor la regla «sumar 4»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Revisa cada transición.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todas las diferencias consecutivas observadas valen 4.",
+                "feedback": "Correcto. Una regla de cambio constante se comprueba con las diferencias."
+              },
+              {
+                "id": "b",
+                "text": "El último término es grande.",
+                "feedback": "Revisa la idea clave. Una regla de cambio constante se comprueba con las diferencias."
+              },
+              {
+                "id": "c",
+                "text": "El primer término es positivo.",
+                "feedback": "Revisa la idea clave. Una regla de cambio constante se comprueba con las diferencias."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya observas patrones como relaciones",
+            "body": "Identificaste cambios, formulaste reglas reproducibles y verificaste tus conjeturas con más de una transición.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M5.02",
+        "globalId": "pe-sec1-mat-M5-02",
+        "sequence": 2,
+        "title": "Patrones con transformaciones",
+        "subtitle": "Una figura puede crecer, girar o alternar siguiendo una regla",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.regularidad.transformaciones_patrones",
+        "learningOutcome": "Analiza patrones figurales y alternantes describiendo transformaciones y cantidades por posición.",
+        "successEvidence": "Predice una figura o cantidad lejana justificando qué transformación se repite.",
+        "prerequisites": [
+          "Identifica regularidades",
+          "Reconoce posición y orientación"
+        ],
+        "misconceptions": [
+          "Atender solo al número de elementos",
+          "Confundir rotación con crecimiento",
+          "Extender por apariencia sin enunciar la transformación"
+        ],
+        "screens": [
+          {
+            "id": "M5.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "No todo patrón consiste en sumar números",
+            "body": "Una flecha puede girar 90° en cada paso sin cambiar de tamaño. En otro patrón puede alternar color y, al mismo tiempo, aumentar un bloque. Hay que describir cada transformación.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M5.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.regularidad.transformaciones_patrones",
+            "difficulty": 1,
+            "prompt": "Una flecha apunta arriba, derecha, abajo, izquierda y repite. ¿Qué transformación ocurre?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Compara la dirección entre pasos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Añade una flecha.",
+                "feedback": "Revisa la idea clave. La orientación cambia con un ciclo de cuatro posiciones."
+              },
+              {
+                "id": "b",
+                "text": "Gira 90° a la derecha en cada paso.",
+                "feedback": "Correcto. La orientación cambia con un ciclo de cuatro posiciones."
+              },
+              {
+                "id": "c",
+                "text": "Duplica su tamaño.",
+                "feedback": "Revisa la idea clave. La orientación cambia con un ciclo de cuatro posiciones."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Separa atributos",
+            "body": "Observa cantidad, forma, color, orientación y posición. Un atributo puede cambiar mientras otro permanece.",
+            "examples": [
+              "Gira 90°; conserva tamaño",
+              "Alterna claro/oscuro; añade 1 bloque"
+            ],
+            "memoryAid": "Pregunta qué cambia y qué no."
+          },
+          {
+            "id": "M5.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Busca el ciclo",
+            "body": "Si una transformación se repite cada cierto número de pasos, identifica la longitud del ciclo.",
+            "examples": [
+              "A, B, C, A, B, C: ciclo 3",
+              "arriba, derecha, abajo, izquierda: ciclo 4"
+            ],
+            "memoryAid": "Divide la posición entre la longitud del ciclo."
+          },
+          {
+            "id": "M5.02-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.transformaciones_patrones",
+            "difficulty": 1,
+            "prompt": "En el ciclo rojo, azul, verde, ¿qué color ocupa la posición 5?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Repite grupos de tres.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Rojo",
+                "feedback": "Revisa la idea clave. Las posiciones 1 y 4 son rojas; 2 y 5 son azules."
+              },
+              {
+                "id": "b",
+                "text": "Verde",
+                "feedback": "Revisa la idea clave. Las posiciones 1 y 4 son rojas; 2 y 5 son azules."
+              },
+              {
+                "id": "c",
+                "text": "Azul",
+                "feedback": "Correcto. Las posiciones 1 y 4 son rojas; 2 y 5 son azules."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M5.02-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.transformaciones_patrones",
+            "difficulty": 1,
+            "prompt": "Relaciona patrón y transformación.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Las flechas conservan forma y cambian orientación.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "2, 4, 6, 8",
+                "rightId": "r1",
+                "right": "Añadir 2"
+              },
+              {
+                "leftId": "l2",
+                "left": "▲, ▶, ▼, ◀",
+                "rightId": "r2",
+                "right": "Girar 90°"
+              },
+              {
+                "leftId": "l3",
+                "left": "A, B, A, B",
+                "rightId": "r3",
+                "right": "Alternar dos estados"
+              }
+            ],
+            "feedbackCorrect": "Diferenciaste crecimiento, giro y alternancia.",
+            "feedbackIncorrect": "No todos los patrones cambian cantidad."
+          },
+          {
+            "id": "M5.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Cuenta una figura general",
+            "body": "Descompón la figura en una parte fija y una parte que crece con la posición.",
+            "examples": [
+              "2 bloques fijos + 3 por etapa",
+              "Figura n: 2 + 3n"
+            ],
+            "memoryAid": "Fijo más crecimiento."
+          },
+          {
+            "id": "M5.02-S08",
+            "type": "number_input",
+            "role": "independent_practice",
+            "skillId": "mat.regularidad.transformaciones_patrones",
+            "difficulty": 1,
+            "prompt": "Una figura tiene 2 bloques fijos y añade 3 por número de etapa. ¿Cuántos tiene en la etapa 4?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "2 + 12.",
+            "answer": {
+              "kind": "number",
+              "value": 14
+            },
+            "feedbackCorrect": "2 + 3×4 = 14.",
+            "feedbackIncorrect": "Separa la parte fija de la parte que crece."
+          },
+          {
+            "id": "M5.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.regularidad.transformaciones_patrones",
+            "difficulty": 2,
+            "prompt": "Nora cuenta 1 elemento en todas las figuras y concluye que no hay patrón. Las figuras giran. ¿Qué omitió?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Observa más que el conteo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda figura debe crecer.",
+                "feedback": "Revisa la idea clave. Un patrón puede transformar dirección sin cambiar cantidad."
+              },
+              {
+                "id": "b",
+                "text": "La orientación también es un atributo que puede seguir una regla.",
+                "feedback": "Correcto. Un patrón puede transformar dirección sin cambiar cantidad."
+              },
+              {
+                "id": "c",
+                "text": "El número de elementos debe duplicarse.",
+                "feedback": "Revisa la idea clave. Un patrón puede transformar dirección sin cambiar cantidad."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.regularidad.transformaciones_patrones",
+            "difficulty": 1,
+            "prompt": "Un mosaico alterna blanco y negro empezando en blanco. ¿Qué color tendrá la posición 20?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Determina si 20 es par o impar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Blanco",
+                "feedback": "Revisa la idea clave. Las posiciones pares son negras en este ciclo de longitud 2."
+              },
+              {
+                "id": "b",
+                "text": "No se puede saber",
+                "feedback": "Revisa la idea clave. Las posiciones pares son negras en este ciclo de longitud 2."
+              },
+              {
+                "id": "c",
+                "text": "Negro",
+                "feedback": "Correcto. Las posiciones pares son negras en este ciclo de longitud 2."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M5.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.regularidad.transformaciones_patrones",
+            "difficulty": 1,
+            "prompt": "¿Cuál descripción es más completa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Elige la instrucción que permite reconstruir.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Conserva dos cuadrados centrales y añade uno a cada extremo en cada etapa.",
+                "feedback": "Correcto. La regla precisa qué permanece, qué cambia y cuánto cambia."
+              },
+              {
+                "id": "b",
+                "text": "La figura se ve más grande.",
+                "feedback": "Revisa la idea clave. La regla precisa qué permanece, qué cambia y cuánto cambia."
+              },
+              {
+                "id": "c",
+                "text": "Hay cuadrados.",
+                "feedback": "Revisa la idea clave. La regla precisa qué permanece, qué cambia y cuánto cambia."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees transformaciones, no solo cantidades",
+            "body": "Analizaste orientación, ciclos, alternancias y crecimiento figural mediante descripciones que permiten reconstruir el patrón.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M5.03",
+        "globalId": "pe-sec1-mat-M5-03",
+        "sequence": 3,
+        "title": "Diferencia constante",
+        "subtitle": "Las progresiones aritméticas cambian siempre por la misma cantidad",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.regularidad.diferencia_constante",
+        "learningOutcome": "Reconoce progresiones aritméticas, determina su diferencia y genera términos hacia adelante o atrás.",
+        "successEvidence": "Justifica que una sucesión es o no aritmética mediante sus diferencias consecutivas.",
+        "prerequisites": [
+          "Calcula diferencias",
+          "Identifica patrones aditivos"
+        ],
+        "misconceptions": [
+          "Confundir diferencia con cociente",
+          "Usar solo una transición",
+          "Perder el signo cuando la sucesión decrece"
+        ],
+        "screens": [
+          {
+            "id": "M5.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La diferencia puede ser positiva, cero o negativa",
+            "body": "En 14, 10, 6, 2 la diferencia es -4 porque cada término es cuatro menos que el anterior. La constancia, no el crecimiento, define la progresión aritmética.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M5.03-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.regularidad.diferencia_constante",
+            "difficulty": 1,
+            "prompt": "Halla la diferencia de 7, 12, 17, 22.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Siguiente menos anterior.",
+            "answer": {
+              "kind": "number",
+              "value": 5
+            },
+            "feedbackCorrect": "Cada término aumenta 5.",
+            "feedbackIncorrect": "Resta 12 - 7."
+          },
+          {
+            "id": "M5.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Resta en el mismo orden",
+            "body": "Calcula término siguiente menos término anterior. Repite en toda la lista.",
+            "examples": [
+              "10-14=-4",
+              "6-10=-4"
+            ],
+            "memoryAid": "Siguiente menos anterior."
+          },
+          {
+            "id": "M5.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "La diferencia genera términos",
+            "body": "Conocidos un término y la diferencia, suma d para avanzar y resta d para retroceder.",
+            "examples": [
+              "7, 12, 17 con d=5",
+              "Anterior a 7: 7-5=2"
+            ],
+            "memoryAid": "Avanza +d; retrocede -d."
+          },
+          {
+            "id": "M5.03-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.diferencia_constante",
+            "difficulty": 1,
+            "prompt": "Continúa 14, 10, 6, 2, __.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Resta cuatro.",
+            "answer": {
+              "kind": "number",
+              "value": -2
+            },
+            "feedbackCorrect": "La diferencia es -4; 2 - 4 = -2.",
+            "feedbackIncorrect": "Conserva el signo de la diferencia."
+          },
+          {
+            "id": "M5.03-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.diferencia_constante",
+            "difficulty": 1,
+            "prompt": "Relaciona progresión y diferencia.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Una sucesión constante tiene diferencia cero.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "3, 6, 9, 12",
+                "rightId": "r1",
+                "right": "d = 3"
+              },
+              {
+                "leftId": "l2",
+                "left": "20, 15, 10, 5",
+                "rightId": "r2",
+                "right": "d = -5"
+              },
+              {
+                "leftId": "l3",
+                "left": "4, 4, 4, 4",
+                "rightId": "r3",
+                "right": "d = 0"
+              }
+            ],
+            "feedbackCorrect": "Reconociste diferencias positivas, negativas y nulas.",
+            "feedbackIncorrect": "Calcula siguiente menos anterior."
+          },
+          {
+            "id": "M5.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Comprueba todas las diferencias",
+            "body": "Si una diferencia cambia, la sucesión no es aritmética aunque parezca regular de otra manera.",
+            "examples": [
+              "2, 4, 8: diferencias 2 y 4",
+              "3, 6, 9: diferencias 3 y 3"
+            ],
+            "memoryAid": "Constante significa igual en cada paso."
+          },
+          {
+            "id": "M5.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.regularidad.diferencia_constante",
+            "difficulty": 1,
+            "prompt": "¿Es 2, 5, 8, 11 una progresión aritmética?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Comprueba 5-2, 8-5 y 11-8.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sí, todas las diferencias consecutivas son 3.",
+                "feedback": "Correcto. La diferencia constante basta; no importa el valor inicial."
+              },
+              {
+                "id": "b",
+                "text": "No, porque no empieza en cero.",
+                "feedback": "Revisa la idea clave. La diferencia constante basta; no importa el valor inicial."
+              },
+              {
+                "id": "c",
+                "text": "Sí, porque todos son impares.",
+                "feedback": "Revisa la idea clave. La diferencia constante basta; no importa el valor inicial."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.regularidad.diferencia_constante",
+            "difficulty": 2,
+            "prompt": "Leo afirma que 2, 4, 8, 16 es aritmética porque tiene patrón. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Calcula las tres diferencias.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda secuencia con patrón es aritmética.",
+                "feedback": "Revisa la idea clave. «Aritmética» exige una diferencia aditiva constante."
+              },
+              {
+                "id": "b",
+                "text": "Tiene patrón multiplicativo, pero sus diferencias 2, 4 y 8 no son constantes.",
+                "feedback": "Correcto. «Aritmética» exige una diferencia aditiva constante."
+              },
+              {
+                "id": "c",
+                "text": "La diferencia es siempre 2.",
+                "feedback": "Revisa la idea clave. «Aritmética» exige una diferencia aditiva constante."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.03-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.regularidad.diferencia_constante",
+            "difficulty": 1,
+            "prompt": "Una progresión tiene término 30 y diferencia -6. ¿Cuál es el término siguiente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Resta seis.",
+            "answer": {
+              "kind": "number",
+              "value": 24
+            },
+            "feedbackCorrect": "30 + (-6) = 24.",
+            "feedbackIncorrect": "Avanzar significa sumar la diferencia."
+          },
+          {
+            "id": "M5.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.regularidad.diferencia_constante",
+            "difficulty": 1,
+            "prompt": "¿Qué procedimiento encuentra el término anterior a 11 si d=4?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Usa la operación inversa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "11 - 4 = 7",
+                "feedback": "Correcto. Para retroceder un paso se deshace el aumento."
+              },
+              {
+                "id": "b",
+                "text": "11 + 4 = 15",
+                "feedback": "Revisa la idea clave. Para retroceder un paso se deshace el aumento."
+              },
+              {
+                "id": "c",
+                "text": "11 ÷ 4",
+                "feedback": "Revisa la idea clave. Para retroceder un paso se deshace el aumento."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reconoces progresiones aritméticas",
+            "body": "Calculaste diferencias con signo, avanzaste y retrocediste términos y comprobaste toda la secuencia antes de clasificarla.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M5.04",
+        "globalId": "pe-sec1-mat-M5-04",
+        "sequence": 4,
+        "title": "Regla verbal",
+        "subtitle": "Explicar el patrón con palabras prepara el salto al símbolo",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.regularidad.regla_verbal",
+        "learningOutcome": "Formula y evalúa reglas verbales recursivas y por posición para progresiones aritméticas.",
+        "successEvidence": "Escribe una regla con inicio, transformación y relación con la posición, y la usa para obtener términos.",
+        "prerequisites": [
+          "Reconoce diferencia constante",
+          "Distingue término y posición"
+        ],
+        "misconceptions": [
+          "Decir solo «suma» sin cuánto",
+          "Confundir posición con valor",
+          "Dar una regla recursiva cuando se pide acceso directo"
+        ],
+        "screens": [
+          {
+            "id": "M5.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Hay dos maneras útiles de contar la misma historia",
+            "body": "Para 5, 8, 11, 14, la regla recursiva dice «empieza en 5 y suma 3». La regla por posición dice «triplica la posición y suma 2». Ambas generan la sucesión.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M5.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.regularidad.regla_verbal",
+            "difficulty": 1,
+            "prompt": "¿Cuál regla recursiva genera 5, 8, 11, 14?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Mira el primer término y cada cambio.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Empieza en 3 y suma 5.",
+                "feedback": "Revisa la idea clave. La regla incluye valor inicial y diferencia."
+              },
+              {
+                "id": "b",
+                "text": "Empieza en 5 y suma 3 cada vez.",
+                "feedback": "Correcto. La regla incluye valor inicial y diferencia."
+              },
+              {
+                "id": "c",
+                "text": "Multiplica siempre por 3.",
+                "feedback": "Revisa la idea clave. La regla incluye valor inicial y diferencia."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Regla recursiva: desde el anterior",
+            "body": "Indica el primer término y cómo obtener cada siguiente.",
+            "examples": [
+              "Empieza en 5",
+              "Añade 3 cada vez"
+            ],
+            "memoryAid": "Inicio más cambio."
+          },
+          {
+            "id": "M5.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Regla por posición: llega directamente",
+            "body": "Relaciona el número de posición n con el valor del término, sin calcular todos los anteriores.",
+            "examples": [
+              "Posición 1: 3×1+2=5",
+              "Posición 10: 3×10+2=32"
+            ],
+            "memoryAid": "Crecimiento por posición más ajuste."
+          },
+          {
+            "id": "M5.04-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.regla_verbal",
+            "difficulty": 1,
+            "prompt": "Con la regla «empieza en 5 y suma 3», ¿cuál es el quinto término?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "14 + 3.",
+            "answer": {
+              "kind": "number",
+              "value": 17
+            },
+            "feedbackCorrect": "Después de 14 se suma 3: 17.",
+            "feedbackIncorrect": "Continúa una vez más."
+          },
+          {
+            "id": "M5.04-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.regla_verbal",
+            "difficulty": 1,
+            "prompt": "Relaciona sucesión y regla verbal.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Una diferencia cero conserva el valor.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "2, 6, 10, 14",
+                "rightId": "r1",
+                "right": "Empieza en 2 y suma 4"
+              },
+              {
+                "leftId": "l2",
+                "left": "12, 9, 6, 3",
+                "rightId": "r2",
+                "right": "Empieza en 12 y resta 3"
+              },
+              {
+                "leftId": "l3",
+                "left": "7, 7, 7, 7",
+                "rightId": "r3",
+                "right": "Empieza en 7 y conserva el valor"
+              }
+            ],
+            "feedbackCorrect": "Cada regla expresa inicio y transformación.",
+            "feedbackIncorrect": "Comprueba al menos dos pasos."
+          },
+          {
+            "id": "M5.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Prueba la regla en varias posiciones",
+            "body": "Una frase clara debe producir los términos conocidos y permitir calcular uno nuevo.",
+            "examples": [
+              "n=1 produce 5",
+              "n=4 produce 14"
+            ],
+            "memoryAid": "Sustituye, compara y recién acepta."
+          },
+          {
+            "id": "M5.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.regularidad.regla_verbal",
+            "difficulty": 1,
+            "prompt": "¿Qué regla por posición produce 4, 7, 10, 13?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Prueba la posición 1 y la 2.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Triplica la posición y suma 1.",
+                "feedback": "Correcto. Para n=1 da 4 y al aumentar n en uno, el valor aumenta 3."
+              },
+              {
+                "id": "b",
+                "text": "Suma 3 a la posición.",
+                "feedback": "Revisa la idea clave. Para n=1 da 4 y al aumentar n en uno, el valor aumenta 3."
+              },
+              {
+                "id": "c",
+                "text": "Cuadruplica la posición.",
+                "feedback": "Revisa la idea clave. Para n=1 da 4 y al aumentar n en uno, el valor aumenta 3."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.regularidad.regla_verbal",
+            "difficulty": 2,
+            "prompt": "Mía escribe «la regla es sumar». ¿Qué falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Pregunta si otra persona podría construir la secuencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nada; cualquier suma sirve.",
+                "feedback": "Revisa la idea clave. Una regla debe ser inequívoca y reproducible."
+              },
+              {
+                "id": "b",
+                "text": "Indicar cuánto se suma, desde qué término se empieza y si habla del anterior o de la posición.",
+                "feedback": "Correcto. Una regla debe ser inequívoca y reproducible."
+              },
+              {
+                "id": "c",
+                "text": "Solo falta un dibujo.",
+                "feedback": "Revisa la idea clave. Una regla debe ser inequívoca y reproducible."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.04-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.regularidad.regla_verbal",
+            "difficulty": 1,
+            "prompt": "La regla dice «multiplica la posición por 4 y resta 1». ¿Cuál es el término 6?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "24 - 1.",
+            "answer": {
+              "kind": "number",
+              "value": 23
+            },
+            "feedbackCorrect": "4×6 - 1 = 23.",
+            "feedbackIncorrect": "Sustituye posición por 6."
+          },
+          {
+            "id": "M5.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.regularidad.regla_verbal",
+            "difficulty": 1,
+            "prompt": "¿Qué ventaja tiene una regla por posición?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Piensa en hallar el término 100.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Permite calcular un término lejano sin generar todos los anteriores.",
+                "feedback": "Correcto. La posición se transforma directamente en el valor buscado."
+              },
+              {
+                "id": "b",
+                "text": "Evita verificar la regla.",
+                "feedback": "Revisa la idea clave. La posición se transforma directamente en el valor buscado."
+              },
+              {
+                "id": "c",
+                "text": "Solo funciona para el segundo término.",
+                "feedback": "Revisa la idea clave. La posición se transforma directamente en el valor buscado."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya conviertes una regularidad en instrucciones claras",
+            "body": "Formulaste reglas recursivas y por posición, las probaste y reconociste cuándo conviene cada una.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M5.05",
+        "globalId": "pe-sec1-mat-M5-05",
+        "sequence": 5,
+        "title": "Regla algebraica",
+        "subtitle": "La letra representa cualquier posición posible",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.regularidad.regla_algebraica",
+        "learningOutcome": "Representa progresiones aritméticas con expresiones algebraicas de la forma an+b e interpreta cada componente.",
+        "successEvidence": "Construye una regla algebraica desde una sucesión y verifica que reproduce términos conocidos.",
+        "prerequisites": [
+          "Formula reglas por posición",
+          "Opera con enteros"
+        ],
+        "misconceptions": [
+          "Tratar n como un objeto y no como posición",
+          "Usar la diferencia sin ajustar el inicio",
+          "Confundir 3n con n+3"
+        ],
+        "screens": [
+          {
+            "id": "M5.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La letra n guarda el lugar que quieres consultar",
+            "body": "En 5, 8, 11, 14 la diferencia es 3. La regla 3n+2 funciona porque para n=1 da 5 y cada aumento de una posición añade 3.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M5.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.regularidad.regla_algebraica",
+            "difficulty": 1,
+            "prompt": "En la regla 4n+1, ¿qué indica 4?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Compara la regla cuando n aumenta uno.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El primer término siempre.",
+                "feedback": "Revisa la idea clave. El coeficiente de n es la diferencia constante."
+              },
+              {
+                "id": "b",
+                "text": "El aumento del valor cuando la posición crece en uno.",
+                "feedback": "Correcto. El coeficiente de n es la diferencia constante."
+              },
+              {
+                "id": "c",
+                "text": "La posición elegida.",
+                "feedback": "Revisa la idea clave. El coeficiente de n es la diferencia constante."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "El coeficiente marca el crecimiento",
+            "body": "En una progresión aritmética, el número que multiplica a n coincide con la diferencia.",
+            "examples": [
+              "d=3 → empieza con 3n",
+              "d=-2 → empieza con -2n"
+            ],
+            "memoryAid": "Coeficiente de n = cambio por posición."
+          },
+          {
+            "id": "M5.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "El ajuste coloca el primer término",
+            "body": "Después de usar dn, compara el valor obtenido en n=1 con el primer término. La diferencia indica qué sumar o restar.",
+            "examples": [
+              "d=3: 3×1=3; para llegar a 5 suma 2",
+              "aₙ=3n+2"
+            ],
+            "memoryAid": "Crece con dn; ajusta con b."
+          },
+          {
+            "id": "M5.05-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.regla_algebraica",
+            "difficulty": 1,
+            "prompt": "Calcula 3n+2 cuando n=4.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Multiplica antes de sumar.",
+            "answer": {
+              "kind": "number",
+              "value": 14
+            },
+            "feedbackCorrect": "3×4 + 2 = 14.",
+            "feedbackIncorrect": "Sustituye n por 4."
+          },
+          {
+            "id": "M5.05-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.regla_algebraica",
+            "difficulty": 1,
+            "prompt": "Relaciona sucesión y regla.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Para la sucesión decreciente el coeficiente es negativo.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "5, 8, 11, 14",
+                "rightId": "r1",
+                "right": "3n + 2"
+              },
+              {
+                "leftId": "l2",
+                "left": "2, 6, 10, 14",
+                "rightId": "r2",
+                "right": "4n - 2"
+              },
+              {
+                "leftId": "l3",
+                "left": "10, 8, 6, 4",
+                "rightId": "r3",
+                "right": "-2n + 12"
+              }
+            ],
+            "feedbackCorrect": "Cada coeficiente coincide con la diferencia y el ajuste coloca el inicio.",
+            "feedbackIncorrect": "Prueba n=1 y n=2."
+          },
+          {
+            "id": "M5.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Sustituir es comprobar",
+            "body": "Evalúa la regla en al menos tres posiciones conocidas. Si falla una, revisa coeficiente o ajuste.",
+            "examples": [
+              "n=2: 3×2+2=8",
+              "n=4: 3×4+2=14"
+            ],
+            "memoryAid": "Una regla debe reproducir toda la tabla."
+          },
+          {
+            "id": "M5.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.regularidad.regla_algebraica",
+            "difficulty": 1,
+            "prompt": "¿Qué regla genera 7, 12, 17, 22?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Empieza con 5n y ajusta el primer término.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5n + 2",
+                "feedback": "Correcto. La diferencia es 5 y para n=1 se necesita 5+2=7."
+              },
+              {
+                "id": "b",
+                "text": "7n + 5",
+                "feedback": "Revisa la idea clave. La diferencia es 5 y para n=1 se necesita 5+2=7."
+              },
+              {
+                "id": "c",
+                "text": "5n + 7",
+                "feedback": "Revisa la idea clave. La diferencia es 5 y para n=1 se necesita 5+2=7."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.regularidad.regla_algebraica",
+            "difficulty": 2,
+            "prompt": "Tomás propone 3n para 5, 8, 11, 14. ¿Qué falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Evalúa la propuesta en n=1.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cambiar 3n por n+3.",
+                "feedback": "Revisa la idea clave. La diferencia aporta el coeficiente, pero todavía hay que colocar el inicio."
+              },
+              {
+                "id": "b",
+                "text": "Un ajuste de +2, porque 3×1 da 3 y el primer término debe ser 5.",
+                "feedback": "Correcto. La diferencia aporta el coeficiente, pero todavía hay que colocar el inicio."
+              },
+              {
+                "id": "c",
+                "text": "Nada; 3n ya da 5 cuando n=1.",
+                "feedback": "Revisa la idea clave. La diferencia aporta el coeficiente, pero todavía hay que colocar el inicio."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.05-S10",
+            "type": "number_input",
+            "role": "transfer",
+            "skillId": "mat.regularidad.regla_algebraica",
+            "difficulty": 1,
+            "prompt": "Con aₙ = 6n - 1, ¿cuál es el término 10?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "60 - 1.",
+            "answer": {
+              "kind": "number",
+              "value": 59
+            },
+            "feedbackCorrect": "6×10 - 1 = 59.",
+            "feedbackIncorrect": "Sustituye n por 10."
+          },
+          {
+            "id": "M5.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.regularidad.regla_algebraica",
+            "difficulty": 1,
+            "prompt": "¿Qué verificación apoya que 2n+3 representa 5, 7, 9, 11?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Sustituye varias posiciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Para n=1,2,3,4 produce 5,7,9,11 respectivamente.",
+                "feedback": "Correcto. La evidencia decisiva es que la regla reproduce los pares posición-valor."
+              },
+              {
+                "id": "b",
+                "text": "El número 2 aparece en la fórmula.",
+                "feedback": "Revisa la idea clave. La evidencia decisiva es que la regla reproduce los pares posición-valor."
+              },
+              {
+                "id": "c",
+                "text": "La fórmula tiene una letra.",
+                "feedback": "Revisa la idea clave. La evidencia decisiva es que la regla reproduce los pares posición-valor."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya escribes patrones con lenguaje algebraico",
+            "body": "Interpretaste coeficiente y ajuste, construiste reglas an+b y las verificaste sustituyendo varias posiciones.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M5.06",
+        "globalId": "pe-sec1-mat-M5-06",
+        "sequence": 6,
+        "title": "Tabla, gráfico y símbolo",
+        "subtitle": "La misma relación puede verse como pares, puntos o fórmula",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.regularidad.representaciones",
+        "learningOutcome": "Conecta una regla lineal con su tabla de valores y los puntos correspondientes en un gráfico cartesiano.",
+        "successEvidence": "Completa y traduce entre tabla, pares ordenados, gráfico y regla explicando qué representa cada eje.",
+        "prerequisites": [
+          "Evalúa reglas algebraicas",
+          "Ubica pares ordenados básicos"
+        ],
+        "misconceptions": [
+          "Invertir posición y valor",
+          "Unir puntos sin interpretar el contexto discreto",
+          "Leer la pendiente como valor inicial"
+        ],
+        "screens": [
+          {
+            "id": "M5.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Cada fila de la tabla se convierte en un punto",
+            "body": "Para aₙ=2n+1, la tabla contiene (1,3), (2,5), (3,7). En el gráfico, el eje horizontal muestra la posición n y el vertical el valor aₙ.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M5.06-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.regularidad.representaciones",
+            "difficulty": 1,
+            "prompt": "Para aₙ=2n+1, calcula a₃.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "6 + 1.",
+            "answer": {
+              "kind": "number",
+              "value": 7
+            },
+            "feedbackCorrect": "2×3 + 1 = 7.",
+            "feedbackIncorrect": "Sustituye n por 3."
+          },
+          {
+            "id": "M5.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Construye pares posición-valor",
+            "body": "Sustituye cada posición en la regla y registra el par (n, aₙ). El orden de las coordenadas importa.",
+            "examples": [
+              "n=2 → a₂=5 → (2,5)",
+              "n=4 → a₄=9 → (4,9)"
+            ],
+            "memoryAid": "Horizontal primero; vertical después."
+          },
+          {
+            "id": "M5.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Lee cambio vertical por paso horizontal",
+            "body": "En aₙ=2n+1, avanzar una posición aumenta dos unidades. En la tabla es diferencia; en el gráfico es inclinación.",
+            "examples": [
+              "de (1,3) a (2,5): +1 horizontal, +2 vertical",
+              "d=2"
+            ],
+            "memoryAid": "Una relación, varios lenguajes."
+          },
+          {
+            "id": "M5.06-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.representaciones",
+            "difficulty": 1,
+            "prompt": "¿Qué par corresponde a la posición 4 si aₙ=2n+1?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Calcula a₄ y conserva el orden.",
+            "options": [
+              {
+                "id": "a",
+                "text": "(9, 4)",
+                "feedback": "Revisa la idea clave. La primera coordenada es n y la segunda es el valor."
+              },
+              {
+                "id": "b",
+                "text": "(4, 9)",
+                "feedback": "Correcto. La primera coordenada es n y la segunda es el valor."
+              },
+              {
+                "id": "c",
+                "text": "(4, 8)",
+                "feedback": "Revisa la idea clave. La primera coordenada es n y la segunda es el valor."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.06-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.representaciones",
+            "difficulty": 1,
+            "prompt": "Relaciona representación y dato.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Una fila de tabla forma un par ordenado.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Regla aₙ=3n",
+                "rightId": "r1",
+                "right": "Valor triple de la posición"
+              },
+              {
+                "leftId": "l2",
+                "left": "Fila n=4, aₙ=12",
+                "rightId": "r2",
+                "right": "Punto (4,12)"
+              },
+              {
+                "leftId": "l3",
+                "left": "Diferencia 3",
+                "rightId": "r3",
+                "right": "Sube 3 por cada paso horizontal"
+              }
+            ],
+            "feedbackCorrect": "Tradujiste la misma relación entre símbolo, tabla y gráfico.",
+            "feedbackIncorrect": "Identifica posición como entrada y valor como salida."
+          },
+          {
+            "id": "M5.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Respeta el contexto",
+            "body": "Si n cuenta figuras o semanas, suele tomar valores enteros. La línea puede mostrar tendencia, pero no todo punto intermedio representa una figura real.",
+            "examples": [
+              "Figura 2,5 puede no existir",
+              "Puntos discretos para posiciones enteras"
+            ],
+            "memoryAid": "El gráfico también debe respetar qué se cuenta."
+          },
+          {
+            "id": "M5.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.regularidad.representaciones",
+            "difficulty": 1,
+            "prompt": "La tabla muestra n: 1,2,3 y aₙ: 4,7,10. ¿Cuál regla coincide?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Prueba cada regla con n=1 y n=2.",
+            "options": [
+              {
+                "id": "a",
+                "text": "aₙ=3n+1",
+                "feedback": "Correcto. La diferencia es 3 y el ajuste +1 coloca el primer valor."
+              },
+              {
+                "id": "b",
+                "text": "aₙ=n+3",
+                "feedback": "Revisa la idea clave. La diferencia es 3 y el ajuste +1 coloca el primer valor."
+              },
+              {
+                "id": "c",
+                "text": "aₙ=4n",
+                "feedback": "Revisa la idea clave. La diferencia es 3 y el ajuste +1 coloca el primer valor."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.regularidad.representaciones",
+            "difficulty": 2,
+            "prompt": "Eva ubicó la fila n=2, aₙ=7 como punto (7,2). ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Revisa qué representa cada eje.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe sumar las coordenadas.",
+                "feedback": "Revisa la idea clave. El par ordenado conserva entrada horizontal y salida vertical."
+              },
+              {
+                "id": "b",
+                "text": "Intercambió los ejes; la posición va primero, así que es (2,7).",
+                "feedback": "Correcto. El par ordenado conserva entrada horizontal y salida vertical."
+              },
+              {
+                "id": "c",
+                "text": "Debe usar (9,0).",
+                "feedback": "Revisa la idea clave. El par ordenado conserva entrada horizontal y salida vertical."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.regularidad.representaciones",
+            "difficulty": 1,
+            "prompt": "Un patrón cuenta figuras enteras. ¿Qué puntos representan términos reales?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Pregunta si existe la figura 2,5.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todos los decimales entre dos puntos.",
+                "feedback": "Revisa la idea clave. La representación debe respetar el dominio discreto de posiciones."
+              },
+              {
+                "id": "b",
+                "text": "Solo el punto más alto.",
+                "feedback": "Revisa la idea clave. La representación debe respetar el dominio discreto de posiciones."
+              },
+              {
+                "id": "c",
+                "text": "Los puntos cuyas posiciones n son enteros positivos del patrón.",
+                "feedback": "Correcto. La representación debe respetar el dominio discreto de posiciones."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M5.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.regularidad.representaciones",
+            "difficulty": 1,
+            "prompt": "¿Qué comparten tabla, gráfico y fórmula de una misma relación?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca la información que se conserva.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los mismos pares posición-valor y el mismo cambio constante.",
+                "feedback": "Correcto. Cambiar de representación no cambia la relación matemática."
+              },
+              {
+                "id": "b",
+                "text": "Solo los colores.",
+                "feedback": "Revisa la idea clave. Cambiar de representación no cambia la relación matemática."
+              },
+              {
+                "id": "c",
+                "text": "Ningún dato; son relaciones distintas.",
+                "feedback": "Revisa la idea clave. Cambiar de representación no cambia la relación matemática."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya traduces una relación entre representaciones",
+            "body": "Conectaste regla, tabla y puntos del gráfico, manteniendo el orden de las variables y las restricciones del contexto.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M5.07",
+        "globalId": "pe-sec1-mat-M5-07",
+        "sequence": 7,
+        "title": "Término desconocido",
+        "subtitle": "Encontrar una posición o un valor exige deshacer operaciones con orden",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.regularidad.termino_desconocido",
+        "learningOutcome": "Determina términos o posiciones desconocidas en progresiones aritméticas usando sustitución y operaciones inversas.",
+        "successEvidence": "Plantea una igualdad desde el patrón, despeja el valor desconocido y comprueba en la regla original.",
+        "prerequisites": [
+          "Usa reglas algebraicas",
+          "Aplica operaciones inversas"
+        ],
+        "misconceptions": [
+          "Confundir término con posición",
+          "Deshacer suma antes de reconocer la multiplicación",
+          "No comprobar que la posición sea válida"
+        ],
+        "screens": [
+          {
+            "id": "M5.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "A veces conoces la posición; otras, el valor",
+            "body": "Con aₙ=3n+2, para hallar el término 6 sustituyes n=6. Para saber qué posición tiene valor 20, resuelves 3n+2=20: restas 2 y divides entre 3; n=6.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M5.07-S02",
+            "type": "number_input",
+            "role": "diagnostic",
+            "skillId": "mat.regularidad.termino_desconocido",
+            "difficulty": 1,
+            "prompt": "Si aₙ=4n+1, halla a₅.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "20 + 1.",
+            "answer": {
+              "kind": "number",
+              "value": 21
+            },
+            "feedbackCorrect": "4×5 + 1 = 21.",
+            "feedbackIncorrect": "Sustituye n por 5."
+          },
+          {
+            "id": "M5.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Si conoces n, evalúa",
+            "body": "Sustituye la posición y respeta la jerarquía de operaciones.",
+            "examples": [
+              "a₆=3×6+2=20",
+              "a₁₀=3×10+2=32"
+            ],
+            "memoryAid": "Posición entra; término sale."
+          },
+          {
+            "id": "M5.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Si conoces el término, deshaz",
+            "body": "Iguala la regla al valor y aplica operaciones inversas en orden contrario.",
+            "examples": [
+              "3n+2=20",
+              "3n=18",
+              "n=6"
+            ],
+            "memoryAid": "Quita ajuste; luego divide por coeficiente."
+          },
+          {
+            "id": "M5.07-S05",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.termino_desconocido",
+            "difficulty": 1,
+            "prompt": "En aₙ=3n+2, ¿qué posición tiene valor 20?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "20 - 2 y luego ÷3.",
+            "answer": {
+              "kind": "number",
+              "value": 6
+            },
+            "feedbackCorrect": "3n+2=20; 3n=18; n=6.",
+            "feedbackIncorrect": "Deshaz primero el +2."
+          },
+          {
+            "id": "M5.07-S06",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.termino_desconocido",
+            "difficulty": 1,
+            "prompt": "Ordena la solución de 5n-3=32.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Primero elimina el -3.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Sumar 3 a ambos lados: 5n=35"
+              },
+              {
+                "id": "b",
+                "text": "Dividir ambos lados entre 5: n=7"
+              },
+              {
+                "id": "c",
+                "text": "Comprobar: 5×7-3=32"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c"
+            ],
+            "feedbackCorrect": "Aplicaste operaciones inversas y verificaste.",
+            "feedbackIncorrect": "Deshaz las operaciones en orden contrario."
+          },
+          {
+            "id": "M5.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Comprueba y mira el contexto",
+            "body": "Sustituye la posición encontrada. Si resulta negativa o no entera, puede no representar una etapa válida.",
+            "examples": [
+              "3×6+2=20",
+              "n=2,5 no es figura entera"
+            ],
+            "memoryAid": "La solución debe funcionar y tener sentido."
+          },
+          {
+            "id": "M5.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.regularidad.termino_desconocido",
+            "difficulty": 1,
+            "prompt": "La sucesión sigue aₙ=2n+5. ¿Aparece el valor 19?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Iguala la regla a 19.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sí, en n=7.",
+                "feedback": "Correcto. 2n+5=19; 2n=14; n=7."
+              },
+              {
+                "id": "b",
+                "text": "Sí, en n=12.",
+                "feedback": "Revisa la idea clave. 2n+5=19; 2n=14; n=7."
+              },
+              {
+                "id": "c",
+                "text": "No aparece.",
+                "feedback": "Revisa la idea clave. 2n+5=19; 2n=14; n=7."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.regularidad.termino_desconocido",
+            "difficulty": 2,
+            "prompt": "Sol resolvió 4n+1=21 como n=21-1=20. ¿Qué paso falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "La n aún está multiplicada por 4.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe sumar 4.",
+                "feedback": "Revisa la idea clave. Deshacer el ajuste no deshace todavía la multiplicación."
+              },
+              {
+                "id": "b",
+                "text": "Después de restar 1 debe dividir entre 4: n=5.",
+                "feedback": "Correcto. Deshacer el ajuste no deshace todavía la multiplicación."
+              },
+              {
+                "id": "c",
+                "text": "Debe multiplicar 20 por 4.",
+                "feedback": "Revisa la idea clave. Deshacer el ajuste no deshace todavía la multiplicación."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.regularidad.termino_desconocido",
+            "difficulty": 1,
+            "prompt": "Una figura sigue aₙ=4n+2. Al resolver aₙ=20 se obtiene n=4,5. ¿Qué concluyes?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "No redondees una posición sin cambiar el término.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La figura 4,5 debe dibujarse igual.",
+                "feedback": "Revisa la idea clave. Las posiciones de figuras discretas son enteros positivos y la comprobación debe respetarlo."
+              },
+              {
+                "id": "b",
+                "text": "Toda respuesta decimal se redondea a 5.",
+                "feedback": "Revisa la idea clave. Las posiciones de figuras discretas son enteros positivos y la comprobación debe respetarlo."
+              },
+              {
+                "id": "c",
+                "text": "20 no corresponde a una figura de posición entera en este patrón.",
+                "feedback": "Correcto. Las posiciones de figuras discretas son enteros positivos y la comprobación debe respetarlo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M5.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.regularidad.termino_desconocido",
+            "difficulty": 1,
+            "prompt": "¿Qué comprobación valida que n=8 resuelve 3n-4=20?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Reemplaza n por 8.",
+            "options": [
+              {
+                "id": "a",
+                "text": "3×8-4=20",
+                "feedback": "Correcto. Sustituir la solución en la igualdad original confirma ambos lados."
+              },
+              {
+                "id": "b",
+                "text": "3+8-4=7",
+                "feedback": "Revisa la idea clave. Sustituir la solución en la igualdad original confirma ambos lados."
+              },
+              {
+                "id": "c",
+                "text": "20×8=160",
+                "feedback": "Revisa la idea clave. Sustituir la solución en la igualdad original confirma ambos lados."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya encuentras valores y posiciones desconocidas",
+            "body": "Distinguiste entrada y salida, usaste operaciones inversas y comprobaste que la solución pertenece al contexto.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M5.08",
+        "globalId": "pe-sec1-mat-M5-08",
+        "sequence": 8,
+        "title": "Validar y refutar",
+        "subtitle": "Un ejemplo puede apoyar; un contraejemplo puede derribar una afirmación universal",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.regularidad.validar_refutar",
+        "learningOutcome": "Evalúa afirmaciones sobre patrones usando sustitución, diferencias, justificaciones generales y contraejemplos.",
+        "successEvidence": "Decide si una afirmación es verdadera, presenta evidencia suficiente y distingue verificación parcial de demostración.",
+        "prerequisites": [
+          "Analiza progresiones y reglas",
+          "Sustituye valores"
+        ],
+        "misconceptions": [
+          "Creer que un ejemplo demuestra siempre",
+          "Refutar sin mostrar contraejemplo",
+          "Aceptar una regla porque coincide solo en el primer término"
+        ],
+        "screens": [
+          {
+            "id": "M5.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Comprobar un caso no siempre basta",
+            "body": "La afirmación «3n+2 siempre es impar» funciona para n=1, pero falla en n=2 porque produce 8. Ese único contraejemplo basta para refutar la palabra «siempre».",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M5.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.regularidad.validar_refutar",
+            "difficulty": 1,
+            "prompt": "¿Qué permite refutar «3n+2 siempre es impar»?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Busca un caso donde falle.",
+            "options": [
+              {
+                "id": "a",
+                "text": "n=1 produce 5, que es impar.",
+                "feedback": "Revisa la idea clave. Un contraejemplo permitido contradice la afirmación universal."
+              },
+              {
+                "id": "b",
+                "text": "n=2 produce 8, que es par.",
+                "feedback": "Correcto. Un contraejemplo permitido contradice la afirmación universal."
+              },
+              {
+                "id": "c",
+                "text": "La fórmula contiene un 2.",
+                "feedback": "Revisa la idea clave. Un contraejemplo permitido contradice la afirmación universal."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Identifica el alcance de la afirmación",
+            "body": "Palabras como siempre, nunca o para todo exigen que la regla funcione en cada caso permitido.",
+            "examples": [
+              "«Para todo n positivo»",
+              "«En los primeros cuatro términos»"
+            ],
+            "memoryAid": "Lee cuánto pretende afirmar."
+          },
+          {
+            "id": "M5.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Valida con estructura, no solo ejemplos",
+            "body": "Varios casos aumentan confianza, pero una explicación general muestra por qué debe cumplirse.",
+            "examples": [
+              "2n es par porque es 2 multiplicado por un entero",
+              "d=4 mantiene la misma paridad"
+            ],
+            "memoryAid": "Explica la razón que vale en todos los casos."
+          },
+          {
+            "id": "M5.08-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.validar_refutar",
+            "difficulty": 1,
+            "prompt": "¿Cuál explicación valida que 2n es par para todo entero n?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Busca una razón general.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Probé n=1 y n=2.",
+                "feedback": "Revisa la idea clave. La estructura de la expresión cubre todos los enteros."
+              },
+              {
+                "id": "b",
+                "text": "La expresión se ve par.",
+                "feedback": "Revisa la idea clave. La estructura de la expresión cubre todos los enteros."
+              },
+              {
+                "id": "c",
+                "text": "Es el producto de 2 por un entero, que es la definición de múltiplo de 2.",
+                "feedback": "Correcto. La estructura de la expresión cubre todos los enteros."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M5.08-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.regularidad.validar_refutar",
+            "difficulty": 1,
+            "prompt": "Relaciona evidencia y función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Un contraejemplo se usa contra una afirmación universal.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Sustituir n=1,2,3",
+                "rightId": "r1",
+                "right": "Verificación de casos"
+              },
+              {
+                "leftId": "l2",
+                "left": "Explicar que 5n es múltiplo de 5",
+                "rightId": "r2",
+                "right": "Justificación general"
+              },
+              {
+                "leftId": "l3",
+                "left": "Encontrar n=4 donde falla",
+                "rightId": "r3",
+                "right": "Contraejemplo"
+              }
+            ],
+            "feedbackCorrect": "Diferenciaste explorar, justificar y refutar.",
+            "feedbackIncorrect": "Pregunta cuánto alcance tiene cada evidencia."
+          },
+          {
+            "id": "M5.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Refuta con un contraejemplo válido",
+            "body": "Para negar una afirmación universal basta hallar un caso permitido donde falle y comprobarlo claramente.",
+            "examples": [
+              "n=2: 3n+2=8, no impar",
+              "El caso debe pertenecer al dominio"
+            ],
+            "memoryAid": "Un caso válido que falla es suficiente."
+          },
+          {
+            "id": "M5.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.regularidad.validar_refutar",
+            "difficulty": 1,
+            "prompt": "Para 4, 7, 10, 13, alguien propone aₙ=3n+1. ¿Qué verificación es suficiente en los datos mostrados?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Sustituye cada posición disponible.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Evaluar n=1,2,3,4 y obtener 4,7,10,13.",
+                "feedback": "Correcto. La regla debe reproducir todos los pares conocidos antes de usarse para predecir."
+              },
+              {
+                "id": "b",
+                "text": "Probar solo n=1.",
+                "feedback": "Revisa la idea clave. La regla debe reproducir todos los pares conocidos antes de usarse para predecir."
+              },
+              {
+                "id": "c",
+                "text": "Mirar que la fórmula tenga 3.",
+                "feedback": "Revisa la idea clave. La regla debe reproducir todos los pares conocidos antes de usarse para predecir."
+              }
+            ],
+            "correctOptionId": "a"
+          },
+          {
+            "id": "M5.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.regularidad.validar_refutar",
+            "difficulty": 2,
+            "prompt": "Una regla coincide con el primer término pero falla en el segundo. ¿Qué concluyes?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Busca la primera contradicción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe aceptarse por el primer acierto.",
+                "feedback": "Revisa la idea clave. Una regla del patrón debe explicar todos los datos válidos."
+              },
+              {
+                "id": "b",
+                "text": "Debe rechazarse o corregirse; coincidir una vez no valida toda la relación.",
+                "feedback": "Correcto. Una regla del patrón debe explicar todos los datos válidos."
+              },
+              {
+                "id": "c",
+                "text": "El segundo dato se elimina.",
+                "feedback": "Revisa la idea clave. Una regla del patrón debe explicar todos los datos válidos."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M5.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.regularidad.validar_refutar",
+            "difficulty": 1,
+            "prompt": "Se afirma: «En aₙ=4n+1 todos los términos son impares». ¿Qué argumento lo valida?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Analiza paridad de 4n y luego +1.",
+            "options": [
+              {
+                "id": "a",
+                "text": "n=1 da 5 y eso basta para siempre.",
+                "feedback": "Revisa la idea clave. El razonamiento usa la estructura para cubrir cada posición entera."
+              },
+              {
+                "id": "b",
+                "text": "El 4 y el 1 son positivos.",
+                "feedback": "Revisa la idea clave. El razonamiento usa la estructura para cubrir cada posición entera."
+              },
+              {
+                "id": "c",
+                "text": "4n es par para todo entero n; al sumar 1 se obtiene un impar.",
+                "feedback": "Correcto. El razonamiento usa la estructura para cubrir cada posición entera."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M5.08-S11",
+            "type": "ordering",
+            "role": "exit_ticket",
+            "skillId": "mat.regularidad.validar_refutar",
+            "difficulty": 1,
+            "prompt": "Ordena una evaluación rigurosa de una conjetura.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Explorar precede a justificar o refutar.",
+            "items": [
+              {
+                "id": "a",
+                "text": "Precisar la afirmación y su dominio"
+              },
+              {
+                "id": "b",
+                "text": "Probar casos para explorar"
+              },
+              {
+                "id": "c",
+                "text": "Buscar una razón general o un contraejemplo"
+              },
+              {
+                "id": "d",
+                "text": "Comunicar conclusión con evidencia"
+              }
+            ],
+            "correctOrder": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "feedbackCorrect": "La conclusión quedó vinculada al alcance y a la evidencia.",
+            "feedbackIncorrect": "Primero entiende exactamente qué se afirma."
+          },
+          {
+            "id": "M5.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya argumentas sobre patrones con evidencia",
+            "body": "Diferenciaste casos, razones generales y contraejemplos, y cerraste la unidad defendiendo o corrigiendo reglas con rigor.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
