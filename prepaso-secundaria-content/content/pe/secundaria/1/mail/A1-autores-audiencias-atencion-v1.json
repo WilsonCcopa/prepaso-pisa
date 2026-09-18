@@ -1,0 +1,2721 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "release": "2026.09.4",
+  "locale": "es-PE",
+  "unit": {
+    "id": "A1",
+    "globalId": "pe-sec1-mail-A1",
+    "sequence": 1,
+    "grade": "sec1",
+    "subject": "mail",
+    "title": "Autores, audiencias y economía de la atención",
+    "shortTitle": "Autores y atención",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb_y_al_borrador_mail_2029",
+    "officialStatusNote": "A1 es una secuencia editorial de Prepaso. Se alinea con la competencia transversal del CNEB y con el primer borrador preliminar del marco PISA 2029 MAIL publicado por la OCDE en enero de 2026, sujeto a revisión antes de su versión oficial.",
+    "unitOutcome": "Analiza quién crea, financia, distribuye y recibe mensajes, qué propósitos e incentivos intervienen y cómo el diseño influye en la atención.",
+    "finalEvidence": "Radiografía de una pieza mediática ficticia con autor, fuente, audiencia, propósito, modelo, señales de atención y decisión responsable.",
+    "curriculumAlignment": {
+      "frameworks": [
+        "CNEB Perú",
+        "PISA 2029 Media and Artificial Intelligence Literacy — first draft",
+        "EC-OECD AI Literacy Framework for Primary and Secondary Education 2026"
+      ],
+      "cnebCompetency": "Se desenvuelve en entornos virtuales generados por las TIC",
+      "cnebCapacities": [
+        "Gestiona información del entorno virtual",
+        "Interactúa en entornos virtuales",
+        "Crea objetos virtuales en diversos formatos"
+      ],
+      "mailKeyConcepts": [
+        "Autores y audiencias",
+        "Mensajes y significados"
+      ],
+      "mailCompetencies": [
+        "Analizar y evaluar",
+        "Reflexionar y actuar ética y responsablemente",
+        "Acceder y usar"
+      ],
+      "operationalAlignment": "Rastrea procedencia, infiere audiencias, diferencia propósitos, reconoce incentivos y evalúa arquitectura de atención para decidir con agencia."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Analista de medios"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true,
+      "readingSupport": [
+        "Separación visual entre estímulo, explicación y pregunta",
+        "Tamaño de fuente ajustable por el motor",
+        "Instrucciones comprensibles sin depender del color"
+      ]
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "safetyPolicy": {
+      "realAccountsRequired": false,
+      "realPersonalDataRequested": false,
+      "openSocialInteraction": false,
+      "caseData": "fictitious",
+      "adultSupportPrompts": true,
+      "note": "Las actividades usan exclusivamente perfiles, publicaciones, interfaces y servicios ficticios. Nunca solicitan cuentas, contactos, historial, ubicación precisa, fotografías ni experiencias sensibles reales."
+    },
+    "contentPolicy": {
+      "studentTexts": "originales_prepaso",
+      "copyrightNote": "Todas las interfaces, marcas y situaciones son simulaciones originales de Prepaso.",
+      "externalLinksRequired": false
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "PISA 2029 Media and Artificial Intelligence Literacy",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/en/about/projects/pisa-2029-media-and-artificial-intelligence-literacy.html",
+        "status": "official_project_page"
+      },
+      {
+        "title": "PISA 2029 MAIL Assessment Framework First Draft",
+        "publisher": "OECD",
+        "edition": "January 2026",
+        "url": "https://www.oecd.org/content/dam/oecd/en/about/projects/edu/the-pisa-2029-media-and-artificial-intelligence-%28mail%29-assessment-will-shed-light-on-whether-young-students-have-had-opportunities-to-learn-and-to-engage-proactively-and-critically-in-a-world-where-production%2C-participation%2C-and-social-networking-are-increasingly-mediated-by-digital-and-ai-tools-/PISA%202029%20MAIL%20Assessment%20Framework%20First%20Draft.pdf",
+        "status": "first_preliminary_draft_subject_to_revision"
+      },
+      {
+        "title": "Empowering Learners for the Age of AI",
+        "publisher": "OECD and European Commission",
+        "edition": "June 2026",
+        "url": "https://www.oecd.org/en/publications/empowering-learners-for-the-age-of-ai_65cd27d4-en.html"
+      }
+    ],
+    "stimuli": [
+      {
+        "id": "A1-T01A",
+        "title": "Una publicación con varias capas",
+        "format": "digital_simulated",
+        "genre": "red social simulada",
+        "content": "PERFIL VISIBLE: Noticias del Barrio. TEXTO: 'Este domingo cerrarán la avenida central de 8:00 a. m. a 12:00 m.'. LÍNEA INFERIOR: 'Compartido desde Municipalidad de Villa Clara'. ENLACE DE ORIGEN: boletín municipal del viernes. El perfil visible añadió una ilustración, pero no cambió el horario.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T01B",
+        "title": "Cadena de reenvíos",
+        "format": "digital_simulated",
+        "genre": "mensajería simulada",
+        "content": "MENSAJE ACTUAL: 'Mañana no habrá clases. Reenvía'. Debajo se lee: 'Reenviado muchas veces'. No aparece nombre de escuela, fecha completa, comunicado original ni enlace. Una respuesta del grupo dice: 'Me lo mandó un amigo de otro salón'.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T02A",
+        "title": "Dos versiones de una invitación",
+        "format": "multiple",
+        "genre": "comparación de mensajes",
+        "content": "VERSIÓN A: 'Reto relámpago: arma tu equipo, trae una botella reutilizable y supera tres misiones en el patio'. Usa frases cortas, colores intensos y un botón 'Únete'. VERSIÓN B: 'Familias: el sábado realizaremos una jornada ambiental. Se adjuntan horario, medidas de seguridad y autorización'. Usa un tono formal y un enlace a información detallada.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T02B",
+        "title": "Cartel del club de programación",
+        "format": "digital_simulated",
+        "genre": "afiche digital simulado",
+        "content": "¿Te gustan los retos con bloques? El club para estudiantes que recién empiezan se reúne los martes a las 3:30 p. m. No necesitas experiencia ni equipo propio. Incluye dibujos de rompecabezas, una demostración breve y el botón 'Prueba tu primera misión'.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T03A",
+        "title": "Publicación del museo",
+        "format": "digital_simulated",
+        "genre": "publicación institucional simulada",
+        "content": "Este sábado el Museo del Valle abre gratuitamente de 9:00 a. m. a 4:00 p. m. La publicación explica tres salas nuevas, invita a reservar una visita y agradece a una empresa local por financiar materiales educativos. Incluye un botón de reserva y el logotipo de la empresa al final.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T03B",
+        "title": "Video de organización escolar",
+        "format": "digital_simulated",
+        "genre": "guion de video simulado",
+        "content": "El video enseña a ordenar una mochila en cuatro pasos. La creadora muestra un método gratuito durante un minuto. Al final presenta una cartuchera de la marca que patrocina el canal, ofrece un código de descuento y pide suscribirse para ver más tutoriales.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T04A",
+        "title": "Cuatro servicios ficticios",
+        "format": "discontinuous",
+        "genre": "tabla comparativa simulada",
+        "content": "APRENDEYA: acceso gratis con anuncios contextuales; no vende cursos. BIBLIOTECA NUBE: suscripción mensual sin anuncios. JUEGO NORTE: compra inicial única. MÚSICA CLARA: plan gratuito limitado y plan de pago con funciones adicionales. Todos declaran por separado qué datos necesitan para funcionar.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T04B",
+        "title": "Intercambio en una app gratuita",
+        "format": "digital_simulated",
+        "genre": "pantalla simulada",
+        "content": "La app RutaFlash permite usar mapas sin pagar dinero. Antes de empezar informa: 'Mostraremos anuncios según la sección visitada. La ubicación aproximada se usa solo mientras trazas una ruta. Puedes desactivar notificaciones promocionales en Ajustes'. También ofrece un plan de pago sin anuncios.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T05A",
+        "title": "Reseña con colaboración",
+        "format": "digital_simulated",
+        "genre": "publicación simulada",
+        "content": "Encabezado: 'Colaboración pagada con Cuaderno Sol'. Texto: 'La marca me envió este cuaderno y pagó por mostrarlo. Me gustó el separador, pero las hojas se transparentan con algunos plumones. El enlace de compra me entrega una comisión'. Incluye el botón 'Ver producto'.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T05B",
+        "title": "Dos recomendaciones parecidas",
+        "format": "multiple",
+        "genre": "fuentes múltiples simuladas",
+        "content": "PUBLICACIÓN 1: 'Publicidad — Bebida Frutal patrocina esta receta'. Incluye precio y botón de compra. PUBLICACIÓN 2: 'Probé tres bebidas con mi grupo y preferimos la menos dulce'. No recibe pago, pero tampoco explica cantidades ni método de prueba.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T06A",
+        "title": "Pantalla que busca continuidad",
+        "format": "digital_simulated",
+        "genre": "interfaz simulada",
+        "content": "Al terminar un video aparece una cuenta regresiva de cinco segundos para reproducir el siguiente. Una insignia avisa: 'Racha de 6 días; vuelve antes de medianoche'. Tres notificaciones promocionan contenido nuevo. En Ajustes existen opciones para desactivar reproducción automática, silenciar promociones y definir un recordatorio de pausa.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T06B",
+        "title": "Dos diseños para terminar una sesión",
+        "format": "multiple",
+        "genre": "comparación de interfaces",
+        "content": "DISEÑO A: al terminar una lección muestra un botón grande 'Siguiente ya' y oculta 'Salir' en un menú. DISEÑO B: muestra con el mismo tamaño 'Continuar', 'Guardar para después' y 'Terminar por hoy'; además informa cuánto dura la siguiente actividad.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T07A",
+        "title": "Dos versiones del mismo dato",
+        "format": "multiple",
+        "genre": "comparación de titulares",
+        "content": "VERSIÓN A: '¡INCREÍBLE! El recreo cambiará PARA SIEMPRE y nadie te cuenta por qué'. VERSIÓN B: 'La escuela probará durante dos semanas un recreo cinco minutos más largo; luego recogerá opiniones'. Ambas versiones se refieren al mismo anuncio, pero solo la segunda incluye duración y procedimiento.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T07B",
+        "title": "Mensaje que provoca urgencia",
+        "format": "digital_simulated",
+        "genre": "mensajería simulada",
+        "content": "'Comparte en los próximos dos minutos o perderemos la única oportunidad de salvar el parque'. El mensaje incluye una imagen triste y un contador, pero no identifica organización, fecha, propuesta ni fuente. Un enlace secundario lleva a una página que solicita correo y contactos antes de mostrar información.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T08A",
+        "title": "Matriz de decisión de plataformas",
+        "format": "discontinuous",
+        "genre": "tabla simulada",
+        "content": "PLATAFORMA LUMEN: biblioteca escolar, sin anuncios, necesita cuenta del colegio, uso solo para tareas. PLATAFORMA CHISPA: videos cortos, gratuita con anuncios, recomendaciones automáticas, controles de pausa. PLATAFORMA TALLER: curso descargable de pago único, funciona sin conexión y no tiene comunidad. La elección depende del propósito, costo, datos, acceso y bienestar.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      },
+      {
+        "id": "A1-T08B",
+        "title": "Caso de decisión informada",
+        "format": "digital_simulated",
+        "genre": "escenario simulado",
+        "content": "Ari necesita practicar geometría durante un viaje con poca conexión. Puede usar Lumen, que requiere conexión del colegio; Chispa, que tiene videos breves con anuncios; o Taller, que permite descargar un módulo con pago único. La familia ya tiene acceso a Taller por una compra anterior. Ari quiere estudiar 20 minutos sin recibir mensajes ni compartir un perfil público.",
+        "sourceNote": "Texto o simulación original de Prepaso.",
+        "license": "original_prepaso"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "A1.01",
+        "globalId": "pe-sec1-mail-A1-01",
+        "sequence": 1,
+        "title": "¿Quién habla?",
+        "subtitle": "Autor visible, fuente original e intermediario no siempre son lo mismo",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.autores.rastreo_origen",
+        "learningOutcome": "Distingue autor visible, fuente original, financiador e intermediario en piezas digitales simuladas.",
+        "successEvidence": "Reconstruye una cadena de procedencia y señala qué dato falta antes de atribuir una afirmación.",
+        "prerequisites": [
+          "Reconoce actores de un entorno digital",
+          "Comprende huella y audiencia"
+        ],
+        "misconceptions": [
+          "Confundir quien comparte con quien originó la información",
+          "Suponer identidad por nombre, imagen o popularidad",
+          "Tratar 'reenviado' como prueba de autoría"
+        ],
+        "screens": [
+          {
+            "id": "A1.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El perfil que ves puede ser solo un intermediario",
+            "body": "Una publicación puede tener varias capas: alguien crea la información, otra cuenta la adapta, una plataforma la distribuye y quizá una organización la financia. Rastrear esas funciones evita atribuciones apresuradas.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A1.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.autores.rastreo_origen",
+            "difficulty": 1,
+            "prompt": "¿Quién produjo la información original sobre el cierre de la avenida?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A1-T01A",
+            "hint": "Distingue quién publicó ahora de quién emitió el dato primero.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El perfil Noticias del Barrio.",
+                "feedback": "Revisa la idea clave. La línea 'Compartido desde' y el enlace llevan al boletín municipal original."
+              },
+              {
+                "id": "b",
+                "text": "La municipalidad, mediante su boletín.",
+                "feedback": "Correcto. La línea 'Compartido desde' y el enlace llevan al boletín municipal original."
+              },
+              {
+                "id": "c",
+                "text": "La plataforma donde aparece.",
+                "feedback": "Revisa la idea clave. La línea 'Compartido desde' y el enlace llevan al boletín municipal original."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Cuatro preguntas de procedencia",
+            "body": "Pregunta quién aparece, quién produjo el contenido original, quién lo financia y quién lo distribuye. Una misma entidad puede cumplir varias funciones, pero no debes asumirlo.",
+            "examples": [
+              "perfil visible",
+              "fuente original",
+              "financiador",
+              "plataforma o reenviador"
+            ],
+            "memoryAid": "Aparece, crea, paga y distribuye son verbos distintos."
+          },
+          {
+            "id": "A1.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Sigue las señales hacia atrás",
+            "body": "Busca etiquetas como 'compartido desde', enlace original, firma, fecha, sección Acerca de o declaración de patrocinio. Cada señal agrega una pieza; ninguna imagen de perfil basta por sí sola.",
+            "examples": [
+              "Compartido desde Municipalidad",
+              "Boletín fechado",
+              "Colaboración pagada"
+            ],
+            "memoryAid": "La procedencia se verifica con señales conectadas."
+          },
+          {
+            "id": "A1.01-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.autores.rastreo_origen",
+            "difficulty": 1,
+            "prompt": "Relaciona cada actor con su función.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A1-T01A",
+            "hint": "Una cuenta visible no necesariamente creó el dato.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Municipalidad",
+                "rightId": "r1",
+                "right": "Fuente original"
+              },
+              {
+                "leftId": "l2",
+                "left": "Noticias del Barrio",
+                "rightId": "r2",
+                "right": "Intermediario que comparte"
+              },
+              {
+                "leftId": "l3",
+                "left": "Plataforma",
+                "rightId": "r3",
+                "right": "Distribuye la publicación"
+              },
+              {
+                "leftId": "l4",
+                "left": "Boletín del viernes",
+                "rightId": "r4",
+                "right": "Documento de procedencia"
+              }
+            ],
+            "feedbackCorrect": "Correcto: separaste creación, adaptación y distribución.",
+            "feedbackIncorrect": "Usa los verbos producir, compartir y mostrar."
+          },
+          {
+            "id": "A1.01-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.autores.rastreo_origen",
+            "difficulty": 1,
+            "prompt": "¿Qué puede afirmarse con seguridad sobre la cadena reenviada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T01B",
+            "hint": "Señala lo que falta, sin inventar un veredicto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Fue creada por el amigo del otro salón.",
+                "feedback": "Revisa la idea clave. El reenvío y la referencia a un amigo no muestran autor, escuela ni comunicado."
+              },
+              {
+                "id": "b",
+                "text": "Es falsa solo porque fue reenviada.",
+                "feedback": "Revisa la idea clave. El reenvío y la referencia a un amigo no muestran autor, escuela ni comunicado."
+              },
+              {
+                "id": "c",
+                "text": "No identifica todavía una fuente original verificable.",
+                "feedback": "Correcto. El reenvío y la referencia a un amigo no muestran autor, escuela ni comunicado."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Ausencia de fuente no demuestra falsedad",
+            "body": "Si un mensaje no identifica origen, la conclusión responsable es 'no puedo atribuirlo todavía'. Puede resultar verdadero o falso; primero necesitas una fuente comprobable.",
+            "examples": [
+              "Veredicto prudente: origen no identificado",
+              "Siguiente acción: buscar canal oficial"
+            ],
+            "memoryAid": "Falta de evidencia pide pausa, no una acusación automática."
+          },
+          {
+            "id": "A1.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.autores.rastreo_origen",
+            "difficulty": 1,
+            "prompt": "¿Qué acción ayuda más a rastrear el mensaje de suspensión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T01B",
+            "hint": "Busca origen, institución y fecha.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Reenviarlo para preguntar a más personas.",
+                "feedback": "Revisa la idea clave. Una fuente responsable y fechada puede confirmar o desmentir la afirmación."
+              },
+              {
+                "id": "b",
+                "text": "Buscar el canal oficial de la escuela y una fecha correspondiente.",
+                "feedback": "Correcto. Una fuente responsable y fechada puede confirmar o desmentir la afirmación."
+              },
+              {
+                "id": "c",
+                "text": "Confiar en el número de reenvíos.",
+                "feedback": "Revisa la idea clave. Una fuente responsable y fechada puede confirmar o desmentir la afirmación."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.autores.rastreo_origen",
+            "difficulty": 2,
+            "prompt": "Mía dice: 'Noticias del Barrio es el autor porque su nombre está arriba'. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T01A",
+            "hint": "Sigue el enlace hacia atrás.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo perfil visible es una plataforma.",
+                "feedback": "Revisa la idea clave. La interfaz destaca al intermediario, pero la procedencia aparece en otra señal."
+              },
+              {
+                "id": "b",
+                "text": "La municipalidad no puede publicar boletines.",
+                "feedback": "Revisa la idea clave. La interfaz destaca al intermediario, pero la procedencia aparece en otra señal."
+              },
+              {
+                "id": "c",
+                "text": "Ese es el perfil visible; el texto señala que la fuente original es la municipalidad.",
+                "feedback": "Correcto. La interfaz destaca al intermediario, pero la procedencia aparece en otra señal."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.autores.rastreo_origen",
+            "difficulty": 1,
+            "prompt": "Si no aparece fuente original, ¿cuál es el veredicto más responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T01B",
+            "hint": "Distingue desconocido de falso.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Verdadero porque muchas personas lo reenviaron.",
+                "feedback": "Revisa la idea clave. La incertidumbre bien expresada evita afirmaciones que la evidencia no sostiene."
+              },
+              {
+                "id": "b",
+                "text": "Origen no identificado; necesito verificar antes de atribuir o compartir.",
+                "feedback": "Correcto. La incertidumbre bien expresada evita afirmaciones que la evidencia no sostiene."
+              },
+              {
+                "id": "c",
+                "text": "Falso sin revisar nada más.",
+                "feedback": "Revisa la idea clave. La incertidumbre bien expresada evita afirmaciones que la evidencia no sostiene."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.autores.rastreo_origen",
+            "difficulty": 1,
+            "prompt": "¿Qué secuencia rastrea mejor una pieza digital?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Empieza por lo visible, pero no termines allí.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Número de reacciones → color del diseño → suposición.",
+                "feedback": "Revisa la idea clave. La cadena conecta señales verificables hasta el origen."
+              },
+              {
+                "id": "b",
+                "text": "Imagen de perfil → conclusión inmediata.",
+                "feedback": "Revisa la idea clave. La cadena conecta señales verificables hasta el origen."
+              },
+              {
+                "id": "c",
+                "text": "Perfil visible → señal de procedencia → fuente original → fecha y contexto.",
+                "feedback": "Correcto. La cadena conecta señales verificables hasta el origen."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya rastreas quién cumple cada función",
+            "body": "Separaste perfil visible, fuente, intermediario y plataforma. Cuando el origen falta, ahora puedes nombrar la incertidumbre y elegir una verificación concreta.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A1.02",
+        "globalId": "pe-sec1-mail-A1-02",
+        "sequence": 2,
+        "title": "¿Para quién?",
+        "subtitle": "Lenguaje, formato, canal y referencias construyen una audiencia",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.audiencias.inferencia_publico",
+        "learningOutcome": "Infiere la audiencia prevista de un mensaje a partir de pistas verificables.",
+        "successEvidence": "Compara dos versiones y explica cómo cuatro decisiones cambian para públicos distintos.",
+        "prerequisites": [
+          "Distingue autor e intermediario",
+          "Reconoce audiencias visibles e invisibles"
+        ],
+        "misconceptions": [
+          "Adivinar edad o identidad sin pistas",
+          "Confundir audiencia prevista con audiencia real",
+          "Creer que un mensaje solo puede interesar a un público"
+        ],
+        "screens": [
+          {
+            "id": "A1.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La audiencia deja huellas en el mensaje",
+            "body": "Quien crea un mensaje elige palabras, imágenes, duración, canal y llamada a la acción pensando en ciertas personas. Puedes inferir ese público si señalas pistas; no necesitas etiquetar identidades reales.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A1.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.audiencias.inferencia_publico",
+            "difficulty": 1,
+            "prompt": "¿Qué pista muestra que la versión B se dirige especialmente a familias?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A1-T02A",
+            "hint": "Busca detalles necesarios para acompañar o autorizar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usa el botón 'Únete'.",
+                "feedback": "Revisa la idea clave. La información de autorización y seguridad responde a decisiones que suelen tomar responsables familiares."
+              },
+              {
+                "id": "b",
+                "text": "Incluye medidas de seguridad y autorización.",
+                "feedback": "Correcto. La información de autorización y seguridad responde a decisiones que suelen tomar responsables familiares."
+              },
+              {
+                "id": "c",
+                "text": "Propone un reto relámpago.",
+                "feedback": "Revisa la idea clave. La información de autorización y seguridad responde a decisiones que suelen tomar responsables familiares."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Cuatro familias de pistas",
+            "body": "Observa vocabulario, cantidad de detalle, diseño y acción solicitada. Una invitación juvenil puede usar un reto breve; una comunicación familiar puede incluir autorización y seguridad.",
+            "examples": [
+              "lenguaje",
+              "formato",
+              "canal",
+              "llamada a la acción"
+            ],
+            "memoryAid": "Audiencia inferida = conclusión + pistas."
+          },
+          {
+            "id": "A1.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Prevista, alcanzada y afectada",
+            "body": "La audiencia prevista es a quien se dirige el creador. La alcanzada es quien realmente lo ve. La afectada incluye personas sobre las que el mensaje puede influir aunque no lo reciban.",
+            "examples": [
+              "Prevista: estudiantes",
+              "Alcanzada: familias que ven el enlace",
+              "Afectada: participantes del evento"
+            ],
+            "memoryAid": "Un mensaje puede viajar más allá del público imaginado."
+          },
+          {
+            "id": "A1.02-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.audiencias.inferencia_publico",
+            "difficulty": 1,
+            "prompt": "Relaciona cada decisión con la versión donde aparece.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A1-T02A",
+            "hint": "Cada versión prioriza información diferente.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Frases cortas y reto",
+                "rightId": "r1",
+                "right": "Versión A"
+              },
+              {
+                "leftId": "l2",
+                "left": "Autorización",
+                "rightId": "r2",
+                "right": "Versión B"
+              },
+              {
+                "leftId": "l3",
+                "left": "Botón Únete",
+                "rightId": "r3",
+                "right": "Versión A"
+              },
+              {
+                "leftId": "l4",
+                "left": "Información de seguridad",
+                "rightId": "r4",
+                "right": "Versión B"
+              }
+            ],
+            "feedbackCorrect": "Bien: comparaste pistas concretas y no suposiciones.",
+            "feedbackIncorrect": "Revisa lenguaje, detalle y acción solicitada."
+          },
+          {
+            "id": "A1.02-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.audiencias.inferencia_publico",
+            "difficulty": 1,
+            "prompt": "¿A quién parece dirigirse principalmente el cartel del club?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T02B",
+            "hint": "Usa tres pistas del cartel.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Solo a especialistas con equipo propio.",
+                "feedback": "Revisa la idea clave. El texto dice 'recién empiezan', 'no necesitas experiencia' y ofrece una primera misión."
+              },
+              {
+                "id": "b",
+                "text": "A vendedores de computadoras.",
+                "feedback": "Revisa la idea clave. El texto dice 'recién empiezan', 'no necesitas experiencia' y ofrece una primera misión."
+              },
+              {
+                "id": "c",
+                "text": "A estudiantes principiantes interesados en probar programación.",
+                "feedback": "Correcto. El texto dice 'recién empiezan', 'no necesitas experiencia' y ofrece una primera misión."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Inferir no es estereotipar",
+            "body": "Decir 'parece dirigido a principiantes porque dice que no se necesita experiencia' usa evidencia. Afirmar gustos o capacidades por edad, género o procedencia sin pistas es un salto injustificado.",
+            "examples": [
+              "Pista válida: 'para quienes recién empiezan'",
+              "Suposición débil: 'a todos les gusta lo mismo'"
+            ],
+            "memoryAid": "Describe decisiones del mensaje, no etiquetas sobre personas."
+          },
+          {
+            "id": "A1.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.audiencias.inferencia_publico",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la llamada a la acción del cartel?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T02B",
+            "hint": "Busca el verbo del botón.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Comprar un equipo.",
+                "feedback": "Revisa la idea clave. El botón visible invita a una acción inicial de bajo compromiso."
+              },
+              {
+                "id": "b",
+                "text": "Probar la primera misión.",
+                "feedback": "Correcto. El botón visible invita a una acción inicial de bajo compromiso."
+              },
+              {
+                "id": "c",
+                "text": "Enviar datos de la familia.",
+                "feedback": "Revisa la idea clave. El botón visible invita a una acción inicial de bajo compromiso."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.audiencias.inferencia_publico",
+            "difficulty": 2,
+            "prompt": "Leo concluye: 'Como tiene colores intensos, está dirigido únicamente a todos los adolescentes'. ¿Qué problema tiene?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T02A",
+            "hint": "Busca varias evidencias convergentes.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los colores nunca comunican nada.",
+                "feedback": "Revisa la idea clave. Una pista aislada no justifica una audiencia absoluta ni una etiqueta sobre todas las personas."
+              },
+              {
+                "id": "b",
+                "text": "Una audiencia siempre se deduce por una sola pista.",
+                "feedback": "Revisa la idea clave. Una pista aislada no justifica una audiencia absoluta ni una etiqueta sobre todas las personas."
+              },
+              {
+                "id": "c",
+                "text": "Generaliza demasiado; debe combinar el diseño con lenguaje, propósito y canal.",
+                "feedback": "Correcto. Una pista aislada no justifica una audiencia absoluta ni una etiqueta sobre todas las personas."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.audiencias.inferencia_publico",
+            "difficulty": 1,
+            "prompt": "Si el cartel del club se comparte públicamente, ¿qué puede ocurrir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T02B",
+            "hint": "Distingue prevista de alcanzada.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Solo lo verán quienes ya están inscritos.",
+                "feedback": "Revisa la idea clave. La distribución puede ampliar la audiencia más allá de principiantes del colegio."
+              },
+              {
+                "id": "b",
+                "text": "Puede alcanzar a personas distintas de la audiencia prevista.",
+                "feedback": "Correcto. La distribución puede ampliar la audiencia más allá de principiantes del colegio."
+              },
+              {
+                "id": "c",
+                "text": "El público real será idéntico al imaginado.",
+                "feedback": "Revisa la idea clave. La distribución puede ampliar la audiencia más allá de principiantes del colegio."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.audiencias.inferencia_publico",
+            "difficulty": 1,
+            "prompt": "¿Qué forma de inferencia de audiencia es responsable?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Explica qué elementos observaste.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Atribuir intereses sin pistas.",
+                "feedback": "Revisa la idea clave. La conclusión debe ser proporcional a la evidencia del mensaje."
+              },
+              {
+                "id": "b",
+                "text": "Suponer identidad por una imagen.",
+                "feedback": "Revisa la idea clave. La conclusión debe ser proporcional a la evidencia del mensaje."
+              },
+              {
+                "id": "c",
+                "text": "Nombrar el público probable y respaldarlo con lenguaje, formato, canal y acción.",
+                "feedback": "Correcto. La conclusión debe ser proporcional a la evidencia del mensaje."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees las decisiones detrás del público",
+            "body": "Inferiste audiencias con pistas de lenguaje, formato y acción, y separaste público previsto de alcance real. Eso te ayudará a comunicar sin estereotipos.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A1.03",
+        "globalId": "pe-sec1-mail-A1-03",
+        "sequence": 3,
+        "title": "Propósitos",
+        "subtitle": "Un mensaje puede informar, persuadir, vender y entretener a la vez",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.mensajes.propositos",
+        "learningOutcome": "Distingue propósitos principales y secundarios en piezas mediáticas.",
+        "successEvidence": "Clasifica una pieza con propósitos combinados y justifica cuál domina mediante señales.",
+        "prerequisites": [
+          "Identifica autor y audiencia"
+        ],
+        "misconceptions": [
+          "Asignar un único propósito a todo mensaje",
+          "Confundir tema con propósito",
+          "Creer que vender vuelve inútil toda información"
+        ],
+        "screens": [
+          {
+            "id": "A1.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Tema responde 'de qué'; propósito, 'para qué'",
+            "body": "Dos piezas sobre el mismo tema pueden buscar cosas distintas. Para reconocer propósito observa qué información seleccionan, qué emoción producen y qué acción invitan a realizar.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A1.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.mensajes.propositos",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el propósito principal de la publicación del museo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A1-T03A",
+            "hint": "Observa qué información ocupa el centro del mensaje.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ocultar que existe un museo.",
+                "feedback": "Revisa la idea clave. La mayor parte presenta fecha, horario, salas y reserva para una actividad sin costo."
+              },
+              {
+                "id": "b",
+                "text": "Informar e invitar a la jornada gratuita.",
+                "feedback": "Correcto. La mayor parte presenta fecha, horario, salas y reserva para una actividad sin costo."
+              },
+              {
+                "id": "c",
+                "text": "Vender directamente una entrada obligatoria.",
+                "feedback": "Revisa la idea clave. La mayor parte presenta fecha, horario, salas y reserva para una actividad sin costo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Cinco propósitos frecuentes",
+            "body": "Informar aporta datos; enseñar guía una habilidad; entretener busca experiencia o disfrute; persuadir intenta cambiar una idea o acción; vender promueve una transacción.",
+            "examples": [
+              "horario → informar",
+              "tutorial → enseñar",
+              "código de descuento → vender"
+            ],
+            "memoryAid": "Clasifica por la acción que la pieza intenta provocar."
+          },
+          {
+            "id": "A1.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Principal y secundarios",
+            "body": "Una publicación puede anunciar un horario, invitar a reservar y agradecer a un patrocinador. Decide cuál propósito organiza la mayor parte de la pieza y cuáles la acompañan.",
+            "examples": [
+              "principal: informar una jornada",
+              "secundario: persuadir para reservar",
+              "señal comercial: patrocinio"
+            ],
+            "memoryAid": "No borres propósitos secundarios; ordénalos."
+          },
+          {
+            "id": "A1.03-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.mensajes.propositos",
+            "difficulty": 1,
+            "prompt": "Relaciona la señal con el propósito que evidencia.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A1-T03B",
+            "hint": "No fuerces toda la pieza a una sola categoría.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Explica cuatro pasos",
+                "rightId": "r1",
+                "right": "Enseñar"
+              },
+              {
+                "leftId": "l2",
+                "left": "Código de descuento",
+                "rightId": "r2",
+                "right": "Vender"
+              },
+              {
+                "leftId": "l3",
+                "left": "Pide suscribirse",
+                "rightId": "r3",
+                "right": "Aumentar audiencia"
+              },
+              {
+                "leftId": "l4",
+                "left": "Muestra cómo queda la mochila",
+                "rightId": "r4",
+                "right": "Informar o demostrar"
+              }
+            ],
+            "feedbackCorrect": "Correcto: una sola pieza combina varias intenciones.",
+            "feedbackIncorrect": "Mira qué acción busca cada elemento."
+          },
+          {
+            "id": "A1.03-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.mensajes.propositos",
+            "difficulty": 1,
+            "prompt": "¿Qué señal muestra un propósito comercial en el video?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T03B",
+            "hint": "Busca relación con una transacción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ordena la mochila en cuatro pasos.",
+                "feedback": "Revisa la idea clave. Patrocinio y descuento buscan promover una compra."
+              },
+              {
+                "id": "b",
+                "text": "Dura un minuto.",
+                "feedback": "Revisa la idea clave. Patrocinio y descuento buscan promover una compra."
+              },
+              {
+                "id": "c",
+                "text": "Presenta una marca patrocinadora y un código de descuento.",
+                "feedback": "Correcto. Patrocinio y descuento buscan promover una compra."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Interés comercial no decide la verdad",
+            "body": "Que exista venta o patrocinio es información relevante sobre incentivos, pero no prueba por sí sola que cada dato sea falso. Evalúa señales, evidencia y transparencia por separado.",
+            "examples": [
+              "Puede enseñar y vender",
+              "Puede informar y promocionar"
+            ],
+            "memoryAid": "Identificar incentivo abre preguntas; no reemplaza la verificación."
+          },
+          {
+            "id": "A1.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.mensajes.propositos",
+            "difficulty": 1,
+            "prompt": "Además de informar, ¿qué acción busca la publicación del museo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T03A",
+            "hint": "Identifica la llamada a la acción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que oculten el horario.",
+                "feedback": "Revisa la idea clave. El botón de reserva convierte la información en una invitación concreta."
+              },
+              {
+                "id": "b",
+                "text": "Que las personas reserven una visita.",
+                "feedback": "Correcto. El botón de reserva convierte la información en una invitación concreta."
+              },
+              {
+                "id": "c",
+                "text": "Que paguen una entrada que el texto dice gratuita.",
+                "feedback": "Revisa la idea clave. El botón de reserva convierte la información en una invitación concreta."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.mensajes.propositos",
+            "difficulty": 2,
+            "prompt": "Alguien afirma: 'Como hay patrocinio, ningún paso del tutorial puede ser útil'. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T03B",
+            "hint": "Separa propósito comercial de calidad de contenido.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo patrocinio garantiza exactitud.",
+                "feedback": "Revisa la idea clave. Una pieza puede enseñar y vender; cada afirmación se evalúa con evidencia."
+              },
+              {
+                "id": "b",
+                "text": "La venta y la enseñanza son siempre idénticas.",
+                "feedback": "Revisa la idea clave. Una pieza puede enseñar y vender; cada afirmación se evalúa con evidencia."
+              },
+              {
+                "id": "c",
+                "text": "El incentivo comercial debe transparentarse y evaluarse, pero no invalida automáticamente la explicación.",
+                "feedback": "Correcto. Una pieza puede enseñar y vender; cada afirmación se evalúa con evidencia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.mensajes.propositos",
+            "difficulty": 1,
+            "prompt": "¿Qué propósito cumple agradecer a la empresa financiadora?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T03A",
+            "hint": "Relaciona logotipo y financiación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Cambiar el horario de la jornada.",
+                "feedback": "Revisa la idea clave. El agradecimiento revela una relación de financiamiento sin modificar por sí solo los datos del evento."
+              },
+              {
+                "id": "b",
+                "text": "Reconocer y hacer visible el apoyo o patrocinio.",
+                "feedback": "Correcto. El agradecimiento revela una relación de financiamiento sin modificar por sí solo los datos del evento."
+              },
+              {
+                "id": "c",
+                "text": "Eliminar el acceso gratuito.",
+                "feedback": "Revisa la idea clave. El agradecimiento revela una relación de financiamiento sin modificar por sí solo los datos del evento."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.mensajes.propositos",
+            "difficulty": 1,
+            "prompt": "¿Cómo se analiza un mensaje con varios propósitos?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Pregunta qué domina y qué acompaña.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Se escoge al azar una etiqueta.",
+                "feedback": "Revisa la idea clave. La jerarquía explica mejor la pieza que una clasificación rígida."
+              },
+              {
+                "id": "b",
+                "text": "Se ignoran llamadas a la acción.",
+                "feedback": "Revisa la idea clave. La jerarquía explica mejor la pieza que una clasificación rígida."
+              },
+              {
+                "id": "c",
+                "text": "Se identifican señales, se ordena el propósito principal y se registran los secundarios.",
+                "feedback": "Correcto. La jerarquía explica mejor la pieza que una clasificación rígida."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya distingues intenciones combinadas",
+            "body": "Separaste tema, propósito principal, acciones secundarias e incentivos. Ahora puedes describir una pieza sin reducirla a una sola etiqueta.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A1.04",
+        "globalId": "pe-sec1-mail-A1-04",
+        "sequence": 4,
+        "title": "Modelos de negocio",
+        "subtitle": "Un servicio puede intercambiar dinero, atención, datos o funciones",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.modelos_negocio",
+        "learningOutcome": "Explica de forma básica cómo se sostienen servicios por publicidad, suscripción, compra o modelos mixtos.",
+        "successEvidence": "Describe qué recibe cada parte, qué datos son necesarios y qué opciones de control existen.",
+        "prerequisites": [
+          "Distingue propósitos e incentivos"
+        ],
+        "misconceptions": [
+          "Creer que gratuito significa sin intercambio",
+          "Suponer que todo dato solicitado se vende",
+          "Pensar que pagar garantiza automáticamente privacidad o calidad"
+        ],
+        "screens": [
+          {
+            "id": "A1.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Precio cero no significa que no exista un modelo",
+            "body": "Un servicio necesita recursos para funcionar. Puede sostenerse con anuncios, suscripciones, compras, apoyo institucional o combinaciones. Analizar el modelo ayuda a entender incentivos y controles.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A1.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.modelos_negocio",
+            "difficulty": 1,
+            "prompt": "¿Qué modelo usa Biblioteca Nube?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A1-T04A",
+            "hint": "Busca la forma de pago y su frecuencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Compra inicial única.",
+                "feedback": "Revisa la idea clave. La tabla declara un pago periódico a cambio del servicio."
+              },
+              {
+                "id": "b",
+                "text": "Suscripción mensual sin anuncios.",
+                "feedback": "Correcto. La tabla declara un pago periódico a cambio del servicio."
+              },
+              {
+                "id": "c",
+                "text": "Solo publicidad contextual.",
+                "feedback": "Revisa la idea clave. La tabla declara un pago periódico a cambio del servicio."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Mapa del intercambio",
+            "body": "Pregunta qué obtiene el usuario y qué recibe el servicio: dinero, atención, datos funcionales, contenido o apoyo institucional. Después distingue lo necesario de lo opcional.",
+            "examples": [
+              "usuario recibe mapas",
+              "servicio muestra anuncios",
+              "ubicación solo durante la ruta"
+            ],
+            "memoryAid": "Valor recibido ↔ recursos entregados."
+          },
+          {
+            "id": "A1.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Cuatro modelos básicos",
+            "body": "Publicidad financia con espacios promocionales; suscripción cobra periódicamente; compra única cobra una vez; freemium ofrece una base gratuita y funciones de pago.",
+            "examples": [
+              "anuncios",
+              "mensualidad",
+              "pago único",
+              "gratis + premium"
+            ],
+            "memoryAid": "Muchos servicios mezclan modelos."
+          },
+          {
+            "id": "A1.04-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.modelos_negocio",
+            "difficulty": 1,
+            "prompt": "Relaciona cada servicio con su modelo principal.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A1-T04A",
+            "hint": "Freemium combina nivel gratuito y opciones pagadas.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "AprendeYa",
+                "rightId": "r1",
+                "right": "Publicidad"
+              },
+              {
+                "leftId": "l2",
+                "left": "Biblioteca Nube",
+                "rightId": "r2",
+                "right": "Suscripción"
+              },
+              {
+                "leftId": "l3",
+                "left": "Juego Norte",
+                "rightId": "r3",
+                "right": "Compra única"
+              },
+              {
+                "leftId": "l4",
+                "left": "Música Clara",
+                "rightId": "r4",
+                "right": "Freemium"
+              }
+            ],
+            "feedbackCorrect": "Bien: identificaste cuatro maneras de sostener un servicio.",
+            "feedbackIncorrect": "Usa las palabras anuncios, mensual, inicial y plan gratuito."
+          },
+          {
+            "id": "A1.04-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.modelos_negocio",
+            "difficulty": 1,
+            "prompt": "En RutaFlash, ¿qué recibe el servicio durante el plan gratuito?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T04B",
+            "hint": "Limítate a lo que informa el escenario.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La propiedad de todos los contactos del teléfono.",
+                "feedback": "Revisa la idea clave. La pantalla declara anuncios y ubicación aproximada durante la función, no acceso ilimitado a cualquier dato."
+              },
+              {
+                "id": "b",
+                "text": "Un pago obligatorio antes de abrirla.",
+                "feedback": "Revisa la idea clave. La pantalla declara anuncios y ubicación aproximada durante la función, no acceso ilimitado a cualquier dato."
+              },
+              {
+                "id": "c",
+                "text": "Atención a anuncios y los datos funcionales declarados para trazar la ruta.",
+                "feedback": "Correcto. La pantalla declara anuncios y ubicación aproximada durante la función, no acceso ilimitado a cualquier dato."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Modelo no determina todas las prácticas",
+            "body": "Dos servicios con anuncios pueden tratar datos de forma distinta. Uno de pago también puede recopilar información funcional. Debes revisar modelo, datos, controles y finalidad por separado.",
+            "examples": [
+              "Pago ≠ privacidad garantizada",
+              "Gratis ≠ venta automática de todo dato"
+            ],
+            "memoryAid": "Analiza evidencia concreta, no etiquetas absolutas."
+          },
+          {
+            "id": "A1.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.modelos_negocio",
+            "difficulty": 1,
+            "prompt": "¿Qué control ofrece RutaFlash?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T04B",
+            "hint": "Busca opciones en Ajustes y planes.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Eliminar toda ruta después de usarla sin configuración.",
+                "feedback": "Revisa la idea clave. Los controles declarados permiten reducir promoción o cambiar de modelo."
+              },
+              {
+                "id": "b",
+                "text": "Desactivar notificaciones promocionales y elegir un plan sin anuncios.",
+                "feedback": "Correcto. Los controles declarados permiten reducir promoción o cambiar de modelo."
+              },
+              {
+                "id": "c",
+                "text": "Obligar a compartir contactos.",
+                "feedback": "Revisa la idea clave. Los controles declarados permiten reducir promoción o cambiar de modelo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.modelos_negocio",
+            "difficulty": 2,
+            "prompt": "Julia afirma: 'Como la app es gratis, seguro vende todos mis datos'. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T04B",
+            "hint": "Distingue hipótesis de dato comprobado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda app gratuita carece de modelo de negocio.",
+                "feedback": "Revisa la idea clave. El modelo sugiere preguntas, pero una acusación requiere evidencia específica."
+              },
+              {
+                "id": "b",
+                "text": "Los anuncios nunca influyen en incentivos.",
+                "feedback": "Revisa la idea clave. El modelo sugiere preguntas, pero una acusación requiere evidencia específica."
+              },
+              {
+                "id": "c",
+                "text": "Debe revisar la política y los flujos declarados; el precio cero no demuestra por sí solo esa práctica.",
+                "feedback": "Correcto. El modelo sugiere preguntas, pero una acusación requiere evidencia específica."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.modelos_negocio",
+            "difficulty": 1,
+            "prompt": "¿Cuál servicio permite pagar una sola vez y luego usarlo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T04A",
+            "hint": "No confundas pago único con suscripción.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Biblioteca Nube.",
+                "feedback": "Revisa la idea clave. La tabla identifica una compra inicial única."
+              },
+              {
+                "id": "b",
+                "text": "Juego Norte.",
+                "feedback": "Correcto. La tabla identifica una compra inicial única."
+              },
+              {
+                "id": "c",
+                "text": "AprendeYa.",
+                "feedback": "Revisa la idea clave. La tabla identifica una compra inicial única."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.modelos_negocio",
+            "difficulty": 1,
+            "prompt": "¿Qué análisis es más completo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Recuerda qué recibe cada parte y qué puede controlar el usuario.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Solo si cuesta dinero.",
+                "feedback": "Revisa la idea clave. Estas dimensiones muestran incentivos y capacidad de elección."
+              },
+              {
+                "id": "b",
+                "text": "Solo el color de la interfaz.",
+                "feedback": "Revisa la idea clave. Estas dimensiones muestran incentivos y capacidad de elección."
+              },
+              {
+                "id": "c",
+                "text": "Propósito, modelo, intercambio, datos necesarios y controles disponibles.",
+                "feedback": "Correcto. Estas dimensiones muestran incentivos y capacidad de elección."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya ves el intercambio detrás del servicio",
+            "body": "Comparaste publicidad, suscripción, compra y freemium sin saltar a conclusiones. Ahora puedes preguntar qué recibe cada parte y qué controles existen.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A1.05",
+        "globalId": "pe-sec1-mail-A1-05",
+        "sequence": 5,
+        "title": "Contenido patrocinado",
+        "subtitle": "Una relación comercial debe ser visible antes de influir en la decisión",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.mensajes.patrocinio",
+        "learningOutcome": "Reconoce señales de publicidad, colaboración, afiliación y recomendación no pagada.",
+        "successEvidence": "Etiqueta correctamente una pieza y explica cómo la relación comercial puede influir sin decidir automáticamente su veracidad.",
+        "prerequisites": [
+          "Reconoce propósito y modelo de negocio"
+        ],
+        "misconceptions": [
+          "Creer que todo patrocinio es mentira",
+          "Tratar una recomendación personal como prueba suficiente",
+          "Aceptar una etiqueta escondida o ambigua como transparencia"
+        ],
+        "screens": [
+          {
+            "id": "A1.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Saber quién paga cambia cómo lees",
+            "body": "Una colaboración puede incluir información útil, pero la audiencia necesita ver la relación comercial antes de actuar. Transparencia significa etiqueta clara, ubicación visible y explicación comprensible.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A1.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.mensajes.patrocinio",
+            "difficulty": 1,
+            "prompt": "¿Qué señal muestra con mayor claridad la relación comercial?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A1-T05A",
+            "hint": "Busca una relación económica explícita.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que el cuaderno tenga separador.",
+                "feedback": "Revisa la idea clave. La etiqueta y la declaración hacen visible quién aportó dinero o producto."
+              },
+              {
+                "id": "b",
+                "text": "El encabezado 'Colaboración pagada' y la explicación del pago.",
+                "feedback": "Correcto. La etiqueta y la declaración hacen visible quién aportó dinero o producto."
+              },
+              {
+                "id": "c",
+                "text": "Que el texto use primera persona.",
+                "feedback": "Revisa la idea clave. La etiqueta y la declaración hacen visible quién aportó dinero o producto."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Cuatro señales comerciales",
+            "body": "Busca etiquetas de publicidad o colaboración, producto recibido, comisión por enlace y código de descuento. Cada señal revela un incentivo que debe considerarse.",
+            "examples": [
+              "Colaboración pagada",
+              "Producto enviado",
+              "Enlace afiliado",
+              "Código de descuento"
+            ],
+            "memoryAid": "Etiqueta + relación + beneficio."
+          },
+          {
+            "id": "A1.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Transparencia antes de persuadir",
+            "body": "La declaración debe verse antes o junto al contenido promocional, en lenguaje directo. Ocultarla al final, en letra mínima o con términos ambiguos reduce la comprensión.",
+            "examples": [
+              "Claro: La marca pagó esta publicación",
+              "Débil: #sp entre muchas etiquetas"
+            ],
+            "memoryAid": "La audiencia debe entender la relación a tiempo."
+          },
+          {
+            "id": "A1.05-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.mensajes.patrocinio",
+            "difficulty": 1,
+            "prompt": "Relaciona cada señal con lo que revela.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A1-T05A",
+            "hint": "Pregunta qué recibe la creadora y qué informa sobre el producto.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Colaboración pagada",
+                "rightId": "r1",
+                "right": "La marca financió la pieza"
+              },
+              {
+                "leftId": "l2",
+                "left": "Producto enviado",
+                "rightId": "r2",
+                "right": "La creadora recibió un bien"
+              },
+              {
+                "leftId": "l3",
+                "left": "Comisión por enlace",
+                "rightId": "r3",
+                "right": "Puede ganar si alguien compra"
+              },
+              {
+                "leftId": "l4",
+                "left": "Hojas se transparentan",
+                "rightId": "r4",
+                "right": "Incluye una limitación observada"
+              }
+            ],
+            "feedbackCorrect": "Correcto: separaste incentivo, beneficio y evaluación del producto.",
+            "feedbackIncorrect": "No confundas una característica del objeto con la relación comercial."
+          },
+          {
+            "id": "A1.05-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.mensajes.patrocinio",
+            "difficulty": 1,
+            "prompt": "¿Cuál publicación es publicidad declarada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T05B",
+            "hint": "Busca la palabra que identifica la relación comercial.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La publicación 2.",
+                "feedback": "Revisa la idea clave. La primera usa la etiqueta 'Publicidad' y declara patrocinio."
+              },
+              {
+                "id": "b",
+                "text": "Ninguna, porque ambas opinan.",
+                "feedback": "Revisa la idea clave. La primera usa la etiqueta 'Publicidad' y declara patrocinio."
+              },
+              {
+                "id": "c",
+                "text": "La publicación 1.",
+                "feedback": "Correcto. La primera usa la etiqueta 'Publicidad' y declara patrocinio."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Patrocinio e independencia son grados",
+            "body": "Una persona patrocinada puede mencionar ventajas y límites; una recomendación no pagada también puede ser incompleta. Evalúa evidencia, método y transparencia además del incentivo.",
+            "examples": [
+              "Declara comisión y critica una limitación",
+              "Sin pago pero sin método de comparación"
+            ],
+            "memoryAid": "Incentivo informa el análisis; no reemplaza la evaluación."
+          },
+          {
+            "id": "A1.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.mensajes.patrocinio",
+            "difficulty": 1,
+            "prompt": "¿Qué limitación tiene la publicación 2 aunque no reciba pago?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T05B",
+            "hint": "Evalúa cómo se llegó a la comparación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Declara un precio falso.",
+                "feedback": "Revisa la idea clave. La ausencia de pago no convierte una preferencia grupal en evidencia completa."
+              },
+              {
+                "id": "b",
+                "text": "No explica cantidades ni método de prueba.",
+                "feedback": "Correcto. La ausencia de pago no convierte una preferencia grupal en evidencia completa."
+              },
+              {
+                "id": "c",
+                "text": "Incluye un patrocinio oculto comprobado.",
+                "feedback": "Revisa la idea clave. La ausencia de pago no convierte una preferencia grupal en evidencia completa."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.mensajes.patrocinio",
+            "difficulty": 2,
+            "prompt": "Pablo afirma: 'Si es patrocinado, todo lo que dice es falso'. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T05A",
+            "hint": "Evita veredictos automáticos en ambos sentidos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El patrocinio garantiza que todo sea verdadero.",
+                "feedback": "Revisa la idea clave. Transparencia e incentivo son criterios distintos de la exactitud de cada dato."
+              },
+              {
+                "id": "b",
+                "text": "Las relaciones comerciales nunca importan.",
+                "feedback": "Revisa la idea clave. Transparencia e incentivo son criterios distintos de la exactitud de cada dato."
+              },
+              {
+                "id": "c",
+                "text": "El patrocinio crea un incentivo que debe declararse; cada afirmación aún se evalúa con evidencia.",
+                "feedback": "Correcto. Transparencia e incentivo son criterios distintos de la exactitud de cada dato."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.mensajes.patrocinio",
+            "difficulty": 1,
+            "prompt": "¿Qué mejora haría menos engañosa una pieza patrocinada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "La audiencia debe verlo a tiempo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ocultar la relación en letra mínima.",
+                "feedback": "Revisa la idea clave. La divulgación visible permite interpretar el mensaje antes de decidir."
+              },
+              {
+                "id": "b",
+                "text": "Mostrar al inicio una etiqueta clara y explicar pago, producto o comisión.",
+                "feedback": "Correcto. La divulgación visible permite interpretar el mensaje antes de decidir."
+              },
+              {
+                "id": "c",
+                "text": "Eliminar cualquier crítica al producto.",
+                "feedback": "Revisa la idea clave. La divulgación visible permite interpretar el mensaje antes de decidir."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.mensajes.patrocinio",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta conviene hacer después de detectar patrocinio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Separa relación comercial y afirmaciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Debo creer todo automáticamente?",
+                "feedback": "Revisa la idea clave. El análisis responsable combina procedencia, incentivo y calidad de evidencia."
+              },
+              {
+                "id": "b",
+                "text": "¿Puedo ignorar el contenido sin leerlo?",
+                "feedback": "Revisa la idea clave. El análisis responsable combina procedencia, incentivo y calidad de evidencia."
+              },
+              {
+                "id": "c",
+                "text": "¿Qué afirmaciones presenta, qué evidencia ofrece y qué incentivo existe?",
+                "feedback": "Correcto. El análisis responsable combina procedencia, incentivo y calidad de evidencia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya reconoces relaciones comerciales",
+            "body": "Identificaste pago, producto y comisión, y evaluaste transparencia sin convertir el patrocinio en veredicto automático. Eso protege decisiones informadas.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A1.06",
+        "globalId": "pe-sec1-mail-A1-06",
+        "sequence": 6,
+        "title": "Diseño para captar atención",
+        "subtitle": "La interfaz puede acelerar, repetir o devolver control",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.sistemas.diseno_atencion",
+        "learningOutcome": "Analiza cómo reproducción automática, rachas y notificaciones influyen en la continuidad de uso.",
+        "successEvidence": "Rediseña una interfaz ficticia para ofrecer opciones claras, información suficiente y pausas reales.",
+        "prerequisites": [
+          "Comprende modelos basados en atención"
+        ],
+        "misconceptions": [
+          "Culpar únicamente al usuario e ignorar decisiones de diseño",
+          "Afirmar que toda racha o notificación es dañina",
+          "Confundir más interacción con más aprendizaje"
+        ],
+        "screens": [
+          {
+            "id": "A1.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "El diseño también propone una conducta",
+            "body": "Un botón grande, una cuenta regresiva o una racha no obligan, pero hacen algunas acciones más fáciles y urgentes. Analizar arquitectura de elección permite recuperar control sin demonizar la herramienta.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A1.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.sistemas.diseno_atencion",
+            "difficulty": 1,
+            "prompt": "¿Qué función reduce más la pausa entre un video y el siguiente?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A1-T06A",
+            "hint": "Busca qué convierte la continuación en opción por defecto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El control para silenciar promociones.",
+                "feedback": "Revisa la idea clave. La cuenta regresiva inicia el siguiente contenido si la persona no interviene."
+              },
+              {
+                "id": "b",
+                "text": "La reproducción automática con cuenta regresiva.",
+                "feedback": "Correcto. La cuenta regresiva inicia el siguiente contenido si la persona no interviene."
+              },
+              {
+                "id": "c",
+                "text": "El recordatorio de pausa.",
+                "feedback": "Revisa la idea clave. La cuenta regresiva inicia el siguiente contenido si la persona no interviene."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Señal, acción y recompensa",
+            "body": "Muchos ciclos de atención empiezan con una notificación, continúan con una acción sencilla y terminan con una recompensa variable, un punto o nuevo contenido.",
+            "examples": [
+              "señal: alerta",
+              "acción: abrir",
+              "recompensa: contenido nuevo"
+            ],
+            "memoryAid": "Describe el ciclo antes de juzgarlo."
+          },
+          {
+            "id": "A1.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Fricción y opciones por defecto",
+            "body": "La reproducción automática reduce el esfuerzo para continuar; un botón oculto aumenta el esfuerzo para salir. Las opciones por defecto influyen porque muchas personas no cambian ajustes.",
+            "examples": [
+              "autoplay activado",
+              "salir dentro de un menú",
+              "recordatorio de pausa opcional"
+            ],
+            "memoryAid": "Pregunta qué acción es más fácil y cuál está escondida."
+          },
+          {
+            "id": "A1.06-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.diseno_atencion",
+            "difficulty": 1,
+            "prompt": "Relaciona cada elemento con su posible efecto.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A1-T06A",
+            "hint": "Habla de posibilidades, no de resultados inevitables.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Reproducción automática",
+                "rightId": "r1",
+                "right": "Facilita continuar"
+              },
+              {
+                "leftId": "l2",
+                "left": "Racha",
+                "rightId": "r2",
+                "right": "Añade presión por no perder progreso"
+              },
+              {
+                "leftId": "l3",
+                "left": "Notificación",
+                "rightId": "r3",
+                "right": "Llama de nuevo la atención"
+              },
+              {
+                "leftId": "l4",
+                "left": "Recordatorio de pausa",
+                "rightId": "r4",
+                "right": "Devuelve una señal de control"
+              }
+            ],
+            "feedbackCorrect": "Bien: analizaste mecanismos sin afirmar que producen el mismo efecto en todas las personas.",
+            "feedbackIncorrect": "Describe la función de cada elemento."
+          },
+          {
+            "id": "A1.06-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.sistemas.diseno_atencion",
+            "difficulty": 1,
+            "prompt": "¿Qué diseño ofrece mayor agencia al final de una sesión?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T06B",
+            "hint": "Compara las opciones disponibles antes de actuar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El diseño A.",
+                "feedback": "Revisa la idea clave. B presenta continuar, guardar y terminar con igual visibilidad e informa la duración."
+              },
+              {
+                "id": "b",
+                "text": "Ambos, porque esconden la salida.",
+                "feedback": "Revisa la idea clave. B presenta continuar, guardar y terminar con igual visibilidad e informa la duración."
+              },
+              {
+                "id": "c",
+                "text": "El diseño B.",
+                "feedback": "Correcto. B presenta continuar, guardar y terminar con igual visibilidad e informa la duración."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Diseño con mayor agencia",
+            "body": "Un diseño equilibrado muestra duración, ofrece continuar o terminar con igual claridad y permite controlar notificaciones. La meta no es eliminar motivación, sino evitar presión innecesaria.",
+            "examples": [
+              "Continuar",
+              "Guardar",
+              "Terminar por hoy",
+              "Siguiente actividad: 8 min"
+            ],
+            "memoryAid": "Opciones visibles + información previa + control."
+          },
+          {
+            "id": "A1.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.sistemas.diseno_atencion",
+            "difficulty": 1,
+            "prompt": "¿Qué ajuste reduce interrupciones promocionales sin apagar todo el servicio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T06A",
+            "hint": "Busca una opción específica y reversible.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Activar otra cuenta regresiva.",
+                "feedback": "Revisa la idea clave. El control permite mantener la función principal y reducir señales no esenciales."
+              },
+              {
+                "id": "b",
+                "text": "Silenciar notificaciones promocionales.",
+                "feedback": "Correcto. El control permite mantener la función principal y reducir señales no esenciales."
+              },
+              {
+                "id": "c",
+                "text": "Ocultar el botón de ajustes.",
+                "feedback": "Revisa la idea clave. El control permite mantener la función principal y reducir señales no esenciales."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.sistemas.diseno_atencion",
+            "difficulty": 2,
+            "prompt": "Lina dice: 'Si alguien continúa, es solo falta de voluntad'. ¿Qué dimensión omite?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T06B",
+            "hint": "Evita culpar por completo o quitar toda agencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Que toda interfaz controla por completo a la persona.",
+                "feedback": "Revisa la idea clave. La agencia existe dentro de una arquitectura que puede facilitar o dificultar decisiones."
+              },
+              {
+                "id": "b",
+                "text": "Que las opciones nunca influyen.",
+                "feedback": "Revisa la idea clave. La agencia existe dentro de una arquitectura que puede facilitar o dificultar decisiones."
+              },
+              {
+                "id": "c",
+                "text": "Que el diseño modifica fricción, opciones por defecto y señales de atención.",
+                "feedback": "Correcto. La agencia existe dentro de una arquitectura que puede facilitar o dificultar decisiones."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.sistemas.diseno_atencion",
+            "difficulty": 1,
+            "prompt": "¿Cuál rediseño mejora la decisión informada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca control visible y costo de tiempo claro.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ocultar salir y acelerar la cuenta regresiva.",
+                "feedback": "Revisa la idea clave. La información y la igualdad visual permiten elegir antes de comprometer tiempo."
+              },
+              {
+                "id": "b",
+                "text": "Mostrar duración y botones equivalentes para continuar, guardar o terminar.",
+                "feedback": "Correcto. La información y la igualdad visual permiten elegir antes de comprometer tiempo."
+              },
+              {
+                "id": "c",
+                "text": "Enviar más alertas sin controles.",
+                "feedback": "Revisa la idea clave. La información y la igualdad visual permiten elegir antes de comprometer tiempo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.sistemas.diseno_atencion",
+            "difficulty": 1,
+            "prompt": "¿Qué pregunta resume el análisis del diseño de atención?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Mira sistema y opciones.",
+            "options": [
+              {
+                "id": "a",
+                "text": "¿Qué color me obliga a obedecer?",
+                "feedback": "Revisa la idea clave. La pregunta conecta arquitectura, influencia y agencia sin etiquetar al usuario."
+              },
+              {
+                "id": "b",
+                "text": "¿Cuántas personas son débiles?",
+                "feedback": "Revisa la idea clave. La pregunta conecta arquitectura, influencia y agencia sin etiquetar al usuario."
+              },
+              {
+                "id": "c",
+                "text": "¿Qué acción facilita, qué presión crea y qué control ofrece?",
+                "feedback": "Correcto. La pregunta conecta arquitectura, influencia y agencia sin etiquetar al usuario."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya observas la arquitectura de elección",
+            "body": "Analizaste señales, fricción y opciones por defecto, y propusiste controles reales. La atención ya no aparece solo como decisión individual, sino también como diseño.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A1.07",
+        "globalId": "pe-sec1-mail-A1-07",
+        "sequence": 7,
+        "title": "Emoción y viralidad",
+        "subtitle": "Sentir primero es humano; compartir después de revisar es agencia",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.mensajes.emocion_viralidad",
+        "learningOutcome": "Reconoce recursos emocionales que aceleran difusión y aplica una pausa de verificación.",
+        "successEvidence": "Compara dos versiones, identifica omisiones y elige una acción proporcional antes de compartir.",
+        "prerequisites": [
+          "Analiza propósito y diseño de atención",
+          "Aplica una rutina de pausa"
+        ],
+        "misconceptions": [
+          "Creer que emoción significa falsedad",
+          "Tomar urgencia o popularidad como evidencia",
+          "Compartir para preguntar sin considerar que también amplifica"
+        ],
+        "screens": [
+          {
+            "id": "A1.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La emoción es una señal para bajar la velocidad",
+            "body": "Sorpresa, miedo, indignación o ternura pueden volver memorable un mensaje y aumentar los reenvíos. La emoción no decide si es verdadero; indica que conviene separar reacción, afirmación y evidencia.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A1.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.mensajes.emocion_viralidad",
+            "difficulty": 1,
+            "prompt": "¿Qué versión ofrece información más verificable sobre el recreo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A1-T07A",
+            "hint": "Busca fuente de detalle, tiempo y acción verificable.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La versión A.",
+                "feedback": "Revisa la idea clave. B indica duración de la prueba, cambio concreto y procedimiento posterior."
+              },
+              {
+                "id": "b",
+                "text": "La versión B.",
+                "feedback": "Correcto. B indica duración de la prueba, cambio concreto y procedimiento posterior."
+              },
+              {
+                "id": "c",
+                "text": "Ninguna, porque usan palabras.",
+                "feedback": "Revisa la idea clave. B indica duración de la prueba, cambio concreto y procedimiento posterior."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Nombra la reacción y la afirmación",
+            "body": "Primero identifica qué te hace sentir; después escribe qué afirma exactamente el mensaje. Esta separación evita confundir intensidad con prueba.",
+            "examples": [
+              "Reacción: sorpresa",
+              "Afirmación: el recreo se alargará cinco minutos por dos semanas"
+            ],
+            "memoryAid": "Siento X; el mensaje afirma Y."
+          },
+          {
+            "id": "A1.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Recursos que aceleran",
+            "body": "Mayúsculas, absolutos, cuenta regresiva, imagen intensa y pedido de reenviar reducen el tiempo de reflexión. Son recursos de persuasión, no evidencia del hecho.",
+            "examples": [
+              "PARA SIEMPRE",
+              "comparte ya",
+              "nadie te cuenta"
+            ],
+            "memoryAid": "Señal emocional ≠ evidencia."
+          },
+          {
+            "id": "A1.07-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.mensajes.emocion_viralidad",
+            "difficulty": 1,
+            "prompt": "Relaciona cada recurso con su efecto probable.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A1-T07A",
+            "hint": "No todas las frases cumplen la misma función.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "PARA SIEMPRE",
+                "rightId": "r1",
+                "right": "Presenta el cambio como absoluto"
+              },
+              {
+                "leftId": "l2",
+                "left": "Nadie te cuenta",
+                "rightId": "r2",
+                "right": "Sugiere secreto o exclusión"
+              },
+              {
+                "leftId": "l3",
+                "left": "Dos semanas",
+                "rightId": "r3",
+                "right": "Delimita la prueba"
+              },
+              {
+                "leftId": "l4",
+                "left": "Recoger opiniones",
+                "rightId": "r4",
+                "right": "Explica un procedimiento"
+              }
+            ],
+            "feedbackCorrect": "Correcto: distinguíste dramatización de información comprobable.",
+            "feedbackIncorrect": "Clasifica recursos emocionales y datos operativos."
+          },
+          {
+            "id": "A1.07-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.mensajes.emocion_viralidad",
+            "difficulty": 1,
+            "prompt": "¿Qué falta en el mensaje sobre el parque?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T07B",
+            "hint": "Pregunta quién, cuándo, qué acción y con qué evidencia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Más mayúsculas.",
+                "feedback": "Revisa la idea clave. La urgencia y la imagen no sustituyen información básica para evaluar la campaña."
+              },
+              {
+                "id": "b",
+                "text": "Un contador más corto.",
+                "feedback": "Revisa la idea clave. La urgencia y la imagen no sustituyen información básica para evaluar la campaña."
+              },
+              {
+                "id": "c",
+                "text": "Organización responsable, fecha, propuesta y fuente verificable.",
+                "feedback": "Correcto. La urgencia y la imagen no sustituyen información básica para evaluar la campaña."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Pausa proporcional",
+            "body": "Antes de compartir, busca la versión más completa, identifica fuente y fecha, y considera el costo de amplificar. Si hay riesgo inmediato, prioriza apoyo seguro; si no, verifica sin prisa.",
+            "examples": [
+              "buscar comunicado",
+              "no entregar contactos",
+              "consultar a un adulto responsable"
+            ],
+            "memoryAid": "La acción depende del riesgo y de la evidencia."
+          },
+          {
+            "id": "A1.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.mensajes.emocion_viralidad",
+            "difficulty": 1,
+            "prompt": "¿Qué decisión reduce mejor el riesgo inmediato?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T07B",
+            "hint": "No intercambies datos por evidencia que aún no has visto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Compartir antes de leer para ganar tiempo.",
+                "feedback": "Revisa la idea clave. El mensaje presiona y solicita datos antes de mostrar información; una ruta verificable protege agencia y privacidad."
+              },
+              {
+                "id": "b",
+                "text": "No entregar contactos y buscar información pública de una organización identificable.",
+                "feedback": "Correcto. El mensaje presiona y solicita datos antes de mostrar información; una ruta verificable protege agencia y privacidad."
+              },
+              {
+                "id": "c",
+                "text": "Ingresar todos los datos solicitados.",
+                "feedback": "Revisa la idea clave. El mensaje presiona y solicita datos antes de mostrar información; una ruta verificable protege agencia y privacidad."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.mensajes.emocion_viralidad",
+            "difficulty": 2,
+            "prompt": "Omar dice: 'Como el titular me indignó, debe ser falso'. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T07A",
+            "hint": "Separa reacción de comprobación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Toda emoción garantiza exactitud.",
+                "feedback": "Revisa la idea clave. El tono es una pista sobre persuasión, no un veredicto factual."
+              },
+              {
+                "id": "b",
+                "text": "La versión más calmada siempre es verdadera sin revisión.",
+                "feedback": "Revisa la idea clave. El tono es una pista sobre persuasión, no un veredicto factual."
+              },
+              {
+                "id": "c",
+                "text": "La emoción no determina verdad o falsedad; debe revisar afirmación, fuente y evidencia.",
+                "feedback": "Correcto. El tono es una pista sobre persuasión, no un veredicto factual."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.mensajes.emocion_viralidad",
+            "difficulty": 1,
+            "prompt": "¿Cuál frase describe una pausa activa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Nombra tres pasos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Nunca siento nada al leer.",
+                "feedback": "Revisa la idea clave. La pausa conserva emoción y añade un proceso de decisión."
+              },
+              {
+                "id": "b",
+                "text": "Reconozco la emoción, formulo la afirmación y verifico antes de amplificar.",
+                "feedback": "Correcto. La pausa conserva emoción y añade un proceso de decisión."
+              },
+              {
+                "id": "c",
+                "text": "Comparto primero y reviso después.",
+                "feedback": "Revisa la idea clave. La pausa conserva emoción y añade un proceso de decisión."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.mensajes.emocion_viralidad",
+            "difficulty": 1,
+            "prompt": "¿Qué regla resume emoción y viralidad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "No conviertas una señal en veredicto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Lo popular siempre es verdadero.",
+                "feedback": "Revisa la idea clave. La regla evita ambos extremos y devuelve la atención a la evidencia."
+              },
+              {
+                "id": "b",
+                "text": "Lo emotivo siempre es falso.",
+                "feedback": "Revisa la idea clave. La regla evita ambos extremos y devuelve la atención a la evidencia."
+              },
+              {
+                "id": "c",
+                "text": "La intensidad puede impulsar difusión, pero la evidencia debe sostener la decisión.",
+                "feedback": "Correcto. La regla evita ambos extremos y devuelve la atención a la evidencia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya conviertes reacción en decisión",
+            "body": "Identificaste recursos emocionales, separaste afirmación de intensidad y aplicaste una pausa proporcional. Sentir no te quita agencia; verificar la fortalece.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "A1.08",
+        "globalId": "pe-sec1-mail-A1-08",
+        "sequence": 8,
+        "title": "Decisión informada",
+        "subtitle": "Propósito, costo, datos, acceso y bienestar caben en una sola matriz",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mail.accion.decision_informada",
+        "learningOutcome": "Evalúa opciones digitales según propósito, modelo, datos, accesibilidad, controles y bienestar.",
+        "successEvidence": "Elige una opción para un caso ficticio, justifica criterios y reconoce qué información adicional necesitaría.",
+        "prerequisites": [
+          "Analiza autor, audiencia, propósito, modelo, patrocinio, diseño y emoción"
+        ],
+        "misconceptions": [
+          "Buscar una plataforma universalmente mejor",
+          "Elegir solo por precio o popularidad",
+          "Ocultar incertidumbre para parecer seguro"
+        ],
+        "screens": [
+          {
+            "id": "A1.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "La mejor opción depende de la meta y el contexto",
+            "body": "Una plataforma útil para ver videos breves puede no ser la mejor para estudiar sin conexión. Decidir informadamente significa comparar criterios relevantes y explicar qué sacrificas o priorizas.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "A1.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mail.accion.decision_informada",
+            "difficulty": 1,
+            "prompt": "¿Qué plataforma parece más adecuada para una biblioteca escolar sin anuncios?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "stimulusId": "A1-T08A",
+            "hint": "Relaciona el propósito con características declaradas.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Chispa.",
+                "feedback": "Revisa la idea clave. La matriz describe Lumen como biblioteca escolar sin anuncios y orientada a tareas."
+              },
+              {
+                "id": "b",
+                "text": "Lumen.",
+                "feedback": "Correcto. La matriz describe Lumen como biblioteca escolar sin anuncios y orientada a tareas."
+              },
+              {
+                "id": "c",
+                "text": "Taller únicamente porque es de pago.",
+                "feedback": "Revisa la idea clave. La matriz describe Lumen como biblioteca escolar sin anuncios y orientada a tareas."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Matriz de seis criterios",
+            "body": "Define propósito; revisa costo y modelo; identifica datos necesarios; comprueba acceso; observa controles de atención; y considera efectos sobre otras personas.",
+            "examples": [
+              "propósito",
+              "costo",
+              "datos",
+              "acceso",
+              "bienestar",
+              "impacto"
+            ],
+            "memoryAid": "Elige criterios antes de enamorarte de una opción."
+          },
+          {
+            "id": "A1.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Decisión, razón y límite",
+            "body": "Una justificación madura dice qué elige, por qué encaja y qué limitación conserva. También puede señalar información faltante que cambiaría la decisión.",
+            "examples": [
+              "Elijo Taller por acceso offline",
+              "Límite: contenido fijo",
+              "Dato faltante: accesibilidad del módulo"
+            ],
+            "memoryAid": "Elegir no significa declarar perfecta una opción."
+          },
+          {
+            "id": "A1.08-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mail.accion.decision_informada",
+            "difficulty": 1,
+            "prompt": "Relaciona cada criterio con el dato correspondiente.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "stimulusId": "A1-T08A",
+            "hint": "Un mismo servicio puede aparecer en varios criterios.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Acceso sin conexión",
+                "rightId": "r1",
+                "right": "Taller"
+              },
+              {
+                "leftId": "l2",
+                "left": "Controles de pausa",
+                "rightId": "r2",
+                "right": "Chispa"
+              },
+              {
+                "leftId": "l3",
+                "left": "Cuenta del colegio",
+                "rightId": "r3",
+                "right": "Lumen"
+              },
+              {
+                "leftId": "l4",
+                "left": "Pago único",
+                "rightId": "r4",
+                "right": "Taller"
+              }
+            ],
+            "feedbackCorrect": "Bien: separaste acceso, control, identidad y costo.",
+            "feedbackIncorrect": "No reduzcas toda la decisión a una sola columna."
+          },
+          {
+            "id": "A1.08-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mail.accion.decision_informada",
+            "difficulty": 1,
+            "prompt": "Para el caso de Ari, ¿qué opción encaja mejor con el viaje?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T08B",
+            "hint": "Prioriza condiciones del caso, no popularidad.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Lumen, aunque requiere conexión del colegio durante el viaje.",
+                "feedback": "Revisa la idea clave. La necesidad central es practicar offline y la familia ya cuenta con el módulo."
+              },
+              {
+                "id": "b",
+                "text": "Chispa solo porque tiene videos cortos.",
+                "feedback": "Revisa la idea clave. La necesidad central es practicar offline y la familia ya cuenta con el módulo."
+              },
+              {
+                "id": "c",
+                "text": "Taller, porque ya tiene acceso y permite descargar sin conexión.",
+                "feedback": "Correcto. La necesidad central es practicar offline y la familia ya cuenta con el módulo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Revisar después de probar",
+            "body": "Una decisión puede ser provisional. Define una señal de éxito, un momento de revisión y una salida sencilla si la opción no cumple.",
+            "examples": [
+              "Meta: 20 min de práctica",
+              "Revisión: al terminar el módulo",
+              "Salida: cambiar de recurso"
+            ],
+            "memoryAid": "Planificar revisión mantiene la agencia."
+          },
+          {
+            "id": "A1.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mail.accion.decision_informada",
+            "difficulty": 1,
+            "prompt": "¿Qué criterio adicional favorece Taller en este caso?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T08B",
+            "hint": "Compara requisitos de interacción con la preferencia de Ari.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Obliga a recibir notificaciones.",
+                "feedback": "Revisa la idea clave. El escenario busca una sesión breve sin mensajes ni exposición pública."
+              },
+              {
+                "id": "b",
+                "text": "No necesita perfil público ni mensajes de comunidad.",
+                "feedback": "Correcto. El escenario busca una sesión breve sin mensajes ni exposición pública."
+              },
+              {
+                "id": "c",
+                "text": "Depende de anuncios personalizados.",
+                "feedback": "Revisa la idea clave. El escenario busca una sesión breve sin mensajes ni exposición pública."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mail.accion.decision_informada",
+            "difficulty": 2,
+            "prompt": "Eva afirma: 'Taller es la mejor plataforma para todas las personas'. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "stimulusId": "A1-T08B",
+            "hint": "Distingue 'mejor para Ari ahora' de 'mejor para todos'.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Una opción elegida en un caso siempre gana en todos.",
+                "feedback": "Revisa la idea clave. Una justificación contextual no autoriza una clasificación universal."
+              },
+              {
+                "id": "b",
+                "text": "No se pueden comparar plataformas.",
+                "feedback": "Revisa la idea clave. Una justificación contextual no autoriza una clasificación universal."
+              },
+              {
+                "id": "c",
+                "text": "La decisión depende de propósito, recursos, accesibilidad y contexto; aquí solo es adecuada para este caso.",
+                "feedback": "Correcto. Una justificación contextual no autoriza una clasificación universal."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mail.accion.decision_informada",
+            "difficulty": 1,
+            "prompt": "¿Qué información faltante podría cambiar la decisión de Ari?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "stimulusId": "A1-T08B",
+            "hint": "Busca un dato funcional todavía no declarado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El color del logotipo únicamente.",
+                "feedback": "Revisa la idea clave. La cobertura y compatibilidad afectan directamente el propósito de aprendizaje."
+              },
+              {
+                "id": "b",
+                "text": "Si el módulo descargable cubre el tema y es accesible en su dispositivo.",
+                "feedback": "Correcto. La cobertura y compatibilidad afectan directamente el propósito de aprendizaje."
+              },
+              {
+                "id": "c",
+                "text": "Cuántas reacciones tiene la publicidad.",
+                "feedback": "Revisa la idea clave. La cobertura y compatibilidad afectan directamente el propósito de aprendizaje."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "A1.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mail.accion.decision_informada",
+            "difficulty": 1,
+            "prompt": "¿Qué estructura produce una decisión informada?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Incluye qué sabes y qué revisarás.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Popularidad + impulso.",
+                "feedback": "Revisa la idea clave. La estructura hace visibles prioridades, incertidumbre y posibilidad de ajuste."
+              },
+              {
+                "id": "b",
+                "text": "Precio aislado + certeza total.",
+                "feedback": "Revisa la idea clave. La estructura hace visibles prioridades, incertidumbre y posibilidad de ajuste."
+              },
+              {
+                "id": "c",
+                "text": "Elección + criterios + evidencia + límite + momento de revisión.",
+                "feedback": "Correcto. La estructura hace visibles prioridades, incertidumbre y posibilidad de ajuste."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "A1.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya decides con una matriz propia",
+            "body": "Integraste autores, propósitos, modelos, datos y bienestar en una decisión contextual. Elegiste con razones, reconociste límites y dejaste abierta la revisión.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
