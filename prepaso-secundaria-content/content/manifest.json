@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "contentRelease": "2026.09.4",
+  "contentRelease": "2026.09.5",
   "locale": "es-PE",
   "country": "PE",
   "minimumEngineVersion": "0.1.0",
@@ -36,6 +36,16 @@
               "readyLessonCount": 8,
               "version": "2.0.0",
               "path": "pe/secundaria/1/matematica/M1-enteros-v2.json"
+            },
+            {
+              "id": "M2",
+              "sequence": 2,
+              "title": "Fracciones, decimales y porcentajes equivalentes",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/matematica/M2-fracciones-decimales-porcentajes-v1.json"
             }
           ]
         },
@@ -65,6 +75,16 @@
               "readyLessonCount": 8,
               "version": "2.0.0",
               "path": "pe/secundaria/1/lectura/L1-localizar-integrar-v2.json"
+            },
+            {
+              "id": "L2",
+              "sequence": 2,
+              "title": "Inferir significados y relaciones",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/lectura/L2-inferir-significados-relaciones-v1.json"
             }
           ]
         },
@@ -94,6 +114,16 @@
               "readyLessonCount": 8,
               "version": "1.0.0",
               "path": "pe/secundaria/1/mail/A1-autores-audiencias-atencion-v1.json"
+            },
+            {
+              "id": "A2",
+              "sequence": 2,
+              "title": "Acceso, búsqueda y organización de información",
+              "status": "ready",
+              "plannedLessonCount": 8,
+              "readyLessonCount": 8,
+              "version": "1.0.0",
+              "path": "pe/secundaria/1/mail/A2-acceso-busqueda-organizacion-v1.json"
             }
           ]
         }
