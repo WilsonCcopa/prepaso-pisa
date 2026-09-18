@@ -1,0 +1,2355 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "2.0.0",
+  "release": "2026.09.4",
+  "locale": "es-PE",
+  "unit": {
+    "id": "M1",
+    "globalId": "pe-sec1-mat-M1",
+    "sequence": 1,
+    "grade": "sec1",
+    "subject": "matematica",
+    "title": "Enteros, orden y divisibilidad",
+    "shortTitle": "Enteros y divisibilidad",
+    "status": "ready",
+    "plannedLessonCount": 8,
+    "readyLessonCount": 8,
+    "estimatedMinutesReady": 80,
+    "officialStatus": "secuencia_editorial_prepaso_alineada_al_cneb",
+    "officialStatusNote": "MINEDU define competencias, capacidades, estándares y desempeños. M1 es una secuencia editorial de Prepaso alineada a primer grado; no es el nombre de una unidad oficial obligatoria.",
+    "unitOutcome": "Modela posiciones y cambios con enteros, opera con sentido, organiza cálculos, reconoce divisibilidad y sustenta propiedades.",
+    "finalEvidence": "Resolución comentada de una situación con enteros, verificación por operación inversa y justificación o refutación de una propiedad.",
+    "curriculumAlignment": {
+      "framework": "CNEB Perú",
+      "cycle": "VI",
+      "competency": "Resuelve problemas de cantidad",
+      "capacities": [
+        "Traduce cantidades a expresiones numéricas",
+        "Comunica su comprensión sobre los números y las operaciones",
+        "Usa estrategias y procedimientos de estimación y cálculo",
+        "Argumenta afirmaciones sobre las relaciones numéricas y las operaciones"
+      ],
+      "operationalAlignment": "Trabaja enteros, comparación, operaciones y divisibilidad mediante modelación, representación, cálculo y argumentación progresiva."
+    },
+    "masteryPolicy": {
+      "minimumScore": 0.8,
+      "minimumIndependentEvidence": 2,
+      "maxAttemptsBeforeRemediation": 2,
+      "reviewScheduleDays": [
+        2,
+        7,
+        21
+      ],
+      "speedAffectsMastery": false,
+      "hintsReduceEvidenceWeight": true,
+      "livesCanBlockLearning": false,
+      "diagnosticUse": "orientar_apoyo_sin_etiquetar_al_estudiante"
+    },
+    "gamification": {
+      "baseXpPerLesson": 20,
+      "independentBonusXp": 5,
+      "firstAttemptBonusXp": 3,
+      "speedBonusXp": 0,
+      "streakRule": "Completar al menos una misión o un repaso significativo en el día.",
+      "unitBadge": "Explorador de enteros"
+    },
+    "accessibility": {
+      "timeLimits": false,
+      "requiresAudio": false,
+      "requiresDragAndDrop": false,
+      "minimumTouchTargetPx": 44,
+      "textAlternativesRequired": true
+    },
+    "analytics": {
+      "freeTextCollection": false,
+      "allowedDimensions": [
+        "lessonId",
+        "skillId",
+        "screenType",
+        "stimulusId",
+        "attemptsBucket",
+        "scoreBucket",
+        "hintUsed",
+        "contentVersion"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Programa Curricular de Educación Secundaria",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.minedu.gob.pe/curriculo/pdf/programa-curricular-educacion-secundaria.pdf"
+      },
+      {
+        "title": "Currículo Nacional de la Educación Básica",
+        "publisher": "Ministerio de Educación del Perú",
+        "url": "https://www.gob.pe/institucion/minedu/campa%C3%B1as/106784-curriculo-nacional-de-la-educacion-basica"
+      }
+    ],
+    "stimuli": [],
+    "lessons": [
+      {
+        "id": "M1.01",
+        "globalId": "pe-sec1-mat-M1-01",
+        "sequence": 1,
+        "title": "Números con dirección",
+        "subtitle": "El signo indica posición o cambio respecto de una referencia",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.enteros_interpretacion",
+        "learningOutcome": "Interpreta enteros positivos, negativos y cero en contextos de temperatura, altura, pisos y saldos.",
+        "successEvidence": "Traduce cuatro situaciones a enteros y explica qué representa el cero en cada contexto.",
+        "prerequisites": [
+          "Ubica naturales en una recta",
+          "Distingue aumento y disminución"
+        ],
+        "misconceptions": [
+          "Leer el signo menos solo como una orden de restar",
+          "Creer que cero siempre significa ausencia",
+          "Usar positivo y negativo sin declarar la referencia"
+        ],
+        "screens": [
+          {
+            "id": "M1.01-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Un número también puede indicar dirección",
+            "body": "En primaria usaste números para contar. Ahora añadirás una referencia: por encima o por debajo, a favor o en contra, después o antes. El signo no cambia la cantidad de pasos; indica hacia qué lado se encuentran.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.01-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.enteros_interpretacion",
+            "difficulty": 1,
+            "prompt": "Una cámara registra 5 °C bajo cero. ¿Qué entero representa la temperatura?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Ubica el cero y avanza cinco unidades hacia la izquierda.",
+            "options": [
+              {
+                "id": "a",
+                "text": "+5",
+                "feedback": "Revisa la idea clave. 'Bajo cero' indica la dirección negativa y 5 indica la distancia al cero."
+              },
+              {
+                "id": "b",
+                "text": "-5",
+                "feedback": "Correcto. 'Bajo cero' indica la dirección negativa y 5 indica la distancia al cero."
+              },
+              {
+                "id": "c",
+                "text": "0",
+                "feedback": "Revisa la idea clave. 'Bajo cero' indica la dirección negativa y 5 indica la distancia al cero."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.01-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Referencia, dirección y distancia",
+            "body": "Un entero se entiende con tres datos: una referencia que vale cero, una dirección positiva elegida y una distancia. En un edificio, la planta baja puede ser 0; los pisos superiores son positivos y los sótanos, negativos.",
+            "examples": [
+              "Piso 3 → +3",
+              "Segundo sótano → -2",
+              "Planta baja → 0"
+            ],
+            "memoryAid": "Antes de mirar el signo, pregunta: ¿cero respecto de qué?"
+          },
+          {
+            "id": "M1.01-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "El mismo entero puede contar historias distintas",
+            "body": "-4 puede significar cuatro grados bajo cero, cuatro metros bajo el nivel de referencia o una deuda de cuatro soles. La operación matemática puede ser la misma, pero la unidad y el significado cambian.",
+            "examples": [
+              "-4 °C",
+              "-4 m",
+              "saldo de -S/4"
+            ],
+            "memoryAid": "Número, unidad y contexto forman una sola idea."
+          },
+          {
+            "id": "M1.01-S05",
+            "type": "number_line",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.enteros_interpretacion",
+            "difficulty": 1,
+            "prompt": "Ubica el piso -3 en una recta de pisos.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Los pisos de sótano quedan antes de 0.",
+            "range": {
+              "min": -5,
+              "max": 5,
+              "step": 1
+            },
+            "correctValue": -3,
+            "feedbackCorrect": "-3 está tres unidades por debajo de 0.",
+            "feedbackIncorrect": "Empieza en 0 y desplázate tres marcas hacia el lado negativo."
+          },
+          {
+            "id": "M1.01-S06",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.enteros_interpretacion",
+            "difficulty": 1,
+            "prompt": "Relaciona la situación con el entero que la representa.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Separa la cantidad de la dirección.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Ganó 4 puntos",
+                "rightId": "r1",
+                "right": "+4"
+              },
+              {
+                "leftId": "l2",
+                "left": "Bajó 6 metros",
+                "rightId": "r2",
+                "right": "-6"
+              },
+              {
+                "leftId": "l3",
+                "left": "Quedó al nivel de referencia",
+                "rightId": "r3",
+                "right": "0"
+              },
+              {
+                "leftId": "l4",
+                "left": "Debe S/3",
+                "rightId": "r4",
+                "right": "-3"
+              }
+            ],
+            "feedbackCorrect": "Correcto: cada signo expresa una dirección respecto de la referencia.",
+            "feedbackIncorrect": "Identifica si la situación avanza, retrocede o queda en el punto de referencia."
+          },
+          {
+            "id": "M1.01-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Cero es una referencia, no siempre 'nada'",
+            "body": "En temperatura, 0 °C es un valor medible; en un ascensor, piso 0 puede ser la entrada; en un saldo, S/0 significa equilibrio. El cero separa direcciones opuestas.",
+            "examples": [
+              "0 °C no significa que no exista temperatura",
+              "Altura 0 m puede ser el nivel del mar"
+            ],
+            "memoryAid": "Cero puede marcar el punto desde el cual comparamos."
+          },
+          {
+            "id": "M1.01-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.enteros_interpretacion",
+            "difficulty": 1,
+            "prompt": "Un buzo está a 8 m bajo el nivel del mar. ¿Cuál registro es correcto?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "La palabra 'bajo' señala el lado negativo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "+8 m",
+                "feedback": "Revisa la idea clave. Si el nivel del mar es 0, una posición bajo él se representa con signo negativo."
+              },
+              {
+                "id": "b",
+                "text": "0 m",
+                "feedback": "Revisa la idea clave. Si el nivel del mar es 0, una posición bajo él se representa con signo negativo."
+              },
+              {
+                "id": "c",
+                "text": "-8 m",
+                "feedback": "Correcto. Si el nivel del mar es 0, una posición bajo él se representa con signo negativo."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.01-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.enteros_interpretacion",
+            "difficulty": 2,
+            "prompt": "Rosa dice: 'El signo - en -7 significa que debo calcular una resta'. ¿Qué corrección es mejor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Distingue el signo del número de la operación entre dos números.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo signo menos debe borrarse.",
+                "feedback": "Revisa la idea clave. El signo de un entero puede indicar posición; no necesariamente una operación pendiente."
+              },
+              {
+                "id": "b",
+                "text": "Aquí el signo indica que 7 está en la dirección negativa respecto de cero.",
+                "feedback": "Correcto. El signo de un entero puede indicar posición; no necesariamente una operación pendiente."
+              },
+              {
+                "id": "c",
+                "text": "-7 y +7 representan siempre la misma posición.",
+                "feedback": "Revisa la idea clave. El signo de un entero puede indicar posición; no necesariamente una operación pendiente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.01-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.enteros_interpretacion",
+            "difficulty": 1,
+            "prompt": "Una billetera virtual muestra saldo -S/12. ¿Qué significa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Compara el saldo con S/0.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hay S/12 disponibles para gastar.",
+                "feedback": "Revisa la idea clave. Un saldo negativo expresa una deuda o cantidad pendiente respecto del equilibrio."
+              },
+              {
+                "id": "b",
+                "text": "La aplicación dejó de contar dinero.",
+                "feedback": "Revisa la idea clave. Un saldo negativo expresa una deuda o cantidad pendiente respecto del equilibrio."
+              },
+              {
+                "id": "c",
+                "text": "Faltan S/12 para llegar a saldo cero.",
+                "feedback": "Correcto. Un saldo negativo expresa una deuda o cantidad pendiente respecto del equilibrio."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.01-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.enteros_interpretacion",
+            "difficulty": 1,
+            "prompt": "¿Qué afirmación usa correctamente una referencia?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una frase que declare qué significa cero.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo lugar bajo un techo se representa con -1.",
+                "feedback": "Revisa la idea clave. La entrada funciona como referencia y cada sótano queda en la dirección negativa."
+              },
+              {
+                "id": "b",
+                "text": "Si la entrada es el piso 0, el segundo sótano se representa con -2.",
+                "feedback": "Correcto. La entrada funciona como referencia y cada sótano queda en la dirección negativa."
+              },
+              {
+                "id": "c",
+                "text": "El número 0 nunca representa una posición.",
+                "feedback": "Revisa la idea clave. La entrada funciona como referencia y cada sótano queda en la dirección negativa."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.01-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya lees el sentido de cada signo",
+            "body": "Tradujiste posiciones y cambios usando referencia, dirección y distancia. Los enteros ya no son símbolos aislados: cuentan una situación con precisión.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M1.02",
+        "globalId": "pe-sec1-mat-M1-02",
+        "sequence": 2,
+        "title": "Orden y valor absoluto",
+        "subtitle": "Ordenar es ubicar; el valor absoluto mide distancia al cero",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.orden_valor_absoluto",
+        "learningOutcome": "Compara y ordena enteros y explica el valor absoluto como distancia al cero.",
+        "successEvidence": "Ordena temperaturas y distingue correctamente posición, signo y distancia.",
+        "prerequisites": [
+          "Interpreta enteros en una recta"
+        ],
+        "misconceptions": [
+          "Creer que -9 es mayor que -3 porque 9 es mayor que 3",
+          "Confundir valor absoluto con convertir todo número en positivo sin significado",
+          "Pensar que números opuestos ocupan el mismo punto"
+        ],
+        "screens": [
+          {
+            "id": "M1.02-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Más a la derecha significa mayor",
+            "body": "La recta numérica elimina una confusión frecuente: entre dos enteros, el que está más a la derecha es mayor. El valor absoluto responde otra pregunta: ¿qué tan lejos está del cero?",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.02-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.orden_valor_absoluto",
+            "difficulty": 1,
+            "prompt": "¿Cuál número es mayor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "El número negativo más cercano a cero es el mayor.",
+            "options": [
+              {
+                "id": "a",
+                "text": "-7",
+                "feedback": "Revisa la idea clave. -2 está más a la derecha que -7 en la recta numérica."
+              },
+              {
+                "id": "b",
+                "text": "-2",
+                "feedback": "Correcto. -2 está más a la derecha que -7 en la recta numérica."
+              },
+              {
+                "id": "c",
+                "text": "Son iguales",
+                "feedback": "Revisa la idea clave. -2 está más a la derecha que -7 en la recta numérica."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.02-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "El orden se ve en la recta",
+            "body": "Desde la izquierda aparecen los enteros menores y hacia la derecha los mayores. Por eso -8 es menor que -2: está más lejos hacia el lado negativo.",
+            "examples": [
+              "-8 < -2",
+              "-1 < 0",
+              "0 < +4"
+            ],
+            "memoryAid": "No compares solo las cifras; compara posiciones completas."
+          },
+          {
+            "id": "M1.02-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Valor absoluto es distancia",
+            "body": "La distancia nunca es negativa. El valor absoluto de -6 y el de +6 es 6 porque ambos puntos están a seis unidades del cero, aunque se encuentran en direcciones opuestas.",
+            "examples": [
+              "|-6| = 6",
+              "|+6| = 6",
+              "|0| = 0"
+            ],
+            "memoryAid": "Las barras preguntan distancia, no dirección."
+          },
+          {
+            "id": "M1.02-S05",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.orden_valor_absoluto",
+            "difficulty": 1,
+            "prompt": "Ordena de menor a mayor.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Entre negativos, el más alejado de cero queda primero.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "-6"
+              },
+              {
+                "id": "i2",
+                "text": "-1"
+              },
+              {
+                "id": "i3",
+                "text": "0"
+              },
+              {
+                "id": "i4",
+                "text": "+4"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3",
+              "i4"
+            ],
+            "feedbackCorrect": "Correcto: recorriste la recta de izquierda a derecha.",
+            "feedbackIncorrect": "Ubica primero los negativos, luego cero y después los positivos."
+          },
+          {
+            "id": "M1.02-S06",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.orden_valor_absoluto",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el valor absoluto de -9?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "El valor absoluto nunca es negativo.",
+            "answer": {
+              "kind": "number",
+              "value": 9
+            },
+            "feedbackCorrect": "-9 está a nueve unidades del cero; por eso |-9| = 9.",
+            "feedbackIncorrect": "Cuenta la distancia desde -9 hasta 0 sin conservar la dirección."
+          },
+          {
+            "id": "M1.02-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Magnitud no es lo mismo que orden",
+            "body": "-10 tiene mayor valor absoluto que -3, pero es un número menor. Una cantidad puede estar más lejos del cero y, al mismo tiempo, quedar más a la izquierda.",
+            "examples": [
+              "|-10| = 10 > 3 = |-3|",
+              "Sin embargo: -10 < -3"
+            ],
+            "memoryAid": "Responde primero: ¿me preguntan posición o distancia?"
+          },
+          {
+            "id": "M1.02-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.orden_valor_absoluto",
+            "difficulty": 1,
+            "prompt": "Temperaturas: Cusco -2 °C, Puno -6 °C y Tacna 4 °C. ¿Cuál es la menor?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "La temperatura menor es la más fría y más negativa.",
+            "options": [
+              {
+                "id": "a",
+                "text": "-2 °C",
+                "feedback": "Revisa la idea clave. -6 está más a la izquierda que -2 y 4."
+              },
+              {
+                "id": "b",
+                "text": "4 °C",
+                "feedback": "Revisa la idea clave. -6 está más a la izquierda que -2 y 4."
+              },
+              {
+                "id": "c",
+                "text": "-6 °C",
+                "feedback": "Correcto. -6 está más a la izquierda que -2 y 4."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.02-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.orden_valor_absoluto",
+            "difficulty": 2,
+            "prompt": "Luis afirma: '-12 es mayor que -5 porque 12 > 5'. ¿Qué olvidó?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Imagina ambos puntos respecto de cero.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Los enteros negativos no se pueden ordenar.",
+                "feedback": "Revisa la idea clave. La comparación debe considerar el signo y la posición en la recta."
+              },
+              {
+                "id": "b",
+                "text": "Entre negativos, -12 está más a la izquierda y por eso es menor.",
+                "feedback": "Correcto. La comparación debe considerar el signo y la posición en la recta."
+              },
+              {
+                "id": "c",
+                "text": "Todo número con dos cifras es mayor.",
+                "feedback": "Revisa la idea clave. La comparación debe considerar el signo y la posición en la recta."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.02-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.orden_valor_absoluto",
+            "difficulty": 1,
+            "prompt": "Dos ascensores están en los pisos -4 y +2. ¿Cuál está más lejos del piso 0?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Compara valores absolutos, no cuál piso es mayor.",
+            "options": [
+              {
+                "id": "a",
+                "text": "El del piso +2.",
+                "feedback": "Revisa la idea clave. |-4| = 4 y |+2| = 2; cuatro pisos es mayor distancia."
+              },
+              {
+                "id": "b",
+                "text": "Están a la misma distancia.",
+                "feedback": "Revisa la idea clave. |-4| = 4 y |+2| = 2; cuatro pisos es mayor distancia."
+              },
+              {
+                "id": "c",
+                "text": "El del piso -4.",
+                "feedback": "Correcto. |-4| = 4 y |+2| = 2; cuatro pisos es mayor distancia."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.02-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.orden_valor_absoluto",
+            "difficulty": 1,
+            "prompt": "¿Qué relación es verdadera?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Distingue posición de distancia.",
+            "options": [
+              {
+                "id": "a",
+                "text": "-5 > +5",
+                "feedback": "Revisa la idea clave. Los números opuestos están a igual distancia del cero."
+              },
+              {
+                "id": "b",
+                "text": "|-5| = |+5|",
+                "feedback": "Correcto. Los números opuestos están a igual distancia del cero."
+              },
+              {
+                "id": "c",
+                "text": "|-5| = -5",
+                "feedback": "Revisa la idea clave. Los números opuestos están a igual distancia del cero."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.02-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya separas posición y distancia",
+            "body": "Ordenaste enteros por su lugar en la recta y usaste el valor absoluto para medir distancia. Esta diferencia evitará muchos errores en operaciones posteriores.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M1.03",
+        "globalId": "pe-sec1-mat-M1-03",
+        "sequence": 3,
+        "title": "Suma de enteros",
+        "subtitle": "Sumar enteros combina cambios con dirección",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.suma_enteros",
+        "learningOutcome": "Suma enteros mediante desplazamientos, cambios sucesivos y descomposición.",
+        "successEvidence": "Resuelve una variación de saldo y explica el signo del resultado con una representación.",
+        "prerequisites": [
+          "Ordena enteros",
+          "Interpreta signos como dirección"
+        ],
+        "misconceptions": [
+          "Sumar valores absolutos y conservar cualquier signo",
+          "Pensar que dos signos diferentes siempre producen cero",
+          "Moverse a la izquierda cuando se suma un positivo"
+        ],
+        "screens": [
+          {
+            "id": "M1.03-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Sumar es aplicar un cambio",
+            "body": "Empieza en el primer número. Sumar un positivo mueve a la derecha; sumar un negativo mueve a la izquierda. Así cada cuenta conserva el significado de la situación.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.03-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.suma_enteros",
+            "difficulty": 1,
+            "prompt": "Empiezas en -2 y sumas +5. ¿Dónde terminas?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Dibuja cinco pasos hacia la derecha.",
+            "options": [
+              {
+                "id": "a",
+                "text": "-7",
+                "feedback": "Revisa la idea clave. Desde -2 avanzas cinco unidades a la derecha y llegas a +3."
+              },
+              {
+                "id": "b",
+                "text": "+3",
+                "feedback": "Correcto. Desde -2 avanzas cinco unidades a la derecha y llegas a +3."
+              },
+              {
+                "id": "c",
+                "text": "-3",
+                "feedback": "Revisa la idea clave. Desde -2 avanzas cinco unidades a la derecha y llegas a +3."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.03-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Mismo signo: une distancias",
+            "body": "Si ambos cambios van hacia el mismo lado, suma sus distancias y conserva la dirección. Dos descensos se combinan en un descenso mayor.",
+            "examples": [
+              "(+3) + (+4) = +7",
+              "(-2) + (-5) = -7"
+            ],
+            "memoryAid": "Misma dirección: suma y conserva el signo."
+          },
+          {
+            "id": "M1.03-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Signos distintos: compiten distancias",
+            "body": "Cuando los cambios van en direcciones opuestas, resta la distancia menor de la mayor. El resultado queda del lado del cambio con mayor valor absoluto.",
+            "examples": [
+              "(+8) + (-3) = +5",
+              "(-9) + (+4) = -5"
+            ],
+            "memoryAid": "Resta distancias y conserva la dirección más fuerte."
+          },
+          {
+            "id": "M1.03-S05",
+            "type": "number_line",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.suma_enteros",
+            "difficulty": 1,
+            "prompt": "Representa el resultado de (-4) + (+6).",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Sumar un positivo mueve a la derecha.",
+            "range": {
+              "min": -8,
+              "max": 8,
+              "step": 1
+            },
+            "correctValue": 2,
+            "feedbackCorrect": "Desde -4, seis pasos a la derecha terminan en +2.",
+            "feedbackIncorrect": "Empieza en -4 y cuenta seis marcas hacia la derecha."
+          },
+          {
+            "id": "M1.03-S06",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.suma_enteros",
+            "difficulty": 1,
+            "prompt": "Calcula (-7) + (-3).",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Suma las distancias 7 y 3.",
+            "answer": {
+              "kind": "number",
+              "value": -10
+            },
+            "feedbackCorrect": "Ambos cambios son negativos: 7 + 3 = 10 y se conserva la dirección negativa.",
+            "feedbackIncorrect": "Los dos movimientos van hacia la izquierda."
+          },
+          {
+            "id": "M1.03-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Cero muestra equilibrio",
+            "body": "Un número y su opuesto se cancelan porque recorren la misma distancia en sentidos contrarios. Esto no significa que no ocurrió nada; significa que el cambio neto fue cero.",
+            "examples": [
+              "(+6) + (-6) = 0",
+              "ganar 6 y gastar 6 deja el saldo inicial"
+            ],
+            "memoryAid": "Opuestos iguales producen cambio neto cero."
+          },
+          {
+            "id": "M1.03-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.suma_enteros",
+            "difficulty": 1,
+            "prompt": "Un saldo era S/8 y se registra un gasto de S/11. ¿Cuál es el nuevo saldo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Compara las distancias 8 y 11.",
+            "options": [
+              {
+                "id": "a",
+                "text": "S/19",
+                "feedback": "Revisa la idea clave. 8 + (-11) = -3; el gasto supera al saldo disponible por tres soles."
+              },
+              {
+                "id": "b",
+                "text": "S/3",
+                "feedback": "Revisa la idea clave. 8 + (-11) = -3; el gasto supera al saldo disponible por tres soles."
+              },
+              {
+                "id": "c",
+                "text": "-S/3",
+                "feedback": "Correcto. 8 + (-11) = -3; el gasto supera al saldo disponible por tres soles."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.03-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.suma_enteros",
+            "difficulty": 2,
+            "prompt": "Ana resolvió (-9) + (+4) = +13. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Ubica -9 y avanza cuatro pasos a la derecha.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe sumar 9 + 4 y usar siempre positivo.",
+                "feedback": "Revisa la idea clave. La distancia negativa es mayor que la positiva, por eso el resultado queda en -5."
+              },
+              {
+                "id": "b",
+                "text": "Los cambios tienen signos distintos: debe restar 9 - 4 y conservar el signo negativo; resultado -5.",
+                "feedback": "Correcto. La distancia negativa es mayor que la positiva, por eso el resultado queda en -5."
+              },
+              {
+                "id": "c",
+                "text": "Debe cambiar ambos números por cero.",
+                "feedback": "Revisa la idea clave. La distancia negativa es mayor que la positiva, por eso el resultado queda en -5."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.03-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.suma_enteros",
+            "difficulty": 1,
+            "prompt": "A las 6 a. m. había -3 °C y la temperatura subió 7 °C. ¿Qué temperatura alcanzó?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Separa el recorrido: 3 grados hasta cero y 4 más.",
+            "options": [
+              {
+                "id": "a",
+                "text": "-10 °C",
+                "feedback": "Revisa la idea clave. -3 + 7 = 4; tras llegar a cero todavía sube cuatro grados."
+              },
+              {
+                "id": "b",
+                "text": "-4 °C",
+                "feedback": "Revisa la idea clave. -3 + 7 = 4; tras llegar a cero todavía sube cuatro grados."
+              },
+              {
+                "id": "c",
+                "text": "4 °C",
+                "feedback": "Correcto. -3 + 7 = 4; tras llegar a cero todavía sube cuatro grados."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.03-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.suma_enteros",
+            "difficulty": 1,
+            "prompt": "¿Qué suma tiene resultado cero?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca dos enteros opuestos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "(-12) + (-12)",
+                "feedback": "Revisa la idea clave. Un número y su opuesto tienen igual distancia y direcciones contrarias."
+              },
+              {
+                "id": "b",
+                "text": "(-12) + (+12)",
+                "feedback": "Correcto. Un número y su opuesto tienen igual distancia y direcciones contrarias."
+              },
+              {
+                "id": "c",
+                "text": "(+12) + (+1)",
+                "feedback": "Revisa la idea clave. Un número y su opuesto tienen igual distancia y direcciones contrarias."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.03-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya combinas cambios con sentido",
+            "body": "Sumaste enteros como desplazamientos y explicaste por qué el resultado queda positivo, negativo o en cero. La regla nació de la dirección, no de una frase memorizada.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M1.04",
+        "globalId": "pe-sec1-mat-M1-04",
+        "sequence": 4,
+        "title": "Resta de enteros",
+        "subtitle": "Restar permite hallar una diferencia o sumar el opuesto",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.resta_enteros",
+        "learningOutcome": "Interpreta la resta de enteros como diferencia y como suma del opuesto.",
+        "successEvidence": "Calcula variaciones entre temperaturas y justifica por qué restar un negativo aumenta.",
+        "prerequisites": [
+          "Suma enteros",
+          "Reconoce números opuestos"
+        ],
+        "misconceptions": [
+          "Creer que restar siempre hace menor el resultado",
+          "Eliminar dos signos sin explicar su función",
+          "Confundir la diferencia entre posiciones con el punto final"
+        ],
+        "screens": [
+          {
+            "id": "M1.04-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Restar responde '¿cuánto separa?'",
+            "body": "Con enteros, una resta puede comparar dos posiciones o quitar un cambio. La transformación a suma del opuesto ayuda, pero primero comprenderás qué significa en la historia.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.04-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.resta_enteros",
+            "difficulty": 1,
+            "prompt": "La temperatura pasó de -2 °C a +5 °C. ¿Cuál fue el cambio?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Cuenta la distancia desde -2 hasta +5.",
+            "options": [
+              {
+                "id": "a",
+                "text": "+3 °C",
+                "feedback": "Revisa la idea clave. Valor final menos inicial: 5 - (-2) = 7."
+              },
+              {
+                "id": "b",
+                "text": "+7 °C",
+                "feedback": "Correcto. Valor final menos inicial: 5 - (-2) = 7."
+              },
+              {
+                "id": "c",
+                "text": "-7 °C",
+                "feedback": "Revisa la idea clave. Valor final menos inicial: 5 - (-2) = 7."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.04-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Diferencia entre dos posiciones",
+            "body": "Para saber cuánto cambió una temperatura, resta valor final menos valor inicial. Si pasó de -4 °C a +3 °C, el cambio fue 3 - (-4) = 7 °C.",
+            "examples": [
+              "final - inicial",
+              "3 - (-4) = 7"
+            ],
+            "memoryAid": "La variación conserva el orden: final menos inicial."
+          },
+          {
+            "id": "M1.04-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Restar es sumar el opuesto",
+            "body": "Quitar un número produce el mismo efecto que añadir su opuesto: a - b = a + (-b). Por eso restar un negativo equivale a sumar un positivo.",
+            "examples": [
+              "5 - 2 = 5 + (-2)",
+              "5 - (-2) = 5 + 2"
+            ],
+            "memoryAid": "Cambia la resta por suma y usa el opuesto del segundo número."
+          },
+          {
+            "id": "M1.04-S05",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.resta_enteros",
+            "difficulty": 1,
+            "prompt": "¿Qué suma equivale a 6 - (-4)?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Conserva el primer número y cambia el segundo por su opuesto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "6 + (-4)",
+                "feedback": "Revisa la idea clave. El opuesto de -4 es +4; por eso restarlo equivale a sumar 4."
+              },
+              {
+                "id": "b",
+                "text": "-6 + 4",
+                "feedback": "Revisa la idea clave. El opuesto de -4 es +4; por eso restarlo equivale a sumar 4."
+              },
+              {
+                "id": "c",
+                "text": "6 + 4",
+                "feedback": "Correcto. El opuesto de -4 es +4; por eso restarlo equivale a sumar 4."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.04-S06",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.resta_enteros",
+            "difficulty": 1,
+            "prompt": "Calcula (-3) - (+5).",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "El opuesto de +5 es -5.",
+            "answer": {
+              "kind": "number",
+              "value": -8
+            },
+            "feedbackCorrect": "Restar +5 equivale a sumar -5: -3 + (-5) = -8.",
+            "feedbackIncorrect": "Transforma la resta en suma del opuesto."
+          },
+          {
+            "id": "M1.04-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Dos signos cumplen funciones distintas",
+            "body": "En 4 - (-3), el primer signo es la operación restar y el segundo pertenece al número -3. No se borran mágicamente: quitar un descenso produce un aumento de tres.",
+            "examples": [
+              "4 - (-3) = 7",
+              "-2 - (+5) = -7"
+            ],
+            "memoryAid": "Nombra cada signo antes de transformar la expresión."
+          },
+          {
+            "id": "M1.04-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.resta_enteros",
+            "difficulty": 1,
+            "prompt": "Un ascensor va del piso +4 al piso -3. Si calculas final - inicial, ¿qué cambio obtienes?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Cuenta desde +4 hasta -3 y conserva la dirección.",
+            "options": [
+              {
+                "id": "a",
+                "text": "+1 piso",
+                "feedback": "Revisa la idea clave. -3 - 4 = -7; el signo negativo indica un descenso de siete pisos."
+              },
+              {
+                "id": "b",
+                "text": "+7 pisos",
+                "feedback": "Revisa la idea clave. -3 - 4 = -7; el signo negativo indica un descenso de siete pisos."
+              },
+              {
+                "id": "c",
+                "text": "-7 pisos",
+                "feedback": "Correcto. -3 - 4 = -7; el signo negativo indica un descenso de siete pisos."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.04-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.resta_enteros",
+            "difficulty": 2,
+            "prompt": "Diego afirma: 'Toda resta reduce el número'. ¿Qué ejemplo lo contradice?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Busca una resta cuyo segundo número sea negativo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "7 - 2 = 5",
+                "feedback": "Revisa la idea clave. Restar un negativo equivale a sumar su opuesto positivo, así que el resultado puede aumentar."
+              },
+              {
+                "id": "b",
+                "text": "2 - (-5) = 7",
+                "feedback": "Correcto. Restar un negativo equivale a sumar su opuesto positivo, así que el resultado puede aumentar."
+              },
+              {
+                "id": "c",
+                "text": "2 - 5 = -3",
+                "feedback": "Revisa la idea clave. Restar un negativo equivale a sumar su opuesto positivo, así que el resultado puede aumentar."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.04-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.resta_enteros",
+            "difficulty": 1,
+            "prompt": "En la mañana hubo -6 °C y al mediodía -1 °C. ¿Cuánto aumentó?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Desde -6 hasta -1 avanzas cinco unidades.",
+            "options": [
+              {
+                "id": "a",
+                "text": "-7 °C",
+                "feedback": "Revisa la idea clave. -1 - (-6) = -1 + 6 = 5."
+              },
+              {
+                "id": "b",
+                "text": "1 °C",
+                "feedback": "Revisa la idea clave. -1 - (-6) = -1 + 6 = 5."
+              },
+              {
+                "id": "c",
+                "text": "5 °C",
+                "feedback": "Correcto. -1 - (-6) = -1 + 6 = 5."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.04-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.resta_enteros",
+            "difficulty": 1,
+            "prompt": "¿Cuál igualdad es correcta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Suma el opuesto del segundo número.",
+            "options": [
+              {
+                "id": "a",
+                "text": "(-8) - (-3) = -11",
+                "feedback": "Revisa la idea clave. -8 - (-3) = -8 + 3 = -5."
+              },
+              {
+                "id": "b",
+                "text": "(-8) - (-3) = -5",
+                "feedback": "Correcto. -8 - (-3) = -8 + 3 = -5."
+              },
+              {
+                "id": "c",
+                "text": "(-8) - (+3) = -5",
+                "feedback": "Revisa la idea clave. -8 - (-3) = -8 + 3 = -5."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.04-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya explicas cada resta",
+            "body": "Calculaste diferencias y transformaste restas en sumas del opuesto sin perder el contexto. Ahora puedes explicar por qué una resta a veces aumenta el resultado.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M1.05",
+        "globalId": "pe-sec1-mat-M1-05",
+        "sequence": 5,
+        "title": "Multiplicación y división",
+        "subtitle": "Las reglas de signos expresan cambios repetidos y operaciones inversas",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.producto_cociente_enteros",
+        "learningOutcome": "Multiplica y divide enteros justificando el signo del resultado.",
+        "successEvidence": "Predice el signo, calcula y verifica un producto o cociente mediante la operación inversa.",
+        "prerequisites": [
+          "Multiplica y divide naturales",
+          "Interpreta números opuestos"
+        ],
+        "misconceptions": [
+          "Aplicar reglas de signos sin separar signo y valor absoluto",
+          "Creer que negativo por negativo es negativo",
+          "Dividir por cero"
+        ],
+        "screens": [
+          {
+            "id": "M1.05-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Predice el signo antes de calcular",
+            "body": "Primero decide si el resultado será positivo o negativo; después opera los valores absolutos. Separar estas dos decisiones reduce errores y permite explicar la regla.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.05-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.producto_cociente_enteros",
+            "difficulty": 1,
+            "prompt": "Sin calcular aún, ¿qué signo tendrá (-5) × (+7)?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Compara solo los signos primero.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Positivo",
+                "feedback": "Revisa la idea clave. Los factores tienen signos diferentes, así que el producto es negativo."
+              },
+              {
+                "id": "b",
+                "text": "Negativo",
+                "feedback": "Correcto. Los factores tienen signos diferentes, así que el producto es negativo."
+              },
+              {
+                "id": "c",
+                "text": "Cero",
+                "feedback": "Revisa la idea clave. Los factores tienen signos diferentes, así que el producto es negativo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.05-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Producto como cambio repetido",
+            "body": "Tres cambios de -4 producen -12: 3 × (-4) = -12. Un número positivo de repeticiones conserva la dirección del cambio repetido.",
+            "examples": [
+              "4 × (-2) = -8",
+              "5 × (+3) = +15"
+            ],
+            "memoryAid": "Repeticiones positivas de un cambio conservan su dirección."
+          },
+          {
+            "id": "M1.05-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Signos iguales y diferentes",
+            "body": "En multiplicación y división, signos iguales producen resultado positivo; signos diferentes producen resultado negativo. Luego se operan las distancias o valores absolutos.",
+            "examples": [
+              "(-3) × (-4) = +12",
+              "(+12) ÷ (-3) = -4"
+            ],
+            "memoryAid": "Iguales: positivo. Diferentes: negativo."
+          },
+          {
+            "id": "M1.05-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.producto_cociente_enteros",
+            "difficulty": 1,
+            "prompt": "Relaciona la combinación de signos con el signo del resultado.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "La misma regla funciona para producto y cociente.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "positivo × positivo",
+                "rightId": "r1",
+                "right": "positivo"
+              },
+              {
+                "leftId": "l2",
+                "left": "negativo × negativo",
+                "rightId": "r2",
+                "right": "positivo"
+              },
+              {
+                "leftId": "l3",
+                "left": "positivo × negativo",
+                "rightId": "r3",
+                "right": "negativo"
+              },
+              {
+                "leftId": "l4",
+                "left": "negativo ÷ positivo",
+                "rightId": "r4",
+                "right": "negativo"
+              }
+            ],
+            "feedbackCorrect": "Correcto: separaste la regla de signos del cálculo.",
+            "feedbackIncorrect": "Signos iguales dan positivo; diferentes, negativo."
+          },
+          {
+            "id": "M1.05-S06",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.producto_cociente_enteros",
+            "difficulty": 1,
+            "prompt": "Calcula (-6) × 4.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Diferentes → negativo.",
+            "answer": {
+              "kind": "number",
+              "value": -24
+            },
+            "feedbackCorrect": "Los signos son distintos y 6 × 4 = 24; resultado -24.",
+            "feedbackIncorrect": "Predice el signo y luego multiplica 6 por 4."
+          },
+          {
+            "id": "M1.05-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "La división verifica el producto",
+            "body": "Si (-6) × 4 = -24, entonces (-24) ÷ 4 = -6 y (-24) ÷ (-6) = 4. La operación inversa permite comprobar número y signo.",
+            "examples": [
+              "producto ÷ factor = otro factor"
+            ],
+            "memoryAid": "Verifica con la operación inversa y nunca dividas entre cero."
+          },
+          {
+            "id": "M1.05-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.producto_cociente_enteros",
+            "difficulty": 1,
+            "prompt": "Una cuenta pierde S/3 cada día durante 5 días. ¿Qué cambio total representa?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Multiplica cantidad de días por cambio diario.",
+            "options": [
+              {
+                "id": "a",
+                "text": "+S/15",
+                "feedback": "Revisa la idea clave. Cinco repeticiones de -3 producen 5 × (-3) = -15."
+              },
+              {
+                "id": "b",
+                "text": "-S/8",
+                "feedback": "Revisa la idea clave. Cinco repeticiones de -3 producen 5 × (-3) = -15."
+              },
+              {
+                "id": "c",
+                "text": "-S/15",
+                "feedback": "Correcto. Cinco repeticiones de -3 producen 5 × (-3) = -15."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.05-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.producto_cociente_enteros",
+            "difficulty": 2,
+            "prompt": "María escribió (-4) × (-3) = -12. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Separa la regla del signo y el cálculo 4 × 3.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Debe sumar -4 y -3 para obtener -7.",
+                "feedback": "Revisa la idea clave. Dos signos negativos en un producto producen un resultado positivo."
+              },
+              {
+                "id": "b",
+                "text": "Los signos iguales producen positivo: el resultado es +12.",
+                "feedback": "Correcto. Dos signos negativos en un producto producen un resultado positivo."
+              },
+              {
+                "id": "c",
+                "text": "Todo producto con un negativo vale cero.",
+                "feedback": "Revisa la idea clave. Dos signos negativos en un producto producen un resultado positivo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.05-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.producto_cociente_enteros",
+            "difficulty": 1,
+            "prompt": "Calcula (-36) ÷ (+6).",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Primero decide el signo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "+6",
+                "feedback": "Revisa la idea clave. Los signos son diferentes y 36 ÷ 6 = 6; resultado -6."
+              },
+              {
+                "id": "b",
+                "text": "-30",
+                "feedback": "Revisa la idea clave. Los signos son diferentes y 36 ÷ 6 = 6; resultado -6."
+              },
+              {
+                "id": "c",
+                "text": "-6",
+                "feedback": "Correcto. Los signos son diferentes y 36 ÷ 6 = 6; resultado -6."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.05-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.producto_cociente_enteros",
+            "difficulty": 1,
+            "prompt": "¿Cómo compruebas que (-24) ÷ (-6) = 4?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Cociente por divisor debe dar el dividendo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Sumando 4 + (-6).",
+                "feedback": "Revisa la idea clave. La multiplicación inversa recupera el dividendo y confirma el signo."
+              },
+              {
+                "id": "b",
+                "text": "Verificando que 4 × (-6) = -24.",
+                "feedback": "Correcto. La multiplicación inversa recupera el dividendo y confirma el signo."
+              },
+              {
+                "id": "c",
+                "text": "Dividiendo otra vez entre cero.",
+                "feedback": "Revisa la idea clave. La multiplicación inversa recupera el dividendo y confirma el signo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.05-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya predices y verificas signos",
+            "body": "Separaste signo y magnitud, calculaste productos y cocientes y comprobaste con la operación inversa. Así la regla deja de ser una frase aislada.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M1.06",
+        "globalId": "pe-sec1-mat-M1-06",
+        "sequence": 6,
+        "title": "Operaciones combinadas",
+        "subtitle": "La jerarquía permite que todos interpretemos la expresión igual",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.operaciones_combinadas",
+        "learningOutcome": "Resuelve operaciones combinadas con enteros respetando paréntesis y jerarquía.",
+        "successEvidence": "Resuelve una expresión por etapas y detecta el primer paso incorrecto en una solución ajena.",
+        "prerequisites": [
+          "Opera enteros con las cuatro operaciones"
+        ],
+        "misconceptions": [
+          "Resolver siempre de izquierda a derecha sin jerarquía",
+          "Ignorar paréntesis",
+          "Hacer varios cambios mentales en una sola línea"
+        ],
+        "screens": [
+          {
+            "id": "M1.06-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Una expresión necesita reglas de lectura",
+            "body": "La jerarquía no busca complicar la cuenta. Garantiza que distintas personas obtengan el mismo significado: primero agrupaciones, luego multiplicaciones o divisiones y, al final, sumas o restas.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.06-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.operaciones_combinadas",
+            "difficulty": 1,
+            "prompt": "En 5 + 3 × (-2), ¿qué operación se realiza primero?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Busca multiplicaciones o divisiones antes de sumar.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5 + 3",
+                "feedback": "Revisa la idea clave. La multiplicación tiene prioridad sobre la suma."
+              },
+              {
+                "id": "b",
+                "text": "3 × (-2)",
+                "feedback": "Correcto. La multiplicación tiene prioridad sobre la suma."
+              },
+              {
+                "id": "c",
+                "text": "5 + (-2)",
+                "feedback": "Revisa la idea clave. La multiplicación tiene prioridad sobre la suma."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.06-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Tres niveles de prioridad",
+            "body": "Resuelve primero paréntesis; después multiplicación y división de izquierda a derecha; finalmente suma y resta también de izquierda a derecha.",
+            "examples": [
+              "1. ( )",
+              "2. × y ÷",
+              "3. + y -"
+            ],
+            "memoryAid": "Agrupación → productos/cocientes → sumas/restas."
+          },
+          {
+            "id": "M1.06-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Una transformación por línea",
+            "body": "Copia la expresión completa y cambia solo la parte resuelta. Esto hace visible el razonamiento y permite encontrar el primer error.",
+            "examples": [
+              "3 + 2 × (-4)",
+              "3 + (-8)",
+              "-5"
+            ],
+            "memoryAid": "Cada línea debe ser equivalente a la anterior."
+          },
+          {
+            "id": "M1.06-S05",
+            "type": "ordering",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.operaciones_combinadas",
+            "difficulty": 1,
+            "prompt": "Ordena las etapas para resolver 8 - 2 × (3 - 5).",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Cada etapa resuelve un nivel de prioridad.",
+            "items": [
+              {
+                "id": "i1",
+                "text": "Resolver (3 - 5) = -2"
+              },
+              {
+                "id": "i2",
+                "text": "Calcular 2 × (-2) = -4"
+              },
+              {
+                "id": "i3",
+                "text": "Resolver 8 - (-4) = 12"
+              }
+            ],
+            "correctOrder": [
+              "i1",
+              "i2",
+              "i3"
+            ],
+            "feedbackCorrect": "Correcto: respetaste agrupación, multiplicación y resta.",
+            "feedbackIncorrect": "Empieza por el paréntesis y deja la resta exterior para el final."
+          },
+          {
+            "id": "M1.06-S06",
+            "type": "number_input",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.operaciones_combinadas",
+            "difficulty": 1,
+            "prompt": "Calcula 4 + 2 × (-3).",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Multiplicación antes que suma.",
+            "answer": {
+              "kind": "number",
+              "value": -2
+            },
+            "feedbackCorrect": "Primero 2 × (-3) = -6; luego 4 + (-6) = -2.",
+            "feedbackIncorrect": "No sumes 4 + 2 antes de multiplicar."
+          },
+          {
+            "id": "M1.06-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Estima signo y tamaño",
+            "body": "Antes de terminar, predice si el resultado debería quedar cerca de cero, muy positivo o muy negativo. La estimación no sustituye la jerarquía, pero alerta sobre un error.",
+            "examples": [
+              "2 × (-6) domina a +3, así que 3 + 2 × (-6) será negativo"
+            ],
+            "memoryAid": "Predice; resuelve; compara."
+          },
+          {
+            "id": "M1.06-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.operaciones_combinadas",
+            "difficulty": 1,
+            "prompt": "¿Cuál es el valor de (-2) × [5 + (-1)]?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Resuelve la agrupación antes del producto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "-11",
+                "feedback": "Revisa la idea clave. Primero 5 + (-1) = 4; luego (-2) × 4 = -8."
+              },
+              {
+                "id": "b",
+                "text": "+8",
+                "feedback": "Revisa la idea clave. Primero 5 + (-1) = 4; luego (-2) × 4 = -8."
+              },
+              {
+                "id": "c",
+                "text": "-8",
+                "feedback": "Correcto. Primero 5 + (-1) = 4; luego (-2) × 4 = -8."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.06-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.operaciones_combinadas",
+            "difficulty": 2,
+            "prompt": "Pedro resolvió 6 - 2 × 4 así: 6 - 2 = 4; 4 × 4 = 16. ¿Dónde aparece el primer error?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Identifica la primera regla de prioridad que incumplió.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Usó números naturales.",
+                "feedback": "Revisa la idea clave. La expresión exige calcular 2 × 4 antes de la resta."
+              },
+              {
+                "id": "b",
+                "text": "Restó antes de realizar la multiplicación.",
+                "feedback": "Correcto. La expresión exige calcular 2 × 4 antes de la resta."
+              },
+              {
+                "id": "c",
+                "text": "El error está únicamente en escribir 16 positivo.",
+                "feedback": "Revisa la idea clave. La expresión exige calcular 2 × 4 antes de la resta."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.06-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.operaciones_combinadas",
+            "difficulty": 1,
+            "prompt": "Una puntuación se calcula con 10 + 3 × (-4). ¿Cuál es el resultado?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Resuelve el cambio repetido antes de combinarlo con 10.",
+            "options": [
+              {
+                "id": "a",
+                "text": "-52",
+                "feedback": "Revisa la idea clave. Primero 3 × (-4) = -12; luego 10 + (-12) = -2."
+              },
+              {
+                "id": "b",
+                "text": "+2",
+                "feedback": "Revisa la idea clave. Primero 3 × (-4) = -12; luego 10 + (-12) = -2."
+              },
+              {
+                "id": "c",
+                "text": "-2",
+                "feedback": "Correcto. Primero 3 × (-4) = -12; luego 10 + (-12) = -2."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.06-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.operaciones_combinadas",
+            "difficulty": 1,
+            "prompt": "¿Qué línea es equivalente a 7 - [(-2) + 5]?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Resuelve solo el corchete.",
+            "options": [
+              {
+                "id": "a",
+                "text": "7 + 7",
+                "feedback": "Revisa la idea clave. Dentro de la agrupación, -2 + 5 = 3."
+              },
+              {
+                "id": "b",
+                "text": "7 - 3",
+                "feedback": "Correcto. Dentro de la agrupación, -2 + 5 = 3."
+              },
+              {
+                "id": "c",
+                "text": "7 - (-7)",
+                "feedback": "Revisa la idea clave. Dentro de la agrupación, -2 + 5 = 3."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.06-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya haces visible la jerarquía",
+            "body": "Resolviste por etapas y detectaste el primer error de una solución. Escribir una transformación por línea te dará precisión cuando las expresiones crezcan.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M1.07",
+        "globalId": "pe-sec1-mat-M1-07",
+        "sequence": 7,
+        "title": "Múltiplos y divisores",
+        "subtitle": "Agrupar sin sobrantes revela relaciones entre números",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.multiplos_divisores",
+        "learningOutcome": "Reconoce múltiplos, divisores y criterios básicos de divisibilidad en situaciones de agrupación.",
+        "successEvidence": "Diseña agrupaciones exactas, justifica divisibilidad y descompone un número pequeño en factores.",
+        "prerequisites": [
+          "Multiplica y divide naturales"
+        ],
+        "misconceptions": [
+          "Confundir múltiplo con divisor",
+          "Creer que un número tiene infinitos divisores",
+          "Aplicar criterios de divisibilidad como trucos sin verificar una división exacta"
+        ],
+        "screens": [
+          {
+            "id": "M1.07-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Dividir exactamente significa no dejar sobrantes",
+            "body": "Si 24 estudiantes forman grupos de 6, aparecen cuatro grupos completos. Por eso 6 es divisor de 24 y 24 es múltiplo de 6. Son dos maneras de describir la misma relación.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.07-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.multiplos_divisores",
+            "difficulty": 1,
+            "prompt": "¿Cuál número es divisor de 24?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Busca un número que forme grupos exactos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5",
+                "feedback": "Revisa la idea clave. 24 ÷ 6 = 4 y no queda residuo."
+              },
+              {
+                "id": "b",
+                "text": "6",
+                "feedback": "Correcto. 24 ÷ 6 = 4 y no queda residuo."
+              },
+              {
+                "id": "c",
+                "text": "7",
+                "feedback": "Revisa la idea clave. 24 ÷ 6 = 4 y no queda residuo."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.07-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Dos nombres para una relación",
+            "body": "a es divisor de b cuando b ÷ a es exacta. En la misma situación, b es múltiplo de a porque puede escribirse como a multiplicado por un entero.",
+            "examples": [
+              "24 ÷ 6 = 4",
+              "24 = 6 × 4",
+              "6 divide a 24"
+            ],
+            "memoryAid": "Divisor cabe exactamente; múltiplo resulta de repetir."
+          },
+          {
+            "id": "M1.07-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Criterios que ahorran tiempo",
+            "body": "Un número es divisible por 2 si termina en cifra par; por 5 si termina en 0 o 5; por 10 si termina en 0; por 3 si la suma de sus cifras es múltiplo de 3.",
+            "examples": [
+              "126: 1 + 2 + 6 = 9, divisible por 3",
+              "245 termina en 5, divisible por 5"
+            ],
+            "memoryAid": "El criterio predice una división exacta; puedes comprobarla dividiendo."
+          },
+          {
+            "id": "M1.07-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.multiplos_divisores",
+            "difficulty": 1,
+            "prompt": "Relaciona cada número con una afirmación verdadera.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Por ejemplo, 18 = 6 × 3.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "18",
+                "rightId": "r1",
+                "right": "Múltiplo de 6"
+              },
+              {
+                "leftId": "l2",
+                "left": "5",
+                "rightId": "r2",
+                "right": "Divisor de 20"
+              },
+              {
+                "leftId": "l3",
+                "left": "30",
+                "rightId": "r3",
+                "right": "Múltiplo de 10"
+              },
+              {
+                "leftId": "l4",
+                "left": "7",
+                "rightId": "r4",
+                "right": "Divisor de 49"
+              }
+            ],
+            "feedbackCorrect": "Correcto: comprobaste productos o divisiones exactas.",
+            "feedbackIncorrect": "Convierte cada relación en una multiplicación."
+          },
+          {
+            "id": "M1.07-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.multiplos_divisores",
+            "difficulty": 1,
+            "prompt": "¿Por cuál número es divisible 135 con seguridad?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Observa la última cifra.",
+            "options": [
+              {
+                "id": "a",
+                "text": "2",
+                "feedback": "Revisa la idea clave. 135 termina en 5, por eso es divisible por 5; no termina en cifra par ni en cero."
+              },
+              {
+                "id": "b",
+                "text": "10",
+                "feedback": "Revisa la idea clave. 135 termina en 5, por eso es divisible por 5; no termina en cifra par ni en cero."
+              },
+              {
+                "id": "c",
+                "text": "5",
+                "feedback": "Correcto. 135 termina en 5, por eso es divisible por 5; no termina en cifra par ni en cero."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.07-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Factorizar muestra la construcción",
+            "body": "Descomponer en factores primos consiste en escribir un número como producto de números primos. Por ejemplo, 12 = 2 × 2 × 3.",
+            "examples": [
+              "18 = 2 × 3 × 3",
+              "20 = 2 × 2 × 5"
+            ],
+            "memoryAid": "Divide entre primos pequeños hasta llegar a 1."
+          },
+          {
+            "id": "M1.07-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.multiplos_divisores",
+            "difficulty": 1,
+            "prompt": "Hay 36 fichas. ¿Cuál agrupación usa todas sin sobrantes?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Multiplica cantidad de grupos por fichas en cada grupo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "5 grupos de 7",
+                "feedback": "Revisa la idea clave. 6 × 6 = 36 exactamente."
+              },
+              {
+                "id": "b",
+                "text": "6 grupos de 6",
+                "feedback": "Correcto. 6 × 6 = 36 exactamente."
+              },
+              {
+                "id": "c",
+                "text": "8 grupos de 5",
+                "feedback": "Revisa la idea clave. 6 × 6 = 36 exactamente."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.07-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.multiplos_divisores",
+            "difficulty": 2,
+            "prompt": "Carla dice: 'Como 4 es múltiplo de 20, 20 ÷ 4 no es exacto'. ¿Qué debe corregir?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Distingue el número pequeño que cabe del resultado de repetirlo.",
+            "options": [
+              {
+                "id": "a",
+                "text": "4 y 20 no tienen relación.",
+                "feedback": "Revisa la idea clave. 20 = 4 × 5; por eso 4 divide exactamente a 20."
+              },
+              {
+                "id": "b",
+                "text": "Todo número es divisor solo de sí mismo.",
+                "feedback": "Revisa la idea clave. 20 = 4 × 5; por eso 4 divide exactamente a 20."
+              },
+              {
+                "id": "c",
+                "text": "4 es divisor de 20 y 20 es múltiplo de 4.",
+                "feedback": "Correcto. 20 = 4 × 5; por eso 4 divide exactamente a 20."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.07-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.multiplos_divisores",
+            "difficulty": 1,
+            "prompt": "¿Cuál es la descomposición prima de 18?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "La respuesta final debe usar solo factores primos.",
+            "options": [
+              {
+                "id": "a",
+                "text": "6 × 3",
+                "feedback": "Revisa la idea clave. 2, 3 y 3 son primos y su producto es 18."
+              },
+              {
+                "id": "b",
+                "text": "2 × 3 × 3",
+                "feedback": "Correcto. 2, 3 y 3 son primos y su producto es 18."
+              },
+              {
+                "id": "c",
+                "text": "1 × 18",
+                "feedback": "Revisa la idea clave. 2, 3 y 3 son primos y su producto es 18."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.07-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.multiplos_divisores",
+            "difficulty": 1,
+            "prompt": "¿Qué afirmación es verdadera?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una relación que pueda escribirse como producto.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Todo múltiplo de 3 es par.",
+                "feedback": "Revisa la idea clave. Si n = 10k, entonces n = 5(2k); por eso también es múltiplo de 5."
+              },
+              {
+                "id": "b",
+                "text": "Un número tiene infinitos divisores positivos.",
+                "feedback": "Revisa la idea clave. Si n = 10k, entonces n = 5(2k); por eso también es múltiplo de 5."
+              },
+              {
+                "id": "c",
+                "text": "Todo múltiplo de 10 también es múltiplo de 5.",
+                "feedback": "Correcto. Si n = 10k, entonces n = 5(2k); por eso también es múltiplo de 5."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.07-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya ves cómo se construyen los números",
+            "body": "Relacionaste múltiplos y divisores, usaste criterios con sentido y formaste agrupaciones exactas. Estas ideas servirán para fracciones, repartos y patrones.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      },
+      {
+        "id": "M1.08",
+        "globalId": "pe-sec1-mat-M1-08",
+        "sequence": 8,
+        "title": "Argumentar propiedades",
+        "subtitle": "Una afirmación general necesita una razón o un contraejemplo",
+        "status": "ready",
+        "estimatedMinutes": 10,
+        "difficulty": 1,
+        "primarySkillId": "mat.cantidad.argumentacion_enteros",
+        "learningOutcome": "Justifica propiedades sencillas de enteros y divisibilidad e identifica contraejemplos.",
+        "successEvidence": "Clasifica afirmaciones como siempre, a veces o nunca verdaderas y sustenta cada decisión.",
+        "prerequisites": [
+          "Opera enteros",
+          "Reconoce múltiplos y divisores"
+        ],
+        "misconceptions": [
+          "Creer que varios ejemplos prueban una afirmación universal",
+          "Usar un caso que no cumple las condiciones",
+          "Confundir explicar un procedimiento con justificar una propiedad"
+        ],
+        "screens": [
+          {
+            "id": "M1.08-S01",
+            "type": "intro",
+            "role": "goal",
+            "title": "Probar no es acumular ejemplos",
+            "body": "Un ejemplo muestra que algo puede ocurrir. Una razón general explica por qué ocurre en todos los casos. Y un solo contraejemplo basta para demostrar que una afirmación con 'siempre' es falsa.",
+            "cta": "Comenzar"
+          },
+          {
+            "id": "M1.08-S02",
+            "type": "single_choice",
+            "role": "diagnostic",
+            "skillId": "mat.cantidad.argumentacion_enteros",
+            "difficulty": 1,
+            "prompt": "¿Qué evidencia refuta 'todo múltiplo de 3 es impar'?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.05,
+            "xp": 2,
+            "hint": "Revisa las dos partes de la afirmación.",
+            "options": [
+              {
+                "id": "a",
+                "text": "9, porque es múltiplo de 3 e impar.",
+                "feedback": "Revisa la idea clave. El contraejemplo debe cumplir ser múltiplo de 3 y contradecir ser impar."
+              },
+              {
+                "id": "b",
+                "text": "6, porque es múltiplo de 3 y es par.",
+                "feedback": "Correcto. El contraejemplo debe cumplir ser múltiplo de 3 y contradecir ser impar."
+              },
+              {
+                "id": "c",
+                "text": "4, porque es par pero no múltiplo de 3.",
+                "feedback": "Revisa la idea clave. El contraejemplo debe cumplir ser múltiplo de 3 y contradecir ser impar."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.08-S03",
+            "type": "content_card",
+            "role": "foundation",
+            "title": "Lee la fuerza de la afirmación",
+            "body": "Palabras como siempre, todo o nunca exigen revisar todos los casos posibles mediante una razón general. A veces basta con encontrar condiciones; existe requiere al menos un ejemplo válido.",
+            "examples": [
+              "Todo múltiplo de 4 es par",
+              "Existe un entero negativo cuyo cuadrado es 9"
+            ],
+            "memoryAid": "La palabra cuantificadora decide qué evidencia necesitas."
+          },
+          {
+            "id": "M1.08-S04",
+            "type": "content_card",
+            "role": "model",
+            "title": "Contraejemplo: pequeño pero decisivo",
+            "body": "Para refutar 'todo número impar es primo', basta mostrar 9: es impar, pero 9 = 3 × 3. El caso cumple la condición y contradice la conclusión.",
+            "examples": [
+              "Afirmación: todo impar es primo",
+              "Contraejemplo: 9"
+            ],
+            "memoryAid": "Comprueba condición y contradicción."
+          },
+          {
+            "id": "M1.08-S05",
+            "type": "matching",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.argumentacion_enteros",
+            "difficulty": 1,
+            "prompt": "Relaciona cada tipo de afirmación con la evidencia adecuada.",
+            "maxAttempts": 2,
+            "masteryWeight": 0.1,
+            "xp": 4,
+            "hint": "Observa las palabras todo y existe.",
+            "pairs": [
+              {
+                "leftId": "l1",
+                "left": "Todo múltiplo de 4 es par",
+                "rightId": "r1",
+                "right": "Razón general"
+              },
+              {
+                "leftId": "l2",
+                "left": "Existe un entero menor que -10",
+                "rightId": "r2",
+                "right": "Un ejemplo válido"
+              },
+              {
+                "leftId": "l3",
+                "left": "Todo primo es impar",
+                "rightId": "r3",
+                "right": "Un contraejemplo: 2"
+              }
+            ],
+            "feedbackCorrect": "Bien: elegiste evidencia según la fuerza de la afirmación.",
+            "feedbackIncorrect": "'Todo' requiere razón o contraejemplo; 'existe' puede mostrarse con un caso."
+          },
+          {
+            "id": "M1.08-S06",
+            "type": "single_choice",
+            "role": "guided_practice",
+            "skillId": "mat.cantidad.argumentacion_enteros",
+            "difficulty": 1,
+            "prompt": "¿Por qué todo múltiplo de 10 es par?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Busca una razón que incluya todos los valores de k.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Porque probé 10, 20 y 30.",
+                "feedback": "Revisa la idea clave. La expresión 2 × (5k) muestra que cualquier múltiplo de 10 tiene factor 2."
+              },
+              {
+                "id": "b",
+                "text": "Porque los números pares siempre terminan en 10.",
+                "feedback": "Revisa la idea clave. La expresión 2 × (5k) muestra que cualquier múltiplo de 10 tiene factor 2."
+              },
+              {
+                "id": "c",
+                "text": "Porque 10k = 2 × (5k) para cualquier entero k.",
+                "feedback": "Correcto. La expresión 2 × (5k) muestra que cualquier múltiplo de 10 tiene factor 2."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.08-S07",
+            "type": "content_card",
+            "role": "misconception",
+            "title": "Una razón usa la estructura",
+            "body": "Si un número es múltiplo de 6, puede escribirse 6k. Como 6k = 2(3k), también es múltiplo de 2. La forma del número explica todos los casos.",
+            "examples": [
+              "6k = 2 × 3k",
+              "6k = 3 × 2k"
+            ],
+            "memoryAid": "Representa la condición y transforma sin perderla."
+          },
+          {
+            "id": "M1.08-S08",
+            "type": "single_choice",
+            "role": "independent_practice",
+            "skillId": "mat.cantidad.argumentacion_enteros",
+            "difficulty": 1,
+            "prompt": "¿Cuál afirmación es siempre verdadera?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Prueba con la estructura de los números pares.",
+            "options": [
+              {
+                "id": "a",
+                "text": "La suma de dos enteros negativos es positiva.",
+                "feedback": "Revisa la idea clave. Si los pares son 2a y 2b, su suma es 2(a+b), que sigue siendo par."
+              },
+              {
+                "id": "b",
+                "text": "La suma de dos enteros pares es par.",
+                "feedback": "Correcto. Si los pares son 2a y 2b, su suma es 2(a+b), que sigue siendo par."
+              },
+              {
+                "id": "c",
+                "text": "Todo divisor de un número es mayor que él.",
+                "feedback": "Revisa la idea clave. Si los pares son 2a y 2b, su suma es 2(a+b), que sigue siendo par."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.08-S09",
+            "type": "single_choice",
+            "role": "error_analysis",
+            "skillId": "mat.cantidad.argumentacion_enteros",
+            "difficulty": 2,
+            "prompt": "Sofía prueba 3² = 9 y 5² = 25 y concluye: 'el cuadrado de cualquier entero es impar'. ¿Qué falta?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.2,
+            "xp": 4,
+            "hint": "Busca un número que cumpla ser entero y contradiga la conclusión.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Calcular más impares únicamente.",
+                "feedback": "Revisa la idea clave. Sus ejemplos solo cubren enteros impares y no justifican 'cualquier entero'."
+              },
+              {
+                "id": "b",
+                "text": "Cambiar cuadrado por suma.",
+                "feedback": "Revisa la idea clave. Sus ejemplos solo cubren enteros impares y no justifican 'cualquier entero'."
+              },
+              {
+                "id": "c",
+                "text": "Considerar enteros pares; 2² = 4 es un contraejemplo.",
+                "feedback": "Correcto. Sus ejemplos solo cubren enteros impares y no justifican 'cualquier entero'."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.08-S10",
+            "type": "single_choice",
+            "role": "transfer",
+            "skillId": "mat.cantidad.argumentacion_enteros",
+            "difficulty": 1,
+            "prompt": "¿Cuál justificación demuestra que la suma de dos múltiplos de 3 vuelve a ser múltiplo de 3?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Escribe ambos múltiplos con un factor común.",
+            "options": [
+              {
+                "id": "a",
+                "text": "3 + 6 = 9 en un caso.",
+                "feedback": "Revisa la idea clave. Factorizar 3 muestra que la suma conserva un factor 3 para cualquier a y b enteros."
+              },
+              {
+                "id": "b",
+                "text": "3a + 3b = 3(a + b).",
+                "feedback": "Correcto. Factorizar 3 muestra que la suma conserva un factor 3 para cualquier a y b enteros."
+              },
+              {
+                "id": "c",
+                "text": "Los múltiplos siempre crecen.",
+                "feedback": "Revisa la idea clave. Factorizar 3 muestra que la suma conserva un factor 3 para cualquier a y b enteros."
+              }
+            ],
+            "correctOptionId": "b"
+          },
+          {
+            "id": "M1.08-S11",
+            "type": "single_choice",
+            "role": "exit_ticket",
+            "skillId": "mat.cantidad.argumentacion_enteros",
+            "difficulty": 1,
+            "prompt": "¿Qué hace válido a un contraejemplo?",
+            "maxAttempts": 2,
+            "masteryWeight": 0.15,
+            "xp": 4,
+            "hint": "Verifica condición y conclusión por separado.",
+            "options": [
+              {
+                "id": "a",
+                "text": "Es un número grande.",
+                "feedback": "Revisa la idea clave. Ambas partes son necesarias para refutar una afirmación universal."
+              },
+              {
+                "id": "b",
+                "text": "Se parece a un ejemplo anterior.",
+                "feedback": "Revisa la idea clave. Ambas partes son necesarias para refutar una afirmación universal."
+              },
+              {
+                "id": "c",
+                "text": "Cumple la condición de la afirmación y contradice su conclusión.",
+                "feedback": "Correcto. Ambas partes son necesarias para refutar una afirmación universal."
+              }
+            ],
+            "correctOptionId": "c"
+          },
+          {
+            "id": "M1.08-S12",
+            "type": "lesson_complete",
+            "role": "completion",
+            "title": "Ya justificas y refutas",
+            "body": "Elegiste evidencia según la afirmación, construiste razones generales y usaste contraejemplos válidos. Resolver ahora incluye explicar por qué.",
+            "xpAwarded": 20,
+            "nextAction": "Continuar la ruta"
+          }
+        ]
+      }
+    ]
+  }
+}
